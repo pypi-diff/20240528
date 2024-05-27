@@ -999,3 +999,30 @@
 [2024-05-28 01:12:22] INFO root fetch - processPackages [chaiverse]: Remove: archive file [/home/abi/fetcher/tmp/chaiverse-1.9.9.tar.gz]
 [2024-05-28 01:12:22] INFO root fetch - main [MainThread]: End processing [chaiverse]: success
 [2024-05-28 01:12:22] INFO root fetch - main [MainThread]: Store serial: [23403238]
+[2024-05-28 01:14:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23403238]
+[2024-05-28 01:14:30] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-28 01:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: promptic
+[2024-05-28 01:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: academia-tts
+[2024-05-28 01:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: synthetic-home
+[2024-05-28 01:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pr-pilot-cli
+[2024-05-28 01:14:30] INFO root fetch - processPackages [promptic]: New version: [0.5.0] Old Version: [0.4.5]
+[2024-05-28 01:14:30] INFO root fetch - processPackages [synthetic-home]: New version: [2.5.0] Old Version: [2.4.0]
+[2024-05-28 01:14:30] INFO root fetch - processPackages [promptic]: Downloading https://files.pythonhosted.org/packages/b7/fd/e66f58d7f297d5b052d425b767bc8efb7e0323ffc5512f127f57520a5e5a/promptic-0.4.5.tar.gz
+[2024-05-28 01:14:30] INFO root fetch - processPackages [synthetic-home]: Downloading https://files.pythonhosted.org/packages/9c/bd/054b022af503174ffcac3ed23ac4f15096ebaaece1806af2a618d00f3b12/synthetic_home-2.4.0.tar.gz
+[2024-05-28 01:14:30] WARNING root fetch - processPackages [academia-tts]: Skipping, unable to determine old version
+[2024-05-28 01:14:30] INFO root fetch - main [MainThread]: End processing [academia-tts] error
+[2024-05-28 01:14:30] WARNING root fetch - processPackages [pr-pilot-cli]: Skipping, unable to determine old version
+[2024-05-28 01:14:30] INFO root fetch - main [MainThread]: End processing [pr-pilot-cli] error
+[2024-05-28 01:14:30] INFO root fetch - processPackages [promptic]: Downloading https://files.pythonhosted.org/packages/27/38/2c2a989c7d2321643a18919902c46689a2ee3839e86e7c7f160ec7efbcb3/promptic-0.5.0.tar.gz
+[2024-05-28 01:14:30] INFO root fetch - processPackages [promptic]: executing diffoscope
+[2024-05-28 01:14:30] INFO root fetch - processPackages [promptic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptic-0.4.5.tar.gz tmp/promptic-0.5.0.tar.gz --markdown 20240528/p/promptic/0.4.5-0.5.0/README.md --exclude *.pyd
+[2024-05-28 01:14:30] INFO root fetch - processPackages [synthetic-home]: Downloading https://files.pythonhosted.org/packages/8b/26/2cfa099ba8de05d1b4186012a4277da3a59e0ddc367a86152e5af96b7545/synthetic_home-2.5.0.tar.gz
+[2024-05-28 01:14:30] INFO root fetch - processPackages [synthetic-home]: executing diffoscope
+[2024-05-28 01:14:30] INFO root fetch - processPackages [synthetic-home]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synthetic_home-2.4.0.tar.gz tmp/synthetic_home-2.5.0.tar.gz --markdown 20240528/s/synthetic-home/2.4.0-2.5.0/README.md --exclude *.pyd
+[2024-05-28 01:14:31] INFO root fetch - processPackages [promptic]: Remove: archive file [/home/abi/fetcher/tmp/promptic-0.4.5.tar.gz]
+[2024-05-28 01:14:31] INFO root fetch - processPackages [promptic]: Remove: archive file [/home/abi/fetcher/tmp/promptic-0.5.0.tar.gz]
+[2024-05-28 01:14:31] INFO root fetch - main [MainThread]: End processing [promptic]: success
+[2024-05-28 01:14:31] INFO root fetch - processPackages [synthetic-home]: Remove: archive file [/home/abi/fetcher/tmp/synthetic_home-2.4.0.tar.gz]
+[2024-05-28 01:14:31] INFO root fetch - processPackages [synthetic-home]: Remove: archive file [/home/abi/fetcher/tmp/synthetic_home-2.5.0.tar.gz]
+[2024-05-28 01:14:31] INFO root fetch - main [MainThread]: End processing [synthetic-home]: success
+[2024-05-28 01:14:31] INFO root fetch - main [MainThread]: Store serial: [23403254]
