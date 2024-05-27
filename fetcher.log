@@ -755,3 +755,18 @@
 [2024-05-28 00:52:44] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.99.tar.gz]
 [2024-05-28 00:52:44] INFO root fetch - main [MainThread]: End processing [ork.build]: success
 [2024-05-28 00:52:44] INFO root fetch - main [MainThread]: Store serial: [23403138]
+[2024-05-28 00:54:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23403138]
+[2024-05-28 00:54:52] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-28 00:54:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: XtraMLTools
+[2024-05-28 00:54:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sdr
+[2024-05-28 00:54:52] WARNING root fetch - processPackages [XtraMLTools]: Skipping, unable to determine old version
+[2024-05-28 00:54:52] INFO root fetch - main [MainThread]: End processing [XtraMLTools] error
+[2024-05-28 00:54:52] INFO root fetch - processPackages [sdr]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-28 00:54:52] INFO root fetch - processPackages [sdr]: Downloading https://files.pythonhosted.org/packages/10/4a/d167b42b779701ae66ba016e6132b2ccbc086361efd6f26f7508377d2bdd/sdr-0.0.8.tar.gz
+[2024-05-28 00:54:54] INFO root fetch - processPackages [sdr]: Downloading https://files.pythonhosted.org/packages/1b/8c/35f3f68f199be90bf550c14cf93cfd9dc95a586a2db1a7dd4832b67280c5/sdr-0.0.9.tar.gz
+[2024-05-28 00:54:56] INFO root fetch - processPackages [sdr]: executing diffoscope
+[2024-05-28 00:54:56] INFO root fetch - processPackages [sdr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdr-0.0.8.tar.gz tmp/sdr-0.0.9.tar.gz --markdown 20240528/s/sdr/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-28 00:54:57] INFO root fetch - processPackages [sdr]: Remove: archive file [/home/abi/fetcher/tmp/sdr-0.0.8.tar.gz]
+[2024-05-28 00:54:57] INFO root fetch - processPackages [sdr]: Remove: archive file [/home/abi/fetcher/tmp/sdr-0.0.9.tar.gz]
+[2024-05-28 00:54:57] INFO root fetch - main [MainThread]: End processing [sdr]: success
+[2024-05-28 00:54:57] INFO root fetch - main [MainThread]: Store serial: [23403150]
