@@ -479,3 +479,15 @@
 [2024-05-28 00:33:05] INFO root fetch - processPackages [pyutil-cfg]: Remove: archive file [/home/abi/fetcher/tmp/pyutil_cfg-0.0.7.tar.gz]
 [2024-05-28 00:33:05] INFO root fetch - main [MainThread]: End processing [pyutil-cfg]: success
 [2024-05-28 00:33:05] INFO root fetch - main [MainThread]: Store serial: [23403004]
+[2024-05-28 00:35:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23403004]
+[2024-05-28 00:35:14] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-28 00:35:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scatcluster
+[2024-05-28 00:35:14] INFO root fetch - processPackages [scatcluster]: New version: [0.0.78] Old Version: [0.0.77]
+[2024-05-28 00:35:14] INFO root fetch - processPackages [scatcluster]: Downloading https://files.pythonhosted.org/packages/a9/0f/45a04b0fa900886f9182df32f9760a0cdc1ee2be822266409eff8f77f525/scatcluster-0.0.77.tar.gz
+[2024-05-28 00:35:14] INFO root fetch - processPackages [scatcluster]: Downloading https://files.pythonhosted.org/packages/e4/1a/969007da234f4598a2fe6649948bc6016645004395187f70289b089a7d7e/scatcluster-0.0.78.tar.gz
+[2024-05-28 00:35:14] INFO root fetch - processPackages [scatcluster]: executing diffoscope
+[2024-05-28 00:35:14] INFO root fetch - processPackages [scatcluster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scatcluster-0.0.77.tar.gz tmp/scatcluster-0.0.78.tar.gz --markdown 20240528/s/scatcluster/0.0.77-0.0.78/README.md --exclude *.pyd
+[2024-05-28 00:35:15] INFO root fetch - processPackages [scatcluster]: Remove: archive file [/home/abi/fetcher/tmp/scatcluster-0.0.77.tar.gz]
+[2024-05-28 00:35:15] INFO root fetch - processPackages [scatcluster]: Remove: archive file [/home/abi/fetcher/tmp/scatcluster-0.0.78.tar.gz]
+[2024-05-28 00:35:15] INFO root fetch - main [MainThread]: End processing [scatcluster]: success
+[2024-05-28 00:35:15] INFO root fetch - main [MainThread]: Store serial: [23403007]
