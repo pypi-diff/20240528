@@ -84,3 +84,33 @@
 [2024-05-28 00:05:15] INFO root fetch - processPackages [soccerdata]: Remove: archive file [/home/abi/fetcher/tmp/soccerdata-1.7.1.tar.gz]
 [2024-05-28 00:05:15] INFO root fetch - main [MainThread]: End processing [soccerdata]: success
 [2024-05-28 00:05:15] INFO root fetch - main [MainThread]: Store serial: [23402818]
+[2024-05-28 00:07:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23402818]
+[2024-05-28 00:07:23] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-28 00:07:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: roguewave
+[2024-05-28 00:07:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deadline
+[2024-05-28 00:07:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-salesforce-agpl
+[2024-05-28 00:07:23] INFO root fetch - processPackages [django-salesforce-agpl]: New version: [5.0.2] Old Version: [5.0.1.1]
+[2024-05-28 00:07:23] INFO root fetch - processPackages [deadline]: New version: [0.48.3] Old Version: [0.48.2]
+[2024-05-28 00:07:23] INFO root fetch - processPackages [roguewave]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-28 00:07:24] INFO root fetch - processPackages [deadline]: Downloading https://files.pythonhosted.org/packages/db/da/f1eed1a5fc63e0f91f316063ba6eecdfaa6f6b3bedd46043ca5b9c46816f/deadline-0.48.2.tar.gz
+[2024-05-28 00:07:24] INFO root fetch - processPackages [django-salesforce-agpl]: Downloading https://files.pythonhosted.org/packages/77/fd/9ea61bc5aa98ce89cc3bac664cfe6a747a84388307be50bbb90b19ce3c44/django-salesforce-agpl-5.0.1.1.tar.gz
+[2024-05-28 00:07:24] INFO root fetch - processPackages [roguewave]: Downloading https://files.pythonhosted.org/packages/78/6a/176b0bb0901ea4782efa3a02cffa2564d80dedf95b4ab0ef114673ff33c2/roguewave-0.2.8.tar.gz
+[2024-05-28 00:07:24] INFO root fetch - processPackages [deadline]: Downloading https://files.pythonhosted.org/packages/c4/1c/e18b04845d84c36c6619ef4131309545644c2add580d5d10fe8faa2457da/deadline-0.48.3.tar.gz
+[2024-05-28 00:07:24] INFO root fetch - processPackages [django-salesforce-agpl]: Downloading https://files.pythonhosted.org/packages/5d/fa/02154d8ac5f2384155dae14e41211f169eb6878f7e610b3623f3922740b0/django-salesforce-agpl-5.0.2.tar.gz
+[2024-05-28 00:07:24] INFO root fetch - processPackages [deadline]: executing diffoscope
+[2024-05-28 00:07:24] INFO root fetch - processPackages [deadline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deadline-0.48.2.tar.gz tmp/deadline-0.48.3.tar.gz --markdown 20240528/d/deadline/0.48.2-0.48.3/README.md --exclude *.pyd
+[2024-05-28 00:07:24] INFO root fetch - processPackages [roguewave]: Downloading https://files.pythonhosted.org/packages/10/12/a4fc5463d893cee0b80a7528e4bfbbd704f33bec149787d2ca40d45c2590/roguewave-0.2.9.tar.gz
+[2024-05-28 00:07:24] INFO root fetch - processPackages [roguewave]: executing diffoscope
+[2024-05-28 00:07:24] INFO root fetch - processPackages [roguewave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roguewave-0.2.8.tar.gz tmp/roguewave-0.2.9.tar.gz --markdown 20240528/r/roguewave/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-28 00:07:25] INFO root fetch - processPackages [django-salesforce-agpl]: executing diffoscope
+[2024-05-28 00:07:25] INFO root fetch - processPackages [django-salesforce-agpl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-salesforce-agpl-5.0.1.1.tar.gz tmp/django-salesforce-agpl-5.0.2.tar.gz --markdown 20240528/d/django-salesforce-agpl/5.0.1.1-5.0.2/README.md --exclude *.pyd
+[2024-05-28 00:07:25] INFO root fetch - processPackages [deadline]: Remove: archive file [/home/abi/fetcher/tmp/deadline-0.48.2.tar.gz]
+[2024-05-28 00:07:25] INFO root fetch - processPackages [deadline]: Remove: archive file [/home/abi/fetcher/tmp/deadline-0.48.3.tar.gz]
+[2024-05-28 00:07:25] INFO root fetch - main [MainThread]: End processing [deadline]: success
+[2024-05-28 00:07:25] INFO root fetch - processPackages [roguewave]: Remove: archive file [/home/abi/fetcher/tmp/roguewave-0.2.8.tar.gz]
+[2024-05-28 00:07:25] INFO root fetch - processPackages [roguewave]: Remove: archive file [/home/abi/fetcher/tmp/roguewave-0.2.9.tar.gz]
+[2024-05-28 00:07:25] INFO root fetch - main [MainThread]: End processing [roguewave]: success
+[2024-05-28 00:07:26] INFO root fetch - processPackages [django-salesforce-agpl]: Remove: archive file [/home/abi/fetcher/tmp/django-salesforce-agpl-5.0.1.1.tar.gz]
+[2024-05-28 00:07:26] INFO root fetch - processPackages [django-salesforce-agpl]: Remove: archive file [/home/abi/fetcher/tmp/django-salesforce-agpl-5.0.2.tar.gz]
+[2024-05-28 00:07:26] INFO root fetch - main [MainThread]: End processing [django-salesforce-agpl]: success
+[2024-05-28 00:07:26] INFO root fetch - main [MainThread]: Store serial: [23402830]
