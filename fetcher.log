@@ -1506,3 +1506,48 @@
 [2024-05-28 01:48:13] INFO root fetch - processPackages [fireducks]: Remove: archive file [/home/abi/fetcher/tmp/fireducks-0.9.8-cp39-cp39-manylinux_2_28_x86_64.whl.zip]
 [2024-05-28 01:48:13] INFO root fetch - main [MainThread]: End processing [fireducks]: success
 [2024-05-28 01:48:13] INFO root fetch - main [MainThread]: Store serial: [23403413]
+[2024-05-28 01:50:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23403413]
+[2024-05-28 01:50:37] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-28 01:50:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sntn
+[2024-05-28 01:50:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: amolkit
+[2024-05-28 01:50:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rattail-locsms
+[2024-05-28 01:50:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: adit-client
+[2024-05-28 01:50:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: academia-tts
+[2024-05-28 01:50:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyjvc
+[2024-05-28 01:50:37] INFO root fetch - processPackages [amolkit]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-28 01:50:37] WARNING root fetch - processPackages [academia-tts]: Skipping, unable to determine old version
+[2024-05-28 01:50:37] INFO root fetch - main [MainThread]: End processing [academia-tts] error
+[2024-05-28 01:50:37] INFO root fetch - processPackages [amolkit]: Downloading https://files.pythonhosted.org/packages/d2/45/e8c38a18d6ae6a13c32314148991e36c0277fea8320bef669571d9a7336e/amolkit-1.0.6.tar.gz
+[2024-05-28 01:50:37] INFO root fetch - processPackages [sntn]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-28 01:50:37] INFO root fetch - processPackages [adit-client]: New version: [0.3.0] Old Version: [0.2.2]
+[2024-05-28 01:50:37] WARNING root fetch - processPackages [rattail-locsms]: Skipping, unable to determine old version
+[2024-05-28 01:50:37] INFO root fetch - main [MainThread]: End processing [rattail-locsms] error
+[2024-05-28 01:50:37] INFO root fetch - processPackages [pyjvc]: New version: [4.4.5] Old Version: [4.4.4]
+[2024-05-28 01:50:37] INFO root fetch - processPackages [sntn]: Downloading https://files.pythonhosted.org/packages/66/68/80fbb5619306b241a6c09556e678043e0464c0e49316a48ff9aeac7b80c1/sntn-0.0.8-py2.py3-none-any.whl
+[2024-05-28 01:50:37] INFO root fetch - processPackages [amolkit]: Downloading https://files.pythonhosted.org/packages/59/7d/c6ec8804e6a0e25f095fb437c9683cce165aead088817e09e714468a100a/amolkit-1.0.7.tar.gz
+[2024-05-28 01:50:37] INFO root fetch - processPackages [pyjvc]: Downloading https://files.pythonhosted.org/packages/ca/1b/5fb5081cf5ca652d40bd04576dd320d6db3f70bc4795086bf16fba495ee9/pyjvc-4.4.4.tar.gz
+[2024-05-28 01:50:37] INFO root fetch - processPackages [adit-client]: Downloading https://files.pythonhosted.org/packages/21/12/a1c6e88f8b1f5967f4722eb4e571ca16d5288e9c9cf7dd0ec9ee46dadc52/adit_client-0.2.2.tar.gz
+[2024-05-28 01:50:38] INFO root fetch - processPackages [amolkit]: executing diffoscope
+[2024-05-28 01:50:38] INFO root fetch - processPackages [amolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amolkit-1.0.6.tar.gz tmp/amolkit-1.0.7.tar.gz --markdown 20240528/a/amolkit/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-28 01:50:38] INFO root fetch - processPackages [sntn]: Downloading https://files.pythonhosted.org/packages/24/48/590c96bf2096b74384b37de353ffe5e970940b96eb217ea010318f613a5a/sntn-0.0.9-py2.py3-none-any.whl
+[2024-05-28 01:50:38] INFO root fetch - processPackages [adit-client]: Downloading https://files.pythonhosted.org/packages/5c/e2/356af3a2185196c9568b30b97c672819567a34d2ef0857c52227a848dbca/adit_client-0.3.0.tar.gz
+[2024-05-28 01:50:38] INFO root fetch - processPackages [pyjvc]: Downloading https://files.pythonhosted.org/packages/5f/8e/7d82621d04fc302420b6ba0f82cee677bd40245ca7fe9cb330294158ec26/pyjvc-4.4.5.tar.gz
+[2024-05-28 01:50:38] INFO root fetch - processPackages [sntn]: executing diffoscope
+[2024-05-28 01:50:38] INFO root fetch - processPackages [sntn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sntn-0.0.8-py2.py3-none-any.whl.zip tmp/sntn-0.0.9-py2.py3-none-any.whl.zip --markdown 20240528/s/sntn/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-28 01:50:38] INFO root fetch - processPackages [adit-client]: executing diffoscope
+[2024-05-28 01:50:38] INFO root fetch - processPackages [adit-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adit_client-0.2.2.tar.gz tmp/adit_client-0.3.0.tar.gz --markdown 20240528/a/adit-client/0.2.2-0.3.0/README.md --exclude *.pyd
+[2024-05-28 01:50:38] INFO root fetch - processPackages [pyjvc]: executing diffoscope
+[2024-05-28 01:50:38] INFO root fetch - processPackages [pyjvc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjvc-4.4.4.tar.gz tmp/pyjvc-4.4.5.tar.gz --markdown 20240528/p/pyjvc/4.4.4-4.4.5/README.md --exclude *.pyd
+[2024-05-28 01:50:38] INFO root fetch - processPackages [amolkit]: Remove: archive file [/home/abi/fetcher/tmp/amolkit-1.0.6.tar.gz]
+[2024-05-28 01:50:38] INFO root fetch - processPackages [amolkit]: Remove: archive file [/home/abi/fetcher/tmp/amolkit-1.0.7.tar.gz]
+[2024-05-28 01:50:38] INFO root fetch - main [MainThread]: End processing [amolkit]: success
+[2024-05-28 01:50:39] INFO root fetch - processPackages [sntn]: Remove: archive file [/home/abi/fetcher/tmp/sntn-0.0.8-py2.py3-none-any.whl.zip]
+[2024-05-28 01:50:39] INFO root fetch - processPackages [sntn]: Remove: archive file [/home/abi/fetcher/tmp/sntn-0.0.9-py2.py3-none-any.whl.zip]
+[2024-05-28 01:50:39] INFO root fetch - main [MainThread]: End processing [sntn]: success
+[2024-05-28 01:50:39] INFO root fetch - processPackages [pyjvc]: Remove: archive file [/home/abi/fetcher/tmp/pyjvc-4.4.4.tar.gz]
+[2024-05-28 01:50:39] INFO root fetch - processPackages [pyjvc]: Remove: archive file [/home/abi/fetcher/tmp/pyjvc-4.4.5.tar.gz]
+[2024-05-28 01:50:39] INFO root fetch - main [MainThread]: End processing [pyjvc]: success
+[2024-05-28 01:50:39] INFO root fetch - processPackages [adit-client]: Remove: archive file [/home/abi/fetcher/tmp/adit_client-0.2.2.tar.gz]
+[2024-05-28 01:50:39] INFO root fetch - processPackages [adit-client]: Remove: archive file [/home/abi/fetcher/tmp/adit_client-0.3.0.tar.gz]
+[2024-05-28 01:50:39] INFO root fetch - main [MainThread]: End processing [adit-client]: success
+[2024-05-28 01:50:39] INFO root fetch - main [MainThread]: Store serial: [23403433]
