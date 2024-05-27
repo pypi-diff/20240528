@@ -608,3 +608,27 @@
 [2024-05-28 00:41:49] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.99.tar.gz]
 [2024-05-28 00:41:49] INFO root fetch - main [MainThread]: End processing [ork.build]: success
 [2024-05-28 00:41:49] INFO root fetch - main [MainThread]: Store serial: [23403085]
+[2024-05-28 00:43:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23403085]
+[2024-05-28 00:43:57] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-28 00:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gnatwriter
+[2024-05-28 00:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: parsl
+[2024-05-28 00:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yt-dlp
+[2024-05-28 00:43:57] WARNING root fetch - processPackages [gnatwriter]: Skipping, unable to determine old version
+[2024-05-28 00:43:57] INFO root fetch - main [MainThread]: End processing [gnatwriter] error
+[2024-05-28 00:43:57] INFO root fetch - processPackages [yt-dlp]: New version: [2024.5.8.232715.dev0] Old Version: [2024.5.5.232701.dev0]
+[2024-05-28 00:43:57] INFO root fetch - processPackages [parsl]: New version: [2024.5.6] Old Version: [2024.5.27]
+[2024-05-28 00:43:57] INFO root fetch - processPackages [yt-dlp]: Downloading https://files.pythonhosted.org/packages/84/b9/776c1dd6af3d11b008b3d15993bd9675fea67e86f7b78a1dac88febb9fcf/yt_dlp-2024.5.5.232701.dev0.tar.gz
+[2024-05-28 00:43:57] INFO root fetch - processPackages [parsl]: Downloading https://files.pythonhosted.org/packages/59/42/ed14f85f5ff5fff30b39e53b1f9f24b387079acb09e41f10afba678752f6/parsl-2024.5.27.tar.gz
+[2024-05-28 00:43:58] INFO root fetch - processPackages [yt-dlp]: Downloading https://files.pythonhosted.org/packages/29/37/4d7e7b1d095d515aef0e3e9af758d0dc33fceebfe46ebce02a1a240d274c/yt_dlp-2024.5.8.232715.dev0.tar.gz
+[2024-05-28 00:43:58] INFO root fetch - processPackages [parsl]: Downloading https://files.pythonhosted.org/packages/68/b6/8addea65af603df76664cccc645d4fee64350bb4cc390d21aac22263facb/parsl-2024.5.6.tar.gz
+[2024-05-28 00:43:58] INFO root fetch - processPackages [yt-dlp]: executing diffoscope
+[2024-05-28 00:43:58] INFO root fetch - processPackages [yt-dlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yt_dlp-2024.5.5.232701.dev0.tar.gz tmp/yt_dlp-2024.5.8.232715.dev0.tar.gz --markdown 20240528/y/yt-dlp/2024.5.5.232701.dev0-2024.5.8.232715.dev0/README.md --exclude *.pyd
+[2024-05-28 00:43:58] INFO root fetch - processPackages [parsl]: executing diffoscope
+[2024-05-28 00:43:58] INFO root fetch - processPackages [parsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parsl-2024.5.27.tar.gz tmp/parsl-2024.5.6.tar.gz --markdown 20240528/p/parsl/2024.5.27-2024.5.6/README.md --exclude *.pyd
+[2024-05-28 00:44:00] INFO root fetch - processPackages [parsl]: Remove: archive file [/home/abi/fetcher/tmp/parsl-2024.5.27.tar.gz]
+[2024-05-28 00:44:00] INFO root fetch - processPackages [parsl]: Remove: archive file [/home/abi/fetcher/tmp/parsl-2024.5.6.tar.gz]
+[2024-05-28 00:44:00] INFO root fetch - main [MainThread]: End processing [parsl]: success
+[2024-05-28 00:44:03] INFO root fetch - processPackages [yt-dlp]: Remove: archive file [/home/abi/fetcher/tmp/yt_dlp-2024.5.5.232701.dev0.tar.gz]
+[2024-05-28 00:44:03] INFO root fetch - processPackages [yt-dlp]: Remove: archive file [/home/abi/fetcher/tmp/yt_dlp-2024.5.8.232715.dev0.tar.gz]
+[2024-05-28 00:44:03] INFO root fetch - main [MainThread]: End processing [yt-dlp]: success
+[2024-05-28 00:44:03] INFO root fetch - main [MainThread]: Store serial: [23403094]
