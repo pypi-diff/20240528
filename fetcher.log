@@ -1467,3 +1467,42 @@
 [2024-05-28 01:44:22] INFO root fetch - processPackages [memary]: Remove: archive file [/home/abi/fetcher/tmp/memary-0.1.3.tar.gz]
 [2024-05-28 01:44:22] INFO root fetch - main [MainThread]: End processing [memary]: success
 [2024-05-28 01:44:22] INFO root fetch - main [MainThread]: Store serial: [23403399]
+[2024-05-28 01:46:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23403399]
+[2024-05-28 01:46:30] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-28 01:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fireducks
+[2024-05-28 01:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: firefw
+[2024-05-28 01:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jaanca-utils-os
+[2024-05-28 01:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mlflow-by-ckl
+[2024-05-28 01:46:30] INFO root fetch - processPackages [jaanca-utils-os]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-28 01:46:30] INFO root fetch - processPackages [mlflow-by-ckl]: New version: [2.8.3] Old Version: [2.8.2]
+[2024-05-28 01:46:30] INFO root fetch - processPackages [jaanca-utils-os]: Downloading https://files.pythonhosted.org/packages/3b/08/7e6c40bb7a472e5f29d366d6f77e131a5c98f9e6316a12ab5a0b442611ce/jaanca_utils_os-0.1.0.tar.gz
+[2024-05-28 01:46:30] INFO root fetch - processPackages [firefw]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-05-28 01:46:30] INFO root fetch - processPackages [fireducks]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-05-28 01:46:30] INFO root fetch - processPackages [mlflow-by-ckl]: Downloading https://files.pythonhosted.org/packages/52/9b/e6c8943f2bcd064b66ca0d0a2fdc12808ca6d64359f41f820e569abf832d/mlflow_by_ckl-2.8.2.tar.gz
+[2024-05-28 01:46:31] INFO root fetch - processPackages [firefw]: Downloading https://files.pythonhosted.org/packages/f9/48/d01a2249d8e2c6f24d4bfcc92d3d861c0612b9cd68284190260c62212aca/firefw-0.9.7-py3-none-any.whl
+[2024-05-28 01:46:31] INFO root fetch - processPackages [fireducks]: Downloading https://files.pythonhosted.org/packages/78/0f/a290b2d62d096a4ab73149c01539d5df72bfbc19489f06fb7b655ca43850/fireducks-0.9.7-cp39-cp39-manylinux_2_28_x86_64.whl
+[2024-05-28 01:46:31] INFO root fetch - processPackages [jaanca-utils-os]: Downloading https://files.pythonhosted.org/packages/56/45/45ef50d22cdbe10ec68e858d59bb5fdbb7e4ddbd746328f309b38d0be8dc/jaanca_utils_os-0.1.1.tar.gz
+[2024-05-28 01:46:31] INFO root fetch - processPackages [jaanca-utils-os]: executing diffoscope
+[2024-05-28 01:46:31] INFO root fetch - processPackages [jaanca-utils-os]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaanca_utils_os-0.1.0.tar.gz tmp/jaanca_utils_os-0.1.1.tar.gz --markdown 20240528/j/jaanca-utils-os/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-28 01:46:31] INFO root fetch - processPackages [firefw]: Downloading https://files.pythonhosted.org/packages/00/25/db8bd3c578ec6621a079f24b4b88efc3bc29f92bed8453db00cb5ea05799/firefw-0.9.8-py3-none-any.whl
+[2024-05-28 01:46:31] INFO root fetch - processPackages [firefw]: executing diffoscope
+[2024-05-28 01:46:31] INFO root fetch - processPackages [firefw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firefw-0.9.7-py3-none-any.whl.zip tmp/firefw-0.9.8-py3-none-any.whl.zip --markdown 20240528/f/firefw/0.9.7-0.9.8/README.md --exclude *.pyd
+[2024-05-28 01:46:31] INFO root fetch - processPackages [mlflow-by-ckl]: Downloading https://files.pythonhosted.org/packages/2e/75/4fafb074b7224b5bc3c3070a694278901be300ebb0318d43d3402e2bc31b/mlflow_by_ckl-2.8.3.tar.gz
+[2024-05-28 01:46:31] INFO root fetch - processPackages [jaanca-utils-os]: Remove: archive file [/home/abi/fetcher/tmp/jaanca_utils_os-0.1.0.tar.gz]
+[2024-05-28 01:46:31] INFO root fetch - processPackages [jaanca-utils-os]: Remove: archive file [/home/abi/fetcher/tmp/jaanca_utils_os-0.1.1.tar.gz]
+[2024-05-28 01:46:31] INFO root fetch - main [MainThread]: End processing [jaanca-utils-os]: success
+[2024-05-28 01:46:32] INFO root fetch - processPackages [firefw]: Remove: archive file [/home/abi/fetcher/tmp/firefw-0.9.7-py3-none-any.whl.zip]
+[2024-05-28 01:46:32] INFO root fetch - processPackages [firefw]: Remove: archive file [/home/abi/fetcher/tmp/firefw-0.9.8-py3-none-any.whl.zip]
+[2024-05-28 01:46:32] INFO root fetch - main [MainThread]: End processing [firefw]: success
+[2024-05-28 01:46:32] INFO root fetch - processPackages [mlflow-by-ckl]: executing diffoscope
+[2024-05-28 01:46:32] INFO root fetch - processPackages [mlflow-by-ckl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlflow_by_ckl-2.8.2.tar.gz tmp/mlflow_by_ckl-2.8.3.tar.gz --markdown 20240528/m/mlflow-by-ckl/2.8.2-2.8.3/README.md --exclude *.pyd
+[2024-05-28 01:46:33] INFO root fetch - processPackages [fireducks]: Downloading https://files.pythonhosted.org/packages/4e/b6/63f73d339120931c81ab9c435df1d08feaef965848223c3d32c513accc54/fireducks-0.9.8-cp39-cp39-manylinux_2_28_x86_64.whl
+[2024-05-28 01:46:34] INFO root fetch - processPackages [mlflow-by-ckl]: Remove: archive file [/home/abi/fetcher/tmp/mlflow_by_ckl-2.8.2.tar.gz]
+[2024-05-28 01:46:34] INFO root fetch - processPackages [mlflow-by-ckl]: Remove: archive file [/home/abi/fetcher/tmp/mlflow_by_ckl-2.8.3.tar.gz]
+[2024-05-28 01:46:34] INFO root fetch - main [MainThread]: End processing [mlflow-by-ckl]: success
+[2024-05-28 01:46:34] INFO root fetch - processPackages [fireducks]: executing diffoscope
+[2024-05-28 01:46:34] INFO root fetch - processPackages [fireducks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fireducks-0.9.7-cp39-cp39-manylinux_2_28_x86_64.whl.zip tmp/fireducks-0.9.8-cp39-cp39-manylinux_2_28_x86_64.whl.zip --markdown 20240528/f/fireducks/0.9.7-0.9.8/README.md --exclude *.pyd
+[2024-05-28 01:48:13] INFO root fetch - processPackages [fireducks]: Remove: archive file [/home/abi/fetcher/tmp/fireducks-0.9.7-cp39-cp39-manylinux_2_28_x86_64.whl.zip]
+[2024-05-28 01:48:13] INFO root fetch - processPackages [fireducks]: Remove: archive file [/home/abi/fetcher/tmp/fireducks-0.9.8-cp39-cp39-manylinux_2_28_x86_64.whl.zip]
+[2024-05-28 01:48:13] INFO root fetch - main [MainThread]: End processing [fireducks]: success
+[2024-05-28 01:48:13] INFO root fetch - main [MainThread]: Store serial: [23403413]
