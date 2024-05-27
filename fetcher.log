@@ -782,3 +782,52 @@
 [2024-05-28 00:57:08] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.99.tar.gz]
 [2024-05-28 00:57:08] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
 [2024-05-28 00:57:08] INFO root fetch - main [MainThread]: Store serial: [23403153]
+[2024-05-28 00:59:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23403153]
+[2024-05-28 00:59:16] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-28 00:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: matrix-nio
+[2024-05-28 00:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hexdoc-hexdebug
+[2024-05-28 00:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyPDFForm
+[2024-05-28 00:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: crate-docs-theme
+[2024-05-28 00:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: docparser-remittance-processor
+[2024-05-28 00:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hexdoc-hexdebug
+[2024-05-28 00:59:16] WARNING root fetch - processPackages [docparser-remittance-processor]: Skipping, unable to determine old version
+[2024-05-28 00:59:16] INFO root fetch - main [MainThread]: End processing [docparser-remittance-processor] error
+[2024-05-28 00:59:16] INFO root fetch - processPackages [hexdoc-hexdebug]: New version: [0.2.1.1.20.1.1.0] Old Version: [0.2.1.1.19.2.1.0]
+[2024-05-28 00:59:16] INFO root fetch - processPackages [hexdoc-hexdebug]: New version: [0.2.1.1.20.1.1.0] Old Version: [0.2.1.1.19.2.1.0]
+[2024-05-28 00:59:16] INFO root fetch - processPackages [matrix-nio]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-28 00:59:16] INFO root fetch - processPackages [PyPDFForm]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-05-28 00:59:16] INFO root fetch - processPackages [crate-docs-theme]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-05-28 00:59:16] INFO root fetch - processPackages [hexdoc-hexdebug]: Downloading https://files.pythonhosted.org/packages/d7/0b/9ada13d51c45d035d52ff5ffbb6f57a84e1439eb642a54243211489b5125/hexdoc_hexdebug-0.2.1.1.19.2.1.0.tar.gz
+[2024-05-28 00:59:16] INFO root fetch - processPackages [hexdoc-hexdebug]: Downloading https://files.pythonhosted.org/packages/d7/0b/9ada13d51c45d035d52ff5ffbb6f57a84e1439eb642a54243211489b5125/hexdoc_hexdebug-0.2.1.1.19.2.1.0.tar.gz
+[2024-05-28 00:59:17] INFO root fetch - processPackages [matrix-nio]: Downloading https://files.pythonhosted.org/packages/a5/c4/a53a587da9939f040b85c249cddd31ebf334beb746d794c6807c8ba96a2c/matrix-nio-0.8.0.tar.gz
+[2024-05-28 00:59:17] INFO root fetch - processPackages [PyPDFForm]: Downloading https://files.pythonhosted.org/packages/69/9f/2ae6600de9a7bcb149411374a44be0c0f9f2c9ce362f6374e578ec5a4e26/PyPDFForm-1.4.8.tar.gz
+[2024-05-28 00:59:17] INFO root fetch - processPackages [crate-docs-theme]: Downloading https://files.pythonhosted.org/packages/6c/9f/eb33f10cf57946abf11bae3bca0be62acb66e1dcee1db3a1a183569375d5/crate-docs-theme-0.9.5.tar.gz
+[2024-05-28 00:59:17] INFO root fetch - processPackages [hexdoc-hexdebug]: Downloading https://files.pythonhosted.org/packages/a2/38/53d2b987e67ca5c98f15e3aa808efaec97ee0819c017549c4105d4590404/hexdoc_hexdebug-0.2.1.1.20.1.1.0.tar.gz
+[2024-05-28 00:59:17] INFO root fetch - processPackages [hexdoc-hexdebug]: Downloading https://files.pythonhosted.org/packages/a2/38/53d2b987e67ca5c98f15e3aa808efaec97ee0819c017549c4105d4590404/hexdoc_hexdebug-0.2.1.1.20.1.1.0.tar.gz
+[2024-05-28 00:59:17] INFO root fetch - processPackages [PyPDFForm]: Downloading https://files.pythonhosted.org/packages/f0/86/8219b0802370fbdcae59e87d8b203196b52045c8375f1c043b5db3eb54ff/PyPDFForm-1.4.9.tar.gz
+[2024-05-28 00:59:17] INFO root fetch - processPackages [hexdoc-hexdebug]: executing diffoscope
+[2024-05-28 00:59:17] INFO root fetch - processPackages [hexdoc-hexdebug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hexdoc_hexdebug-0.2.1.1.19.2.1.0.tar.gz tmp/hexdoc_hexdebug-0.2.1.1.20.1.1.0.tar.gz --markdown 20240528/h/hexdoc-hexdebug/0.2.1.1.19.2.1.0-0.2.1.1.20.1.1.0/README.md --exclude *.pyd
+[2024-05-28 00:59:17] INFO root fetch - processPackages [hexdoc-hexdebug]: executing diffoscope
+[2024-05-28 00:59:17] INFO root fetch - processPackages [hexdoc-hexdebug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hexdoc_hexdebug-0.2.1.1.19.2.1.0.tar.gz tmp/hexdoc_hexdebug-0.2.1.1.20.1.1.0.tar.gz --markdown 20240528/h/hexdoc-hexdebug/0.2.1.1.19.2.1.0-0.2.1.1.20.1.1.0/README.md --exclude *.pyd
+[2024-05-28 00:59:17] INFO root fetch - processPackages [matrix-nio]: Downloading https://files.pythonhosted.org/packages/3d/2f/b4c4fea1cb5a05e5871c63040020922a45b619663b0923c49d4cb933387c/matrix-nio-0.9.0.tar.gz
+[2024-05-28 00:59:17] INFO root fetch - processPackages [PyPDFForm]: executing diffoscope
+[2024-05-28 00:59:17] INFO root fetch - processPackages [PyPDFForm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyPDFForm-1.4.8.tar.gz tmp/PyPDFForm-1.4.9.tar.gz --markdown 20240528/P/PyPDFForm/1.4.8-1.4.9/README.md --exclude *.pyd
+[2024-05-28 00:59:17] INFO root fetch - processPackages [matrix-nio]: executing diffoscope
+[2024-05-28 00:59:17] INFO root fetch - processPackages [matrix-nio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matrix-nio-0.8.0.tar.gz tmp/matrix-nio-0.9.0.tar.gz --markdown 20240528/m/matrix-nio/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-28 00:59:18] INFO root fetch - processPackages [hexdoc-hexdebug]: Remove: archive file [/home/abi/fetcher/tmp/hexdoc_hexdebug-0.2.1.1.19.2.1.0.tar.gz]
+[2024-05-28 00:59:18] INFO root fetch - processPackages [hexdoc-hexdebug]: Remove: archive file [/home/abi/fetcher/tmp/hexdoc_hexdebug-0.2.1.1.20.1.1.0.tar.gz]
+[2024-05-28 00:59:18] INFO root fetch - main [MainThread]: End processing [hexdoc-hexdebug]: success
+[2024-05-28 00:59:18] INFO root fetch - processPackages [PyPDFForm]: Remove: archive file [/home/abi/fetcher/tmp/PyPDFForm-1.4.8.tar.gz]
+[2024-05-28 00:59:18] INFO root fetch - processPackages [PyPDFForm]: Remove: archive file [/home/abi/fetcher/tmp/PyPDFForm-1.4.9.tar.gz]
+[2024-05-28 00:59:18] INFO root fetch - main [MainThread]: End processing [PyPDFForm]: success
+[2024-05-28 00:59:18] INFO root fetch - main [MainThread]: End processing [hexdoc-hexdebug]: success
+[2024-05-28 00:59:18] INFO root fetch - processPackages [crate-docs-theme]: Downloading https://files.pythonhosted.org/packages/6e/c2/8e89446e5c72f10d30d1b58dfa420e9e08162dc8b8a9553111774fd516a5/crate-docs-theme-0.9.6.tar.gz
+[2024-05-28 00:59:18] INFO root fetch - processPackages [matrix-nio]: Remove: archive file [/home/abi/fetcher/tmp/matrix-nio-0.8.0.tar.gz]
+[2024-05-28 00:59:18] INFO root fetch - processPackages [matrix-nio]: Remove: archive file [/home/abi/fetcher/tmp/matrix-nio-0.9.0.tar.gz]
+[2024-05-28 00:59:18] INFO root fetch - main [MainThread]: End processing [matrix-nio]: success
+[2024-05-28 00:59:20] INFO root fetch - processPackages [crate-docs-theme]: executing diffoscope
+[2024-05-28 00:59:20] INFO root fetch - processPackages [crate-docs-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crate-docs-theme-0.9.5.tar.gz tmp/crate-docs-theme-0.9.6.tar.gz --markdown 20240528/c/crate-docs-theme/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-05-28 00:59:21] INFO root fetch - processPackages [crate-docs-theme]: Remove: archive file [/home/abi/fetcher/tmp/crate-docs-theme-0.9.5.tar.gz]
+[2024-05-28 00:59:21] INFO root fetch - processPackages [crate-docs-theme]: Remove: archive file [/home/abi/fetcher/tmp/crate-docs-theme-0.9.6.tar.gz]
+[2024-05-28 00:59:21] INFO root fetch - main [MainThread]: End processing [crate-docs-theme]: success
+[2024-05-28 00:59:21] INFO root fetch - main [MainThread]: Store serial: [23403184]
