@@ -344,3 +344,24 @@
 [2024-05-28 00:26:32] INFO root fetch - processPackages [marimo]: Remove: archive file [/home/abi/fetcher/tmp/marimo-0.6.9.tar.gz]
 [2024-05-28 00:26:32] INFO root fetch - main [MainThread]: End processing [marimo]: success
 [2024-05-28 00:26:32] INFO root fetch - main [MainThread]: Store serial: [23402929]
+[2024-05-28 00:28:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23402929]
+[2024-05-28 00:28:42] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-28 00:28:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: starkcore
+[2024-05-28 00:28:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mobsfscan
+[2024-05-28 00:28:42] INFO root fetch - processPackages [starkcore]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-28 00:28:42] INFO root fetch - processPackages [mobsfscan]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-28 00:28:42] INFO root fetch - processPackages [starkcore]: Downloading https://files.pythonhosted.org/packages/7b/5b/2c0cb6b9fe225f496132bee796ccb0fada4a86f63fdc97fd138816649d0a/starkcore-0.3.1.tar.gz
+[2024-05-28 00:28:42] INFO root fetch - processPackages [mobsfscan]: Downloading https://files.pythonhosted.org/packages/f8/dc/2a8f55424ec9ad6ee8f5b964e0e886cbd57b71b4fc018860d28660c4496f/mobsfscan-0.3.8.tar.gz
+[2024-05-28 00:28:43] INFO root fetch - processPackages [starkcore]: Downloading https://files.pythonhosted.org/packages/66/58/a360e3786144ea8be6beded86bf9e094ee515197f05cbff3cea17f9bbb6e/starkcore-0.3.2.tar.gz
+[2024-05-28 00:28:43] INFO root fetch - processPackages [mobsfscan]: Downloading https://files.pythonhosted.org/packages/80/be/5efc4d6d729584a12f927350d5de9ce71e07e2c2a705666d949ec07f062b/mobsfscan-0.3.9.tar.gz
+[2024-05-28 00:28:43] INFO root fetch - processPackages [starkcore]: executing diffoscope
+[2024-05-28 00:28:43] INFO root fetch - processPackages [starkcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starkcore-0.3.1.tar.gz tmp/starkcore-0.3.2.tar.gz --markdown 20240528/s/starkcore/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-28 00:28:43] INFO root fetch - processPackages [mobsfscan]: executing diffoscope
+[2024-05-28 00:28:43] INFO root fetch - processPackages [mobsfscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mobsfscan-0.3.8.tar.gz tmp/mobsfscan-0.3.9.tar.gz --markdown 20240528/m/mobsfscan/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-28 00:28:43] INFO root fetch - processPackages [starkcore]: Remove: archive file [/home/abi/fetcher/tmp/starkcore-0.3.1.tar.gz]
+[2024-05-28 00:28:43] INFO root fetch - processPackages [starkcore]: Remove: archive file [/home/abi/fetcher/tmp/starkcore-0.3.2.tar.gz]
+[2024-05-28 00:28:43] INFO root fetch - main [MainThread]: End processing [starkcore]: success
+[2024-05-28 00:28:44] INFO root fetch - processPackages [mobsfscan]: Remove: archive file [/home/abi/fetcher/tmp/mobsfscan-0.3.8.tar.gz]
+[2024-05-28 00:28:44] INFO root fetch - processPackages [mobsfscan]: Remove: archive file [/home/abi/fetcher/tmp/mobsfscan-0.3.9.tar.gz]
+[2024-05-28 00:28:44] INFO root fetch - main [MainThread]: End processing [mobsfscan]: success
+[2024-05-28 00:28:44] INFO root fetch - main [MainThread]: Store serial: [23402934]
