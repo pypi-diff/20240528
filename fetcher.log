@@ -1389,3 +1389,42 @@
 [2024-05-28 01:40:01] INFO root fetch - processPackages [ElPeriodic]: Remove: archive file [/home/abi/fetcher/tmp/elperiodic-1.3.tar.gz]
 [2024-05-28 01:40:01] INFO root fetch - main [MainThread]: End processing [ElPeriodic]: success
 [2024-05-28 01:40:01] INFO root fetch - main [MainThread]: Store serial: [23403372]
+[2024-05-28 01:42:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23403372]
+[2024-05-28 01:42:09] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-28 01:42:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: amsdal_server
+[2024-05-28 01:42:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: slack-time-localization-bot
+[2024-05-28 01:42:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: promptic
+[2024-05-28 01:42:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: contenttransformer
+[2024-05-28 01:42:09] INFO root fetch - processPackages [promptic]: New version: [0.5.4] Old Version: [0.5.3]
+[2024-05-28 01:42:09] INFO root fetch - processPackages [promptic]: Downloading https://files.pythonhosted.org/packages/25/95/254e0e0b8c0b8efd84da84d1b2ad6a7453fb2a3eca2e7bfd930d466af605/promptic-0.5.3.tar.gz
+[2024-05-28 01:42:09] INFO root fetch - processPackages [contenttransformer]: New version: [0.3.5] Old Version: [0.3.3]
+[2024-05-28 01:42:09] INFO root fetch - processPackages [slack-time-localization-bot]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-28 01:42:09] INFO root fetch - processPackages [amsdal_server]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-28 01:42:10] INFO root fetch - processPackages [promptic]: Downloading https://files.pythonhosted.org/packages/be/25/0308ee0e531bd925d459f32195215ced873f3d44d0f163a517875e3b74f3/promptic-0.5.4.tar.gz
+[2024-05-28 01:42:10] INFO root fetch - processPackages [contenttransformer]: Downloading https://files.pythonhosted.org/packages/58/d3/121e35df11963cb7fc1991c307c83f7fca045bc05080329d780098a8cabe/contenttransformer-0.3.3.tar.gz
+[2024-05-28 01:42:10] INFO root fetch - processPackages [slack-time-localization-bot]: Downloading https://files.pythonhosted.org/packages/8d/9b/61f4709506dc4b8ebff58b93a9cd6ae5c853c049024187dec6b9fde6f4ff/slack_time_localization_bot-0.1.8.tar.gz
+[2024-05-28 01:42:10] INFO root fetch - processPackages [amsdal_server]: Downloading https://files.pythonhosted.org/packages/11/dc/22ce97b8b65ad8bb813e99e14d003d45b386fd2a8c1283dd9935d471a9b1/amsdal_server-0.1.8.tar.gz
+[2024-05-28 01:42:10] INFO root fetch - processPackages [promptic]: executing diffoscope
+[2024-05-28 01:42:10] INFO root fetch - processPackages [promptic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptic-0.5.3.tar.gz tmp/promptic-0.5.4.tar.gz --markdown 20240528/p/promptic/0.5.3-0.5.4/README.md --exclude *.pyd
+[2024-05-28 01:42:10] INFO root fetch - processPackages [contenttransformer]: Downloading https://files.pythonhosted.org/packages/0a/d0/46f51e00f2ee1c5e3eeed617b2f7b461335bb8c88e45185bb2b85d4f8738/contenttransformer-0.3.5.tar.gz
+[2024-05-28 01:42:10] INFO root fetch - processPackages [slack-time-localization-bot]: Downloading https://files.pythonhosted.org/packages/c2/2e/c33970ba2ac3da5b5ad97c3dd294b4d6e00959aa3bc3d196eaf8cd852cad/slack_time_localization_bot-0.1.9.tar.gz
+[2024-05-28 01:42:10] INFO root fetch - processPackages [amsdal_server]: Downloading https://files.pythonhosted.org/packages/b0/41/be17c6df60736ba2006e7b1f7ee78b27a4d7cc53b4024203f804563f64eb/amsdal_server-0.1.9.tar.gz
+[2024-05-28 01:42:10] INFO root fetch - processPackages [slack-time-localization-bot]: executing diffoscope
+[2024-05-28 01:42:10] INFO root fetch - processPackages [slack-time-localization-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slack_time_localization_bot-0.1.8.tar.gz tmp/slack_time_localization_bot-0.1.9.tar.gz --markdown 20240528/s/slack-time-localization-bot/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-28 01:42:10] INFO root fetch - processPackages [contenttransformer]: executing diffoscope
+[2024-05-28 01:42:10] INFO root fetch - processPackages [contenttransformer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contenttransformer-0.3.3.tar.gz tmp/contenttransformer-0.3.5.tar.gz --markdown 20240528/c/contenttransformer/0.3.3-0.3.5/README.md --exclude *.pyd
+[2024-05-28 01:42:10] INFO root fetch - processPackages [amsdal_server]: executing diffoscope
+[2024-05-28 01:42:10] INFO root fetch - processPackages [amsdal_server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amsdal_server-0.1.8.tar.gz tmp/amsdal_server-0.1.9.tar.gz --markdown 20240528/a/amsdal_server/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-28 01:42:10] INFO root fetch - processPackages [promptic]: Remove: archive file [/home/abi/fetcher/tmp/promptic-0.5.3.tar.gz]
+[2024-05-28 01:42:10] INFO root fetch - processPackages [promptic]: Remove: archive file [/home/abi/fetcher/tmp/promptic-0.5.4.tar.gz]
+[2024-05-28 01:42:10] INFO root fetch - main [MainThread]: End processing [promptic]: success
+[2024-05-28 01:42:11] INFO root fetch - processPackages [contenttransformer]: Remove: archive file [/home/abi/fetcher/tmp/contenttransformer-0.3.3.tar.gz]
+[2024-05-28 01:42:11] INFO root fetch - processPackages [contenttransformer]: Remove: archive file [/home/abi/fetcher/tmp/contenttransformer-0.3.5.tar.gz]
+[2024-05-28 01:42:11] INFO root fetch - main [MainThread]: End processing [contenttransformer]: success
+[2024-05-28 01:42:11] INFO root fetch - processPackages [slack-time-localization-bot]: Remove: archive file [/home/abi/fetcher/tmp/slack_time_localization_bot-0.1.8.tar.gz]
+[2024-05-28 01:42:11] INFO root fetch - processPackages [slack-time-localization-bot]: Remove: archive file [/home/abi/fetcher/tmp/slack_time_localization_bot-0.1.9.tar.gz]
+[2024-05-28 01:42:11] INFO root fetch - main [MainThread]: End processing [slack-time-localization-bot]: success
+[2024-05-28 01:42:11] INFO root fetch - processPackages [amsdal_server]: Remove: archive file [/home/abi/fetcher/tmp/amsdal_server-0.1.8.tar.gz]
+[2024-05-28 01:42:11] INFO root fetch - processPackages [amsdal_server]: Remove: archive file [/home/abi/fetcher/tmp/amsdal_server-0.1.9.tar.gz]
+[2024-05-28 01:42:11] INFO root fetch - main [MainThread]: End processing [amsdal_server]: success
+[2024-05-28 01:42:11] INFO root fetch - main [MainThread]: Store serial: [23403383]
