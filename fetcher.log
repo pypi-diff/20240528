@@ -1106,3 +1106,51 @@
 [2024-05-28 01:20:56] INFO root fetch - processPackages [odoo-addon-barcodes-generator-abstract]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_barcodes_generator_abstract-16.0.3.0.4-py3-none-any.whl.zip]
 [2024-05-28 01:20:56] INFO root fetch - main [MainThread]: End processing [odoo-addon-barcodes-generator-abstract]: success
 [2024-05-28 01:20:56] INFO root fetch - main [MainThread]: Store serial: [23403274]
+[2024-05-28 01:22:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23403274]
+[2024-05-28 01:23:04] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-28 01:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: amsdal_models
+[2024-05-28 01:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: promptic
+[2024-05-28 01:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: marimo
+[2024-05-28 01:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: protoc-polyglot
+[2024-05-28 01:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: strawberry-graphql
+[2024-05-28 01:23:04] INFO root fetch - processPackages [protoc-polyglot]: New version: [0.0.1.post5] Old Version: [0.0.1.post4]
+[2024-05-28 01:23:04] INFO root fetch - processPackages [promptic]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-05-28 01:23:04] INFO root fetch - processPackages [marimo]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-05-28 01:23:04] INFO root fetch - processPackages [promptic]: Downloading https://files.pythonhosted.org/packages/27/38/2c2a989c7d2321643a18919902c46689a2ee3839e86e7c7f160ec7efbcb3/promptic-0.5.0.tar.gz
+[2024-05-28 01:23:04] INFO root fetch - processPackages [protoc-polyglot]: Downloading https://files.pythonhosted.org/packages/24/c3/d8ccc7076d2cdae9b193850e5c77bcb70fd573aaf7f6019bcdd0f87163b8/protoc_polyglot-0.0.1.post4.tar.gz
+[2024-05-28 01:23:04] INFO root fetch - processPackages [amsdal_models]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-28 01:23:04] INFO root fetch - processPackages [marimo]: Downloading https://files.pythonhosted.org/packages/19/5f/6b5db5b8ac67c260b7eea913c5d8abe965b5d57e7696b72a86c0ec1e0210/marimo-0.6.8.tar.gz
+[2024-05-28 01:23:04] INFO root fetch - processPackages [strawberry-graphql]: New version: [0.99.3] Old Version: [0.99.2]
+[2024-05-28 01:23:04] INFO root fetch - processPackages [strawberry-graphql]: Downloading https://files.pythonhosted.org/packages/dd/38/4efb20ccf1f04c0901e6d5de6eb222b8a9e74692ae34f6f4618b0f0cc8b3/strawberry-graphql-0.99.2.tar.gz
+[2024-05-28 01:23:04] INFO root fetch - processPackages [amsdal_models]: Downloading https://files.pythonhosted.org/packages/62/73/14dcca3b07e98624f224b9c02baf6037842667c88373b5549a6ee7d84d3f/amsdal_models-0.1.8-cp311-cp311-win_amd64.whl
+[2024-05-28 01:23:04] INFO root fetch - processPackages [promptic]: Downloading https://files.pythonhosted.org/packages/c8/e7/42328516b81f732f9a806d58bb337d380d540bf3e4dee03e359b95c03f23/promptic-0.5.1.tar.gz
+[2024-05-28 01:23:05] INFO root fetch - processPackages [protoc-polyglot]: Downloading https://files.pythonhosted.org/packages/8f/9f/333e4a38874db263384d88bf3e9922a3252422b9527b4c36a5a933ce3743/protoc_polyglot-0.0.1.post5.tar.gz
+[2024-05-28 01:23:05] INFO root fetch - processPackages [promptic]: executing diffoscope
+[2024-05-28 01:23:05] INFO root fetch - processPackages [promptic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptic-0.5.0.tar.gz tmp/promptic-0.5.1.tar.gz --markdown 20240528/p/promptic/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-05-28 01:23:05] INFO root fetch - processPackages [protoc-polyglot]: executing diffoscope
+[2024-05-28 01:23:05] INFO root fetch - processPackages [protoc-polyglot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protoc_polyglot-0.0.1.post4.tar.gz tmp/protoc_polyglot-0.0.1.post5.tar.gz --markdown 20240528/p/protoc-polyglot/0.0.1.post4-0.0.1.post5/README.md --exclude *.pyd
+[2024-05-28 01:23:05] INFO root fetch - processPackages [strawberry-graphql]: Downloading https://files.pythonhosted.org/packages/e8/62/3a58fe3751e9dc961f72fbe825e32f12e9cd544dafd44bc5fdddb290b881/strawberry-graphql-0.99.3.tar.gz
+[2024-05-28 01:23:05] INFO root fetch - processPackages [marimo]: Downloading https://files.pythonhosted.org/packages/d9/2f/1dac346e018161bfdf470f31116359ece9b1f32e1b0ed9e7f5edddf31f05/marimo-0.6.9.tar.gz
+[2024-05-28 01:23:05] INFO root fetch - processPackages [strawberry-graphql]: executing diffoscope
+[2024-05-28 01:23:05] INFO root fetch - processPackages [strawberry-graphql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strawberry-graphql-0.99.2.tar.gz tmp/strawberry-graphql-0.99.3.tar.gz --markdown 20240528/s/strawberry-graphql/0.99.2-0.99.3/README.md --exclude *.pyd
+[2024-05-28 01:23:05] INFO root fetch - processPackages [amsdal_models]: Downloading https://files.pythonhosted.org/packages/91/57/3a8d69975d8b202e8cb455d48dc908108d07593c7601ded20c9be996ada1/amsdal_models-0.1.9-cp311-cp311-win_amd64.whl
+[2024-05-28 01:23:05] INFO root fetch - processPackages [amsdal_models]: executing diffoscope
+[2024-05-28 01:23:05] INFO root fetch - processPackages [amsdal_models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amsdal_models-0.1.8-cp311-cp311-win_amd64.whl.zip tmp/amsdal_models-0.1.9-cp311-cp311-win_amd64.whl.zip --markdown 20240528/a/amsdal_models/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-28 01:23:05] INFO root fetch - processPackages [marimo]: executing diffoscope
+[2024-05-28 01:23:05] INFO root fetch - processPackages [marimo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marimo-0.6.8.tar.gz tmp/marimo-0.6.9.tar.gz --markdown 20240528/m/marimo/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-05-28 01:23:05] INFO root fetch - processPackages [protoc-polyglot]: Remove: archive file [/home/abi/fetcher/tmp/protoc_polyglot-0.0.1.post4.tar.gz]
+[2024-05-28 01:23:05] INFO root fetch - processPackages [protoc-polyglot]: Remove: archive file [/home/abi/fetcher/tmp/protoc_polyglot-0.0.1.post5.tar.gz]
+[2024-05-28 01:23:05] INFO root fetch - main [MainThread]: End processing [protoc-polyglot]: success
+[2024-05-28 01:23:05] INFO root fetch - processPackages [promptic]: Remove: archive file [/home/abi/fetcher/tmp/promptic-0.5.0.tar.gz]
+[2024-05-28 01:23:05] INFO root fetch - processPackages [promptic]: Remove: archive file [/home/abi/fetcher/tmp/promptic-0.5.1.tar.gz]
+[2024-05-28 01:23:05] INFO root fetch - main [MainThread]: End processing [promptic]: success
+[2024-05-28 01:23:06] INFO root fetch - processPackages [strawberry-graphql]: Remove: archive file [/home/abi/fetcher/tmp/strawberry-graphql-0.99.2.tar.gz]
+[2024-05-28 01:23:06] INFO root fetch - processPackages [strawberry-graphql]: Remove: archive file [/home/abi/fetcher/tmp/strawberry-graphql-0.99.3.tar.gz]
+[2024-05-28 01:23:06] INFO root fetch - main [MainThread]: End processing [strawberry-graphql]: success
+[2024-05-28 01:23:06] INFO root fetch - processPackages [amsdal_models]: Remove: archive file [/home/abi/fetcher/tmp/amsdal_models-0.1.8-cp311-cp311-win_amd64.whl.zip]
+[2024-05-28 01:23:06] INFO root fetch - processPackages [amsdal_models]: Remove: archive file [/home/abi/fetcher/tmp/amsdal_models-0.1.9-cp311-cp311-win_amd64.whl.zip]
+[2024-05-28 01:23:06] INFO root fetch - main [MainThread]: End processing [amsdal_models]: success
+[2024-05-28 01:24:48] INFO root fetch - processPackages [marimo]: Remove: archive file [/home/abi/fetcher/tmp/marimo-0.6.8.tar.gz]
+[2024-05-28 01:24:48] INFO root fetch - processPackages [marimo]: Remove: archive file [/home/abi/fetcher/tmp/marimo-0.6.9.tar.gz]
+[2024-05-28 01:24:48] INFO root fetch - main [MainThread]: End processing [marimo]: success
+[2024-05-28 01:24:48] INFO root fetch - main [MainThread]: Store serial: [23403295]
