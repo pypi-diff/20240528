@@ -168,3 +168,42 @@
 [2024-05-28 00:11:49] INFO root fetch - processPackages [suisa_sendemeldung]: Remove: archive file [/home/abi/fetcher/tmp/suisa_sendemeldung-0.9.2.tar.gz]
 [2024-05-28 00:11:49] INFO root fetch - main [MainThread]: End processing [suisa_sendemeldung]: success
 [2024-05-28 00:11:49] INFO root fetch - main [MainThread]: Store serial: [23402848]
+[2024-05-28 00:13:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23402848]
+[2024-05-28 00:13:57] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-28 00:13:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ComradeAI
+[2024-05-28 00:13:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jaanca-utils-os
+[2024-05-28 00:13:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: docugami-langchain
+[2024-05-28 00:13:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: youtubei
+[2024-05-28 00:13:57] INFO root fetch - processPackages [jaanca-utils-os]: New version: [0.0.1rc5] Old Version: [0.0.1rc4]
+[2024-05-28 00:13:57] INFO root fetch - processPackages [youtubei]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-28 00:13:57] INFO root fetch - processPackages [jaanca-utils-os]: Downloading https://files.pythonhosted.org/packages/f0/1b/fd23a18c8bc5f7cab3c7f710aa0f27dd8e74de23a7a7e6952b8a561d90ea/jaanca_utils_os-0.0.1rc4.tar.gz
+[2024-05-28 00:13:57] INFO root fetch - processPackages [ComradeAI]: New version: [0.18.9] Old Version: [0.18.8]
+[2024-05-28 00:13:57] INFO root fetch - processPackages [youtubei]: Downloading https://files.pythonhosted.org/packages/b9/9f/c53d9697a4c7057c0740ab9e3c6c44c8621fb7430df6c243e404b0bcfeb1/youtubei-0.1.1.tar.gz
+[2024-05-28 00:13:57] INFO root fetch - processPackages [docugami-langchain]: New version: [0.0.9rc9] Old Version: [0.0.9rc8]
+[2024-05-28 00:13:57] INFO root fetch - processPackages [ComradeAI]: Downloading https://files.pythonhosted.org/packages/0f/6b/cbb210cdd66fba57a3515ccd9678ed6dab7911788e798fd28cdebb179f95/ComradeAI-0.18.8.tar.gz
+[2024-05-28 00:13:57] INFO root fetch - processPackages [docugami-langchain]: Downloading https://files.pythonhosted.org/packages/2d/82/2d13050a1c94760818565c09bfbddb6b1c5e72e7dd098faada8a8b560a19/docugami_langchain-0.0.9rc8.tar.gz
+[2024-05-28 00:13:57] INFO root fetch - processPackages [youtubei]: Downloading https://files.pythonhosted.org/packages/8a/cf/9ec91df2a9223138fa2da59e65d371e2c1dcaefbc84c9ee6a8230b967a6f/youtubei-0.1.2.tar.gz
+[2024-05-28 00:13:57] INFO root fetch - processPackages [jaanca-utils-os]: Downloading https://files.pythonhosted.org/packages/72/b2/956a7d6a4800057e1c67ac0c60dcb41392f9713034a86a0630442350442b/jaanca_utils_os-0.0.1rc5.tar.gz
+[2024-05-28 00:13:57] INFO root fetch - processPackages [jaanca-utils-os]: executing diffoscope
+[2024-05-28 00:13:57] INFO root fetch - processPackages [jaanca-utils-os]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaanca_utils_os-0.0.1rc4.tar.gz tmp/jaanca_utils_os-0.0.1rc5.tar.gz --markdown 20240528/j/jaanca-utils-os/0.0.1rc4-0.0.1rc5/README.md --exclude *.pyd
+[2024-05-28 00:13:57] INFO root fetch - processPackages [youtubei]: executing diffoscope
+[2024-05-28 00:13:57] INFO root fetch - processPackages [youtubei]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/youtubei-0.1.1.tar.gz tmp/youtubei-0.1.2.tar.gz --markdown 20240528/y/youtubei/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-28 00:13:58] INFO root fetch - processPackages [docugami-langchain]: Downloading https://files.pythonhosted.org/packages/f2/b2/d83b55cc8691eecf7a64a63a120a668c5ff1f8edee1994b69cf50d8ed91b/docugami_langchain-0.0.9rc9.tar.gz
+[2024-05-28 00:13:58] INFO root fetch - processPackages [docugami-langchain]: executing diffoscope
+[2024-05-28 00:13:58] INFO root fetch - processPackages [docugami-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docugami_langchain-0.0.9rc8.tar.gz tmp/docugami_langchain-0.0.9rc9.tar.gz --markdown 20240528/d/docugami-langchain/0.0.9rc8-0.0.9rc9/README.md --exclude *.pyd
+[2024-05-28 00:13:58] INFO root fetch - processPackages [ComradeAI]: Downloading https://files.pythonhosted.org/packages/57/22/e4aa2177ece664931452ca87630a7ac2a64722c0050b63a0d48c56009de8/ComradeAI-0.18.9.tar.gz
+[2024-05-28 00:13:58] INFO root fetch - processPackages [ComradeAI]: executing diffoscope
+[2024-05-28 00:13:58] INFO root fetch - processPackages [ComradeAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ComradeAI-0.18.8.tar.gz tmp/ComradeAI-0.18.9.tar.gz --markdown 20240528/C/ComradeAI/0.18.8-0.18.9/README.md --exclude *.pyd
+[2024-05-28 00:13:58] INFO root fetch - processPackages [jaanca-utils-os]: Remove: archive file [/home/abi/fetcher/tmp/jaanca_utils_os-0.0.1rc4.tar.gz]
+[2024-05-28 00:13:58] INFO root fetch - processPackages [jaanca-utils-os]: Remove: archive file [/home/abi/fetcher/tmp/jaanca_utils_os-0.0.1rc5.tar.gz]
+[2024-05-28 00:13:58] INFO root fetch - main [MainThread]: End processing [jaanca-utils-os]: success
+[2024-05-28 00:13:58] INFO root fetch - processPackages [youtubei]: Remove: archive file [/home/abi/fetcher/tmp/youtubei-0.1.1.tar.gz]
+[2024-05-28 00:13:58] INFO root fetch - processPackages [youtubei]: Remove: archive file [/home/abi/fetcher/tmp/youtubei-0.1.2.tar.gz]
+[2024-05-28 00:13:58] INFO root fetch - main [MainThread]: End processing [youtubei]: success
+[2024-05-28 00:13:58] INFO root fetch - processPackages [docugami-langchain]: Remove: archive file [/home/abi/fetcher/tmp/docugami_langchain-0.0.9rc8.tar.gz]
+[2024-05-28 00:13:58] INFO root fetch - processPackages [docugami-langchain]: Remove: archive file [/home/abi/fetcher/tmp/docugami_langchain-0.0.9rc9.tar.gz]
+[2024-05-28 00:13:58] INFO root fetch - main [MainThread]: End processing [docugami-langchain]: success
+[2024-05-28 00:13:58] INFO root fetch - processPackages [ComradeAI]: Remove: archive file [/home/abi/fetcher/tmp/ComradeAI-0.18.8.tar.gz]
+[2024-05-28 00:13:58] INFO root fetch - processPackages [ComradeAI]: Remove: archive file [/home/abi/fetcher/tmp/ComradeAI-0.18.9.tar.gz]
+[2024-05-28 00:13:58] INFO root fetch - main [MainThread]: End processing [ComradeAI]: success
+[2024-05-28 00:13:58] INFO root fetch - main [MainThread]: Store serial: [23402860]
