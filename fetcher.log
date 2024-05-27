@@ -147,3 +147,24 @@
 [2024-05-28 00:09:38] INFO root fetch - processPackages [django-connectwise]: Remove: archive file [/home/abi/fetcher/tmp/django-connectwise-1.5.5.tar.gz]
 [2024-05-28 00:09:38] INFO root fetch - main [MainThread]: End processing [django-connectwise]: success
 [2024-05-28 00:09:38] INFO root fetch - main [MainThread]: Store serial: [23402842]
+[2024-05-28 00:11:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23402842]
+[2024-05-28 00:11:47] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-28 00:11:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zenaura
+[2024-05-28 00:11:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: suisa_sendemeldung
+[2024-05-28 00:11:47] INFO root fetch - processPackages [zenaura]: New version: [0.9.90] Old Version: [0.9.89]
+[2024-05-28 00:11:47] INFO root fetch - processPackages [zenaura]: Downloading https://files.pythonhosted.org/packages/22/e3/70b6676038e9b9a7b6fe26fd2a0e582945e6f697ee5949eb6177e14e98ca/zenaura-0.9.89.tar.gz
+[2024-05-28 00:11:47] INFO root fetch - processPackages [suisa_sendemeldung]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-28 00:11:48] INFO root fetch - processPackages [suisa_sendemeldung]: Downloading https://files.pythonhosted.org/packages/89/7e/f09050729548a8e1531f01639f1d2056a176503efef1ce43f67aaba91efe/suisa_sendemeldung-0.9.1.tar.gz
+[2024-05-28 00:11:48] INFO root fetch - processPackages [zenaura]: Downloading https://files.pythonhosted.org/packages/71/40/00a7cf7388f822c60425d326c4a0d7bb5f39072b2aacc218d2f208876bf5/zenaura-0.9.90.tar.gz
+[2024-05-28 00:11:48] INFO root fetch - processPackages [zenaura]: executing diffoscope
+[2024-05-28 00:11:48] INFO root fetch - processPackages [zenaura]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zenaura-0.9.89.tar.gz tmp/zenaura-0.9.90.tar.gz --markdown 20240528/z/zenaura/0.9.89-0.9.90/README.md --exclude *.pyd
+[2024-05-28 00:11:48] INFO root fetch - processPackages [suisa_sendemeldung]: Downloading https://files.pythonhosted.org/packages/d8/14/384be6dce5ce128664a9ee799f9be43b63883f1e9824f79c8e927f6d9402/suisa_sendemeldung-0.9.2.tar.gz
+[2024-05-28 00:11:48] INFO root fetch - processPackages [suisa_sendemeldung]: executing diffoscope
+[2024-05-28 00:11:48] INFO root fetch - processPackages [suisa_sendemeldung]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suisa_sendemeldung-0.9.1.tar.gz tmp/suisa_sendemeldung-0.9.2.tar.gz --markdown 20240528/s/suisa_sendemeldung/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-05-28 00:11:48] INFO root fetch - processPackages [zenaura]: Remove: archive file [/home/abi/fetcher/tmp/zenaura-0.9.89.tar.gz]
+[2024-05-28 00:11:48] INFO root fetch - processPackages [zenaura]: Remove: archive file [/home/abi/fetcher/tmp/zenaura-0.9.90.tar.gz]
+[2024-05-28 00:11:49] INFO root fetch - main [MainThread]: End processing [zenaura]: success
+[2024-05-28 00:11:49] INFO root fetch - processPackages [suisa_sendemeldung]: Remove: archive file [/home/abi/fetcher/tmp/suisa_sendemeldung-0.9.1.tar.gz]
+[2024-05-28 00:11:49] INFO root fetch - processPackages [suisa_sendemeldung]: Remove: archive file [/home/abi/fetcher/tmp/suisa_sendemeldung-0.9.2.tar.gz]
+[2024-05-28 00:11:49] INFO root fetch - main [MainThread]: End processing [suisa_sendemeldung]: success
+[2024-05-28 00:11:49] INFO root fetch - main [MainThread]: Store serial: [23402848]
