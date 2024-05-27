@@ -63,3 +63,24 @@
 [2024-05-28 00:03:05] INFO root fetch - processPackages [cookieplone]: Remove: archive file [/home/abi/fetcher/tmp/cookieplone-0.7.0.tar.gz]
 [2024-05-28 00:03:05] INFO root fetch - main [MainThread]: End processing [cookieplone]: success
 [2024-05-28 00:03:05] INFO root fetch - main [MainThread]: Store serial: [23402808]
+[2024-05-28 00:05:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23402808]
+[2024-05-28 00:05:13] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-28 00:05:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: itkdb-gtk
+[2024-05-28 00:05:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: soccerdata
+[2024-05-28 00:05:14] INFO root fetch - processPackages [soccerdata]: New version: [1.7.1] Old Version: [1.7.0]
+[2024-05-28 00:05:14] INFO root fetch - processPackages [itkdb-gtk]: New version: [0.9.1.dev1] Old Version: [0.9.0]
+[2024-05-28 00:05:14] INFO root fetch - processPackages [soccerdata]: Downloading https://files.pythonhosted.org/packages/2f/aa/442f658221b40f481bb929bfc9bbc896b49b79917267b4348474216cd16e/soccerdata-1.7.0.tar.gz
+[2024-05-28 00:05:14] INFO root fetch - processPackages [itkdb-gtk]: Downloading https://files.pythonhosted.org/packages/1a/b8/7833d7c1b2daafa9d6f24f8602ffcdba3f8ef0d826aa1c272cabd5e979af/itkdb_gtk-0.9.0.tar.gz
+[2024-05-28 00:05:14] INFO root fetch - processPackages [itkdb-gtk]: Downloading https://files.pythonhosted.org/packages/13/a7/03d30164cba13b0c5f9cc41ec7d8e1db06d82f1e660a01ed20eaf8aa0a95/itkdb_gtk-0.9.1.dev1.tar.gz
+[2024-05-28 00:05:14] INFO root fetch - processPackages [itkdb-gtk]: executing diffoscope
+[2024-05-28 00:05:14] INFO root fetch - processPackages [itkdb-gtk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itkdb_gtk-0.9.0.tar.gz tmp/itkdb_gtk-0.9.1.dev1.tar.gz --markdown 20240528/i/itkdb-gtk/0.9.0-0.9.1.dev1/README.md --exclude *.pyd
+[2024-05-28 00:05:15] INFO root fetch - processPackages [soccerdata]: Downloading https://files.pythonhosted.org/packages/b6/57/0968b386bd5a991bfbf6bad7938ccdb416fca62c991079f73b9e7067b358/soccerdata-1.7.1.tar.gz
+[2024-05-28 00:05:15] INFO root fetch - processPackages [soccerdata]: executing diffoscope
+[2024-05-28 00:05:15] INFO root fetch - processPackages [soccerdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soccerdata-1.7.0.tar.gz tmp/soccerdata-1.7.1.tar.gz --markdown 20240528/s/soccerdata/1.7.0-1.7.1/README.md --exclude *.pyd
+[2024-05-28 00:05:15] INFO root fetch - processPackages [itkdb-gtk]: Remove: archive file [/home/abi/fetcher/tmp/itkdb_gtk-0.9.0.tar.gz]
+[2024-05-28 00:05:15] INFO root fetch - processPackages [itkdb-gtk]: Remove: archive file [/home/abi/fetcher/tmp/itkdb_gtk-0.9.1.dev1.tar.gz]
+[2024-05-28 00:05:15] INFO root fetch - main [MainThread]: End processing [itkdb-gtk]: success
+[2024-05-28 00:05:15] INFO root fetch - processPackages [soccerdata]: Remove: archive file [/home/abi/fetcher/tmp/soccerdata-1.7.0.tar.gz]
+[2024-05-28 00:05:15] INFO root fetch - processPackages [soccerdata]: Remove: archive file [/home/abi/fetcher/tmp/soccerdata-1.7.1.tar.gz]
+[2024-05-28 00:05:15] INFO root fetch - main [MainThread]: End processing [soccerdata]: success
+[2024-05-28 00:05:15] INFO root fetch - main [MainThread]: Store serial: [23402818]
