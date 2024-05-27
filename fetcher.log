@@ -734,3 +734,24 @@
 [2024-05-28 00:50:34] INFO root fetch - processPackages [littlehorse-client]: Remove: archive file [/home/abi/fetcher/tmp/littlehorse_client-0.9.1.tar.gz]
 [2024-05-28 00:50:34] INFO root fetch - main [MainThread]: End processing [littlehorse-client]: success
 [2024-05-28 00:50:34] INFO root fetch - main [MainThread]: Store serial: [23403128]
+[2024-05-28 00:52:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23403128]
+[2024-05-28 00:52:42] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-28 00:52:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tabswitcher
+[2024-05-28 00:52:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ork.build
+[2024-05-28 00:52:42] INFO root fetch - processPackages [tabswitcher]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-28 00:52:42] INFO root fetch - processPackages [ork.build]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-28 00:52:42] INFO root fetch - processPackages [tabswitcher]: Downloading https://files.pythonhosted.org/packages/ae/0c/7a77d77ca4e3722a31a66322aac90ab82f0c781931b563771b531c580217/tabswitcher-0.1.1.tar.gz
+[2024-05-28 00:52:42] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/3d/f4/8ad5f3e93d32785fbcc2c448d2821991024fbf7a8add8d1ce6def33a2c89/ork.build-0.0.98.tar.gz
+[2024-05-28 00:52:42] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/57/6c/cdc688ee4714601fa2294fce5ed69c29405197d09e82485271d2ba7a76c2/ork.build-0.0.99.tar.gz
+[2024-05-28 00:52:42] INFO root fetch - processPackages [ork.build]: executing diffoscope
+[2024-05-28 00:52:42] INFO root fetch - processPackages [ork.build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ork.build-0.0.98.tar.gz tmp/ork.build-0.0.99.tar.gz --markdown 20240528/o/ork.build/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-28 00:52:43] INFO root fetch - processPackages [tabswitcher]: Downloading https://files.pythonhosted.org/packages/cc/8f/7350660dbddc77a5b484346e78974012f302e647117016c279959c2c6f60/tabswitcher-0.1.2.tar.gz
+[2024-05-28 00:52:43] INFO root fetch - processPackages [tabswitcher]: executing diffoscope
+[2024-05-28 00:52:43] INFO root fetch - processPackages [tabswitcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tabswitcher-0.1.1.tar.gz tmp/tabswitcher-0.1.2.tar.gz --markdown 20240528/t/tabswitcher/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-28 00:52:43] INFO root fetch - processPackages [tabswitcher]: Remove: archive file [/home/abi/fetcher/tmp/tabswitcher-0.1.1.tar.gz]
+[2024-05-28 00:52:43] INFO root fetch - processPackages [tabswitcher]: Remove: archive file [/home/abi/fetcher/tmp/tabswitcher-0.1.2.tar.gz]
+[2024-05-28 00:52:43] INFO root fetch - main [MainThread]: End processing [tabswitcher]: success
+[2024-05-28 00:52:44] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.98.tar.gz]
+[2024-05-28 00:52:44] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.99.tar.gz]
+[2024-05-28 00:52:44] INFO root fetch - main [MainThread]: End processing [ork.build]: success
+[2024-05-28 00:52:44] INFO root fetch - main [MainThread]: Store serial: [23403138]
