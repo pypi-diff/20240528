@@ -704,3 +704,33 @@
 [2024-05-28 00:48:24] INFO root fetch - processPackages [dclab]: Remove: archive file [/home/abi/fetcher/tmp/dclab-0.9.1.tar.gz]
 [2024-05-28 00:48:24] INFO root fetch - main [MainThread]: End processing [dclab]: success
 [2024-05-28 00:48:24] INFO root fetch - main [MainThread]: Store serial: [23403118]
+[2024-05-28 00:50:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23403118]
+[2024-05-28 00:50:32] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-28 00:50:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-grpcio
+[2024-05-28 00:50:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: littlehorse-client
+[2024-05-28 00:50:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trame
+[2024-05-28 00:50:32] INFO root fetch - processPackages [py-grpcio]: New version: [1.5.4] Old Version: [1.5.3]
+[2024-05-28 00:50:32] INFO root fetch - processPackages [littlehorse-client]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-28 00:50:32] INFO root fetch - processPackages [trame]: New version: [3.6.1] Old Version: [3.6.0]
+[2024-05-28 00:50:32] INFO root fetch - processPackages [littlehorse-client]: Downloading https://files.pythonhosted.org/packages/46/4b/a3f79c141f5013f020aa8f78b2bf5bf5254a801360f020f2f5070c77d11c/littlehorse_client-0.9.0.tar.gz
+[2024-05-28 00:50:32] INFO root fetch - processPackages [py-grpcio]: Downloading https://files.pythonhosted.org/packages/2e/ee/0925e1ba788651ec54282cc7930fe7f1005efd7d29e9792eedeb1123deba/py_grpcio-1.5.3.tar.gz
+[2024-05-28 00:50:32] INFO root fetch - processPackages [trame]: Downloading https://files.pythonhosted.org/packages/77/5b/6886f3ea4b3875757ec293406ee7872cbc21ae1733e691148c6f6958a1e6/trame-3.6.0.tar.gz
+[2024-05-28 00:50:33] INFO root fetch - processPackages [py-grpcio]: Downloading https://files.pythonhosted.org/packages/57/1e/a182fba321ba524a698d23a58d1276304180c3453afcf545b2b19a3bb400/py_grpcio-1.5.4.tar.gz
+[2024-05-28 00:50:33] INFO root fetch - processPackages [trame]: Downloading https://files.pythonhosted.org/packages/c8/80/b7eb3e75f3364881d4fbd5abf65a05fa0c51c382408fffd9a877b63906d1/trame-3.6.1.tar.gz
+[2024-05-28 00:50:33] INFO root fetch - processPackages [littlehorse-client]: Downloading https://files.pythonhosted.org/packages/a7/3c/7c82010e7426d428506584e175da28d5a3e5d5cbede6be3694c31e75f966/littlehorse_client-0.9.1.tar.gz
+[2024-05-28 00:50:33] INFO root fetch - processPackages [py-grpcio]: executing diffoscope
+[2024-05-28 00:50:33] INFO root fetch - processPackages [py-grpcio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_grpcio-1.5.3.tar.gz tmp/py_grpcio-1.5.4.tar.gz --markdown 20240528/p/py-grpcio/1.5.3-1.5.4/README.md --exclude *.pyd
+[2024-05-28 00:50:33] INFO root fetch - processPackages [trame]: executing diffoscope
+[2024-05-28 00:50:33] INFO root fetch - processPackages [trame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trame-3.6.0.tar.gz tmp/trame-3.6.1.tar.gz --markdown 20240528/t/trame/3.6.0-3.6.1/README.md --exclude *.pyd
+[2024-05-28 00:50:33] INFO root fetch - processPackages [littlehorse-client]: executing diffoscope
+[2024-05-28 00:50:33] INFO root fetch - processPackages [littlehorse-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/littlehorse_client-0.9.0.tar.gz tmp/littlehorse_client-0.9.1.tar.gz --markdown 20240528/l/littlehorse-client/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-28 00:50:33] INFO root fetch - processPackages [py-grpcio]: Remove: archive file [/home/abi/fetcher/tmp/py_grpcio-1.5.3.tar.gz]
+[2024-05-28 00:50:33] INFO root fetch - processPackages [py-grpcio]: Remove: archive file [/home/abi/fetcher/tmp/py_grpcio-1.5.4.tar.gz]
+[2024-05-28 00:50:33] INFO root fetch - main [MainThread]: End processing [py-grpcio]: success
+[2024-05-28 00:50:34] INFO root fetch - processPackages [trame]: Remove: archive file [/home/abi/fetcher/tmp/trame-3.6.0.tar.gz]
+[2024-05-28 00:50:34] INFO root fetch - processPackages [trame]: Remove: archive file [/home/abi/fetcher/tmp/trame-3.6.1.tar.gz]
+[2024-05-28 00:50:34] INFO root fetch - main [MainThread]: End processing [trame]: success
+[2024-05-28 00:50:34] INFO root fetch - processPackages [littlehorse-client]: Remove: archive file [/home/abi/fetcher/tmp/littlehorse_client-0.9.0.tar.gz]
+[2024-05-28 00:50:34] INFO root fetch - processPackages [littlehorse-client]: Remove: archive file [/home/abi/fetcher/tmp/littlehorse_client-0.9.1.tar.gz]
+[2024-05-28 00:50:34] INFO root fetch - main [MainThread]: End processing [littlehorse-client]: success
+[2024-05-28 00:50:34] INFO root fetch - main [MainThread]: Store serial: [23403128]
