@@ -281,3 +281,24 @@
 [2024-05-28 00:20:30] INFO root fetch - processPackages [clickup-sdk]: Remove: archive file [/home/abi/fetcher/tmp/clickup_sdk-0.1.3.tar.gz]
 [2024-05-28 00:20:30] INFO root fetch - main [MainThread]: End processing [clickup-sdk]: success
 [2024-05-28 00:20:30] INFO root fetch - main [MainThread]: Store serial: [23402910]
+[2024-05-28 00:22:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23402910]
+[2024-05-28 00:22:38] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-28 00:22:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: amolkit
+[2024-05-28 00:22:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nucliadb-admin-assets
+[2024-05-28 00:22:38] INFO root fetch - processPackages [nucliadb-admin-assets]: New version: [1.0.0.post1554] Old Version: [1.0.0.post1553]
+[2024-05-28 00:22:38] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/0c/b1/6273211497a13f80d09d89ea1018540c86492e277e27b27a9a69e7c061c3/nucliadb_admin_assets-1.0.0.post1553-py3-none-any.whl
+[2024-05-28 00:22:38] INFO root fetch - processPackages [amolkit]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-28 00:22:38] INFO root fetch - processPackages [amolkit]: Downloading https://files.pythonhosted.org/packages/d2/45/e8c38a18d6ae6a13c32314148991e36c0277fea8320bef669571d9a7336e/amolkit-1.0.6.tar.gz
+[2024-05-28 00:22:38] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/37/6a/486931fa7a1c546c86ce8765b4549b446c53f022d34dfdd9337ef4f4b7d0/nucliadb_admin_assets-1.0.0.post1554-py3-none-any.whl
+[2024-05-28 00:22:39] INFO root fetch - processPackages [nucliadb-admin-assets]: executing diffoscope
+[2024-05-28 00:22:39] INFO root fetch - processPackages [nucliadb-admin-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_admin_assets-1.0.0.post1553-py3-none-any.whl.zip tmp/nucliadb_admin_assets-1.0.0.post1554-py3-none-any.whl.zip --markdown 20240528/n/nucliadb-admin-assets/1.0.0.post1553-1.0.0.post1554/README.md --exclude *.pyd
+[2024-05-28 00:22:39] INFO root fetch - processPackages [amolkit]: Downloading https://files.pythonhosted.org/packages/59/7d/c6ec8804e6a0e25f095fb437c9683cce165aead088817e09e714468a100a/amolkit-1.0.7.tar.gz
+[2024-05-28 00:22:39] INFO root fetch - processPackages [amolkit]: executing diffoscope
+[2024-05-28 00:22:39] INFO root fetch - processPackages [amolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amolkit-1.0.6.tar.gz tmp/amolkit-1.0.7.tar.gz --markdown 20240528/a/amolkit/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-28 00:22:39] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1553-py3-none-any.whl.zip]
+[2024-05-28 00:22:39] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1554-py3-none-any.whl.zip]
+[2024-05-28 00:22:39] INFO root fetch - main [MainThread]: End processing [nucliadb-admin-assets]: success
+[2024-05-28 00:22:39] INFO root fetch - processPackages [amolkit]: Remove: archive file [/home/abi/fetcher/tmp/amolkit-1.0.6.tar.gz]
+[2024-05-28 00:22:39] INFO root fetch - processPackages [amolkit]: Remove: archive file [/home/abi/fetcher/tmp/amolkit-1.0.7.tar.gz]
+[2024-05-28 00:22:39] INFO root fetch - main [MainThread]: End processing [amolkit]: success
+[2024-05-28 00:22:39] INFO root fetch - main [MainThread]: Store serial: [23402915]
