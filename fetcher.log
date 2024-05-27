@@ -1620,3 +1620,24 @@
 [2024-05-28 01:57:09] INFO root fetch - processPackages [lute3-mandarin]: Remove: archive file [/home/abi/fetcher/tmp/lute3_mandarin-0.0.3b1.tar.gz]
 [2024-05-28 01:57:09] INFO root fetch - main [MainThread]: End processing [lute3-mandarin]: success
 [2024-05-28 01:57:09] INFO root fetch - main [MainThread]: Store serial: [23403469]
+[2024-05-28 01:59:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23403469]
+[2024-05-28 01:59:17] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-28 01:59:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyjvc
+[2024-05-28 01:59:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jaanca-utils-os
+[2024-05-28 01:59:17] INFO root fetch - processPackages [pyjvc]: New version: [4.4.5] Old Version: [4.4.4]
+[2024-05-28 01:59:17] INFO root fetch - processPackages [jaanca-utils-os]: New version: [0.1.2rc2] Old Version: [0.1.2rc1]
+[2024-05-28 01:59:18] INFO root fetch - processPackages [pyjvc]: Downloading https://files.pythonhosted.org/packages/ca/1b/5fb5081cf5ca652d40bd04576dd320d6db3f70bc4795086bf16fba495ee9/pyjvc-4.4.4.tar.gz
+[2024-05-28 01:59:18] INFO root fetch - processPackages [jaanca-utils-os]: Downloading https://files.pythonhosted.org/packages/75/97/3753e5522c8b68f8a96f2b0a1af2044047e783c4e42cffebfcc61056685c/jaanca_utils_os-0.1.2rc1.tar.gz
+[2024-05-28 01:59:18] INFO root fetch - processPackages [pyjvc]: Downloading https://files.pythonhosted.org/packages/5f/8e/7d82621d04fc302420b6ba0f82cee677bd40245ca7fe9cb330294158ec26/pyjvc-4.4.5.tar.gz
+[2024-05-28 01:59:18] INFO root fetch - processPackages [pyjvc]: executing diffoscope
+[2024-05-28 01:59:18] INFO root fetch - processPackages [pyjvc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjvc-4.4.4.tar.gz tmp/pyjvc-4.4.5.tar.gz --markdown 20240528/p/pyjvc/4.4.4-4.4.5/README.md --exclude *.pyd
+[2024-05-28 01:59:18] INFO root fetch - processPackages [jaanca-utils-os]: Downloading https://files.pythonhosted.org/packages/5e/86/cae779eb2fbb850f7f145fe36eb4631b4458620394a9ca6f61b68b0e0972/jaanca_utils_os-0.1.2rc2.tar.gz
+[2024-05-28 01:59:18] INFO root fetch - processPackages [jaanca-utils-os]: executing diffoscope
+[2024-05-28 01:59:18] INFO root fetch - processPackages [jaanca-utils-os]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaanca_utils_os-0.1.2rc1.tar.gz tmp/jaanca_utils_os-0.1.2rc2.tar.gz --markdown 20240528/j/jaanca-utils-os/0.1.2rc1-0.1.2rc2/README.md --exclude *.pyd
+[2024-05-28 01:59:18] INFO root fetch - processPackages [pyjvc]: Remove: archive file [/home/abi/fetcher/tmp/pyjvc-4.4.4.tar.gz]
+[2024-05-28 01:59:18] INFO root fetch - processPackages [pyjvc]: Remove: archive file [/home/abi/fetcher/tmp/pyjvc-4.4.5.tar.gz]
+[2024-05-28 01:59:18] INFO root fetch - main [MainThread]: End processing [pyjvc]: success
+[2024-05-28 01:59:19] INFO root fetch - processPackages [jaanca-utils-os]: Remove: archive file [/home/abi/fetcher/tmp/jaanca_utils_os-0.1.2rc1.tar.gz]
+[2024-05-28 01:59:19] INFO root fetch - processPackages [jaanca-utils-os]: Remove: archive file [/home/abi/fetcher/tmp/jaanca_utils_os-0.1.2rc2.tar.gz]
+[2024-05-28 01:59:19] INFO root fetch - main [MainThread]: End processing [jaanca-utils-os]: success
+[2024-05-28 01:59:19] INFO root fetch - main [MainThread]: Store serial: [23403475]
