@@ -1,0 +1,48 @@
+[2024-05-28 00:00:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23402783]
+[2024-05-28 00:00:50] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-28 00:00:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: linearwavetheory
+[2024-05-28 00:00:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: acrclient
+[2024-05-28 00:00:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: codal-tsetmc
+[2024-05-28 00:00:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: class-cache
+[2024-05-28 00:00:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lunapi
+[2024-05-28 00:00:50] INFO root fetch - processPackages [class-cache]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-05-28 00:00:50] INFO root fetch - processPackages [codal-tsetmc]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-28 00:00:50] INFO root fetch - processPackages [linearwavetheory]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-28 00:00:50] INFO root fetch - processPackages [lunapi]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-28 00:00:50] INFO root fetch - processPackages [class-cache]: Downloading https://files.pythonhosted.org/packages/b5/de/7c9d6f8e57459fee5fb47d2bd033ac568ae89115f10a283e1901cc0094f4/class_cache-0.2.1.tar.gz
+[2024-05-28 00:00:50] INFO root fetch - processPackages [acrclient]: New version: [0.4.6] Old Version: [0.4.5]
+[2024-05-28 00:00:50] INFO root fetch - processPackages [linearwavetheory]: Downloading https://files.pythonhosted.org/packages/dc/a4/85d07412e81d1591c15997e20e4aac0f0b86021112dbf2316d71ba307283/linearwavetheory-0.0.8.tar.gz
+[2024-05-28 00:00:50] INFO root fetch - processPackages [codal-tsetmc]: Downloading https://files.pythonhosted.org/packages/b0/5f/de0e10b131066b07b977c76038d181ff4dab9963dda4d6779ac5f9a73b48/codal_tsetmc-0.0.7.tar.gz
+[2024-05-28 00:00:50] INFO root fetch - processPackages [acrclient]: Downloading https://files.pythonhosted.org/packages/9c/ce/7f20f5dd17bf2f3b3a483d1433211882ecca899d0e5418a5f6910af192d7/acrclient-0.4.5.tar.gz
+[2024-05-28 00:00:50] INFO root fetch - processPackages [lunapi]: Downloading https://files.pythonhosted.org/packages/58/27/544212abf14643afd2d8c9d6627df4324e6b515fa5e96520604374125a37/lunapi-0.0.8-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-28 00:00:50] INFO root fetch - processPackages [linearwavetheory]: Downloading https://files.pythonhosted.org/packages/7c/1b/1a369f1209dc45a9aad7eaf8d93c489854d70804051f28a1670894a07619/linearwavetheory-0.0.9.tar.gz
+[2024-05-28 00:00:51] INFO root fetch - processPackages [codal-tsetmc]: Downloading https://files.pythonhosted.org/packages/d9/c4/267edd26f171e53aad2716c1b19a4a3cee6527999bf2d119dff8de0f061c/codal_tsetmc-0.0.8.tar.gz
+[2024-05-28 00:00:51] INFO root fetch - processPackages [linearwavetheory]: executing diffoscope
+[2024-05-28 00:00:51] INFO root fetch - processPackages [linearwavetheory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linearwavetheory-0.0.8.tar.gz tmp/linearwavetheory-0.0.9.tar.gz --markdown 20240528/l/linearwavetheory/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-28 00:00:51] INFO root fetch - processPackages [class-cache]: Downloading https://files.pythonhosted.org/packages/c4/83/f379d9d3893a01d4d271301e987ead84abf793f8ac70180751beb6cac35e/class_cache-0.3.0.tar.gz
+[2024-05-28 00:00:51] INFO root fetch - processPackages [codal-tsetmc]: executing diffoscope
+[2024-05-28 00:00:51] INFO root fetch - processPackages [codal-tsetmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codal_tsetmc-0.0.7.tar.gz tmp/codal_tsetmc-0.0.8.tar.gz --markdown 20240528/c/codal-tsetmc/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-28 00:00:51] INFO root fetch - processPackages [acrclient]: Downloading https://files.pythonhosted.org/packages/46/86/4d56b27be7381eeea7e49c389fc334a4eb5db012eb92c571ff17b0b155c4/acrclient-0.4.6.tar.gz
+[2024-05-28 00:00:51] INFO root fetch - processPackages [class-cache]: executing diffoscope
+[2024-05-28 00:00:51] INFO root fetch - processPackages [class-cache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/class_cache-0.2.1.tar.gz tmp/class_cache-0.3.0.tar.gz --markdown 20240528/c/class-cache/0.2.1-0.3.0/README.md --exclude *.pyd
+[2024-05-28 00:00:51] INFO root fetch - processPackages [acrclient]: executing diffoscope
+[2024-05-28 00:00:51] INFO root fetch - processPackages [acrclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acrclient-0.4.5.tar.gz tmp/acrclient-0.4.6.tar.gz --markdown 20240528/a/acrclient/0.4.5-0.4.6/README.md --exclude *.pyd
+[2024-05-28 00:00:51] INFO root fetch - processPackages [linearwavetheory]: Remove: archive file [/home/abi/fetcher/tmp/linearwavetheory-0.0.8.tar.gz]
+[2024-05-28 00:00:51] INFO root fetch - processPackages [linearwavetheory]: Remove: archive file [/home/abi/fetcher/tmp/linearwavetheory-0.0.9.tar.gz]
+[2024-05-28 00:00:51] INFO root fetch - main [MainThread]: End processing [linearwavetheory]: success
+[2024-05-28 00:00:51] INFO root fetch - processPackages [codal-tsetmc]: Remove: archive file [/home/abi/fetcher/tmp/codal_tsetmc-0.0.7.tar.gz]
+[2024-05-28 00:00:51] INFO root fetch - processPackages [codal-tsetmc]: Remove: archive file [/home/abi/fetcher/tmp/codal_tsetmc-0.0.8.tar.gz]
+[2024-05-28 00:00:51] INFO root fetch - main [MainThread]: End processing [codal-tsetmc]: success
+[2024-05-28 00:00:51] INFO root fetch - processPackages [acrclient]: Remove: archive file [/home/abi/fetcher/tmp/acrclient-0.4.5.tar.gz]
+[2024-05-28 00:00:51] INFO root fetch - processPackages [acrclient]: Remove: archive file [/home/abi/fetcher/tmp/acrclient-0.4.6.tar.gz]
+[2024-05-28 00:00:51] INFO root fetch - main [MainThread]: End processing [acrclient]: success
+[2024-05-28 00:00:51] INFO root fetch - processPackages [class-cache]: Remove: archive file [/home/abi/fetcher/tmp/class_cache-0.2.1.tar.gz]
+[2024-05-28 00:00:51] INFO root fetch - processPackages [class-cache]: Remove: archive file [/home/abi/fetcher/tmp/class_cache-0.3.0.tar.gz]
+[2024-05-28 00:00:51] INFO root fetch - main [MainThread]: End processing [class-cache]: success
+[2024-05-28 00:00:52] INFO root fetch - processPackages [lunapi]: Downloading https://files.pythonhosted.org/packages/2d/56/a8fd23c026379206e860f9213f08fff1a07e60a173705eea7a3b09070710/lunapi-0.0.9-pp39-pypy39_pp73-macosx_11_0_arm64.whl
+[2024-05-28 00:00:54] INFO root fetch - processPackages [lunapi]: executing diffoscope
+[2024-05-28 00:00:54] INFO root fetch - processPackages [lunapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lunapi-0.0.8-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/lunapi-0.0.9-pp39-pypy39_pp73-macosx_11_0_arm64.whl.zip --markdown 20240528/l/lunapi/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-28 00:00:56] INFO root fetch - processPackages [lunapi]: Remove: archive file [/home/abi/fetcher/tmp/lunapi-0.0.8-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-28 00:00:56] INFO root fetch - processPackages [lunapi]: Remove: archive file [/home/abi/fetcher/tmp/lunapi-0.0.9-pp39-pypy39_pp73-macosx_11_0_arm64.whl.zip]
+[2024-05-28 00:00:56] INFO root fetch - main [MainThread]: End processing [lunapi]: success
+[2024-05-28 00:00:56] INFO root fetch - main [MainThread]: Store serial: [23402803]
