@@ -1056,3 +1056,53 @@
 [2024-05-28 01:16:40] INFO root fetch - processPackages [langroid-slim]: Remove: archive file [/home/abi/fetcher/tmp/langroid-slim-0.1.251.tar.gz]
 [2024-05-28 01:16:40] INFO root fetch - main [MainThread]: End processing [langroid-slim]: success
 [2024-05-28 01:16:40] INFO root fetch - main [MainThread]: Store serial: [23403262]
+[2024-05-28 01:18:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23403262]
+[2024-05-28 01:18:48] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-28 01:20:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23403262]
+[2024-05-28 01:20:54] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-28 01:20:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyloader
+[2024-05-28 01:20:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zenaura
+[2024-05-28 01:20:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-barcodes-generator-abstract
+[2024-05-28 01:20:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: langroid-slim
+[2024-05-28 01:20:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: marcel
+[2024-05-28 01:20:54] INFO root fetch - processPackages [langroid-slim]: New version: [0.1.252] Old Version: [0.1.251]
+[2024-05-28 01:20:54] INFO root fetch - processPackages [marcel]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-28 01:20:54] INFO root fetch - processPackages [zenaura]: New version: [0.9.92] Old Version: [0.9.91]
+[2024-05-28 01:20:54] INFO root fetch - processPackages [langroid-slim]: Downloading https://files.pythonhosted.org/packages/0a/41/d3ed2dfef9c47818c22bc4828d061fe7f0db61962b362a9898c6f60fafb1/langroid-slim-0.1.251.tar.gz
+[2024-05-28 01:20:54] INFO root fetch - processPackages [odoo-addon-barcodes-generator-abstract]: New version: [16.0.3.0.4] Old Version: [16.0.3.0.3.3]
+[2024-05-28 01:20:54] INFO root fetch - processPackages [pyloader]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-28 01:20:54] INFO root fetch - processPackages [marcel]: Downloading https://files.pythonhosted.org/packages/3a/07/c626f18aa14df89e1f194e115cbffaa2d99bcfc736f7251795e2f889c0d6/marcel-0.9.8-py3-none-any.whl
+[2024-05-28 01:20:54] INFO root fetch - processPackages [zenaura]: Downloading https://files.pythonhosted.org/packages/f1/58/61bc24fcedef41ce71a77d437876470c93e08c5ae1062c3a44715c07fcab/zenaura-0.9.91.tar.gz
+[2024-05-28 01:20:54] INFO root fetch - processPackages [odoo-addon-barcodes-generator-abstract]: Downloading https://files.pythonhosted.org/packages/fd/d9/4db0b2d09fe001e9d254130d5f0cff73acdbb533bc3f5472235dfbfedd0a/odoo_addon_barcodes_generator_abstract-16.0.3.0.3.3-py3-none-any.whl
+[2024-05-28 01:20:54] INFO root fetch - processPackages [pyloader]: Downloading https://files.pythonhosted.org/packages/bb/56/dbc8c71fd08355973776393562c6327e69aa970ee014e62d77444a53512c/pyloader-0.1.5.tar.gz
+[2024-05-28 01:20:54] INFO root fetch - processPackages [marcel]: Downloading https://files.pythonhosted.org/packages/4b/3d/fd4bc1e7906ea7d19b4ad1010b8dce76e96202ac6886bcab6162db5f992f/marcel-0.9.9-py3-none-any.whl
+[2024-05-28 01:20:54] INFO root fetch - processPackages [zenaura]: Downloading https://files.pythonhosted.org/packages/66/71/738d52ae86faf78f1df19b5db6ec549c4cbd11eca92d834e8c1beac8c978/zenaura-0.9.92.tar.gz
+[2024-05-28 01:20:54] INFO root fetch - processPackages [langroid-slim]: Downloading https://files.pythonhosted.org/packages/b7/a8/411c640f5d7070e898ae2e00d3beb4f36fdf7697219f691f77bf65b64800/langroid-slim-0.1.252.tar.gz
+[2024-05-28 01:20:55] INFO root fetch - processPackages [zenaura]: executing diffoscope
+[2024-05-28 01:20:55] INFO root fetch - processPackages [zenaura]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zenaura-0.9.91.tar.gz tmp/zenaura-0.9.92.tar.gz --markdown 20240528/z/zenaura/0.9.91-0.9.92/README.md --exclude *.pyd
+[2024-05-28 01:20:55] INFO root fetch - processPackages [langroid-slim]: executing diffoscope
+[2024-05-28 01:20:55] INFO root fetch - processPackages [langroid-slim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langroid-slim-0.1.251.tar.gz tmp/langroid-slim-0.1.252.tar.gz --markdown 20240528/l/langroid-slim/0.1.251-0.1.252/README.md --exclude *.pyd
+[2024-05-28 01:20:55] INFO root fetch - processPackages [marcel]: executing diffoscope
+[2024-05-28 01:20:55] INFO root fetch - processPackages [marcel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marcel-0.9.8-py3-none-any.whl.zip tmp/marcel-0.9.9-py3-none-any.whl.zip --markdown 20240528/m/marcel/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-28 01:20:55] INFO root fetch - processPackages [pyloader]: Downloading https://files.pythonhosted.org/packages/99/bd/ca9f114e7c5de6849d0930bc6207c5b2feaf4059efb749dda637016eedaf/pyloader-0.1.6.tar.gz
+[2024-05-28 01:20:55] INFO root fetch - processPackages [odoo-addon-barcodes-generator-abstract]: Downloading https://files.pythonhosted.org/packages/9e/d1/4c85f54199eae1c293293fe35407c138d4b1168b297ab42d223109d54b28/odoo_addon_barcodes_generator_abstract-16.0.3.0.4-py3-none-any.whl
+[2024-05-28 01:20:55] INFO root fetch - processPackages [pyloader]: executing diffoscope
+[2024-05-28 01:20:55] INFO root fetch - processPackages [pyloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyloader-0.1.5.tar.gz tmp/pyloader-0.1.6.tar.gz --markdown 20240528/p/pyloader/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-28 01:20:55] INFO root fetch - processPackages [odoo-addon-barcodes-generator-abstract]: executing diffoscope
+[2024-05-28 01:20:55] INFO root fetch - processPackages [odoo-addon-barcodes-generator-abstract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_barcodes_generator_abstract-16.0.3.0.3.3-py3-none-any.whl.zip tmp/odoo_addon_barcodes_generator_abstract-16.0.3.0.4-py3-none-any.whl.zip --markdown 20240528/o/odoo-addon-barcodes-generator-abstract/16.0.3.0.3.3-16.0.3.0.4/README.md --exclude *.pyd
+[2024-05-28 01:20:55] INFO root fetch - processPackages [zenaura]: Remove: archive file [/home/abi/fetcher/tmp/zenaura-0.9.91.tar.gz]
+[2024-05-28 01:20:55] INFO root fetch - processPackages [zenaura]: Remove: archive file [/home/abi/fetcher/tmp/zenaura-0.9.92.tar.gz]
+[2024-05-28 01:20:55] INFO root fetch - main [MainThread]: End processing [zenaura]: success
+[2024-05-28 01:20:55] INFO root fetch - processPackages [pyloader]: Remove: archive file [/home/abi/fetcher/tmp/pyloader-0.1.5.tar.gz]
+[2024-05-28 01:20:55] INFO root fetch - processPackages [pyloader]: Remove: archive file [/home/abi/fetcher/tmp/pyloader-0.1.6.tar.gz]
+[2024-05-28 01:20:55] INFO root fetch - main [MainThread]: End processing [pyloader]: success
+[2024-05-28 01:20:55] INFO root fetch - processPackages [langroid-slim]: Remove: archive file [/home/abi/fetcher/tmp/langroid-slim-0.1.251.tar.gz]
+[2024-05-28 01:20:55] INFO root fetch - processPackages [langroid-slim]: Remove: archive file [/home/abi/fetcher/tmp/langroid-slim-0.1.252.tar.gz]
+[2024-05-28 01:20:55] INFO root fetch - main [MainThread]: End processing [langroid-slim]: success
+[2024-05-28 01:20:56] INFO root fetch - processPackages [marcel]: Remove: archive file [/home/abi/fetcher/tmp/marcel-0.9.8-py3-none-any.whl.zip]
+[2024-05-28 01:20:56] INFO root fetch - processPackages [marcel]: Remove: archive file [/home/abi/fetcher/tmp/marcel-0.9.9-py3-none-any.whl.zip]
+[2024-05-28 01:20:56] INFO root fetch - main [MainThread]: End processing [marcel]: success
+[2024-05-28 01:20:56] INFO root fetch - processPackages [odoo-addon-barcodes-generator-abstract]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_barcodes_generator_abstract-16.0.3.0.3.3-py3-none-any.whl.zip]
+[2024-05-28 01:20:56] INFO root fetch - processPackages [odoo-addon-barcodes-generator-abstract]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_barcodes_generator_abstract-16.0.3.0.4-py3-none-any.whl.zip]
+[2024-05-28 01:20:56] INFO root fetch - main [MainThread]: End processing [odoo-addon-barcodes-generator-abstract]: success
+[2024-05-28 01:20:56] INFO root fetch - main [MainThread]: Store serial: [23403274]
