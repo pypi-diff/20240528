@@ -114,3 +114,36 @@
 [2024-05-28 00:07:26] INFO root fetch - processPackages [django-salesforce-agpl]: Remove: archive file [/home/abi/fetcher/tmp/django-salesforce-agpl-5.0.2.tar.gz]
 [2024-05-28 00:07:26] INFO root fetch - main [MainThread]: End processing [django-salesforce-agpl]: success
 [2024-05-28 00:07:26] INFO root fetch - main [MainThread]: Store serial: [23402830]
+[2024-05-28 00:09:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23402830]
+[2024-05-28 00:09:34] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-28 00:09:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-salesforce-agpl
+[2024-05-28 00:09:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: synthetic-home
+[2024-05-28 00:09:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-connectwise
+[2024-05-28 00:09:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: plenum-dev
+[2024-05-28 00:09:35] INFO root fetch - processPackages [django-salesforce-agpl]: New version: [5.0.2] Old Version: [5.0.1.1]
+[2024-05-28 00:09:35] INFO root fetch - processPackages [synthetic-home]: New version: [2.4.0] Old Version: [2.3.0]
+[2024-05-28 00:09:35] INFO root fetch - processPackages [django-salesforce-agpl]: Downloading https://files.pythonhosted.org/packages/77/fd/9ea61bc5aa98ce89cc3bac664cfe6a747a84388307be50bbb90b19ce3c44/django-salesforce-agpl-5.0.1.1.tar.gz
+[2024-05-28 00:09:35] WARNING root fetch - processPackages [plenum-dev]: Skipping, unable to determine old version
+[2024-05-28 00:09:35] INFO root fetch - main [MainThread]: End processing [plenum-dev] error
+[2024-05-28 00:09:35] INFO root fetch - processPackages [django-connectwise]: New version: [1.5.5] Old Version: [1.5.4]
+[2024-05-28 00:09:35] INFO root fetch - processPackages [synthetic-home]: Downloading https://files.pythonhosted.org/packages/7e/41/cddc7780b6f0044253e167ec787ba5d59ec1c9e00253782a271228e88ff0/synthetic_home-2.3.0.tar.gz
+[2024-05-28 00:09:35] INFO root fetch - processPackages [django-salesforce-agpl]: Downloading https://files.pythonhosted.org/packages/5d/fa/02154d8ac5f2384155dae14e41211f169eb6878f7e610b3623f3922740b0/django-salesforce-agpl-5.0.2.tar.gz
+[2024-05-28 00:09:35] INFO root fetch - processPackages [django-connectwise]: Downloading https://files.pythonhosted.org/packages/59/c1/3b0fe3a5c0f5a9764cc7dc9d40a7733972ca69a655f3ae86385955213289/django-connectwise-1.5.4.tar.gz
+[2024-05-28 00:09:35] INFO root fetch - processPackages [django-salesforce-agpl]: executing diffoscope
+[2024-05-28 00:09:35] INFO root fetch - processPackages [django-salesforce-agpl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-salesforce-agpl-5.0.1.1.tar.gz tmp/django-salesforce-agpl-5.0.2.tar.gz --markdown 20240528/d/django-salesforce-agpl/5.0.1.1-5.0.2/README.md --exclude *.pyd
+[2024-05-28 00:09:35] INFO root fetch - processPackages [synthetic-home]: Downloading https://files.pythonhosted.org/packages/9c/bd/054b022af503174ffcac3ed23ac4f15096ebaaece1806af2a618d00f3b12/synthetic_home-2.4.0.tar.gz
+[2024-05-28 00:09:35] INFO root fetch - processPackages [synthetic-home]: executing diffoscope
+[2024-05-28 00:09:35] INFO root fetch - processPackages [synthetic-home]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synthetic_home-2.3.0.tar.gz tmp/synthetic_home-2.4.0.tar.gz --markdown 20240528/s/synthetic-home/2.3.0-2.4.0/README.md --exclude *.pyd
+[2024-05-28 00:09:35] INFO root fetch - processPackages [django-connectwise]: Downloading https://files.pythonhosted.org/packages/26/3f/db26a827a4459ba2ce552eaf2cc7dea15a1e934effc8cc904407e9c8fdc5/django-connectwise-1.5.5.tar.gz
+[2024-05-28 00:09:35] INFO root fetch - processPackages [django-connectwise]: executing diffoscope
+[2024-05-28 00:09:35] INFO root fetch - processPackages [django-connectwise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-connectwise-1.5.4.tar.gz tmp/django-connectwise-1.5.5.tar.gz --markdown 20240528/d/django-connectwise/1.5.4-1.5.5/README.md --exclude *.pyd
+[2024-05-28 00:09:36] INFO root fetch - processPackages [synthetic-home]: Remove: archive file [/home/abi/fetcher/tmp/synthetic_home-2.3.0.tar.gz]
+[2024-05-28 00:09:36] INFO root fetch - processPackages [synthetic-home]: Remove: archive file [/home/abi/fetcher/tmp/synthetic_home-2.4.0.tar.gz]
+[2024-05-28 00:09:36] INFO root fetch - main [MainThread]: End processing [synthetic-home]: success
+[2024-05-28 00:09:36] INFO root fetch - processPackages [django-salesforce-agpl]: Remove: archive file [/home/abi/fetcher/tmp/django-salesforce-agpl-5.0.1.1.tar.gz]
+[2024-05-28 00:09:36] INFO root fetch - processPackages [django-salesforce-agpl]: Remove: archive file [/home/abi/fetcher/tmp/django-salesforce-agpl-5.0.2.tar.gz]
+[2024-05-28 00:09:36] INFO root fetch - main [MainThread]: End processing [django-salesforce-agpl]: success
+[2024-05-28 00:09:38] INFO root fetch - processPackages [django-connectwise]: Remove: archive file [/home/abi/fetcher/tmp/django-connectwise-1.5.4.tar.gz]
+[2024-05-28 00:09:38] INFO root fetch - processPackages [django-connectwise]: Remove: archive file [/home/abi/fetcher/tmp/django-connectwise-1.5.5.tar.gz]
+[2024-05-28 00:09:38] INFO root fetch - main [MainThread]: End processing [django-connectwise]: success
+[2024-05-28 00:09:38] INFO root fetch - main [MainThread]: Store serial: [23402842]
