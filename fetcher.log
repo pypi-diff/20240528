@@ -1298,3 +1298,79 @@
 [2024-05-28 01:35:40] INFO root fetch - processPackages [yt-dlp]: Remove: archive file [/home/abi/fetcher/tmp/yt_dlp-2024.5.8.232715.dev0.tar.gz]
 [2024-05-28 01:35:40] INFO root fetch - main [MainThread]: End processing [yt-dlp]: success
 [2024-05-28 01:35:40] INFO root fetch - main [MainThread]: Store serial: [23403338]
+[2024-05-28 01:37:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23403338]
+[2024-05-28 01:37:49] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-28 01:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cli-chess
+[2024-05-28 01:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: promptic
+[2024-05-28 01:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyscript-ltk
+[2024-05-28 01:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gaussian-step
+[2024-05-28 01:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pr-pilot-cli
+[2024-05-28 01:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: langroid-slim
+[2024-05-28 01:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zed-assistant
+[2024-05-28 01:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: promptic
+[2024-05-28 01:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pytest-xstress
+[2024-05-28 01:37:49] INFO root fetch - processPackages [pr-pilot-cli]: New version: [1.0.3] Old Version: [1.0.0]
+[2024-05-28 01:37:49] INFO root fetch - processPackages [langroid-slim]: New version: [0.1.254] Old Version: [0.1.253]
+[2024-05-28 01:37:49] INFO root fetch - processPackages [pyscript-ltk]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-28 01:37:49] INFO root fetch - processPackages [promptic]: New version: [0.5.4] Old Version: [0.5.3]
+[2024-05-28 01:37:49] INFO root fetch - processPackages [promptic]: New version: [0.5.4] Old Version: [0.5.3]
+[2024-05-28 01:37:49] INFO root fetch - processPackages [cli-chess]: New version: [1.2.0] Old Version: [1.1.1]
+[2024-05-28 01:37:49] INFO root fetch - processPackages [gaussian-step]: New version: [2024.5.8] Old Version: [2024.5.27]
+[2024-05-28 01:37:49] INFO root fetch - processPackages [zed-assistant]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-28 01:37:49] INFO root fetch - processPackages [langroid-slim]: Downloading https://files.pythonhosted.org/packages/45/20/d3ab50071b3ed09534287f77958d88000a260dacbd33da790b0e7cadc1a6/langroid-slim-0.1.253.tar.gz
+[2024-05-28 01:37:49] WARNING root fetch - processPackages [pytest-xstress]: Skipping, unable to determine old version
+[2024-05-28 01:37:49] INFO root fetch - main [MainThread]: End processing [pytest-xstress] error
+[2024-05-28 01:37:49] INFO root fetch - processPackages [pyscript-ltk]: Downloading https://files.pythonhosted.org/packages/28/6e/96be52ee89b9a24fc42d6a4a18618ca41a2b1437aed89200641a3ad7cc13/pyscript-ltk-0.1.8.tar.gz
+[2024-05-28 01:37:49] INFO root fetch - processPackages [pr-pilot-cli]: Downloading https://files.pythonhosted.org/packages/75/38/00ed9e1bccd39d193a456304158bb10f71f2b02a177171ca2088e895bf7d/pr_pilot_cli-1.0.0.tar.gz
+[2024-05-28 01:37:49] INFO root fetch - processPackages [promptic]: Downloading https://files.pythonhosted.org/packages/25/95/254e0e0b8c0b8efd84da84d1b2ad6a7453fb2a3eca2e7bfd930d466af605/promptic-0.5.3.tar.gz
+[2024-05-28 01:37:49] INFO root fetch - processPackages [promptic]: Downloading https://files.pythonhosted.org/packages/25/95/254e0e0b8c0b8efd84da84d1b2ad6a7453fb2a3eca2e7bfd930d466af605/promptic-0.5.3.tar.gz
+[2024-05-28 01:37:49] INFO root fetch - processPackages [gaussian-step]: Downloading https://files.pythonhosted.org/packages/85/73/c3135df4bceb9de5810a22799f1fa5a0ee70b765c30cf262092ab753496f/gaussian_step-2024.5.27.tar.gz
+[2024-05-28 01:37:49] INFO root fetch - processPackages [cli-chess]: Downloading https://files.pythonhosted.org/packages/82/f6/b51cac45ae414725011d92ada2d8c193962e59f2743b1e4ca81dd879f985/cli-chess-1.1.1.tar.gz
+[2024-05-28 01:37:49] INFO root fetch - processPackages [zed-assistant]: Downloading https://files.pythonhosted.org/packages/46/5c/0a3a89ccac47ed9812ff2a225320252f9c57cdac347df9b42ebba4da8664/zed_assistant-0.0.3.tar.gz
+[2024-05-28 01:37:49] INFO root fetch - processPackages [pyscript-ltk]: Downloading https://files.pythonhosted.org/packages/a3/ee/ecb05ed84434f45a5ad24d6b5fdb04a89d83f6efe69dd691866b7eaee6e9/pyscript-ltk-0.1.9.tar.gz
+[2024-05-28 01:37:49] INFO root fetch - processPackages [langroid-slim]: Downloading https://files.pythonhosted.org/packages/4f/05/56cf870dfa2a55633e98038a8f4c9587346b24b8e67ab3e8b0fff7cc39c3/langroid-slim-0.1.254.tar.gz
+[2024-05-28 01:37:49] INFO root fetch - processPackages [pyscript-ltk]: executing diffoscope
+[2024-05-28 01:37:49] INFO root fetch - processPackages [pyscript-ltk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyscript-ltk-0.1.8.tar.gz tmp/pyscript-ltk-0.1.9.tar.gz --markdown 20240528/p/pyscript-ltk/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-28 01:37:49] INFO root fetch - processPackages [pr-pilot-cli]: Downloading https://files.pythonhosted.org/packages/50/00/d78b02e057b01306df6c43f4b8122957f9f4e3b6f7506e5515938aa317e8/pr_pilot_cli-1.0.3.tar.gz
+[2024-05-28 01:37:49] INFO root fetch - processPackages [promptic]: Downloading https://files.pythonhosted.org/packages/be/25/0308ee0e531bd925d459f32195215ced873f3d44d0f163a517875e3b74f3/promptic-0.5.4.tar.gz
+[2024-05-28 01:37:49] INFO root fetch - processPackages [promptic]: Downloading https://files.pythonhosted.org/packages/be/25/0308ee0e531bd925d459f32195215ced873f3d44d0f163a517875e3b74f3/promptic-0.5.4.tar.gz
+[2024-05-28 01:37:49] INFO root fetch - processPackages [langroid-slim]: executing diffoscope
+[2024-05-28 01:37:49] INFO root fetch - processPackages [langroid-slim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langroid-slim-0.1.253.tar.gz tmp/langroid-slim-0.1.254.tar.gz --markdown 20240528/l/langroid-slim/0.1.253-0.1.254/README.md --exclude *.pyd
+[2024-05-28 01:37:50] INFO root fetch - processPackages [pr-pilot-cli]: executing diffoscope
+[2024-05-28 01:37:50] INFO root fetch - processPackages [pr-pilot-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pr_pilot_cli-1.0.0.tar.gz tmp/pr_pilot_cli-1.0.3.tar.gz --markdown 20240528/p/pr-pilot-cli/1.0.0-1.0.3/README.md --exclude *.pyd
+[2024-05-28 01:37:50] INFO root fetch - processPackages [gaussian-step]: Downloading https://files.pythonhosted.org/packages/f7/08/eba7daf239b67376af3081a036ae3da626fa8a0a819d0de1d769d5838f53/gaussian_step-2024.5.8.tar.gz
+[2024-05-28 01:37:50] INFO root fetch - processPackages [zed-assistant]: Downloading https://files.pythonhosted.org/packages/e1/0a/bc5712cff199a8b4f636b03fd7fa4f6c3b3fbc1e8836996bf7486445f875/zed_assistant-0.0.4.tar.gz
+[2024-05-28 01:37:50] INFO root fetch - processPackages [promptic]: executing diffoscope
+[2024-05-28 01:37:50] INFO root fetch - processPackages [promptic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptic-0.5.3.tar.gz tmp/promptic-0.5.4.tar.gz --markdown 20240528/p/promptic/0.5.3-0.5.4/README.md --exclude *.pyd
+[2024-05-28 01:37:50] INFO root fetch - processPackages [promptic]: executing diffoscope
+[2024-05-28 01:37:50] INFO root fetch - processPackages [promptic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptic-0.5.3.tar.gz tmp/promptic-0.5.4.tar.gz --markdown 20240528/p/promptic/0.5.3-0.5.4/README.md --exclude *.pyd
+[2024-05-28 01:37:50] INFO root fetch - processPackages [gaussian-step]: executing diffoscope
+[2024-05-28 01:37:50] INFO root fetch - processPackages [gaussian-step]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaussian_step-2024.5.27.tar.gz tmp/gaussian_step-2024.5.8.tar.gz --markdown 20240528/g/gaussian-step/2024.5.27-2024.5.8/README.md --exclude *.pyd
+[2024-05-28 01:37:50] INFO root fetch - processPackages [cli-chess]: Downloading https://files.pythonhosted.org/packages/2a/2f/c5ea5775b4cebce00cc91b2998630d0524fc105d444bd4bbc64fd4b4da47/cli_chess-1.2.0.tar.gz
+[2024-05-28 01:37:50] INFO root fetch - processPackages [zed-assistant]: executing diffoscope
+[2024-05-28 01:37:50] INFO root fetch - processPackages [zed-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zed_assistant-0.0.3.tar.gz tmp/zed_assistant-0.0.4.tar.gz --markdown 20240528/z/zed-assistant/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-28 01:37:50] INFO root fetch - processPackages [cli-chess]: executing diffoscope
+[2024-05-28 01:37:50] INFO root fetch - processPackages [cli-chess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cli-chess-1.1.1.tar.gz tmp/cli_chess-1.2.0.tar.gz --markdown 20240528/c/cli-chess/1.1.1-1.2.0/README.md --exclude *.pyd
+[2024-05-28 01:37:50] INFO root fetch - processPackages [pyscript-ltk]: Remove: archive file [/home/abi/fetcher/tmp/pyscript-ltk-0.1.8.tar.gz]
+[2024-05-28 01:37:50] INFO root fetch - processPackages [pyscript-ltk]: Remove: archive file [/home/abi/fetcher/tmp/pyscript-ltk-0.1.9.tar.gz]
+[2024-05-28 01:37:50] INFO root fetch - main [MainThread]: End processing [pyscript-ltk]: success
+[2024-05-28 01:37:50] INFO root fetch - processPackages [pr-pilot-cli]: Remove: archive file [/home/abi/fetcher/tmp/pr_pilot_cli-1.0.0.tar.gz]
+[2024-05-28 01:37:50] INFO root fetch - processPackages [pr-pilot-cli]: Remove: archive file [/home/abi/fetcher/tmp/pr_pilot_cli-1.0.3.tar.gz]
+[2024-05-28 01:37:50] INFO root fetch - main [MainThread]: End processing [pr-pilot-cli]: success
+[2024-05-28 01:37:50] INFO root fetch - processPackages [promptic]: Remove: archive file [/home/abi/fetcher/tmp/promptic-0.5.3.tar.gz]
+[2024-05-28 01:37:50] INFO root fetch - processPackages [promptic]: Remove: archive file [/home/abi/fetcher/tmp/promptic-0.5.4.tar.gz]
+[2024-05-28 01:37:50] INFO root fetch - main [MainThread]: End processing [promptic]: success
+[2024-05-28 01:37:51] INFO root fetch - main [MainThread]: End processing [promptic]: success
+[2024-05-28 01:37:51] INFO root fetch - processPackages [zed-assistant]: Remove: archive file [/home/abi/fetcher/tmp/zed_assistant-0.0.3.tar.gz]
+[2024-05-28 01:37:51] INFO root fetch - processPackages [zed-assistant]: Remove: archive file [/home/abi/fetcher/tmp/zed_assistant-0.0.4.tar.gz]
+[2024-05-28 01:37:51] INFO root fetch - main [MainThread]: End processing [zed-assistant]: success
+[2024-05-28 01:37:51] INFO root fetch - processPackages [langroid-slim]: Remove: archive file [/home/abi/fetcher/tmp/langroid-slim-0.1.253.tar.gz]
+[2024-05-28 01:37:51] INFO root fetch - processPackages [langroid-slim]: Remove: archive file [/home/abi/fetcher/tmp/langroid-slim-0.1.254.tar.gz]
+[2024-05-28 01:37:51] INFO root fetch - main [MainThread]: End processing [langroid-slim]: success
+[2024-05-28 01:37:51] INFO root fetch - processPackages [gaussian-step]: Remove: archive file [/home/abi/fetcher/tmp/gaussian_step-2024.5.27.tar.gz]
+[2024-05-28 01:37:51] INFO root fetch - processPackages [gaussian-step]: Remove: archive file [/home/abi/fetcher/tmp/gaussian_step-2024.5.8.tar.gz]
+[2024-05-28 01:37:51] INFO root fetch - main [MainThread]: End processing [gaussian-step]: success
+[2024-05-28 01:37:51] INFO root fetch - processPackages [cli-chess]: Remove: archive file [/home/abi/fetcher/tmp/cli-chess-1.1.1.tar.gz]
+[2024-05-28 01:37:51] INFO root fetch - processPackages [cli-chess]: Remove: archive file [/home/abi/fetcher/tmp/cli_chess-1.2.0.tar.gz]
+[2024-05-28 01:37:51] INFO root fetch - main [MainThread]: End processing [cli-chess]: success
+[2024-05-28 01:37:51] INFO root fetch - main [MainThread]: Store serial: [23403367]
