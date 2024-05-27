@@ -1268,3 +1268,33 @@
 [2024-05-28 01:33:27] WARNING root fetch - processPackages [pr-pilot-cli]: Skipping, unable to determine old version
 [2024-05-28 01:33:27] INFO root fetch - main [MainThread]: End processing [pr-pilot-cli] error
 [2024-05-28 01:33:27] INFO root fetch - main [MainThread]: Store serial: [23403329]
+[2024-05-28 01:35:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23403329]
+[2024-05-28 01:35:35] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-28 01:35:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yt-dlp
+[2024-05-28 01:35:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ambient-edge-server
+[2024-05-28 01:35:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langroid-slim
+[2024-05-28 01:35:35] INFO root fetch - processPackages [ambient-edge-server]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-28 01:35:35] INFO root fetch - processPackages [langroid-slim]: New version: [0.1.253] Old Version: [0.1.252]
+[2024-05-28 01:35:35] INFO root fetch - processPackages [yt-dlp]: New version: [2024.5.8.232715.dev0] Old Version: [2024.5.5.232701.dev0]
+[2024-05-28 01:35:35] INFO root fetch - processPackages [ambient-edge-server]: Downloading https://files.pythonhosted.org/packages/70/65/7b38e38cd9b3ed99f9c8e9dadb36645f4fa34d5a3292c5b339ffacaf31ea/ambient_edge_server-0.1.1.tar.gz
+[2024-05-28 01:35:35] INFO root fetch - processPackages [langroid-slim]: Downloading https://files.pythonhosted.org/packages/b7/a8/411c640f5d7070e898ae2e00d3beb4f36fdf7697219f691f77bf65b64800/langroid-slim-0.1.252.tar.gz
+[2024-05-28 01:35:35] INFO root fetch - processPackages [yt-dlp]: Downloading https://files.pythonhosted.org/packages/84/b9/776c1dd6af3d11b008b3d15993bd9675fea67e86f7b78a1dac88febb9fcf/yt_dlp-2024.5.5.232701.dev0.tar.gz
+[2024-05-28 01:35:35] INFO root fetch - processPackages [ambient-edge-server]: Downloading https://files.pythonhosted.org/packages/9c/cc/1d2ee9623b978bc0c2d06dd0005aff74dd326be7b6a9714e78f47f803b3a/ambient_edge_server-0.1.2.tar.gz
+[2024-05-28 01:35:35] INFO root fetch - processPackages [ambient-edge-server]: executing diffoscope
+[2024-05-28 01:35:35] INFO root fetch - processPackages [ambient-edge-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ambient_edge_server-0.1.1.tar.gz tmp/ambient_edge_server-0.1.2.tar.gz --markdown 20240528/a/ambient-edge-server/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-28 01:35:35] INFO root fetch - processPackages [langroid-slim]: Downloading https://files.pythonhosted.org/packages/45/20/d3ab50071b3ed09534287f77958d88000a260dacbd33da790b0e7cadc1a6/langroid-slim-0.1.253.tar.gz
+[2024-05-28 01:35:35] INFO root fetch - processPackages [yt-dlp]: Downloading https://files.pythonhosted.org/packages/29/37/4d7e7b1d095d515aef0e3e9af758d0dc33fceebfe46ebce02a1a240d274c/yt_dlp-2024.5.8.232715.dev0.tar.gz
+[2024-05-28 01:35:35] INFO root fetch - processPackages [langroid-slim]: executing diffoscope
+[2024-05-28 01:35:35] INFO root fetch - processPackages [langroid-slim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langroid-slim-0.1.252.tar.gz tmp/langroid-slim-0.1.253.tar.gz --markdown 20240528/l/langroid-slim/0.1.252-0.1.253/README.md --exclude *.pyd
+[2024-05-28 01:35:36] INFO root fetch - processPackages [yt-dlp]: executing diffoscope
+[2024-05-28 01:35:36] INFO root fetch - processPackages [yt-dlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yt_dlp-2024.5.5.232701.dev0.tar.gz tmp/yt_dlp-2024.5.8.232715.dev0.tar.gz --markdown 20240528/y/yt-dlp/2024.5.5.232701.dev0-2024.5.8.232715.dev0/README.md --exclude *.pyd
+[2024-05-28 01:35:36] INFO root fetch - processPackages [ambient-edge-server]: Remove: archive file [/home/abi/fetcher/tmp/ambient_edge_server-0.1.1.tar.gz]
+[2024-05-28 01:35:36] INFO root fetch - processPackages [ambient-edge-server]: Remove: archive file [/home/abi/fetcher/tmp/ambient_edge_server-0.1.2.tar.gz]
+[2024-05-28 01:35:36] INFO root fetch - main [MainThread]: End processing [ambient-edge-server]: success
+[2024-05-28 01:35:36] INFO root fetch - processPackages [langroid-slim]: Remove: archive file [/home/abi/fetcher/tmp/langroid-slim-0.1.252.tar.gz]
+[2024-05-28 01:35:36] INFO root fetch - processPackages [langroid-slim]: Remove: archive file [/home/abi/fetcher/tmp/langroid-slim-0.1.253.tar.gz]
+[2024-05-28 01:35:36] INFO root fetch - main [MainThread]: End processing [langroid-slim]: success
+[2024-05-28 01:35:40] INFO root fetch - processPackages [yt-dlp]: Remove: archive file [/home/abi/fetcher/tmp/yt_dlp-2024.5.5.232701.dev0.tar.gz]
+[2024-05-28 01:35:40] INFO root fetch - processPackages [yt-dlp]: Remove: archive file [/home/abi/fetcher/tmp/yt_dlp-2024.5.8.232715.dev0.tar.gz]
+[2024-05-28 01:35:40] INFO root fetch - main [MainThread]: End processing [yt-dlp]: success
+[2024-05-28 01:35:40] INFO root fetch - main [MainThread]: Store serial: [23403338]
