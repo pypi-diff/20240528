@@ -831,3 +831,36 @@
 [2024-05-28 00:59:21] INFO root fetch - processPackages [crate-docs-theme]: Remove: archive file [/home/abi/fetcher/tmp/crate-docs-theme-0.9.6.tar.gz]
 [2024-05-28 00:59:21] INFO root fetch - main [MainThread]: End processing [crate-docs-theme]: success
 [2024-05-28 00:59:21] INFO root fetch - main [MainThread]: Store serial: [23403184]
+[2024-05-28 01:01:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23403184]
+[2024-05-28 01:01:29] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-28 01:01:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: class-cache
+[2024-05-28 01:01:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fudstop
+[2024-05-28 01:01:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pdftext
+[2024-05-28 01:01:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fishhoof
+[2024-05-28 01:01:29] INFO root fetch - processPackages [class-cache]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-28 01:01:29] WARNING root fetch - processPackages [fishhoof]: Skipping, unable to determine old version
+[2024-05-28 01:01:29] INFO root fetch - main [MainThread]: End processing [fishhoof] error
+[2024-05-28 01:01:29] INFO root fetch - processPackages [fudstop]: New version: [2.7.4] Old Version: [2.7.3]
+[2024-05-28 01:01:29] INFO root fetch - processPackages [class-cache]: Downloading https://files.pythonhosted.org/packages/c4/83/f379d9d3893a01d4d271301e987ead84abf793f8ac70180751beb6cac35e/class_cache-0.3.0.tar.gz
+[2024-05-28 01:01:29] INFO root fetch - processPackages [fudstop]: Downloading https://files.pythonhosted.org/packages/ea/79/bb11c659f8a67843aa51d4683b1b0aab963130d147be1d51fe5f87590a46/fudstop-2.7.3.tar.gz
+[2024-05-28 01:01:29] INFO root fetch - processPackages [pdftext]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-28 01:01:30] INFO root fetch - processPackages [pdftext]: Downloading https://files.pythonhosted.org/packages/ac/52/2c6e19c4a4cdceb8741a64caaae186126a9a9877dd97c89563373aa8d0f4/pdftext-0.3.8.tar.gz
+[2024-05-28 01:01:30] INFO root fetch - processPackages [fudstop]: Downloading https://files.pythonhosted.org/packages/60/b5/58daed29c7e7b0deeba9598e531ff5762679044d9950123a8fa19394a314/fudstop-2.7.4.tar.gz
+[2024-05-28 01:01:30] INFO root fetch - processPackages [class-cache]: Downloading https://files.pythonhosted.org/packages/68/a7/9b531e4f4ae6792377ba16c202bbad0b5646e63c21c8312bf666ff34e0a9/class_cache-0.4.0.tar.gz
+[2024-05-28 01:01:30] INFO root fetch - processPackages [class-cache]: executing diffoscope
+[2024-05-28 01:01:30] INFO root fetch - processPackages [class-cache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/class_cache-0.3.0.tar.gz tmp/class_cache-0.4.0.tar.gz --markdown 20240528/c/class-cache/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-28 01:01:30] INFO root fetch - processPackages [fudstop]: executing diffoscope
+[2024-05-28 01:01:30] INFO root fetch - processPackages [fudstop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fudstop-2.7.3.tar.gz tmp/fudstop-2.7.4.tar.gz --markdown 20240528/f/fudstop/2.7.3-2.7.4/README.md --exclude *.pyd
+[2024-05-28 01:01:30] INFO root fetch - processPackages [pdftext]: Downloading https://files.pythonhosted.org/packages/36/1e/c4452d4c3f5c01b8be21d6e20a9fddcce3899342f4b1b26169c60e3a26dc/pdftext-0.3.9.tar.gz
+[2024-05-28 01:01:30] INFO root fetch - processPackages [pdftext]: executing diffoscope
+[2024-05-28 01:01:30] INFO root fetch - processPackages [pdftext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdftext-0.3.8.tar.gz tmp/pdftext-0.3.9.tar.gz --markdown 20240528/p/pdftext/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-28 01:01:30] INFO root fetch - processPackages [class-cache]: Remove: archive file [/home/abi/fetcher/tmp/class_cache-0.3.0.tar.gz]
+[2024-05-28 01:01:30] INFO root fetch - processPackages [class-cache]: Remove: archive file [/home/abi/fetcher/tmp/class_cache-0.4.0.tar.gz]
+[2024-05-28 01:01:30] INFO root fetch - main [MainThread]: End processing [class-cache]: success
+[2024-05-28 01:01:31] INFO root fetch - processPackages [pdftext]: Remove: archive file [/home/abi/fetcher/tmp/pdftext-0.3.8.tar.gz]
+[2024-05-28 01:01:31] INFO root fetch - processPackages [pdftext]: Remove: archive file [/home/abi/fetcher/tmp/pdftext-0.3.9.tar.gz]
+[2024-05-28 01:01:31] INFO root fetch - main [MainThread]: End processing [pdftext]: success
+[2024-05-28 01:01:31] INFO root fetch - processPackages [fudstop]: Remove: archive file [/home/abi/fetcher/tmp/fudstop-2.7.3.tar.gz]
+[2024-05-28 01:01:31] INFO root fetch - processPackages [fudstop]: Remove: archive file [/home/abi/fetcher/tmp/fudstop-2.7.4.tar.gz]
+[2024-05-28 01:01:31] INFO root fetch - main [MainThread]: End processing [fudstop]: success
+[2024-05-28 01:01:31] INFO root fetch - main [MainThread]: Store serial: [23403195]
