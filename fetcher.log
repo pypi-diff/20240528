@@ -969,3 +969,33 @@
 [2024-05-28 01:10:12] INFO root fetch - processPackages [promptic]: Remove: archive file [/home/abi/fetcher/tmp/promptic-0.5.0.tar.gz]
 [2024-05-28 01:10:12] INFO root fetch - main [MainThread]: End processing [promptic]: success
 [2024-05-28 01:10:12] INFO root fetch - main [MainThread]: Store serial: [23403230]
+[2024-05-28 01:12:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23403230]
+[2024-05-28 01:12:20] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-28 01:12:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cursedpy
+[2024-05-28 01:12:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pysembrane
+[2024-05-28 01:12:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chaiverse
+[2024-05-28 01:12:20] INFO root fetch - processPackages [cursedpy]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-05-28 01:12:20] INFO root fetch - processPackages [pysembrane]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-28 01:12:20] INFO root fetch - processPackages [chaiverse]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-28 01:12:20] INFO root fetch - processPackages [pysembrane]: Downloading https://files.pythonhosted.org/packages/65/85/26a72bd008b02800c1eb65467659b1db5a80a92eef3f135102fbb640fcf4/pysembrane-0.0.1.tar.gz
+[2024-05-28 01:12:20] INFO root fetch - processPackages [cursedpy]: Downloading https://files.pythonhosted.org/packages/aa/d4/bb2f8d415e4f1a73204ab615da2ca6acf5dd1412d7a2b78434ab60f1c345/cursedpy-0.1.2.tar.gz
+[2024-05-28 01:12:20] INFO root fetch - processPackages [chaiverse]: Downloading https://files.pythonhosted.org/packages/40/8f/0c28b09c5b933f63a5e9e2b50a3e8a06a87151afc8e162b2c09deedc4bf0/chaiverse-1.9.8.tar.gz
+[2024-05-28 01:12:21] INFO root fetch - processPackages [pysembrane]: Downloading https://files.pythonhosted.org/packages/68/70/10557dc172c15c310a550f39c334f1940bf5203c52d9029c990039c389cd/pysembrane-0.0.2.tar.gz
+[2024-05-28 01:12:21] INFO root fetch - processPackages [cursedpy]: Downloading https://files.pythonhosted.org/packages/22/27/bb786436209b2811604c789290cafce6ee64625a09bfcf182f25dc5467cc/cursedpy-0.2.0.tar.gz
+[2024-05-28 01:12:21] INFO root fetch - processPackages [pysembrane]: executing diffoscope
+[2024-05-28 01:12:21] INFO root fetch - processPackages [pysembrane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysembrane-0.0.1.tar.gz tmp/pysembrane-0.0.2.tar.gz --markdown 20240528/p/pysembrane/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-28 01:12:21] INFO root fetch - processPackages [chaiverse]: Downloading https://files.pythonhosted.org/packages/4c/ed/6d3e89ab870b31d2281b7595f6030d767109316508a89f1d6178491348cd/chaiverse-1.9.9.tar.gz
+[2024-05-28 01:12:21] INFO root fetch - processPackages [cursedpy]: executing diffoscope
+[2024-05-28 01:12:21] INFO root fetch - processPackages [cursedpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cursedpy-0.1.2.tar.gz tmp/cursedpy-0.2.0.tar.gz --markdown 20240528/c/cursedpy/0.1.2-0.2.0/README.md --exclude *.pyd
+[2024-05-28 01:12:21] INFO root fetch - processPackages [chaiverse]: executing diffoscope
+[2024-05-28 01:12:21] INFO root fetch - processPackages [chaiverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chaiverse-1.9.8.tar.gz tmp/chaiverse-1.9.9.tar.gz --markdown 20240528/c/chaiverse/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-05-28 01:12:21] INFO root fetch - processPackages [cursedpy]: Remove: archive file [/home/abi/fetcher/tmp/cursedpy-0.1.2.tar.gz]
+[2024-05-28 01:12:21] INFO root fetch - processPackages [cursedpy]: Remove: archive file [/home/abi/fetcher/tmp/cursedpy-0.2.0.tar.gz]
+[2024-05-28 01:12:21] INFO root fetch - main [MainThread]: End processing [cursedpy]: success
+[2024-05-28 01:12:21] INFO root fetch - processPackages [pysembrane]: Remove: archive file [/home/abi/fetcher/tmp/pysembrane-0.0.1.tar.gz]
+[2024-05-28 01:12:21] INFO root fetch - processPackages [pysembrane]: Remove: archive file [/home/abi/fetcher/tmp/pysembrane-0.0.2.tar.gz]
+[2024-05-28 01:12:21] INFO root fetch - main [MainThread]: End processing [pysembrane]: success
+[2024-05-28 01:12:22] INFO root fetch - processPackages [chaiverse]: Remove: archive file [/home/abi/fetcher/tmp/chaiverse-1.9.8.tar.gz]
+[2024-05-28 01:12:22] INFO root fetch - processPackages [chaiverse]: Remove: archive file [/home/abi/fetcher/tmp/chaiverse-1.9.9.tar.gz]
+[2024-05-28 01:12:22] INFO root fetch - main [MainThread]: End processing [chaiverse]: success
+[2024-05-28 01:12:22] INFO root fetch - main [MainThread]: Store serial: [23403238]
