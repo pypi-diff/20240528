@@ -632,3 +632,33 @@
 [2024-05-28 00:44:03] INFO root fetch - processPackages [yt-dlp]: Remove: archive file [/home/abi/fetcher/tmp/yt_dlp-2024.5.8.232715.dev0.tar.gz]
 [2024-05-28 00:44:03] INFO root fetch - main [MainThread]: End processing [yt-dlp]: success
 [2024-05-28 00:44:03] INFO root fetch - main [MainThread]: Store serial: [23403094]
+[2024-05-28 00:46:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23403094]
+[2024-05-28 00:46:12] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-28 00:46:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yt-dlpp
+[2024-05-28 00:46:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: athena-intelligence
+[2024-05-28 00:46:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: depocs
+[2024-05-28 00:46:12] INFO root fetch - processPackages [yt-dlpp]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-28 00:46:12] INFO root fetch - processPackages [depocs]: New version: [2.0.0] Old Version: [1.0.1]
+[2024-05-28 00:46:12] INFO root fetch - processPackages [athena-intelligence]: New version: [0.1.66] Old Version: [0.1.65]
+[2024-05-28 00:46:12] INFO root fetch - processPackages [athena-intelligence]: Downloading https://files.pythonhosted.org/packages/83/70/30ec93275e945a19db29cf3865cbf60ad91c65d540b35308a4036f9712b9/athena_intelligence-0.1.65.tar.gz
+[2024-05-28 00:46:12] INFO root fetch - processPackages [depocs]: Downloading https://files.pythonhosted.org/packages/f5/ef/5e492c1d76f151eb9d75b18202bd89a3612769d6133b0b010a364483e295/depocs-1.0.1.tar.gz
+[2024-05-28 00:46:12] INFO root fetch - processPackages [yt-dlpp]: Downloading https://files.pythonhosted.org/packages/72/63/f640f72c32cf7ecc1315c97cffb33026b5b3a98fead4e36cdbf5ba9cc2f2/yt_dlpp-1.0.0.tar.gz
+[2024-05-28 00:46:12] INFO root fetch - processPackages [yt-dlpp]: Downloading https://files.pythonhosted.org/packages/85/9d/8cbfc14e19a00d1a0ffe61b475a83e9b24553043b1c05c5c150124064e37/yt_dlpp-1.0.1.tar.gz
+[2024-05-28 00:46:12] INFO root fetch - processPackages [depocs]: Downloading https://files.pythonhosted.org/packages/d5/a9/2013f72e05cb47b21636d95fa8eaad471da24f68fc425bb7cef778ffe3aa/depocs-2.0.0.tar.gz
+[2024-05-28 00:46:12] INFO root fetch - processPackages [athena-intelligence]: Downloading https://files.pythonhosted.org/packages/1f/fe/32dae95e850528a24dee481bdaf819f9947a7a8014685e06f2edd5e5ae0c/athena_intelligence-0.1.66.tar.gz
+[2024-05-28 00:46:12] INFO root fetch - processPackages [yt-dlpp]: executing diffoscope
+[2024-05-28 00:46:12] INFO root fetch - processPackages [yt-dlpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yt_dlpp-1.0.0.tar.gz tmp/yt_dlpp-1.0.1.tar.gz --markdown 20240528/y/yt-dlpp/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-28 00:46:12] INFO root fetch - processPackages [depocs]: executing diffoscope
+[2024-05-28 00:46:12] INFO root fetch - processPackages [depocs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/depocs-1.0.1.tar.gz tmp/depocs-2.0.0.tar.gz --markdown 20240528/d/depocs/1.0.1-2.0.0/README.md --exclude *.pyd
+[2024-05-28 00:46:12] INFO root fetch - processPackages [athena-intelligence]: executing diffoscope
+[2024-05-28 00:46:12] INFO root fetch - processPackages [athena-intelligence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/athena_intelligence-0.1.65.tar.gz tmp/athena_intelligence-0.1.66.tar.gz --markdown 20240528/a/athena-intelligence/0.1.65-0.1.66/README.md --exclude *.pyd
+[2024-05-28 00:46:13] INFO root fetch - processPackages [yt-dlpp]: Remove: archive file [/home/abi/fetcher/tmp/yt_dlpp-1.0.0.tar.gz]
+[2024-05-28 00:46:13] INFO root fetch - processPackages [yt-dlpp]: Remove: archive file [/home/abi/fetcher/tmp/yt_dlpp-1.0.1.tar.gz]
+[2024-05-28 00:46:13] INFO root fetch - main [MainThread]: End processing [yt-dlpp]: success
+[2024-05-28 00:46:13] INFO root fetch - processPackages [depocs]: Remove: archive file [/home/abi/fetcher/tmp/depocs-1.0.1.tar.gz]
+[2024-05-28 00:46:13] INFO root fetch - processPackages [depocs]: Remove: archive file [/home/abi/fetcher/tmp/depocs-2.0.0.tar.gz]
+[2024-05-28 00:46:13] INFO root fetch - main [MainThread]: End processing [depocs]: success
+[2024-05-28 00:46:13] INFO root fetch - processPackages [athena-intelligence]: Remove: archive file [/home/abi/fetcher/tmp/athena_intelligence-0.1.65.tar.gz]
+[2024-05-28 00:46:13] INFO root fetch - processPackages [athena-intelligence]: Remove: archive file [/home/abi/fetcher/tmp/athena_intelligence-0.1.66.tar.gz]
+[2024-05-28 00:46:13] INFO root fetch - main [MainThread]: End processing [athena-intelligence]: success
+[2024-05-28 00:46:13] INFO root fetch - main [MainThread]: Store serial: [23403103]
