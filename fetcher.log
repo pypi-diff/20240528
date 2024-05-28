@@ -16353,3 +16353,59 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 12:50:22] INFO root fetch - processPackages [odoo-addon-payroll]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_payroll-17.0.1.0.0.8-py3-none-any.whl.zip]
 [2024-05-28 12:50:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-payroll]: success
 [2024-05-28 12:50:22] INFO root fetch - main [MainThread]: Store serial: [23409807]
+[2024-05-28 12:52:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23409807]
+[2024-05-28 12:52:32] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-28 12:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nuance
+[2024-05-28 12:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hdn-research-environment
+[2024-05-28 12:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: transtimegrad
+[2024-05-28 12:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dingosdk
+[2024-05-28 12:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ptsamesite
+[2024-05-28 12:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kalente
+[2024-05-28 12:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jinaai-api-schemas
+[2024-05-28 12:52:32] INFO root fetch - processPackages [dingosdk]: New version: [0.1rc8.post1] Old Version: [0.1rc8]
+[2024-05-28 12:52:32] INFO root fetch - processPackages [ptsamesite]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-28 12:52:32] INFO root fetch - processPackages [hdn-research-environment]: New version: [3.0.7rc0] Old Version: [3.0.7a7]
+[2024-05-28 12:52:32] WARNING root fetch - processPackages [transtimegrad]: Skipping, unable to determine old version
+[2024-05-28 12:52:32] INFO root fetch - main [MainThread]: End processing [transtimegrad] error
+[2024-05-28 12:52:32] INFO root fetch - processPackages [nuance]: New version: [0.7.0] Old Version: [0.6.1]
+[2024-05-28 12:52:32] INFO root fetch - processPackages [kalente]: New version: [0.2.0] Old Version: [0.1.3]
+[2024-05-28 12:52:32] INFO root fetch - processPackages [jinaai-api-schemas]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-28 12:52:32] INFO root fetch - processPackages [dingosdk]: Downloading https://files.pythonhosted.org/packages/5d/5f/8ecbc2f57ee500ab54d9e3d2ec2bb8410222933ffe6161c3ca2e23f80dd1/dingosdk-0.1rc8.tar.gz
+[2024-05-28 12:52:33] INFO root fetch - processPackages [hdn-research-environment]: Downloading https://files.pythonhosted.org/packages/35/ae/d74904ed82f3d2be1e453fbd9fe2cc31923e508961b3b7ff01015b7792ad/hdn-research-environment-3.0.7a7.tar.gz
+[2024-05-28 12:52:33] WARNING root fetch - processPackages [dingosdk]: Skipping package: exceeds size limit 63305192>=10485760
+[2024-05-28 12:52:33] INFO root fetch - main [MainThread]: End processing [dingosdk] error
+[2024-05-28 12:52:33] INFO root fetch - processPackages [ptsamesite]: Downloading https://files.pythonhosted.org/packages/82/4f/d6f1675aa93f15e6e72b16c83ed23dab60ad2f4fda14386136f6bdca0457/ptsamesite-1.0.2.tar.gz
+[2024-05-28 12:52:33] INFO root fetch - processPackages [nuance]: Downloading https://files.pythonhosted.org/packages/bf/c6/8ebb4765d60bf47914bb48596b56fab42e8e394acd08c7d7a74cf33c73c4/nuance-0.6.1.tar.gz
+[2024-05-28 12:52:33] INFO root fetch - processPackages [kalente]: Downloading https://files.pythonhosted.org/packages/28/e9/c76bb291873427d1e5567cb46de8a40873dafad709dd57d1fa483e1bef22/kalente-0.1.3.tar.gz
+[2024-05-28 12:52:33] INFO root fetch - processPackages [jinaai-api-schemas]: Downloading https://files.pythonhosted.org/packages/25/39/f863141710107516bb3ddba4fc7996934fb79d7c7b3f929453a812fa8eab/jinaai_api_schemas-0.0.8.tar.gz
+[2024-05-28 12:52:33] INFO root fetch - processPackages [hdn-research-environment]: Downloading https://files.pythonhosted.org/packages/b0/e8/a2e77f18206f465ec2cf20c049c6a261c27baa8bbdf52c92a58ff7b6248d/hdn-research-environment-3.0.7rc0.tar.gz
+[2024-05-28 12:52:33] INFO root fetch - processPackages [nuance]: Downloading https://files.pythonhosted.org/packages/6d/f0/498780fcb0ce2099f4756a4e3f1338b2ba237c3015e91a528f3eb7bf14c9/nuance-0.7.0.tar.gz
+[2024-05-28 12:52:33] INFO root fetch - processPackages [ptsamesite]: Downloading https://files.pythonhosted.org/packages/22/b5/6edba70c41a7862f994c7c805f5aa71eef042fd8052eefc8f6a46a7dab8c/ptsamesite-1.0.3.tar.gz
+[2024-05-28 12:52:33] INFO root fetch - processPackages [ptsamesite]: executing diffoscope
+[2024-05-28 12:52:33] INFO root fetch - processPackages [ptsamesite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ptsamesite-1.0.2.tar.gz tmp/ptsamesite-1.0.3.tar.gz --markdown 20240528/p/ptsamesite/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-28 12:52:33] INFO root fetch - processPackages [jinaai-api-schemas]: Downloading https://files.pythonhosted.org/packages/61/d2/6821514a6cc42b5b55a3eb2ee495174540c809889a9e0ba57657f8d637c4/jinaai_api_schemas-0.0.9.tar.gz
+[2024-05-28 12:52:33] INFO root fetch - processPackages [hdn-research-environment]: executing diffoscope
+[2024-05-28 12:52:33] INFO root fetch - processPackages [hdn-research-environment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdn-research-environment-3.0.7a7.tar.gz tmp/hdn-research-environment-3.0.7rc0.tar.gz --markdown 20240528/h/hdn-research-environment/3.0.7a7-3.0.7rc0/README.md --exclude *.pyd
+[2024-05-28 12:52:33] INFO root fetch - processPackages [nuance]: executing diffoscope
+[2024-05-28 12:52:33] INFO root fetch - processPackages [nuance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nuance-0.6.1.tar.gz tmp/nuance-0.7.0.tar.gz --markdown 20240528/n/nuance/0.6.1-0.7.0/README.md --exclude *.pyd
+[2024-05-28 12:52:33] INFO root fetch - processPackages [jinaai-api-schemas]: executing diffoscope
+[2024-05-28 12:52:33] INFO root fetch - processPackages [jinaai-api-schemas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jinaai_api_schemas-0.0.8.tar.gz tmp/jinaai_api_schemas-0.0.9.tar.gz --markdown 20240528/j/jinaai-api-schemas/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-28 12:52:34] INFO root fetch - processPackages [ptsamesite]: Remove: archive file [/home/abi/fetcher/tmp/ptsamesite-1.0.2.tar.gz]
+[2024-05-28 12:52:34] INFO root fetch - processPackages [ptsamesite]: Remove: archive file [/home/abi/fetcher/tmp/ptsamesite-1.0.3.tar.gz]
+[2024-05-28 12:52:34] INFO root fetch - main [MainThread]: End processing [ptsamesite]: success
+[2024-05-28 12:52:34] INFO root fetch - processPackages [kalente]: Downloading https://files.pythonhosted.org/packages/52/c7/d413d682ad6c90705afe73bc5a54cdee4f8c4dc3548687995255ea6e49d8/kalente-0.2.0.tar.gz
+[2024-05-28 12:52:34] INFO root fetch - processPackages [nuance]: Remove: archive file [/home/abi/fetcher/tmp/nuance-0.6.1.tar.gz]
+[2024-05-28 12:52:34] INFO root fetch - processPackages [nuance]: Remove: archive file [/home/abi/fetcher/tmp/nuance-0.7.0.tar.gz]
+[2024-05-28 12:52:34] INFO root fetch - main [MainThread]: End processing [nuance]: success
+[2024-05-28 12:52:34] INFO root fetch - processPackages [jinaai-api-schemas]: Remove: archive file [/home/abi/fetcher/tmp/jinaai_api_schemas-0.0.8.tar.gz]
+[2024-05-28 12:52:34] INFO root fetch - processPackages [jinaai-api-schemas]: Remove: archive file [/home/abi/fetcher/tmp/jinaai_api_schemas-0.0.9.tar.gz]
+[2024-05-28 12:52:34] INFO root fetch - main [MainThread]: End processing [jinaai-api-schemas]: success
+[2024-05-28 12:52:34] INFO root fetch - processPackages [hdn-research-environment]: Remove: archive file [/home/abi/fetcher/tmp/hdn-research-environment-3.0.7a7.tar.gz]
+[2024-05-28 12:52:34] INFO root fetch - processPackages [hdn-research-environment]: Remove: archive file [/home/abi/fetcher/tmp/hdn-research-environment-3.0.7rc0.tar.gz]
+[2024-05-28 12:52:34] INFO root fetch - main [MainThread]: End processing [hdn-research-environment]: success
+[2024-05-28 12:52:34] INFO root fetch - processPackages [kalente]: executing diffoscope
+[2024-05-28 12:52:34] INFO root fetch - processPackages [kalente]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalente-0.1.3.tar.gz tmp/kalente-0.2.0.tar.gz --markdown 20240528/k/kalente/0.1.3-0.2.0/README.md --exclude *.pyd
+[2024-05-28 12:52:35] INFO root fetch - processPackages [kalente]: Remove: archive file [/home/abi/fetcher/tmp/kalente-0.1.3.tar.gz]
+[2024-05-28 12:52:35] INFO root fetch - processPackages [kalente]: Remove: archive file [/home/abi/fetcher/tmp/kalente-0.2.0.tar.gz]
+[2024-05-28 12:52:35] INFO root fetch - main [MainThread]: End processing [kalente]: success
+[2024-05-28 12:52:35] INFO root fetch - main [MainThread]: Store serial: [23409828]
