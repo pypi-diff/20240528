@@ -12215,3 +12215,128 @@
 [2024-05-28 10:36:34] INFO root fetch - processPackages [yangsuite-netconf]: Remove: archive file [/home/abi/fetcher/tmp/yangsuite_netconf-1.17.8.post0.dev38-py3-none-any.whl.zip]
 [2024-05-28 10:36:34] INFO root fetch - main [MainThread]: End processing [yangsuite-netconf]: success
 [2024-05-28 10:36:34] INFO root fetch - main [MainThread]: Store serial: [23408023]
+[2024-05-28 10:38:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23408023]
+[2024-05-28 10:38:46] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-05-28 10:38:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eolymp
+[2024-05-28 10:38:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-sdwan
+[2024-05-28 10:38:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: KratosRANSApplication
+[2024-05-28 10:38:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: DISPbind
+[2024-05-28 10:38:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: updes
+[2024-05-28 10:38:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: metabolights-utils
+[2024-05-28 10:38:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: KratosRomApplication
+[2024-05-28 10:38:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-delivery-gls-asm
+[2024-05-28 10:38:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sqlfluff-common-conventions
+[2024-05-28 10:38:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: KratosShallowWaterApplication
+[2024-05-28 10:38:47] INFO root fetch - processPackages [pulumi-sdwan]: New version: [0.1.0a1716883043] Old Version: [0.1.0a1716879684]
+[2024-05-28 10:38:47] INFO root fetch - processPackages [metabolights-utils]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-28 10:38:47] INFO root fetch - processPackages [eolymp]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-28 10:38:47] INFO root fetch - processPackages [KratosRANSApplication]: New version: [9.5.1] Old Version: [9.5]
+[2024-05-28 10:38:47] INFO root fetch - processPackages [updes]: New version: [1.0.2] Old Version: [1.0.1.post0]
+[2024-05-28 10:38:47] INFO root fetch - processPackages [odoo-addon-delivery-gls-asm]: New version: [16.0.1.1.1] Old Version: [16.0.1.1.0.1]
+[2024-05-28 10:38:47] INFO root fetch - processPackages [DISPbind]: New version: [1.1.0] Old Version: [1.0.2]
+[2024-05-28 10:38:47] INFO root fetch - processPackages [sqlfluff-common-conventions]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-28 10:38:47] INFO root fetch - processPackages [KratosShallowWaterApplication]: New version: [9.5.1] Old Version: [9.5]
+[2024-05-28 10:38:47] INFO root fetch - processPackages [metabolights-utils]: Downloading https://files.pythonhosted.org/packages/bd/8e/b47b096b774dd9884b891bede5c49ce79167a93bab19fe93e5d40ff73d61/metabolights_utils-0.9.8.tar.gz
+[2024-05-28 10:38:47] INFO root fetch - processPackages [KratosRomApplication]: New version: [9.5.1] Old Version: [9.5]
+[2024-05-28 10:38:47] INFO root fetch - processPackages [eolymp]: Downloading https://files.pythonhosted.org/packages/b4/7e/616d80edbba0ebc4de3d8b9e073268ed513845acc17f3f0c5687e2745d1d/eolymp-0.9.8.tar.gz
+[2024-05-28 10:38:47] INFO root fetch - processPackages [pulumi-sdwan]: Downloading https://files.pythonhosted.org/packages/65/50/acf1c4afc5c8d2b43864686e9bd2fe5e6bbea727d88579e675ed7caf2d1c/pulumi_sdwan-0.1.0a1716879684.tar.gz
+[2024-05-28 10:38:47] INFO root fetch - processPackages [KratosRANSApplication]: Downloading https://files.pythonhosted.org/packages/4a/39/441d53f25e3f9e5cb6a46103db961e2d166af54d37d479e54aec79e89602/KratosRANSApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-28 10:38:47] INFO root fetch - processPackages [updes]: Downloading https://files.pythonhosted.org/packages/32/e9/0ddeffffdff8ee85d63458e2876493bb6cee92ba12524bedbe26e350d308/updes-1.0.1.post0.tar.gz
+[2024-05-28 10:38:47] INFO root fetch - processPackages [DISPbind]: Downloading https://files.pythonhosted.org/packages/38/7c/a11c4a1ff076443372ac0eaa6f63ddfaaf230b2f90d0d19d6c5dd0548413/DISPbind-1.0.2.tar.gz
+[2024-05-28 10:38:47] INFO root fetch - processPackages [sqlfluff-common-conventions]: Downloading https://files.pythonhosted.org/packages/40/38/dd3bdff591dc7e0c3d014a454b3926bcdb600cc229bf307c71b7bb7d4758/sqlfluff_common_conventions-0.3.1.tar.gz
+[2024-05-28 10:38:47] INFO root fetch - processPackages [odoo-addon-delivery-gls-asm]: Downloading https://files.pythonhosted.org/packages/cc/cf/c192e0e5b2a980b3fe032a76b2759fe9ec7a2508dc024a3d5df7723bd5ba/odoo_addon_delivery_gls_asm-16.0.1.1.0.1-py3-none-any.whl
+[2024-05-28 10:38:47] INFO root fetch - processPackages [KratosShallowWaterApplication]: Downloading https://files.pythonhosted.org/packages/dc/a5/72ad7b0b51eca912fa4c4096893c99111d448b8bcf0891da27445b5d1860/KratosShallowWaterApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-28 10:38:47] WARNING root fetch - processPackages [KratosRANSApplication]: Skipping package: exceeds size limit 16438314>=10485760
+[2024-05-28 10:38:47] INFO root fetch - processPackages [KratosRANSApplication]: Start processing: cognito-pyauth
+[2024-05-28 10:38:47] INFO root fetch - main [MainThread]: End processing [KratosRANSApplication] error
+[2024-05-28 10:38:47] INFO root fetch - processPackages [metabolights-utils]: Downloading https://files.pythonhosted.org/packages/87/47/6c0324333142cb1da7e62fca84a9198992ffb8901c7f9642e1f58cd5ed2f/metabolights_utils-0.9.9.tar.gz
+[2024-05-28 10:38:47] INFO root fetch - processPackages [eolymp]: Downloading https://files.pythonhosted.org/packages/b7/fe/df96d638fe0a51e45220154bf6bc8588f92805e80d6cf2e908d0226bf3c9/eolymp-0.9.9.tar.gz
+[2024-05-28 10:38:47] INFO root fetch - processPackages [KratosRomApplication]: Downloading https://files.pythonhosted.org/packages/47/bb/bc7174c2125806077b2fa959f314e448dbc540e3bbfc20db629da35bb350/KratosRomApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-28 10:38:47] INFO root fetch - processPackages [cognito-pyauth]: New version: [1.3.4] Old Version: [1.3.3]
+[2024-05-28 10:38:47] INFO root fetch - processPackages [metabolights-utils]: executing diffoscope
+[2024-05-28 10:38:47] INFO root fetch - processPackages [metabolights-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metabolights_utils-0.9.8.tar.gz tmp/metabolights_utils-0.9.9.tar.gz --markdown 20240528/m/metabolights-utils/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-28 10:38:47] INFO root fetch - processPackages [cognito-pyauth]: Downloading https://files.pythonhosted.org/packages/ce/21/8c37db1798cfc4490cb36b379be2d860ebebebccd9e8425bd02070e52a64/cognito_pyauth-1.3.3.tar.gz
+[2024-05-28 10:38:47] INFO root fetch - processPackages [eolymp]: executing diffoscope
+[2024-05-28 10:38:47] INFO root fetch - processPackages [eolymp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eolymp-0.9.8.tar.gz tmp/eolymp-0.9.9.tar.gz --markdown 20240528/e/eolymp/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-28 10:38:48] INFO root fetch - processPackages [updes]: Downloading https://files.pythonhosted.org/packages/d5/72/53d1115446c239fbee35631f0ab5c5c9af5ed2f622d0d8dff983894e6acf/updes-1.0.2.tar.gz
+[2024-05-28 10:38:48] INFO root fetch - processPackages [pulumi-sdwan]: Downloading https://files.pythonhosted.org/packages/28/b3/83496f37a4958fbc01c77ce4eb29490a4ab747d9ea182b1983fad6969891/pulumi_sdwan-0.1.0a1716883043.tar.gz
+[2024-05-28 10:38:48] INFO root fetch - processPackages [DISPbind]: Downloading https://files.pythonhosted.org/packages/28/02/639c32b52c0838d42d1ee83f4fe26919849233dee690bd0656a8cd90e2bc/dispbind-1.1.0.tar.gz
+[2024-05-28 10:38:48] INFO root fetch - processPackages [cognito-pyauth]: Downloading https://files.pythonhosted.org/packages/d9/61/45eb6391eb5769dabe49dd36d460cd16e716f97745f06d6d7642021b4510/cognito_pyauth-1.3.4.tar.gz
+[2024-05-28 10:38:48] INFO root fetch - processPackages [sqlfluff-common-conventions]: Downloading https://files.pythonhosted.org/packages/96/bc/05327f4367868e78ae14729bf56d3559623bd7e0a52f3fbdb7e4335f1941/sqlfluff_common_conventions-0.3.2.tar.gz
+[2024-05-28 10:38:48] INFO root fetch - processPackages [updes]: executing diffoscope
+[2024-05-28 10:38:48] INFO root fetch - processPackages [updes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/updes-1.0.1.post0.tar.gz tmp/updes-1.0.2.tar.gz --markdown 20240528/u/updes/1.0.1.post0-1.0.2/README.md --exclude *.pyd
+[2024-05-28 10:38:48] INFO root fetch - processPackages [odoo-addon-delivery-gls-asm]: Downloading https://files.pythonhosted.org/packages/e8/06/260bb89b037b697d2d668c5bd7fbfe15b659fecb7ab200d3bfa8156eed03/odoo_addon_delivery_gls_asm-16.0.1.1.1-py3-none-any.whl
+[2024-05-28 10:38:48] INFO root fetch - processPackages [DISPbind]: executing diffoscope
+[2024-05-28 10:38:48] INFO root fetch - processPackages [DISPbind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DISPbind-1.0.2.tar.gz tmp/dispbind-1.1.0.tar.gz --markdown 20240528/D/DISPbind/1.0.2-1.1.0/README.md --exclude *.pyd
+[2024-05-28 10:38:48] INFO root fetch - processPackages [cognito-pyauth]: executing diffoscope
+[2024-05-28 10:38:48] INFO root fetch - processPackages [cognito-pyauth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognito_pyauth-1.3.3.tar.gz tmp/cognito_pyauth-1.3.4.tar.gz --markdown 20240528/c/cognito-pyauth/1.3.3-1.3.4/README.md --exclude *.pyd
+[2024-05-28 10:38:48] INFO root fetch - processPackages [KratosShallowWaterApplication]: Downloading https://files.pythonhosted.org/packages/d4/0c/bc662577b7fd5ce46fe7eb2d9757f317f5e3898f31b481bb390878992419/KratosShallowWaterApplication-9.5.1-cp39-cp39-win_amd64.whl
+[2024-05-28 10:38:48] INFO root fetch - processPackages [odoo-addon-delivery-gls-asm]: executing diffoscope
+[2024-05-28 10:38:48] INFO root fetch - processPackages [odoo-addon-delivery-gls-asm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_delivery_gls_asm-16.0.1.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_delivery_gls_asm-16.0.1.1.1-py3-none-any.whl.zip --markdown 20240528/o/odoo-addon-delivery-gls-asm/16.0.1.1.0.1-16.0.1.1.1/README.md --exclude *.pyd
+[2024-05-28 10:38:48] INFO root fetch - processPackages [pulumi-sdwan]: executing diffoscope
+[2024-05-28 10:38:48] INFO root fetch - processPackages [pulumi-sdwan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_sdwan-0.1.0a1716879684.tar.gz tmp/pulumi_sdwan-0.1.0a1716883043.tar.gz --markdown 20240528/p/pulumi-sdwan/0.1.0a1716879684-0.1.0a1716883043/README.md --exclude *.pyd
+[2024-05-28 10:38:48] INFO root fetch - processPackages [sqlfluff-common-conventions]: executing diffoscope
+[2024-05-28 10:38:48] INFO root fetch - processPackages [sqlfluff-common-conventions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlfluff_common_conventions-0.3.1.tar.gz tmp/sqlfluff_common_conventions-0.3.2.tar.gz --markdown 20240528/s/sqlfluff-common-conventions/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-28 10:38:48] INFO root fetch - processPackages [KratosRomApplication]: Downloading https://files.pythonhosted.org/packages/4b/3b/998dddfe7d12416e41d6b677847e5c35d7cc0595160ed19302ebbe2cbb74/KratosRomApplication-9.5.1-cp39-cp39-win_amd64.whl
+[2024-05-28 10:38:48] INFO root fetch - processPackages [KratosShallowWaterApplication]: executing diffoscope
+[2024-05-28 10:38:48] INFO root fetch - processPackages [KratosShallowWaterApplication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KratosShallowWaterApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/KratosShallowWaterApplication-9.5.1-cp39-cp39-win_amd64.whl.zip --markdown 20240528/K/KratosShallowWaterApplication/9.5-9.5.1/README.md --exclude *.pyd
+[2024-05-28 10:38:48] INFO root fetch - processPackages [KratosRomApplication]: executing diffoscope
+[2024-05-28 10:38:48] INFO root fetch - processPackages [KratosRomApplication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KratosRomApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/KratosRomApplication-9.5.1-cp39-cp39-win_amd64.whl.zip --markdown 20240528/K/KratosRomApplication/9.5-9.5.1/README.md --exclude *.pyd
+[2024-05-28 10:38:49] INFO root fetch - processPackages [DISPbind]: Remove: archive file [/home/abi/fetcher/tmp/DISPbind-1.0.2.tar.gz]
+[2024-05-28 10:38:49] INFO root fetch - processPackages [DISPbind]: Remove: archive file [/home/abi/fetcher/tmp/dispbind-1.1.0.tar.gz]
+[2024-05-28 10:38:49] INFO root fetch - processPackages [DISPbind]: Start processing: KratosShapeOptimizationApplication
+[2024-05-28 10:38:49] INFO root fetch - main [MainThread]: End processing [DISPbind]: success
+[2024-05-28 10:38:49] INFO root fetch - processPackages [cognito-pyauth]: Remove: archive file [/home/abi/fetcher/tmp/cognito_pyauth-1.3.3.tar.gz]
+[2024-05-28 10:38:49] INFO root fetch - processPackages [cognito-pyauth]: Remove: archive file [/home/abi/fetcher/tmp/cognito_pyauth-1.3.4.tar.gz]
+[2024-05-28 10:38:49] INFO root fetch - processPackages [cognito-pyauth]: Start processing: KratosStatisticsApplication
+[2024-05-28 10:38:49] INFO root fetch - main [MainThread]: End processing [cognito-pyauth]: success
+[2024-05-28 10:38:49] INFO root fetch - processPackages [metabolights-utils]: Remove: archive file [/home/abi/fetcher/tmp/metabolights_utils-0.9.8.tar.gz]
+[2024-05-28 10:38:49] INFO root fetch - processPackages [metabolights-utils]: Remove: archive file [/home/abi/fetcher/tmp/metabolights_utils-0.9.9.tar.gz]
+[2024-05-28 10:38:49] INFO root fetch - processPackages [metabolights-utils]: Start processing: arduino-iot-cloud
+[2024-05-28 10:38:49] INFO root fetch - main [MainThread]: End processing [metabolights-utils]: success
+[2024-05-28 10:38:49] INFO root fetch - processPackages [arduino-iot-cloud]: New version: [1.3.0] Old Version: [1.2.0]
+[2024-05-28 10:38:49] INFO root fetch - processPackages [updes]: Remove: archive file [/home/abi/fetcher/tmp/updes-1.0.1.post0.tar.gz]
+[2024-05-28 10:38:49] INFO root fetch - processPackages [updes]: Remove: archive file [/home/abi/fetcher/tmp/updes-1.0.2.tar.gz]
+[2024-05-28 10:38:49] INFO root fetch - main [MainThread]: End processing [updes]: success
+[2024-05-28 10:38:49] INFO root fetch - processPackages [KratosShapeOptimizationApplication]: New version: [9.5.1] Old Version: [9.5]
+[2024-05-28 10:38:49] INFO root fetch - processPackages [KratosStatisticsApplication]: New version: [9.5.1] Old Version: [9.5]
+[2024-05-28 10:38:49] INFO root fetch - processPackages [sqlfluff-common-conventions]: Remove: archive file [/home/abi/fetcher/tmp/sqlfluff_common_conventions-0.3.1.tar.gz]
+[2024-05-28 10:38:49] INFO root fetch - processPackages [sqlfluff-common-conventions]: Remove: archive file [/home/abi/fetcher/tmp/sqlfluff_common_conventions-0.3.2.tar.gz]
+[2024-05-28 10:38:49] INFO root fetch - main [MainThread]: End processing [sqlfluff-common-conventions]: success
+[2024-05-28 10:38:49] INFO root fetch - processPackages [odoo-addon-delivery-gls-asm]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_delivery_gls_asm-16.0.1.1.0.1-py3-none-any.whl.zip]
+[2024-05-28 10:38:49] INFO root fetch - processPackages [odoo-addon-delivery-gls-asm]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_delivery_gls_asm-16.0.1.1.1-py3-none-any.whl.zip]
+[2024-05-28 10:38:49] INFO root fetch - main [MainThread]: End processing [odoo-addon-delivery-gls-asm]: success
+[2024-05-28 10:38:49] INFO root fetch - processPackages [arduino-iot-cloud]: Downloading https://files.pythonhosted.org/packages/33/09/f5b484652fe7b356b77bb49907c5f6452e328dbc3619117b6dfc9ec476d3/arduino_iot_cloud-1.2.0.tar.gz
+[2024-05-28 10:38:49] INFO root fetch - processPackages [KratosShapeOptimizationApplication]: Downloading https://files.pythonhosted.org/packages/01/16/930d6ae2246f801742818a55bf650f2924008f863cc76390511fe7d67a41/KratosShapeOptimizationApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-28 10:38:49] INFO root fetch - processPackages [KratosStatisticsApplication]: Downloading https://files.pythonhosted.org/packages/59/0c/ebfd0a6a43be57df1b18f8f6b12f459367986332389e05a3bfa10e3cee7b/KratosStatisticsApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-28 10:38:49] INFO root fetch - processPackages [arduino-iot-cloud]: Downloading https://files.pythonhosted.org/packages/6c/b8/3dba5eceac44e52ef0282abaeeb71edb92284314123b41b4e38b7566d580/arduino_iot_cloud-1.3.0.tar.gz
+[2024-05-28 10:38:49] INFO root fetch - processPackages [arduino-iot-cloud]: executing diffoscope
+[2024-05-28 10:38:49] INFO root fetch - processPackages [arduino-iot-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arduino_iot_cloud-1.2.0.tar.gz tmp/arduino_iot_cloud-1.3.0.tar.gz --markdown 20240528/a/arduino-iot-cloud/1.2.0-1.3.0/README.md --exclude *.pyd
+[2024-05-28 10:38:49] INFO root fetch - processPackages [KratosShapeOptimizationApplication]: Downloading https://files.pythonhosted.org/packages/7b/49/94182eabad1410f3dbc76ff2cf4ce957b26b3d556f2e38cea58bae14c3e9/KratosShapeOptimizationApplication-9.5.1-cp39-cp39-win_amd64.whl
+[2024-05-28 10:38:50] INFO root fetch - processPackages [KratosRomApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosRomApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-28 10:38:50] INFO root fetch - processPackages [KratosRomApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosRomApplication-9.5.1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-28 10:38:50] INFO root fetch - main [MainThread]: End processing [KratosRomApplication]: success
+[2024-05-28 10:38:50] INFO root fetch - processPackages [eolymp]: Remove: archive file [/home/abi/fetcher/tmp/eolymp-0.9.8.tar.gz]
+[2024-05-28 10:38:50] INFO root fetch - processPackages [eolymp]: Remove: archive file [/home/abi/fetcher/tmp/eolymp-0.9.9.tar.gz]
+[2024-05-28 10:38:50] INFO root fetch - main [MainThread]: End processing [eolymp]: success
+[2024-05-28 10:38:50] INFO root fetch - processPackages [KratosShallowWaterApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosShallowWaterApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-28 10:38:50] INFO root fetch - processPackages [KratosShallowWaterApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosShallowWaterApplication-9.5.1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-28 10:38:50] INFO root fetch - main [MainThread]: End processing [KratosShallowWaterApplication]: success
+[2024-05-28 10:38:50] INFO root fetch - processPackages [KratosShapeOptimizationApplication]: executing diffoscope
+[2024-05-28 10:38:50] INFO root fetch - processPackages [KratosShapeOptimizationApplication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KratosShapeOptimizationApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/KratosShapeOptimizationApplication-9.5.1-cp39-cp39-win_amd64.whl.zip --markdown 20240528/K/KratosShapeOptimizationApplication/9.5-9.5.1/README.md --exclude *.pyd
+[2024-05-28 10:38:50] INFO root fetch - processPackages [KratosStatisticsApplication]: Downloading https://files.pythonhosted.org/packages/99/ce/6e549627222a77d7663efad50c46a6f2bd261005103b96486051d64eecb1/KratosStatisticsApplication-9.5.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-28 10:38:50] INFO root fetch - processPackages [arduino-iot-cloud]: Remove: archive file [/home/abi/fetcher/tmp/arduino_iot_cloud-1.2.0.tar.gz]
+[2024-05-28 10:38:50] INFO root fetch - processPackages [arduino-iot-cloud]: Remove: archive file [/home/abi/fetcher/tmp/arduino_iot_cloud-1.3.0.tar.gz]
+[2024-05-28 10:38:50] INFO root fetch - main [MainThread]: End processing [arduino-iot-cloud]: success
+[2024-05-28 10:38:50] INFO root fetch - processPackages [pulumi-sdwan]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_sdwan-0.1.0a1716879684.tar.gz]
+[2024-05-28 10:38:50] INFO root fetch - processPackages [pulumi-sdwan]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_sdwan-0.1.0a1716883043.tar.gz]
+[2024-05-28 10:38:50] INFO root fetch - main [MainThread]: End processing [pulumi-sdwan]: success
+[2024-05-28 10:38:51] INFO root fetch - processPackages [KratosShapeOptimizationApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosShapeOptimizationApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-28 10:38:51] INFO root fetch - processPackages [KratosShapeOptimizationApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosShapeOptimizationApplication-9.5.1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-28 10:38:51] INFO root fetch - main [MainThread]: End processing [KratosShapeOptimizationApplication]: success
+[2024-05-28 10:38:52] INFO root fetch - processPackages [KratosStatisticsApplication]: executing diffoscope
+[2024-05-28 10:38:52] INFO root fetch - processPackages [KratosStatisticsApplication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KratosStatisticsApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/KratosStatisticsApplication-9.5.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240528/K/KratosStatisticsApplication/9.5-9.5.1/README.md --exclude *.pyd
+[2024-05-28 10:39:23] INFO root fetch - processPackages [KratosStatisticsApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosStatisticsApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-28 10:39:23] INFO root fetch - processPackages [KratosStatisticsApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosStatisticsApplication-9.5.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-28 10:39:23] INFO root fetch - main [MainThread]: End processing [KratosStatisticsApplication]: success
+[2024-05-28 10:39:23] INFO root fetch - main [MainThread]: Store serial: [23408102]
