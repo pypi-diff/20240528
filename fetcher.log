@@ -4061,3 +4061,27 @@
 [2024-05-28 04:39:40] INFO root fetch - processPackages [WebSearcher]: Remove: archive file [/home/abi/fetcher/tmp/WebSearcher-0.4.0.tar.gz]
 [2024-05-28 04:39:40] INFO root fetch - main [MainThread]: End processing [WebSearcher]: success
 [2024-05-28 04:39:40] INFO root fetch - main [MainThread]: Store serial: [23404467]
+[2024-05-28 04:41:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23404467]
+[2024-05-28 04:41:49] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-28 04:41:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dlq-handler-lib
+[2024-05-28 04:41:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-mis-builder-cash-flow
+[2024-05-28 04:41:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: coconut-develop
+[2024-05-28 04:41:49] INFO root fetch - processPackages [coconut-develop]: New version: [3.1.0.post0.dev9] Old Version: [3.1.0.post0.dev8]
+[2024-05-28 04:41:49] WARNING root fetch - processPackages [dlq-handler-lib]: Skipping, unable to determine old version
+[2024-05-28 04:41:49] INFO root fetch - main [MainThread]: End processing [dlq-handler-lib] error
+[2024-05-28 04:41:49] INFO root fetch - processPackages [odoo-addon-mis-builder-cash-flow]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2024-05-28 04:41:49] INFO root fetch - processPackages [coconut-develop]: Downloading https://files.pythonhosted.org/packages/c9/52/852c50fb7afeae75f0f89a0a02001b8acadbf4ae78724b159a077190c1b0/coconut-develop-3.1.0.post0.dev8.tar.gz
+[2024-05-28 04:41:50] INFO root fetch - processPackages [odoo-addon-mis-builder-cash-flow]: Downloading https://files.pythonhosted.org/packages/60/61/f458516dedbf20c45e87ff48f78c526ec5323b11ac32bb75265a047b0958/odoo_addon_mis_builder_cash_flow-16.0.1.0.0.8-py3-none-any.whl
+[2024-05-28 04:41:50] INFO root fetch - processPackages [coconut-develop]: Downloading https://files.pythonhosted.org/packages/dd/01/30acfa4b7546ecb9a8f3194eae81fcf5daafdddebce842a4acd20d5231ff/coconut-develop-3.1.0.post0.dev9.tar.gz
+[2024-05-28 04:41:50] INFO root fetch - processPackages [coconut-develop]: executing diffoscope
+[2024-05-28 04:41:50] INFO root fetch - processPackages [coconut-develop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coconut-develop-3.1.0.post0.dev8.tar.gz tmp/coconut-develop-3.1.0.post0.dev9.tar.gz --markdown 20240528/c/coconut-develop/3.1.0.post0.dev8-3.1.0.post0.dev9/README.md --exclude *.pyd
+[2024-05-28 04:41:51] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.1.0.post0.dev8.tar.gz]
+[2024-05-28 04:41:51] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.1.0.post0.dev9.tar.gz]
+[2024-05-28 04:41:51] INFO root fetch - main [MainThread]: End processing [coconut-develop]: success
+[2024-05-28 04:41:51] INFO root fetch - processPackages [odoo-addon-mis-builder-cash-flow]: Downloading https://files.pythonhosted.org/packages/3f/8d/16794f29dc2d512958d2605489e70cea3cb447befa9cb695c57ab4e7b44c/odoo_addon_mis_builder_cash_flow-16.0.1.0.0.9-py3-none-any.whl
+[2024-05-28 04:41:51] INFO root fetch - processPackages [odoo-addon-mis-builder-cash-flow]: executing diffoscope
+[2024-05-28 04:41:51] INFO root fetch - processPackages [odoo-addon-mis-builder-cash-flow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mis_builder_cash_flow-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_mis_builder_cash_flow-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20240528/o/odoo-addon-mis-builder-cash-flow/16.0.1.0.0.8-16.0.1.0.0.9/README.md --exclude *.pyd
+[2024-05-28 04:41:52] INFO root fetch - processPackages [odoo-addon-mis-builder-cash-flow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mis_builder_cash_flow-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-05-28 04:41:52] INFO root fetch - processPackages [odoo-addon-mis-builder-cash-flow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mis_builder_cash_flow-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2024-05-28 04:41:52] INFO root fetch - main [MainThread]: End processing [odoo-addon-mis-builder-cash-flow]: success
+[2024-05-28 04:41:52] INFO root fetch - main [MainThread]: Store serial: [23404475]
