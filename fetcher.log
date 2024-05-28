@@ -10219,3 +10219,130 @@
 [2024-05-28 09:31:11] INFO root fetch - processPackages [package-tea-hanyan]: Remove: archive file [/home/abi/fetcher/tmp/package_tea_hanyan-1.0.4.tar.gz]
 [2024-05-28 09:31:11] INFO root fetch - main [MainThread]: End processing [package-tea-hanyan]: success
 [2024-05-28 09:31:11] INFO root fetch - main [MainThread]: Store serial: [23407065]
+[2024-05-28 09:33:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23407065]
+[2024-05-28 09:33:19] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2024-05-28 09:33:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aioli-sdk
+[2024-05-28 09:33:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: udata-front
+[2024-05-28 09:33:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cerebrumscanner-hello
+[2024-05-28 09:33:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-mail-post-defer
+[2024-05-28 09:33:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-mail-gateway
+[2024-05-28 09:33:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-sdwan
+[2024-05-28 09:33:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-mail-gateway-whatsapp
+[2024-05-28 09:33:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-mail-gateway-telegram
+[2024-05-28 09:33:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qoa4ml
+[2024-05-28 09:33:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ftrack-framework-core
+[2024-05-28 09:33:20] INFO root fetch - processPackages [qoa4ml]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-28 09:33:20] INFO root fetch - processPackages [aioli-sdk]: New version: [0.2.4.dev9] Old Version: [0.2.4.dev8]
+[2024-05-28 09:33:20] INFO root fetch - processPackages [odoo-addon-mail-gateway-whatsapp]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2024-05-28 09:33:20] INFO root fetch - processPackages [ftrack-framework-core]: New version: [2.3.0rc1] Old Version: [2.3.0]
+[2024-05-28 09:33:20] INFO root fetch - processPackages [odoo-addon-mail-gateway]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2024-05-28 09:33:20] INFO root fetch - processPackages [qoa4ml]: Downloading https://files.pythonhosted.org/packages/ee/eb/02dc0647523ad3602e58b395b20e232e837b9418d45be10483e6387b2543/qoa4ml-0.2.1.tar.gz
+[2024-05-28 09:33:20] INFO root fetch - processPackages [cerebrumscanner-hello]: New version: [0.0.1b9] Old Version: [0.0.1b8]
+[2024-05-28 09:33:20] WARNING root fetch - processPackages [pulumi-sdwan]: Skipping, unable to determine old version
+[2024-05-28 09:33:20] INFO root fetch - processPackages [pulumi-sdwan]: Start processing: esp-docs
+[2024-05-28 09:33:20] INFO root fetch - processPackages [odoo-addon-mail-gateway-telegram]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2024-05-28 09:33:20] INFO root fetch - main [MainThread]: End processing [pulumi-sdwan] error
+[2024-05-28 09:33:20] INFO root fetch - processPackages [odoo-addon-mail-post-defer]: New version: [16.0.1.1.0.2] Old Version: [16.0.1.1.0.1]
+[2024-05-28 09:33:20] INFO root fetch - processPackages [udata-front]: New version: [4.0.3.dev20224] Old Version: [4.0.3.dev20088]
+[2024-05-28 09:33:20] INFO root fetch - processPackages [aioli-sdk]: Downloading https://files.pythonhosted.org/packages/41/22/a68a0b8afa86af8f7495b222843e5a457fea1e1881f3bc96eed5c464e540/aioli_sdk-0.2.4.dev8.tar.gz
+[2024-05-28 09:33:20] INFO root fetch - processPackages [cerebrumscanner-hello]: Downloading https://files.pythonhosted.org/packages/27/42/eda8b83bd3b40c75a6531f43736ab671cd997320974fbf452022dbbf3d15/cerebrumscanner_hello-0.0.1b8.tar.gz
+[2024-05-28 09:33:20] INFO root fetch - processPackages [ftrack-framework-core]: Downloading https://files.pythonhosted.org/packages/77/ac/e4ac7c902c1cf02931bd035edd2824431c22e25868a7289fea1544c3d34d/ftrack_framework_core-2.3.0.tar.gz
+[2024-05-28 09:33:20] INFO root fetch - processPackages [esp-docs]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-05-28 09:33:20] INFO root fetch - processPackages [odoo-addon-mail-gateway-whatsapp]: Downloading https://files.pythonhosted.org/packages/2a/2c/34c93ff7be0760b2b109f1c9dc4158b01d851519f83b0d9e69acb05e92b5/odoo_addon_mail_gateway_whatsapp-16.0.1.0.0.2-py3-none-any.whl
+[2024-05-28 09:33:20] INFO root fetch - processPackages [odoo-addon-mail-post-defer]: Downloading https://files.pythonhosted.org/packages/ce/a6/b31c3698fcd15df2b3a3a334acdbf14fc7caea06cc9e1cd1a0c879ef6601/odoo_addon_mail_post_defer-16.0.1.1.0.1-py3-none-any.whl
+[2024-05-28 09:33:20] INFO root fetch - processPackages [odoo-addon-mail-gateway]: Downloading https://files.pythonhosted.org/packages/c3/ca/26963139987cdf340ffc14ddc92b430757f41031534a983aa881fea94f13/odoo_addon_mail_gateway-16.0.1.0.0.2-py3-none-any.whl
+[2024-05-28 09:33:20] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/a1/1c/2422a895eade7cadbf71902c79f667fb5795c33da47f6eee478a20603a7d/udata_front-4.0.3.dev20088-py2.py3-none-any.whl
+[2024-05-28 09:33:20] INFO root fetch - processPackages [odoo-addon-mail-gateway-telegram]: Downloading https://files.pythonhosted.org/packages/34/d5/c48bf4a5597bb3f2ce0e74b1006f7cd3f16a3927b5c98ea3c0f6f1963b18/odoo_addon_mail_gateway_telegram-16.0.1.0.0.3-py3-none-any.whl
+[2024-05-28 09:33:20] INFO root fetch - processPackages [aioli-sdk]: Downloading https://files.pythonhosted.org/packages/cd/25/d9848a3a017be39218d1ccb6f4e8007a0c7781325b6e49f176c030e37d80/aioli_sdk-0.2.4.dev9.tar.gz
+[2024-05-28 09:33:20] INFO root fetch - processPackages [qoa4ml]: Downloading https://files.pythonhosted.org/packages/1a/16/c16a7b602fa050452a7f24810b0962e8ceb58fa1623a467fb5c382b39d22/qoa4ml-0.2.2.tar.gz
+[2024-05-28 09:33:20] WARNING root fetch - processPackages [udata-front]: Skipping package: exceeds size limit 10488591>=10485760
+[2024-05-28 09:33:20] INFO root fetch - processPackages [udata-front]: Start processing: odoo-addon-mail-tracking
+[2024-05-28 09:33:20] INFO root fetch - main [MainThread]: End processing [udata-front] error
+[2024-05-28 09:33:20] INFO root fetch - processPackages [esp-docs]: Downloading https://files.pythonhosted.org/packages/3c/fb/cb6e69947f57318a2e1ab55aae6553ea8418fbc37deffb9cece92a73a9aa/esp_docs-1.9.1.tar.gz
+[2024-05-28 09:33:20] INFO root fetch - processPackages [aioli-sdk]: executing diffoscope
+[2024-05-28 09:33:20] INFO root fetch - processPackages [aioli-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioli_sdk-0.2.4.dev8.tar.gz tmp/aioli_sdk-0.2.4.dev9.tar.gz --markdown 20240528/a/aioli-sdk/0.2.4.dev8-0.2.4.dev9/README.md --exclude *.pyd
+[2024-05-28 09:33:20] WARNING root fetch - processPackages [esp-docs]: Skipping package: exceeds size limit 16031353>=10485760
+[2024-05-28 09:33:20] INFO root fetch - processPackages [esp-docs]: Start processing: lottokit
+[2024-05-28 09:33:20] INFO root fetch - main [MainThread]: End processing [esp-docs] error
+[2024-05-28 09:33:20] INFO root fetch - processPackages [cerebrumscanner-hello]: Downloading https://files.pythonhosted.org/packages/13/0e/b0b46c2d6c8e6cb92e49eb5c37c8c2268d5a605aad6706861dd5bb32cc6c/cerebrumscanner_hello-0.0.1b9.tar.gz
+[2024-05-28 09:33:20] INFO root fetch - processPackages [qoa4ml]: executing diffoscope
+[2024-05-28 09:33:20] INFO root fetch - processPackages [qoa4ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qoa4ml-0.2.1.tar.gz tmp/qoa4ml-0.2.2.tar.gz --markdown 20240528/q/qoa4ml/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-28 09:33:20] INFO root fetch - processPackages [ftrack-framework-core]: Downloading https://files.pythonhosted.org/packages/1c/8c/8f0e566f0abc38446c8d0d63919aee5cc24045862d8b3aa000f5c371fdde/ftrack_framework_core-2.3.0rc1.tar.gz
+[2024-05-28 09:33:20] INFO root fetch - processPackages [odoo-addon-mail-tracking]: New version: [16.0.1.0.4.8] Old Version: [16.0.1.0.4.69]
+[2024-05-28 09:33:20] INFO root fetch - processPackages [odoo-addon-mail-post-defer]: Downloading https://files.pythonhosted.org/packages/c3/1c/7fde762ed28078b1404f67aa5c76347856f6c5a408fec1dad3b9d6a0fb1b/odoo_addon_mail_post_defer-16.0.1.1.0.2-py3-none-any.whl
+[2024-05-28 09:33:20] INFO root fetch - processPackages [odoo-addon-mail-gateway-whatsapp]: Downloading https://files.pythonhosted.org/packages/a5/90/72b9c5193cc9b69809f86851a72c58eea115083eea102a420a229415ec9a/odoo_addon_mail_gateway_whatsapp-16.0.1.0.0.3-py3-none-any.whl
+[2024-05-28 09:33:20] INFO root fetch - processPackages [odoo-addon-mail-gateway]: Downloading https://files.pythonhosted.org/packages/41/af/892653247b4679dd3a5ca6ab90e1a3ccaa39987a06bebad4e33069f7240f/odoo_addon_mail_gateway-16.0.1.0.0.3-py3-none-any.whl
+[2024-05-28 09:33:20] INFO root fetch - processPackages [lottokit]: New version: [1.3] Old Version: [1.2]
+[2024-05-28 09:33:20] INFO root fetch - processPackages [odoo-addon-mail-gateway-telegram]: Downloading https://files.pythonhosted.org/packages/00/de/6a2f78209a188dbe7b5a32fc02d18272507ca2848e44a16beed5fd83645c/odoo_addon_mail_gateway_telegram-16.0.1.0.0.4-py3-none-any.whl
+[2024-05-28 09:33:21] INFO root fetch - processPackages [cerebrumscanner-hello]: executing diffoscope
+[2024-05-28 09:33:21] INFO root fetch - processPackages [cerebrumscanner-hello]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cerebrumscanner_hello-0.0.1b8.tar.gz tmp/cerebrumscanner_hello-0.0.1b9.tar.gz --markdown 20240528/c/cerebrumscanner-hello/0.0.1b8-0.0.1b9/README.md --exclude *.pyd
+[2024-05-28 09:33:21] INFO root fetch - processPackages [odoo-addon-mail-tracking]: Downloading https://files.pythonhosted.org/packages/f9/f9/38e28e6da24765240b12956f4ee860d40984a8c5ca70b6f857830cc08104/odoo_addon_mail_tracking-16.0.1.0.4.69-py3-none-any.whl
+[2024-05-28 09:33:21] INFO root fetch - processPackages [ftrack-framework-core]: executing diffoscope
+[2024-05-28 09:33:21] INFO root fetch - processPackages [ftrack-framework-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ftrack_framework_core-2.3.0.tar.gz tmp/ftrack_framework_core-2.3.0rc1.tar.gz --markdown 20240528/f/ftrack-framework-core/2.3.0-2.3.0rc1/README.md --exclude *.pyd
+[2024-05-28 09:33:21] INFO root fetch - processPackages [odoo-addon-mail-gateway-whatsapp]: executing diffoscope
+[2024-05-28 09:33:21] INFO root fetch - processPackages [odoo-addon-mail-gateway-whatsapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mail_gateway_whatsapp-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_mail_gateway_whatsapp-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240528/o/odoo-addon-mail-gateway-whatsapp/16.0.1.0.0.2-16.0.1.0.0.3/README.md --exclude *.pyd
+[2024-05-28 09:33:21] INFO root fetch - processPackages [odoo-addon-mail-post-defer]: executing diffoscope
+[2024-05-28 09:33:21] INFO root fetch - processPackages [odoo-addon-mail-post-defer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mail_post_defer-16.0.1.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_mail_post_defer-16.0.1.1.0.2-py3-none-any.whl.zip --markdown 20240528/o/odoo-addon-mail-post-defer/16.0.1.1.0.1-16.0.1.1.0.2/README.md --exclude *.pyd
+[2024-05-28 09:33:21] INFO root fetch - processPackages [lottokit]: Downloading https://files.pythonhosted.org/packages/af/d5/fba7b4f8ac15ae954f8471adbdf62a0693f2d1b379f6969d223f1eb81d7b/lottokit-1.2.tar.gz
+[2024-05-28 09:33:21] INFO root fetch - processPackages [odoo-addon-mail-gateway]: executing diffoscope
+[2024-05-28 09:33:21] INFO root fetch - processPackages [odoo-addon-mail-gateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mail_gateway-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_mail_gateway-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240528/o/odoo-addon-mail-gateway/16.0.1.0.0.2-16.0.1.0.0.3/README.md --exclude *.pyd
+[2024-05-28 09:33:21] INFO root fetch - processPackages [odoo-addon-mail-gateway-telegram]: executing diffoscope
+[2024-05-28 09:33:21] INFO root fetch - processPackages [odoo-addon-mail-gateway-telegram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mail_gateway_telegram-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_mail_gateway_telegram-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240528/o/odoo-addon-mail-gateway-telegram/16.0.1.0.0.3-16.0.1.0.0.4/README.md --exclude *.pyd
+[2024-05-28 09:33:21] INFO root fetch - processPackages [lottokit]: Downloading https://files.pythonhosted.org/packages/5a/96/3acd8985157a673ca34c0882818d0e9d95274e9062af8adbb3da50279b99/lottokit-1.3.tar.gz
+[2024-05-28 09:33:21] INFO root fetch - processPackages [odoo-addon-mail-tracking]: Downloading https://files.pythonhosted.org/packages/a9/b5/fe980727422eb439e605ad729f40089261801552e5074675cce97c3dbd4f/odoo_addon_mail_tracking-16.0.1.0.4.8-py3-none-any.whl
+[2024-05-28 09:33:21] INFO root fetch - processPackages [qoa4ml]: Remove: archive file [/home/abi/fetcher/tmp/qoa4ml-0.2.1.tar.gz]
+[2024-05-28 09:33:21] INFO root fetch - processPackages [qoa4ml]: Remove: archive file [/home/abi/fetcher/tmp/qoa4ml-0.2.2.tar.gz]
+[2024-05-28 09:33:21] INFO root fetch - processPackages [qoa4ml]: Start processing: streamlit-nightly
+[2024-05-28 09:33:21] INFO root fetch - main [MainThread]: End processing [qoa4ml]: success
+[2024-05-28 09:33:21] INFO root fetch - processPackages [odoo-addon-mail-tracking]: executing diffoscope
+[2024-05-28 09:33:21] INFO root fetch - processPackages [odoo-addon-mail-tracking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mail_tracking-16.0.1.0.4.69-py3-none-any.whl.zip tmp/odoo_addon_mail_tracking-16.0.1.0.4.8-py3-none-any.whl.zip --markdown 20240528/o/odoo-addon-mail-tracking/16.0.1.0.4.69-16.0.1.0.4.8/README.md --exclude *.pyd
+[2024-05-28 09:33:21] INFO root fetch - processPackages [lottokit]: executing diffoscope
+[2024-05-28 09:33:21] INFO root fetch - processPackages [lottokit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lottokit-1.2.tar.gz tmp/lottokit-1.3.tar.gz --markdown 20240528/l/lottokit/1.2-1.3/README.md --exclude *.pyd
+[2024-05-28 09:33:21] INFO root fetch - processPackages [cerebrumscanner-hello]: Remove: archive file [/home/abi/fetcher/tmp/cerebrumscanner_hello-0.0.1b8.tar.gz]
+[2024-05-28 09:33:21] INFO root fetch - processPackages [cerebrumscanner-hello]: Remove: archive file [/home/abi/fetcher/tmp/cerebrumscanner_hello-0.0.1b9.tar.gz]
+[2024-05-28 09:33:21] INFO root fetch - processPackages [cerebrumscanner-hello]: Start processing: audio-reads
+[2024-05-28 09:33:21] INFO root fetch - main [MainThread]: End processing [cerebrumscanner-hello]: success
+[2024-05-28 09:33:21] WARNING root fetch - processPackages [audio-reads]: Skipping, unable to determine old version
+[2024-05-28 09:33:21] INFO root fetch - processPackages [audio-reads]: Start processing: mia-vgg
+[2024-05-28 09:33:21] INFO root fetch - main [MainThread]: End processing [audio-reads] error
+[2024-05-28 09:33:21] INFO root fetch - processPackages [ftrack-framework-core]: Remove: archive file [/home/abi/fetcher/tmp/ftrack_framework_core-2.3.0.tar.gz]
+[2024-05-28 09:33:21] INFO root fetch - processPackages [ftrack-framework-core]: Remove: archive file [/home/abi/fetcher/tmp/ftrack_framework_core-2.3.0rc1.tar.gz]
+[2024-05-28 09:33:21] INFO root fetch - main [MainThread]: End processing [ftrack-framework-core]: success
+[2024-05-28 09:33:21] INFO root fetch - processPackages [mia-vgg]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-28 09:33:21] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.35.1.dev20240527] Old Version: [1.35.1.dev20240526]
+[2024-05-28 09:33:22] INFO root fetch - processPackages [mia-vgg]: Downloading https://files.pythonhosted.org/packages/7d/99/89bc26b6fc0c4be64ccf67e364ca9e0df91458fd29d11e2358855b46e97d/mia_vgg-0.0.8.tar.gz
+[2024-05-28 09:33:22] INFO root fetch - processPackages [odoo-addon-mail-gateway-whatsapp]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_gateway_whatsapp-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-28 09:33:22] INFO root fetch - processPackages [odoo-addon-mail-gateway-whatsapp]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_gateway_whatsapp-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-28 09:33:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-mail-gateway-whatsapp]: success
+[2024-05-28 09:33:22] INFO root fetch - processPackages [odoo-addon-mail-gateway-telegram]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_gateway_telegram-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-28 09:33:22] INFO root fetch - processPackages [odoo-addon-mail-gateway-telegram]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_gateway_telegram-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-28 09:33:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-mail-gateway-telegram]: success
+[2024-05-28 09:33:22] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/6b/18/f1593d37c2666728ab0f87795c68e95f73d0bf013a138265692577abed5e/streamlit_nightly-1.35.1.dev20240526.tar.gz
+[2024-05-28 09:33:22] INFO root fetch - processPackages [aioli-sdk]: Remove: archive file [/home/abi/fetcher/tmp/aioli_sdk-0.2.4.dev8.tar.gz]
+[2024-05-28 09:33:22] INFO root fetch - processPackages [aioli-sdk]: Remove: archive file [/home/abi/fetcher/tmp/aioli_sdk-0.2.4.dev9.tar.gz]
+[2024-05-28 09:33:22] INFO root fetch - main [MainThread]: End processing [aioli-sdk]: success
+[2024-05-28 09:33:22] INFO root fetch - processPackages [odoo-addon-mail-post-defer]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_post_defer-16.0.1.1.0.1-py3-none-any.whl.zip]
+[2024-05-28 09:33:22] INFO root fetch - processPackages [odoo-addon-mail-post-defer]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_post_defer-16.0.1.1.0.2-py3-none-any.whl.zip]
+[2024-05-28 09:33:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-mail-post-defer]: success
+[2024-05-28 09:33:22] INFO root fetch - processPackages [odoo-addon-mail-gateway]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_gateway-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-28 09:33:22] INFO root fetch - processPackages [odoo-addon-mail-gateway]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_gateway-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-28 09:33:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-mail-gateway]: success
+[2024-05-28 09:33:22] INFO root fetch - processPackages [mia-vgg]: Downloading https://files.pythonhosted.org/packages/cc/39/4b0634a6c0cfb889300cdd32b0b9e896e244894df317465107e5a88463b0/mia_vgg-0.0.9.tar.gz
+[2024-05-28 09:33:22] INFO root fetch - processPackages [mia-vgg]: executing diffoscope
+[2024-05-28 09:33:22] INFO root fetch - processPackages [mia-vgg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mia_vgg-0.0.8.tar.gz tmp/mia_vgg-0.0.9.tar.gz --markdown 20240528/m/mia-vgg/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-28 09:33:22] INFO root fetch - processPackages [lottokit]: Remove: archive file [/home/abi/fetcher/tmp/lottokit-1.2.tar.gz]
+[2024-05-28 09:33:22] INFO root fetch - processPackages [lottokit]: Remove: archive file [/home/abi/fetcher/tmp/lottokit-1.3.tar.gz]
+[2024-05-28 09:33:22] INFO root fetch - main [MainThread]: End processing [lottokit]: success
+[2024-05-28 09:33:22] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/60/47/75737a60863fb42ddcd20a01d3fc3af37e11bea460c12b35c49e00d59ce8/streamlit_nightly-1.35.1.dev20240527.tar.gz
+[2024-05-28 09:33:22] INFO root fetch - processPackages [odoo-addon-mail-tracking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_tracking-16.0.1.0.4.69-py3-none-any.whl.zip]
+[2024-05-28 09:33:22] INFO root fetch - processPackages [odoo-addon-mail-tracking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_tracking-16.0.1.0.4.8-py3-none-any.whl.zip]
+[2024-05-28 09:33:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-mail-tracking]: success
+[2024-05-28 09:33:22] INFO root fetch - processPackages [mia-vgg]: Remove: archive file [/home/abi/fetcher/tmp/mia_vgg-0.0.8.tar.gz]
+[2024-05-28 09:33:22] INFO root fetch - processPackages [mia-vgg]: Remove: archive file [/home/abi/fetcher/tmp/mia_vgg-0.0.9.tar.gz]
+[2024-05-28 09:33:22] INFO root fetch - main [MainThread]: End processing [mia-vgg]: success
+[2024-05-28 09:33:23] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2024-05-28 09:33:23] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_nightly-1.35.1.dev20240526.tar.gz tmp/streamlit_nightly-1.35.1.dev20240527.tar.gz --markdown 20240528/s/streamlit-nightly/1.35.1.dev20240526-1.35.1.dev20240527/README.md --exclude *.pyd
+[2024-05-28 09:33:54] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_nightly-1.35.1.dev20240526.tar.gz]
+[2024-05-28 09:33:54] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_nightly-1.35.1.dev20240527.tar.gz]
+[2024-05-28 09:33:54] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2024-05-28 09:33:54] INFO root fetch - main [MainThread]: Store serial: [23407109]
