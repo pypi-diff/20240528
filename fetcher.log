@@ -18604,3 +18604,44 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 14:18:14] INFO root fetch - processPackages [pytket-phir]: Remove: archive file [/home/abi/fetcher/tmp/pytket_phir-0.7.2.tar.gz]
 [2024-05-28 14:18:14] INFO root fetch - main [MainThread]: End processing [pytket-phir]: success
 [2024-05-28 14:18:14] INFO root fetch - main [MainThread]: Store serial: [23410826]
+[2024-05-28 14:20:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23410826]
+[2024-05-28 14:20:23] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-28 14:20:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: supabase
+[2024-05-28 14:20:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: generate-temp-table-sql
+[2024-05-28 14:20:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: signalsnap
+[2024-05-28 14:20:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eventstreaming
+[2024-05-28 14:20:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ayulexx
+[2024-05-28 14:20:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nerdd-kafka
+[2024-05-28 14:20:23] WARNING root fetch - processPackages [eventstreaming]: Skipping, unable to determine old version
+[2024-05-28 14:20:23] INFO root fetch - main [MainThread]: End processing [eventstreaming] error
+[2024-05-28 14:20:23] INFO root fetch - processPackages [generate-temp-table-sql]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-05-28 14:20:23] WARNING root fetch - processPackages [ayulexx]: Skipping, unable to determine old version
+[2024-05-28 14:20:23] INFO root fetch - main [MainThread]: End processing [ayulexx] error
+[2024-05-28 14:20:23] INFO root fetch - processPackages [generate-temp-table-sql]: Downloading https://files.pythonhosted.org/packages/62/e8/50fabb2a171628da29dc9846a284202bf9fc2b40585012c24e2c1b932ef2/generate_temp_table_sql-0.4.2.tar.gz
+[2024-05-28 14:20:23] INFO root fetch - processPackages [nerdd-kafka]: New version: [0.2.1] Old Version: [0.1.0]
+[2024-05-28 14:20:23] INFO root fetch - processPackages [signalsnap]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-28 14:20:23] INFO root fetch - processPackages [supabase]: New version: [2.5.0] Old Version: [2.4.6]
+[2024-05-28 14:20:23] INFO root fetch - processPackages [nerdd-kafka]: Downloading https://files.pythonhosted.org/packages/8a/e8/f3fefc34282eaff99cda521cc0ba56e2f97cca89b225a68e2e3dee730d0d/nerdd-kafka-0.1.0.tar.gz
+[2024-05-28 14:20:23] INFO root fetch - processPackages [signalsnap]: Downloading https://files.pythonhosted.org/packages/f8/0d/e7b2777ad1bc4e4042be3601b8b675fd0263cdcba7365d5afb9ee5931691/signalsnap-1.0.8.tar.gz
+[2024-05-28 14:20:23] INFO root fetch - processPackages [generate-temp-table-sql]: Downloading https://files.pythonhosted.org/packages/c2/98/0e42758393b4a70ef2fb28f7c2a75bfdb0f81da248bdc734dd933d0c3ea6/generate_temp_table_sql-0.4.3.tar.gz
+[2024-05-28 14:20:23] INFO root fetch - processPackages [supabase]: Downloading https://files.pythonhosted.org/packages/9c/53/6ee95b0b1d772059080c051dd04ae936f86fd17ce0cc302e3eea756f5af1/supabase-2.4.6.tar.gz
+[2024-05-28 14:20:23] INFO root fetch - processPackages [generate-temp-table-sql]: executing diffoscope
+[2024-05-28 14:20:23] INFO root fetch - processPackages [generate-temp-table-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/generate_temp_table_sql-0.4.2.tar.gz tmp/generate_temp_table_sql-0.4.3.tar.gz --markdown 20240528/g/generate-temp-table-sql/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-05-28 14:20:23] WARNING root fetch - processPackages [signalsnap]: Skipping package: exceeds size limit 34674321>=10485760
+[2024-05-28 14:20:23] INFO root fetch - main [MainThread]: End processing [signalsnap] error
+[2024-05-28 14:20:23] INFO root fetch - processPackages [nerdd-kafka]: Downloading https://files.pythonhosted.org/packages/58/21/e52a2f91106ab8fc793b303a2dbb196e2856cf14f427d486f821be1656a5/nerdd_kafka-0.2.1.tar.gz
+[2024-05-28 14:20:23] INFO root fetch - processPackages [supabase]: Downloading https://files.pythonhosted.org/packages/af/14/543d1ee4daa6d1237bab7044876dfb66e9e7c831ee1f56beee4ef47ffa02/supabase-2.5.0.tar.gz
+[2024-05-28 14:20:23] INFO root fetch - processPackages [nerdd-kafka]: executing diffoscope
+[2024-05-28 14:20:23] INFO root fetch - processPackages [nerdd-kafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nerdd-kafka-0.1.0.tar.gz tmp/nerdd_kafka-0.2.1.tar.gz --markdown 20240528/n/nerdd-kafka/0.1.0-0.2.1/README.md --exclude *.pyd
+[2024-05-28 14:20:23] INFO root fetch - processPackages [supabase]: executing diffoscope
+[2024-05-28 14:20:23] INFO root fetch - processPackages [supabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supabase-2.4.6.tar.gz tmp/supabase-2.5.0.tar.gz --markdown 20240528/s/supabase/2.4.6-2.5.0/README.md --exclude *.pyd
+[2024-05-28 14:20:24] INFO root fetch - processPackages [generate-temp-table-sql]: Remove: archive file [/home/abi/fetcher/tmp/generate_temp_table_sql-0.4.2.tar.gz]
+[2024-05-28 14:20:24] INFO root fetch - processPackages [generate-temp-table-sql]: Remove: archive file [/home/abi/fetcher/tmp/generate_temp_table_sql-0.4.3.tar.gz]
+[2024-05-28 14:20:24] INFO root fetch - main [MainThread]: End processing [generate-temp-table-sql]: success
+[2024-05-28 14:20:24] INFO root fetch - processPackages [nerdd-kafka]: Remove: archive file [/home/abi/fetcher/tmp/nerdd-kafka-0.1.0.tar.gz]
+[2024-05-28 14:20:24] INFO root fetch - processPackages [nerdd-kafka]: Remove: archive file [/home/abi/fetcher/tmp/nerdd_kafka-0.2.1.tar.gz]
+[2024-05-28 14:20:24] INFO root fetch - main [MainThread]: End processing [nerdd-kafka]: success
+[2024-05-28 14:20:24] INFO root fetch - processPackages [supabase]: Remove: archive file [/home/abi/fetcher/tmp/supabase-2.4.6.tar.gz]
+[2024-05-28 14:20:24] INFO root fetch - processPackages [supabase]: Remove: archive file [/home/abi/fetcher/tmp/supabase-2.5.0.tar.gz]
+[2024-05-28 14:20:24] INFO root fetch - main [MainThread]: End processing [supabase]: success
+[2024-05-28 14:20:24] INFO root fetch - main [MainThread]: Store serial: [23410855]
