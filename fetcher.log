@@ -6135,3 +6135,45 @@
 [2024-05-28 07:07:09] INFO root fetch - processPackages [autoevals]: Remove: archive file [/home/abi/fetcher/tmp/autoevals-0.0.9.tar.gz]
 [2024-05-28 07:07:09] INFO root fetch - main [MainThread]: End processing [autoevals]: success
 [2024-05-28 07:07:09] INFO root fetch - main [MainThread]: Store serial: [23405277]
+[2024-05-28 07:09:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23405277]
+[2024-05-28 07:09:18] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-28 07:09:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: icloudpd
+[2024-05-28 07:09:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Geode-Explicit
+[2024-05-28 07:09:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyminerva
+[2024-05-28 07:09:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Geode-Simplex
+[2024-05-28 07:09:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: touchwoody
+[2024-05-28 07:09:18] INFO root fetch - processPackages [pyminerva]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-28 07:09:18] WARNING root fetch - processPackages [touchwoody]: Skipping, unable to determine old version
+[2024-05-28 07:09:18] INFO root fetch - main [MainThread]: End processing [touchwoody] error
+[2024-05-28 07:09:18] INFO root fetch - processPackages [pyminerva]: Downloading https://files.pythonhosted.org/packages/71/85/01e8f26ee3130cf86f9e4b898bf1c77b6edaa3ff18d78ab72ab3042c1c41/pyminerva-0.0.98.tar.gz
+[2024-05-28 07:09:18] INFO root fetch - processPackages [icloudpd]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-05-28 07:09:18] INFO root fetch - processPackages [Geode-Explicit]: New version: [4.8.2rc1] Old Version: [4.8.1rc3]
+[2024-05-28 07:09:18] INFO root fetch - processPackages [Geode-Simplex]: New version: [6.8.1rc1] Old Version: [6.8.0rc1]
+[2024-05-28 07:09:19] INFO root fetch - processPackages [icloudpd]: Downloading https://files.pythonhosted.org/packages/51/5d/1f1e447501b790f1082e506da57a315aeda5268be4c23f0027804937436a/icloudpd-1.8.1-py2.py3-none-any.whl
+[2024-05-28 07:09:19] INFO root fetch - processPackages [pyminerva]: Downloading https://files.pythonhosted.org/packages/30/9b/396cf38441ad3c8ce48c213fff676d95f1f3f4feeb1b7dc8824277fe413e/pyminerva-0.0.99.tar.gz
+[2024-05-28 07:09:19] INFO root fetch - processPackages [Geode-Explicit]: Downloading https://files.pythonhosted.org/packages/30/98/f5d3a8aa32af662083340efd1eb5bac87833078492b7df0a3e9495bb8ceb/Geode_Explicit-4.8.1rc3-cp39-cp39-win_amd64.whl
+[2024-05-28 07:09:19] INFO root fetch - processPackages [pyminerva]: executing diffoscope
+[2024-05-28 07:09:19] INFO root fetch - processPackages [pyminerva]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyminerva-0.0.98.tar.gz tmp/pyminerva-0.0.99.tar.gz --markdown 20240528/p/pyminerva/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-28 07:09:19] INFO root fetch - processPackages [Geode-Simplex]: Downloading https://files.pythonhosted.org/packages/13/22/7cf118f5c87f0baf641db0929ee8f43d9f08342ebc589c0038d1bc2acce6/Geode_Simplex-6.8.0rc1-cp39-cp39-win_amd64.whl
+[2024-05-28 07:09:19] INFO root fetch - processPackages [icloudpd]: Downloading https://files.pythonhosted.org/packages/62/71/4d2c70cdcacbafa12d0d59f0a600a1d90223aeb131739c382716470d6320/icloudpd-1.9.0-py2.py3-none-any.whl
+[2024-05-28 07:09:19] INFO root fetch - processPackages [icloudpd]: executing diffoscope
+[2024-05-28 07:09:19] INFO root fetch - processPackages [icloudpd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icloudpd-1.8.1-py2.py3-none-any.whl.zip tmp/icloudpd-1.9.0-py2.py3-none-any.whl.zip --markdown 20240528/i/icloudpd/1.8.1-1.9.0/README.md --exclude *.pyd
+[2024-05-28 07:09:19] INFO root fetch - processPackages [Geode-Explicit]: Downloading https://files.pythonhosted.org/packages/09/ab/3ac6acece87f22f51973178a58c3adc4b2eef1456d65660ff3974d8c1e46/Geode_Explicit-4.8.2rc1-cp39-cp39-win_amd64.whl
+[2024-05-28 07:09:19] INFO root fetch - processPackages [pyminerva]: Remove: archive file [/home/abi/fetcher/tmp/pyminerva-0.0.98.tar.gz]
+[2024-05-28 07:09:19] INFO root fetch - processPackages [pyminerva]: Remove: archive file [/home/abi/fetcher/tmp/pyminerva-0.0.99.tar.gz]
+[2024-05-28 07:09:19] INFO root fetch - main [MainThread]: End processing [pyminerva]: success
+[2024-05-28 07:09:19] INFO root fetch - processPackages [Geode-Simplex]: Downloading https://files.pythonhosted.org/packages/96/81/e4b7424632126caa03ebe3c496f5b0b1574840af0928e4cab1aae0724adc/Geode_Simplex-6.8.1rc1-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-28 07:09:20] INFO root fetch - processPackages [icloudpd]: Remove: archive file [/home/abi/fetcher/tmp/icloudpd-1.8.1-py2.py3-none-any.whl.zip]
+[2024-05-28 07:09:20] INFO root fetch - processPackages [icloudpd]: Remove: archive file [/home/abi/fetcher/tmp/icloudpd-1.9.0-py2.py3-none-any.whl.zip]
+[2024-05-28 07:09:20] INFO root fetch - main [MainThread]: End processing [icloudpd]: success
+[2024-05-28 07:09:20] INFO root fetch - processPackages [Geode-Explicit]: executing diffoscope
+[2024-05-28 07:09:20] INFO root fetch - processPackages [Geode-Explicit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Explicit-4.8.1rc3-cp39-cp39-win_amd64.whl.zip tmp/Geode_Explicit-4.8.2rc1-cp39-cp39-win_amd64.whl.zip --markdown 20240528/G/Geode-Explicit/4.8.1rc3-4.8.2rc1/README.md --exclude *.pyd
+[2024-05-28 07:09:20] INFO root fetch - processPackages [Geode-Simplex]: executing diffoscope
+[2024-05-28 07:09:20] INFO root fetch - processPackages [Geode-Simplex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Simplex-6.8.0rc1-cp39-cp39-win_amd64.whl.zip tmp/Geode_Simplex-6.8.1rc1-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20240528/G/Geode-Simplex/6.8.0rc1-6.8.1rc1/README.md --exclude *.pyd
+[2024-05-28 07:09:21] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.8.0rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-28 07:09:21] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.8.1rc1-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-05-28 07:09:21] INFO root fetch - main [MainThread]: End processing [Geode-Simplex]: success
+[2024-05-28 07:09:44] INFO root fetch - processPackages [Geode-Explicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Explicit-4.8.1rc3-cp39-cp39-win_amd64.whl.zip]
+[2024-05-28 07:09:44] INFO root fetch - processPackages [Geode-Explicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Explicit-4.8.2rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-28 07:09:44] INFO root fetch - main [MainThread]: End processing [Geode-Explicit]: success
+[2024-05-28 07:09:44] INFO root fetch - main [MainThread]: Store serial: [23405323]
