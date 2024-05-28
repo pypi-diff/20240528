@@ -18852,3 +18852,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 14:29:07] INFO root fetch - processPackages [phones-local]: Remove: archive file [/home/abi/fetcher/tmp/phones_local-0.0.29.tar.gz]
 [2024-05-28 14:29:07] INFO root fetch - main [MainThread]: End processing [phones-local]: success
 [2024-05-28 14:29:07] INFO root fetch - main [MainThread]: Store serial: [23410951]
+[2024-05-28 14:31:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23410951]
+[2024-05-28 14:31:16] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-28 14:31:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-codenerix
+[2024-05-28 14:31:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: matrix-synapse
+[2024-05-28 14:31:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chaostoolkit-google-cloud-platform
+[2024-05-28 14:31:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alex-ber-utils
+[2024-05-28 14:31:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: medium-article-py
+[2024-05-28 14:31:16] INFO root fetch - processPackages [django-codenerix]: New version: [4.0.9] Old Version: [4.0.8]
+[2024-05-28 14:31:16] INFO root fetch - processPackages [medium-article-py]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-28 14:31:16] INFO root fetch - processPackages [alex-ber-utils]: New version: [0.8.1a3] Old Version: [0.8.1a2]
+[2024-05-28 14:31:16] INFO root fetch - processPackages [chaostoolkit-google-cloud-platform]: New version: [0.9.2] Old Version: [0.9.0]
+[2024-05-28 14:31:16] INFO root fetch - processPackages [django-codenerix]: Downloading https://files.pythonhosted.org/packages/ae/10/6c1b18ca5b901dda322ef6ebd63aa51cd777f12179630cfe66a52dbefd73/django-codenerix-4.0.8.tar.gz
+[2024-05-28 14:31:16] INFO root fetch - processPackages [medium-article-py]: Downloading https://files.pythonhosted.org/packages/e6/b8/6d07403546dd13de24af0bb2f42b61de30d8cf3a23172b9ad56c3511b0b3/medium_article_py-0.1.6.tar.gz
+[2024-05-28 14:31:16] INFO root fetch - processPackages [chaostoolkit-google-cloud-platform]: Downloading https://files.pythonhosted.org/packages/12/07/4d1110a4d4b7d4991abc2505c4e18770bf058568bd5132c229c29711bb5e/chaostoolkit-google-cloud-platform-0.9.0.tar.gz
+[2024-05-28 14:31:16] INFO root fetch - processPackages [alex-ber-utils]: Downloading https://files.pythonhosted.org/packages/94/f7/62c8132df0f8b4da652094b1c2ea7fe6adcac0fcac7d6a2894b05a08d1b6/alex_ber_utils-0.8.1a2.tar.gz
+[2024-05-28 14:31:16] INFO root fetch - processPackages [matrix-synapse]: New version: [1.99.0rc1] Old Version: [1.99.0]
+[2024-05-28 14:31:16] INFO root fetch - processPackages [chaostoolkit-google-cloud-platform]: Downloading https://files.pythonhosted.org/packages/37/3d/14b7a4021c6fcdb294d892739505d505baca7cdba954a40c2b9a5b5da456/chaostoolkit-google-cloud-platform-0.9.2.tar.gz
+[2024-05-28 14:31:16] INFO root fetch - processPackages [matrix-synapse]: Downloading https://files.pythonhosted.org/packages/89/f5/eb0e715c71186843043051dac9dd76aaf56f228421b93d18f9114c85f4a8/matrix_synapse-1.99.0.tar.gz
+[2024-05-28 14:31:16] INFO root fetch - processPackages [medium-article-py]: Downloading https://files.pythonhosted.org/packages/45/8e/247160c63c626ba34f9551288776f56c1b29db7d0412563ceb85616f5d05/medium_article_py-0.1.7.tar.gz
+[2024-05-28 14:31:16] INFO root fetch - processPackages [chaostoolkit-google-cloud-platform]: executing diffoscope
+[2024-05-28 14:31:16] INFO root fetch - processPackages [chaostoolkit-google-cloud-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chaostoolkit-google-cloud-platform-0.9.0.tar.gz tmp/chaostoolkit-google-cloud-platform-0.9.2.tar.gz --markdown 20240528/c/chaostoolkit-google-cloud-platform/0.9.0-0.9.2/README.md --exclude *.pyd
+[2024-05-28 14:31:16] INFO root fetch - processPackages [alex-ber-utils]: Downloading https://files.pythonhosted.org/packages/96/7b/d75ed503e5f1402f9174a37cb127223427f0a26e7f2159bbf263c7e2daf8/alex_ber_utils-0.8.1a3.tar.gz
+[2024-05-28 14:31:17] INFO root fetch - processPackages [django-codenerix]: Downloading https://files.pythonhosted.org/packages/fa/74/5c81cb6c9cd40266d8845b61025400c9db3344b5ed8063c6b29f18d4574e/django-codenerix-4.0.9.tar.gz
+[2024-05-28 14:31:17] INFO root fetch - processPackages [medium-article-py]: executing diffoscope
+[2024-05-28 14:31:17] INFO root fetch - processPackages [medium-article-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medium_article_py-0.1.6.tar.gz tmp/medium_article_py-0.1.7.tar.gz --markdown 20240528/m/medium-article-py/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-28 14:31:17] INFO root fetch - processPackages [alex-ber-utils]: executing diffoscope
+[2024-05-28 14:31:17] INFO root fetch - processPackages [alex-ber-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alex_ber_utils-0.8.1a2.tar.gz tmp/alex_ber_utils-0.8.1a3.tar.gz --markdown 20240528/a/alex-ber-utils/0.8.1a2-0.8.1a3/README.md --exclude *.pyd
+[2024-05-28 14:31:17] INFO root fetch - processPackages [django-codenerix]: executing diffoscope
+[2024-05-28 14:31:17] INFO root fetch - processPackages [django-codenerix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-codenerix-4.0.8.tar.gz tmp/django-codenerix-4.0.9.tar.gz --markdown 20240528/d/django-codenerix/4.0.8-4.0.9/README.md --exclude *.pyd
+[2024-05-28 14:31:17] INFO root fetch - processPackages [medium-article-py]: Remove: archive file [/home/abi/fetcher/tmp/medium_article_py-0.1.6.tar.gz]
+[2024-05-28 14:31:17] INFO root fetch - processPackages [medium-article-py]: Remove: archive file [/home/abi/fetcher/tmp/medium_article_py-0.1.7.tar.gz]
+[2024-05-28 14:31:17] INFO root fetch - main [MainThread]: End processing [medium-article-py]: success
+[2024-05-28 14:31:17] INFO root fetch - processPackages [chaostoolkit-google-cloud-platform]: Remove: archive file [/home/abi/fetcher/tmp/chaostoolkit-google-cloud-platform-0.9.0.tar.gz]
+[2024-05-28 14:31:17] INFO root fetch - processPackages [chaostoolkit-google-cloud-platform]: Remove: archive file [/home/abi/fetcher/tmp/chaostoolkit-google-cloud-platform-0.9.2.tar.gz]
+[2024-05-28 14:31:17] INFO root fetch - main [MainThread]: End processing [chaostoolkit-google-cloud-platform]: success
+[2024-05-28 14:31:17] INFO root fetch - processPackages [alex-ber-utils]: Remove: archive file [/home/abi/fetcher/tmp/alex_ber_utils-0.8.1a2.tar.gz]
+[2024-05-28 14:31:17] INFO root fetch - processPackages [alex-ber-utils]: Remove: archive file [/home/abi/fetcher/tmp/alex_ber_utils-0.8.1a3.tar.gz]
+[2024-05-28 14:31:17] INFO root fetch - main [MainThread]: End processing [alex-ber-utils]: success
+[2024-05-28 14:31:17] INFO root fetch - processPackages [matrix-synapse]: Downloading https://files.pythonhosted.org/packages/6c/fe/e273f8c35c77d2559df0eb252ceb34aceeae5d58b419a6d799ef16b52792/matrix_synapse-1.99.0rc1.tar.gz
+[2024-05-28 14:31:18] INFO root fetch - processPackages [matrix-synapse]: executing diffoscope
+[2024-05-28 14:31:18] INFO root fetch - processPackages [matrix-synapse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matrix_synapse-1.99.0.tar.gz tmp/matrix_synapse-1.99.0rc1.tar.gz --markdown 20240528/m/matrix-synapse/1.99.0-1.99.0rc1/README.md --exclude *.pyd
+[2024-05-28 14:31:22] INFO root fetch - processPackages [django-codenerix]: Remove: archive file [/home/abi/fetcher/tmp/django-codenerix-4.0.8.tar.gz]
+[2024-05-28 14:31:22] INFO root fetch - processPackages [django-codenerix]: Remove: archive file [/home/abi/fetcher/tmp/django-codenerix-4.0.9.tar.gz]
+[2024-05-28 14:31:22] INFO root fetch - main [MainThread]: End processing [django-codenerix]: success
+[2024-05-28 14:31:25] INFO root fetch - processPackages [matrix-synapse]: Remove: archive file [/home/abi/fetcher/tmp/matrix_synapse-1.99.0.tar.gz]
+[2024-05-28 14:31:25] INFO root fetch - processPackages [matrix-synapse]: Remove: archive file [/home/abi/fetcher/tmp/matrix_synapse-1.99.0rc1.tar.gz]
+[2024-05-28 14:31:25] INFO root fetch - main [MainThread]: End processing [matrix-synapse]: success
+[2024-05-28 14:31:25] INFO root fetch - main [MainThread]: Store serial: [23410972]
