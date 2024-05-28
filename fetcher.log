@@ -4235,3 +4235,35 @@
 [2024-05-28 04:52:53] INFO root fetch - processPackages [honeyhive]: Remove: archive file [/home/abi/fetcher/tmp/honeyhive-0.2.2-py2.py3-none-any.whl.zip]
 [2024-05-28 04:52:53] INFO root fetch - main [MainThread]: End processing [honeyhive]: success
 [2024-05-28 04:52:53] INFO root fetch - main [MainThread]: Store serial: [23404528]
+[2024-05-28 04:54:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23404528]
+[2024-05-28 04:55:02] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-28 04:57:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23404528]
+[2024-05-28 04:57:07] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-28 04:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: muttfuzz
+[2024-05-28 04:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-vapid
+[2024-05-28 04:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: surya-ocr
+[2024-05-28 04:57:07] INFO root fetch - processPackages [muttfuzz]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-05-28 04:57:08] INFO root fetch - processPackages [muttfuzz]: Downloading https://files.pythonhosted.org/packages/fa/7b/65861bb38e2c83008a712febb17679c134d7fe11b6463cd11aa7506aed2a/muttfuzz-0.7.1-py3-none-any.whl
+[2024-05-28 04:57:08] INFO root fetch - processPackages [py-vapid]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-28 04:57:08] INFO root fetch - processPackages [surya-ocr]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-28 04:57:08] INFO root fetch - processPackages [py-vapid]: Downloading https://files.pythonhosted.org/packages/a7/a8/2983cdf5f1c25274b941efd7ab0001067686c50640fba7f84fe490c1ce4b/py-vapid-1.9.0.tar.gz
+[2024-05-28 04:57:08] INFO root fetch - processPackages [muttfuzz]: Downloading https://files.pythonhosted.org/packages/0c/7a/9f5fbc9b79583dd01d1d2c79bb0f91b3e8bad42af340c41668e0e5dbd571/muttfuzz-0.7.2-py3-none-any.whl
+[2024-05-28 04:57:08] INFO root fetch - processPackages [surya-ocr]: Downloading https://files.pythonhosted.org/packages/ca/63/58e3ae1a978719e5fce54df86bb91e909cbadb492233998047fc9a743ceb/surya_ocr-0.4.8.tar.gz
+[2024-05-28 04:57:08] INFO root fetch - processPackages [muttfuzz]: executing diffoscope
+[2024-05-28 04:57:08] INFO root fetch - processPackages [muttfuzz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muttfuzz-0.7.1-py3-none-any.whl.zip tmp/muttfuzz-0.7.2-py3-none-any.whl.zip --markdown 20240528/m/muttfuzz/0.7.1-0.7.2/README.md --exclude *.pyd
+[2024-05-28 04:57:08] INFO root fetch - processPackages [py-vapid]: Downloading https://files.pythonhosted.org/packages/c5/8d/e570819c18a8a178f8fbbbe55eb1106c8202a52cb1518a4058210ec86ef0/py_vapid-1.9.1.tar.gz
+[2024-05-28 04:57:08] INFO root fetch - processPackages [py-vapid]: executing diffoscope
+[2024-05-28 04:57:08] INFO root fetch - processPackages [py-vapid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-vapid-1.9.0.tar.gz tmp/py_vapid-1.9.1.tar.gz --markdown 20240528/p/py-vapid/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-28 04:57:08] INFO root fetch - processPackages [surya-ocr]: Downloading https://files.pythonhosted.org/packages/d5/4d/041e1195803870e989770b48765869a75d4560402f8bbdb2a161f02a6813/surya_ocr-0.4.9.tar.gz
+[2024-05-28 04:57:09] INFO root fetch - processPackages [muttfuzz]: Remove: archive file [/home/abi/fetcher/tmp/muttfuzz-0.7.1-py3-none-any.whl.zip]
+[2024-05-28 04:57:09] INFO root fetch - processPackages [muttfuzz]: Remove: archive file [/home/abi/fetcher/tmp/muttfuzz-0.7.2-py3-none-any.whl.zip]
+[2024-05-28 04:57:09] INFO root fetch - main [MainThread]: End processing [muttfuzz]: success
+[2024-05-28 04:57:09] INFO root fetch - processPackages [surya-ocr]: executing diffoscope
+[2024-05-28 04:57:09] INFO root fetch - processPackages [surya-ocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surya_ocr-0.4.8.tar.gz tmp/surya_ocr-0.4.9.tar.gz --markdown 20240528/s/surya-ocr/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-28 04:57:09] INFO root fetch - processPackages [py-vapid]: Remove: archive file [/home/abi/fetcher/tmp/py-vapid-1.9.0.tar.gz]
+[2024-05-28 04:57:09] INFO root fetch - processPackages [py-vapid]: Remove: archive file [/home/abi/fetcher/tmp/py_vapid-1.9.1.tar.gz]
+[2024-05-28 04:57:09] INFO root fetch - main [MainThread]: End processing [py-vapid]: success
+[2024-05-28 04:57:09] INFO root fetch - processPackages [surya-ocr]: Remove: archive file [/home/abi/fetcher/tmp/surya_ocr-0.4.8.tar.gz]
+[2024-05-28 04:57:09] INFO root fetch - processPackages [surya-ocr]: Remove: archive file [/home/abi/fetcher/tmp/surya_ocr-0.4.9.tar.gz]
+[2024-05-28 04:57:09] INFO root fetch - main [MainThread]: End processing [surya-ocr]: success
+[2024-05-28 04:57:09] INFO root fetch - main [MainThread]: Store serial: [23404535]
