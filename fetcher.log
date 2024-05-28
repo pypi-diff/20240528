@@ -16997,3 +16997,87 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 13:19:09] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.9.0.0b0.tar.gz]
 [2024-05-28 13:19:09] INFO root fetch - main [MainThread]: End processing [dcicutils]: success
 [2024-05-28 13:19:09] INFO root fetch - main [MainThread]: Store serial: [23410078]
+[2024-05-28 13:21:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23410078]
+[2024-05-28 13:21:20] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-28 13:21:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: clear-skies-stripe
+[2024-05-28 13:21:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ptwebdiscover
+[2024-05-28 13:21:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-oauth-emailbackend
+[2024-05-28 13:21:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py-async-grpc-prometheus
+[2024-05-28 13:21:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: panda-server
+[2024-05-28 13:21:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: redhat-qe-cloud-tools
+[2024-05-28 13:21:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: evo-framework
+[2024-05-28 13:21:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: clients-core
+[2024-05-28 13:21:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: popoll-backend
+[2024-05-28 13:21:20] INFO root fetch - processPackages [clients-core]: New version: [2.4.0] Old Version: [2.3.1]
+[2024-05-28 13:21:20] INFO root fetch - processPackages [evo-framework]: New version: [22024.5.13] Old Version: [22024.5.12]
+[2024-05-28 13:21:20] INFO root fetch - processPackages [clear-skies-stripe]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-28 13:21:20] INFO root fetch - processPackages [django-oauth-emailbackend]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-28 13:21:20] INFO root fetch - processPackages [redhat-qe-cloud-tools]: New version: [1.0.9] Old Version: [1.0.80]
+[2024-05-28 13:21:20] INFO root fetch - processPackages [panda-server]: New version: [0.3.8] Old Version: [0.3.7]
+[2024-05-28 13:21:20] INFO root fetch - processPackages [popoll-backend]: New version: [0.0.58] Old Version: [0.0.57]
+[2024-05-28 13:21:20] INFO root fetch - processPackages [clear-skies-stripe]: Downloading https://files.pythonhosted.org/packages/13/91/c9a9d3f310fd41f3163993e36e2e10ff6b8cf6ceda16fa0994cf222fbea3/clear_skies_stripe-0.9.8.tar.gz
+[2024-05-28 13:21:20] INFO root fetch - processPackages [py-async-grpc-prometheus]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-28 13:21:20] INFO root fetch - processPackages [ptwebdiscover]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-28 13:21:20] INFO root fetch - processPackages [clients-core]: Downloading https://files.pythonhosted.org/packages/45/15/49f7041327a81dcfea72162eb33fdda2f8ab2687225c8bab96504c247477/clients_core-2.3.1-py3-none-any.whl
+[2024-05-28 13:21:20] INFO root fetch - processPackages [django-oauth-emailbackend]: Downloading https://files.pythonhosted.org/packages/d7/a2/ef898acaac3bc586d0204c44f950ff5328e5243196c1e66cb22666314f7e/django_oauth_emailbackend-0.1.3.tar.gz
+[2024-05-28 13:21:20] INFO root fetch - processPackages [evo-framework]: Downloading https://files.pythonhosted.org/packages/d0/45/504f288f13e85adaa1652605b78a8341712c8f4f392a48ca50854ba0f78f/evo_framework-22024.5.12.tar.gz
+[2024-05-28 13:21:20] INFO root fetch - processPackages [redhat-qe-cloud-tools]: Downloading https://files.pythonhosted.org/packages/a4/b1/50a8b83eae0f16a17dfc7f14ddad0177e8ce9c51fdb8e5bef02d94f0bcfe/redhat_qe_cloud_tools-1.0.80.tar.gz
+[2024-05-28 13:21:20] INFO root fetch - processPackages [py-async-grpc-prometheus]: Downloading https://files.pythonhosted.org/packages/81/f9/dc6c039cec184f758b067c77538ef4d52a432f698ed9d42f421be40146e5/py_async_grpc_prometheus-0.1.1.tar.gz
+[2024-05-28 13:21:20] INFO root fetch - processPackages [clients-core]: Downloading https://files.pythonhosted.org/packages/83/70/3899bb5220e1a4ee65b7c7b480a3325e8cfb6aa19ee4b93e17a3f23a64b8/clients_core-2.4.0-py3-none-any.whl
+[2024-05-28 13:21:20] INFO root fetch - processPackages [clear-skies-stripe]: Downloading https://files.pythonhosted.org/packages/58/38/6abee29ee0d94e2a37ad1ec8c6c236968ae918788b47229c1d212fa01868/clear_skies_stripe-0.9.9.tar.gz
+[2024-05-28 13:21:20] INFO root fetch - processPackages [panda-server]: Downloading https://files.pythonhosted.org/packages/6b/0c/6fd9a173afbe09e8b82669142968c07173cf87deffb2cbb563cd2aa45ed0/panda_server-0.3.7.tar.gz
+[2024-05-28 13:21:20] INFO root fetch - processPackages [popoll-backend]: Downloading https://files.pythonhosted.org/packages/96/06/04f6d9dd4ef03b8f574a3dbdfb58f371d34cd6df3caf3e35011694f242ec/popoll_backend-0.0.57.tar.gz
+[2024-05-28 13:21:20] INFO root fetch - processPackages [ptwebdiscover]: Downloading https://files.pythonhosted.org/packages/7d/96/ae6abe7a91b4c247983b1e6e7066d13c1803039798c82109324565282532/ptwebdiscover-1.0.6.tar.gz
+[2024-05-28 13:21:20] INFO root fetch - processPackages [clients-core]: executing diffoscope
+[2024-05-28 13:21:20] INFO root fetch - processPackages [clients-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clients_core-2.3.1-py3-none-any.whl.zip tmp/clients_core-2.4.0-py3-none-any.whl.zip --markdown 20240528/c/clients-core/2.3.1-2.4.0/README.md --exclude *.pyd
+[2024-05-28 13:21:20] INFO root fetch - processPackages [evo-framework]: Downloading https://files.pythonhosted.org/packages/cc/23/97f9bbcdf718b8bbd5e70e6acffbc5fc76ad7c3c1aa1d5dfd4bd8bdae74d/evo_framework-22024.5.13.tar.gz
+[2024-05-28 13:21:20] INFO root fetch - processPackages [clear-skies-stripe]: executing diffoscope
+[2024-05-28 13:21:20] INFO root fetch - processPackages [clear-skies-stripe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clear_skies_stripe-0.9.8.tar.gz tmp/clear_skies_stripe-0.9.9.tar.gz --markdown 20240528/c/clear-skies-stripe/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-28 13:21:20] INFO root fetch - processPackages [django-oauth-emailbackend]: Downloading https://files.pythonhosted.org/packages/c2/c2/418260c60261e3fcb527d70c0e7648e3f890e39e42c1c23d09174b5c843b/django_oauth_emailbackend-0.1.4.tar.gz
+[2024-05-28 13:21:20] INFO root fetch - processPackages [redhat-qe-cloud-tools]: Downloading https://files.pythonhosted.org/packages/73/ee/78f15b2144832b2da8cfd67c1d7f49253a5bbeabe351e94adf1af190017c/redhat_qe_cloud_tools-1.0.9.tar.gz
+[2024-05-28 13:21:20] INFO root fetch - processPackages [evo-framework]: executing diffoscope
+[2024-05-28 13:21:20] INFO root fetch - processPackages [evo-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evo_framework-22024.5.12.tar.gz tmp/evo_framework-22024.5.13.tar.gz --markdown 20240528/e/evo-framework/22024.5.12-22024.5.13/README.md --exclude *.pyd
+[2024-05-28 13:21:21] INFO root fetch - processPackages [py-async-grpc-prometheus]: Downloading https://files.pythonhosted.org/packages/0b/67/b756375db5beb1f3442667365bae56ed9927be0547d3cc48dd941f4a8fad/py_async_grpc_prometheus-0.1.2.tar.gz
+[2024-05-28 13:21:21] INFO root fetch - processPackages [django-oauth-emailbackend]: executing diffoscope
+[2024-05-28 13:21:21] INFO root fetch - processPackages [django-oauth-emailbackend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_oauth_emailbackend-0.1.3.tar.gz tmp/django_oauth_emailbackend-0.1.4.tar.gz --markdown 20240528/d/django-oauth-emailbackend/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-28 13:21:21] INFO root fetch - processPackages [redhat-qe-cloud-tools]: executing diffoscope
+[2024-05-28 13:21:21] INFO root fetch - processPackages [redhat-qe-cloud-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redhat_qe_cloud_tools-1.0.80.tar.gz tmp/redhat_qe_cloud_tools-1.0.9.tar.gz --markdown 20240528/r/redhat-qe-cloud-tools/1.0.80-1.0.9/README.md --exclude *.pyd
+[2024-05-28 13:21:21] INFO root fetch - processPackages [ptwebdiscover]: Downloading https://files.pythonhosted.org/packages/ca/a7/f0cc05bf57bd5e9ad7c487f307e08cbaadc8e2c012736cd546c082595d0e/ptwebdiscover-1.0.7.tar.gz
+[2024-05-28 13:21:21] INFO root fetch - processPackages [panda-server]: Downloading https://files.pythonhosted.org/packages/90/86/f8c21ea56185e582fa1c4f1fa0676ebab389e592cac2ba56a21b229fdb73/panda_server-0.3.8.tar.gz
+[2024-05-28 13:21:21] INFO root fetch - processPackages [py-async-grpc-prometheus]: executing diffoscope
+[2024-05-28 13:21:21] INFO root fetch - processPackages [py-async-grpc-prometheus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_async_grpc_prometheus-0.1.1.tar.gz tmp/py_async_grpc_prometheus-0.1.2.tar.gz --markdown 20240528/p/py-async-grpc-prometheus/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-28 13:21:21] INFO root fetch - processPackages [popoll-backend]: Downloading https://files.pythonhosted.org/packages/ae/02/044f0b384e91cdc9ce1245196f2132ef9027bf57b71476f7bef6cb9e7115/popoll_backend-0.0.58.tar.gz
+[2024-05-28 13:21:21] INFO root fetch - processPackages [ptwebdiscover]: executing diffoscope
+[2024-05-28 13:21:21] INFO root fetch - processPackages [ptwebdiscover]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ptwebdiscover-1.0.6.tar.gz tmp/ptwebdiscover-1.0.7.tar.gz --markdown 20240528/p/ptwebdiscover/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-28 13:21:21] INFO root fetch - processPackages [panda-server]: executing diffoscope
+[2024-05-28 13:21:21] INFO root fetch - processPackages [panda-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panda_server-0.3.7.tar.gz tmp/panda_server-0.3.8.tar.gz --markdown 20240528/p/panda-server/0.3.7-0.3.8/README.md --exclude *.pyd
+[2024-05-28 13:21:21] INFO root fetch - processPackages [popoll-backend]: executing diffoscope
+[2024-05-28 13:21:21] INFO root fetch - processPackages [popoll-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/popoll_backend-0.0.57.tar.gz tmp/popoll_backend-0.0.58.tar.gz --markdown 20240528/p/popoll-backend/0.0.57-0.0.58/README.md --exclude *.pyd
+[2024-05-28 13:21:21] INFO root fetch - processPackages [clear-skies-stripe]: Remove: archive file [/home/abi/fetcher/tmp/clear_skies_stripe-0.9.8.tar.gz]
+[2024-05-28 13:21:21] INFO root fetch - processPackages [clear-skies-stripe]: Remove: archive file [/home/abi/fetcher/tmp/clear_skies_stripe-0.9.9.tar.gz]
+[2024-05-28 13:21:21] INFO root fetch - main [MainThread]: End processing [clear-skies-stripe]: success
+[2024-05-28 13:21:21] INFO root fetch - processPackages [clients-core]: Remove: archive file [/home/abi/fetcher/tmp/clients_core-2.3.1-py3-none-any.whl.zip]
+[2024-05-28 13:21:21] INFO root fetch - processPackages [clients-core]: Remove: archive file [/home/abi/fetcher/tmp/clients_core-2.4.0-py3-none-any.whl.zip]
+[2024-05-28 13:21:21] INFO root fetch - main [MainThread]: End processing [clients-core]: success
+[2024-05-28 13:21:21] INFO root fetch - processPackages [django-oauth-emailbackend]: Remove: archive file [/home/abi/fetcher/tmp/django_oauth_emailbackend-0.1.3.tar.gz]
+[2024-05-28 13:21:21] INFO root fetch - processPackages [django-oauth-emailbackend]: Remove: archive file [/home/abi/fetcher/tmp/django_oauth_emailbackend-0.1.4.tar.gz]
+[2024-05-28 13:21:21] INFO root fetch - main [MainThread]: End processing [django-oauth-emailbackend]: success
+[2024-05-28 13:21:21] INFO root fetch - processPackages [py-async-grpc-prometheus]: Remove: archive file [/home/abi/fetcher/tmp/py_async_grpc_prometheus-0.1.1.tar.gz]
+[2024-05-28 13:21:21] INFO root fetch - processPackages [py-async-grpc-prometheus]: Remove: archive file [/home/abi/fetcher/tmp/py_async_grpc_prometheus-0.1.2.tar.gz]
+[2024-05-28 13:21:21] INFO root fetch - main [MainThread]: End processing [py-async-grpc-prometheus]: success
+[2024-05-28 13:21:21] INFO root fetch - processPackages [redhat-qe-cloud-tools]: Remove: archive file [/home/abi/fetcher/tmp/redhat_qe_cloud_tools-1.0.80.tar.gz]
+[2024-05-28 13:21:21] INFO root fetch - processPackages [redhat-qe-cloud-tools]: Remove: archive file [/home/abi/fetcher/tmp/redhat_qe_cloud_tools-1.0.9.tar.gz]
+[2024-05-28 13:21:21] INFO root fetch - main [MainThread]: End processing [redhat-qe-cloud-tools]: success
+[2024-05-28 13:21:22] INFO root fetch - processPackages [evo-framework]: Remove: archive file [/home/abi/fetcher/tmp/evo_framework-22024.5.12.tar.gz]
+[2024-05-28 13:21:22] INFO root fetch - processPackages [evo-framework]: Remove: archive file [/home/abi/fetcher/tmp/evo_framework-22024.5.13.tar.gz]
+[2024-05-28 13:21:22] INFO root fetch - main [MainThread]: End processing [evo-framework]: success
+[2024-05-28 13:21:22] INFO root fetch - processPackages [ptwebdiscover]: Remove: archive file [/home/abi/fetcher/tmp/ptwebdiscover-1.0.6.tar.gz]
+[2024-05-28 13:21:22] INFO root fetch - processPackages [ptwebdiscover]: Remove: archive file [/home/abi/fetcher/tmp/ptwebdiscover-1.0.7.tar.gz]
+[2024-05-28 13:21:22] INFO root fetch - main [MainThread]: End processing [ptwebdiscover]: success
+[2024-05-28 13:21:22] INFO root fetch - processPackages [popoll-backend]: Remove: archive file [/home/abi/fetcher/tmp/popoll_backend-0.0.57.tar.gz]
+[2024-05-28 13:21:22] INFO root fetch - processPackages [popoll-backend]: Remove: archive file [/home/abi/fetcher/tmp/popoll_backend-0.0.58.tar.gz]
+[2024-05-28 13:21:22] INFO root fetch - main [MainThread]: End processing [popoll-backend]: success
+[2024-05-28 13:21:22] INFO root fetch - processPackages [panda-server]: Remove: archive file [/home/abi/fetcher/tmp/panda_server-0.3.7.tar.gz]
+[2024-05-28 13:21:22] INFO root fetch - processPackages [panda-server]: Remove: archive file [/home/abi/fetcher/tmp/panda_server-0.3.8.tar.gz]
+[2024-05-28 13:21:22] INFO root fetch - main [MainThread]: End processing [panda-server]: success
+[2024-05-28 13:21:22] INFO root fetch - main [MainThread]: Store serial: [23410109]
