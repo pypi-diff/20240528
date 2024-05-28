@@ -17961,3 +17961,65 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 13:53:29] INFO root fetch - processPackages [amirispy]: Remove: archive file [/home/abi/fetcher/tmp/amirispy-2.1.0.tar.gz]
 [2024-05-28 13:53:29] INFO root fetch - main [MainThread]: End processing [amirispy]: success
 [2024-05-28 13:53:29] INFO root fetch - main [MainThread]: Store serial: [23410533]
+[2024-05-28 13:55:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23410533]
+[2024-05-28 13:55:41] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-28 13:55:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-re3data
+[2024-05-28 13:55:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sentence-transformers
+[2024-05-28 13:55:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qwak-core
+[2024-05-28 13:55:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pygradflow
+[2024-05-28 13:55:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scipion-em-warp
+[2024-05-28 13:55:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: arches
+[2024-05-28 13:55:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ood_detectors
+[2024-05-28 13:55:42] INFO root fetch - processPackages [pygradflow]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-28 13:55:42] INFO root fetch - processPackages [sentence-transformers]: New version: [2.7.0] Old Version: [2.6.1]
+[2024-05-28 13:55:42] INFO root fetch - processPackages [ood_detectors]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-28 13:55:42] INFO root fetch - processPackages [qwak-core]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-28 13:55:42] INFO root fetch - processPackages [scipion-em-warp]: New version: [3.2.4] Old Version: [3.2.3]
+[2024-05-28 13:55:42] INFO root fetch - processPackages [python-re3data]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-28 13:55:42] INFO root fetch - processPackages [ood_detectors]: Downloading https://files.pythonhosted.org/packages/2c/c1/0e33f36a315cc0d60a299e5970cb3dbd7fe0ffebd495cef6770f937ba24f/ood_detectors-0.0.8.tar.gz
+[2024-05-28 13:55:42] INFO root fetch - processPackages [arches]: New version: [7.6.0a5] Old Version: [7.6.0a4]
+[2024-05-28 13:55:42] INFO root fetch - processPackages [pygradflow]: Downloading https://files.pythonhosted.org/packages/5f/b8/12aaa448645417317b2c3c7a93a40c3c13bdbc64661dd6e5138c589dd1d4/pygradflow-0.5.1.tar.gz
+[2024-05-28 13:55:42] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/40/dc/9bf7a0a11e5d16704620fd9a2d038eee79e38d502983f2c9975412d1053c/qwak_core-0.4.8.tar.gz
+[2024-05-28 13:55:42] INFO root fetch - processPackages [sentence-transformers]: Downloading https://files.pythonhosted.org/packages/a5/fe/d675f39be9352fe25052dcff2f911a982bb34a6b5768d0d440b723643fdd/sentence-transformers-2.6.1.tar.gz
+[2024-05-28 13:55:42] INFO root fetch - processPackages [python-re3data]: Downloading https://files.pythonhosted.org/packages/26/63/1c8e39ac7179443a5c7a09d68dcbd69e8a513d52e37a54f08b1f73ff4e2a/python_re3data-0.3.0.tar.gz
+[2024-05-28 13:55:42] INFO root fetch - processPackages [scipion-em-warp]: Downloading https://files.pythonhosted.org/packages/30/20/5ef2c21c67ce191a7d1d1afcaec8aa97fce9d4050500021434a9c0cbf49c/scipion-em-warp-3.2.3.tar.gz
+[2024-05-28 13:55:42] INFO root fetch - processPackages [arches]: Downloading https://files.pythonhosted.org/packages/3e/4d/fbd4bb3c4bb47c13522599ced9dc64c2ed84667b3bb5c7c93a567c358a8b/arches-7.6.0a4.tar.gz
+[2024-05-28 13:55:42] INFO root fetch - processPackages [ood_detectors]: Downloading https://files.pythonhosted.org/packages/3f/d6/a55f4bc549efaaabe3d000911be652e72d55a5a47cabc317d531a8ec8ada/ood_detectors-0.0.9.tar.gz
+[2024-05-28 13:55:42] INFO root fetch - processPackages [pygradflow]: Downloading https://files.pythonhosted.org/packages/cf/64/a6aa8a55ee9f718447e0cd4e7794fba107f92fa1ffb2f14a81ac3a18c9e8/pygradflow-0.5.2.tar.gz
+[2024-05-28 13:55:42] WARNING root fetch - processPackages [arches]: Skipping package: exceeds size limit 27939415>=10485760
+[2024-05-28 13:55:42] INFO root fetch - main [MainThread]: End processing [arches] error
+[2024-05-28 13:55:42] INFO root fetch - processPackages [sentence-transformers]: Downloading https://files.pythonhosted.org/packages/65/8d/8d6147fdef0ed7aeff3dab487bd17619b512afab845eb295faa08b20a5d0/sentence_transformers-2.7.0.tar.gz
+[2024-05-28 13:55:42] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/fe/09/8867573c92d18e200499a583b45f6adb1552d9e721e39370c8aa578b7080/qwak_core-0.4.9.tar.gz
+[2024-05-28 13:55:42] INFO root fetch - processPackages [ood_detectors]: executing diffoscope
+[2024-05-28 13:55:42] INFO root fetch - processPackages [ood_detectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ood_detectors-0.0.8.tar.gz tmp/ood_detectors-0.0.9.tar.gz --markdown 20240528/o/ood_detectors/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-28 13:55:42] INFO root fetch - processPackages [pygradflow]: executing diffoscope
+[2024-05-28 13:55:42] INFO root fetch - processPackages [pygradflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygradflow-0.5.1.tar.gz tmp/pygradflow-0.5.2.tar.gz --markdown 20240528/p/pygradflow/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-05-28 13:55:42] INFO root fetch - processPackages [sentence-transformers]: executing diffoscope
+[2024-05-28 13:55:42] INFO root fetch - processPackages [sentence-transformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentence-transformers-2.6.1.tar.gz tmp/sentence_transformers-2.7.0.tar.gz --markdown 20240528/s/sentence-transformers/2.6.1-2.7.0/README.md --exclude *.pyd
+[2024-05-28 13:55:42] INFO root fetch - processPackages [python-re3data]: Downloading https://files.pythonhosted.org/packages/87/be/af5cf0c48489e25be161ea506d4dc5bb624cbf10e3d640c5522c72d47425/python_re3data-0.4.0.tar.gz
+[2024-05-28 13:55:42] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2024-05-28 13:55:42] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.4.8.tar.gz tmp/qwak_core-0.4.9.tar.gz --markdown 20240528/q/qwak-core/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-28 13:55:42] INFO root fetch - processPackages [python-re3data]: executing diffoscope
+[2024-05-28 13:55:42] INFO root fetch - processPackages [python-re3data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_re3data-0.3.0.tar.gz tmp/python_re3data-0.4.0.tar.gz --markdown 20240528/p/python-re3data/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-28 13:55:42] INFO root fetch - processPackages [scipion-em-warp]: Downloading https://files.pythonhosted.org/packages/ff/3f/3389294c559fdfbf4f66b9186cda07a0b01e8e24c44931367cc998413d4b/scipion-em-warp-3.2.4.tar.gz
+[2024-05-28 13:55:43] INFO root fetch - processPackages [scipion-em-warp]: executing diffoscope
+[2024-05-28 13:55:43] INFO root fetch - processPackages [scipion-em-warp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scipion-em-warp-3.2.3.tar.gz tmp/scipion-em-warp-3.2.4.tar.gz --markdown 20240528/s/scipion-em-warp/3.2.3-3.2.4/README.md --exclude *.pyd
+[2024-05-28 13:55:43] INFO root fetch - processPackages [ood_detectors]: Remove: archive file [/home/abi/fetcher/tmp/ood_detectors-0.0.8.tar.gz]
+[2024-05-28 13:55:43] INFO root fetch - processPackages [ood_detectors]: Remove: archive file [/home/abi/fetcher/tmp/ood_detectors-0.0.9.tar.gz]
+[2024-05-28 13:55:43] INFO root fetch - main [MainThread]: End processing [ood_detectors]: success
+[2024-05-28 13:55:43] INFO root fetch - processPackages [pygradflow]: Remove: archive file [/home/abi/fetcher/tmp/pygradflow-0.5.1.tar.gz]
+[2024-05-28 13:55:43] INFO root fetch - processPackages [pygradflow]: Remove: archive file [/home/abi/fetcher/tmp/pygradflow-0.5.2.tar.gz]
+[2024-05-28 13:55:43] INFO root fetch - main [MainThread]: End processing [pygradflow]: success
+[2024-05-28 13:55:43] INFO root fetch - processPackages [python-re3data]: Remove: archive file [/home/abi/fetcher/tmp/python_re3data-0.3.0.tar.gz]
+[2024-05-28 13:55:43] INFO root fetch - processPackages [python-re3data]: Remove: archive file [/home/abi/fetcher/tmp/python_re3data-0.4.0.tar.gz]
+[2024-05-28 13:55:43] INFO root fetch - main [MainThread]: End processing [python-re3data]: success
+[2024-05-28 13:55:43] INFO root fetch - processPackages [scipion-em-warp]: Remove: archive file [/home/abi/fetcher/tmp/scipion-em-warp-3.2.3.tar.gz]
+[2024-05-28 13:55:43] INFO root fetch - processPackages [scipion-em-warp]: Remove: archive file [/home/abi/fetcher/tmp/scipion-em-warp-3.2.4.tar.gz]
+[2024-05-28 13:55:43] INFO root fetch - main [MainThread]: End processing [scipion-em-warp]: success
+[2024-05-28 13:55:43] INFO root fetch - processPackages [sentence-transformers]: Remove: archive file [/home/abi/fetcher/tmp/sentence-transformers-2.6.1.tar.gz]
+[2024-05-28 13:55:43] INFO root fetch - processPackages [sentence-transformers]: Remove: archive file [/home/abi/fetcher/tmp/sentence_transformers-2.7.0.tar.gz]
+[2024-05-28 13:55:43] INFO root fetch - main [MainThread]: End processing [sentence-transformers]: success
+[2024-05-28 13:55:45] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.4.8.tar.gz]
+[2024-05-28 13:55:45] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.4.9.tar.gz]
+[2024-05-28 13:55:45] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2024-05-28 13:55:45] INFO root fetch - main [MainThread]: Store serial: [23410551]
