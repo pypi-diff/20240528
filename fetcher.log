@@ -13027,3 +13027,12 @@
 [2024-05-28 10:57:26] INFO root fetch - processPackages [yandexcloud]: Remove: archive file [/home/abi/fetcher/tmp/yandexcloud-0.99.0.tar.gz]
 [2024-05-28 10:57:26] INFO root fetch - main [MainThread]: End processing [yandexcloud]: success
 [2024-05-28 10:57:26] INFO root fetch - main [MainThread]: Store serial: [23408411]
+[2024-05-28 10:59:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23408411]
+[2024-05-28 10:59:34] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-28 10:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyregression-package-GonenRaveh
+[2024-05-28 10:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-demo-construct
+[2024-05-28 10:59:35] WARNING root fetch - processPackages [pyregression-package-GonenRaveh]: Skipping, unable to determine old version
+[2024-05-28 10:59:35] INFO root fetch - main [MainThread]: End processing [pyregression-package-GonenRaveh] error
+[2024-05-28 10:59:35] WARNING root fetch - processPackages [cdk-demo-construct]: Skipping, unable to determine old version
+[2024-05-28 10:59:35] INFO root fetch - main [MainThread]: End processing [cdk-demo-construct] error
+[2024-05-28 10:59:35] INFO root fetch - main [MainThread]: Store serial: [23408419]
