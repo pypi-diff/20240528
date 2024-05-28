@@ -20107,3 +20107,24 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 15:06:54] INFO root fetch - processPackages [ampel-hu-astro]: Remove: archive file [/home/abi/fetcher/tmp/ampel_hu_astro-0.8.4a0.tar.gz]
 [2024-05-28 15:06:54] INFO root fetch - main [MainThread]: End processing [ampel-hu-astro]: success
 [2024-05-28 15:06:54] INFO root fetch - main [MainThread]: Store serial: [23411600]
+[2024-05-28 15:08:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23411600]
+[2024-05-28 15:09:02] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-28 15:09:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: msstitch
+[2024-05-28 15:09:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: itk-ants
+[2024-05-28 15:09:02] INFO root fetch - processPackages [msstitch]: New version: [3.9] Old Version: [3.8]
+[2024-05-28 15:09:03] INFO root fetch - processPackages [itk-ants]: New version: [0.6.0] Old Version: [0.4rc3]
+[2024-05-28 15:09:03] INFO root fetch - processPackages [msstitch]: Downloading https://files.pythonhosted.org/packages/d1/10/89f6f31cc10d49f8a78085fcbc86e3a97ea1359b17add209b32ff71f5cd8/msstitch-3.8.tar.gz
+[2024-05-28 15:09:03] INFO root fetch - processPackages [itk-ants]: Downloading https://files.pythonhosted.org/packages/08/db/03aa0c0a5b92624e547c19e3d173e1d50176243d2b391c9a0e2d9630898c/itk_ants-0.4rc3-cp39-cp39-win_amd64.whl
+[2024-05-28 15:09:03] INFO root fetch - processPackages [msstitch]: Downloading https://files.pythonhosted.org/packages/c5/fb/15b10cfb49d61f03bf8bcab5bc3949059466cac0f0433202b9d59370eab2/msstitch-3.9.tar.gz
+[2024-05-28 15:09:04] INFO root fetch - processPackages [itk-ants]: Downloading https://files.pythonhosted.org/packages/95/8f/94e9691a3fb62b93a2ec274696c4ae1112f243617cb436a830085cfa9060/itk_ants-0.6.0-cp310-cp310-macosx_11_0_arm64.whl
+[2024-05-28 15:09:04] INFO root fetch - processPackages [msstitch]: executing diffoscope
+[2024-05-28 15:09:04] INFO root fetch - processPackages [msstitch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msstitch-3.8.tar.gz tmp/msstitch-3.9.tar.gz --markdown 20240528/m/msstitch/3.8-3.9/README.md --exclude *.pyd
+[2024-05-28 15:09:06] INFO root fetch - processPackages [msstitch]: Remove: archive file [/home/abi/fetcher/tmp/msstitch-3.8.tar.gz]
+[2024-05-28 15:09:06] INFO root fetch - processPackages [msstitch]: Remove: archive file [/home/abi/fetcher/tmp/msstitch-3.9.tar.gz]
+[2024-05-28 15:09:06] INFO root fetch - main [MainThread]: End processing [msstitch]: success
+[2024-05-28 15:09:08] INFO root fetch - processPackages [itk-ants]: executing diffoscope
+[2024-05-28 15:09:08] INFO root fetch - processPackages [itk-ants]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itk_ants-0.4rc3-cp39-cp39-win_amd64.whl.zip tmp/itk_ants-0.6.0-cp310-cp310-macosx_11_0_arm64.whl.zip --markdown 20240528/i/itk-ants/0.4rc3-0.6.0/README.md --exclude *.pyd
+[2024-05-28 15:09:09] INFO root fetch - processPackages [itk-ants]: Remove: archive file [/home/abi/fetcher/tmp/itk_ants-0.4rc3-cp39-cp39-win_amd64.whl.zip]
+[2024-05-28 15:09:09] INFO root fetch - processPackages [itk-ants]: Remove: archive file [/home/abi/fetcher/tmp/itk_ants-0.6.0-cp310-cp310-macosx_11_0_arm64.whl.zip]
+[2024-05-28 15:09:09] INFO root fetch - main [MainThread]: End processing [itk-ants]: success
+[2024-05-28 15:09:09] INFO root fetch - main [MainThread]: Store serial: [23411603]
