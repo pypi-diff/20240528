@@ -6892,3 +6892,27 @@
 [2024-05-28 07:45:22] WARNING root fetch - processPackages [capdata]: Skipping, unable to determine old version
 [2024-05-28 07:45:22] INFO root fetch - main [MainThread]: End processing [capdata] error
 [2024-05-28 07:45:22] INFO root fetch - main [MainThread]: Store serial: [23405609]
+[2024-05-28 07:47:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23405609]
+[2024-05-28 07:47:31] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-28 07:47:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: QEasyWidgets
+[2024-05-28 07:47:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: example-tml
+[2024-05-28 07:47:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: asusrouter
+[2024-05-28 07:47:31] WARNING root fetch - processPackages [example-tml]: Skipping, unable to determine old version
+[2024-05-28 07:47:31] INFO root fetch - processPackages [QEasyWidgets]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-28 07:47:31] INFO root fetch - main [MainThread]: End processing [example-tml] error
+[2024-05-28 07:47:31] INFO root fetch - processPackages [asusrouter]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-28 07:47:31] INFO root fetch - processPackages [QEasyWidgets]: Downloading https://files.pythonhosted.org/packages/78/18/8e8156c2444b6b08de89d3bd2c1c12a45e8e7ba360dd94890643458bf8e8/QEasyWidgets-0.2.0.tar.gz
+[2024-05-28 07:47:31] INFO root fetch - processPackages [asusrouter]: Downloading https://files.pythonhosted.org/packages/c9/52/73dbd448a60e3a123f126af03b3af0ef7598048b28123d904e6f5a791401/asusrouter-1.8.0.tar.gz
+[2024-05-28 07:47:31] INFO root fetch - processPackages [QEasyWidgets]: Downloading https://files.pythonhosted.org/packages/21/20/92c275da3db15681651f4abd81f6d5d7e9367a41ddffb538562933f37c66/QEasyWidgets-0.2.1.tar.gz
+[2024-05-28 07:47:31] INFO root fetch - processPackages [QEasyWidgets]: executing diffoscope
+[2024-05-28 07:47:31] INFO root fetch - processPackages [QEasyWidgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QEasyWidgets-0.2.0.tar.gz tmp/QEasyWidgets-0.2.1.tar.gz --markdown 20240528/Q/QEasyWidgets/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-28 07:47:31] INFO root fetch - processPackages [asusrouter]: Downloading https://files.pythonhosted.org/packages/26/39/f023d9f55f5e5c6fe0e76cca81af1c17ef5389b48d8e95410c159ca75629/asusrouter-1.9.0.tar.gz
+[2024-05-28 07:47:32] INFO root fetch - processPackages [asusrouter]: executing diffoscope
+[2024-05-28 07:47:32] INFO root fetch - processPackages [asusrouter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asusrouter-1.8.0.tar.gz tmp/asusrouter-1.9.0.tar.gz --markdown 20240528/a/asusrouter/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-28 07:47:32] INFO root fetch - processPackages [QEasyWidgets]: Remove: archive file [/home/abi/fetcher/tmp/QEasyWidgets-0.2.0.tar.gz]
+[2024-05-28 07:47:32] INFO root fetch - processPackages [QEasyWidgets]: Remove: archive file [/home/abi/fetcher/tmp/QEasyWidgets-0.2.1.tar.gz]
+[2024-05-28 07:47:32] INFO root fetch - main [MainThread]: End processing [QEasyWidgets]: success
+[2024-05-28 07:47:32] INFO root fetch - processPackages [asusrouter]: Remove: archive file [/home/abi/fetcher/tmp/asusrouter-1.8.0.tar.gz]
+[2024-05-28 07:47:32] INFO root fetch - processPackages [asusrouter]: Remove: archive file [/home/abi/fetcher/tmp/asusrouter-1.9.0.tar.gz]
+[2024-05-28 07:47:32] INFO root fetch - main [MainThread]: End processing [asusrouter]: success
+[2024-05-28 07:47:32] INFO root fetch - main [MainThread]: Store serial: [23405621]
