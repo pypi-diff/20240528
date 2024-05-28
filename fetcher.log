@@ -20729,3 +20729,96 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 15:25:52] INFO root fetch - processPackages [datasphere]: Remove: archive file [/home/abi/fetcher/tmp/datasphere-0.7.2.tar.gz]
 [2024-05-28 15:25:52] INFO root fetch - main [MainThread]: End processing [datasphere]: success
 [2024-05-28 15:25:52] INFO root fetch - main [MainThread]: Store serial: [23411873]
+[2024-05-28 15:27:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23411873]
+[2024-05-28 15:28:01] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-28 15:28:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dbt
+[2024-05-28 15:28:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rstream
+[2024-05-28 15:28:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: numpyascii-package-GonenRaveh
+[2024-05-28 15:28:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qiskit-transpiler-service
+[2024-05-28 15:28:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tmlt-analytics
+[2024-05-28 15:28:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: docmesh-core
+[2024-05-28 15:28:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: deepeval
+[2024-05-28 15:28:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: civics-cdf-validator
+[2024-05-28 15:28:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pv-surrogate-data
+[2024-05-28 15:28:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: firestone-lib
+[2024-05-28 15:28:01] INFO root fetch - processPackages [numpyascii-package-GonenRaveh]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-28 15:28:01] INFO root fetch - processPackages [docmesh-core]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-28 15:28:01] INFO root fetch - processPackages [deepeval]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-28 15:28:01] INFO root fetch - processPackages [rstream]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-28 15:28:01] INFO root fetch - processPackages [tmlt-analytics]: New version: [0.9.0rc6] Old Version: [0.9.0rc5]
+[2024-05-28 15:28:01] INFO root fetch - processPackages [docmesh-core]: Downloading https://files.pythonhosted.org/packages/a3/79/d9bc004bfc279a44ed20456d2291276a0531edffff8ccdb16e8541ea48ca/docmesh_core-0.0.8.tar.gz
+[2024-05-28 15:28:01] INFO root fetch - processPackages [qiskit-transpiler-service]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-28 15:28:01] INFO root fetch - processPackages [numpyascii-package-GonenRaveh]: Downloading https://files.pythonhosted.org/packages/07/de/8707f250e15cdac756d88d1b14fbc704c07c9f04f2d49ad82d816bc258bf/numpyascii_package_gonenraveh-1.0.3.tar.gz
+[2024-05-28 15:28:01] INFO root fetch - processPackages [dbt]: New version: [1.0.0rc1] Old Version: [1.0.0.37.9]
+[2024-05-28 15:28:01] INFO root fetch - processPackages [firestone-lib]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-05-28 15:28:01] INFO root fetch - processPackages [pv-surrogate-data]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-28 15:28:01] INFO root fetch - processPackages [civics-cdf-validator]: New version: [1.9.dev1] Old Version: [1.9]
+[2024-05-28 15:28:01] INFO root fetch - processPackages [deepeval]: Downloading https://files.pythonhosted.org/packages/8b/4e/74892f0e4e740898d3d9bbcb8e3e22adc9d2ca430699cb8a78a8b5e2697b/deepeval-0.9.8.tar.gz
+[2024-05-28 15:28:01] INFO root fetch - processPackages [dbt]: Downloading https://files.pythonhosted.org/packages/7a/9a/ee37c9c7ad5d9d9f1f9c8af7be75d5118de1b95cabb1f73bd760f825c1cd/dbt-1.0.0.37.9.tar.gz
+[2024-05-28 15:28:01] INFO root fetch - processPackages [tmlt-analytics]: Downloading https://files.pythonhosted.org/packages/00/4d/d6a65e54d3e290917d00f52bf8e1a3a2682a16b8eeb901113fb4cc07b81d/tmlt_analytics-0.9.0rc5.tar.gz
+[2024-05-28 15:28:01] INFO root fetch - processPackages [rstream]: Downloading https://files.pythonhosted.org/packages/b9/02/cda6be5ba5d1adb01bada1d2cfaec91e30f2d6ec2a048f9fa170aa87f94d/rstream-0.8.1.tar.gz
+[2024-05-28 15:28:01] INFO root fetch - processPackages [docmesh-core]: Downloading https://files.pythonhosted.org/packages/d6/89/4e5e06acbd9fd64c128954c7f0f43c0b5423e73d15cb7075e3e4d27c55f4/docmesh_core-0.0.9.tar.gz
+[2024-05-28 15:28:01] INFO root fetch - processPackages [qiskit-transpiler-service]: Downloading https://files.pythonhosted.org/packages/7c/95/bab4e1fe92cf37782b2e9cee1d5a77843bd12e9184936bf56006ec972613/qiskit-transpiler-service-0.3.0.tar.gz
+[2024-05-28 15:28:01] INFO root fetch - processPackages [pv-surrogate-data]: Downloading https://files.pythonhosted.org/packages/0f/82/229e3f7395846c9c2fd0bccc2c691274244b3452fe34b2d41a35f9232366/pv_surrogate_data-1.0.1.tar.gz
+[2024-05-28 15:28:01] INFO root fetch - processPackages [civics-cdf-validator]: Downloading https://files.pythonhosted.org/packages/9c/33/4d75823e3c52ecc93964f231d752b79135d74aa9bcca07720045645bfe91/civics_cdf_validator-1.9.tar.gz
+[2024-05-28 15:28:01] INFO root fetch - processPackages [deepeval]: Downloading https://files.pythonhosted.org/packages/79/cd/f07ea4ba3fa8fae91bc1bdecc3a7fc8882146f65614215058425221ac2e8/deepeval-0.9.9.tar.gz
+[2024-05-28 15:28:01] INFO root fetch - processPackages [firestone-lib]: Downloading https://files.pythonhosted.org/packages/4f/8a/03d76ce648c7add285c3f519653c2a2af47345e35f891f6d9455f9b6d124/firestone_lib-0.1.9.tar.gz
+[2024-05-28 15:28:01] INFO root fetch - processPackages [numpyascii-package-GonenRaveh]: Downloading https://files.pythonhosted.org/packages/4e/03/e71eda189af81547152e2932c83a89842011430bea2433a5506acc153533/numpyascii_package_gonenraveh-1.0.4.tar.gz
+[2024-05-28 15:28:01] INFO root fetch - processPackages [docmesh-core]: executing diffoscope
+[2024-05-28 15:28:01] INFO root fetch - processPackages [docmesh-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docmesh_core-0.0.8.tar.gz tmp/docmesh_core-0.0.9.tar.gz --markdown 20240528/d/docmesh-core/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-28 15:28:01] INFO root fetch - processPackages [deepeval]: executing diffoscope
+[2024-05-28 15:28:01] INFO root fetch - processPackages [deepeval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepeval-0.9.8.tar.gz tmp/deepeval-0.9.9.tar.gz --markdown 20240528/d/deepeval/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-28 15:28:02] INFO root fetch - processPackages [numpyascii-package-GonenRaveh]: executing diffoscope
+[2024-05-28 15:28:02] INFO root fetch - processPackages [numpyascii-package-GonenRaveh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numpyascii_package_gonenraveh-1.0.3.tar.gz tmp/numpyascii_package_gonenraveh-1.0.4.tar.gz --markdown 20240528/n/numpyascii-package-GonenRaveh/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-28 15:28:02] INFO root fetch - processPackages [dbt]: Downloading https://files.pythonhosted.org/packages/7a/99/05944c00ffe021ceeae59e411a5b5f4521e582e35af5de3f57a6fec4eb05/dbt-1.0.0rc1.tar.gz
+[2024-05-28 15:28:02] INFO root fetch - processPackages [qiskit-transpiler-service]: Downloading https://files.pythonhosted.org/packages/5d/cc/8ecc7a25ee58d47afb67414901fc76337fc3b67197d205e0952099935952/qiskit_transpiler_service-0.4.0.tar.gz
+[2024-05-28 15:28:02] INFO root fetch - processPackages [civics-cdf-validator]: Downloading https://files.pythonhosted.org/packages/49/52/f20d05b43acd0ba782bdb28e82a60591d9ca3edb1c39da7ec86f030521ac/civics_cdf_validator-1.9.dev1.tar.gz
+[2024-05-28 15:28:02] INFO root fetch - processPackages [pv-surrogate-data]: Downloading https://files.pythonhosted.org/packages/df/d1/ca3e16fd5cafe4258a0f07534d77a00ca28d7cc962771139d549ece6b028/pv_surrogate_data-1.0.2.tar.gz
+[2024-05-28 15:28:02] INFO root fetch - processPackages [rstream]: Downloading https://files.pythonhosted.org/packages/92/ef/61a6ea12a0afe157e759df9abbbb973d4d75526af47b4b5bddf4f613b288/rstream-0.9.0.tar.gz
+[2024-05-28 15:28:02] INFO root fetch - processPackages [dbt]: executing diffoscope
+[2024-05-28 15:28:02] INFO root fetch - processPackages [dbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-1.0.0.37.9.tar.gz tmp/dbt-1.0.0rc1.tar.gz --markdown 20240528/d/dbt/1.0.0.37.9-1.0.0rc1/README.md --exclude *.pyd
+[2024-05-28 15:28:02] INFO root fetch - processPackages [firestone-lib]: Downloading https://files.pythonhosted.org/packages/d5/63/0d7c2208632092bfbcc4a7c2f3eb02df4935a9303e215ad00a042d4a2aca/firestone_lib-0.2.0.tar.gz
+[2024-05-28 15:28:02] INFO root fetch - processPackages [tmlt-analytics]: Downloading https://files.pythonhosted.org/packages/d0/a0/3a27f75d9841243c4e007697a303c6d85f8bc02a7951d6141540296e261e/tmlt_analytics-0.9.0rc6.tar.gz
+[2024-05-28 15:28:02] INFO root fetch - processPackages [pv-surrogate-data]: executing diffoscope
+[2024-05-28 15:28:02] INFO root fetch - processPackages [pv-surrogate-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pv_surrogate_data-1.0.1.tar.gz tmp/pv_surrogate_data-1.0.2.tar.gz --markdown 20240528/p/pv-surrogate-data/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-28 15:28:02] INFO root fetch - processPackages [qiskit-transpiler-service]: executing diffoscope
+[2024-05-28 15:28:02] INFO root fetch - processPackages [qiskit-transpiler-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit-transpiler-service-0.3.0.tar.gz tmp/qiskit_transpiler_service-0.4.0.tar.gz --markdown 20240528/q/qiskit-transpiler-service/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-28 15:28:02] INFO root fetch - processPackages [civics-cdf-validator]: executing diffoscope
+[2024-05-28 15:28:02] INFO root fetch - processPackages [rstream]: executing diffoscope
+[2024-05-28 15:28:02] INFO root fetch - processPackages [civics-cdf-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/civics_cdf_validator-1.9.tar.gz tmp/civics_cdf_validator-1.9.dev1.tar.gz --markdown 20240528/c/civics-cdf-validator/1.9-1.9.dev1/README.md --exclude *.pyd
+[2024-05-28 15:28:02] INFO root fetch - processPackages [rstream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rstream-0.8.1.tar.gz tmp/rstream-0.9.0.tar.gz --markdown 20240528/r/rstream/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-28 15:28:02] INFO root fetch - processPackages [firestone-lib]: executing diffoscope
+[2024-05-28 15:28:02] INFO root fetch - processPackages [firestone-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firestone_lib-0.1.9.tar.gz tmp/firestone_lib-0.2.0.tar.gz --markdown 20240528/f/firestone-lib/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-05-28 15:28:02] INFO root fetch - processPackages [tmlt-analytics]: executing diffoscope
+[2024-05-28 15:28:02] INFO root fetch - processPackages [tmlt-analytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmlt_analytics-0.9.0rc5.tar.gz tmp/tmlt_analytics-0.9.0rc6.tar.gz --markdown 20240528/t/tmlt-analytics/0.9.0rc5-0.9.0rc6/README.md --exclude *.pyd
+[2024-05-28 15:28:02] INFO root fetch - processPackages [docmesh-core]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_core-0.0.8.tar.gz]
+[2024-05-28 15:28:02] INFO root fetch - processPackages [docmesh-core]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_core-0.0.9.tar.gz]
+[2024-05-28 15:28:02] INFO root fetch - main [MainThread]: End processing [docmesh-core]: success
+[2024-05-28 15:28:02] INFO root fetch - processPackages [numpyascii-package-GonenRaveh]: Remove: archive file [/home/abi/fetcher/tmp/numpyascii_package_gonenraveh-1.0.3.tar.gz]
+[2024-05-28 15:28:02] INFO root fetch - processPackages [numpyascii-package-GonenRaveh]: Remove: archive file [/home/abi/fetcher/tmp/numpyascii_package_gonenraveh-1.0.4.tar.gz]
+[2024-05-28 15:28:02] INFO root fetch - main [MainThread]: End processing [numpyascii-package-GonenRaveh]: success
+[2024-05-28 15:28:02] INFO root fetch - processPackages [deepeval]: Remove: archive file [/home/abi/fetcher/tmp/deepeval-0.9.8.tar.gz]
+[2024-05-28 15:28:02] INFO root fetch - processPackages [deepeval]: Remove: archive file [/home/abi/fetcher/tmp/deepeval-0.9.9.tar.gz]
+[2024-05-28 15:28:02] INFO root fetch - main [MainThread]: End processing [deepeval]: success
+[2024-05-28 15:28:03] INFO root fetch - processPackages [dbt]: Remove: archive file [/home/abi/fetcher/tmp/dbt-1.0.0.37.9.tar.gz]
+[2024-05-28 15:28:03] INFO root fetch - processPackages [dbt]: Remove: archive file [/home/abi/fetcher/tmp/dbt-1.0.0rc1.tar.gz]
+[2024-05-28 15:28:03] INFO root fetch - main [MainThread]: End processing [dbt]: success
+[2024-05-28 15:28:03] INFO root fetch - processPackages [pv-surrogate-data]: Remove: archive file [/home/abi/fetcher/tmp/pv_surrogate_data-1.0.1.tar.gz]
+[2024-05-28 15:28:03] INFO root fetch - processPackages [pv-surrogate-data]: Remove: archive file [/home/abi/fetcher/tmp/pv_surrogate_data-1.0.2.tar.gz]
+[2024-05-28 15:28:03] INFO root fetch - main [MainThread]: End processing [pv-surrogate-data]: success
+[2024-05-28 15:28:03] INFO root fetch - processPackages [qiskit-transpiler-service]: Remove: archive file [/home/abi/fetcher/tmp/qiskit-transpiler-service-0.3.0.tar.gz]
+[2024-05-28 15:28:03] INFO root fetch - processPackages [qiskit-transpiler-service]: Remove: archive file [/home/abi/fetcher/tmp/qiskit_transpiler_service-0.4.0.tar.gz]
+[2024-05-28 15:28:03] INFO root fetch - main [MainThread]: End processing [qiskit-transpiler-service]: success
+[2024-05-28 15:28:03] INFO root fetch - processPackages [firestone-lib]: Remove: archive file [/home/abi/fetcher/tmp/firestone_lib-0.1.9.tar.gz]
+[2024-05-28 15:28:03] INFO root fetch - processPackages [firestone-lib]: Remove: archive file [/home/abi/fetcher/tmp/firestone_lib-0.2.0.tar.gz]
+[2024-05-28 15:28:03] INFO root fetch - main [MainThread]: End processing [firestone-lib]: success
+[2024-05-28 15:28:03] INFO root fetch - processPackages [rstream]: Remove: archive file [/home/abi/fetcher/tmp/rstream-0.8.1.tar.gz]
+[2024-05-28 15:28:03] INFO root fetch - processPackages [rstream]: Remove: archive file [/home/abi/fetcher/tmp/rstream-0.9.0.tar.gz]
+[2024-05-28 15:28:03] INFO root fetch - main [MainThread]: End processing [rstream]: success
+[2024-05-28 15:28:03] INFO root fetch - processPackages [civics-cdf-validator]: Remove: archive file [/home/abi/fetcher/tmp/civics_cdf_validator-1.9.tar.gz]
+[2024-05-28 15:28:03] INFO root fetch - processPackages [civics-cdf-validator]: Remove: archive file [/home/abi/fetcher/tmp/civics_cdf_validator-1.9.dev1.tar.gz]
+[2024-05-28 15:28:03] INFO root fetch - main [MainThread]: End processing [civics-cdf-validator]: success
+[2024-05-28 15:28:04] INFO root fetch - processPackages [tmlt-analytics]: Remove: archive file [/home/abi/fetcher/tmp/tmlt_analytics-0.9.0rc5.tar.gz]
+[2024-05-28 15:28:04] INFO root fetch - processPackages [tmlt-analytics]: Remove: archive file [/home/abi/fetcher/tmp/tmlt_analytics-0.9.0rc6.tar.gz]
+[2024-05-28 15:28:04] INFO root fetch - main [MainThread]: End processing [tmlt-analytics]: success
+[2024-05-28 15:28:04] INFO root fetch - main [MainThread]: Store serial: [23411902]
