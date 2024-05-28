@@ -3695,3 +3695,24 @@
 [2024-05-28 04:15:36] INFO root fetch - processPackages [Python-Education-Tools]: Remove: archive file [/home/abi/fetcher/tmp/Python_Education_Tools-24.5.8-py3-none-any.whl.zip]
 [2024-05-28 04:15:36] INFO root fetch - main [MainThread]: End processing [Python-Education-Tools]: success
 [2024-05-28 04:15:36] INFO root fetch - main [MainThread]: Store serial: [23404320]
+[2024-05-28 04:17:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23404320]
+[2024-05-28 04:17:45] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-28 04:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: experiment-helpers
+[2024-05-28 04:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: komo
+[2024-05-28 04:17:45] INFO root fetch - processPackages [komo]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-28 04:17:45] INFO root fetch - processPackages [experiment-helpers]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-28 04:17:45] INFO root fetch - processPackages [experiment-helpers]: Downloading https://files.pythonhosted.org/packages/d8/b8/4d2059d553d489beb944d46490e92a1c756a53a2151fe5a13ac31f8c7e2d/experiment_helpers-0.0.8.tar.gz
+[2024-05-28 04:17:45] INFO root fetch - processPackages [komo]: Downloading https://files.pythonhosted.org/packages/e5/e8/cf20243d164ff9c48e03fd5ff4c7107c6dd965947ee156ca5fb9a7b15e8b/komo-0.2.8.tar.gz
+[2024-05-28 04:17:46] INFO root fetch - processPackages [experiment-helpers]: Downloading https://files.pythonhosted.org/packages/91/85/d55140197c7fbdcf545e299dfef55310447c595a8fc02678c5384bed232b/experiment_helpers-0.0.9.tar.gz
+[2024-05-28 04:17:46] INFO root fetch - processPackages [komo]: Downloading https://files.pythonhosted.org/packages/f5/f7/2ea58820646d37f896447b9e3d7ec9129d961b11ece4c7fe38608a77a70c/komo-0.2.9.tar.gz
+[2024-05-28 04:17:46] INFO root fetch - processPackages [experiment-helpers]: executing diffoscope
+[2024-05-28 04:17:46] INFO root fetch - processPackages [experiment-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/experiment_helpers-0.0.8.tar.gz tmp/experiment_helpers-0.0.9.tar.gz --markdown 20240528/e/experiment-helpers/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-28 04:17:46] INFO root fetch - processPackages [komo]: executing diffoscope
+[2024-05-28 04:17:46] INFO root fetch - processPackages [komo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/komo-0.2.8.tar.gz tmp/komo-0.2.9.tar.gz --markdown 20240528/k/komo/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-28 04:17:46] INFO root fetch - processPackages [experiment-helpers]: Remove: archive file [/home/abi/fetcher/tmp/experiment_helpers-0.0.8.tar.gz]
+[2024-05-28 04:17:46] INFO root fetch - processPackages [experiment-helpers]: Remove: archive file [/home/abi/fetcher/tmp/experiment_helpers-0.0.9.tar.gz]
+[2024-05-28 04:17:46] INFO root fetch - main [MainThread]: End processing [experiment-helpers]: success
+[2024-05-28 04:17:46] INFO root fetch - processPackages [komo]: Remove: archive file [/home/abi/fetcher/tmp/komo-0.2.8.tar.gz]
+[2024-05-28 04:17:46] INFO root fetch - processPackages [komo]: Remove: archive file [/home/abi/fetcher/tmp/komo-0.2.9.tar.gz]
+[2024-05-28 04:17:46] INFO root fetch - main [MainThread]: End processing [komo]: success
+[2024-05-28 04:17:46] INFO root fetch - main [MainThread]: Store serial: [23404327]
