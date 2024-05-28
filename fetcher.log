@@ -5063,3 +5063,30 @@
 [2024-05-28 05:43:42] INFO root fetch - processPackages [signate]: Remove: archive file [/home/abi/fetcher/tmp/signate-9.9.10.tar.gz]
 [2024-05-28 05:43:42] INFO root fetch - main [MainThread]: End processing [signate]: success
 [2024-05-28 05:43:42] INFO root fetch - main [MainThread]: Store serial: [23404823]
+[2024-05-28 05:45:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23404823]
+[2024-05-28 05:45:51] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-28 05:45:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: transstellar-antd
+[2024-05-28 05:45:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nanababa
+[2024-05-28 05:45:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: muttfuzz
+[2024-05-28 05:45:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: asciiscape
+[2024-05-28 05:45:51] INFO root fetch - processPackages [muttfuzz]: New version: [0.7.5] Old Version: [0.7.4]
+[2024-05-28 05:45:51] WARNING root fetch - processPackages [nanababa]: Skipping, unable to determine old version
+[2024-05-28 05:45:51] INFO root fetch - processPackages [transstellar-antd]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-28 05:45:51] INFO root fetch - main [MainThread]: End processing [nanababa] error
+[2024-05-28 05:45:51] WARNING root fetch - processPackages [asciiscape]: Skipping, unable to determine old version
+[2024-05-28 05:45:51] INFO root fetch - main [MainThread]: End processing [asciiscape] error
+[2024-05-28 05:45:51] INFO root fetch - processPackages [muttfuzz]: Downloading https://files.pythonhosted.org/packages/77/d0/ca9fd03448aaf1fa7c6242cff0d24779d79394968f25b506a34708532d71/muttfuzz-0.7.4-py3-none-any.whl
+[2024-05-28 05:45:51] INFO root fetch - processPackages [transstellar-antd]: Downloading https://files.pythonhosted.org/packages/8f/a6/d619f3451d6a76e12fef710752e73b34964d894a417d58432367108c9910/transstellar_antd-0.8.1.tar.gz
+[2024-05-28 05:45:51] INFO root fetch - processPackages [muttfuzz]: Downloading https://files.pythonhosted.org/packages/be/a2/12777c712187edc9057a8264b28e262683d3fb9d9cb79f329971cd28edab/muttfuzz-0.7.5-py3-none-any.whl
+[2024-05-28 05:45:51] INFO root fetch - processPackages [transstellar-antd]: Downloading https://files.pythonhosted.org/packages/71/89/6a56e920e316df0da9580cc9789cd02c1fe6b93a5d4fd10dc20c13fd9f5f/transstellar_antd-0.9.0.tar.gz
+[2024-05-28 05:45:51] INFO root fetch - processPackages [muttfuzz]: executing diffoscope
+[2024-05-28 05:45:51] INFO root fetch - processPackages [muttfuzz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muttfuzz-0.7.4-py3-none-any.whl.zip tmp/muttfuzz-0.7.5-py3-none-any.whl.zip --markdown 20240528/m/muttfuzz/0.7.4-0.7.5/README.md --exclude *.pyd
+[2024-05-28 05:45:51] INFO root fetch - processPackages [transstellar-antd]: executing diffoscope
+[2024-05-28 05:45:51] INFO root fetch - processPackages [transstellar-antd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transstellar_antd-0.8.1.tar.gz tmp/transstellar_antd-0.9.0.tar.gz --markdown 20240528/t/transstellar-antd/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-28 05:45:52] INFO root fetch - processPackages [muttfuzz]: Remove: archive file [/home/abi/fetcher/tmp/muttfuzz-0.7.4-py3-none-any.whl.zip]
+[2024-05-28 05:45:52] INFO root fetch - processPackages [muttfuzz]: Remove: archive file [/home/abi/fetcher/tmp/muttfuzz-0.7.5-py3-none-any.whl.zip]
+[2024-05-28 05:45:52] INFO root fetch - main [MainThread]: End processing [muttfuzz]: success
+[2024-05-28 05:45:52] INFO root fetch - processPackages [transstellar-antd]: Remove: archive file [/home/abi/fetcher/tmp/transstellar_antd-0.8.1.tar.gz]
+[2024-05-28 05:45:52] INFO root fetch - processPackages [transstellar-antd]: Remove: archive file [/home/abi/fetcher/tmp/transstellar_antd-0.9.0.tar.gz]
+[2024-05-28 05:45:52] INFO root fetch - main [MainThread]: End processing [transstellar-antd]: success
+[2024-05-28 05:45:52] INFO root fetch - main [MainThread]: Store serial: [23404840]
