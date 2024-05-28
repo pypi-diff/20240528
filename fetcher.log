@@ -5298,3 +5298,15 @@
 [2024-05-28 06:01:04] INFO root fetch - processPackages [espresso-machine]: Remove: archive file [/home/abi/fetcher/tmp/espresso_machine-0.0.120.tar.gz]
 [2024-05-28 06:01:04] INFO root fetch - main [MainThread]: End processing [espresso-machine]: success
 [2024-05-28 06:01:04] INFO root fetch - main [MainThread]: Store serial: [23404919]
+[2024-05-28 06:03:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23404919]
+[2024-05-28 06:03:13] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-28 06:03:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pratlib
+[2024-05-28 06:03:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: albibong
+[2024-05-28 06:03:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: timegan
+[2024-05-28 06:03:13] WARNING root fetch - processPackages [albibong]: Skipping, unable to determine old version
+[2024-05-28 06:03:13] INFO root fetch - main [MainThread]: End processing [albibong] error
+[2024-05-28 06:03:13] WARNING root fetch - processPackages [timegan]: Skipping, unable to determine old version
+[2024-05-28 06:03:13] INFO root fetch - main [MainThread]: End processing [timegan] error
+[2024-05-28 06:03:13] WARNING root fetch - processPackages [pratlib]: Skipping, unable to determine old version
+[2024-05-28 06:03:13] INFO root fetch - main [MainThread]: End processing [pratlib] error
+[2024-05-28 06:03:13] INFO root fetch - main [MainThread]: Store serial: [23404931]
