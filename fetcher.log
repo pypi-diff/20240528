@@ -12744,3 +12744,96 @@
 [2024-05-28 10:48:33] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
 [2024-05-28 10:48:33] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2024-05-28 10:48:33] INFO root fetch - main [MainThread]: Store serial: [23408318]
+[2024-05-28 10:50:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23408318]
+[2024-05-28 10:50:42] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-28 10:50:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stream-zip
+[2024-05-28 10:50:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: syntho-cli
+[2024-05-28 10:50:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mozilla-django-oidc-db
+[2024-05-28 10:50:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sunyata
+[2024-05-28 10:50:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nimbletl
+[2024-05-28 10:50:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nixos-compose
+[2024-05-28 10:50:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gamspy
+[2024-05-28 10:50:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kcli
+[2024-05-28 10:50:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: assessment-episode-matcher
+[2024-05-28 10:50:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pami
+[2024-05-28 10:50:42] INFO root fetch - processPackages [nimbletl]: New version: [0.1.4] Old Version: [0.1.2]
+[2024-05-28 10:50:42] INFO root fetch - processPackages [assessment-episode-matcher]: New version: [0.5.3] Old Version: [0.5.2]
+[2024-05-28 10:50:42] INFO root fetch - processPackages [mozilla-django-oidc-db]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-28 10:50:42] INFO root fetch - processPackages [stream-zip]: New version: [0.0.9] Old Version: [0.0.81]
+[2024-05-28 10:50:42] INFO root fetch - processPackages [kcli]: New version: [99.0.202405280830] Old Version: [99.0.202405262333]
+[2024-05-28 10:50:42] INFO root fetch - processPackages [syntho-cli]: New version: [1.7.0b1] Old Version: [1.7.0a1]
+[2024-05-28 10:50:42] INFO root fetch - processPackages [assessment-episode-matcher]: Downloading https://files.pythonhosted.org/packages/a8/8b/80927d3c2485dbe12a80ad42ca396b246af9f1e697b9025f27da14eca373/assessment_episode_matcher-0.5.2.tar.gz
+[2024-05-28 10:50:42] INFO root fetch - processPackages [nimbletl]: Downloading https://files.pythonhosted.org/packages/9b/5b/8b09ca2d7eacd69ffd0b68bafd248333cf37bc506f19919d03b026d9f603/nimbletl-0.1.2.tar.gz
+[2024-05-28 10:50:42] INFO root fetch - processPackages [nixos-compose]: New version: [0.6.0] Old Version: [0.5.6]
+[2024-05-28 10:50:42] INFO root fetch - processPackages [gamspy]: New version: [0.12.5] Old Version: [0.12.4]
+[2024-05-28 10:50:42] INFO root fetch - processPackages [sunyata]: New version: [0.0.47] Old Version: [0.0.46]
+[2024-05-28 10:50:42] INFO root fetch - processPackages [pami]: New version: [2024.5.7.1] Old Version: [2024.5.28.1]
+[2024-05-28 10:50:42] INFO root fetch - processPackages [stream-zip]: Downloading https://files.pythonhosted.org/packages/f0/79/83e1983f1bdf7676f9c11b86d9d310db8e6441b477e1a35e7847e1b4c28d/stream_zip-0.0.81.tar.gz
+[2024-05-28 10:50:42] INFO root fetch - processPackages [mozilla-django-oidc-db]: Downloading https://files.pythonhosted.org/packages/63/cb/eeabcb20b6a4e7e199ddba1e02572705b7f04b3350876628beb6a75f14f6/mozilla-django-oidc-db-0.8.0.tar.gz
+[2024-05-28 10:50:42] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/f7/24/7618d9d63a883dc146c5fdaac7578080b958e4d6f8cc053fc54402427918/kcli-99.0.202405262333.tar.gz
+[2024-05-28 10:50:42] INFO root fetch - processPackages [syntho-cli]: Downloading https://files.pythonhosted.org/packages/8c/7c/0665afa803e540419a7c718f8f3ccac8b41e400c51158c5194d774612d00/syntho-cli-1.7.0a1.tar.gz
+[2024-05-28 10:50:42] INFO root fetch - processPackages [nixos-compose]: Downloading https://files.pythonhosted.org/packages/d4/80/020d9effc988b261e657660ec0b50071dc93b4aad2bf0dc0957278faf24d/nixos_compose-0.5.6.tar.gz
+[2024-05-28 10:50:42] INFO root fetch - processPackages [gamspy]: Downloading https://files.pythonhosted.org/packages/bf/9a/bd7bf8cb437362498c22c07b2a359a17f83a373d81094f1fc4921f4a088f/gamspy-0.12.4-py3-none-any.whl
+[2024-05-28 10:50:42] INFO root fetch - processPackages [sunyata]: Downloading https://files.pythonhosted.org/packages/26/83/ca4c061d45f814cc5db59752d93499c708ccf468ae17c0bc3c77b5bf521b/sunyata-0.0.46.tar.gz
+[2024-05-28 10:50:42] INFO root fetch - processPackages [pami]: Downloading https://files.pythonhosted.org/packages/c0/46/a36837aeeda4587148d8e3449c755d5444a2165a44eded48ff2599e815ef/pami-2024.5.28.1.tar.gz
+[2024-05-28 10:50:42] INFO root fetch - processPackages [assessment-episode-matcher]: Downloading https://files.pythonhosted.org/packages/7e/1b/c210304a04f853b9f9c04a070fe900b71a08b131905dddf52cb8c6da3210/assessment_episode_matcher-0.5.3.tar.gz
+[2024-05-28 10:50:42] INFO root fetch - processPackages [stream-zip]: Downloading https://files.pythonhosted.org/packages/0e/94/162b767659b1b6afe9241c47773d921e2b8a0f97f124d374e76c7f1d2b53/stream-zip-0.0.9.tar.gz
+[2024-05-28 10:50:42] INFO root fetch - processPackages [nimbletl]: Downloading https://files.pythonhosted.org/packages/a1/22/8640c27057ce07126b675ce66839e3d86c4d86639c3edf09bae90a451641/nimbletl-0.1.4.tar.gz
+[2024-05-28 10:50:42] INFO root fetch - processPackages [assessment-episode-matcher]: executing diffoscope
+[2024-05-28 10:50:42] INFO root fetch - processPackages [assessment-episode-matcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assessment_episode_matcher-0.5.2.tar.gz tmp/assessment_episode_matcher-0.5.3.tar.gz --markdown 20240528/a/assessment-episode-matcher/0.5.2-0.5.3/README.md --exclude *.pyd
+[2024-05-28 10:50:42] INFO root fetch - processPackages [stream-zip]: executing diffoscope
+[2024-05-28 10:50:42] INFO root fetch - processPackages [stream-zip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stream_zip-0.0.81.tar.gz tmp/stream-zip-0.0.9.tar.gz --markdown 20240528/s/stream-zip/0.0.81-0.0.9/README.md --exclude *.pyd
+[2024-05-28 10:50:42] INFO root fetch - processPackages [nimbletl]: executing diffoscope
+[2024-05-28 10:50:42] INFO root fetch - processPackages [nimbletl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nimbletl-0.1.2.tar.gz tmp/nimbletl-0.1.4.tar.gz --markdown 20240528/n/nimbletl/0.1.2-0.1.4/README.md --exclude *.pyd
+[2024-05-28 10:50:42] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/3e/8f/3dddeea3d2e7e8847f8108f1e0ec0c38ef61342d31706c5d6babbfffcd7a/kcli-99.0.202405280830.tar.gz
+[2024-05-28 10:50:43] INFO root fetch - processPackages [syntho-cli]: Downloading https://files.pythonhosted.org/packages/c8/2d/b6a4b24e2103202ed59d324434746802cd30fb965ca3ca6b49e94abe4fb7/syntho-cli-1.7.0b1.tar.gz
+[2024-05-28 10:50:43] INFO root fetch - processPackages [mozilla-django-oidc-db]: Downloading https://files.pythonhosted.org/packages/1f/9b/9e349ed051d16d73dd7a26b580ea62019b60f3541062aaf419ffc27790bb/mozilla-django-oidc-db-0.9.0.tar.gz
+[2024-05-28 10:50:43] INFO root fetch - processPackages [nixos-compose]: Downloading https://files.pythonhosted.org/packages/53/fe/5b6ebc56153a1a36af5547e361545374bec1fe8d951fe9cf138fda52059a/nixos_compose-0.6.0.tar.gz
+[2024-05-28 10:50:43] INFO root fetch - processPackages [sunyata]: Downloading https://files.pythonhosted.org/packages/a5/9f/16bbfe0ba0d7ad9774e0e3088c2414c50aff91cffbbb09121e54f062f7f4/sunyata-0.0.47.tar.gz
+[2024-05-28 10:50:43] INFO root fetch - processPackages [gamspy]: Downloading https://files.pythonhosted.org/packages/52/a6/cfcc48e23f4046a3ce51f3b27eca66167a93b7ce262f745666089320af2f/gamspy-0.12.5-py3-none-any.whl
+[2024-05-28 10:50:43] INFO root fetch - processPackages [syntho-cli]: executing diffoscope
+[2024-05-28 10:50:43] INFO root fetch - processPackages [syntho-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syntho-cli-1.7.0a1.tar.gz tmp/syntho-cli-1.7.0b1.tar.gz --markdown 20240528/s/syntho-cli/1.7.0a1-1.7.0b1/README.md --exclude *.pyd
+[2024-05-28 10:50:43] INFO root fetch - processPackages [mozilla-django-oidc-db]: executing diffoscope
+[2024-05-28 10:50:43] INFO root fetch - processPackages [mozilla-django-oidc-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mozilla-django-oidc-db-0.8.0.tar.gz tmp/mozilla-django-oidc-db-0.9.0.tar.gz --markdown 20240528/m/mozilla-django-oidc-db/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-28 10:50:43] INFO root fetch - processPackages [sunyata]: executing diffoscope
+[2024-05-28 10:50:43] INFO root fetch - processPackages [sunyata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunyata-0.0.46.tar.gz tmp/sunyata-0.0.47.tar.gz --markdown 20240528/s/sunyata/0.0.46-0.0.47/README.md --exclude *.pyd
+[2024-05-28 10:50:43] INFO root fetch - processPackages [pami]: Downloading https://files.pythonhosted.org/packages/39/e1/8492945bb9b7c83adec0ca90e4a331b9a95ff3680d392a1889bc98aa3823/pami-2024.5.7.1.tar.gz
+[2024-05-28 10:50:43] INFO root fetch - processPackages [nixos-compose]: executing diffoscope
+[2024-05-28 10:50:43] INFO root fetch - processPackages [nixos-compose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nixos_compose-0.5.6.tar.gz tmp/nixos_compose-0.6.0.tar.gz --markdown 20240528/n/nixos-compose/0.5.6-0.6.0/README.md --exclude *.pyd
+[2024-05-28 10:50:43] INFO root fetch - processPackages [gamspy]: executing diffoscope
+[2024-05-28 10:50:43] INFO root fetch - processPackages [gamspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gamspy-0.12.4-py3-none-any.whl.zip tmp/gamspy-0.12.5-py3-none-any.whl.zip --markdown 20240528/g/gamspy/0.12.4-0.12.5/README.md --exclude *.pyd
+[2024-05-28 10:50:43] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2024-05-28 10:50:43] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202405262333.tar.gz tmp/kcli-99.0.202405280830.tar.gz --markdown 20240528/k/kcli/99.0.202405262333-99.0.202405280830/README.md --exclude *.pyd
+[2024-05-28 10:50:43] INFO root fetch - processPackages [pami]: executing diffoscope
+[2024-05-28 10:50:43] INFO root fetch - processPackages [pami]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pami-2024.5.28.1.tar.gz tmp/pami-2024.5.7.1.tar.gz --markdown 20240528/p/pami/2024.5.28.1-2024.5.7.1/README.md --exclude *.pyd
+[2024-05-28 10:50:43] INFO root fetch - processPackages [stream-zip]: Remove: archive file [/home/abi/fetcher/tmp/stream_zip-0.0.81.tar.gz]
+[2024-05-28 10:50:43] INFO root fetch - processPackages [stream-zip]: Remove: archive file [/home/abi/fetcher/tmp/stream-zip-0.0.9.tar.gz]
+[2024-05-28 10:50:43] INFO root fetch - main [MainThread]: End processing [stream-zip]: success
+[2024-05-28 10:50:43] INFO root fetch - processPackages [nimbletl]: Remove: archive file [/home/abi/fetcher/tmp/nimbletl-0.1.2.tar.gz]
+[2024-05-28 10:50:43] INFO root fetch - processPackages [nimbletl]: Remove: archive file [/home/abi/fetcher/tmp/nimbletl-0.1.4.tar.gz]
+[2024-05-28 10:50:43] INFO root fetch - main [MainThread]: End processing [nimbletl]: success
+[2024-05-28 10:50:43] INFO root fetch - processPackages [assessment-episode-matcher]: Remove: archive file [/home/abi/fetcher/tmp/assessment_episode_matcher-0.5.2.tar.gz]
+[2024-05-28 10:50:43] INFO root fetch - processPackages [assessment-episode-matcher]: Remove: archive file [/home/abi/fetcher/tmp/assessment_episode_matcher-0.5.3.tar.gz]
+[2024-05-28 10:50:43] INFO root fetch - main [MainThread]: End processing [assessment-episode-matcher]: success
+[2024-05-28 10:50:44] INFO root fetch - processPackages [syntho-cli]: Remove: archive file [/home/abi/fetcher/tmp/syntho-cli-1.7.0a1.tar.gz]
+[2024-05-28 10:50:44] INFO root fetch - processPackages [syntho-cli]: Remove: archive file [/home/abi/fetcher/tmp/syntho-cli-1.7.0b1.tar.gz]
+[2024-05-28 10:50:44] INFO root fetch - main [MainThread]: End processing [syntho-cli]: success
+[2024-05-28 10:50:44] INFO root fetch - processPackages [sunyata]: Remove: archive file [/home/abi/fetcher/tmp/sunyata-0.0.46.tar.gz]
+[2024-05-28 10:50:44] INFO root fetch - processPackages [sunyata]: Remove: archive file [/home/abi/fetcher/tmp/sunyata-0.0.47.tar.gz]
+[2024-05-28 10:50:44] INFO root fetch - main [MainThread]: End processing [sunyata]: success
+[2024-05-28 10:50:44] INFO root fetch - processPackages [mozilla-django-oidc-db]: Remove: archive file [/home/abi/fetcher/tmp/mozilla-django-oidc-db-0.8.0.tar.gz]
+[2024-05-28 10:50:44] INFO root fetch - processPackages [mozilla-django-oidc-db]: Remove: archive file [/home/abi/fetcher/tmp/mozilla-django-oidc-db-0.9.0.tar.gz]
+[2024-05-28 10:50:44] INFO root fetch - main [MainThread]: End processing [mozilla-django-oidc-db]: success
+[2024-05-28 10:50:44] INFO root fetch - processPackages [nixos-compose]: Remove: archive file [/home/abi/fetcher/tmp/nixos_compose-0.5.6.tar.gz]
+[2024-05-28 10:50:44] INFO root fetch - processPackages [nixos-compose]: Remove: archive file [/home/abi/fetcher/tmp/nixos_compose-0.6.0.tar.gz]
+[2024-05-28 10:50:44] INFO root fetch - main [MainThread]: End processing [nixos-compose]: success
+[2024-05-28 10:50:44] INFO root fetch - processPackages [gamspy]: Remove: archive file [/home/abi/fetcher/tmp/gamspy-0.12.4-py3-none-any.whl.zip]
+[2024-05-28 10:50:44] INFO root fetch - processPackages [gamspy]: Remove: archive file [/home/abi/fetcher/tmp/gamspy-0.12.5-py3-none-any.whl.zip]
+[2024-05-28 10:50:44] INFO root fetch - main [MainThread]: End processing [gamspy]: success
+[2024-05-28 10:50:45] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202405262333.tar.gz]
+[2024-05-28 10:50:45] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202405280830.tar.gz]
+[2024-05-28 10:50:45] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2024-05-28 10:50:45] INFO root fetch - processPackages [pami]: Remove: archive file [/home/abi/fetcher/tmp/pami-2024.5.28.1.tar.gz]
+[2024-05-28 10:50:45] INFO root fetch - processPackages [pami]: Remove: archive file [/home/abi/fetcher/tmp/pami-2024.5.7.1.tar.gz]
+[2024-05-28 10:50:45] INFO root fetch - main [MainThread]: End processing [pami]: success
+[2024-05-28 10:50:45] INFO root fetch - main [MainThread]: Store serial: [23408346]
