@@ -21942,3 +21942,118 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 16:04:20] INFO root fetch - processPackages [coverage]: Remove: archive file [/home/abi/fetcher/tmp/coverage-7.5.2.tar.gz]
 [2024-05-28 16:04:20] INFO root fetch - main [MainThread]: End processing [coverage]: success
 [2024-05-28 16:04:20] INFO root fetch - main [MainThread]: Store serial: [23412442]
+[2024-05-28 16:06:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23412442]
+[2024-05-28 16:06:29] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-05-28 16:06:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eliasliu
+[2024-05-28 16:06:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: grain-zip-deployer
+[2024-05-28 16:06:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: medium-article-py
+[2024-05-28 16:06:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scippneutron
+[2024-05-28 16:06:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ovhai
+[2024-05-28 16:06:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-steam-api
+[2024-05-28 16:06:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: beakerx-tabledisplay
+[2024-05-28 16:06:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hacs-frontend
+[2024-05-28 16:06:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gradio-likeablegallery
+[2024-05-28 16:06:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: t-office-365
+[2024-05-28 16:06:29] INFO root fetch - processPackages [grain-zip-deployer]: New version: [2025.5.28.1] Old Version: [2025.5.28.0]
+[2024-05-28 16:06:29] INFO root fetch - processPackages [ovhai]: New version: [0.1a3] Old Version: [0.1a2]
+[2024-05-28 16:06:29] INFO root fetch - processPackages [eliasliu]: New version: [0.1.61] Old Version: [0.1.60]
+[2024-05-28 16:06:29] INFO root fetch - processPackages [python-steam-api]: New version: [2.0.1] Old Version: [2.0]
+[2024-05-28 16:06:29] INFO root fetch - processPackages [medium-article-py]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-28 16:06:29] WARNING root fetch - processPackages [gradio-likeablegallery]: Skipping, unable to determine old version
+[2024-05-28 16:06:29] INFO root fetch - processPackages [gradio-likeablegallery]: Start processing: kcl-lib
+[2024-05-28 16:06:29] INFO root fetch - main [MainThread]: End processing [gradio-likeablegallery] error
+[2024-05-28 16:06:29] INFO root fetch - processPackages [scippneutron]: New version: [24.5.0] Old Version: [24.3.0]
+[2024-05-28 16:06:29] INFO root fetch - processPackages [beakerx-tabledisplay]: New version: [2.4.4] Old Version: [2.4.3]
+[2024-05-28 16:06:29] INFO root fetch - processPackages [t-office-365]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-28 16:06:29] INFO root fetch - processPackages [medium-article-py]: Downloading https://files.pythonhosted.org/packages/45/8e/247160c63c626ba34f9551288776f56c1b29db7d0412563ceb85616f5d05/medium_article_py-0.1.7.tar.gz
+[2024-05-28 16:06:29] INFO root fetch - processPackages [ovhai]: Downloading https://files.pythonhosted.org/packages/f0/c4/67049a103db49a3f7a99423d8afc1de273ff1ac03087f030508ffb4484c5/ovhai-0.1a2.tar.gz
+[2024-05-28 16:06:29] INFO root fetch - processPackages [hacs-frontend]: New version: [9] Old Version: [8]
+[2024-05-28 16:06:29] INFO root fetch - processPackages [eliasliu]: Downloading https://files.pythonhosted.org/packages/41/79/7c2244598d01cc17c94b567619ad8e51a9fc14f4823d84ace3998d1f5a41/eliasliu-0.1.60.tar.gz
+[2024-05-28 16:06:29] INFO root fetch - processPackages [python-steam-api]: Downloading https://files.pythonhosted.org/packages/80/3e/fe9a61f649fc463e970bb1c9a4d2f0899af9734b5d6b4e65796389f43cb7/python-steam-api-2.0.tar.gz
+[2024-05-28 16:06:30] INFO root fetch - processPackages [grain-zip-deployer]: Downloading https://files.pythonhosted.org/packages/d3/14/c737920b8315cf9331b6e933868de13b6b77c84252eff796ce621cddb33e/grain_zip_deployer-2025.5.28.0.tar.gz
+[2024-05-28 16:06:30] INFO root fetch - processPackages [kcl-lib]: New version: [0.9.0b1] Old Version: [0.9.0a2]
+[2024-05-28 16:06:30] INFO root fetch - processPackages [beakerx-tabledisplay]: Downloading https://files.pythonhosted.org/packages/8f/43/cd9da8c57ca64d211726a2e88c0ebbf653ac3ea6ca53f04cb752975ad0a7/beakerx_tabledisplay-2.4.3.tar.gz
+[2024-05-28 16:06:30] INFO root fetch - processPackages [scippneutron]: Downloading https://files.pythonhosted.org/packages/24/22/806b5094e66007dfea36adf5e7fcf5a3aa7919798271f71b326f9164c534/scippneutron-24.3.0.tar.gz
+[2024-05-28 16:06:30] INFO root fetch - processPackages [t-office-365]: Downloading https://files.pythonhosted.org/packages/20/3a/1029db06a756bc948e8b4ac464fec15539c28abc1bbfb652c92f26982e6c/t_office_365-0.1.8.tar.gz
+[2024-05-28 16:06:30] INFO root fetch - processPackages [hacs-frontend]: Downloading https://files.pythonhosted.org/packages/4b/54/4a6311d8b103f58145787acb710d11417db7aa8446ae2bec85633213f873/hacs-frontend-8.tar.gz
+[2024-05-28 16:06:30] WARNING root fetch - processPackages [beakerx-tabledisplay]: Skipping package: exceeds size limit 73309460>=10485760
+[2024-05-28 16:06:30] INFO root fetch - processPackages [beakerx-tabledisplay]: Start processing: Authomatic
+[2024-05-28 16:06:30] INFO root fetch - main [MainThread]: End processing [beakerx-tabledisplay] error
+[2024-05-28 16:06:30] INFO root fetch - processPackages [ovhai]: Downloading https://files.pythonhosted.org/packages/c2/91/38f9ba4eed00b477cabb71b1d9470a6b9e9f31f5dba3f564a4abd8f0f937/ovhai-0.1a3.tar.gz
+[2024-05-28 16:06:30] INFO root fetch - processPackages [eliasliu]: Downloading https://files.pythonhosted.org/packages/5c/a8/051b3a6afe9b9dbc5e56b9250242759929349f2e716b606edf14a4b24593/eliasliu-0.1.61.tar.gz
+[2024-05-28 16:06:30] INFO root fetch - processPackages [kcl-lib]: Downloading https://files.pythonhosted.org/packages/4d/1b/e41e9b9f1523d5ea43cafe46dbd7d6fa9de5ded5d6c36dacefd016b5fbc0/kcl_lib-0.9.0a2.tar.gz
+[2024-05-28 16:06:30] INFO root fetch - processPackages [python-steam-api]: Downloading https://files.pythonhosted.org/packages/91/4d/a422c7799142138284be503689919e849384670ec13399b77e806de5046c/python_steam_api-2.0.1.tar.gz
+[2024-05-28 16:06:30] INFO root fetch - processPackages [medium-article-py]: Downloading https://files.pythonhosted.org/packages/b1/0c/ca74a314e749aa39e566656cb79fe5c73bedf013f4c3cec0efd0b6aef31e/medium_article_py-0.1.8.tar.gz
+[2024-05-28 16:06:30] INFO root fetch - processPackages [grain-zip-deployer]: Downloading https://files.pythonhosted.org/packages/8b/21/3f382ef4a8dbde3fd91cbf9e540714c817fe8e4ad0fd0c13e952568f289d/grain_zip_deployer-2025.5.28.1.tar.gz
+[2024-05-28 16:06:30] INFO root fetch - processPackages [Authomatic]: New version: [1.3.0] Old Version: [1.2.1]
+[2024-05-28 16:06:30] WARNING root fetch - processPackages [kcl-lib]: Skipping package: exceeds size limit 90220127>=10485760
+[2024-05-28 16:06:30] INFO root fetch - processPackages [kcl-lib]: Start processing: pp-weight-estimation
+[2024-05-28 16:06:30] INFO root fetch - main [MainThread]: End processing [kcl-lib] error
+[2024-05-28 16:06:30] INFO root fetch - processPackages [ovhai]: executing diffoscope
+[2024-05-28 16:06:30] INFO root fetch - processPackages [eliasliu]: executing diffoscope
+[2024-05-28 16:06:30] INFO root fetch - processPackages [ovhai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovhai-0.1a2.tar.gz tmp/ovhai-0.1a3.tar.gz --markdown 20240528/o/ovhai/0.1a2-0.1a3/README.md --exclude *.pyd
+[2024-05-28 16:06:30] INFO root fetch - processPackages [eliasliu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eliasliu-0.1.60.tar.gz tmp/eliasliu-0.1.61.tar.gz --markdown 20240528/e/eliasliu/0.1.60-0.1.61/README.md --exclude *.pyd
+[2024-05-28 16:06:30] INFO root fetch - processPackages [python-steam-api]: executing diffoscope
+[2024-05-28 16:06:30] INFO root fetch - processPackages [python-steam-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-steam-api-2.0.tar.gz tmp/python_steam_api-2.0.1.tar.gz --markdown 20240528/p/python-steam-api/2.0-2.0.1/README.md --exclude *.pyd
+[2024-05-28 16:06:30] INFO root fetch - processPackages [medium-article-py]: executing diffoscope
+[2024-05-28 16:06:30] INFO root fetch - processPackages [medium-article-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medium_article_py-0.1.7.tar.gz tmp/medium_article_py-0.1.8.tar.gz --markdown 20240528/m/medium-article-py/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-28 16:06:30] INFO root fetch - processPackages [grain-zip-deployer]: executing diffoscope
+[2024-05-28 16:06:30] INFO root fetch - processPackages [grain-zip-deployer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grain_zip_deployer-2025.5.28.0.tar.gz tmp/grain_zip_deployer-2025.5.28.1.tar.gz --markdown 20240528/g/grain-zip-deployer/2025.5.28.0-2025.5.28.1/README.md --exclude *.pyd
+[2024-05-28 16:06:30] INFO root fetch - processPackages [pp-weight-estimation]: New version: [1.1.14] Old Version: [1.0.9]
+[2024-05-28 16:06:30] INFO root fetch - processPackages [scippneutron]: Downloading https://files.pythonhosted.org/packages/69/08/47d302d684832a37954f6761a66d48e009681dab97264a48f699a258e815/scippneutron-24.5.0.tar.gz
+[2024-05-28 16:06:30] INFO root fetch - processPackages [t-office-365]: Downloading https://files.pythonhosted.org/packages/e0/26/0d4015f36f38eb7d025afa6da75b7ce59ff38502ca798087b3f133be93ce/t_office_365-0.1.9.tar.gz
+[2024-05-28 16:06:30] INFO root fetch - processPackages [Authomatic]: Downloading https://files.pythonhosted.org/packages/2a/5f/d360d892bcbe615b588fefe0e868bc2448e2bc8748d007d1bc7c2a0b740a/Authomatic-1.2.1.tar.gz
+[2024-05-28 16:06:30] INFO root fetch - processPackages [hacs-frontend]: Downloading https://files.pythonhosted.org/packages/27/64/99fc7d5e575ed7ac25aaf6fa2230eea1499ac447c06f0c88af1a96d19d69/hacs-frontend-9.tar.gz
+[2024-05-28 16:06:30] INFO root fetch - processPackages [t-office-365]: executing diffoscope
+[2024-05-28 16:06:30] INFO root fetch - processPackages [t-office-365]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t_office_365-0.1.8.tar.gz tmp/t_office_365-0.1.9.tar.gz --markdown 20240528/t/t-office-365/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-28 16:06:30] INFO root fetch - processPackages [pp-weight-estimation]: Downloading https://files.pythonhosted.org/packages/7f/65/287547ea7b2bd9d6aa7b3ca8333bb8e28031226762f45eb99f744c5fc685/pp_weight_estimation-1.0.9.tar.gz
+[2024-05-28 16:06:30] INFO root fetch - processPackages [hacs-frontend]: executing diffoscope
+[2024-05-28 16:06:30] INFO root fetch - processPackages [hacs-frontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hacs-frontend-8.tar.gz tmp/hacs-frontend-9.tar.gz --markdown 20240528/h/hacs-frontend/8-9/README.md --exclude *.pyd
+[2024-05-28 16:06:30] INFO root fetch - processPackages [scippneutron]: executing diffoscope
+[2024-05-28 16:06:30] INFO root fetch - processPackages [scippneutron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scippneutron-24.3.0.tar.gz tmp/scippneutron-24.5.0.tar.gz --markdown 20240528/s/scippneutron/24.3.0-24.5.0/README.md --exclude *.pyd
+[2024-05-28 16:06:31] INFO root fetch - processPackages [Authomatic]: Downloading https://files.pythonhosted.org/packages/33/9a/98192fd8539ff9269cdaf17f1b3f3c386b8ea9d818fbe07d0dce6c0096f6/authomatic-1.3.0.tar.gz
+[2024-05-28 16:06:31] INFO root fetch - processPackages [pp-weight-estimation]: Downloading https://files.pythonhosted.org/packages/ec/6b/c6c94bb612015316c88f70f9cd6e8a8e8cba48d665ffd809cc1ddd979c7e/pp_weight_estimation-1.1.14.tar.gz
+[2024-05-28 16:06:31] INFO root fetch - processPackages [Authomatic]: executing diffoscope
+[2024-05-28 16:06:31] INFO root fetch - processPackages [Authomatic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Authomatic-1.2.1.tar.gz tmp/authomatic-1.3.0.tar.gz --markdown 20240528/A/Authomatic/1.2.1-1.3.0/README.md --exclude *.pyd
+[2024-05-28 16:06:31] INFO root fetch - processPackages [grain-zip-deployer]: Remove: archive file [/home/abi/fetcher/tmp/grain_zip_deployer-2025.5.28.0.tar.gz]
+[2024-05-28 16:06:31] INFO root fetch - processPackages [grain-zip-deployer]: Remove: archive file [/home/abi/fetcher/tmp/grain_zip_deployer-2025.5.28.1.tar.gz]
+[2024-05-28 16:06:31] INFO root fetch - processPackages [grain-zip-deployer]: Start processing: literalai
+[2024-05-28 16:06:31] INFO root fetch - main [MainThread]: End processing [grain-zip-deployer]: success
+[2024-05-28 16:06:31] INFO root fetch - processPackages [pp-weight-estimation]: executing diffoscope
+[2024-05-28 16:06:31] INFO root fetch - processPackages [pp-weight-estimation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pp_weight_estimation-1.0.9.tar.gz tmp/pp_weight_estimation-1.1.14.tar.gz --markdown 20240528/p/pp-weight-estimation/1.0.9-1.1.14/README.md --exclude *.pyd
+[2024-05-28 16:06:31] INFO root fetch - processPackages [medium-article-py]: Remove: archive file [/home/abi/fetcher/tmp/medium_article_py-0.1.7.tar.gz]
+[2024-05-28 16:06:31] INFO root fetch - processPackages [medium-article-py]: Remove: archive file [/home/abi/fetcher/tmp/medium_article_py-0.1.8.tar.gz]
+[2024-05-28 16:06:31] INFO root fetch - main [MainThread]: End processing [medium-article-py]: success
+[2024-05-28 16:06:31] INFO root fetch - processPackages [eliasliu]: Remove: archive file [/home/abi/fetcher/tmp/eliasliu-0.1.60.tar.gz]
+[2024-05-28 16:06:31] INFO root fetch - processPackages [eliasliu]: Remove: archive file [/home/abi/fetcher/tmp/eliasliu-0.1.61.tar.gz]
+[2024-05-28 16:06:31] INFO root fetch - main [MainThread]: End processing [eliasliu]: success
+[2024-05-28 16:06:31] INFO root fetch - processPackages [python-steam-api]: Remove: archive file [/home/abi/fetcher/tmp/python-steam-api-2.0.tar.gz]
+[2024-05-28 16:06:31] INFO root fetch - processPackages [python-steam-api]: Remove: archive file [/home/abi/fetcher/tmp/python_steam_api-2.0.1.tar.gz]
+[2024-05-28 16:06:31] INFO root fetch - main [MainThread]: End processing [python-steam-api]: success
+[2024-05-28 16:06:31] INFO root fetch - processPackages [literalai]: New version: [0.0.603] Old Version: [0.0.602]
+[2024-05-28 16:06:31] INFO root fetch - processPackages [t-office-365]: Remove: archive file [/home/abi/fetcher/tmp/t_office_365-0.1.8.tar.gz]
+[2024-05-28 16:06:31] INFO root fetch - processPackages [t-office-365]: Remove: archive file [/home/abi/fetcher/tmp/t_office_365-0.1.9.tar.gz]
+[2024-05-28 16:06:31] INFO root fetch - main [MainThread]: End processing [t-office-365]: success
+[2024-05-28 16:06:31] INFO root fetch - processPackages [literalai]: Downloading https://files.pythonhosted.org/packages/b8/a0/2e8d4f69efbf1643872ec5241e4fae640623053f135b77ceca0f9b4cde99/literalai-0.0.602.tar.gz
+[2024-05-28 16:06:32] INFO root fetch - processPackages [ovhai]: Remove: archive file [/home/abi/fetcher/tmp/ovhai-0.1a2.tar.gz]
+[2024-05-28 16:06:32] INFO root fetch - processPackages [ovhai]: Remove: archive file [/home/abi/fetcher/tmp/ovhai-0.1a3.tar.gz]
+[2024-05-28 16:06:32] INFO root fetch - main [MainThread]: End processing [ovhai]: success
+[2024-05-28 16:06:32] INFO root fetch - processPackages [hacs-frontend]: Remove: archive file [/home/abi/fetcher/tmp/hacs-frontend-8.tar.gz]
+[2024-05-28 16:06:32] INFO root fetch - processPackages [hacs-frontend]: Remove: archive file [/home/abi/fetcher/tmp/hacs-frontend-9.tar.gz]
+[2024-05-28 16:06:32] INFO root fetch - main [MainThread]: End processing [hacs-frontend]: success
+[2024-05-28 16:06:32] INFO root fetch - processPackages [literalai]: Downloading https://files.pythonhosted.org/packages/48/f3/25c532f5b41dec39e540b58d626ee1848f499e02d8b265bbc29d013b6288/literalai-0.0.603.tar.gz
+[2024-05-28 16:06:32] INFO root fetch - processPackages [pp-weight-estimation]: Remove: archive file [/home/abi/fetcher/tmp/pp_weight_estimation-1.0.9.tar.gz]
+[2024-05-28 16:06:32] INFO root fetch - processPackages [pp-weight-estimation]: Remove: archive file [/home/abi/fetcher/tmp/pp_weight_estimation-1.1.14.tar.gz]
+[2024-05-28 16:06:32] INFO root fetch - main [MainThread]: End processing [pp-weight-estimation]: success
+[2024-05-28 16:06:32] INFO root fetch - processPackages [Authomatic]: Remove: archive file [/home/abi/fetcher/tmp/Authomatic-1.2.1.tar.gz]
+[2024-05-28 16:06:32] INFO root fetch - processPackages [Authomatic]: Remove: archive file [/home/abi/fetcher/tmp/authomatic-1.3.0.tar.gz]
+[2024-05-28 16:06:32] INFO root fetch - main [MainThread]: End processing [Authomatic]: success
+[2024-05-28 16:06:32] INFO root fetch - processPackages [literalai]: executing diffoscope
+[2024-05-28 16:06:32] INFO root fetch - processPackages [literalai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/literalai-0.0.602.tar.gz tmp/literalai-0.0.603.tar.gz --markdown 20240528/l/literalai/0.0.602-0.0.603/README.md --exclude *.pyd
+[2024-05-28 16:06:33] INFO root fetch - processPackages [literalai]: Remove: archive file [/home/abi/fetcher/tmp/literalai-0.0.602.tar.gz]
+[2024-05-28 16:06:33] INFO root fetch - processPackages [literalai]: Remove: archive file [/home/abi/fetcher/tmp/literalai-0.0.603.tar.gz]
+[2024-05-28 16:06:33] INFO root fetch - main [MainThread]: End processing [literalai]: success
+[2024-05-28 16:06:33] INFO root fetch - processPackages [scippneutron]: Remove: archive file [/home/abi/fetcher/tmp/scippneutron-24.3.0.tar.gz]
+[2024-05-28 16:06:33] INFO root fetch - processPackages [scippneutron]: Remove: archive file [/home/abi/fetcher/tmp/scippneutron-24.5.0.tar.gz]
+[2024-05-28 16:06:33] INFO root fetch - main [MainThread]: End processing [scippneutron]: success
+[2024-05-28 16:06:33] INFO root fetch - main [MainThread]: Store serial: [23412538]
