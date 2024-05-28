@@ -19239,3 +19239,135 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 14:40:17] INFO root fetch - processPackages [ezdxf]: Remove: archive file [/home/abi/fetcher/tmp/ezdxf-1.3.1b0.zip]
 [2024-05-28 14:40:17] INFO root fetch - main [MainThread]: End processing [ezdxf]: success
 [2024-05-28 14:40:17] INFO root fetch - main [MainThread]: Store serial: [23411123]
+[2024-05-28 14:42:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23411123]
+[2024-05-28 14:42:27] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2024-05-28 14:42:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: doppy
+[2024-05-28 14:42:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-115
+[2024-05-28 14:42:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spacestudio-orbit-propagation
+[2024-05-28 14:42:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: carbon-registry-indexer
+[2024-05-28 14:42:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cybrid-api-id-python
+[2024-05-28 14:42:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: typegraph3
+[2024-05-28 14:42:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sqlalchemy-iris
+[2024-05-28 14:42:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: orquestra-workflow-shared
+[2024-05-28 14:42:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cybrid-api-bank-python
+[2024-05-28 14:42:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: torchxlstm
+[2024-05-28 14:42:27] INFO root fetch - processPackages [python-115]: New version: [0.0.8.5.1] Old Version: [0.0.8.5]
+[2024-05-28 14:42:27] WARNING root fetch - processPackages [torchxlstm]: Skipping, unable to determine old version
+[2024-05-28 14:42:27] INFO root fetch - processPackages [torchxlstm]: Start processing: tensorcircuit-nightly
+[2024-05-28 14:42:27] INFO root fetch - main [MainThread]: End processing [torchxlstm] error
+[2024-05-28 14:42:27] INFO root fetch - processPackages [carbon-registry-indexer]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-28 14:42:27] WARNING root fetch - processPackages [typegraph3]: Skipping, unable to determine old version
+[2024-05-28 14:42:27] INFO root fetch - processPackages [typegraph3]: Start processing: qat
+[2024-05-28 14:42:27] INFO root fetch - main [MainThread]: End processing [typegraph3] error
+[2024-05-28 14:42:27] INFO root fetch - processPackages [spacestudio-orbit-propagation]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-05-28 14:42:27] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-05-28 14:42:27] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-05-28 14:42:27] WARNING root fetch - processPackages [orquestra-workflow-shared]: Skipping, unable to determine old version
+[2024-05-28 14:42:27] INFO root fetch - processPackages [orquestra-workflow-shared]: Start processing: django-botmanager
+[2024-05-28 14:42:27] INFO root fetch - main [MainThread]: End processing [orquestra-workflow-shared] error
+[2024-05-28 14:42:27] INFO root fetch - processPackages [doppy]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-28 14:42:27] INFO root fetch - processPackages [python-115]: Downloading https://files.pythonhosted.org/packages/e3/f2/3d995b3a54e1d92d25884c8789a2665b4461c5fdefa346ce38e1c263751c/python_115-0.0.8.5.tar.gz
+[2024-05-28 14:42:27] INFO root fetch - processPackages [sqlalchemy-iris]: New version: [0.9.0] Old Version: [0.8.1b1]
+[2024-05-28 14:42:27] INFO root fetch - processPackages [carbon-registry-indexer]: Downloading https://files.pythonhosted.org/packages/6a/ea/27f744d6e0e724c6e0575edb2c67737c6a70147e7ebcd97674a2959d66dd/carbon-registry-indexer-0.1.8.tar.gz
+[2024-05-28 14:42:27] INFO root fetch - processPackages [tensorcircuit-nightly]: New version: [0.9.1.dev20230608] Old Version: [0.9.1.dev20230607]
+[2024-05-28 14:42:27] INFO root fetch - processPackages [qat]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-28 14:42:27] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/2d/66/0d5dc17801b737dd53e021a1548eb784ef8520799bdffbae60e088bf723c/cybrid-api-id-python-0.98.2.tar.gz
+[2024-05-28 14:42:27] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/da/dd/e8ea2fc7e8f671e18adae35333d00fdc692f7637860f9e361fba5fe3b85a/cybrid-api-bank-python-0.98.2.tar.gz
+[2024-05-28 14:42:27] INFO root fetch - processPackages [spacestudio-orbit-propagation]: Downloading https://files.pythonhosted.org/packages/b6/dd/347aff26c5abf3b49d98c0464e43a8cbb77f60fcc0af0420c25e3ec1fac4/spacestudio-orbit-propagation-1.1.3.tar.gz
+[2024-05-28 14:42:27] INFO root fetch - processPackages [doppy]: Downloading https://files.pythonhosted.org/packages/20/e4/1420962262f9e98fcc91e5389471fd0e7ed8107ff4bae9df2da3ffe062c4/doppy-0.2.1.tar.gz
+[2024-05-28 14:42:27] INFO root fetch - processPackages [django-botmanager]: New version: [0.2.19] Old Version: [0.2.18]
+[2024-05-28 14:42:27] INFO root fetch - processPackages [sqlalchemy-iris]: Downloading https://files.pythonhosted.org/packages/15/8d/b384ea6bb812705d0902f3fdc7b587788309bbac2105d41e1fce25c7b7a8/sqlalchemy-iris-0.8.1b1.tar.gz
+[2024-05-28 14:42:27] INFO root fetch - processPackages [carbon-registry-indexer]: Downloading https://files.pythonhosted.org/packages/e5/cd/1e1e95e6852f521936093508bcf7bbf278df34c6892a3bcd86aa33caf947/carbon-registry-indexer-0.1.9.tar.gz
+[2024-05-28 14:42:27] INFO root fetch - processPackages [qat]: Downloading https://files.pythonhosted.org/packages/8e/52/0ab23a66e9b38f48d504d841c9e22382a68ee248a60e56e0f3398f054c2d/qat-1.1.1.tar.gz
+[2024-05-28 14:42:27] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/79/2a/50740b6f8b7e1d0c4223c72c789f41baca7a4e77f32e8f52bd91e7ebff20/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz
+[2024-05-28 14:42:27] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/de/07/de389a95ca98f482f653401dbe8342cf8d4930d1efee86d1f28f3c1afcd1/cybrid-api-id-python-0.99.0.tar.gz
+[2024-05-28 14:42:28] INFO root fetch - processPackages [python-115]: Downloading https://files.pythonhosted.org/packages/72/8d/8d57445899f4a13f5c70e0ca9dc6b518773f8a718405a4485b1118cc068c/python_115-0.0.8.5.1.tar.gz
+[2024-05-28 14:42:28] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/a1/e6/1c6a95191a8826ea0636949d5bfdb7d34a65b1f81b3cb27e1863a88a1552/cybrid-api-bank-python-0.99.0.tar.gz
+[2024-05-28 14:42:28] INFO root fetch - processPackages [carbon-registry-indexer]: executing diffoscope
+[2024-05-28 14:42:28] INFO root fetch - processPackages [carbon-registry-indexer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carbon-registry-indexer-0.1.8.tar.gz tmp/carbon-registry-indexer-0.1.9.tar.gz --markdown 20240528/c/carbon-registry-indexer/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-28 14:42:28] INFO root fetch - processPackages [django-botmanager]: Downloading https://files.pythonhosted.org/packages/9a/ef/963630ea1a4c3f847439ac1ba96a766805ace6c2f22b008bada89df3d321/django_botmanager-0.2.18.tar.gz
+[2024-05-28 14:42:28] INFO root fetch - processPackages [spacestudio-orbit-propagation]: Downloading https://files.pythonhosted.org/packages/8f/0f/0fc1efd2e9827662a5e269ea3fe0bd1f640d40fad688f705fc3da1c1c9ed/spacestudio-orbit-propagation-1.1.4.tar.gz
+[2024-05-28 14:42:28] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2024-05-28 14:42:28] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.98.2.tar.gz tmp/cybrid-api-id-python-0.99.0.tar.gz --markdown 20240528/c/cybrid-api-id-python/0.98.2-0.99.0/README.md --exclude *.pyd
+[2024-05-28 14:42:28] INFO root fetch - processPackages [python-115]: executing diffoscope
+[2024-05-28 14:42:28] INFO root fetch - processPackages [python-115]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_115-0.0.8.5.tar.gz tmp/python_115-0.0.8.5.1.tar.gz --markdown 20240528/p/python-115/0.0.8.5-0.0.8.5.1/README.md --exclude *.pyd
+[2024-05-28 14:42:28] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2024-05-28 14:42:28] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.98.2.tar.gz tmp/cybrid-api-bank-python-0.99.0.tar.gz --markdown 20240528/c/cybrid-api-bank-python/0.98.2-0.99.0/README.md --exclude *.pyd
+[2024-05-28 14:42:28] INFO root fetch - processPackages [doppy]: Downloading https://files.pythonhosted.org/packages/5b/a5/186c61f003f6ba55737fadc41d1ba3fa7e6c64bf1c4d50890235ff55fb3b/doppy-0.2.2.tar.gz
+[2024-05-28 14:42:28] INFO root fetch - processPackages [spacestudio-orbit-propagation]: executing diffoscope
+[2024-05-28 14:42:28] INFO root fetch - processPackages [spacestudio-orbit-propagation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacestudio-orbit-propagation-1.1.3.tar.gz tmp/spacestudio-orbit-propagation-1.1.4.tar.gz --markdown 20240528/s/spacestudio-orbit-propagation/1.1.3-1.1.4/README.md --exclude *.pyd
+[2024-05-28 14:42:28] INFO root fetch - processPackages [sqlalchemy-iris]: Downloading https://files.pythonhosted.org/packages/6d/9b/a8d3294808ea8adf3ed7da5d7d8827d629329b0f250208c0c765f13df6cc/sqlalchemy-iris-0.9.0.tar.gz
+[2024-05-28 14:42:28] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/2f/cc/671276320457670987d1eb503de15ee19924e63c7ec9c99b14c240d5aa18/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz
+[2024-05-28 14:42:28] INFO root fetch - processPackages [django-botmanager]: Downloading https://files.pythonhosted.org/packages/7c/1f/ccaa82a7e812936a15413f074db244023d7c648fe2d651ac06dbd4fc6f39/django_botmanager-0.2.19.tar.gz
+[2024-05-28 14:42:28] INFO root fetch - processPackages [sqlalchemy-iris]: executing diffoscope
+[2024-05-28 14:42:28] INFO root fetch - processPackages [sqlalchemy-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy-iris-0.8.1b1.tar.gz tmp/sqlalchemy-iris-0.9.0.tar.gz --markdown 20240528/s/sqlalchemy-iris/0.8.1b1-0.9.0/README.md --exclude *.pyd
+[2024-05-28 14:42:28] INFO root fetch - processPackages [doppy]: executing diffoscope
+[2024-05-28 14:42:28] INFO root fetch - processPackages [doppy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doppy-0.2.1.tar.gz tmp/doppy-0.2.2.tar.gz --markdown 20240528/d/doppy/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-28 14:42:28] INFO root fetch - processPackages [tensorcircuit-nightly]: executing diffoscope
+[2024-05-28 14:42:28] INFO root fetch - processPackages [tensorcircuit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz --markdown 20240528/t/tensorcircuit-nightly/0.9.1.dev20230607-0.9.1.dev20230608/README.md --exclude *.pyd
+[2024-05-28 14:42:28] INFO root fetch - processPackages [django-botmanager]: executing diffoscope
+[2024-05-28 14:42:28] INFO root fetch - processPackages [django-botmanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_botmanager-0.2.18.tar.gz tmp/django_botmanager-0.2.19.tar.gz --markdown 20240528/d/django-botmanager/0.2.18-0.2.19/README.md --exclude *.pyd
+[2024-05-28 14:42:28] INFO root fetch - processPackages [carbon-registry-indexer]: Remove: archive file [/home/abi/fetcher/tmp/carbon-registry-indexer-0.1.8.tar.gz]
+[2024-05-28 14:42:28] INFO root fetch - processPackages [carbon-registry-indexer]: Remove: archive file [/home/abi/fetcher/tmp/carbon-registry-indexer-0.1.9.tar.gz]
+[2024-05-28 14:42:28] INFO root fetch - processPackages [carbon-registry-indexer]: Start processing: bigdl-llm
+[2024-05-28 14:42:28] INFO root fetch - main [MainThread]: End processing [carbon-registry-indexer]: success
+[2024-05-28 14:42:29] INFO root fetch - processPackages [bigdl-llm]: New version: [2.5.0b20240527] Old Version: [2.5.0b20240526]
+[2024-05-28 14:42:29] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/d9/a0/0b4e255aa9287398379eb2760b121b7655fc3c6442a5352a5c078f0abc5e/bigdl_llm-2.5.0b20240526-py3-none-win_amd64.whl
+[2024-05-28 14:42:29] INFO root fetch - processPackages [doppy]: Remove: archive file [/home/abi/fetcher/tmp/doppy-0.2.1.tar.gz]
+[2024-05-28 14:42:29] INFO root fetch - processPackages [doppy]: Remove: archive file [/home/abi/fetcher/tmp/doppy-0.2.2.tar.gz]
+[2024-05-28 14:42:29] INFO root fetch - processPackages [doppy]: Start processing: apmtools
+[2024-05-28 14:42:29] INFO root fetch - main [MainThread]: End processing [doppy]: success
+[2024-05-28 14:42:29] INFO root fetch - processPackages [qat]: Downloading https://files.pythonhosted.org/packages/1f/e5/efcd3f761c9ec3db20c60c0b319cb5547db2c2e0d7377d0196f3872c230a/qat-1.1.2.tar.gz
+[2024-05-28 14:42:29] INFO root fetch - processPackages [python-115]: Remove: archive file [/home/abi/fetcher/tmp/python_115-0.0.8.5.tar.gz]
+[2024-05-28 14:42:29] INFO root fetch - processPackages [python-115]: Remove: archive file [/home/abi/fetcher/tmp/python_115-0.0.8.5.1.tar.gz]
+[2024-05-28 14:42:29] INFO root fetch - processPackages [python-115]: Start processing: numpyascii-package-GonenRaveh
+[2024-05-28 14:42:29] INFO root fetch - main [MainThread]: End processing [python-115]: success
+[2024-05-28 14:42:29] INFO root fetch - processPackages [numpyascii-package-GonenRaveh]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-28 14:42:29] INFO root fetch - processPackages [apmtools]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-28 14:42:29] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.98.2.tar.gz]
+[2024-05-28 14:42:29] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.99.0.tar.gz]
+[2024-05-28 14:42:29] INFO root fetch - processPackages [cybrid-api-id-python]: Start processing: ZexusDigital
+[2024-05-28 14:42:29] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2024-05-28 14:42:29] INFO root fetch - processPackages [django-botmanager]: Remove: archive file [/home/abi/fetcher/tmp/django_botmanager-0.2.18.tar.gz]
+[2024-05-28 14:42:29] INFO root fetch - processPackages [django-botmanager]: Remove: archive file [/home/abi/fetcher/tmp/django_botmanager-0.2.19.tar.gz]
+[2024-05-28 14:42:29] INFO root fetch - main [MainThread]: End processing [django-botmanager]: success
+[2024-05-28 14:42:29] INFO root fetch - processPackages [sqlalchemy-iris]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy-iris-0.8.1b1.tar.gz]
+[2024-05-28 14:42:29] INFO root fetch - processPackages [sqlalchemy-iris]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy-iris-0.9.0.tar.gz]
+[2024-05-28 14:42:29] INFO root fetch - main [MainThread]: End processing [sqlalchemy-iris]: success
+[2024-05-28 14:42:29] INFO root fetch - processPackages [spacestudio-orbit-propagation]: Remove: archive file [/home/abi/fetcher/tmp/spacestudio-orbit-propagation-1.1.3.tar.gz]
+[2024-05-28 14:42:29] INFO root fetch - processPackages [spacestudio-orbit-propagation]: Remove: archive file [/home/abi/fetcher/tmp/spacestudio-orbit-propagation-1.1.4.tar.gz]
+[2024-05-28 14:42:29] INFO root fetch - main [MainThread]: End processing [spacestudio-orbit-propagation]: success
+[2024-05-28 14:42:29] INFO root fetch - processPackages [numpyascii-package-GonenRaveh]: Downloading https://files.pythonhosted.org/packages/d6/1a/61dfa6acec14645040b27ba5a861e558be5e37027f328b601e0609b9ad80/numpyascii_package_gonenraveh-1.0.2.tar.gz
+[2024-05-28 14:42:29] WARNING root fetch - processPackages [ZexusDigital]: Skipping, unable to determine old version
+[2024-05-28 14:42:29] INFO root fetch - main [MainThread]: End processing [ZexusDigital] error
+[2024-05-28 14:42:29] INFO root fetch - processPackages [apmtools]: Downloading https://files.pythonhosted.org/packages/de/e4/d6e711ac61fe6f7af46eda73a0f1b76b8fea3058ed7ff8d5ed8e37631da0/apmtools-0.0.8.tar.gz
+[2024-05-28 14:42:29] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/f2/a3/24dcce9d9683d763008bde23988cb2649e84dc0ea4b81c026c5c3b8f6049/bigdl_llm-2.5.0b20240527-py3-none-win_amd64.whl
+[2024-05-28 14:42:29] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz]
+[2024-05-28 14:42:29] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz]
+[2024-05-28 14:42:29] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
+[2024-05-28 14:42:30] INFO root fetch - processPackages [numpyascii-package-GonenRaveh]: Downloading https://files.pythonhosted.org/packages/07/de/8707f250e15cdac756d88d1b14fbc704c07c9f04f2d49ad82d816bc258bf/numpyascii_package_gonenraveh-1.0.3.tar.gz
+[2024-05-28 14:42:30] INFO root fetch - processPackages [numpyascii-package-GonenRaveh]: executing diffoscope
+[2024-05-28 14:42:30] INFO root fetch - processPackages [numpyascii-package-GonenRaveh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numpyascii_package_gonenraveh-1.0.2.tar.gz tmp/numpyascii_package_gonenraveh-1.0.3.tar.gz --markdown 20240528/n/numpyascii-package-GonenRaveh/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-28 14:42:30] INFO root fetch - processPackages [bigdl-llm]: executing diffoscope
+[2024-05-28 14:42:30] INFO root fetch - processPackages [bigdl-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_llm-2.5.0b20240526-py3-none-win_amd64.whl.zip tmp/bigdl_llm-2.5.0b20240527-py3-none-win_amd64.whl.zip --markdown 20240528/b/bigdl-llm/2.5.0b20240526-2.5.0b20240527/README.md --exclude *.pyd
+[2024-05-28 14:42:30] INFO root fetch - processPackages [apmtools]: Downloading https://files.pythonhosted.org/packages/1b/d8/f078c028e3a31e87a9d21228f1c6989660a625af41cadc32b810ce6f8332/apmtools-0.0.9.tar.gz
+[2024-05-28 14:42:30] INFO root fetch - processPackages [qat]: executing diffoscope
+[2024-05-28 14:42:30] INFO root fetch - processPackages [qat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qat-1.1.1.tar.gz tmp/qat-1.1.2.tar.gz --markdown 20240528/q/qat/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-28 14:42:30] INFO root fetch - processPackages [apmtools]: executing diffoscope
+[2024-05-28 14:42:30] INFO root fetch - processPackages [apmtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apmtools-0.0.8.tar.gz tmp/apmtools-0.0.9.tar.gz --markdown 20240528/a/apmtools/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-28 14:42:30] INFO root fetch - processPackages [numpyascii-package-GonenRaveh]: Remove: archive file [/home/abi/fetcher/tmp/numpyascii_package_gonenraveh-1.0.2.tar.gz]
+[2024-05-28 14:42:30] INFO root fetch - processPackages [numpyascii-package-GonenRaveh]: Remove: archive file [/home/abi/fetcher/tmp/numpyascii_package_gonenraveh-1.0.3.tar.gz]
+[2024-05-28 14:42:30] INFO root fetch - main [MainThread]: End processing [numpyascii-package-GonenRaveh]: success
+[2024-05-28 14:42:31] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.98.2.tar.gz]
+[2024-05-28 14:42:31] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.99.0.tar.gz]
+[2024-05-28 14:42:31] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2024-05-28 14:42:31] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.5.0b20240526-py3-none-win_amd64.whl.zip]
+[2024-05-28 14:42:31] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.5.0b20240527-py3-none-win_amd64.whl.zip]
+[2024-05-28 14:42:31] INFO root fetch - processPackages [apmtools]: Remove: archive file [/home/abi/fetcher/tmp/apmtools-0.0.8.tar.gz]
+[2024-05-28 14:42:31] INFO root fetch - processPackages [apmtools]: Remove: archive file [/home/abi/fetcher/tmp/apmtools-0.0.9.tar.gz]
+[2024-05-28 14:42:31] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
+[2024-05-28 14:42:31] INFO root fetch - main [MainThread]: End processing [apmtools]: success
+[2024-05-28 14:43:43] INFO root fetch - processPackages [qat]: Remove: archive file [/home/abi/fetcher/tmp/qat-1.1.1.tar.gz]
+[2024-05-28 14:43:43] INFO root fetch - processPackages [qat]: Remove: archive file [/home/abi/fetcher/tmp/qat-1.1.2.tar.gz]
+[2024-05-28 14:43:43] INFO root fetch - main [MainThread]: End processing [qat]: success
+[2024-05-28 14:43:43] INFO root fetch - main [MainThread]: Store serial: [23411194]
