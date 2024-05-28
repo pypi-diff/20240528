@@ -21446,3 +21446,54 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 15:53:12] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.77.9.tar.gz]
 [2024-05-28 15:53:12] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
 [2024-05-28 15:53:12] INFO root fetch - main [MainThread]: Store serial: [23412197]
+[2024-05-28 15:55:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23412197]
+[2024-05-28 15:55:21] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-28 15:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pywikibot
+[2024-05-28 15:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyQuadriFlow
+[2024-05-28 15:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sdkit
+[2024-05-28 15:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tensordict-nightly
+[2024-05-28 15:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: reuse
+[2024-05-28 15:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: soaresdavid-de-toolkit
+[2024-05-28 15:55:21] INFO root fetch - processPackages [sdkit]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-28 15:55:21] INFO root fetch - processPackages [pywikibot]: New version: [9.1.3] Old Version: [9.1.2]
+[2024-05-28 15:55:21] INFO root fetch - processPackages [pyQuadriFlow]: New version: [0.0.4] Old Version: [0.0.2]
+[2024-05-28 15:55:21] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/4f/d9/7218fa4642a4063b7605ea2709719503ddae7889d494777e16effbcd2447/sdkit-2.0.8.tar.gz
+[2024-05-28 15:55:21] WARNING root fetch - processPackages [soaresdavid-de-toolkit]: Skipping, unable to determine old version
+[2024-05-28 15:55:21] INFO root fetch - main [MainThread]: End processing [soaresdavid-de-toolkit] error
+[2024-05-28 15:55:21] INFO root fetch - processPackages [reuse]: New version: [3.1.0a1] Old Version: [3.0.2]
+[2024-05-28 15:55:21] INFO root fetch - processPackages [pywikibot]: Downloading https://files.pythonhosted.org/packages/5b/27/ea1e8f1e2e0781bfc78b27d87120ecc4da953264e7d7934075eb37ecb798/pywikibot-9.1.2.tar.gz
+[2024-05-28 15:55:21] INFO root fetch - processPackages [tensordict-nightly]: New version: [2024.5.9] Old Version: [2024.5.8]
+[2024-05-28 15:55:21] INFO root fetch - processPackages [pyQuadriFlow]: Downloading https://files.pythonhosted.org/packages/70/6f/9a6397278d2fbafb536d98a0ae654a38f2ffd17fe6201cfab5a13d588de6/pyQuadriFlow-0.0.2.tar.gz
+[2024-05-28 15:55:21] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/a3/3b/170fb343234797b20456dea2c5c46bfe6a8c52594affdec77735ecf76561/sdkit-2.0.9.tar.gz
+[2024-05-28 15:55:21] INFO root fetch - processPackages [reuse]: Downloading https://files.pythonhosted.org/packages/b1/66/920212eb7497e0d01bb6547e39e00445d9d14dca5bac0c91229b6f22e054/reuse-3.0.2.tar.gz
+[2024-05-28 15:55:21] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/92/36/819c077c6f13e604fee257ce897f68e5860a53e54214b83dce4b4878dff6/tensordict_nightly-2024.5.8-cp39-cp39-win_amd64.whl
+[2024-05-28 15:55:21] INFO root fetch - processPackages [pywikibot]: Downloading https://files.pythonhosted.org/packages/f5/92/f0e7e16e0b7e071a140e87d1f62e50a224652a02474abfce1e1d5d7a12e2/pywikibot-9.1.3.tar.gz
+[2024-05-28 15:55:21] INFO root fetch - processPackages [sdkit]: executing diffoscope
+[2024-05-28 15:55:21] INFO root fetch - processPackages [sdkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkit-2.0.8.tar.gz tmp/sdkit-2.0.9.tar.gz --markdown 20240528/s/sdkit/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-28 15:55:22] INFO root fetch - processPackages [pywikibot]: executing diffoscope
+[2024-05-28 15:55:22] INFO root fetch - processPackages [pywikibot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywikibot-9.1.2.tar.gz tmp/pywikibot-9.1.3.tar.gz --markdown 20240528/p/pywikibot/9.1.2-9.1.3/README.md --exclude *.pyd
+[2024-05-28 15:55:22] INFO root fetch - processPackages [reuse]: Downloading https://files.pythonhosted.org/packages/11/64/ff989fd8b59b34ecb5c6942ea05769df2dd2877c881a79f7fe975f77fe99/reuse-3.1.0a1.tar.gz
+[2024-05-28 15:55:22] INFO root fetch - processPackages [pyQuadriFlow]: Downloading https://files.pythonhosted.org/packages/80/16/f50806d867e2178931928a2f0216d61bdf38ecdccb3664bc78eebf375728/pyquadriflow-0.0.4.tar.gz
+[2024-05-28 15:55:22] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/b9/28/e296d4b168e87aedf19b6cf0d7e65b1474a3da33b8e5314b4a04050bda78/tensordict_nightly-2024.5.9-cp39-cp39-win_amd64.whl
+[2024-05-28 15:55:22] INFO root fetch - processPackages [pyQuadriFlow]: executing diffoscope
+[2024-05-28 15:55:22] INFO root fetch - processPackages [pyQuadriFlow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyQuadriFlow-0.0.2.tar.gz tmp/pyquadriflow-0.0.4.tar.gz --markdown 20240528/p/pyQuadriFlow/0.0.2-0.0.4/README.md --exclude *.pyd
+[2024-05-28 15:55:22] INFO root fetch - processPackages [reuse]: executing diffoscope
+[2024-05-28 15:55:22] INFO root fetch - processPackages [reuse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reuse-3.0.2.tar.gz tmp/reuse-3.1.0a1.tar.gz --markdown 20240528/r/reuse/3.0.2-3.1.0a1/README.md --exclude *.pyd
+[2024-05-28 15:55:22] INFO root fetch - processPackages [tensordict-nightly]: executing diffoscope
+[2024-05-28 15:55:22] INFO root fetch - processPackages [tensordict-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensordict_nightly-2024.5.8-cp39-cp39-win_amd64.whl.zip tmp/tensordict_nightly-2024.5.9-cp39-cp39-win_amd64.whl.zip --markdown 20240528/t/tensordict-nightly/2024.5.8-2024.5.9/README.md --exclude *.pyd
+[2024-05-28 15:55:22] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-2.0.8.tar.gz]
+[2024-05-28 15:55:22] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-2.0.9.tar.gz]
+[2024-05-28 15:55:22] INFO root fetch - main [MainThread]: End processing [sdkit]: success
+[2024-05-28 15:55:23] INFO root fetch - processPackages [pyQuadriFlow]: Remove: archive file [/home/abi/fetcher/tmp/pyQuadriFlow-0.0.2.tar.gz]
+[2024-05-28 15:55:23] INFO root fetch - processPackages [pyQuadriFlow]: Remove: archive file [/home/abi/fetcher/tmp/pyquadriflow-0.0.4.tar.gz]
+[2024-05-28 15:55:23] INFO root fetch - main [MainThread]: End processing [pyQuadriFlow]: success
+[2024-05-28 15:55:23] INFO root fetch - processPackages [pywikibot]: Remove: archive file [/home/abi/fetcher/tmp/pywikibot-9.1.2.tar.gz]
+[2024-05-28 15:55:23] INFO root fetch - processPackages [pywikibot]: Remove: archive file [/home/abi/fetcher/tmp/pywikibot-9.1.3.tar.gz]
+[2024-05-28 15:55:23] INFO root fetch - main [MainThread]: End processing [pywikibot]: success
+[2024-05-28 15:55:23] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2024.5.8-cp39-cp39-win_amd64.whl.zip]
+[2024-05-28 15:55:23] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2024.5.9-cp39-cp39-win_amd64.whl.zip]
+[2024-05-28 15:55:23] INFO root fetch - main [MainThread]: End processing [tensordict-nightly]: success
+[2024-05-28 15:55:30] INFO root fetch - processPackages [reuse]: Remove: archive file [/home/abi/fetcher/tmp/reuse-3.0.2.tar.gz]
+[2024-05-28 15:55:30] INFO root fetch - processPackages [reuse]: Remove: archive file [/home/abi/fetcher/tmp/reuse-3.1.0a1.tar.gz]
+[2024-05-28 15:55:30] INFO root fetch - main [MainThread]: End processing [reuse]: success
+[2024-05-28 15:55:30] INFO root fetch - main [MainThread]: Store serial: [23412226]
