@@ -21276,3 +21276,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 15:46:23] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.8.9.tar.gz]
 [2024-05-28 15:46:23] INFO root fetch - main [MainThread]: End processing [xklb]: success
 [2024-05-28 15:46:23] INFO root fetch - main [MainThread]: Store serial: [23412114]
+[2024-05-28 15:48:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23412114]
+[2024-05-28 15:48:31] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-28 15:48:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lusid-sdk
+[2024-05-28 15:48:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lusid-sdk-preview
+[2024-05-28 15:48:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: airflow-providers-wherobots
+[2024-05-28 15:48:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: notkinopoiskapi
+[2024-05-28 15:48:31] INFO root fetch - processPackages [lusid-sdk]: New version: [2.1.99] Old Version: [2.1.98]
+[2024-05-28 15:48:31] WARNING root fetch - processPackages [notkinopoiskapi]: Skipping, unable to determine old version
+[2024-05-28 15:48:31] INFO root fetch - main [MainThread]: End processing [notkinopoiskapi] error
+[2024-05-28 15:48:31] INFO root fetch - processPackages [airflow-providers-wherobots]: New version: [0.1.4] Old Version: [0.1.2]
+[2024-05-28 15:48:31] INFO root fetch - processPackages [lusid-sdk-preview]: New version: [1.1.98] Old Version: [1.1.97]
+[2024-05-28 15:48:31] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/15/56/0526e0499d9414b698f8c1260f8aac2e2a3209a0dc66949600aff2c28199/lusid_sdk-2.1.98.tar.gz
+[2024-05-28 15:48:32] INFO root fetch - processPackages [airflow-providers-wherobots]: Downloading https://files.pythonhosted.org/packages/54/32/8ce0e67e4c1e78047774b6e8af97bd99f76920e32b66547c3409a76c618d/airflow_providers_wherobots-0.1.2.tar.gz
+[2024-05-28 15:48:32] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/f9/fb/fc53cb5d0455e9bbd1207566684f6f2cd700268ae435d3172e9489e357d8/lusid-sdk-preview-1.1.97.tar.gz
+[2024-05-28 15:48:32] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/2c/d6/b08aeae5c238a1e7a8cd3ba4a93d6c65acd45e317b927d0f06091d65479d/lusid_sdk-2.1.99.tar.gz
+[2024-05-28 15:48:32] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2024-05-28 15:48:32] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_sdk-2.1.98.tar.gz tmp/lusid_sdk-2.1.99.tar.gz --markdown 20240528/l/lusid-sdk/2.1.98-2.1.99/README.md --exclude *.pyd
+[2024-05-28 15:48:32] INFO root fetch - processPackages [airflow-providers-wherobots]: Downloading https://files.pythonhosted.org/packages/fa/2a/c84e378050c78d88f9480c9b56ee7bb7402e9cd8e4db48fcc71362fbea05/airflow_providers_wherobots-0.1.4.tar.gz
+[2024-05-28 15:48:32] INFO root fetch - processPackages [airflow-providers-wherobots]: executing diffoscope
+[2024-05-28 15:48:32] INFO root fetch - processPackages [airflow-providers-wherobots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airflow_providers_wherobots-0.1.2.tar.gz tmp/airflow_providers_wherobots-0.1.4.tar.gz --markdown 20240528/a/airflow-providers-wherobots/0.1.2-0.1.4/README.md --exclude *.pyd
+[2024-05-28 15:48:32] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/c5/34/68330ec346008829c8b0f483665ee7ae8ba394a18406fd563696f8ee59e8/lusid-sdk-preview-1.1.98.tar.gz
+[2024-05-28 15:48:32] INFO root fetch - processPackages [lusid-sdk-preview]: executing diffoscope
+[2024-05-28 15:48:32] INFO root fetch - processPackages [lusid-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-preview-1.1.97.tar.gz tmp/lusid-sdk-preview-1.1.98.tar.gz --markdown 20240528/l/lusid-sdk-preview/1.1.97-1.1.98/README.md --exclude *.pyd
+[2024-05-28 15:48:33] INFO root fetch - processPackages [airflow-providers-wherobots]: Remove: archive file [/home/abi/fetcher/tmp/airflow_providers_wherobots-0.1.2.tar.gz]
+[2024-05-28 15:48:33] INFO root fetch - processPackages [airflow-providers-wherobots]: Remove: archive file [/home/abi/fetcher/tmp/airflow_providers_wherobots-0.1.4.tar.gz]
+[2024-05-28 15:48:33] INFO root fetch - main [MainThread]: End processing [airflow-providers-wherobots]: success
+[2024-05-28 15:48:36] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.98.tar.gz]
+[2024-05-28 15:48:36] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.99.tar.gz]
+[2024-05-28 15:48:36] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2024-05-28 15:48:46] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.1.97.tar.gz]
+[2024-05-28 15:48:46] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.1.98.tar.gz]
+[2024-05-28 15:48:46] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
+[2024-05-28 15:48:46] INFO root fetch - main [MainThread]: Store serial: [23412127]
