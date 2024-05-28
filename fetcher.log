@@ -10477,3 +10477,41 @@
 [2024-05-28 09:38:16] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2024-05-28 09:38:16] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2024-05-28 09:38:16] INFO root fetch - main [MainThread]: Store serial: [23407157]
+[2024-05-28 09:40:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23407157]
+[2024-05-28 09:40:25] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-28 09:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-stock-request
+[2024-05-28 09:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lalsuite
+[2024-05-28 09:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyE2
+[2024-05-28 09:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bakar-module
+[2024-05-28 09:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sunholo
+[2024-05-28 09:40:25] INFO root fetch - processPackages [sunholo]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-28 09:40:25] INFO root fetch - processPackages [PyE2]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-28 09:40:25] WARNING root fetch - processPackages [bakar-module]: Skipping, unable to determine old version
+[2024-05-28 09:40:25] INFO root fetch - main [MainThread]: End processing [bakar-module] error
+[2024-05-28 09:40:25] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/cc/35/0cc2a83f59b1ddd740a568e10894833a89bedfc91b8ebd172a427676694a/sunholo-0.8.8.tar.gz
+[2024-05-28 09:40:25] INFO root fetch - processPackages [odoo-addon-stock-request]: New version: [17.0.1.1.0.2] Old Version: [17.0.1.1.0.1]
+[2024-05-28 09:40:25] INFO root fetch - processPackages [PyE2]: Downloading https://files.pythonhosted.org/packages/fb/7b/20cd37a1968b75085222bf1e0afcc30ac5ec1dea21aeef3826a1ed718e28/pye2-0.8.8.tar.gz
+[2024-05-28 09:40:25] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2024-05-28 09:40:26] INFO root fetch - processPackages [odoo-addon-stock-request]: Downloading https://files.pythonhosted.org/packages/73/8e/9ed3c2bc2f231bdf31be9d6b5c34f869ec27170df02a23301069c998862f/odoo_addon_stock_request-17.0.1.1.0.1-py3-none-any.whl
+[2024-05-28 09:40:26] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-28 09:40:26] INFO root fetch - processPackages [PyE2]: Downloading https://files.pythonhosted.org/packages/b3/6c/4f3af23f2ebf4a0dacc1b75aeba89f39f85550df77e7a29c57b5ab5f1824/pye2-0.8.9.tar.gz
+[2024-05-28 09:40:26] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/f4/84/78248df3236e593119b75003e77cf5b5bd0761e53dc91c6a148cb0571cf9/sunholo-0.8.9.tar.gz
+[2024-05-28 09:40:26] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2024-05-28 09:40:26] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2024-05-28 09:40:26] INFO root fetch - processPackages [PyE2]: executing diffoscope
+[2024-05-28 09:40:26] INFO root fetch - processPackages [PyE2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pye2-0.8.8.tar.gz tmp/pye2-0.8.9.tar.gz --markdown 20240528/P/PyE2/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-28 09:40:26] INFO root fetch - processPackages [sunholo]: executing diffoscope
+[2024-05-28 09:40:26] INFO root fetch - processPackages [sunholo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunholo-0.8.8.tar.gz tmp/sunholo-0.8.9.tar.gz --markdown 20240528/s/sunholo/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-28 09:40:26] INFO root fetch - processPackages [odoo-addon-stock-request]: Downloading https://files.pythonhosted.org/packages/45/1c/0d3bb600f0eee193ad39cad53c9fb7dcf64a412773b96e30f52f7812aa15/odoo_addon_stock_request-17.0.1.1.0.2-py3-none-any.whl
+[2024-05-28 09:40:26] INFO root fetch - processPackages [odoo-addon-stock-request]: executing diffoscope
+[2024-05-28 09:40:26] INFO root fetch - processPackages [odoo-addon-stock-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_request-17.0.1.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_stock_request-17.0.1.1.0.2-py3-none-any.whl.zip --markdown 20240528/o/odoo-addon-stock-request/17.0.1.1.0.1-17.0.1.1.0.2/README.md --exclude *.pyd
+[2024-05-28 09:40:27] INFO root fetch - processPackages [PyE2]: Remove: archive file [/home/abi/fetcher/tmp/pye2-0.8.8.tar.gz]
+[2024-05-28 09:40:27] INFO root fetch - processPackages [PyE2]: Remove: archive file [/home/abi/fetcher/tmp/pye2-0.8.9.tar.gz]
+[2024-05-28 09:40:27] INFO root fetch - main [MainThread]: End processing [PyE2]: success
+[2024-05-28 09:40:27] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.8.tar.gz]
+[2024-05-28 09:40:27] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.9.tar.gz]
+[2024-05-28 09:40:27] INFO root fetch - main [MainThread]: End processing [sunholo]: success
+[2024-05-28 09:40:27] INFO root fetch - processPackages [odoo-addon-stock-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_request-17.0.1.1.0.1-py3-none-any.whl.zip]
+[2024-05-28 09:40:27] INFO root fetch - processPackages [odoo-addon-stock-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_request-17.0.1.1.0.2-py3-none-any.whl.zip]
+[2024-05-28 09:40:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-request]: success
+[2024-05-28 09:40:27] INFO root fetch - main [MainThread]: Store serial: [23407188]
