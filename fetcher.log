@@ -4022,3 +4022,42 @@
 [2024-05-28 04:37:31] INFO root fetch - processPackages [amolkit]: Remove: archive file [/home/abi/fetcher/tmp/amolkit-1.0.9.tar.gz]
 [2024-05-28 04:37:31] INFO root fetch - main [MainThread]: End processing [amolkit]: success
 [2024-05-28 04:37:31] INFO root fetch - main [MainThread]: Store serial: [23404456]
+[2024-05-28 04:39:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23404456]
+[2024-05-28 04:39:39] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-28 04:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyrapid
+[2024-05-28 04:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: WebSearcher
+[2024-05-28 04:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shopify-custom-api
+[2024-05-28 04:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: neurosym
+[2024-05-28 04:39:39] INFO root fetch - processPackages [shopify-custom-api]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-28 04:39:39] INFO root fetch - processPackages [neurosym]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-28 04:39:39] INFO root fetch - processPackages [pyrapid]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-28 04:39:39] INFO root fetch - processPackages [shopify-custom-api]: Downloading https://files.pythonhosted.org/packages/2b/eb/d487c1d5672ec9bf6b2c6ab98af8fa2f58a8de2f30becfec5f7bad50b7f1/shopify_custom_api-0.1.1.tar.gz
+[2024-05-28 04:39:39] INFO root fetch - processPackages [pyrapid]: Downloading https://files.pythonhosted.org/packages/81/ed/e4b683124e8d719c0d88db6f18d2554329fc16ad43a41248b7ec88587a6e/pyrapid-0.0.2.tar.gz
+[2024-05-28 04:39:39] INFO root fetch - processPackages [WebSearcher]: New version: [0.4.0] Old Version: [0.3.9]
+[2024-05-28 04:39:39] INFO root fetch - processPackages [neurosym]: Downloading https://files.pythonhosted.org/packages/66/87/42efcd2dada44045cddbcc64177bfa822d2cd1915ad9f075c81d65cdd137/neurosym-0.0.8.tar.gz
+[2024-05-28 04:39:39] INFO root fetch - processPackages [WebSearcher]: Downloading https://files.pythonhosted.org/packages/86/c2/e783721a7f02adc42819c73fe6965e6de72d8baf476a1e2c889cbc970701/WebSearcher-0.3.9.tar.gz
+[2024-05-28 04:39:39] INFO root fetch - processPackages [shopify-custom-api]: Downloading https://files.pythonhosted.org/packages/d1/58/9bd493ac9ec0d73d4aecb996245336b18fbecb1782d70dbe29b6dc6ef75b/shopify_custom_api-0.1.2.tar.gz
+[2024-05-28 04:39:39] INFO root fetch - processPackages [neurosym]: Downloading https://files.pythonhosted.org/packages/b3/d9/0fd09f28366b6afe07c9b07022c327cfcb05f4c54ad12dc10fcb86d94884/neurosym-0.0.9.tar.gz
+[2024-05-28 04:39:40] INFO root fetch - processPackages [pyrapid]: Downloading https://files.pythonhosted.org/packages/8d/fd/e619172909312d1aebffd253232071b87da4cadb7ee40c2240d68073f5ab/pyrapid-0.0.3.tar.gz
+[2024-05-28 04:39:40] INFO root fetch - processPackages [shopify-custom-api]: executing diffoscope
+[2024-05-28 04:39:40] INFO root fetch - processPackages [shopify-custom-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shopify_custom_api-0.1.1.tar.gz tmp/shopify_custom_api-0.1.2.tar.gz --markdown 20240528/s/shopify-custom-api/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-28 04:39:40] INFO root fetch - processPackages [neurosym]: executing diffoscope
+[2024-05-28 04:39:40] INFO root fetch - processPackages [neurosym]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neurosym-0.0.8.tar.gz tmp/neurosym-0.0.9.tar.gz --markdown 20240528/n/neurosym/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-28 04:39:40] INFO root fetch - processPackages [pyrapid]: executing diffoscope
+[2024-05-28 04:39:40] INFO root fetch - processPackages [pyrapid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrapid-0.0.2.tar.gz tmp/pyrapid-0.0.3.tar.gz --markdown 20240528/p/pyrapid/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-28 04:39:40] INFO root fetch - processPackages [WebSearcher]: Downloading https://files.pythonhosted.org/packages/e8/c9/dedb977f89821cdaa0bb157642c2c5e6896abf98baa5b8481dc9b6f51fdb/WebSearcher-0.4.0.tar.gz
+[2024-05-28 04:39:40] INFO root fetch - processPackages [WebSearcher]: executing diffoscope
+[2024-05-28 04:39:40] INFO root fetch - processPackages [WebSearcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WebSearcher-0.3.9.tar.gz tmp/WebSearcher-0.4.0.tar.gz --markdown 20240528/W/WebSearcher/0.3.9-0.4.0/README.md --exclude *.pyd
+[2024-05-28 04:39:40] INFO root fetch - processPackages [shopify-custom-api]: Remove: archive file [/home/abi/fetcher/tmp/shopify_custom_api-0.1.1.tar.gz]
+[2024-05-28 04:39:40] INFO root fetch - processPackages [shopify-custom-api]: Remove: archive file [/home/abi/fetcher/tmp/shopify_custom_api-0.1.2.tar.gz]
+[2024-05-28 04:39:40] INFO root fetch - main [MainThread]: End processing [shopify-custom-api]: success
+[2024-05-28 04:39:40] INFO root fetch - processPackages [neurosym]: Remove: archive file [/home/abi/fetcher/tmp/neurosym-0.0.8.tar.gz]
+[2024-05-28 04:39:40] INFO root fetch - processPackages [neurosym]: Remove: archive file [/home/abi/fetcher/tmp/neurosym-0.0.9.tar.gz]
+[2024-05-28 04:39:40] INFO root fetch - main [MainThread]: End processing [neurosym]: success
+[2024-05-28 04:39:40] INFO root fetch - processPackages [pyrapid]: Remove: archive file [/home/abi/fetcher/tmp/pyrapid-0.0.2.tar.gz]
+[2024-05-28 04:39:40] INFO root fetch - processPackages [pyrapid]: Remove: archive file [/home/abi/fetcher/tmp/pyrapid-0.0.3.tar.gz]
+[2024-05-28 04:39:40] INFO root fetch - main [MainThread]: End processing [pyrapid]: success
+[2024-05-28 04:39:40] INFO root fetch - processPackages [WebSearcher]: Remove: archive file [/home/abi/fetcher/tmp/WebSearcher-0.3.9.tar.gz]
+[2024-05-28 04:39:40] INFO root fetch - processPackages [WebSearcher]: Remove: archive file [/home/abi/fetcher/tmp/WebSearcher-0.4.0.tar.gz]
+[2024-05-28 04:39:40] INFO root fetch - main [MainThread]: End processing [WebSearcher]: success
+[2024-05-28 04:39:40] INFO root fetch - main [MainThread]: Store serial: [23404467]
