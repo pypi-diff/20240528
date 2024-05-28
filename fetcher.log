@@ -4768,3 +4768,27 @@
 [2024-05-28 05:22:01] INFO root fetch - processPackages [mystmd]: Remove: archive file [/home/abi/fetcher/tmp/mystmd-1.2.5.tar.gz]
 [2024-05-28 05:22:01] INFO root fetch - main [MainThread]: End processing [mystmd]: success
 [2024-05-28 05:22:01] INFO root fetch - main [MainThread]: Store serial: [23404691]
+[2024-05-28 05:24:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23404691]
+[2024-05-28 05:24:09] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-28 05:24:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dpkits
+[2024-05-28 05:24:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: keras-nightly
+[2024-05-28 05:24:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: retsu
+[2024-05-28 05:24:10] INFO root fetch - processPackages [keras-nightly]: New version: [3.3.3.dev2024052703] Old Version: [3.3.3.dev2024052603]
+[2024-05-28 05:24:10] WARNING root fetch - processPackages [retsu]: Skipping, unable to determine old version
+[2024-05-28 05:24:10] INFO root fetch - main [MainThread]: End processing [retsu] error
+[2024-05-28 05:24:10] INFO root fetch - processPackages [dpkits]: New version: [1.2.7] Old Version: [1.2.6]
+[2024-05-28 05:24:10] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/90/2b/a5ca655b96e0d280ff130a58af7490cadd79c1c064fa7cf3f68afa1e3553/keras_nightly-3.3.3.dev2024052603.tar.gz
+[2024-05-28 05:24:10] INFO root fetch - processPackages [dpkits]: Downloading https://files.pythonhosted.org/packages/80/d3/42b1066c41d865bdfb1ce5d5a97bad0c0ec37641358aafda30324057763a/dpkits-1.2.6.tar.gz
+[2024-05-28 05:24:10] INFO root fetch - processPackages [dpkits]: Downloading https://files.pythonhosted.org/packages/66/5a/ade470c7c18b351b82f0c5ecd9c1fff15c7917c1f755335107100edf482f/dpkits-1.2.7.tar.gz
+[2024-05-28 05:24:10] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/64/10/ba985b8b5cf1b0aa2c6b5a0fe558a9a6cf0845951e6086320bcc4800c1b0/keras_nightly-3.3.3.dev2024052703.tar.gz
+[2024-05-28 05:24:10] INFO root fetch - processPackages [dpkits]: executing diffoscope
+[2024-05-28 05:24:10] INFO root fetch - processPackages [dpkits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dpkits-1.2.6.tar.gz tmp/dpkits-1.2.7.tar.gz --markdown 20240528/d/dpkits/1.2.6-1.2.7/README.md --exclude *.pyd
+[2024-05-28 05:24:10] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2024-05-28 05:24:10] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-3.3.3.dev2024052603.tar.gz tmp/keras_nightly-3.3.3.dev2024052703.tar.gz --markdown 20240528/k/keras-nightly/3.3.3.dev2024052603-3.3.3.dev2024052703/README.md --exclude *.pyd
+[2024-05-28 05:24:11] INFO root fetch - processPackages [dpkits]: Remove: archive file [/home/abi/fetcher/tmp/dpkits-1.2.6.tar.gz]
+[2024-05-28 05:24:11] INFO root fetch - processPackages [dpkits]: Remove: archive file [/home/abi/fetcher/tmp/dpkits-1.2.7.tar.gz]
+[2024-05-28 05:24:11] INFO root fetch - main [MainThread]: End processing [dpkits]: success
+[2024-05-28 05:24:12] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-3.3.3.dev2024052603.tar.gz]
+[2024-05-28 05:24:12] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-3.3.3.dev2024052703.tar.gz]
+[2024-05-28 05:24:12] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2024-05-28 05:24:12] INFO root fetch - main [MainThread]: Store serial: [23404702]
