@@ -14683,3 +14683,87 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 11:44:29] INFO root fetch - main [MainThread]: End processing [ptlibs]: success
 [2024-05-28 11:44:29] INFO root fetch - main [MainThread]: End processing [udata-metrics]: success
 [2024-05-28 11:44:29] INFO root fetch - main [MainThread]: Store serial: [23409040]
+[2024-05-28 11:46:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23409040]
+[2024-05-28 11:46:38] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-28 11:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: few-shot-priming
+[2024-05-28 11:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-seal
+[2024-05-28 11:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: akasha-terminal
+[2024-05-28 11:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: syncmodels
+[2024-05-28 11:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: swarmtube
+[2024-05-28 11:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: agptools
+[2024-05-28 11:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: MASSIVEChem
+[2024-05-28 11:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyluba
+[2024-05-28 11:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: onnxslim
+[2024-05-28 11:46:38] INFO root fetch - processPackages [swarmtube]: New version: [0.1.51] Old Version: [0.1.50]
+[2024-05-28 11:46:38] INFO root fetch - processPackages [agptools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-28 11:46:38] INFO root fetch - processPackages [syncmodels]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-28 11:46:38] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-05-28 11:46:38] INFO root fetch - processPackages [pyluba]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-28 11:46:38] INFO root fetch - processPackages [akasha-terminal]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-28 11:46:38] INFO root fetch - processPackages [MASSIVEChem]: New version: [5.2] Old Version: [5.1]
+[2024-05-28 11:46:38] INFO root fetch - processPackages [py-seal]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-28 11:46:38] INFO root fetch - processPackages [onnxslim]: New version: [0.1.9.1] Old Version: [0.1.9]
+[2024-05-28 11:46:38] INFO root fetch - processPackages [agptools]: Downloading https://files.pythonhosted.org/packages/ef/90/08317ea7b8434657a0c64c671a0ce91127781d19896203a19175d974fc12/agptools-0.1.8-py2.py3-none-any.whl
+[2024-05-28 11:46:38] INFO root fetch - processPackages [swarmtube]: Downloading https://files.pythonhosted.org/packages/61/24/b14c8b7ad85eb28ded57b16ef7437df182576ff182b025228c11d03cc28d/swarmtube-0.1.50-py2.py3-none-any.whl
+[2024-05-28 11:46:38] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-05-28 11:46:38] INFO root fetch - processPackages [pyluba]: Downloading https://files.pythonhosted.org/packages/52/99/e29e1d5ada99bf72806e253adb260c8ac9718c47fdfc9c9a26d99fcc0d52/pyluba-0.0.8.tar.gz
+[2024-05-28 11:46:38] INFO root fetch - processPackages [akasha-terminal]: Downloading https://files.pythonhosted.org/packages/44/ba/ad1af60540b73410a76351edea1ffacfe2c1e951eed2d58a4031be3ad8fc/akasha-terminal-0.8.8.tar.gz
+[2024-05-28 11:46:38] INFO root fetch - processPackages [syncmodels]: Downloading https://files.pythonhosted.org/packages/09/13/db4988a642af43523190154e2a5fc392ebeed8a8fa626973e593b7c6b635/syncmodels-0.1.8-py2.py3-none-any.whl
+[2024-05-28 11:46:38] INFO root fetch - processPackages [py-seal]: Downloading https://files.pythonhosted.org/packages/bc/fc/6d662f32093124169e40b5a9287b504258f1680c7349529cf9751cc2f53d/py-seal-0.0.5.tar.gz
+[2024-05-28 11:46:38] INFO root fetch - processPackages [MASSIVEChem]: Downloading https://files.pythonhosted.org/packages/6f/43/d640edc46a7ab57d29733b5e7c3dd8b06a048273b018ad415e662d9df3c6/massivechem-5.1.tar.gz
+[2024-05-28 11:46:38] INFO root fetch - processPackages [onnxslim]: Downloading https://files.pythonhosted.org/packages/93/d1/3dcbf04b6a0333842d61262e77f177a6300427bbc036d138d908e9640148/onnxslim-0.1.9.tar.gz
+[2024-05-28 11:46:38] INFO root fetch - processPackages [agptools]: Downloading https://files.pythonhosted.org/packages/b4/96/a1fa0a1e147cbeb8acd6a36e118eb3b3ecfbf93d5b5de31b99b5d8bef5f4/agptools-0.1.9-py2.py3-none-any.whl
+[2024-05-28 11:46:38] INFO root fetch - processPackages [pyluba]: Downloading https://files.pythonhosted.org/packages/84/ab/a79a516adda0073565ebbe893c1269969eb2e11db4ea3957e1d76e1ebf9e/pyluba-0.0.9.tar.gz
+[2024-05-28 11:46:38] INFO root fetch - processPackages [syncmodels]: Downloading https://files.pythonhosted.org/packages/fa/f6/eeeb0b12fc045f5917cfc3967317eddb0f896b12df99ee9cb26dd42b0529/syncmodels-0.1.9-py2.py3-none-any.whl
+[2024-05-28 11:46:38] INFO root fetch - processPackages [akasha-terminal]: Downloading https://files.pythonhosted.org/packages/22/cd/bc4da2cd3d8a9b0bdd6542c2a920f376fc7abf8fa3d60f48b60bd6f3f13e/akasha-terminal-0.8.9.tar.gz
+[2024-05-28 11:46:38] INFO root fetch - processPackages [swarmtube]: Downloading https://files.pythonhosted.org/packages/3a/b4/f4c435b92401d31b30ea4056ad0311678e85ef488f02d0e9bb497ee45090/swarmtube-0.1.51-py2.py3-none-any.whl
+[2024-05-28 11:46:38] INFO root fetch - processPackages [agptools]: executing diffoscope
+[2024-05-28 11:46:38] INFO root fetch - processPackages [agptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agptools-0.1.8-py2.py3-none-any.whl.zip tmp/agptools-0.1.9-py2.py3-none-any.whl.zip --markdown 20240528/a/agptools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-28 11:46:38] INFO root fetch - processPackages [pyluba]: executing diffoscope
+[2024-05-28 11:46:38] INFO root fetch - processPackages [pyluba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyluba-0.0.8.tar.gz tmp/pyluba-0.0.9.tar.gz --markdown 20240528/p/pyluba/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-28 11:46:38] INFO root fetch - processPackages [py-seal]: Downloading https://files.pythonhosted.org/packages/0d/3b/72217c8522761341fa08696d5bcdcd7497df5f0fe19a1061b73f4fd2d457/py-seal-0.0.6.tar.gz
+[2024-05-28 11:46:39] INFO root fetch - processPackages [syncmodels]: executing diffoscope
+[2024-05-28 11:46:39] INFO root fetch - processPackages [syncmodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syncmodels-0.1.8-py2.py3-none-any.whl.zip tmp/syncmodels-0.1.9-py2.py3-none-any.whl.zip --markdown 20240528/s/syncmodels/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-28 11:46:39] INFO root fetch - processPackages [akasha-terminal]: executing diffoscope
+[2024-05-28 11:46:39] INFO root fetch - processPackages [akasha-terminal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akasha-terminal-0.8.8.tar.gz tmp/akasha-terminal-0.8.9.tar.gz --markdown 20240528/a/akasha-terminal/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-28 11:46:39] INFO root fetch - processPackages [swarmtube]: executing diffoscope
+[2024-05-28 11:46:39] INFO root fetch - processPackages [swarmtube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmtube-0.1.50-py2.py3-none-any.whl.zip tmp/swarmtube-0.1.51-py2.py3-none-any.whl.zip --markdown 20240528/s/swarmtube/0.1.50-0.1.51/README.md --exclude *.pyd
+[2024-05-28 11:46:39] INFO root fetch - processPackages [MASSIVEChem]: Downloading https://files.pythonhosted.org/packages/d9/ac/8dbf80289ef8dd5ed8ad5e918c3a766a11277175f38aa3d504a5dae27e0d/massivechem-5.2.tar.gz
+[2024-05-28 11:46:39] INFO root fetch - processPackages [py-seal]: executing diffoscope
+[2024-05-28 11:46:39] INFO root fetch - processPackages [py-seal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-seal-0.0.5.tar.gz tmp/py-seal-0.0.6.tar.gz --markdown 20240528/p/py-seal/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-28 11:46:39] INFO root fetch - processPackages [onnxslim]: Downloading https://files.pythonhosted.org/packages/73/0d/b646c4f2c67d560f67ae268b672173ef7de6d1e39d4abc10f533775add1c/onnxslim-0.1.9.1.tar.gz
+[2024-05-28 11:46:39] INFO root fetch - processPackages [MASSIVEChem]: executing diffoscope
+[2024-05-28 11:46:39] INFO root fetch - processPackages [MASSIVEChem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/massivechem-5.1.tar.gz tmp/massivechem-5.2.tar.gz --markdown 20240528/M/MASSIVEChem/5.1-5.2/README.md --exclude *.pyd
+[2024-05-28 11:46:39] INFO root fetch - processPackages [onnxslim]: executing diffoscope
+[2024-05-28 11:46:39] INFO root fetch - processPackages [onnxslim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnxslim-0.1.9.tar.gz tmp/onnxslim-0.1.9.1.tar.gz --markdown 20240528/o/onnxslim/0.1.9-0.1.9.1/README.md --exclude *.pyd
+[2024-05-28 11:46:39] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-05-28 11:46:39] INFO root fetch - processPackages [agptools]: Remove: archive file [/home/abi/fetcher/tmp/agptools-0.1.8-py2.py3-none-any.whl.zip]
+[2024-05-28 11:46:39] INFO root fetch - processPackages [agptools]: Remove: archive file [/home/abi/fetcher/tmp/agptools-0.1.9-py2.py3-none-any.whl.zip]
+[2024-05-28 11:46:39] INFO root fetch - main [MainThread]: End processing [agptools]: success
+[2024-05-28 11:46:39] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-05-28 11:46:39] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240528/f/few-shot-priming/0.3.98-0.3.99/README.md --exclude *.pyd
+[2024-05-28 11:46:39] INFO root fetch - processPackages [py-seal]: Remove: archive file [/home/abi/fetcher/tmp/py-seal-0.0.5.tar.gz]
+[2024-05-28 11:46:39] INFO root fetch - processPackages [syncmodels]: Remove: archive file [/home/abi/fetcher/tmp/syncmodels-0.1.8-py2.py3-none-any.whl.zip]
+[2024-05-28 11:46:39] INFO root fetch - processPackages [py-seal]: Remove: archive file [/home/abi/fetcher/tmp/py-seal-0.0.6.tar.gz]
+[2024-05-28 11:46:39] INFO root fetch - processPackages [syncmodels]: Remove: archive file [/home/abi/fetcher/tmp/syncmodels-0.1.9-py2.py3-none-any.whl.zip]
+[2024-05-28 11:46:40] INFO root fetch - main [MainThread]: End processing [py-seal]: success
+[2024-05-28 11:46:40] INFO root fetch - main [MainThread]: End processing [syncmodels]: success
+[2024-05-28 11:46:40] INFO root fetch - processPackages [swarmtube]: Remove: archive file [/home/abi/fetcher/tmp/swarmtube-0.1.50-py2.py3-none-any.whl.zip]
+[2024-05-28 11:46:40] INFO root fetch - processPackages [swarmtube]: Remove: archive file [/home/abi/fetcher/tmp/swarmtube-0.1.51-py2.py3-none-any.whl.zip]
+[2024-05-28 11:46:40] INFO root fetch - main [MainThread]: End processing [swarmtube]: success
+[2024-05-28 11:46:40] INFO root fetch - processPackages [akasha-terminal]: Remove: archive file [/home/abi/fetcher/tmp/akasha-terminal-0.8.8.tar.gz]
+[2024-05-28 11:46:40] INFO root fetch - processPackages [akasha-terminal]: Remove: archive file [/home/abi/fetcher/tmp/akasha-terminal-0.8.9.tar.gz]
+[2024-05-28 11:46:40] INFO root fetch - main [MainThread]: End processing [akasha-terminal]: success
+[2024-05-28 11:46:40] INFO root fetch - processPackages [pyluba]: Remove: archive file [/home/abi/fetcher/tmp/pyluba-0.0.8.tar.gz]
+[2024-05-28 11:46:40] INFO root fetch - processPackages [pyluba]: Remove: archive file [/home/abi/fetcher/tmp/pyluba-0.0.9.tar.gz]
+[2024-05-28 11:46:40] INFO root fetch - main [MainThread]: End processing [pyluba]: success
+[2024-05-28 11:46:40] INFO root fetch - processPackages [onnxslim]: Remove: archive file [/home/abi/fetcher/tmp/onnxslim-0.1.9.tar.gz]
+[2024-05-28 11:46:40] INFO root fetch - processPackages [onnxslim]: Remove: archive file [/home/abi/fetcher/tmp/onnxslim-0.1.9.1.tar.gz]
+[2024-05-28 11:46:40] INFO root fetch - main [MainThread]: End processing [onnxslim]: success
+[2024-05-28 11:46:40] INFO root fetch - processPackages [MASSIVEChem]: Remove: archive file [/home/abi/fetcher/tmp/massivechem-5.1.tar.gz]
+[2024-05-28 11:46:40] INFO root fetch - processPackages [MASSIVEChem]: Remove: archive file [/home/abi/fetcher/tmp/massivechem-5.2.tar.gz]
+[2024-05-28 11:46:40] INFO root fetch - main [MainThread]: End processing [MASSIVEChem]: success
+[2024-05-28 11:46:40] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip]
+[2024-05-28 11:46:40] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
+[2024-05-28 11:46:40] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-05-28 11:46:40] INFO root fetch - main [MainThread]: Store serial: [23409064]
