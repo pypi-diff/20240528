@@ -8814,3 +8814,66 @@
 [2024-05-28 08:21:02] INFO root fetch - processPackages [pyluba]: Remove: archive file [/home/abi/fetcher/tmp/pyluba-0.0.9.tar.gz]
 [2024-05-28 08:21:02] INFO root fetch - main [MainThread]: End processing [pyluba]: success
 [2024-05-28 08:21:02] INFO root fetch - main [MainThread]: Store serial: [23406521]
+[2024-05-28 08:23:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23406521]
+[2024-05-28 08:23:10] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-28 08:23:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alita-tools
+[2024-05-28 08:23:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: agptools
+[2024-05-28 08:23:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: swarmtube
+[2024-05-28 08:23:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: syncmodels
+[2024-05-28 08:23:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-jalali-date
+[2024-05-28 08:23:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: statistic-tool
+[2024-05-28 08:23:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: stocknotebridgenew
+[2024-05-28 08:23:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: XiaoqiangClub
+[2024-05-28 08:23:10] INFO root fetch - processPackages [alita-tools]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-28 08:23:10] INFO root fetch - processPackages [swarmtube]: New version: [0.1.50] Old Version: [0.1.49]
+[2024-05-28 08:23:10] WARNING root fetch - processPackages [stocknotebridgenew]: Skipping, unable to determine old version
+[2024-05-28 08:23:10] INFO root fetch - main [MainThread]: End processing [stocknotebridgenew] error
+[2024-05-28 08:23:10] INFO root fetch - processPackages [syncmodels]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-28 08:23:10] INFO root fetch - processPackages [agptools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-28 08:23:10] INFO root fetch - processPackages [django-jalali-date]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-28 08:23:10] WARNING root fetch - processPackages [XiaoqiangClub]: Skipping, unable to determine old version
+[2024-05-28 08:23:10] INFO root fetch - main [MainThread]: End processing [XiaoqiangClub] error
+[2024-05-28 08:23:10] INFO root fetch - processPackages [alita-tools]: Downloading https://files.pythonhosted.org/packages/11/7e/f89b7d2fb29b664d4a1b772c0a8757857534dc4981d9d9547b1410352f8b/alita_tools-0.0.8.tar.gz
+[2024-05-28 08:23:10] INFO root fetch - processPackages [swarmtube]: Downloading https://files.pythonhosted.org/packages/3d/47/84623511e2f85f62888db3e3361a75b9abff6a5af90cd4fa8637bec019ce/swarmtube-0.1.49-py2.py3-none-any.whl
+[2024-05-28 08:23:10] INFO root fetch - processPackages [agptools]: Downloading https://files.pythonhosted.org/packages/ef/90/08317ea7b8434657a0c64c671a0ce91127781d19896203a19175d974fc12/agptools-0.1.8-py2.py3-none-any.whl
+[2024-05-28 08:23:10] INFO root fetch - processPackages [syncmodels]: Downloading https://files.pythonhosted.org/packages/09/13/db4988a642af43523190154e2a5fc392ebeed8a8fa626973e593b7c6b635/syncmodels-0.1.8-py2.py3-none-any.whl
+[2024-05-28 08:23:10] INFO root fetch - processPackages [statistic-tool]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-28 08:23:10] INFO root fetch - processPackages [django-jalali-date]: Downloading https://files.pythonhosted.org/packages/1c/3a/f6da215e09e0e5c182092c434ac3fb50c11f602d642e2f0c246d257b8293/django-jalali-date-1.1.0.tar.gz
+[2024-05-28 08:23:10] INFO root fetch - processPackages [alita-tools]: Downloading https://files.pythonhosted.org/packages/b2/e0/efa7908f0bf622856778acf50ffea9fd834a7e4b47167ee967dc96ba217d/alita_tools-0.0.9.tar.gz
+[2024-05-28 08:23:10] INFO root fetch - processPackages [agptools]: Downloading https://files.pythonhosted.org/packages/b4/96/a1fa0a1e147cbeb8acd6a36e118eb3b3ecfbf93d5b5de31b99b5d8bef5f4/agptools-0.1.9-py2.py3-none-any.whl
+[2024-05-28 08:23:11] INFO root fetch - processPackages [alita-tools]: executing diffoscope
+[2024-05-28 08:23:11] INFO root fetch - processPackages [alita-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alita_tools-0.0.8.tar.gz tmp/alita_tools-0.0.9.tar.gz --markdown 20240528/a/alita-tools/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-28 08:23:11] INFO root fetch - processPackages [syncmodels]: Downloading https://files.pythonhosted.org/packages/fa/f6/eeeb0b12fc045f5917cfc3967317eddb0f896b12df99ee9cb26dd42b0529/syncmodels-0.1.9-py2.py3-none-any.whl
+[2024-05-28 08:23:11] INFO root fetch - processPackages [agptools]: executing diffoscope
+[2024-05-28 08:23:11] INFO root fetch - processPackages [agptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agptools-0.1.8-py2.py3-none-any.whl.zip tmp/agptools-0.1.9-py2.py3-none-any.whl.zip --markdown 20240528/a/agptools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-28 08:23:11] INFO root fetch - processPackages [statistic-tool]: Downloading https://files.pythonhosted.org/packages/15/a7/37c7f73bf3a609720527c5698ef971bdcdbe4d9bf7cfb4ca405c06decfb6/statistic_tool-0.0.2.tar.gz
+[2024-05-28 08:23:11] INFO root fetch - processPackages [syncmodels]: executing diffoscope
+[2024-05-28 08:23:11] INFO root fetch - processPackages [syncmodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syncmodels-0.1.8-py2.py3-none-any.whl.zip tmp/syncmodels-0.1.9-py2.py3-none-any.whl.zip --markdown 20240528/s/syncmodels/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-28 08:23:11] INFO root fetch - processPackages [swarmtube]: Downloading https://files.pythonhosted.org/packages/61/24/b14c8b7ad85eb28ded57b16ef7437df182576ff182b025228c11d03cc28d/swarmtube-0.1.50-py2.py3-none-any.whl
+[2024-05-28 08:23:11] INFO root fetch - processPackages [django-jalali-date]: Downloading https://files.pythonhosted.org/packages/97/36/ab70cf8f71d33fac889549986d7f85664dbe517c03a405433414aeee662f/django_jalali_date-1.1.1.tar.gz
+[2024-05-28 08:23:11] INFO root fetch - processPackages [swarmtube]: executing diffoscope
+[2024-05-28 08:23:11] INFO root fetch - processPackages [swarmtube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmtube-0.1.49-py2.py3-none-any.whl.zip tmp/swarmtube-0.1.50-py2.py3-none-any.whl.zip --markdown 20240528/s/swarmtube/0.1.49-0.1.50/README.md --exclude *.pyd
+[2024-05-28 08:23:11] INFO root fetch - processPackages [statistic-tool]: Downloading https://files.pythonhosted.org/packages/c8/3c/c19809900c82749b574c91eb6995e56f76ae986994cfa4ca81db43854454/statistic_tool-0.0.3.tar.gz
+[2024-05-28 08:23:11] INFO root fetch - processPackages [django-jalali-date]: executing diffoscope
+[2024-05-28 08:23:11] INFO root fetch - processPackages [django-jalali-date]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-jalali-date-1.1.0.tar.gz tmp/django_jalali_date-1.1.1.tar.gz --markdown 20240528/d/django-jalali-date/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-28 08:23:11] INFO root fetch - processPackages [statistic-tool]: executing diffoscope
+[2024-05-28 08:23:11] INFO root fetch - processPackages [statistic-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/statistic_tool-0.0.2.tar.gz tmp/statistic_tool-0.0.3.tar.gz --markdown 20240528/s/statistic-tool/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-28 08:23:11] INFO root fetch - processPackages [alita-tools]: Remove: archive file [/home/abi/fetcher/tmp/alita_tools-0.0.8.tar.gz]
+[2024-05-28 08:23:11] INFO root fetch - processPackages [alita-tools]: Remove: archive file [/home/abi/fetcher/tmp/alita_tools-0.0.9.tar.gz]
+[2024-05-28 08:23:11] INFO root fetch - main [MainThread]: End processing [alita-tools]: success
+[2024-05-28 08:23:11] INFO root fetch - processPackages [agptools]: Remove: archive file [/home/abi/fetcher/tmp/agptools-0.1.8-py2.py3-none-any.whl.zip]
+[2024-05-28 08:23:11] INFO root fetch - processPackages [agptools]: Remove: archive file [/home/abi/fetcher/tmp/agptools-0.1.9-py2.py3-none-any.whl.zip]
+[2024-05-28 08:23:11] INFO root fetch - main [MainThread]: End processing [agptools]: success
+[2024-05-28 08:23:11] INFO root fetch - processPackages [syncmodels]: Remove: archive file [/home/abi/fetcher/tmp/syncmodels-0.1.8-py2.py3-none-any.whl.zip]
+[2024-05-28 08:23:11] INFO root fetch - processPackages [syncmodels]: Remove: archive file [/home/abi/fetcher/tmp/syncmodels-0.1.9-py2.py3-none-any.whl.zip]
+[2024-05-28 08:23:11] INFO root fetch - main [MainThread]: End processing [syncmodels]: success
+[2024-05-28 08:23:11] INFO root fetch - processPackages [swarmtube]: Remove: archive file [/home/abi/fetcher/tmp/swarmtube-0.1.49-py2.py3-none-any.whl.zip]
+[2024-05-28 08:23:11] INFO root fetch - processPackages [swarmtube]: Remove: archive file [/home/abi/fetcher/tmp/swarmtube-0.1.50-py2.py3-none-any.whl.zip]
+[2024-05-28 08:23:11] INFO root fetch - main [MainThread]: End processing [swarmtube]: success
+[2024-05-28 08:23:12] INFO root fetch - processPackages [statistic-tool]: Remove: archive file [/home/abi/fetcher/tmp/statistic_tool-0.0.2.tar.gz]
+[2024-05-28 08:23:12] INFO root fetch - processPackages [statistic-tool]: Remove: archive file [/home/abi/fetcher/tmp/statistic_tool-0.0.3.tar.gz]
+[2024-05-28 08:23:12] INFO root fetch - main [MainThread]: End processing [statistic-tool]: success
+[2024-05-28 08:23:14] INFO root fetch - processPackages [django-jalali-date]: Remove: archive file [/home/abi/fetcher/tmp/django-jalali-date-1.1.0.tar.gz]
+[2024-05-28 08:23:14] INFO root fetch - processPackages [django-jalali-date]: Remove: archive file [/home/abi/fetcher/tmp/django_jalali_date-1.1.1.tar.gz]
+[2024-05-28 08:23:14] INFO root fetch - main [MainThread]: End processing [django-jalali-date]: success
+[2024-05-28 08:23:14] INFO root fetch - main [MainThread]: Store serial: [23406545]
