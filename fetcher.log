@@ -3267,3 +3267,36 @@
 [2024-05-28 03:42:42] INFO root fetch - processPackages [seqlogic]: Remove: archive file [/home/abi/fetcher/tmp/seqlogic-0.3.0.tar.gz]
 [2024-05-28 03:42:42] INFO root fetch - main [MainThread]: End processing [seqlogic]: success
 [2024-05-28 03:42:42] INFO root fetch - main [MainThread]: Store serial: [23404136]
+[2024-05-28 03:44:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23404136]
+[2024-05-28 03:44:50] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-28 03:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-alpaca-api
+[2024-05-28 03:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cPyparsing
+[2024-05-28 03:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: EasyDrive
+[2024-05-28 03:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ferfereh
+[2024-05-28 03:44:50] WARNING root fetch - processPackages [EasyDrive]: Skipping, unable to determine old version
+[2024-05-28 03:44:50] INFO root fetch - main [MainThread]: End processing [EasyDrive] error
+[2024-05-28 03:44:50] INFO root fetch - processPackages [ferfereh]: New version: [1.137.1] Old Version: [1.136.1]
+[2024-05-28 03:44:50] INFO root fetch - processPackages [ferfereh]: Downloading https://files.pythonhosted.org/packages/62/6e/54c54157ba34c685cc0392132589c1bfd741a20849e995a2a7f4c4cf0b8d/ferfereh-1.136.1.tar.gz
+[2024-05-28 03:44:50] INFO root fetch - processPackages [py-alpaca-api]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-05-28 03:44:50] INFO root fetch - processPackages [cPyparsing]: New version: [2.4.7.2.4.0] Old Version: [2.4.7.2.3.3]
+[2024-05-28 03:44:51] INFO root fetch - processPackages [py-alpaca-api]: Downloading https://files.pythonhosted.org/packages/96/57/adc8f6ed754cba8da6174070879dd6f2fe38ad528cf842139d5c452df552/py_alpaca_api-0.6.0.tar.gz
+[2024-05-28 03:44:51] INFO root fetch - processPackages [ferfereh]: Downloading https://files.pythonhosted.org/packages/30/98/1f5d1400791ad3efb76092e90008bc80891e82fe6c515bd812db15765a31/ferfereh-1.137.1.tar.gz
+[2024-05-28 03:44:51] INFO root fetch - processPackages [cPyparsing]: Downloading https://files.pythonhosted.org/packages/8f/1d/f5e3d63dc71f130b003244afd676d4a6ffdee96dac30f271b2207c0d91fe/cpyparsing-2.4.7.2.3.3.tar.gz
+[2024-05-28 03:44:51] INFO root fetch - processPackages [ferfereh]: executing diffoscope
+[2024-05-28 03:44:51] INFO root fetch - processPackages [ferfereh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ferfereh-1.136.1.tar.gz tmp/ferfereh-1.137.1.tar.gz --markdown 20240528/f/ferfereh/1.136.1-1.137.1/README.md --exclude *.pyd
+[2024-05-28 03:44:51] INFO root fetch - processPackages [py-alpaca-api]: Downloading https://files.pythonhosted.org/packages/b0/98/0476f2680cffad7fee7caae8a1c3cb477d0ab27afd5aa32c699ec669f3d0/py_alpaca_api-0.6.1.tar.gz
+[2024-05-28 03:44:51] INFO root fetch - processPackages [py-alpaca-api]: executing diffoscope
+[2024-05-28 03:44:51] INFO root fetch - processPackages [py-alpaca-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_alpaca_api-0.6.0.tar.gz tmp/py_alpaca_api-0.6.1.tar.gz --markdown 20240528/p/py-alpaca-api/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-05-28 03:44:51] INFO root fetch - processPackages [cPyparsing]: Downloading https://files.pythonhosted.org/packages/74/fe/7d45fc7fb67dd3cdaef4430c882b0b655e18ca45cf792d5feefb15f18ca2/cpyparsing-2.4.7.2.4.0.tar.gz
+[2024-05-28 03:44:51] INFO root fetch - processPackages [cPyparsing]: executing diffoscope
+[2024-05-28 03:44:51] INFO root fetch - processPackages [cPyparsing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpyparsing-2.4.7.2.3.3.tar.gz tmp/cpyparsing-2.4.7.2.4.0.tar.gz --markdown 20240528/c/cPyparsing/2.4.7.2.3.3-2.4.7.2.4.0/README.md --exclude *.pyd
+[2024-05-28 03:44:51] INFO root fetch - processPackages [ferfereh]: Remove: archive file [/home/abi/fetcher/tmp/ferfereh-1.136.1.tar.gz]
+[2024-05-28 03:44:51] INFO root fetch - processPackages [ferfereh]: Remove: archive file [/home/abi/fetcher/tmp/ferfereh-1.137.1.tar.gz]
+[2024-05-28 03:44:51] INFO root fetch - main [MainThread]: End processing [ferfereh]: success
+[2024-05-28 03:44:52] INFO root fetch - processPackages [py-alpaca-api]: Remove: archive file [/home/abi/fetcher/tmp/py_alpaca_api-0.6.0.tar.gz]
+[2024-05-28 03:44:52] INFO root fetch - processPackages [py-alpaca-api]: Remove: archive file [/home/abi/fetcher/tmp/py_alpaca_api-0.6.1.tar.gz]
+[2024-05-28 03:44:52] INFO root fetch - main [MainThread]: End processing [py-alpaca-api]: success
+[2024-05-28 03:44:56] INFO root fetch - processPackages [cPyparsing]: Remove: archive file [/home/abi/fetcher/tmp/cpyparsing-2.4.7.2.3.3.tar.gz]
+[2024-05-28 03:44:56] INFO root fetch - processPackages [cPyparsing]: Remove: archive file [/home/abi/fetcher/tmp/cpyparsing-2.4.7.2.4.0.tar.gz]
+[2024-05-28 03:44:56] INFO root fetch - main [MainThread]: End processing [cPyparsing]: success
+[2024-05-28 03:44:56] INFO root fetch - main [MainThread]: Store serial: [23404148]
