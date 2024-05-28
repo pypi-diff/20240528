@@ -22350,3 +22350,88 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 16:13:28] INFO root fetch - processPackages [Simba-UW-tf-dev]: Remove: archive file [/home/abi/fetcher/tmp/Simba-UW-tf-dev-1.94.1.tar.gz]
 [2024-05-28 16:13:28] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
 [2024-05-28 16:13:28] INFO root fetch - main [MainThread]: Store serial: [23412670]
+[2024-05-28 16:15:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23412670]
+[2024-05-28 16:15:38] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-28 16:15:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spanishconjugator
+[2024-05-28 16:15:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alphafold3-pytorch
+[2024-05-28 16:15:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: argendolar
+[2024-05-28 16:15:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spanishconjugator
+[2024-05-28 16:15:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pydantic-scim2
+[2024-05-28 16:15:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chess-transformer
+[2024-05-28 16:15:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: eidolon-ai-client
+[2024-05-28 16:15:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sdkit
+[2024-05-28 16:15:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: asyncflows
+[2024-05-28 16:15:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sounderpy
+[2024-05-28 16:15:38] INFO root fetch - processPackages [alphafold3-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-28 16:15:38] INFO root fetch - processPackages [chess-transformer]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-28 16:15:38] INFO root fetch - processPackages [sdkit]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-28 16:15:38] WARNING root fetch - processPackages [argendolar]: Skipping, unable to determine old version
+[2024-05-28 16:15:38] INFO root fetch - main [MainThread]: End processing [argendolar] error
+[2024-05-28 16:15:38] INFO root fetch - processPackages [pydantic-scim2]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-28 16:15:38] INFO root fetch - processPackages [alphafold3-pytorch]: Downloading https://files.pythonhosted.org/packages/e9/e2/142b19b529aba5b96d18902a5f1c99660ab625fa64921af86b97ac678b40/alphafold3_pytorch-0.0.8.tar.gz
+[2024-05-28 16:15:38] INFO root fetch - processPackages [chess-transformer]: Downloading https://files.pythonhosted.org/packages/17/9a/4eaffd0a6a3b549dde852c3725d047241701c2bfbd76111bc2bccccb0658/chess_transformer-0.1.8.tar.gz
+[2024-05-28 16:15:38] INFO root fetch - processPackages [eidolon-ai-client]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-28 16:15:38] INFO root fetch - processPackages [asyncflows]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-28 16:15:38] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/4f/d9/7218fa4642a4063b7605ea2709719503ddae7889d494777e16effbcd2447/sdkit-2.0.8.tar.gz
+[2024-05-28 16:15:38] INFO root fetch - processPackages [sounderpy]: New version: [3.0.4.dev2] Old Version: [3.0.4.dev1]
+[2024-05-28 16:15:38] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-05-28 16:15:39] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-05-28 16:15:39] INFO root fetch - processPackages [pydantic-scim2]: Downloading https://files.pythonhosted.org/packages/33/fc/aed4822d615638816c383b85c6276265d689583212884dd51cd4def1f22d/pydantic_scim2-0.2.1.tar.gz
+[2024-05-28 16:15:39] INFO root fetch - processPackages [asyncflows]: Downloading https://files.pythonhosted.org/packages/b3/9e/5a60a60410123c5f28807cf3908dc616b9f577ed9c7d610991a1f421973b/asyncflows-0.1.5.tar.gz
+[2024-05-28 16:15:39] INFO root fetch - processPackages [sounderpy]: Downloading https://files.pythonhosted.org/packages/43/bf/34859d8f75b71b142089ed2a03ee888dca91378068ae9451f394cf5224de/sounderpy-3.0.4.dev1.tar.gz
+[2024-05-28 16:15:39] INFO root fetch - processPackages [eidolon-ai-client]: Downloading https://files.pythonhosted.org/packages/f0/61/6ca231006909006ba96753a764654d05e47de665b1bf7f42b131a6cdb841/eidolon_ai_client-0.1.8.tar.gz
+[2024-05-28 16:15:39] INFO root fetch - processPackages [chess-transformer]: Downloading https://files.pythonhosted.org/packages/ee/65/ac93cfdac6866e37c13a65533e65710bf7f19f73880bfb7a9eaeb907f8e0/chess_transformer-0.1.9.tar.gz
+[2024-05-28 16:15:39] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/a3/3b/170fb343234797b20456dea2c5c46bfe6a8c52594affdec77735ecf76561/sdkit-2.0.9.tar.gz
+[2024-05-28 16:15:39] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-05-28 16:15:39] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-05-28 16:15:39] INFO root fetch - processPackages [alphafold3-pytorch]: Downloading https://files.pythonhosted.org/packages/96/47/97f198b647d508e9e64e32b67c24069f872d2ff29ca39b5d1ef44a81f68b/alphafold3_pytorch-0.0.9.tar.gz
+[2024-05-28 16:15:39] INFO root fetch - processPackages [chess-transformer]: executing diffoscope
+[2024-05-28 16:15:39] INFO root fetch - processPackages [chess-transformer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chess_transformer-0.1.8.tar.gz tmp/chess_transformer-0.1.9.tar.gz --markdown 20240528/c/chess-transformer/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-28 16:15:39] INFO root fetch - processPackages [pydantic-scim2]: Downloading https://files.pythonhosted.org/packages/6c/f6/d3b326cc72d158d021bc272be60766f9d2edabc6dcb0d1323068992b1fe2/pydantic_scim2-0.2.2.tar.gz
+[2024-05-28 16:15:39] INFO root fetch - processPackages [sdkit]: executing diffoscope
+[2024-05-28 16:15:39] INFO root fetch - processPackages [sdkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkit-2.0.8.tar.gz tmp/sdkit-2.0.9.tar.gz --markdown 20240528/s/sdkit/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-28 16:15:39] INFO root fetch - processPackages [sounderpy]: Downloading https://files.pythonhosted.org/packages/4b/8f/396eed504e2955a92d01dbb055206aecd4f969ce806c25b4601dcc70f53a/sounderpy-3.0.4.dev2.tar.gz
+[2024-05-28 16:15:39] INFO root fetch - processPackages [eidolon-ai-client]: Downloading https://files.pythonhosted.org/packages/14/16/63be890da3058c38960189037563296eb56f3d69154718e4a35d80261950/eidolon_ai_client-0.1.9.tar.gz
+[2024-05-28 16:15:39] INFO root fetch - processPackages [asyncflows]: Downloading https://files.pythonhosted.org/packages/f1/19/a9a3ea401237fa5c692320c616b3eca21d6d48614cc60adc6e2712258b9d/asyncflows-0.1.6.tar.gz
+[2024-05-28 16:15:39] INFO root fetch - processPackages [alphafold3-pytorch]: executing diffoscope
+[2024-05-28 16:15:39] INFO root fetch - processPackages [alphafold3-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphafold3_pytorch-0.0.8.tar.gz tmp/alphafold3_pytorch-0.0.9.tar.gz --markdown 20240528/a/alphafold3-pytorch/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-28 16:15:39] INFO root fetch - processPackages [pydantic-scim2]: executing diffoscope
+[2024-05-28 16:15:39] INFO root fetch - processPackages [pydantic-scim2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_scim2-0.2.1.tar.gz tmp/pydantic_scim2-0.2.2.tar.gz --markdown 20240528/p/pydantic-scim2/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-28 16:15:39] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-05-28 16:15:39] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-05-28 16:15:39] INFO root fetch - processPackages [sounderpy]: executing diffoscope
+[2024-05-28 16:15:39] INFO root fetch - processPackages [sounderpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sounderpy-3.0.4.dev1.tar.gz tmp/sounderpy-3.0.4.dev2.tar.gz --markdown 20240528/s/sounderpy/3.0.4.dev1-3.0.4.dev2/README.md --exclude *.pyd
+[2024-05-28 16:15:39] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-05-28 16:15:39] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240528/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-05-28 16:15:39] INFO root fetch - processPackages [asyncflows]: executing diffoscope
+[2024-05-28 16:15:39] INFO root fetch - processPackages [asyncflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asyncflows-0.1.5.tar.gz tmp/asyncflows-0.1.6.tar.gz --markdown 20240528/a/asyncflows/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-28 16:15:39] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-05-28 16:15:39] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240528/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-05-28 16:15:40] INFO root fetch - processPackages [chess-transformer]: Remove: archive file [/home/abi/fetcher/tmp/chess_transformer-0.1.8.tar.gz]
+[2024-05-28 16:15:40] INFO root fetch - processPackages [chess-transformer]: Remove: archive file [/home/abi/fetcher/tmp/chess_transformer-0.1.9.tar.gz]
+[2024-05-28 16:15:40] INFO root fetch - main [MainThread]: End processing [chess-transformer]: success
+[2024-05-28 16:15:40] INFO root fetch - processPackages [pydantic-scim2]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_scim2-0.2.1.tar.gz]
+[2024-05-28 16:15:40] INFO root fetch - processPackages [pydantic-scim2]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_scim2-0.2.2.tar.gz]
+[2024-05-28 16:15:40] INFO root fetch - main [MainThread]: End processing [pydantic-scim2]: success
+[2024-05-28 16:15:40] INFO root fetch - processPackages [eidolon-ai-client]: executing diffoscope
+[2024-05-28 16:15:40] INFO root fetch - processPackages [eidolon-ai-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eidolon_ai_client-0.1.8.tar.gz tmp/eidolon_ai_client-0.1.9.tar.gz --markdown 20240528/e/eidolon-ai-client/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-28 16:15:40] INFO root fetch - processPackages [alphafold3-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/alphafold3_pytorch-0.0.8.tar.gz]
+[2024-05-28 16:15:40] INFO root fetch - processPackages [alphafold3-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/alphafold3_pytorch-0.0.9.tar.gz]
+[2024-05-28 16:15:40] INFO root fetch - main [MainThread]: End processing [alphafold3-pytorch]: success
+[2024-05-28 16:15:40] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2024-05-28 16:15:40] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2024-05-28 16:15:40] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-2.0.8.tar.gz]
+[2024-05-28 16:15:40] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-05-28 16:15:40] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-2.0.9.tar.gz]
+[2024-05-28 16:15:40] INFO root fetch - main [MainThread]: End processing [sdkit]: success
+[2024-05-28 16:15:40] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-05-28 16:15:40] INFO root fetch - processPackages [asyncflows]: Remove: archive file [/home/abi/fetcher/tmp/asyncflows-0.1.5.tar.gz]
+[2024-05-28 16:15:40] INFO root fetch - processPackages [asyncflows]: Remove: archive file [/home/abi/fetcher/tmp/asyncflows-0.1.6.tar.gz]
+[2024-05-28 16:15:40] INFO root fetch - main [MainThread]: End processing [asyncflows]: success
+[2024-05-28 16:15:41] INFO root fetch - processPackages [sounderpy]: Remove: archive file [/home/abi/fetcher/tmp/sounderpy-3.0.4.dev1.tar.gz]
+[2024-05-28 16:15:41] INFO root fetch - processPackages [sounderpy]: Remove: archive file [/home/abi/fetcher/tmp/sounderpy-3.0.4.dev2.tar.gz]
+[2024-05-28 16:15:41] INFO root fetch - main [MainThread]: End processing [sounderpy]: success
+[2024-05-28 16:15:41] INFO root fetch - processPackages [eidolon-ai-client]: Remove: archive file [/home/abi/fetcher/tmp/eidolon_ai_client-0.1.8.tar.gz]
+[2024-05-28 16:15:41] INFO root fetch - processPackages [eidolon-ai-client]: Remove: archive file [/home/abi/fetcher/tmp/eidolon_ai_client-0.1.9.tar.gz]
+[2024-05-28 16:15:41] INFO root fetch - main [MainThread]: End processing [eidolon-ai-client]: success
+[2024-05-28 16:15:41] INFO root fetch - main [MainThread]: Store serial: [23412712]
