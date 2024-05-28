@@ -10859,3 +10859,56 @@
 [2024-05-28 09:55:45] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-7.9.0.tar.gz]
 [2024-05-28 09:55:45] INFO root fetch - main [MainThread]: End processing [cognite-sdk]: success
 [2024-05-28 09:55:45] INFO root fetch - main [MainThread]: Store serial: [23407309]
+[2024-05-28 09:57:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23407309]
+[2024-05-28 09:57:53] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-28 09:57:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tidal-algorithmic-mixes
+[2024-05-28 09:57:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: umj-framework-py-ex
+[2024-05-28 09:57:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yangsuite-coverage
+[2024-05-28 09:57:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gpt-computer-assistant
+[2024-05-28 09:57:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tf-nightly
+[2024-05-28 09:57:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: linopy
+[2024-05-28 09:57:53] INFO root fetch - processPackages [umj-framework-py-ex]: New version: [1.0.1a5] Old Version: [1.0.1a4]
+[2024-05-28 09:57:53] INFO root fetch - processPackages [gpt-computer-assistant]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-05-28 09:57:53] INFO root fetch - processPackages [tidal-algorithmic-mixes]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-28 09:57:53] INFO root fetch - processPackages [umj-framework-py-ex]: Downloading https://files.pythonhosted.org/packages/47/54/10815d3d0418d87ae277b93324fe02c48bdd1ae5b761336a28d9395fd4ba/umj-framework-py-ex-1.0.1a4.tar.gz
+[2024-05-28 09:57:53] INFO root fetch - processPackages [gpt-computer-assistant]: Downloading https://files.pythonhosted.org/packages/92/1a/25e44a92dbf14cd078b4f63c1fe577736f5cfc5d2347eded786ba9063e24/gpt_computer_assistant-0.1.2.tar.gz
+[2024-05-28 09:57:53] INFO root fetch - processPackages [yangsuite-coverage]: New version: [3.0.9.post0.dev2] Old Version: [3.0.9]
+[2024-05-28 09:57:53] INFO root fetch - processPackages [linopy]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-28 09:57:53] INFO root fetch - processPackages [tf-nightly]: New version: [2.17.0.dev20240528] Old Version: [2.17.0.dev20240527]
+[2024-05-28 09:57:53] INFO root fetch - processPackages [tidal-algorithmic-mixes]: Downloading https://files.pythonhosted.org/packages/dd/c1/eb8961af3b7c4b5acc31ed4d9d54a7800717ab96e30f6681fa24cc41b0aa/tidal_algorithmic_mixes-0.1.0.tar.gz
+[2024-05-28 09:57:53] INFO root fetch - processPackages [yangsuite-coverage]: Downloading https://files.pythonhosted.org/packages/d0/9b/c0f963d3535b117eef30800b9dfdf490325376b28d8fb0957c9fffa4f969/yangsuite_coverage-3.0.9-py3-none-any.whl
+[2024-05-28 09:57:53] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/80/07/5f89262ca3c5df5e015bdc6bad950c76de56b2e3716079ee5a2ab0b25795/tf_nightly-2.17.0.dev20240527-cp39-cp39-win_amd64.whl
+[2024-05-28 09:57:53] INFO root fetch - processPackages [linopy]: Downloading https://files.pythonhosted.org/packages/03/3c/f2ce99678a77ffa53476b5c3ab0f90f1958aaff51529f2de51745576ceb6/linopy-0.3.8.tar.gz
+[2024-05-28 09:57:53] INFO root fetch - processPackages [umj-framework-py-ex]: Downloading https://files.pythonhosted.org/packages/95/27/221ee4ae12ec97ef9a447f14545c3b08fe2af107243d55afff572e6e283d/umj-framework-py-ex-1.0.1a5.tar.gz
+[2024-05-28 09:57:54] INFO root fetch - processPackages [gpt-computer-assistant]: Downloading https://files.pythonhosted.org/packages/eb/a5/dde638c7e81272607397596382cf0abe12b05df113bb1bd222737763a5d8/gpt_computer_assistant-0.2.0.tar.gz
+[2024-05-28 09:57:54] INFO root fetch - processPackages [umj-framework-py-ex]: executing diffoscope
+[2024-05-28 09:57:54] INFO root fetch - processPackages [umj-framework-py-ex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/umj-framework-py-ex-1.0.1a4.tar.gz tmp/umj-framework-py-ex-1.0.1a5.tar.gz --markdown 20240528/u/umj-framework-py-ex/1.0.1a4-1.0.1a5/README.md --exclude *.pyd
+[2024-05-28 09:57:54] INFO root fetch - processPackages [gpt-computer-assistant]: executing diffoscope
+[2024-05-28 09:57:54] INFO root fetch - processPackages [gpt-computer-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_computer_assistant-0.1.2.tar.gz tmp/gpt_computer_assistant-0.2.0.tar.gz --markdown 20240528/g/gpt-computer-assistant/0.1.2-0.2.0/README.md --exclude *.pyd
+[2024-05-28 09:57:54] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/f0/fb/740986471515ab9e57b0a60648b5bff89e54648206dfd03713e6e5ec5ecb/tf_nightly-2.17.0.dev20240528-cp39-cp39-win_amd64.whl
+[2024-05-28 09:57:54] INFO root fetch - processPackages [tidal-algorithmic-mixes]: Downloading https://files.pythonhosted.org/packages/73/74/6076586d3fb511716f642918e303af12cbe47282d1881bbc893b7abd6f94/tidal_algorithmic_mixes-0.1.1.tar.gz
+[2024-05-28 09:57:54] WARNING root fetch - processPackages [yangsuite-coverage]: Skipping package: exceeds size limit 14794051>=10485760
+[2024-05-28 09:57:54] INFO root fetch - main [MainThread]: End processing [yangsuite-coverage] error
+[2024-05-28 09:57:54] INFO root fetch - processPackages [tidal-algorithmic-mixes]: executing diffoscope
+[2024-05-28 09:57:54] INFO root fetch - processPackages [tidal-algorithmic-mixes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tidal_algorithmic_mixes-0.1.0.tar.gz tmp/tidal_algorithmic_mixes-0.1.1.tar.gz --markdown 20240528/t/tidal-algorithmic-mixes/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-28 09:57:54] INFO root fetch - processPackages [linopy]: Downloading https://files.pythonhosted.org/packages/bd/99/58b3bbb5edfd388db429ae52fa9d4f2cef1ca9bbc9eb946e6f45f74aee15/linopy-0.3.9.tar.gz
+[2024-05-28 09:57:54] INFO root fetch - processPackages [tf-nightly]: executing diffoscope
+[2024-05-28 09:57:54] INFO root fetch - processPackages [tf-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly-2.17.0.dev20240527-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly-2.17.0.dev20240528-cp39-cp39-win_amd64.whl.zip --markdown 20240528/t/tf-nightly/2.17.0.dev20240527-2.17.0.dev20240528/README.md --exclude *.pyd
+[2024-05-28 09:57:54] INFO root fetch - processPackages [linopy]: executing diffoscope
+[2024-05-28 09:57:54] INFO root fetch - processPackages [linopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linopy-0.3.8.tar.gz tmp/linopy-0.3.9.tar.gz --markdown 20240528/l/linopy/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-28 09:57:54] INFO root fetch - processPackages [umj-framework-py-ex]: Remove: archive file [/home/abi/fetcher/tmp/umj-framework-py-ex-1.0.1a4.tar.gz]
+[2024-05-28 09:57:54] INFO root fetch - processPackages [umj-framework-py-ex]: Remove: archive file [/home/abi/fetcher/tmp/umj-framework-py-ex-1.0.1a5.tar.gz]
+[2024-05-28 09:57:54] INFO root fetch - main [MainThread]: End processing [umj-framework-py-ex]: success
+[2024-05-28 09:57:54] INFO root fetch - processPackages [gpt-computer-assistant]: Remove: archive file [/home/abi/fetcher/tmp/gpt_computer_assistant-0.1.2.tar.gz]
+[2024-05-28 09:57:54] INFO root fetch - processPackages [gpt-computer-assistant]: Remove: archive file [/home/abi/fetcher/tmp/gpt_computer_assistant-0.2.0.tar.gz]
+[2024-05-28 09:57:54] INFO root fetch - main [MainThread]: End processing [gpt-computer-assistant]: success
+[2024-05-28 09:57:54] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240527-cp39-cp39-win_amd64.whl.zip]
+[2024-05-28 09:57:54] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240528-cp39-cp39-win_amd64.whl.zip]
+[2024-05-28 09:57:54] INFO root fetch - main [MainThread]: End processing [tf-nightly]: success
+[2024-05-28 09:57:54] INFO root fetch - processPackages [tidal-algorithmic-mixes]: Remove: archive file [/home/abi/fetcher/tmp/tidal_algorithmic_mixes-0.1.0.tar.gz]
+[2024-05-28 09:57:54] INFO root fetch - processPackages [tidal-algorithmic-mixes]: Remove: archive file [/home/abi/fetcher/tmp/tidal_algorithmic_mixes-0.1.1.tar.gz]
+[2024-05-28 09:57:54] INFO root fetch - main [MainThread]: End processing [tidal-algorithmic-mixes]: success
+[2024-05-28 09:57:55] INFO root fetch - processPackages [linopy]: Remove: archive file [/home/abi/fetcher/tmp/linopy-0.3.8.tar.gz]
+[2024-05-28 09:57:55] INFO root fetch - processPackages [linopy]: Remove: archive file [/home/abi/fetcher/tmp/linopy-0.3.9.tar.gz]
+[2024-05-28 09:57:55] INFO root fetch - main [MainThread]: End processing [linopy]: success
+[2024-05-28 09:57:55] INFO root fetch - main [MainThread]: Store serial: [23407326]
