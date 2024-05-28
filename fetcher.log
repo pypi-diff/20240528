@@ -11453,3 +11453,204 @@
 [2024-05-28 10:22:21] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.7.9.tar.gz]
 [2024-05-28 10:22:21] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
 [2024-05-28 10:22:21] INFO root fetch - main [MainThread]: Store serial: [23407577]
+[2024-05-28 10:24:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23407577]
+[2024-05-28 10:24:29] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2024-05-28 10:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: atla
+[2024-05-28 10:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: multiversx-sdk
+[2024-05-28 10:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: KratosConvectionDiffusionApplication
+[2024-05-28 10:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stigg-api-client
+[2024-05-28 10:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ovos-core
+[2024-05-28 10:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nftpy
+[2024-05-28 10:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nodetool
+[2024-05-28 10:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: stigg-api-client-v2
+[2024-05-28 10:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: data-portfolio-library
+[2024-05-28 10:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: KratosCoSimulationApplication
+[2024-05-28 10:24:30] INFO root fetch - processPackages [multiversx-sdk]: New version: [0.9.0b0] Old Version: [0.1.0]
+[2024-05-28 10:24:30] WARNING root fetch - processPackages [data-portfolio-library]: Skipping, unable to determine old version
+[2024-05-28 10:24:30] INFO root fetch - processPackages [data-portfolio-library]: Start processing: google-cloud-discoveryengine
+[2024-05-28 10:24:30] INFO root fetch - main [MainThread]: End processing [data-portfolio-library] error
+[2024-05-28 10:24:30] INFO root fetch - processPackages [nftpy]: New version: [1.1.0] Old Version: [1.0.2]
+[2024-05-28 10:24:30] INFO root fetch - processPackages [ovos-core]: New version: [0.0.8a99] Old Version: [0.0.8a98]
+[2024-05-28 10:24:30] INFO root fetch - processPackages [nftpy]: Downloading https://files.pythonhosted.org/packages/77/02/b5b2d9c24fe381a2c3367d3f0c938c53b09c0785a18ce01ca4972b58b0dc/nftpy-1.0.2.tar.gz
+[2024-05-28 10:24:30] INFO root fetch - processPackages [nodetool]: New version: [0.1.31] Old Version: [0.1.30]
+[2024-05-28 10:24:30] INFO root fetch - processPackages [atla]: New version: [0.1.0a6] Old Version: [0.1.0a5]
+[2024-05-28 10:24:30] INFO root fetch - processPackages [KratosConvectionDiffusionApplication]: New version: [9.5.1] Old Version: [9.5]
+[2024-05-28 10:24:30] INFO root fetch - processPackages [KratosCoSimulationApplication]: New version: [9.5.1] Old Version: [9.5]
+[2024-05-28 10:24:30] INFO root fetch - processPackages [ovos-core]: Downloading https://files.pythonhosted.org/packages/43/09/2b998a2fbb4c473f88a1adb0b7d511b133aff775b19c15441b76d479f339/ovos_core-0.0.8a98-py3-none-any.whl
+[2024-05-28 10:24:30] INFO root fetch - processPackages [stigg-api-client-v2]: New version: [1.98.1] Old Version: [1.98.0]
+[2024-05-28 10:24:30] INFO root fetch - processPackages [stigg-api-client]: New version: [1.98.1] Old Version: [1.98.0]
+[2024-05-28 10:24:30] INFO root fetch - processPackages [google-cloud-discoveryengine]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-28 10:24:30] WARNING root fetch - processPackages [ovos-core]: Skipping package: exceeds size limit 18555543>=10485760
+[2024-05-28 10:24:30] INFO root fetch - processPackages [ovos-core]: Start processing: google-cloud-dlp
+[2024-05-28 10:24:30] INFO root fetch - main [MainThread]: End processing [ovos-core] error
+[2024-05-28 10:24:30] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/9e/ad/1fefc56e33c405d4aa0b5a382414f77d27efc7861a1cedce255c72c8f7d7/stigg_api_client_v2-1.98.0.tar.gz
+[2024-05-28 10:24:30] INFO root fetch - processPackages [google-cloud-dlp]: New version: [3.9.2] Old Version: [3.9.1]
+[2024-05-28 10:24:30] INFO root fetch - processPackages [nodetool]: Downloading https://files.pythonhosted.org/packages/ce/91/993d46ac3cee604627cebf3379ed1bd6af36856a5c4c91d7c0dfd6114aad/nodetool-0.1.30.tar.gz
+[2024-05-28 10:24:30] INFO root fetch - processPackages [atla]: Downloading https://files.pythonhosted.org/packages/70/52/ab087b5c2e03336ce2def60658a5a3343ce76499267c228dc9f5d6b1880a/atla-0.1.0a5.tar.gz
+[2024-05-28 10:24:30] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/98/38/1422eb2135687adff8e0844dc4afcdcdd3c44140b3b89335819f7a678037/stigg_api_client-1.98.0.tar.gz
+[2024-05-28 10:24:30] INFO root fetch - processPackages [KratosCoSimulationApplication]: Downloading https://files.pythonhosted.org/packages/2c/79/d18d3584c70862b3fabc571d571fab11dc591d8828e085b72726891b38a4/KratosCoSimulationApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-28 10:24:30] INFO root fetch - processPackages [KratosConvectionDiffusionApplication]: Downloading https://files.pythonhosted.org/packages/19/e1/efc6a3bf696d6ff683e66d85a136fd12972ef22edf5b88e39f3653cdc58d/KratosConvectionDiffusionApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-28 10:24:30] INFO root fetch - processPackages [nftpy]: Downloading https://files.pythonhosted.org/packages/66/14/c9901e9993a45975084211c2def0cfcab4e36925dc51692bb54f7ccc1faa/nftpy-1.1.0.tar.gz
+[2024-05-28 10:24:30] INFO root fetch - processPackages [multiversx-sdk]: Downloading https://files.pythonhosted.org/packages/c9/63/2f73ad32e101139600dea7f7a293074d42fbaa7272df5f685819960a7e04/multiversx_sdk-0.9.0b0.tar.gz
+[2024-05-28 10:24:30] INFO root fetch - processPackages [google-cloud-discoveryengine]: Downloading https://files.pythonhosted.org/packages/7b/17/25cd2617fd8eacb5a3bafe8967b1a0d714a7b088ac9c0ccd065e1d21226f/google-cloud-discoveryengine-0.9.0.tar.gz
+[2024-05-28 10:24:30] WARNING root fetch - processPackages [nodetool]: Skipping package: exceeds size limit 10851783>=10485760
+[2024-05-28 10:24:30] INFO root fetch - processPackages [nodetool]: Start processing: google-cloud-gke-backup
+[2024-05-28 10:24:30] INFO root fetch - main [MainThread]: End processing [nodetool] error
+[2024-05-28 10:24:30] INFO root fetch - processPackages [google-cloud-dlp]: Downloading https://files.pythonhosted.org/packages/4e/38/56ee5da5fc56aa20354b504e22302b1eacf3295adea93061ca4d538fae13/google-cloud-dlp-3.9.1.tar.gz
+[2024-05-28 10:24:30] WARNING root fetch - processPackages [multiversx-sdk]: Skipping package: exceeds size limit 15965266>=10485760
+[2024-05-28 10:24:30] INFO root fetch - processPackages [multiversx-sdk]: Start processing: google-cloud-securitycentermanagement
+[2024-05-28 10:24:30] INFO root fetch - main [MainThread]: End processing [multiversx-sdk] error
+[2024-05-28 10:24:30] INFO root fetch - processPackages [nftpy]: executing diffoscope
+[2024-05-28 10:24:30] INFO root fetch - processPackages [nftpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nftpy-1.0.2.tar.gz tmp/nftpy-1.1.0.tar.gz --markdown 20240528/n/nftpy/1.0.2-1.1.0/README.md --exclude *.pyd
+[2024-05-28 10:24:30] INFO root fetch - processPackages [google-cloud-gke-backup]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-28 10:24:30] INFO root fetch - processPackages [google-cloud-securitycentermanagement]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-28 10:24:30] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/e4/6e/6806296621be882a70042a1d47ba321aad0c99c69b0e1a5f16346a41b4b5/stigg_api_client_v2-1.98.1.tar.gz
+[2024-05-28 10:24:30] INFO root fetch - processPackages [atla]: Downloading https://files.pythonhosted.org/packages/61/d0/62c0d27a3182347efe022ebe088330c4d15f3e0961e48227d15f715fa7b4/atla-0.1.0a6.tar.gz
+[2024-05-28 10:24:30] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/da/d2/6b7a0c4e4205896d09042773fe56913ad646e6493900cc11613eabb26e05/stigg_api_client-1.98.1.tar.gz
+[2024-05-28 10:24:31] INFO root fetch - processPackages [google-cloud-gke-backup]: Downloading https://files.pythonhosted.org/packages/3f/38/e09cf264b5e2a350e464e9549634696d4216ac70aada0ad7ae458430e9e3/google-cloud-gke-backup-0.5.8.tar.gz
+[2024-05-28 10:24:31] INFO root fetch - processPackages [google-cloud-dlp]: Downloading https://files.pythonhosted.org/packages/63/d0/49320e1ac16298fb7c13b9e4aa3161b5272607ccb0ee00d280bf2a926e71/google-cloud-dlp-3.9.2.tar.gz
+[2024-05-28 10:24:31] INFO root fetch - processPackages [atla]: executing diffoscope
+[2024-05-28 10:24:31] INFO root fetch - processPackages [atla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atla-0.1.0a5.tar.gz tmp/atla-0.1.0a6.tar.gz --markdown 20240528/a/atla/0.1.0a5-0.1.0a6/README.md --exclude *.pyd
+[2024-05-28 10:24:31] INFO root fetch - processPackages [stigg-api-client-v2]: executing diffoscope
+[2024-05-28 10:24:31] INFO root fetch - processPackages [stigg-api-client-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client_v2-1.98.0.tar.gz tmp/stigg_api_client_v2-1.98.1.tar.gz --markdown 20240528/s/stigg-api-client-v2/1.98.0-1.98.1/README.md --exclude *.pyd
+[2024-05-28 10:24:31] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2024-05-28 10:24:31] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-1.98.0.tar.gz tmp/stigg_api_client-1.98.1.tar.gz --markdown 20240528/s/stigg-api-client/1.98.0-1.98.1/README.md --exclude *.pyd
+[2024-05-28 10:24:31] INFO root fetch - processPackages [KratosCoSimulationApplication]: Downloading https://files.pythonhosted.org/packages/41/d5/3e2843e31bb4828bbff3f39f310ba70bb6e0397c1e4ae60304ba14cc3e60/KratosCoSimulationApplication-9.5.1-cp39-cp39-win_amd64.whl
+[2024-05-28 10:24:31] INFO root fetch - processPackages [google-cloud-securitycentermanagement]: Downloading https://files.pythonhosted.org/packages/23/e2/08aa38b1bc395d7ab3f857d05ed62fce6d95cb2d905946e0a67f0c7179f2/google-cloud-securitycentermanagement-0.1.8.tar.gz
+[2024-05-28 10:24:31] INFO root fetch - processPackages [google-cloud-dlp]: executing diffoscope
+[2024-05-28 10:24:31] INFO root fetch - processPackages [google-cloud-dlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-dlp-3.9.1.tar.gz tmp/google-cloud-dlp-3.9.2.tar.gz --markdown 20240528/g/google-cloud-dlp/3.9.1-3.9.2/README.md --exclude *.pyd
+[2024-05-28 10:24:31] INFO root fetch - processPackages [KratosConvectionDiffusionApplication]: Downloading https://files.pythonhosted.org/packages/0b/6d/ee2333692c5c05db84163107f95ba2dbcacbaa5be7e84a009980ab77adf8/KratosConvectionDiffusionApplication-9.5.1-cp39-cp39-win_amd64.whl
+[2024-05-28 10:24:31] INFO root fetch - processPackages [google-cloud-discoveryengine]: Downloading https://files.pythonhosted.org/packages/e8/43/303a69470555fb02a45161bded4cd46d6b80101080ef8a30f1d0a82da62d/google-cloud-discoveryengine-0.9.1.tar.gz
+[2024-05-28 10:24:31] INFO root fetch - processPackages [google-cloud-gke-backup]: Downloading https://files.pythonhosted.org/packages/75/0f/fb27cdf135cd635c90d06f3204aa2715196ba782fa80748a3612e22c9a01/google-cloud-gke-backup-0.5.9.tar.gz
+[2024-05-28 10:24:31] INFO root fetch - processPackages [nftpy]: Remove: archive file [/home/abi/fetcher/tmp/nftpy-1.0.2.tar.gz]
+[2024-05-28 10:24:31] INFO root fetch - processPackages [nftpy]: Remove: archive file [/home/abi/fetcher/tmp/nftpy-1.1.0.tar.gz]
+[2024-05-28 10:24:31] INFO root fetch - processPackages [KratosCoSimulationApplication]: executing diffoscope
+[2024-05-28 10:24:31] INFO root fetch - processPackages [KratosCoSimulationApplication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KratosCoSimulationApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/KratosCoSimulationApplication-9.5.1-cp39-cp39-win_amd64.whl.zip --markdown 20240528/K/KratosCoSimulationApplication/9.5-9.5.1/README.md --exclude *.pyd
+[2024-05-28 10:24:31] INFO root fetch - processPackages [nftpy]: Start processing: google-cloud-video-stitcher
+[2024-05-28 10:24:31] INFO root fetch - main [MainThread]: End processing [nftpy]: success
+[2024-05-28 10:24:31] INFO root fetch - processPackages [google-cloud-securitycentermanagement]: Downloading https://files.pythonhosted.org/packages/ad/54/7c286448e19750e54eb12e8126e12107ac75a9c4ec8f02f389f704a8f968/google-cloud-securitycentermanagement-0.1.9.tar.gz
+[2024-05-28 10:24:31] INFO root fetch - processPackages [google-cloud-video-stitcher]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-28 10:24:31] INFO root fetch - processPackages [google-cloud-gke-backup]: executing diffoscope
+[2024-05-28 10:24:31] INFO root fetch - processPackages [google-cloud-gke-backup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-gke-backup-0.5.8.tar.gz tmp/google-cloud-gke-backup-0.5.9.tar.gz --markdown 20240528/g/google-cloud-gke-backup/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-28 10:24:31] INFO root fetch - processPackages [KratosConvectionDiffusionApplication]: executing diffoscope
+[2024-05-28 10:24:31] INFO root fetch - processPackages [KratosConvectionDiffusionApplication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KratosConvectionDiffusionApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/KratosConvectionDiffusionApplication-9.5.1-cp39-cp39-win_amd64.whl.zip --markdown 20240528/K/KratosConvectionDiffusionApplication/9.5-9.5.1/README.md --exclude *.pyd
+[2024-05-28 10:24:31] INFO root fetch - processPackages [google-cloud-securitycentermanagement]: executing diffoscope
+[2024-05-28 10:24:31] INFO root fetch - processPackages [google-cloud-securitycentermanagement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-securitycentermanagement-0.1.8.tar.gz tmp/google-cloud-securitycentermanagement-0.1.9.tar.gz --markdown 20240528/g/google-cloud-securitycentermanagement/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-28 10:24:31] INFO root fetch - processPackages [google-cloud-video-stitcher]: Downloading https://files.pythonhosted.org/packages/f7/98/9b60cade42704d1136a4b78dcc9afc01ab09de389388c58bb908d069453d/google-cloud-video-stitcher-0.7.8.tar.gz
+[2024-05-28 10:24:31] INFO root fetch - processPackages [atla]: Remove: archive file [/home/abi/fetcher/tmp/atla-0.1.0a5.tar.gz]
+[2024-05-28 10:24:31] INFO root fetch - processPackages [atla]: Remove: archive file [/home/abi/fetcher/tmp/atla-0.1.0a6.tar.gz]
+[2024-05-28 10:24:31] INFO root fetch - processPackages [atla]: Start processing: google-maps-places
+[2024-05-28 10:24:31] INFO root fetch - main [MainThread]: End processing [atla]: success
+[2024-05-28 10:24:31] INFO root fetch - processPackages [google-cloud-discoveryengine]: executing diffoscope
+[2024-05-28 10:24:31] INFO root fetch - processPackages [google-cloud-discoveryengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-discoveryengine-0.9.0.tar.gz tmp/google-cloud-discoveryengine-0.9.1.tar.gz --markdown 20240528/g/google-cloud-discoveryengine/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-28 10:24:32] INFO root fetch - processPackages [google-maps-places]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-28 10:24:32] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-1.98.0.tar.gz]
+[2024-05-28 10:24:32] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-1.98.1.tar.gz]
+[2024-05-28 10:24:32] INFO root fetch - processPackages [stigg-api-client]: Start processing: google-shopping-merchant-conversions
+[2024-05-28 10:24:32] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2024-05-28 10:24:32] INFO root fetch - processPackages [google-cloud-dlp]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-dlp-3.9.1.tar.gz]
+[2024-05-28 10:24:32] INFO root fetch - processPackages [google-cloud-dlp]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-dlp-3.9.2.tar.gz]
+[2024-05-28 10:24:32] INFO root fetch - processPackages [google-cloud-dlp]: Start processing: KratosCSharpWrapperApplication
+[2024-05-28 10:24:32] INFO root fetch - main [MainThread]: End processing [google-cloud-dlp]: success
+[2024-05-28 10:24:32] INFO root fetch - processPackages [google-shopping-merchant-conversions]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-28 10:24:32] INFO root fetch - processPackages [google-cloud-video-stitcher]: Downloading https://files.pythonhosted.org/packages/d9/88/3b3c6e304c9dc43107c8d25d1ebdd839823167cf43e7a9d6cfbb333902df/google-cloud-video-stitcher-0.7.9.tar.gz
+[2024-05-28 10:24:32] INFO root fetch - processPackages [google-maps-places]: Downloading https://files.pythonhosted.org/packages/28/82/33e0834ad5d32943b1916d74c2a3ed90bf11d6fb347ec5520d4ce530fcef/google-maps-places-0.1.8.tar.gz
+[2024-05-28 10:24:32] INFO root fetch - processPackages [KratosCSharpWrapperApplication]: New version: [9.5.1] Old Version: [9.5]
+[2024-05-28 10:24:32] INFO root fetch - processPackages [google-shopping-merchant-conversions]: Downloading https://files.pythonhosted.org/packages/de/af/deced65ffe089f1455f8b89ba4140a3f3bf29be773c37e99dc968f93dd3a/google-shopping-merchant-conversions-0.1.0.tar.gz
+[2024-05-28 10:24:32] INFO root fetch - processPackages [google-cloud-video-stitcher]: executing diffoscope
+[2024-05-28 10:24:32] INFO root fetch - processPackages [google-cloud-video-stitcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-video-stitcher-0.7.8.tar.gz tmp/google-cloud-video-stitcher-0.7.9.tar.gz --markdown 20240528/g/google-cloud-video-stitcher/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-28 10:24:32] INFO root fetch - processPackages [KratosCSharpWrapperApplication]: Downloading https://files.pythonhosted.org/packages/8d/6d/4d7c34988c6d56f9bf27f4c3061eba1460ad9de4fd2e4d6b5528007dac33/KratosCSharpWrapperApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-28 10:24:32] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-1.98.0.tar.gz]
+[2024-05-28 10:24:32] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-1.98.1.tar.gz]
+[2024-05-28 10:24:32] INFO root fetch - processPackages [stigg-api-client-v2]: Start processing: google-shopping-merchant-inventories
+[2024-05-28 10:24:32] INFO root fetch - main [MainThread]: End processing [stigg-api-client-v2]: success
+[2024-05-28 10:24:32] INFO root fetch - processPackages [google-maps-places]: Downloading https://files.pythonhosted.org/packages/04/56/0922daad1ab401d11cd47e860568d996f253e0fe5a7cf80084c4a376c146/google-maps-places-0.1.9.tar.gz
+[2024-05-28 10:24:32] INFO root fetch - processPackages [google-shopping-merchant-inventories]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-28 10:24:32] INFO root fetch - processPackages [google-shopping-merchant-conversions]: Downloading https://files.pythonhosted.org/packages/1c/4d/a2465297da89c1bca21a7c3676751e421ab216701337dbc3ea991a3f8c4a/google-shopping-merchant-conversions-0.1.1.tar.gz
+[2024-05-28 10:24:33] INFO root fetch - processPackages [google-shopping-merchant-inventories]: Downloading https://files.pythonhosted.org/packages/52/ca/aa3bdb5690f222589ecad64e325a6613113fb2cec8b5e647aa7575de0086/google-shopping-merchant-inventories-0.1.6.tar.gz
+[2024-05-28 10:24:33] INFO root fetch - processPackages [KratosConvectionDiffusionApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosConvectionDiffusionApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-28 10:24:33] INFO root fetch - processPackages [KratosConvectionDiffusionApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosConvectionDiffusionApplication-9.5.1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-28 10:24:33] INFO root fetch - processPackages [KratosConvectionDiffusionApplication]: Start processing: jupyterlab-hide-code
+[2024-05-28 10:24:33] INFO root fetch - main [MainThread]: End processing [KratosConvectionDiffusionApplication]: success
+[2024-05-28 10:24:33] INFO root fetch - processPackages [google-cloud-gke-backup]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-gke-backup-0.5.8.tar.gz]
+[2024-05-28 10:24:33] INFO root fetch - processPackages [google-cloud-gke-backup]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-gke-backup-0.5.9.tar.gz]
+[2024-05-28 10:24:33] INFO root fetch - processPackages [google-cloud-gke-backup]: Start processing: google-shopping-merchant-lfp
+[2024-05-28 10:24:33] INFO root fetch - main [MainThread]: End processing [google-cloud-gke-backup]: success
+[2024-05-28 10:24:33] INFO root fetch - processPackages [google-maps-places]: executing diffoscope
+[2024-05-28 10:24:33] INFO root fetch - processPackages [google-maps-places]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-maps-places-0.1.8.tar.gz tmp/google-maps-places-0.1.9.tar.gz --markdown 20240528/g/google-maps-places/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-28 10:24:33] INFO root fetch - processPackages [google-shopping-merchant-conversions]: executing diffoscope
+[2024-05-28 10:24:33] INFO root fetch - processPackages [google-shopping-merchant-conversions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-shopping-merchant-conversions-0.1.0.tar.gz tmp/google-shopping-merchant-conversions-0.1.1.tar.gz --markdown 20240528/g/google-shopping-merchant-conversions/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-28 10:24:33] INFO root fetch - processPackages [jupyterlab-hide-code]: New version: [4.0.0] Old Version: [3.6.3]
+[2024-05-28 10:24:33] INFO root fetch - processPackages [google-cloud-securitycentermanagement]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-securitycentermanagement-0.1.8.tar.gz]
+[2024-05-28 10:24:33] INFO root fetch - processPackages [google-cloud-securitycentermanagement]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-securitycentermanagement-0.1.9.tar.gz]
+[2024-05-28 10:24:33] INFO root fetch - processPackages [google-cloud-securitycentermanagement]: Start processing: tha
+[2024-05-28 10:24:33] INFO root fetch - main [MainThread]: End processing [google-cloud-securitycentermanagement]: success
+[2024-05-28 10:24:33] INFO root fetch - processPackages [KratosCSharpWrapperApplication]: Downloading https://files.pythonhosted.org/packages/87/94/1882cb8e874eed6540b1c10f89bada25eedfafa80730fb0dd7c570fe1ded/KratosCSharpWrapperApplication-9.5.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-28 10:24:33] INFO root fetch - processPackages [google-shopping-merchant-lfp]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-28 10:24:33] INFO root fetch - processPackages [google-shopping-merchant-inventories]: Downloading https://files.pythonhosted.org/packages/5d/e6/067c1c1d1ef64815facee3dc53ece65c920eedbb14fd5e091f00421356e1/google-shopping-merchant-inventories-0.1.7.tar.gz
+[2024-05-28 10:24:33] INFO root fetch - processPackages [tha]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-28 10:24:33] INFO root fetch - processPackages [KratosCoSimulationApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosCoSimulationApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-28 10:24:33] INFO root fetch - processPackages [KratosCoSimulationApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosCoSimulationApplication-9.5.1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-28 10:24:33] INFO root fetch - processPackages [KratosCoSimulationApplication]: Start processing: google-shopping-merchant-reports
+[2024-05-28 10:24:33] INFO root fetch - main [MainThread]: End processing [KratosCoSimulationApplication]: success
+[2024-05-28 10:24:33] INFO root fetch - processPackages [jupyterlab-hide-code]: Downloading https://files.pythonhosted.org/packages/fd/3b/5cf90d661c693db77a68669f08b389b8502b77350edddcde6262c66ec504/jupyterlab_hide_code-3.6.3.tar.gz
+[2024-05-28 10:24:33] INFO root fetch - processPackages [google-cloud-video-stitcher]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-video-stitcher-0.7.8.tar.gz]
+[2024-05-28 10:24:33] INFO root fetch - processPackages [google-cloud-video-stitcher]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-video-stitcher-0.7.9.tar.gz]
+[2024-05-28 10:24:33] INFO root fetch - processPackages [google-cloud-video-stitcher]: Start processing: odoo-addon-hr-employee-document
+[2024-05-28 10:24:33] INFO root fetch - main [MainThread]: End processing [google-cloud-video-stitcher]: success
+[2024-05-28 10:24:33] INFO root fetch - processPackages [google-shopping-merchant-inventories]: executing diffoscope
+[2024-05-28 10:24:33] INFO root fetch - processPackages [google-shopping-merchant-inventories]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-shopping-merchant-inventories-0.1.6.tar.gz tmp/google-shopping-merchant-inventories-0.1.7.tar.gz --markdown 20240528/g/google-shopping-merchant-inventories/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-28 10:24:33] INFO root fetch - processPackages [google-shopping-merchant-lfp]: Downloading https://files.pythonhosted.org/packages/49/03/5a00d0b1609775aa839a17d83a9e46f443e8df6bfd26bb17ca8d22464773/google-shopping-merchant-lfp-0.1.0.tar.gz
+[2024-05-28 10:24:33] INFO root fetch - processPackages [tha]: Downloading https://files.pythonhosted.org/packages/49/b9/fcce02749a260dbc7a82c36a72bcf2a37318d76ff3a8473c19cb291d8bdc/tha-0.1.0.tar.gz
+[2024-05-28 10:24:33] INFO root fetch - processPackages [google-shopping-merchant-reports]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-28 10:24:33] INFO root fetch - processPackages [odoo-addon-hr-employee-document]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.0.0.7]
+[2024-05-28 10:24:33] INFO root fetch - processPackages [jupyterlab-hide-code]: Downloading https://files.pythonhosted.org/packages/f2/3a/b590f10575291e53d432057d12e79b6f64875e359f9a6db368583e26bc34/jupyterlab_hide_code-4.0.0.tar.gz
+[2024-05-28 10:24:33] INFO root fetch - processPackages [google-shopping-merchant-reports]: Downloading https://files.pythonhosted.org/packages/0b/74/1cc13b1996a3cea591b4038ec01d79078ed91847b5623d7f8e1dc94a91f0/google-shopping-merchant-reports-0.1.6.tar.gz
+[2024-05-28 10:24:33] INFO root fetch - processPackages [odoo-addon-hr-employee-document]: Downloading https://files.pythonhosted.org/packages/c0/8b/4a5caa013251dad0f13c63ae1bd8c6001fd63c57a903b8c70b014de231ae/odoo_addon_hr_employee_document-16.0.1.0.0.7-py3-none-any.whl
+[2024-05-28 10:24:34] INFO root fetch - processPackages [google-shopping-merchant-lfp]: Downloading https://files.pythonhosted.org/packages/d2/fb/7afc7b4a308c79d72ae2beb85d05f79acbc2e4cd77f77294db7f48966609/google-shopping-merchant-lfp-0.1.1.tar.gz
+[2024-05-28 10:24:34] INFO root fetch - processPackages [tha]: Downloading https://files.pythonhosted.org/packages/1b/00/2538b4c3b5a9a585b4391bc67546a720e78f8e7e64d44ee63eb419527351/tha-0.1.1.tar.gz
+[2024-05-28 10:24:34] INFO root fetch - processPackages [jupyterlab-hide-code]: executing diffoscope
+[2024-05-28 10:24:34] INFO root fetch - processPackages [jupyterlab-hide-code]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_hide_code-3.6.3.tar.gz tmp/jupyterlab_hide_code-4.0.0.tar.gz --markdown 20240528/j/jupyterlab-hide-code/3.6.3-4.0.0/README.md --exclude *.pyd
+[2024-05-28 10:24:34] INFO root fetch - processPackages [google-shopping-merchant-conversions]: Remove: archive file [/home/abi/fetcher/tmp/google-shopping-merchant-conversions-0.1.0.tar.gz]
+[2024-05-28 10:24:34] INFO root fetch - processPackages [google-shopping-merchant-conversions]: Remove: archive file [/home/abi/fetcher/tmp/google-shopping-merchant-conversions-0.1.1.tar.gz]
+[2024-05-28 10:24:34] INFO root fetch - main [MainThread]: End processing [google-shopping-merchant-conversions]: success
+[2024-05-28 10:24:34] INFO root fetch - processPackages [google-maps-places]: Remove: archive file [/home/abi/fetcher/tmp/google-maps-places-0.1.8.tar.gz]
+[2024-05-28 10:24:34] INFO root fetch - processPackages [google-maps-places]: Remove: archive file [/home/abi/fetcher/tmp/google-maps-places-0.1.9.tar.gz]
+[2024-05-28 10:24:34] INFO root fetch - main [MainThread]: End processing [google-maps-places]: success
+[2024-05-28 10:24:34] INFO root fetch - processPackages [tha]: executing diffoscope
+[2024-05-28 10:24:34] INFO root fetch - processPackages [tha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tha-0.1.0.tar.gz tmp/tha-0.1.1.tar.gz --markdown 20240528/t/tha/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-28 10:24:34] INFO root fetch - processPackages [odoo-addon-hr-employee-document]: Downloading https://files.pythonhosted.org/packages/1d/53/c5bab0ec00398d34cf418a3ce9496fe1e6a544b0a36bc10179cfc2b27e3b/odoo_addon_hr_employee_document-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-28 10:24:34] INFO root fetch - processPackages [google-shopping-merchant-reports]: Downloading https://files.pythonhosted.org/packages/c4/b2/d76061eda231acd09d0b97e1bf7b194daaa3e0988bfd7c4adee7f24baaef/google-shopping-merchant-reports-0.1.7.tar.gz
+[2024-05-28 10:24:34] INFO root fetch - processPackages [google-shopping-merchant-lfp]: executing diffoscope
+[2024-05-28 10:24:34] INFO root fetch - processPackages [google-shopping-merchant-lfp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-shopping-merchant-lfp-0.1.0.tar.gz tmp/google-shopping-merchant-lfp-0.1.1.tar.gz --markdown 20240528/g/google-shopping-merchant-lfp/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-28 10:24:34] INFO root fetch - processPackages [google-cloud-discoveryengine]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-discoveryengine-0.9.0.tar.gz]
+[2024-05-28 10:24:34] INFO root fetch - processPackages [google-cloud-discoveryengine]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-discoveryengine-0.9.1.tar.gz]
+[2024-05-28 10:24:34] INFO root fetch - main [MainThread]: End processing [google-cloud-discoveryengine]: success
+[2024-05-28 10:24:34] INFO root fetch - processPackages [odoo-addon-hr-employee-document]: executing diffoscope
+[2024-05-28 10:24:34] INFO root fetch - processPackages [odoo-addon-hr-employee-document]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_hr_employee_document-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_hr_employee_document-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240528/o/odoo-addon-hr-employee-document/16.0.1.0.0.7-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-28 10:24:34] INFO root fetch - processPackages [google-shopping-merchant-reports]: executing diffoscope
+[2024-05-28 10:24:34] INFO root fetch - processPackages [google-shopping-merchant-reports]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-shopping-merchant-reports-0.1.6.tar.gz tmp/google-shopping-merchant-reports-0.1.7.tar.gz --markdown 20240528/g/google-shopping-merchant-reports/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-28 10:24:34] INFO root fetch - processPackages [google-shopping-merchant-inventories]: Remove: archive file [/home/abi/fetcher/tmp/google-shopping-merchant-inventories-0.1.6.tar.gz]
+[2024-05-28 10:24:34] INFO root fetch - processPackages [google-shopping-merchant-inventories]: Remove: archive file [/home/abi/fetcher/tmp/google-shopping-merchant-inventories-0.1.7.tar.gz]
+[2024-05-28 10:24:34] INFO root fetch - main [MainThread]: End processing [google-shopping-merchant-inventories]: success
+[2024-05-28 10:24:34] INFO root fetch - processPackages [tha]: Remove: archive file [/home/abi/fetcher/tmp/tha-0.1.0.tar.gz]
+[2024-05-28 10:24:34] INFO root fetch - processPackages [tha]: Remove: archive file [/home/abi/fetcher/tmp/tha-0.1.1.tar.gz]
+[2024-05-28 10:24:34] INFO root fetch - main [MainThread]: End processing [tha]: success
+[2024-05-28 10:24:35] INFO root fetch - processPackages [odoo-addon-hr-employee-document]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_employee_document-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-05-28 10:24:35] INFO root fetch - processPackages [odoo-addon-hr-employee-document]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_employee_document-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-28 10:24:35] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-employee-document]: success
+[2024-05-28 10:24:35] INFO root fetch - processPackages [jupyterlab-hide-code]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_hide_code-3.6.3.tar.gz]
+[2024-05-28 10:24:35] INFO root fetch - processPackages [jupyterlab-hide-code]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_hide_code-4.0.0.tar.gz]
+[2024-05-28 10:24:35] INFO root fetch - main [MainThread]: End processing [jupyterlab-hide-code]: success
+[2024-05-28 10:24:35] INFO root fetch - processPackages [google-shopping-merchant-lfp]: Remove: archive file [/home/abi/fetcher/tmp/google-shopping-merchant-lfp-0.1.0.tar.gz]
+[2024-05-28 10:24:35] INFO root fetch - processPackages [google-shopping-merchant-lfp]: Remove: archive file [/home/abi/fetcher/tmp/google-shopping-merchant-lfp-0.1.1.tar.gz]
+[2024-05-28 10:24:35] INFO root fetch - main [MainThread]: End processing [google-shopping-merchant-lfp]: success
+[2024-05-28 10:24:35] INFO root fetch - processPackages [google-shopping-merchant-reports]: Remove: archive file [/home/abi/fetcher/tmp/google-shopping-merchant-reports-0.1.6.tar.gz]
+[2024-05-28 10:24:35] INFO root fetch - processPackages [google-shopping-merchant-reports]: Remove: archive file [/home/abi/fetcher/tmp/google-shopping-merchant-reports-0.1.7.tar.gz]
+[2024-05-28 10:24:35] INFO root fetch - main [MainThread]: End processing [google-shopping-merchant-reports]: success
+[2024-05-28 10:24:36] INFO root fetch - processPackages [KratosCSharpWrapperApplication]: executing diffoscope
+[2024-05-28 10:24:36] INFO root fetch - processPackages [KratosCSharpWrapperApplication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KratosCSharpWrapperApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/KratosCSharpWrapperApplication-9.5.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240528/K/KratosCSharpWrapperApplication/9.5-9.5.1/README.md --exclude *.pyd
+[2024-05-28 10:26:18] INFO root fetch - processPackages [KratosCSharpWrapperApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosCSharpWrapperApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-28 10:26:18] INFO root fetch - processPackages [KratosCSharpWrapperApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosCSharpWrapperApplication-9.5.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-28 10:26:18] INFO root fetch - main [MainThread]: End processing [KratosCSharpWrapperApplication]: success
+[2024-05-28 10:26:18] INFO root fetch - main [MainThread]: Store serial: [23407675]
