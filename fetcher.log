@@ -11047,3 +11047,78 @@
 [2024-05-28 10:04:36] INFO root fetch - processPackages [yangsuite-gnmi]: Remove: archive file [/home/abi/fetcher/tmp/yangsuite_gnmi-2.7.9.post0.dev1-py3-none-any.whl.zip]
 [2024-05-28 10:04:36] INFO root fetch - main [MainThread]: End processing [yangsuite-gnmi]: success
 [2024-05-28 10:04:36] INFO root fetch - main [MainThread]: Store serial: [23407364]
+[2024-05-28 10:06:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23407364]
+[2024-05-28 10:06:48] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-28 10:06:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-learngual
+[2024-05-28 10:06:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: minecraft-resource-pack
+[2024-05-28 10:06:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sdc-dp-helpers
+[2024-05-28 10:06:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: opentf-toolkit-nightly
+[2024-05-28 10:06:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: c2cgeoportal-commons
+[2024-05-28 10:06:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: CRUDFastAPI
+[2024-05-28 10:06:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: c2cgeoportal-geoportal
+[2024-05-28 10:06:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: c2cgeoportal-admin
+[2024-05-28 10:06:48] INFO root fetch - processPackages [django-learngual]: New version: [0.38] Old Version: [0.37]
+[2024-05-28 10:06:48] INFO root fetch - processPackages [minecraft-resource-pack]: New version: [1.4.3] Old Version: [1.4.2]
+[2024-05-28 10:06:48] INFO root fetch - processPackages [opentf-toolkit-nightly]: New version: [0.55.0.dev968] Old Version: [0.55.0.dev962]
+[2024-05-28 10:06:48] INFO root fetch - processPackages [CRUDFastAPI]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-28 10:06:48] INFO root fetch - processPackages [sdc-dp-helpers]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-05-28 10:06:48] INFO root fetch - processPackages [c2cgeoportal-admin]: New version: [2.8.1.96] Old Version: [2.8.1.94]
+[2024-05-28 10:06:48] INFO root fetch - processPackages [c2cgeoportal-commons]: New version: [2.8.1.96] Old Version: [2.8.1.94]
+[2024-05-28 10:06:48] INFO root fetch - processPackages [c2cgeoportal-geoportal]: New version: [2.8.1.96] Old Version: [2.8.1.94]
+[2024-05-28 10:06:48] INFO root fetch - processPackages [minecraft-resource-pack]: Downloading https://files.pythonhosted.org/packages/71/e9/2b1439037ef7989f340bae1362072d397a2148d8bc71f6d78ba761c45f6a/minecraft_resource_pack-1.4.2.tar.gz
+[2024-05-28 10:06:48] INFO root fetch - processPackages [django-learngual]: Downloading https://files.pythonhosted.org/packages/25/77/2b63ddbb70409b3245c4da40fff428108b2d8ee9d3efd3bd696a66b6969b/django-learngual-0.37.tar.gz
+[2024-05-28 10:06:48] INFO root fetch - processPackages [CRUDFastAPI]: Downloading https://files.pythonhosted.org/packages/63/da/fc3abbe59bd763a06c082433261cbe114925fb3cb462dd397b12da2050bf/crudfastapi-0.0.7.tar.gz
+[2024-05-28 10:06:48] INFO root fetch - processPackages [opentf-toolkit-nightly]: Downloading https://files.pythonhosted.org/packages/3d/7e/fa4924d260f56dc96bcdc771a654b4d8539360ad8dc044a21b53c07bbec2/opentf_toolkit_nightly-0.55.0.dev962-py3-none-any.whl
+[2024-05-28 10:06:48] INFO root fetch - processPackages [c2cgeoportal-admin]: Downloading https://files.pythonhosted.org/packages/44/9e/ed9414db135a3fc7b4d492fd5b51ba5251b380d67642cbf19135e257af51/c2cgeoportal_admin-2.8.1.94-py3-none-any.whl
+[2024-05-28 10:06:48] INFO root fetch - processPackages [c2cgeoportal-commons]: Downloading https://files.pythonhosted.org/packages/7a/a5/278f87913db47c703bc0a57c1798acca5c99e9558715269af2dbf0464df6/c2cgeoportal_commons-2.8.1.94-py3-none-any.whl
+[2024-05-28 10:06:48] INFO root fetch - processPackages [sdc-dp-helpers]: Downloading https://files.pythonhosted.org/packages/fa/56/d5eddfedb5179c699aca7ed9e7d628783be492a190a13591b1881815951e/sdc_dp_helpers-1.4.0.tar.gz
+[2024-05-28 10:06:48] INFO root fetch - processPackages [c2cgeoportal-geoportal]: Downloading https://files.pythonhosted.org/packages/a6/ac/e5689b621f876a934c05abe2c4583865c7c8bb2764ce253fae12da66d67a/c2cgeoportal_geoportal-2.8.1.94-py2.py3-none-any.whl
+[2024-05-28 10:06:48] INFO root fetch - processPackages [django-learngual]: Downloading https://files.pythonhosted.org/packages/24/8f/d8fad8f8eacacf39ba7226a61670f43713b046b981c1be517fbc9dbf5e35/django_learngual-0.38.tar.gz
+[2024-05-28 10:06:48] INFO root fetch - processPackages [minecraft-resource-pack]: Downloading https://files.pythonhosted.org/packages/4c/b3/caa6047904f12265eb1e9be7e50bbdb990993feafd3806a522ba2a70dd61/minecraft_resource_pack-1.4.3.tar.gz
+[2024-05-28 10:06:49] INFO root fetch - processPackages [opentf-toolkit-nightly]: Downloading https://files.pythonhosted.org/packages/66/25/7fa1d2c247a8bc49e7eb3f8cb9a127ff230ee1445f7760291f63900c92f9/opentf_toolkit_nightly-0.55.0.dev968-py3-none-any.whl
+[2024-05-28 10:06:49] INFO root fetch - processPackages [CRUDFastAPI]: Downloading https://files.pythonhosted.org/packages/69/df/b805609a5cca69b4ff08e1a9b70536789d7cabf3f935089623ebe937ba23/crudfastapi-0.0.8.tar.gz
+[2024-05-28 10:06:49] INFO root fetch - processPackages [c2cgeoportal-admin]: Downloading https://files.pythonhosted.org/packages/a8/ec/a5f4c115741d3d0c1c17663fc279d9531603c64bb6d5fae1a2bca5479b9b/c2cgeoportal_admin-2.8.1.96-py3-none-any.whl
+[2024-05-28 10:06:49] INFO root fetch - processPackages [c2cgeoportal-commons]: Downloading https://files.pythonhosted.org/packages/24/5d/239e7b478e544470d5527cd141a82569dee0b514f55f1dd3c24470aceab3/c2cgeoportal_commons-2.8.1.96-py3-none-any.whl
+[2024-05-28 10:06:49] INFO root fetch - processPackages [sdc-dp-helpers]: Downloading https://files.pythonhosted.org/packages/6a/7e/14ba717cae252fe0cdff249976023c6ca6e3e107525c2f708ad9a43dec9d/sdc_dp_helpers-1.4.1.tar.gz
+[2024-05-28 10:06:49] INFO root fetch - processPackages [django-learngual]: executing diffoscope
+[2024-05-28 10:06:49] INFO root fetch - processPackages [django-learngual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-learngual-0.37.tar.gz tmp/django_learngual-0.38.tar.gz --markdown 20240528/d/django-learngual/0.37-0.38/README.md --exclude *.pyd
+[2024-05-28 10:06:49] INFO root fetch - processPackages [minecraft-resource-pack]: executing diffoscope
+[2024-05-28 10:06:49] INFO root fetch - processPackages [minecraft-resource-pack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minecraft_resource_pack-1.4.2.tar.gz tmp/minecraft_resource_pack-1.4.3.tar.gz --markdown 20240528/m/minecraft-resource-pack/1.4.2-1.4.3/README.md --exclude *.pyd
+[2024-05-28 10:06:49] INFO root fetch - processPackages [opentf-toolkit-nightly]: executing diffoscope
+[2024-05-28 10:06:49] INFO root fetch - processPackages [opentf-toolkit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentf_toolkit_nightly-0.55.0.dev962-py3-none-any.whl.zip tmp/opentf_toolkit_nightly-0.55.0.dev968-py3-none-any.whl.zip --markdown 20240528/o/opentf-toolkit-nightly/0.55.0.dev962-0.55.0.dev968/README.md --exclude *.pyd
+[2024-05-28 10:06:49] INFO root fetch - processPackages [sdc-dp-helpers]: executing diffoscope
+[2024-05-28 10:06:49] INFO root fetch - processPackages [sdc-dp-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdc_dp_helpers-1.4.0.tar.gz tmp/sdc_dp_helpers-1.4.1.tar.gz --markdown 20240528/s/sdc-dp-helpers/1.4.0-1.4.1/README.md --exclude *.pyd
+[2024-05-28 10:06:49] INFO root fetch - processPackages [CRUDFastAPI]: executing diffoscope
+[2024-05-28 10:06:49] INFO root fetch - processPackages [CRUDFastAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crudfastapi-0.0.7.tar.gz tmp/crudfastapi-0.0.8.tar.gz --markdown 20240528/C/CRUDFastAPI/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-28 10:06:49] INFO root fetch - processPackages [c2cgeoportal-geoportal]: Downloading https://files.pythonhosted.org/packages/39/59/e4c3a533c3c83ef22b4adf68036c21a6132d58e8be4bfb1672db44ab9522/c2cgeoportal_geoportal-2.8.1.96-py2.py3-none-any.whl
+[2024-05-28 10:06:49] INFO root fetch - processPackages [c2cgeoportal-admin]: executing diffoscope
+[2024-05-28 10:06:49] INFO root fetch - processPackages [c2cgeoportal-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cgeoportal_admin-2.8.1.94-py3-none-any.whl.zip tmp/c2cgeoportal_admin-2.8.1.96-py3-none-any.whl.zip --markdown 20240528/c/c2cgeoportal-admin/2.8.1.94-2.8.1.96/README.md --exclude *.pyd
+[2024-05-28 10:06:49] INFO root fetch - processPackages [c2cgeoportal-commons]: executing diffoscope
+[2024-05-28 10:06:49] INFO root fetch - processPackages [c2cgeoportal-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cgeoportal_commons-2.8.1.94-py3-none-any.whl.zip tmp/c2cgeoportal_commons-2.8.1.96-py3-none-any.whl.zip --markdown 20240528/c/c2cgeoportal-commons/2.8.1.94-2.8.1.96/README.md --exclude *.pyd
+[2024-05-28 10:06:49] INFO root fetch - processPackages [django-learngual]: Remove: archive file [/home/abi/fetcher/tmp/django-learngual-0.37.tar.gz]
+[2024-05-28 10:06:49] INFO root fetch - processPackages [django-learngual]: Remove: archive file [/home/abi/fetcher/tmp/django_learngual-0.38.tar.gz]
+[2024-05-28 10:06:49] INFO root fetch - main [MainThread]: End processing [django-learngual]: success
+[2024-05-28 10:06:50] INFO root fetch - processPackages [c2cgeoportal-geoportal]: executing diffoscope
+[2024-05-28 10:06:50] INFO root fetch - processPackages [c2cgeoportal-geoportal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cgeoportal_geoportal-2.8.1.94-py2.py3-none-any.whl.zip tmp/c2cgeoportal_geoportal-2.8.1.96-py2.py3-none-any.whl.zip --markdown 20240528/c/c2cgeoportal-geoportal/2.8.1.94-2.8.1.96/README.md --exclude *.pyd
+[2024-05-28 10:06:50] INFO root fetch - processPackages [opentf-toolkit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/opentf_toolkit_nightly-0.55.0.dev962-py3-none-any.whl.zip]
+[2024-05-28 10:06:50] INFO root fetch - processPackages [opentf-toolkit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/opentf_toolkit_nightly-0.55.0.dev968-py3-none-any.whl.zip]
+[2024-05-28 10:06:50] INFO root fetch - main [MainThread]: End processing [opentf-toolkit-nightly]: success
+[2024-05-28 10:06:50] INFO root fetch - processPackages [CRUDFastAPI]: Remove: archive file [/home/abi/fetcher/tmp/crudfastapi-0.0.7.tar.gz]
+[2024-05-28 10:06:50] INFO root fetch - processPackages [CRUDFastAPI]: Remove: archive file [/home/abi/fetcher/tmp/crudfastapi-0.0.8.tar.gz]
+[2024-05-28 10:06:50] INFO root fetch - main [MainThread]: End processing [CRUDFastAPI]: success
+[2024-05-28 10:06:50] INFO root fetch - processPackages [sdc-dp-helpers]: Remove: archive file [/home/abi/fetcher/tmp/sdc_dp_helpers-1.4.0.tar.gz]
+[2024-05-28 10:06:50] INFO root fetch - processPackages [sdc-dp-helpers]: Remove: archive file [/home/abi/fetcher/tmp/sdc_dp_helpers-1.4.1.tar.gz]
+[2024-05-28 10:06:50] INFO root fetch - main [MainThread]: End processing [sdc-dp-helpers]: success
+[2024-05-28 10:06:50] INFO root fetch - processPackages [c2cgeoportal-commons]: Remove: archive file [/home/abi/fetcher/tmp/c2cgeoportal_commons-2.8.1.94-py3-none-any.whl.zip]
+[2024-05-28 10:06:50] INFO root fetch - processPackages [c2cgeoportal-commons]: Remove: archive file [/home/abi/fetcher/tmp/c2cgeoportal_commons-2.8.1.96-py3-none-any.whl.zip]
+[2024-05-28 10:06:50] INFO root fetch - main [MainThread]: End processing [c2cgeoportal-commons]: success
+[2024-05-28 10:06:50] INFO root fetch - processPackages [c2cgeoportal-admin]: Remove: archive file [/home/abi/fetcher/tmp/c2cgeoportal_admin-2.8.1.94-py3-none-any.whl.zip]
+[2024-05-28 10:06:50] INFO root fetch - processPackages [c2cgeoportal-admin]: Remove: archive file [/home/abi/fetcher/tmp/c2cgeoportal_admin-2.8.1.96-py3-none-any.whl.zip]
+[2024-05-28 10:06:50] INFO root fetch - main [MainThread]: End processing [c2cgeoportal-admin]: success
+[2024-05-28 10:06:50] INFO root fetch - processPackages [minecraft-resource-pack]: Remove: archive file [/home/abi/fetcher/tmp/minecraft_resource_pack-1.4.2.tar.gz]
+[2024-05-28 10:06:50] INFO root fetch - processPackages [minecraft-resource-pack]: Remove: archive file [/home/abi/fetcher/tmp/minecraft_resource_pack-1.4.3.tar.gz]
+[2024-05-28 10:06:50] INFO root fetch - main [MainThread]: End processing [minecraft-resource-pack]: success
+[2024-05-28 10:06:51] INFO root fetch - processPackages [c2cgeoportal-geoportal]: Remove: archive file [/home/abi/fetcher/tmp/c2cgeoportal_geoportal-2.8.1.94-py2.py3-none-any.whl.zip]
+[2024-05-28 10:06:51] INFO root fetch - processPackages [c2cgeoportal-geoportal]: Remove: archive file [/home/abi/fetcher/tmp/c2cgeoportal_geoportal-2.8.1.96-py2.py3-none-any.whl.zip]
+[2024-05-28 10:06:51] INFO root fetch - main [MainThread]: End processing [c2cgeoportal-geoportal]: success
+[2024-05-28 10:06:51] INFO root fetch - main [MainThread]: Store serial: [23407383]
