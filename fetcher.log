@@ -13088,3 +13088,42 @@
 [2024-05-28 11:01:45] INFO root fetch - processPackages [autotwin_gmglib]: Remove: archive file [/home/abi/fetcher/tmp/autotwin_gmglib-0.1.1.tar.gz]
 [2024-05-28 11:01:45] INFO root fetch - main [MainThread]: End processing [autotwin_gmglib]: success
 [2024-05-28 11:01:45] INFO root fetch - main [MainThread]: Store serial: [23408439]
+[2024-05-28 11:03:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23408439]
+[2024-05-28 11:03:54] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-28 11:03:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cos-ruleengine
+[2024-05-28 11:03:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: custom-development-standardisation
+[2024-05-28 11:03:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: LitPy
+[2024-05-28 11:03:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nmross
+[2024-05-28 11:03:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mia-vgg
+[2024-05-28 11:03:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: AioDatabase
+[2024-05-28 11:03:54] WARNING root fetch - processPackages [AioDatabase]: Skipping, unable to determine old version
+[2024-05-28 11:03:54] INFO root fetch - main [MainThread]: End processing [AioDatabase] error
+[2024-05-28 11:03:54] INFO root fetch - processPackages [mia-vgg]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-28 11:03:54] INFO root fetch - processPackages [cos-ruleengine]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-28 11:03:54] INFO root fetch - processPackages [mia-vgg]: Downloading https://files.pythonhosted.org/packages/7d/99/89bc26b6fc0c4be64ccf67e364ca9e0df91458fd29d11e2358855b46e97d/mia_vgg-0.0.8.tar.gz
+[2024-05-28 11:03:54] INFO root fetch - processPackages [custom-development-standardisation]: New version: [1.0.0] Old Version: [0.1.1]
+[2024-05-28 11:03:54] WARNING root fetch - processPackages [nmross]: Skipping, unable to determine old version
+[2024-05-28 11:03:54] INFO root fetch - main [MainThread]: End processing [nmross] error
+[2024-05-28 11:03:54] WARNING root fetch - processPackages [LitPy]: Skipping, unable to determine old version
+[2024-05-28 11:03:54] INFO root fetch - main [MainThread]: End processing [LitPy] error
+[2024-05-28 11:03:54] INFO root fetch - processPackages [cos-ruleengine]: Downloading https://files.pythonhosted.org/packages/ee/f2/b83d102b212a31fc585b31e819ece8bc847c843398a0385f458e38a56f07/cos-ruleengine-0.1.8.tar.gz
+[2024-05-28 11:03:54] INFO root fetch - processPackages [custom-development-standardisation]: Downloading https://files.pythonhosted.org/packages/e1/ae/253bb7544fbfbb9c11560b7491c150a684c4913bb6b312fc4861fdf3a444/custom_development_standardisation-0.1.1-py3-none-any.whl
+[2024-05-28 11:03:54] INFO root fetch - processPackages [mia-vgg]: Downloading https://files.pythonhosted.org/packages/cc/39/4b0634a6c0cfb889300cdd32b0b9e896e244894df317465107e5a88463b0/mia_vgg-0.0.9.tar.gz
+[2024-05-28 11:03:54] INFO root fetch - processPackages [mia-vgg]: executing diffoscope
+[2024-05-28 11:03:54] INFO root fetch - processPackages [mia-vgg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mia_vgg-0.0.8.tar.gz tmp/mia_vgg-0.0.9.tar.gz --markdown 20240528/m/mia-vgg/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-28 11:03:54] INFO root fetch - processPackages [cos-ruleengine]: Downloading https://files.pythonhosted.org/packages/99/23/f847856821d81c172f7d394b6a8e074ce726036e665452ebd4c08d66f92c/cos-ruleengine-0.1.9.tar.gz
+[2024-05-28 11:03:55] INFO root fetch - processPackages [custom-development-standardisation]: Downloading https://files.pythonhosted.org/packages/19/30/acbb9a24012dbc3b08e2954497b98f7d8a8791ecfad29ebfbeb40c6ca8ac/custom_development_standardisation-1.0.0-py3-none-any.whl
+[2024-05-28 11:03:55] INFO root fetch - processPackages [cos-ruleengine]: executing diffoscope
+[2024-05-28 11:03:55] INFO root fetch - processPackages [cos-ruleengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cos-ruleengine-0.1.8.tar.gz tmp/cos-ruleengine-0.1.9.tar.gz --markdown 20240528/c/cos-ruleengine/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-28 11:03:55] INFO root fetch - processPackages [custom-development-standardisation]: executing diffoscope
+[2024-05-28 11:03:55] INFO root fetch - processPackages [custom-development-standardisation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/custom_development_standardisation-0.1.1-py3-none-any.whl.zip tmp/custom_development_standardisation-1.0.0-py3-none-any.whl.zip --markdown 20240528/c/custom-development-standardisation/0.1.1-1.0.0/README.md --exclude *.pyd
+[2024-05-28 11:03:55] INFO root fetch - processPackages [mia-vgg]: Remove: archive file [/home/abi/fetcher/tmp/mia_vgg-0.0.8.tar.gz]
+[2024-05-28 11:03:55] INFO root fetch - processPackages [mia-vgg]: Remove: archive file [/home/abi/fetcher/tmp/mia_vgg-0.0.9.tar.gz]
+[2024-05-28 11:03:55] INFO root fetch - main [MainThread]: End processing [mia-vgg]: success
+[2024-05-28 11:03:55] INFO root fetch - processPackages [custom-development-standardisation]: Remove: archive file [/home/abi/fetcher/tmp/custom_development_standardisation-0.1.1-py3-none-any.whl.zip]
+[2024-05-28 11:03:55] INFO root fetch - processPackages [custom-development-standardisation]: Remove: archive file [/home/abi/fetcher/tmp/custom_development_standardisation-1.0.0-py3-none-any.whl.zip]
+[2024-05-28 11:03:55] INFO root fetch - processPackages [cos-ruleengine]: Remove: archive file [/home/abi/fetcher/tmp/cos-ruleengine-0.1.8.tar.gz]
+[2024-05-28 11:03:55] INFO root fetch - main [MainThread]: End processing [custom-development-standardisation]: success
+[2024-05-28 11:03:55] INFO root fetch - processPackages [cos-ruleengine]: Remove: archive file [/home/abi/fetcher/tmp/cos-ruleengine-0.1.9.tar.gz]
+[2024-05-28 11:03:55] INFO root fetch - main [MainThread]: End processing [cos-ruleengine]: success
+[2024-05-28 11:03:55] INFO root fetch - main [MainThread]: Store serial: [23408459]
