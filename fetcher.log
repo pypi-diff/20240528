@@ -21849,3 +21849,96 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 16:02:06] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.8.2.tar.gz]
 [2024-05-28 16:02:06] INFO root fetch - main [MainThread]: End processing [danila-lib]: success
 [2024-05-28 16:02:06] INFO root fetch - main [MainThread]: Store serial: [23412403]
+[2024-05-28 16:04:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23412403]
+[2024-05-28 16:04:16] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-28 16:04:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: modal
+[2024-05-28 16:04:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deltaver
+[2024-05-28 16:04:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: modal-client
+[2024-05-28 16:04:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: grain-zip-deployer
+[2024-05-28 16:04:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: AmazonTicoTool
+[2024-05-28 16:04:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: quickQrLib
+[2024-05-28 16:04:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: goodboy-sqlalchemy
+[2024-05-28 16:04:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: smscallbomber
+[2024-05-28 16:04:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aeslarisa
+[2024-05-28 16:04:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: facebook-simple-scraper
+[2024-05-28 16:04:17] INFO root fetch - processPackages [quickQrLib]: New version: [0.2.3] Old Version: [0.2.27]
+[2024-05-28 16:04:17] WARNING root fetch - processPackages [grain-zip-deployer]: Skipping, unable to determine old version
+[2024-05-28 16:04:17] INFO root fetch - processPackages [grain-zip-deployer]: Start processing: redun
+[2024-05-28 16:04:17] INFO root fetch - main [MainThread]: End processing [grain-zip-deployer] error
+[2024-05-28 16:04:17] INFO root fetch - processPackages [goodboy-sqlalchemy]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-28 16:04:17] INFO root fetch - processPackages [facebook-simple-scraper]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-28 16:04:17] INFO root fetch - processPackages [deltaver]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-28 16:04:17] INFO root fetch - processPackages [quickQrLib]: Downloading https://files.pythonhosted.org/packages/aa/1b/2a719c7fa3eade1d7de05b9c8c076e1f6e215710a48798c16a0bb769e7dc/quickQrLib-0.2.27.tar.gz
+[2024-05-28 16:04:17] WARNING root fetch - processPackages [AmazonTicoTool]: Skipping, unable to determine old version
+[2024-05-28 16:04:17] INFO root fetch - processPackages [AmazonTicoTool]: Start processing: coverage
+[2024-05-28 16:04:17] INFO root fetch - main [MainThread]: End processing [AmazonTicoTool] error
+[2024-05-28 16:04:17] INFO root fetch - processPackages [smscallbomber]: New version: [1.3] Old Version: [1.2]
+[2024-05-28 16:04:17] INFO root fetch - processPackages [modal]: New version: [0.62.99] Old Version: [0.62.98]
+[2024-05-28 16:04:17] WARNING root fetch - processPackages [aeslarisa]: Skipping, unable to determine old version
+[2024-05-28 16:04:17] INFO root fetch - main [MainThread]: End processing [aeslarisa] error
+[2024-05-28 16:04:17] INFO root fetch - processPackages [modal-client]: New version: [0.62.99] Old Version: [0.62.98]
+[2024-05-28 16:04:17] INFO root fetch - processPackages [facebook-simple-scraper]: Downloading https://files.pythonhosted.org/packages/83/b7/01534ae081616ad8c01345603bc06c7777ea4b6d478b6583016d4b157277/facebook_simple_scraper-0.1.5.tar.gz
+[2024-05-28 16:04:17] INFO root fetch - processPackages [goodboy-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/a3/a4/8f14eaeae0807b140175a2dc080c995b1b3f20eecbc2dd7cb3438468a5db/goodboy_sqlalchemy-0.2.2.tar.gz
+[2024-05-28 16:04:17] INFO root fetch - processPackages [coverage]: New version: [7.5.2] Old Version: [7.5.1]
+[2024-05-28 16:04:17] INFO root fetch - processPackages [redun]: New version: [0.8.9] Old Version: [0.8.7]
+[2024-05-28 16:04:17] INFO root fetch - processPackages [coverage]: Downloading https://files.pythonhosted.org/packages/04/1d/3e426526df9f320f0a08dd08434dc7b94cd621543f73f96d8a4faf216ec7/coverage-7.5.1.tar.gz
+[2024-05-28 16:04:17] INFO root fetch - processPackages [deltaver]: Downloading https://files.pythonhosted.org/packages/9a/64/ca7b41cf449e352cd5b971b43807d26a522454b543c2aa764d35ffb70ac6/deltaver-0.2.1.tar.gz
+[2024-05-28 16:04:17] INFO root fetch - processPackages [quickQrLib]: Downloading https://files.pythonhosted.org/packages/4f/c6/28a93422f844fe15ea2064ce15e198d6c57ca5f83a0af9d5eaf24bc0d8e3/quickQrLib-0.2.3.tar.gz
+[2024-05-28 16:04:17] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/b5/38/bb0788928bcf76bff83916023bd1f84d88b1eb03c43f34ae832eff523ed0/modal-0.62.98-py3-none-any.whl
+[2024-05-28 16:04:17] INFO root fetch - processPackages [smscallbomber]: Downloading https://files.pythonhosted.org/packages/ad/71/0fbb140695846d07660e350e2edb047c48beecb998ef75fa8a2520438a0c/smscallbomber-1.2.tar.gz
+[2024-05-28 16:04:17] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/e1/43/8909e36efe8c88188326519159ac1faa149227f01c6a0d968acc30efedde/modal_client-0.62.98-py3-none-any.whl
+[2024-05-28 16:04:17] INFO root fetch - processPackages [goodboy-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/f3/46/6fc566d9dc90f7268cc1109880b9b3d6c63dc0031c6cbbf2f11062572842/goodboy_sqlalchemy-0.2.3.tar.gz
+[2024-05-28 16:04:17] INFO root fetch - processPackages [redun]: Downloading https://files.pythonhosted.org/packages/85/25/422d4606e0bd20be38857f129cf896175694f0cb90304d4694925fd56e7a/redun-0.8.7.tar.gz
+[2024-05-28 16:04:17] INFO root fetch - processPackages [quickQrLib]: executing diffoscope
+[2024-05-28 16:04:17] INFO root fetch - processPackages [quickQrLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickQrLib-0.2.27.tar.gz tmp/quickQrLib-0.2.3.tar.gz --markdown 20240528/q/quickQrLib/0.2.27-0.2.3/README.md --exclude *.pyd
+[2024-05-28 16:04:17] INFO root fetch - processPackages [facebook-simple-scraper]: Downloading https://files.pythonhosted.org/packages/b9/a0/ac5fc406116915d24af109da9580302ebca482320a8f6b70b38166567d79/facebook_simple_scraper-0.1.6.tar.gz
+[2024-05-28 16:04:17] INFO root fetch - processPackages [goodboy-sqlalchemy]: executing diffoscope
+[2024-05-28 16:04:17] INFO root fetch - processPackages [goodboy-sqlalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goodboy_sqlalchemy-0.2.2.tar.gz tmp/goodboy_sqlalchemy-0.2.3.tar.gz --markdown 20240528/g/goodboy-sqlalchemy/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-28 16:04:17] INFO root fetch - processPackages [facebook-simple-scraper]: executing diffoscope
+[2024-05-28 16:04:17] INFO root fetch - processPackages [facebook-simple-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/facebook_simple_scraper-0.1.5.tar.gz tmp/facebook_simple_scraper-0.1.6.tar.gz --markdown 20240528/f/facebook-simple-scraper/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-28 16:04:17] INFO root fetch - processPackages [deltaver]: Downloading https://files.pythonhosted.org/packages/80/12/33bab61f762ddefcdcdfdafad334e16cde9aac249f0134aff46ace5078d6/deltaver-0.2.2.tar.gz
+[2024-05-28 16:04:17] INFO root fetch - processPackages [coverage]: Downloading https://files.pythonhosted.org/packages/0d/12/3adf1c2c148abc2658eb69c9e7e796d4734f63a0e262c52ab78a5404688c/coverage-7.5.2.tar.gz
+[2024-05-28 16:04:17] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/b4/3a/7e3a60540b0de2b4f28de13c20c04bab97a40c022bd147b48a204b987fc1/modal_client-0.62.99-py3-none-any.whl
+[2024-05-28 16:04:17] INFO root fetch - processPackages [deltaver]: executing diffoscope
+[2024-05-28 16:04:17] INFO root fetch - processPackages [deltaver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deltaver-0.2.1.tar.gz tmp/deltaver-0.2.2.tar.gz --markdown 20240528/d/deltaver/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-28 16:04:17] INFO root fetch - processPackages [smscallbomber]: Downloading https://files.pythonhosted.org/packages/cf/93/58798ff6bd23ddc98d89f6ef456853c708dd8f593edfc202d42e330b11a3/smscallbomber-1.3.tar.gz
+[2024-05-28 16:04:17] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/c7/ec/8086cd0c36b12ca7d4d2ac1f4bf86cbe082ba12dae2dd7c3cccb68a4746e/modal-0.62.99-py3-none-any.whl
+[2024-05-28 16:04:18] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2024-05-28 16:04:18] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.62.98-py3-none-any.whl.zip tmp/modal_client-0.62.99-py3-none-any.whl.zip --markdown 20240528/m/modal-client/0.62.98-0.62.99/README.md --exclude *.pyd
+[2024-05-28 16:04:18] INFO root fetch - processPackages [redun]: Downloading https://files.pythonhosted.org/packages/b3/d8/0604235bbf8956059d989390616cee00b64b165656582299cdef8933efbf/redun-0.8.9.tar.gz
+[2024-05-28 16:04:18] INFO root fetch - processPackages [coverage]: executing diffoscope
+[2024-05-28 16:04:18] INFO root fetch - processPackages [coverage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coverage-7.5.1.tar.gz tmp/coverage-7.5.2.tar.gz --markdown 20240528/c/coverage/7.5.1-7.5.2/README.md --exclude *.pyd
+[2024-05-28 16:04:18] INFO root fetch - processPackages [smscallbomber]: executing diffoscope
+[2024-05-28 16:04:18] INFO root fetch - processPackages [smscallbomber]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smscallbomber-1.2.tar.gz tmp/smscallbomber-1.3.tar.gz --markdown 20240528/s/smscallbomber/1.2-1.3/README.md --exclude *.pyd
+[2024-05-28 16:04:18] INFO root fetch - processPackages [modal]: executing diffoscope
+[2024-05-28 16:04:18] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.62.98-py3-none-any.whl.zip tmp/modal-0.62.99-py3-none-any.whl.zip --markdown 20240528/m/modal/0.62.98-0.62.99/README.md --exclude *.pyd
+[2024-05-28 16:04:18] INFO root fetch - processPackages [redun]: executing diffoscope
+[2024-05-28 16:04:18] INFO root fetch - processPackages [redun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redun-0.8.7.tar.gz tmp/redun-0.8.9.tar.gz --markdown 20240528/r/redun/0.8.7-0.8.9/README.md --exclude *.pyd
+[2024-05-28 16:04:18] INFO root fetch - processPackages [quickQrLib]: Remove: archive file [/home/abi/fetcher/tmp/quickQrLib-0.2.27.tar.gz]
+[2024-05-28 16:04:18] INFO root fetch - processPackages [quickQrLib]: Remove: archive file [/home/abi/fetcher/tmp/quickQrLib-0.2.3.tar.gz]
+[2024-05-28 16:04:18] INFO root fetch - main [MainThread]: End processing [quickQrLib]: success
+[2024-05-28 16:04:18] INFO root fetch - processPackages [goodboy-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/goodboy_sqlalchemy-0.2.2.tar.gz]
+[2024-05-28 16:04:18] INFO root fetch - processPackages [goodboy-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/goodboy_sqlalchemy-0.2.3.tar.gz]
+[2024-05-28 16:04:18] INFO root fetch - main [MainThread]: End processing [goodboy-sqlalchemy]: success
+[2024-05-28 16:04:18] INFO root fetch - processPackages [facebook-simple-scraper]: Remove: archive file [/home/abi/fetcher/tmp/facebook_simple_scraper-0.1.5.tar.gz]
+[2024-05-28 16:04:18] INFO root fetch - processPackages [facebook-simple-scraper]: Remove: archive file [/home/abi/fetcher/tmp/facebook_simple_scraper-0.1.6.tar.gz]
+[2024-05-28 16:04:18] INFO root fetch - main [MainThread]: End processing [facebook-simple-scraper]: success
+[2024-05-28 16:04:18] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.98-py3-none-any.whl.zip]
+[2024-05-28 16:04:18] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.99-py3-none-any.whl.zip]
+[2024-05-28 16:04:18] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2024-05-28 16:04:18] INFO root fetch - processPackages [deltaver]: Remove: archive file [/home/abi/fetcher/tmp/deltaver-0.2.1.tar.gz]
+[2024-05-28 16:04:18] INFO root fetch - processPackages [deltaver]: Remove: archive file [/home/abi/fetcher/tmp/deltaver-0.2.2.tar.gz]
+[2024-05-28 16:04:18] INFO root fetch - main [MainThread]: End processing [deltaver]: success
+[2024-05-28 16:04:19] INFO root fetch - processPackages [smscallbomber]: Remove: archive file [/home/abi/fetcher/tmp/smscallbomber-1.2.tar.gz]
+[2024-05-28 16:04:19] INFO root fetch - processPackages [smscallbomber]: Remove: archive file [/home/abi/fetcher/tmp/smscallbomber-1.3.tar.gz]
+[2024-05-28 16:04:19] INFO root fetch - main [MainThread]: End processing [smscallbomber]: success
+[2024-05-28 16:04:19] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.98-py3-none-any.whl.zip]
+[2024-05-28 16:04:19] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.99-py3-none-any.whl.zip]
+[2024-05-28 16:04:19] INFO root fetch - main [MainThread]: End processing [modal]: success
+[2024-05-28 16:04:19] INFO root fetch - processPackages [redun]: Remove: archive file [/home/abi/fetcher/tmp/redun-0.8.7.tar.gz]
+[2024-05-28 16:04:19] INFO root fetch - processPackages [redun]: Remove: archive file [/home/abi/fetcher/tmp/redun-0.8.9.tar.gz]
+[2024-05-28 16:04:19] INFO root fetch - main [MainThread]: End processing [redun]: success
+[2024-05-28 16:04:20] INFO root fetch - processPackages [coverage]: Remove: archive file [/home/abi/fetcher/tmp/coverage-7.5.1.tar.gz]
+[2024-05-28 16:04:20] INFO root fetch - processPackages [coverage]: Remove: archive file [/home/abi/fetcher/tmp/coverage-7.5.2.tar.gz]
+[2024-05-28 16:04:20] INFO root fetch - main [MainThread]: End processing [coverage]: success
+[2024-05-28 16:04:20] INFO root fetch - main [MainThread]: Store serial: [23412442]
