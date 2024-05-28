@@ -10030,3 +10030,63 @@
 [2024-05-28 09:22:28] INFO root fetch - processPackages [openbroker]: Remove: archive file [/home/abi/fetcher/tmp/openbroker-0.1.1.tar.gz]
 [2024-05-28 09:22:28] INFO root fetch - main [MainThread]: End processing [openbroker]: success
 [2024-05-28 09:22:28] INFO root fetch - main [MainThread]: Store serial: [23407001]
+[2024-05-28 09:24:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23407001]
+[2024-05-28 09:24:37] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-28 09:24:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: annonition
+[2024-05-28 09:24:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chargebee
+[2024-05-28 09:24:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mate-cxinsys
+[2024-05-28 09:24:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: messages-local
+[2024-05-28 09:24:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-base-force-record-noupdate
+[2024-05-28 09:24:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tinybird-cli
+[2024-05-28 09:24:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-database-cleanup
+[2024-05-28 09:24:37] INFO root fetch - processPackages [messages-local]: New version: [0.0.59] Old Version: [0.0.58]
+[2024-05-28 09:24:37] INFO root fetch - processPackages [chargebee]: New version: [2.9.0] Old Version: [2.8.4]
+[2024-05-28 09:24:37] INFO root fetch - processPackages [tinybird-cli]: New version: [4.0.1.dev0] Old Version: [3.9.1.dev6]
+[2024-05-28 09:24:37] INFO root fetch - processPackages [odoo-addon-base-force-record-noupdate]: New version: [16.0.1.0.0.2] Old Version: [16.0.1.0.0.1]
+[2024-05-28 09:24:37] WARNING root fetch - processPackages [mate-cxinsys]: Skipping, unable to determine old version
+[2024-05-28 09:24:37] INFO root fetch - main [MainThread]: End processing [mate-cxinsys] error
+[2024-05-28 09:24:37] INFO root fetch - processPackages [annonition]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-28 09:24:37] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/d8/a1/7103165b8eee9a961fe91767e7be994cc8a17c5b1f12ee6f37dcccb855b7/tinybird-cli-3.9.1.dev6.tar.gz
+[2024-05-28 09:24:37] INFO root fetch - processPackages [odoo-addon-database-cleanup]: New version: [17.0.1.2.0.2] Old Version: [17.0.1.2.0.1]
+[2024-05-28 09:24:37] INFO root fetch - processPackages [annonition]: Downloading https://files.pythonhosted.org/packages/4c/88/709d6a0f2cfbfd54c14297d9aa575fbb677e874da1d23240f7852ddf539f/annonition-0.1.8.tar.gz
+[2024-05-28 09:24:37] INFO root fetch - processPackages [chargebee]: Downloading https://files.pythonhosted.org/packages/99/7c/ebaaca7d47a6de9353d082ff9eaca8d63b76e53a5ca5bf3f9c279642102c/chargebee-2.8.4.tar.gz
+[2024-05-28 09:24:37] INFO root fetch - processPackages [messages-local]: Downloading https://files.pythonhosted.org/packages/a2/18/326b0aecb86daeb89986f908adfa0f4c325a9204a3585776e1ddf667dac1/messages_local-0.0.58.tar.gz
+[2024-05-28 09:24:37] INFO root fetch - processPackages [odoo-addon-base-force-record-noupdate]: Downloading https://files.pythonhosted.org/packages/49/8e/fabc68d71f23c4c5f4614335135be5f948dfdc673e10b027b218717a6f77/odoo_addon_base_force_record_noupdate-16.0.1.0.0.1-py3-none-any.whl
+[2024-05-28 09:24:37] INFO root fetch - processPackages [odoo-addon-database-cleanup]: Downloading https://files.pythonhosted.org/packages/64/04/4414e1c3ea5e222b11b1f13d449a47dc855a34d50d889e7af0fa3cb466ae/odoo_addon_database_cleanup-17.0.1.2.0.1-py3-none-any.whl
+[2024-05-28 09:24:37] INFO root fetch - processPackages [annonition]: Downloading https://files.pythonhosted.org/packages/f2/d7/4a2e1fd2ac79ba82cd0c584fb2cb0e39c27fd8ff63e2b6774a724281fcf4/annonition-0.1.9.tar.gz
+[2024-05-28 09:24:37] INFO root fetch - processPackages [annonition]: executing diffoscope
+[2024-05-28 09:24:37] INFO root fetch - processPackages [annonition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/annonition-0.1.8.tar.gz tmp/annonition-0.1.9.tar.gz --markdown 20240528/a/annonition/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-28 09:24:37] INFO root fetch - processPackages [chargebee]: Downloading https://files.pythonhosted.org/packages/a6/9e/648a4d782f53ea14a4b6101e7cad249e6b53b97ada5f89bf1020b45db99f/chargebee-2.9.0.tar.gz
+[2024-05-28 09:24:37] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/25/01/4fcd134e493f24ad61cb4ea78cf3b10747f96b67a336da8c221b9ae284d4/tinybird-cli-4.0.1.dev0.tar.gz
+[2024-05-28 09:24:37] INFO root fetch - processPackages [messages-local]: Downloading https://files.pythonhosted.org/packages/10/2e/726882d91bde0875b8af152fe38ef4cc8ba7930153e02cdcb5ce1eb2fd53/messages_local-0.0.59.tar.gz
+[2024-05-28 09:24:37] INFO root fetch - processPackages [odoo-addon-base-force-record-noupdate]: Downloading https://files.pythonhosted.org/packages/33/49/c191c4750d34e0ab96e3455b36be5ba4cdcc7d403e497e830924e4503a2b/odoo_addon_base_force_record_noupdate-16.0.1.0.0.2-py3-none-any.whl
+[2024-05-28 09:24:38] INFO root fetch - processPackages [messages-local]: executing diffoscope
+[2024-05-28 09:24:38] INFO root fetch - processPackages [messages-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/messages_local-0.0.58.tar.gz tmp/messages_local-0.0.59.tar.gz --markdown 20240528/m/messages-local/0.0.58-0.0.59/README.md --exclude *.pyd
+[2024-05-28 09:24:38] INFO root fetch - processPackages [tinybird-cli]: executing diffoscope
+[2024-05-28 09:24:38] INFO root fetch - processPackages [tinybird-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird-cli-3.9.1.dev6.tar.gz tmp/tinybird-cli-4.0.1.dev0.tar.gz --markdown 20240528/t/tinybird-cli/3.9.1.dev6-4.0.1.dev0/README.md --exclude *.pyd
+[2024-05-28 09:24:38] INFO root fetch - processPackages [odoo-addon-database-cleanup]: Downloading https://files.pythonhosted.org/packages/14/66/fd58f4b79565db99acd2f13a15d5fc417e8c95c2e2fc37b3a4933a61b70f/odoo_addon_database_cleanup-17.0.1.2.0.2-py3-none-any.whl
+[2024-05-28 09:24:38] INFO root fetch - processPackages [chargebee]: executing diffoscope
+[2024-05-28 09:24:38] INFO root fetch - processPackages [chargebee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chargebee-2.8.4.tar.gz tmp/chargebee-2.9.0.tar.gz --markdown 20240528/c/chargebee/2.8.4-2.9.0/README.md --exclude *.pyd
+[2024-05-28 09:24:38] INFO root fetch - processPackages [odoo-addon-base-force-record-noupdate]: executing diffoscope
+[2024-05-28 09:24:38] INFO root fetch - processPackages [odoo-addon-base-force-record-noupdate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_force_record_noupdate-16.0.1.0.0.1-py3-none-any.whl.zip tmp/odoo_addon_base_force_record_noupdate-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240528/o/odoo-addon-base-force-record-noupdate/16.0.1.0.0.1-16.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-28 09:24:38] INFO root fetch - processPackages [odoo-addon-database-cleanup]: executing diffoscope
+[2024-05-28 09:24:38] INFO root fetch - processPackages [odoo-addon-database-cleanup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_database_cleanup-17.0.1.2.0.1-py3-none-any.whl.zip tmp/odoo_addon_database_cleanup-17.0.1.2.0.2-py3-none-any.whl.zip --markdown 20240528/o/odoo-addon-database-cleanup/17.0.1.2.0.1-17.0.1.2.0.2/README.md --exclude *.pyd
+[2024-05-28 09:24:38] INFO root fetch - processPackages [annonition]: Remove: archive file [/home/abi/fetcher/tmp/annonition-0.1.8.tar.gz]
+[2024-05-28 09:24:38] INFO root fetch - processPackages [annonition]: Remove: archive file [/home/abi/fetcher/tmp/annonition-0.1.9.tar.gz]
+[2024-05-28 09:24:38] INFO root fetch - main [MainThread]: End processing [annonition]: success
+[2024-05-28 09:24:38] INFO root fetch - processPackages [messages-local]: Remove: archive file [/home/abi/fetcher/tmp/messages_local-0.0.58.tar.gz]
+[2024-05-28 09:24:38] INFO root fetch - processPackages [messages-local]: Remove: archive file [/home/abi/fetcher/tmp/messages_local-0.0.59.tar.gz]
+[2024-05-28 09:24:38] INFO root fetch - main [MainThread]: End processing [messages-local]: success
+[2024-05-28 09:24:38] INFO root fetch - processPackages [odoo-addon-base-force-record-noupdate]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_force_record_noupdate-16.0.1.0.0.1-py3-none-any.whl.zip]
+[2024-05-28 09:24:38] INFO root fetch - processPackages [odoo-addon-base-force-record-noupdate]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_force_record_noupdate-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-28 09:24:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-force-record-noupdate]: success
+[2024-05-28 09:24:38] INFO root fetch - processPackages [chargebee]: Remove: archive file [/home/abi/fetcher/tmp/chargebee-2.8.4.tar.gz]
+[2024-05-28 09:24:38] INFO root fetch - processPackages [chargebee]: Remove: archive file [/home/abi/fetcher/tmp/chargebee-2.9.0.tar.gz]
+[2024-05-28 09:24:38] INFO root fetch - main [MainThread]: End processing [chargebee]: success
+[2024-05-28 09:24:39] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-3.9.1.dev6.tar.gz]
+[2024-05-28 09:24:39] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-4.0.1.dev0.tar.gz]
+[2024-05-28 09:24:39] INFO root fetch - main [MainThread]: End processing [tinybird-cli]: success
+[2024-05-28 09:24:39] INFO root fetch - processPackages [odoo-addon-database-cleanup]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_database_cleanup-17.0.1.2.0.1-py3-none-any.whl.zip]
+[2024-05-28 09:24:39] INFO root fetch - processPackages [odoo-addon-database-cleanup]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_database_cleanup-17.0.1.2.0.2-py3-none-any.whl.zip]
+[2024-05-28 09:24:39] INFO root fetch - main [MainThread]: End processing [odoo-addon-database-cleanup]: success
+[2024-05-28 09:24:39] INFO root fetch - main [MainThread]: Store serial: [23407019]
