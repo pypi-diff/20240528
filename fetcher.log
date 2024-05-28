@@ -16122,3 +16122,60 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 12:41:36] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz]
 [2024-05-28 12:41:36] INFO root fetch - main [MainThread]: End processing [pymemgpt-nightly]: success
 [2024-05-28 12:41:36] INFO root fetch - main [MainThread]: Store serial: [23409707]
+[2024-05-28 12:43:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23409707]
+[2024-05-28 12:43:45] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-28 12:43:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: polars-list-helpers
+[2024-05-28 12:43:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mts-fastckpt
+[2024-05-28 12:43:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-antimonkey
+[2024-05-28 12:43:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gwml
+[2024-05-28 12:43:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nerdd-module
+[2024-05-28 12:43:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mcptool
+[2024-05-28 12:43:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ptmultiviews
+[2024-05-28 12:43:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lazysdk
+[2024-05-28 12:43:46] WARNING root fetch - processPackages [polars-list-helpers]: Skipping, unable to determine old version
+[2024-05-28 12:43:46] INFO root fetch - main [MainThread]: End processing [polars-list-helpers] error
+[2024-05-28 12:43:46] INFO root fetch - processPackages [nonebot-plugin-antimonkey]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-28 12:43:46] INFO root fetch - processPackages [gwml]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-28 12:43:46] INFO root fetch - processPackages [lazysdk]: New version: [0.1.96] Old Version: [0.1.95]
+[2024-05-28 12:43:46] WARNING root fetch - processPackages [mts-fastckpt]: Skipping, unable to determine old version
+[2024-05-28 12:43:46] INFO root fetch - main [MainThread]: End processing [mts-fastckpt] error
+[2024-05-28 12:43:46] INFO root fetch - processPackages [ptmultiviews]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-28 12:43:46] INFO root fetch - processPackages [nerdd-module]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-05-28 12:43:46] INFO root fetch - processPackages [gwml]: Downloading https://files.pythonhosted.org/packages/4e/2d/c8a43834d7b4dbacf33ff399b8cfafa3e79552414f105c0ffcbb1b85c632/gwml-0.1.6-py3-none-any.whl
+[2024-05-28 12:43:46] WARNING root fetch - processPackages [mcptool]: Skipping, unable to determine old version
+[2024-05-28 12:43:46] INFO root fetch - main [MainThread]: End processing [mcptool] error
+[2024-05-28 12:43:46] INFO root fetch - processPackages [nonebot-plugin-antimonkey]: Downloading https://files.pythonhosted.org/packages/fe/fc/c0d1f7c974d483cac46e81b46fe1431c966cb7e700fbf1a23d439d655d50/nonebot_plugin_antimonkey-1.0.8.tar.gz
+[2024-05-28 12:43:46] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/7f/b0/f5aec9b873b4b154227d0d55b3184ead2bff62a7736f8ad0ef45a9229f32/lazysdk-0.1.95.tar.gz
+[2024-05-28 12:43:46] INFO root fetch - processPackages [ptmultiviews]: Downloading https://files.pythonhosted.org/packages/5a/a2/4eeacd2274bdee12c1707d37f64997e7aaf6a8ebd9976500b505fd9722cf/ptmultiviews-1.0.6.tar.gz
+[2024-05-28 12:43:46] INFO root fetch - processPackages [nerdd-module]: Downloading https://files.pythonhosted.org/packages/32/cb/cef48589afdc847e020b166379b4b0a2897cc0cbf8cc1a7fd3bd01e0f76c/nerdd-module-0.2.5.tar.gz
+[2024-05-28 12:43:46] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/ee/94/8ea184677ecbab0d281004c2ba9a4b72178b62825fa28cfb005b2f855c07/lazysdk-0.1.96.tar.gz
+[2024-05-28 12:43:46] INFO root fetch - processPackages [nonebot-plugin-antimonkey]: Downloading https://files.pythonhosted.org/packages/27/a0/48edb2c82d061b14da0d18e18b7fc56a7f062367ddafd593d63237c25464/nonebot_plugin_antimonkey-1.0.9.tar.gz
+[2024-05-28 12:43:46] INFO root fetch - processPackages [gwml]: Downloading https://files.pythonhosted.org/packages/3b/b6/75dbc0123754db51edc5517ecb462ba494c8298590ad0e71770b078e5637/gwml-0.1.7-py3-none-any.whl
+[2024-05-28 12:43:46] INFO root fetch - processPackages [lazysdk]: executing diffoscope
+[2024-05-28 12:43:46] INFO root fetch - processPackages [lazysdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazysdk-0.1.95.tar.gz tmp/lazysdk-0.1.96.tar.gz --markdown 20240528/l/lazysdk/0.1.95-0.1.96/README.md --exclude *.pyd
+[2024-05-28 12:43:46] INFO root fetch - processPackages [nonebot-plugin-antimonkey]: executing diffoscope
+[2024-05-28 12:43:46] INFO root fetch - processPackages [nonebot-plugin-antimonkey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_antimonkey-1.0.8.tar.gz tmp/nonebot_plugin_antimonkey-1.0.9.tar.gz --markdown 20240528/n/nonebot-plugin-antimonkey/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-28 12:43:46] INFO root fetch - processPackages [ptmultiviews]: Downloading https://files.pythonhosted.org/packages/35/71/9e2491d9fd0f44425f72542c6a3239594670bc2d31d4d8eb04eeaa1d00a9/ptmultiviews-1.0.7.tar.gz
+[2024-05-28 12:43:46] INFO root fetch - processPackages [gwml]: executing diffoscope
+[2024-05-28 12:43:46] INFO root fetch - processPackages [gwml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gwml-0.1.6-py3-none-any.whl.zip tmp/gwml-0.1.7-py3-none-any.whl.zip --markdown 20240528/g/gwml/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-28 12:43:46] INFO root fetch - processPackages [nerdd-module]: Downloading https://files.pythonhosted.org/packages/7b/af/8d70026dba6d98116997cb720c22d84b5587fc714a7c8aaa3af187d89db1/nerdd_module-0.2.6.tar.gz
+[2024-05-28 12:43:46] INFO root fetch - processPackages [ptmultiviews]: executing diffoscope
+[2024-05-28 12:43:46] INFO root fetch - processPackages [ptmultiviews]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ptmultiviews-1.0.6.tar.gz tmp/ptmultiviews-1.0.7.tar.gz --markdown 20240528/p/ptmultiviews/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-28 12:43:46] INFO root fetch - processPackages [nerdd-module]: executing diffoscope
+[2024-05-28 12:43:46] INFO root fetch - processPackages [nerdd-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nerdd-module-0.2.5.tar.gz tmp/nerdd_module-0.2.6.tar.gz --markdown 20240528/n/nerdd-module/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-05-28 12:43:47] INFO root fetch - processPackages [nonebot-plugin-antimonkey]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_antimonkey-1.0.8.tar.gz]
+[2024-05-28 12:43:47] INFO root fetch - processPackages [nonebot-plugin-antimonkey]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_antimonkey-1.0.9.tar.gz]
+[2024-05-28 12:43:47] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-antimonkey]: success
+[2024-05-28 12:43:47] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.95.tar.gz]
+[2024-05-28 12:43:47] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.96.tar.gz]
+[2024-05-28 12:43:47] INFO root fetch - main [MainThread]: End processing [lazysdk]: success
+[2024-05-28 12:43:47] INFO root fetch - processPackages [gwml]: Remove: archive file [/home/abi/fetcher/tmp/gwml-0.1.6-py3-none-any.whl.zip]
+[2024-05-28 12:43:47] INFO root fetch - processPackages [gwml]: Remove: archive file [/home/abi/fetcher/tmp/gwml-0.1.7-py3-none-any.whl.zip]
+[2024-05-28 12:43:47] INFO root fetch - main [MainThread]: End processing [gwml]: success
+[2024-05-28 12:43:47] INFO root fetch - processPackages [ptmultiviews]: Remove: archive file [/home/abi/fetcher/tmp/ptmultiviews-1.0.6.tar.gz]
+[2024-05-28 12:43:47] INFO root fetch - processPackages [ptmultiviews]: Remove: archive file [/home/abi/fetcher/tmp/ptmultiviews-1.0.7.tar.gz]
+[2024-05-28 12:43:47] INFO root fetch - main [MainThread]: End processing [ptmultiviews]: success
+[2024-05-28 12:43:47] INFO root fetch - processPackages [nerdd-module]: Remove: archive file [/home/abi/fetcher/tmp/nerdd-module-0.2.5.tar.gz]
+[2024-05-28 12:43:47] INFO root fetch - processPackages [nerdd-module]: Remove: archive file [/home/abi/fetcher/tmp/nerdd_module-0.2.6.tar.gz]
+[2024-05-28 12:43:47] INFO root fetch - main [MainThread]: End processing [nerdd-module]: success
+[2024-05-28 12:43:47] INFO root fetch - main [MainThread]: Store serial: [23409736]
