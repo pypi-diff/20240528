@@ -6503,3 +6503,45 @@
 [2024-05-28 07:23:30] INFO root fetch - processPackages [pythran]: Remove: archive file [/home/abi/fetcher/tmp/pythran-0.9.9.tar.gz]
 [2024-05-28 07:23:30] INFO root fetch - main [MainThread]: End processing [pythran]: success
 [2024-05-28 07:23:30] INFO root fetch - main [MainThread]: Store serial: [23405436]
+[2024-05-28 07:25:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23405436]
+[2024-05-28 07:25:39] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-28 07:25:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quarkstudio
+[2024-05-28 07:25:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-codenerix
+[2024-05-28 07:25:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: webdrivermanager-cn
+[2024-05-28 07:25:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: laktory
+[2024-05-28 07:25:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nfinance
+[2024-05-28 07:25:39] INFO root fetch - processPackages [nfinance]: New version: [0.4.8] Old Version: [0.4.6]
+[2024-05-28 07:25:39] INFO root fetch - processPackages [laktory]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-05-28 07:25:39] INFO root fetch - processPackages [django-codenerix]: New version: [4.0.9] Old Version: [4.0.8]
+[2024-05-28 07:25:39] INFO root fetch - processPackages [webdrivermanager-cn]: New version: [1.7.0] Old Version: [1.6.1]
+[2024-05-28 07:25:39] WARNING root fetch - processPackages [quarkstudio]: Skipping, unable to determine old version
+[2024-05-28 07:25:39] INFO root fetch - main [MainThread]: End processing [quarkstudio] error
+[2024-05-28 07:25:39] INFO root fetch - processPackages [laktory]: Downloading https://files.pythonhosted.org/packages/db/70/6ac91c397a5c57a1e9227f3194f51bfe83a64df6ba2de6ae34fea30dd6ac/laktory-0.2.1.tar.gz
+[2024-05-28 07:25:39] INFO root fetch - processPackages [nfinance]: Downloading https://files.pythonhosted.org/packages/d3/77/5e0f06df0f95fefd6725e0af489e11f7fe29a0b43e2a4ec3da46e247180b/nfinance-0.4.6-py3-none-any.whl
+[2024-05-28 07:25:39] INFO root fetch - processPackages [django-codenerix]: Downloading https://files.pythonhosted.org/packages/ae/10/6c1b18ca5b901dda322ef6ebd63aa51cd777f12179630cfe66a52dbefd73/django-codenerix-4.0.8.tar.gz
+[2024-05-28 07:25:39] INFO root fetch - processPackages [webdrivermanager-cn]: Downloading https://files.pythonhosted.org/packages/f6/c2/734e9c7381e44d45ed067ec9d2f72eb5f97c76baffc7fb494f8a3cde8f93/webdrivermanager_cn-1.6.1-py3-none-any.whl
+[2024-05-28 07:25:39] INFO root fetch - processPackages [nfinance]: Downloading https://files.pythonhosted.org/packages/a6/06/adbe0a9d20c0b3550d857d983da73c51099dbefa5add379e638f2b2d83e7/nfinance-0.4.8.tar.gz
+[2024-05-28 07:25:40] INFO root fetch - processPackages [nfinance]: executing diffoscope
+[2024-05-28 07:25:40] INFO root fetch - processPackages [nfinance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nfinance-0.4.6-py3-none-any.whl.zip tmp/nfinance-0.4.8.tar.gz --markdown 20240528/n/nfinance/0.4.6-0.4.8/README.md --exclude *.pyd
+[2024-05-28 07:25:40] INFO root fetch - processPackages [webdrivermanager-cn]: Downloading https://files.pythonhosted.org/packages/3f/0b/68ec4940a289f4c144e06feca859c590e3315f7ed34a7527278fddd89e97/webdrivermanager_cn-1.7.0-py3-none-any.whl
+[2024-05-28 07:25:40] INFO root fetch - processPackages [webdrivermanager-cn]: executing diffoscope
+[2024-05-28 07:25:40] INFO root fetch - processPackages [webdrivermanager-cn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webdrivermanager_cn-1.6.1-py3-none-any.whl.zip tmp/webdrivermanager_cn-1.7.0-py3-none-any.whl.zip --markdown 20240528/w/webdrivermanager-cn/1.6.1-1.7.0/README.md --exclude *.pyd
+[2024-05-28 07:25:40] INFO root fetch - processPackages [laktory]: Downloading https://files.pythonhosted.org/packages/3d/51/64769664abb8a2b7e99ddf4548334b7954ebafb73d2db283efe4d0c30ff8/laktory-0.3.0.tar.gz
+[2024-05-28 07:25:40] INFO root fetch - processPackages [django-codenerix]: Downloading https://files.pythonhosted.org/packages/fa/74/5c81cb6c9cd40266d8845b61025400c9db3344b5ed8063c6b29f18d4574e/django-codenerix-4.0.9.tar.gz
+[2024-05-28 07:25:40] INFO root fetch - processPackages [nfinance]: Remove: archive file [/home/abi/fetcher/tmp/nfinance-0.4.6-py3-none-any.whl.zip]
+[2024-05-28 07:25:40] INFO root fetch - processPackages [nfinance]: Remove: archive file [/home/abi/fetcher/tmp/nfinance-0.4.8.tar.gz]
+[2024-05-28 07:25:40] INFO root fetch - main [MainThread]: End processing [nfinance]: success
+[2024-05-28 07:25:40] INFO root fetch - processPackages [laktory]: executing diffoscope
+[2024-05-28 07:25:40] INFO root fetch - processPackages [laktory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/laktory-0.2.1.tar.gz tmp/laktory-0.3.0.tar.gz --markdown 20240528/l/laktory/0.2.1-0.3.0/README.md --exclude *.pyd
+[2024-05-28 07:25:40] INFO root fetch - processPackages [webdrivermanager-cn]: Remove: archive file [/home/abi/fetcher/tmp/webdrivermanager_cn-1.6.1-py3-none-any.whl.zip]
+[2024-05-28 07:25:40] INFO root fetch - processPackages [webdrivermanager-cn]: Remove: archive file [/home/abi/fetcher/tmp/webdrivermanager_cn-1.7.0-py3-none-any.whl.zip]
+[2024-05-28 07:25:40] INFO root fetch - main [MainThread]: End processing [webdrivermanager-cn]: success
+[2024-05-28 07:25:41] INFO root fetch - processPackages [django-codenerix]: executing diffoscope
+[2024-05-28 07:25:41] INFO root fetch - processPackages [django-codenerix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-codenerix-4.0.8.tar.gz tmp/django-codenerix-4.0.9.tar.gz --markdown 20240528/d/django-codenerix/4.0.8-4.0.9/README.md --exclude *.pyd
+[2024-05-28 07:25:42] INFO root fetch - processPackages [laktory]: Remove: archive file [/home/abi/fetcher/tmp/laktory-0.2.1.tar.gz]
+[2024-05-28 07:25:42] INFO root fetch - processPackages [laktory]: Remove: archive file [/home/abi/fetcher/tmp/laktory-0.3.0.tar.gz]
+[2024-05-28 07:25:42] INFO root fetch - main [MainThread]: End processing [laktory]: success
+[2024-05-28 07:25:45] INFO root fetch - processPackages [django-codenerix]: Remove: archive file [/home/abi/fetcher/tmp/django-codenerix-4.0.8.tar.gz]
+[2024-05-28 07:25:45] INFO root fetch - processPackages [django-codenerix]: Remove: archive file [/home/abi/fetcher/tmp/django-codenerix-4.0.9.tar.gz]
+[2024-05-28 07:25:45] INFO root fetch - main [MainThread]: End processing [django-codenerix]: success
+[2024-05-28 07:25:45] INFO root fetch - main [MainThread]: Store serial: [23405456]
