@@ -13631,3 +13631,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 11:12:48] INFO root fetch - processPackages [cally]: Remove: archive file [/home/abi/fetcher/tmp/cally-0.4.1.tar.gz]
 [2024-05-28 11:12:48] INFO root fetch - main [MainThread]: End processing [cally]: success
 [2024-05-28 11:12:48] INFO root fetch - main [MainThread]: Store serial: [23408622]
+[2024-05-28 11:14:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23408622]
+[2024-05-28 11:14:57] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-28 11:14:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openclimatedata
+[2024-05-28 11:14:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spanishconjugator
+[2024-05-28 11:14:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: data-testing-package
+[2024-05-28 11:14:57] INFO root fetch - processPackages [data-testing-package]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-28 11:14:57] INFO root fetch - processPackages [data-testing-package]: Downloading https://files.pythonhosted.org/packages/99/35/27cfe2c226f6e5371e29920a35e851d10167ad66b2b58905a4470db65225/data_testing_package-1.0.1.tar.gz
+[2024-05-28 11:14:57] INFO root fetch - processPackages [openclimatedata]: New version: [0.9] Old Version: [0.8]
+[2024-05-28 11:14:57] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-05-28 11:14:57] INFO root fetch - processPackages [openclimatedata]: Downloading https://files.pythonhosted.org/packages/a8/32/ed04455a721bb9faf7a86120fbaaa7223bbaa9a228126bdba076f49d16b1/openclimatedata-0.8.tar.gz
+[2024-05-28 11:14:57] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-05-28 11:14:57] INFO root fetch - processPackages [data-testing-package]: Downloading https://files.pythonhosted.org/packages/04/c9/836ace830820fe6b0f53547960b656a723613b9affd6c959e8a1c0688985/data_testing_package-1.0.2.tar.gz
+[2024-05-28 11:14:57] INFO root fetch - processPackages [openclimatedata]: Downloading https://files.pythonhosted.org/packages/6e/2e/754d2351fe6051693cf51d38540aeac95e485a40509057b06dd00d361dc8/openclimatedata-0.9.tar.gz
+[2024-05-28 11:14:57] INFO root fetch - processPackages [data-testing-package]: executing diffoscope
+[2024-05-28 11:14:57] INFO root fetch - processPackages [data-testing-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_testing_package-1.0.1.tar.gz tmp/data_testing_package-1.0.2.tar.gz --markdown 20240528/d/data-testing-package/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-28 11:14:57] INFO root fetch - processPackages [openclimatedata]: executing diffoscope
+[2024-05-28 11:14:57] INFO root fetch - processPackages [openclimatedata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openclimatedata-0.8.tar.gz tmp/openclimatedata-0.9.tar.gz --markdown 20240528/o/openclimatedata/0.8-0.9/README.md --exclude *.pyd
+[2024-05-28 11:14:58] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-05-28 11:14:58] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-05-28 11:14:58] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240528/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-05-28 11:14:58] INFO root fetch - processPackages [data-testing-package]: Remove: archive file [/home/abi/fetcher/tmp/data_testing_package-1.0.1.tar.gz]
+[2024-05-28 11:14:58] INFO root fetch - processPackages [data-testing-package]: Remove: archive file [/home/abi/fetcher/tmp/data_testing_package-1.0.2.tar.gz]
+[2024-05-28 11:14:58] INFO root fetch - main [MainThread]: End processing [data-testing-package]: success
+[2024-05-28 11:14:58] INFO root fetch - processPackages [openclimatedata]: Remove: archive file [/home/abi/fetcher/tmp/openclimatedata-0.8.tar.gz]
+[2024-05-28 11:14:58] INFO root fetch - processPackages [openclimatedata]: Remove: archive file [/home/abi/fetcher/tmp/openclimatedata-0.9.tar.gz]
+[2024-05-28 11:14:58] INFO root fetch - main [MainThread]: End processing [openclimatedata]: success
+[2024-05-28 11:14:58] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2024-05-28 11:14:58] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2024-05-28 11:14:58] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-05-28 11:14:58] INFO root fetch - main [MainThread]: Store serial: [23408631]
