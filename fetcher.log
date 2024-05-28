@@ -3030,3 +3030,60 @@
 [2024-05-28 03:33:57] INFO root fetch - processPackages [ptipython-metapackage]: Remove: archive file [/home/abi/fetcher/tmp/ptipython_metapackage-1.2.1.tar.gz]
 [2024-05-28 03:33:57] INFO root fetch - main [MainThread]: End processing [ptipython-metapackage]: success
 [2024-05-28 03:33:57] INFO root fetch - main [MainThread]: Store serial: [23404042]
+[2024-05-28 03:36:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23404042]
+[2024-05-28 03:36:06] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-28 03:36:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: airflow-providers-wherobots
+[2024-05-28 03:36:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ATL-Tools
+[2024-05-28 03:36:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aic-tools-pinecone
+[2024-05-28 03:36:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gidapptools
+[2024-05-28 03:36:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Xray-core
+[2024-05-28 03:36:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: articraft
+[2024-05-28 03:36:06] INFO root fetch - processPackages [articraft]: New version: [2.8.1] Old Version: [2.7.1]
+[2024-05-28 03:36:06] INFO root fetch - processPackages [gidapptools]: New version: [0.5.0] Old Version: [0.4.4]
+[2024-05-28 03:36:06] INFO root fetch - processPackages [ATL-Tools]: New version: [1.1.7] Old Version: [1.1.6]
+[2024-05-28 03:36:06] INFO root fetch - processPackages [Xray-core]: New version: [1.8.9] Old Version: [1.8.8]
+[2024-05-28 03:36:06] INFO root fetch - processPackages [articraft]: Downloading https://files.pythonhosted.org/packages/6a/3b/cbab94b8835457bd1786297e78e64fc690fbaeb4a418d88fba9a51ed9290/articraft-2.7.1.tar.gz
+[2024-05-28 03:36:06] INFO root fetch - processPackages [gidapptools]: Downloading https://files.pythonhosted.org/packages/ce/6f/85989d369e8993761e8acba00ea5e1cdd4b21dd0be256fe16ca5d1bc2a96/gidapptools-0.4.4.tar.gz
+[2024-05-28 03:36:06] INFO root fetch - processPackages [airflow-providers-wherobots]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-28 03:36:06] INFO root fetch - processPackages [aic-tools-pinecone]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-28 03:36:06] INFO root fetch - processPackages [ATL-Tools]: Downloading https://files.pythonhosted.org/packages/da/de/dff7ca62f8f39bce34e363d583df95bc75697400b3c693485d939b48943f/atl_tools-1.1.6.tar.gz
+[2024-05-28 03:36:06] INFO root fetch - processPackages [Xray-core]: Downloading https://files.pythonhosted.org/packages/1c/f3/ffda54f314c3f963c7f2568ac0cbb275a1d39e983bb49bfd9d8bf4cdee8c/Xray-core-1.8.8.tar.gz
+[2024-05-28 03:36:06] INFO root fetch - processPackages [airflow-providers-wherobots]: Downloading https://files.pythonhosted.org/packages/54/32/8ce0e67e4c1e78047774b6e8af97bd99f76920e32b66547c3409a76c618d/airflow_providers_wherobots-0.1.2.tar.gz
+[2024-05-28 03:36:06] INFO root fetch - processPackages [articraft]: Downloading https://files.pythonhosted.org/packages/4a/46/9314517d0294029f4bace17ae91b3647f7d6378c6995452eebcd6b7d01c6/articraft-2.8.1.tar.gz
+[2024-05-28 03:36:06] INFO root fetch - processPackages [aic-tools-pinecone]: Downloading https://files.pythonhosted.org/packages/a9/5c/a4a5d9dfdb1d3599b9ef0b4ab3651103bdd7fb5a6d2b57e862f9e0a05bed/aic_tools_pinecone-1.0.1.tar.gz
+[2024-05-28 03:36:06] INFO root fetch - processPackages [gidapptools]: Downloading https://files.pythonhosted.org/packages/ea/04/dce7abb865510cdbe7d805eeb2ecf2d914d48fe72dca0dca26ca102538c7/gidapptools-0.5.0.tar.gz
+[2024-05-28 03:36:06] INFO root fetch - processPackages [articraft]: executing diffoscope
+[2024-05-28 03:36:06] INFO root fetch - processPackages [articraft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/articraft-2.7.1.tar.gz tmp/articraft-2.8.1.tar.gz --markdown 20240528/a/articraft/2.7.1-2.8.1/README.md --exclude *.pyd
+[2024-05-28 03:36:06] INFO root fetch - processPackages [ATL-Tools]: Downloading https://files.pythonhosted.org/packages/c8/6a/e17c80a5667ff225f112de11dec5e7d550ad83fa96f66ff7988ec7262d7f/atl_tools-1.1.7.tar.gz
+[2024-05-28 03:36:06] INFO root fetch - processPackages [airflow-providers-wherobots]: Downloading https://files.pythonhosted.org/packages/0e/ff/8650f7fd63ad32b6cb348c07317caff384dcd18d93c15357d2caa288074d/airflow_providers_wherobots-0.1.3.tar.gz
+[2024-05-28 03:36:06] INFO root fetch - processPackages [aic-tools-pinecone]: Downloading https://files.pythonhosted.org/packages/1b/61/9f9d315aadaf3523fa1794d181159b7ae28e8c2e3fadcb8c71fddce0b6e3/aic_tools_pinecone-1.0.2.tar.gz
+[2024-05-28 03:36:06] INFO root fetch - processPackages [gidapptools]: executing diffoscope
+[2024-05-28 03:36:06] INFO root fetch - processPackages [gidapptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gidapptools-0.4.4.tar.gz tmp/gidapptools-0.5.0.tar.gz --markdown 20240528/g/gidapptools/0.4.4-0.5.0/README.md --exclude *.pyd
+[2024-05-28 03:36:06] INFO root fetch - processPackages [ATL-Tools]: executing diffoscope
+[2024-05-28 03:36:06] INFO root fetch - processPackages [ATL-Tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atl_tools-1.1.6.tar.gz tmp/atl_tools-1.1.7.tar.gz --markdown 20240528/A/ATL-Tools/1.1.6-1.1.7/README.md --exclude *.pyd
+[2024-05-28 03:36:07] INFO root fetch - processPackages [airflow-providers-wherobots]: executing diffoscope
+[2024-05-28 03:36:07] INFO root fetch - processPackages [airflow-providers-wherobots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airflow_providers_wherobots-0.1.2.tar.gz tmp/airflow_providers_wherobots-0.1.3.tar.gz --markdown 20240528/a/airflow-providers-wherobots/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-28 03:36:07] INFO root fetch - processPackages [Xray-core]: Downloading https://files.pythonhosted.org/packages/b3/93/25581bc8060d22150a2af5f750a49bcd5c7d1b5c557bb0a22bcba5e6cb42/Xray-core-1.8.9.tar.gz
+[2024-05-28 03:36:07] INFO root fetch - processPackages [aic-tools-pinecone]: executing diffoscope
+[2024-05-28 03:36:07] INFO root fetch - processPackages [aic-tools-pinecone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aic_tools_pinecone-1.0.1.tar.gz tmp/aic_tools_pinecone-1.0.2.tar.gz --markdown 20240528/a/aic-tools-pinecone/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-28 03:36:07] INFO root fetch - processPackages [Xray-core]: executing diffoscope
+[2024-05-28 03:36:07] INFO root fetch - processPackages [Xray-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Xray-core-1.8.8.tar.gz tmp/Xray-core-1.8.9.tar.gz --markdown 20240528/X/Xray-core/1.8.8-1.8.9/README.md --exclude *.pyd
+[2024-05-28 03:36:07] INFO root fetch - processPackages [articraft]: Remove: archive file [/home/abi/fetcher/tmp/articraft-2.7.1.tar.gz]
+[2024-05-28 03:36:07] INFO root fetch - processPackages [articraft]: Remove: archive file [/home/abi/fetcher/tmp/articraft-2.8.1.tar.gz]
+[2024-05-28 03:36:07] INFO root fetch - main [MainThread]: End processing [articraft]: success
+[2024-05-28 03:36:07] INFO root fetch - processPackages [airflow-providers-wherobots]: Remove: archive file [/home/abi/fetcher/tmp/airflow_providers_wherobots-0.1.2.tar.gz]
+[2024-05-28 03:36:07] INFO root fetch - processPackages [airflow-providers-wherobots]: Remove: archive file [/home/abi/fetcher/tmp/airflow_providers_wherobots-0.1.3.tar.gz]
+[2024-05-28 03:36:07] INFO root fetch - main [MainThread]: End processing [airflow-providers-wherobots]: success
+[2024-05-28 03:36:07] INFO root fetch - processPackages [aic-tools-pinecone]: Remove: archive file [/home/abi/fetcher/tmp/aic_tools_pinecone-1.0.1.tar.gz]
+[2024-05-28 03:36:07] INFO root fetch - processPackages [aic-tools-pinecone]: Remove: archive file [/home/abi/fetcher/tmp/aic_tools_pinecone-1.0.2.tar.gz]
+[2024-05-28 03:36:07] INFO root fetch - main [MainThread]: End processing [aic-tools-pinecone]: success
+[2024-05-28 03:36:07] INFO root fetch - processPackages [ATL-Tools]: Remove: archive file [/home/abi/fetcher/tmp/atl_tools-1.1.6.tar.gz]
+[2024-05-28 03:36:07] INFO root fetch - processPackages [ATL-Tools]: Remove: archive file [/home/abi/fetcher/tmp/atl_tools-1.1.7.tar.gz]
+[2024-05-28 03:36:07] INFO root fetch - main [MainThread]: End processing [ATL-Tools]: success
+[2024-05-28 03:36:08] INFO root fetch - processPackages [gidapptools]: Remove: archive file [/home/abi/fetcher/tmp/gidapptools-0.4.4.tar.gz]
+[2024-05-28 03:36:08] INFO root fetch - processPackages [gidapptools]: Remove: archive file [/home/abi/fetcher/tmp/gidapptools-0.5.0.tar.gz]
+[2024-05-28 03:36:08] INFO root fetch - main [MainThread]: End processing [gidapptools]: success
+[2024-05-28 03:36:11] INFO root fetch - processPackages [Xray-core]: Remove: archive file [/home/abi/fetcher/tmp/Xray-core-1.8.8.tar.gz]
+[2024-05-28 03:36:11] INFO root fetch - processPackages [Xray-core]: Remove: archive file [/home/abi/fetcher/tmp/Xray-core-1.8.9.tar.gz]
+[2024-05-28 03:36:11] INFO root fetch - main [MainThread]: End processing [Xray-core]: success
+[2024-05-28 03:36:11] INFO root fetch - main [MainThread]: Store serial: [23404059]
