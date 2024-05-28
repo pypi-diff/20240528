@@ -23656,3 +23656,144 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 16:51:15] INFO root fetch - processPackages [zerohertzLib]: Remove: archive file [/home/abi/fetcher/tmp/zerohertzLib-1.1.0.tar.gz]
 [2024-05-28 16:51:15] INFO root fetch - main [MainThread]: End processing [zerohertzLib]: success
 [2024-05-28 16:51:15] INFO root fetch - main [MainThread]: Store serial: [23413348]
+[2024-05-28 16:53:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23413348]
+[2024-05-28 16:53:24] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2024-05-28 16:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: timelined_array
+[2024-05-28 16:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: addereq
+[2024-05-28 16:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: terrascope-sdk
+[2024-05-28 16:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: 1password
+[2024-05-28 16:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-stock-picking-propagate-scheduled-date
+[2024-05-28 16:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nucliadb
+[2024-05-28 16:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nucliadb-dataset
+[2024-05-28 16:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nucliadb-models
+[2024-05-28 16:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: okta
+[2024-05-28 16:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nucliadb-protos
+[2024-05-28 16:53:24] INFO root fetch - processPackages [1password]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-05-28 16:53:24] INFO root fetch - processPackages [timelined_array]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-28 16:53:24] INFO root fetch - processPackages [nucliadb]: New version: [4.0.1.post551] Old Version: [4.0.1.post550]
+[2024-05-28 16:53:24] INFO root fetch - processPackages [nucliadb-dataset]: New version: [4.0.1.post551] Old Version: [4.0.1.post550]
+[2024-05-28 16:53:24] INFO root fetch - processPackages [addereq]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-28 16:53:24] INFO root fetch - processPackages [nucliadb-protos]: New version: [4.0.1.post551] Old Version: [4.0.1.post550]
+[2024-05-28 16:53:24] INFO root fetch - processPackages [nucliadb-models]: New version: [4.0.1.post551] Old Version: [4.0.1.post550]
+[2024-05-28 16:53:24] INFO root fetch - processPackages [okta]: New version: [2.9.7] Old Version: [2.9.6]
+[2024-05-28 16:53:24] INFO root fetch - processPackages [terrascope-sdk]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-28 16:53:24] INFO root fetch - processPackages [odoo-addon-stock-picking-propagate-scheduled-date]: New version: [15.0.1.0.1] Old Version: [15.0.1.0.0.1]
+[2024-05-28 16:53:24] INFO root fetch - processPackages [1password]: Downloading https://files.pythonhosted.org/packages/17/66/5c75fdf5bc2f149eacdb616bdf79e0330e8e3f2a1b64a66989c83103156d/1password-1.0.7.tar.gz
+[2024-05-28 16:53:24] INFO root fetch - processPackages [timelined_array]: Downloading https://files.pythonhosted.org/packages/d0/44/350734906054742529403964c935d0e4461e6c277f3ec4135118d2355b50/timelined_array-0.0.6.tar.gz
+[2024-05-28 16:53:24] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/32/41/e9886ca2996b961b9f1544c93a44cc000e5e0814c43fed87451998674474/nucliadb-4.0.1.post550-py3-none-any.whl
+[2024-05-28 16:53:24] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/fe/31/d45d30881c9e4455c278282cffab69fdd62b8e4bfabfcc6db3a69b58a982/nucliadb_dataset-4.0.1.post550-py3-none-any.whl
+[2024-05-28 16:53:24] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/c2/57/e411c79d165570aa01817efba55186e9853c8d741a1a55a64efd30631679/nucliadb_protos-4.0.1.post550-py3-none-any.whl
+[2024-05-28 16:53:24] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/9b/3f/eab7294b1a96a8299163fccc6bdce27c5f9097aa6029d82e5c6adccbcffa/nucliadb_models-4.0.1.post550-py3-none-any.whl
+[2024-05-28 16:53:24] INFO root fetch - processPackages [addereq]: Downloading https://files.pythonhosted.org/packages/93/24/78053903723f9baa01dd5f8b1e7c546718960946bfb1b9c4ea48fc9ee1a6/addereq-1.0.8-cp39-cp39-win_amd64.whl
+[2024-05-28 16:53:24] INFO root fetch - processPackages [terrascope-sdk]: Downloading https://files.pythonhosted.org/packages/dc/ba/1e76d794d221c669fce31d037696682b9836c380ed2bde58162e2f2e4cb1/terrascope-sdk-1.0.5.tar.gz
+[2024-05-28 16:53:24] INFO root fetch - processPackages [odoo-addon-stock-picking-propagate-scheduled-date]: Downloading https://files.pythonhosted.org/packages/97/6b/20d74558adf2cd8d65adf0a3a054a08f483b77aa11c8052e8c73b2620cfb/odoo_addon_stock_picking_propagate_scheduled_date-15.0.1.0.0.1-py3-none-any.whl
+[2024-05-28 16:53:24] INFO root fetch - processPackages [okta]: Downloading https://files.pythonhosted.org/packages/63/46/94fdbaa02248f12b727c71ea2439da064ec85a02412023c03888ffc68bf6/okta-2.9.6.tar.gz
+[2024-05-28 16:53:24] INFO root fetch - processPackages [1password]: Downloading https://files.pythonhosted.org/packages/79/0b/d3868a04af219affb5b921cfda79dc62a6cdbbcfbb01d1dd570a2077ccc6/1password-1.0.8.tar.gz
+[2024-05-28 16:53:24] INFO root fetch - processPackages [timelined_array]: Downloading https://files.pythonhosted.org/packages/9f/75/eb0fba6b27acd53cc4722ea3e5afb90ca178b3315f6302e6f6d5cb8a84f2/timelined_array-0.0.7.tar.gz
+[2024-05-28 16:53:24] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/a4/0f/e5e9c5f0a840405d99754239824e00e2df79f672f3e547de9e1e6cdc4b7d/nucliadb-4.0.1.post551-py3-none-any.whl
+[2024-05-28 16:53:24] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/9a/9c/646d72178560b26698c17206bbaba2e79b631284c8af1dc27a889bd3018f/nucliadb_dataset-4.0.1.post551-py3-none-any.whl
+[2024-05-28 16:53:25] INFO root fetch - processPackages [1password]: executing diffoscope
+[2024-05-28 16:53:25] INFO root fetch - processPackages [1password]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/1password-1.0.7.tar.gz tmp/1password-1.0.8.tar.gz --markdown 20240528/1/1password/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-05-28 16:53:25] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/3d/eb/397113db2b5daefe1333694f796f4b0b1e7f58d004576c192082e924296a/nucliadb_models-4.0.1.post551-py3-none-any.whl
+[2024-05-28 16:53:25] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/20/b7/2a63a4d9f60a419a3f2d90ad772218bf3c5af601101fd745b5c8c44456ea/nucliadb_protos-4.0.1.post551-py3-none-any.whl
+[2024-05-28 16:53:25] INFO root fetch - processPackages [timelined_array]: executing diffoscope
+[2024-05-28 16:53:25] INFO root fetch - processPackages [timelined_array]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timelined_array-0.0.6.tar.gz tmp/timelined_array-0.0.7.tar.gz --markdown 20240528/t/timelined_array/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-28 16:53:25] INFO root fetch - processPackages [odoo-addon-stock-picking-propagate-scheduled-date]: Downloading https://files.pythonhosted.org/packages/ff/13/8b677740c5edea752d7972e8b6347994f8e79c54f6452083aa08c19f3d50/odoo_addon_stock_picking_propagate_scheduled_date-15.0.1.0.1-py3-none-any.whl
+[2024-05-28 16:53:25] INFO root fetch - processPackages [terrascope-sdk]: Downloading https://files.pythonhosted.org/packages/de/70/b65b6ffc213f2f3fa0f42e9608298bb9227dbfe95b6457b230b8cb1230ac/terrascope-sdk-1.0.6.tar.gz
+[2024-05-28 16:53:25] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2024-05-28 16:53:25] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-4.0.1.post550-py3-none-any.whl.zip tmp/nucliadb_dataset-4.0.1.post551-py3-none-any.whl.zip --markdown 20240528/n/nucliadb-dataset/4.0.1.post550-4.0.1.post551/README.md --exclude *.pyd
+[2024-05-28 16:53:25] INFO root fetch - processPackages [addereq]: Downloading https://files.pythonhosted.org/packages/7f/96/8e62126d96c473962e3fd55a3fedf7022686fc0cf7121d02c4256e0ba8f1/addereq-1.0.9-cp39-cp39-win_amd64.whl
+[2024-05-28 16:53:25] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2024-05-28 16:53:25] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-4.0.1.post550-py3-none-any.whl.zip tmp/nucliadb_models-4.0.1.post551-py3-none-any.whl.zip --markdown 20240528/n/nucliadb-models/4.0.1.post550-4.0.1.post551/README.md --exclude *.pyd
+[2024-05-28 16:53:25] INFO root fetch - processPackages [okta]: Downloading https://files.pythonhosted.org/packages/53/c6/79735ddcd38fe80066de96286085d2ddca10ddae3b31e23e93716d827ea9/okta-2.9.7.tar.gz
+[2024-05-28 16:53:25] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2024-05-28 16:53:25] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-4.0.1.post550-py3-none-any.whl.zip tmp/nucliadb-4.0.1.post551-py3-none-any.whl.zip --markdown 20240528/n/nucliadb/4.0.1.post550-4.0.1.post551/README.md --exclude *.pyd
+[2024-05-28 16:53:25] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2024-05-28 16:53:25] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-4.0.1.post550-py3-none-any.whl.zip tmp/nucliadb_protos-4.0.1.post551-py3-none-any.whl.zip --markdown 20240528/n/nucliadb-protos/4.0.1.post550-4.0.1.post551/README.md --exclude *.pyd
+[2024-05-28 16:53:25] INFO root fetch - processPackages [terrascope-sdk]: executing diffoscope
+[2024-05-28 16:53:25] INFO root fetch - processPackages [terrascope-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terrascope-sdk-1.0.5.tar.gz tmp/terrascope-sdk-1.0.6.tar.gz --markdown 20240528/t/terrascope-sdk/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-05-28 16:53:25] INFO root fetch - processPackages [odoo-addon-stock-picking-propagate-scheduled-date]: executing diffoscope
+[2024-05-28 16:53:25] INFO root fetch - processPackages [odoo-addon-stock-picking-propagate-scheduled-date]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_picking_propagate_scheduled_date-15.0.1.0.0.1-py3-none-any.whl.zip tmp/odoo_addon_stock_picking_propagate_scheduled_date-15.0.1.0.1-py3-none-any.whl.zip --markdown 20240528/o/odoo-addon-stock-picking-propagate-scheduled-date/15.0.1.0.0.1-15.0.1.0.1/README.md --exclude *.pyd
+[2024-05-28 16:53:25] INFO root fetch - processPackages [okta]: executing diffoscope
+[2024-05-28 16:53:25] INFO root fetch - processPackages [okta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/okta-2.9.6.tar.gz tmp/okta-2.9.7.tar.gz --markdown 20240528/o/okta/2.9.6-2.9.7/README.md --exclude *.pyd
+[2024-05-28 16:53:25] INFO root fetch - processPackages [addereq]: executing diffoscope
+[2024-05-28 16:53:25] INFO root fetch - processPackages [addereq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/addereq-1.0.8-cp39-cp39-win_amd64.whl.zip tmp/addereq-1.0.9-cp39-cp39-win_amd64.whl.zip --markdown 20240528/a/addereq/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-28 16:53:25] INFO root fetch - processPackages [timelined_array]: Remove: archive file [/home/abi/fetcher/tmp/timelined_array-0.0.6.tar.gz]
+[2024-05-28 16:53:25] INFO root fetch - processPackages [timelined_array]: Remove: archive file [/home/abi/fetcher/tmp/timelined_array-0.0.7.tar.gz]
+[2024-05-28 16:53:26] INFO root fetch - processPackages [timelined_array]: Start processing: netbox-reorder-rack
+[2024-05-28 16:53:26] INFO root fetch - main [MainThread]: End processing [timelined_array]: success
+[2024-05-28 16:53:26] INFO root fetch - processPackages [1password]: Remove: archive file [/home/abi/fetcher/tmp/1password-1.0.7.tar.gz]
+[2024-05-28 16:53:26] INFO root fetch - processPackages [1password]: Remove: archive file [/home/abi/fetcher/tmp/1password-1.0.8.tar.gz]
+[2024-05-28 16:53:26] INFO root fetch - processPackages [1password]: Start processing: nucliadb-sdk
+[2024-05-28 16:53:26] INFO root fetch - main [MainThread]: End processing [1password]: success
+[2024-05-28 16:53:26] INFO root fetch - processPackages [nucliadb-sdk]: New version: [4.0.1.post551] Old Version: [4.0.1.post550]
+[2024-05-28 16:53:26] INFO root fetch - processPackages [netbox-reorder-rack]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-28 16:53:26] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-4.0.1.post550-py3-none-any.whl.zip]
+[2024-05-28 16:53:26] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-4.0.1.post551-py3-none-any.whl.zip]
+[2024-05-28 16:53:26] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: nucliadb-telemetry
+[2024-05-28 16:53:26] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2024-05-28 16:53:26] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/57/71/891fad7be8e43c6192efc0741dbacc6a0af1ff98c799c3d9a1d73ca6802e/nucliadb_sdk-4.0.1.post550-py3-none-any.whl
+[2024-05-28 16:53:26] INFO root fetch - processPackages [odoo-addon-stock-picking-propagate-scheduled-date]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_propagate_scheduled_date-15.0.1.0.0.1-py3-none-any.whl.zip]
+[2024-05-28 16:53:26] INFO root fetch - processPackages [odoo-addon-stock-picking-propagate-scheduled-date]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_propagate_scheduled_date-15.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-28 16:53:26] INFO root fetch - processPackages [odoo-addon-stock-picking-propagate-scheduled-date]: Start processing: nucliadb-utils
+[2024-05-28 16:53:26] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-picking-propagate-scheduled-date]: success
+[2024-05-28 16:53:26] INFO root fetch - processPackages [nucliadb-telemetry]: New version: [4.0.1.post551] Old Version: [4.0.1.post550]
+[2024-05-28 16:53:26] INFO root fetch - processPackages [addereq]: Remove: archive file [/home/abi/fetcher/tmp/addereq-1.0.8-cp39-cp39-win_amd64.whl.zip]
+[2024-05-28 16:53:26] INFO root fetch - processPackages [addereq]: Remove: archive file [/home/abi/fetcher/tmp/addereq-1.0.9-cp39-cp39-win_amd64.whl.zip]
+[2024-05-28 16:53:26] INFO root fetch - processPackages [addereq]: Start processing: eliasliu
+[2024-05-28 16:53:26] INFO root fetch - main [MainThread]: End processing [addereq]: success
+[2024-05-28 16:53:26] INFO root fetch - processPackages [netbox-reorder-rack]: Downloading https://files.pythonhosted.org/packages/40/1f/e4754601837d768b644d6f5e4b2f5b490da0bcae820ef06e8f7ea06e2737/netbox_reorder_rack-1.1.0.tar.gz
+[2024-05-28 16:53:26] INFO root fetch - processPackages [nucliadb-utils]: New version: [4.0.1.post551] Old Version: [4.0.1.post550]
+[2024-05-28 16:53:26] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/97/aa/e3cc513f4415d488d3d8a4f4ea790b1cf09d100e35196e05f2b674d83e9f/nucliadb_telemetry-4.0.1.post550-py3-none-any.whl
+[2024-05-28 16:53:26] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-4.0.1.post550-py3-none-any.whl.zip]
+[2024-05-28 16:53:26] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-4.0.1.post551-py3-none-any.whl.zip]
+[2024-05-28 16:53:26] INFO root fetch - processPackages [nucliadb-models]: Start processing: hanashi
+[2024-05-28 16:53:26] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2024-05-28 16:53:26] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-4.0.1.post550-py3-none-any.whl.zip]
+[2024-05-28 16:53:26] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-4.0.1.post551-py3-none-any.whl.zip]
+[2024-05-28 16:53:26] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2024-05-28 16:53:26] INFO root fetch - processPackages [terrascope-sdk]: Remove: archive file [/home/abi/fetcher/tmp/terrascope-sdk-1.0.5.tar.gz]
+[2024-05-28 16:53:26] INFO root fetch - processPackages [terrascope-sdk]: Remove: archive file [/home/abi/fetcher/tmp/terrascope-sdk-1.0.6.tar.gz]
+[2024-05-28 16:53:26] INFO root fetch - main [MainThread]: End processing [terrascope-sdk]: success
+[2024-05-28 16:53:26] INFO root fetch - processPackages [eliasliu]: New version: [0.1.63] Old Version: [0.1.62]
+[2024-05-28 16:53:26] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/37/db/885cf427af902ff6bc002cdb7d0b089133e602e8b7b85904bcb042dab1d4/nucliadb_utils-4.0.1.post550-py3-none-any.whl
+[2024-05-28 16:53:26] INFO root fetch - processPackages [eliasliu]: Downloading https://files.pythonhosted.org/packages/48/10/233ac4d16a3bf1425df9e67cd1ae8fb753fc68028a7d8f9dad218c9f1b06/eliasliu-0.1.62.tar.gz
+[2024-05-28 16:53:26] WARNING root fetch - processPackages [hanashi]: Skipping, unable to determine old version
+[2024-05-28 16:53:26] INFO root fetch - main [MainThread]: End processing [hanashi] error
+[2024-05-28 16:53:26] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/c5/cc/b8f011b455314c99dee08e92a549d43f763137327a1795bfd09ff4a26488/nucliadb_sdk-4.0.1.post551-py3-none-any.whl
+[2024-05-28 16:53:26] INFO root fetch - processPackages [netbox-reorder-rack]: Downloading https://files.pythonhosted.org/packages/79/dd/ffaa0559597f91de7dffefa80b16026a4b8e1eacf8e59b580cab808fffc3/netbox_reorder_rack-1.1.1.tar.gz
+[2024-05-28 16:53:26] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2024-05-28 16:53:26] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-4.0.1.post550-py3-none-any.whl.zip tmp/nucliadb_sdk-4.0.1.post551-py3-none-any.whl.zip --markdown 20240528/n/nucliadb-sdk/4.0.1.post550-4.0.1.post551/README.md --exclude *.pyd
+[2024-05-28 16:53:26] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/3b/04/222a12497b85b716fe485a8338b7ef896e7989e97c592ad64190ac3058aa/nucliadb_telemetry-4.0.1.post551-py3-none-any.whl
+[2024-05-28 16:53:26] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/75/1e/7fb1e8afcb715e108d7e1cc3e98c3751b11e8e64c612c13ccc12b4d75e23/nucliadb_utils-4.0.1.post551-py3-none-any.whl
+[2024-05-28 16:53:26] INFO root fetch - processPackages [eliasliu]: Downloading https://files.pythonhosted.org/packages/c0/bd/20557bc624e86b32bd9cc1f28f8955c1544d931032cb337d347ef9775c00/eliasliu-0.1.63.tar.gz
+[2024-05-28 16:53:26] INFO root fetch - processPackages [netbox-reorder-rack]: executing diffoscope
+[2024-05-28 16:53:26] INFO root fetch - processPackages [netbox-reorder-rack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox_reorder_rack-1.1.0.tar.gz tmp/netbox_reorder_rack-1.1.1.tar.gz --markdown 20240528/n/netbox-reorder-rack/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-28 16:53:26] INFO root fetch - processPackages [nucliadb-telemetry]: executing diffoscope
+[2024-05-28 16:53:26] INFO root fetch - processPackages [nucliadb-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_telemetry-4.0.1.post550-py3-none-any.whl.zip tmp/nucliadb_telemetry-4.0.1.post551-py3-none-any.whl.zip --markdown 20240528/n/nucliadb-telemetry/4.0.1.post550-4.0.1.post551/README.md --exclude *.pyd
+[2024-05-28 16:53:27] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2024-05-28 16:53:27] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-4.0.1.post550-py3-none-any.whl.zip tmp/nucliadb_utils-4.0.1.post551-py3-none-any.whl.zip --markdown 20240528/n/nucliadb-utils/4.0.1.post550-4.0.1.post551/README.md --exclude *.pyd
+[2024-05-28 16:53:27] INFO root fetch - processPackages [eliasliu]: executing diffoscope
+[2024-05-28 16:53:27] INFO root fetch - processPackages [eliasliu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eliasliu-0.1.62.tar.gz tmp/eliasliu-0.1.63.tar.gz --markdown 20240528/e/eliasliu/0.1.62-0.1.63/README.md --exclude *.pyd
+[2024-05-28 16:53:27] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-4.0.1.post550-py3-none-any.whl.zip]
+[2024-05-28 16:53:27] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-4.0.1.post551-py3-none-any.whl.zip]
+[2024-05-28 16:53:27] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2024-05-28 16:53:27] INFO root fetch - processPackages [netbox-reorder-rack]: Remove: archive file [/home/abi/fetcher/tmp/netbox_reorder_rack-1.1.0.tar.gz]
+[2024-05-28 16:53:27] INFO root fetch - processPackages [netbox-reorder-rack]: Remove: archive file [/home/abi/fetcher/tmp/netbox_reorder_rack-1.1.1.tar.gz]
+[2024-05-28 16:53:27] INFO root fetch - main [MainThread]: End processing [netbox-reorder-rack]: success
+[2024-05-28 16:53:27] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-4.0.1.post550-py3-none-any.whl.zip]
+[2024-05-28 16:53:27] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-4.0.1.post551-py3-none-any.whl.zip]
+[2024-05-28 16:53:27] INFO root fetch - main [MainThread]: End processing [nucliadb-telemetry]: success
+[2024-05-28 16:53:27] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-4.0.1.post550-py3-none-any.whl.zip]
+[2024-05-28 16:53:27] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-4.0.1.post551-py3-none-any.whl.zip]
+[2024-05-28 16:53:27] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2024-05-28 16:53:27] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-4.0.1.post550-py3-none-any.whl.zip]
+[2024-05-28 16:53:27] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-4.0.1.post551-py3-none-any.whl.zip]
+[2024-05-28 16:53:27] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2024-05-28 16:53:27] INFO root fetch - processPackages [eliasliu]: Remove: archive file [/home/abi/fetcher/tmp/eliasliu-0.1.62.tar.gz]
+[2024-05-28 16:53:27] INFO root fetch - processPackages [eliasliu]: Remove: archive file [/home/abi/fetcher/tmp/eliasliu-0.1.63.tar.gz]
+[2024-05-28 16:53:27] INFO root fetch - main [MainThread]: End processing [eliasliu]: success
+[2024-05-28 16:53:29] INFO root fetch - processPackages [okta]: Remove: archive file [/home/abi/fetcher/tmp/okta-2.9.6.tar.gz]
+[2024-05-28 16:53:29] INFO root fetch - processPackages [okta]: Remove: archive file [/home/abi/fetcher/tmp/okta-2.9.7.tar.gz]
+[2024-05-28 16:53:29] INFO root fetch - main [MainThread]: End processing [okta]: success
+[2024-05-28 16:53:29] INFO root fetch - main [MainThread]: Store serial: [23413397]
