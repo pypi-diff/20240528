@@ -6545,3 +6545,57 @@
 [2024-05-28 07:25:45] INFO root fetch - processPackages [django-codenerix]: Remove: archive file [/home/abi/fetcher/tmp/django-codenerix-4.0.9.tar.gz]
 [2024-05-28 07:25:45] INFO root fetch - main [MainThread]: End processing [django-codenerix]: success
 [2024-05-28 07:25:45] INFO root fetch - main [MainThread]: Store serial: [23405456]
+[2024-05-28 07:27:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23405456]
+[2024-05-28 07:27:54] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-28 07:27:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydtfe
+[2024-05-28 07:27:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FIT-Testcase-Sender
+[2024-05-28 07:27:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ec-tools
+[2024-05-28 07:27:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyminerva
+[2024-05-28 07:27:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kossou-hillshade-cli
+[2024-05-28 07:27:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: quarkstudio
+[2024-05-28 07:27:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyastroweatherio
+[2024-05-28 07:27:54] WARNING root fetch - processPackages [quarkstudio]: Skipping, unable to determine old version
+[2024-05-28 07:27:54] INFO root fetch - main [MainThread]: End processing [quarkstudio] error
+[2024-05-28 07:27:54] INFO root fetch - processPackages [kossou-hillshade-cli]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-28 07:27:54] INFO root fetch - processPackages [pyastroweatherio]: New version: [0.50.1] Old Version: [0.50.0.dev13]
+[2024-05-28 07:27:54] INFO root fetch - processPackages [pyminerva]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-28 07:27:54] INFO root fetch - processPackages [ec-tools]: New version: [1.0] Old Version: [0.9]
+[2024-05-28 07:27:54] WARNING root fetch - processPackages [pydtfe]: Skipping, unable to determine old version
+[2024-05-28 07:27:54] INFO root fetch - main [MainThread]: End processing [pydtfe] error
+[2024-05-28 07:27:54] INFO root fetch - processPackages [FIT-Testcase-Sender]: New version: [1.0.0] Old Version: [0.1.3]
+[2024-05-28 07:27:54] INFO root fetch - processPackages [pyminerva]: Downloading https://files.pythonhosted.org/packages/71/85/01e8f26ee3130cf86f9e4b898bf1c77b6edaa3ff18d78ab72ab3042c1c41/pyminerva-0.0.98.tar.gz
+[2024-05-28 07:27:54] INFO root fetch - processPackages [kossou-hillshade-cli]: Downloading https://files.pythonhosted.org/packages/65/99/9bf73a98d0168ace764e130cfda807f019260806c6abd35c3d7f863ae6ea/kossou_hillshade_cli-0.0.1.tar.gz
+[2024-05-28 07:27:54] INFO root fetch - processPackages [pyastroweatherio]: Downloading https://files.pythonhosted.org/packages/f8/53/c18be077d84c30502f9971f7d5dbb56b704ac7f1d33629b92c95a540999e/pyastroweatherio-0.50.0.dev13.tar.gz
+[2024-05-28 07:27:54] INFO root fetch - processPackages [ec-tools]: Downloading https://files.pythonhosted.org/packages/77/d4/5c2c6677d707db81fd9562f8cb43059d3cc2b1f1056e258432b1e5ae4725/ec_tools-0.9.tar.gz
+[2024-05-28 07:27:54] INFO root fetch - processPackages [FIT-Testcase-Sender]: Downloading https://files.pythonhosted.org/packages/53/4d/c30e3a60b438001419679fff92323958731ccfc5e6406f012ce77235badf/FIT_Testcase_Sender-0.1.3.tar.gz
+[2024-05-28 07:27:54] INFO root fetch - processPackages [pyminerva]: Downloading https://files.pythonhosted.org/packages/30/9b/396cf38441ad3c8ce48c213fff676d95f1f3f4feeb1b7dc8824277fe413e/pyminerva-0.0.99.tar.gz
+[2024-05-28 07:27:54] INFO root fetch - processPackages [pyastroweatherio]: Downloading https://files.pythonhosted.org/packages/78/90/ced9b71da776de16c8a09870908299ab38a1431afde9dfb637f19214214d/pyastroweatherio-0.50.1.tar.gz
+[2024-05-28 07:27:54] INFO root fetch - processPackages [pyminerva]: executing diffoscope
+[2024-05-28 07:27:54] INFO root fetch - processPackages [pyminerva]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyminerva-0.0.98.tar.gz tmp/pyminerva-0.0.99.tar.gz --markdown 20240528/p/pyminerva/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-28 07:27:54] INFO root fetch - processPackages [kossou-hillshade-cli]: Downloading https://files.pythonhosted.org/packages/9a/7a/eb9567e1c8ebeaeb0ae987e41f8cff4806990a06bc72396ef30559842110/kossou_hillshade_cli-0.0.2.tar.gz
+[2024-05-28 07:27:54] INFO root fetch - processPackages [ec-tools]: Downloading https://files.pythonhosted.org/packages/9a/9e/86e9c57bbeb2df34b4d60bf4e35210dac36cb158895f5afd32b82b1338a8/ec_tools-1.0.tar.gz
+[2024-05-28 07:27:54] INFO root fetch - processPackages [pyastroweatherio]: executing diffoscope
+[2024-05-28 07:27:54] INFO root fetch - processPackages [pyastroweatherio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyastroweatherio-0.50.0.dev13.tar.gz tmp/pyastroweatherio-0.50.1.tar.gz --markdown 20240528/p/pyastroweatherio/0.50.0.dev13-0.50.1/README.md --exclude *.pyd
+[2024-05-28 07:27:54] INFO root fetch - processPackages [FIT-Testcase-Sender]: Downloading https://files.pythonhosted.org/packages/3d/1c/bcd0f0e1d6a10839806780ed1ea8f2e2be8a909d04d5c4a97587e15aacaa/FIT_Testcase_Sender-1.0.0.tar.gz
+[2024-05-28 07:27:55] INFO root fetch - processPackages [kossou-hillshade-cli]: executing diffoscope
+[2024-05-28 07:27:55] INFO root fetch - processPackages [kossou-hillshade-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kossou_hillshade_cli-0.0.1.tar.gz tmp/kossou_hillshade_cli-0.0.2.tar.gz --markdown 20240528/k/kossou-hillshade-cli/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-28 07:27:55] INFO root fetch - processPackages [ec-tools]: executing diffoscope
+[2024-05-28 07:27:55] INFO root fetch - processPackages [ec-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ec_tools-0.9.tar.gz tmp/ec_tools-1.0.tar.gz --markdown 20240528/e/ec-tools/0.9-1.0/README.md --exclude *.pyd
+[2024-05-28 07:27:55] INFO root fetch - processPackages [FIT-Testcase-Sender]: executing diffoscope
+[2024-05-28 07:27:55] INFO root fetch - processPackages [FIT-Testcase-Sender]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FIT_Testcase_Sender-0.1.3.tar.gz tmp/FIT_Testcase_Sender-1.0.0.tar.gz --markdown 20240528/F/FIT-Testcase-Sender/0.1.3-1.0.0/README.md --exclude *.pyd
+[2024-05-28 07:27:55] INFO root fetch - processPackages [pyminerva]: Remove: archive file [/home/abi/fetcher/tmp/pyminerva-0.0.98.tar.gz]
+[2024-05-28 07:27:55] INFO root fetch - processPackages [pyminerva]: Remove: archive file [/home/abi/fetcher/tmp/pyminerva-0.0.99.tar.gz]
+[2024-05-28 07:27:55] INFO root fetch - main [MainThread]: End processing [pyminerva]: success
+[2024-05-28 07:27:55] INFO root fetch - processPackages [pyastroweatherio]: Remove: archive file [/home/abi/fetcher/tmp/pyastroweatherio-0.50.0.dev13.tar.gz]
+[2024-05-28 07:27:55] INFO root fetch - processPackages [pyastroweatherio]: Remove: archive file [/home/abi/fetcher/tmp/pyastroweatherio-0.50.1.tar.gz]
+[2024-05-28 07:27:55] INFO root fetch - main [MainThread]: End processing [pyastroweatherio]: success
+[2024-05-28 07:27:55] INFO root fetch - processPackages [ec-tools]: Remove: archive file [/home/abi/fetcher/tmp/ec_tools-0.9.tar.gz]
+[2024-05-28 07:27:55] INFO root fetch - processPackages [ec-tools]: Remove: archive file [/home/abi/fetcher/tmp/ec_tools-1.0.tar.gz]
+[2024-05-28 07:27:55] INFO root fetch - main [MainThread]: End processing [ec-tools]: success
+[2024-05-28 07:27:55] INFO root fetch - processPackages [kossou-hillshade-cli]: Remove: archive file [/home/abi/fetcher/tmp/kossou_hillshade_cli-0.0.1.tar.gz]
+[2024-05-28 07:27:55] INFO root fetch - processPackages [kossou-hillshade-cli]: Remove: archive file [/home/abi/fetcher/tmp/kossou_hillshade_cli-0.0.2.tar.gz]
+[2024-05-28 07:27:55] INFO root fetch - main [MainThread]: End processing [kossou-hillshade-cli]: success
+[2024-05-28 07:27:55] INFO root fetch - processPackages [FIT-Testcase-Sender]: Remove: archive file [/home/abi/fetcher/tmp/FIT_Testcase_Sender-0.1.3.tar.gz]
+[2024-05-28 07:27:55] INFO root fetch - processPackages [FIT-Testcase-Sender]: Remove: archive file [/home/abi/fetcher/tmp/FIT_Testcase_Sender-1.0.0.tar.gz]
+[2024-05-28 07:27:55] INFO root fetch - main [MainThread]: End processing [FIT-Testcase-Sender]: success
+[2024-05-28 07:27:55] INFO root fetch - main [MainThread]: Store serial: [23405483]
