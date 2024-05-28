@@ -17430,3 +17430,87 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 13:32:48] INFO root fetch - processPackages [text-fabric]: Remove: archive file [/home/abi/fetcher/tmp/text_fabric-9.5.2-py3-none-any.whl.zip]
 [2024-05-28 13:32:48] INFO root fetch - main [MainThread]: End processing [text-fabric]: success
 [2024-05-28 13:32:48] INFO root fetch - main [MainThread]: Store serial: [23410336]
+[2024-05-28 13:34:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23410336]
+[2024-05-28 13:35:01] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-28 13:35:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-sops-secrets
+[2024-05-28 13:35:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: catnekaise.cdk-iam-utilities
+[2024-05-28 13:35:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyresumeparser
+[2024-05-28 13:35:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: catnekaise.ghrawel
+[2024-05-28 13:35:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: neuro-fuzzy-matrix
+[2024-05-28 13:35:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fastapi-cache2-fork
+[2024-05-28 13:35:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jobqueues
+[2024-05-28 13:35:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mentabotix
+[2024-05-28 13:35:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: STEAM-materials
+[2024-05-28 13:35:01] INFO root fetch - processPackages [neuro-fuzzy-matrix]: New version: [0.2] Old Version: [0.1]
+[2024-05-28 13:35:01] INFO root fetch - processPackages [mentabotix]: New version: [0.1.5.9] Old Version: [0.1.5.8]
+[2024-05-28 13:35:01] INFO root fetch - processPackages [neuro-fuzzy-matrix]: Downloading https://files.pythonhosted.org/packages/dc/db/1ed6414fe2de3c7cab900ba418d26f7eefbd247ee9af8d57633ec5817988/neuro_fuzzy_matrix-0.1.tar.gz
+[2024-05-28 13:35:01] INFO root fetch - processPackages [STEAM-materials]: New version: [2024.5.1] Old Version: [2024.4.2]
+[2024-05-28 13:35:01] INFO root fetch - processPackages [jobqueues]: New version: [0.9.7] Old Version: [0.9.6]
+[2024-05-28 13:35:01] INFO root fetch - processPackages [fastapi-cache2-fork]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-28 13:35:01] INFO root fetch - processPackages [pyresumeparser]: New version: [0.0.5] Old Version: [0.0.3]
+[2024-05-28 13:35:01] INFO root fetch - processPackages [mentabotix]: Downloading https://files.pythonhosted.org/packages/82/e7/21cabf951d8e05066058a2c6fafc9a623e4e5939ded05ac5d6cd02cc3c5b/mentabotix-0.1.5.8.tar.gz
+[2024-05-28 13:35:01] INFO root fetch - processPackages [catnekaise.cdk-iam-utilities]: New version: [0.0.25] Old Version: [0.0.24]
+[2024-05-28 13:35:01] INFO root fetch - processPackages [catnekaise.ghrawel]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-28 13:35:01] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.8.9] Old Version: [1.8.8]
+[2024-05-28 13:35:01] INFO root fetch - processPackages [catnekaise.cdk-iam-utilities]: Downloading https://files.pythonhosted.org/packages/4e/62/6e8a1d21e120339199cd0f1872c9e4f51b71b91685931f381e4efdaac74b/catnekaise.cdk-iam-utilities-0.0.24.tar.gz
+[2024-05-28 13:35:01] INFO root fetch - processPackages [neuro-fuzzy-matrix]: Downloading https://files.pythonhosted.org/packages/e3/50/77013cd8794b52e05b9424c10dbb8bed99ce4dc0ad95bc1e619215cd5f55/neuro_fuzzy_matrix-0.2.tar.gz
+[2024-05-28 13:35:01] INFO root fetch - processPackages [jobqueues]: Downloading https://files.pythonhosted.org/packages/ed/68/75bfee2f9191923af505468d2825c5c46a234604c7ad036309f1595a9b3d/jobqueues-0.9.6.tar.gz
+[2024-05-28 13:35:01] INFO root fetch - processPackages [fastapi-cache2-fork]: Downloading https://files.pythonhosted.org/packages/d7/21/f35143afb0ea197c54ed7aa12f00cd8b6aa80f4380272f67bca1ab4ff557/fastapi_cache2_fork-0.3.1.tar.gz
+[2024-05-28 13:35:01] INFO root fetch - processPackages [pyresumeparser]: Downloading https://files.pythonhosted.org/packages/87/c0/d3d298ba31061896548edf2ea92e747df7142264c891335f4e0e486cfb0c/pyresumeparser-0.0.3.tar.gz
+[2024-05-28 13:35:01] INFO root fetch - processPackages [STEAM-materials]: Downloading https://files.pythonhosted.org/packages/b3/36/279bd549158e14241afe0ef6aefb21fb17f0ebc5834c42a2d1faa36a4916/STEAM_materials-2024.4.2.tar.gz
+[2024-05-28 13:35:01] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/22/57/f00405583429b6d40e2d710c7edd54c51939309d8bd46a9e487491fc479d/cdk-sops-secrets-1.8.8.tar.gz
+[2024-05-28 13:35:01] INFO root fetch - processPackages [catnekaise.ghrawel]: Downloading https://files.pythonhosted.org/packages/e9/c2/500013a94a1e22cd97723549da88e5f9a837b79f68f80e8cd81b1f54c726/catnekaise.ghrawel-0.0.8.tar.gz
+[2024-05-28 13:35:01] INFO root fetch - processPackages [neuro-fuzzy-matrix]: executing diffoscope
+[2024-05-28 13:35:01] INFO root fetch - processPackages [neuro-fuzzy-matrix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuro_fuzzy_matrix-0.1.tar.gz tmp/neuro_fuzzy_matrix-0.2.tar.gz --markdown 20240528/n/neuro-fuzzy-matrix/0.1-0.2/README.md --exclude *.pyd
+[2024-05-28 13:35:01] INFO root fetch - processPackages [mentabotix]: Downloading https://files.pythonhosted.org/packages/0c/8c/e0aadaf3177b0936c6e2c6784b1ce6ff8d5f0548b2dd38f045005795a3e1/mentabotix-0.1.5.9.tar.gz
+[2024-05-28 13:35:02] INFO root fetch - processPackages [mentabotix]: executing diffoscope
+[2024-05-28 13:35:02] INFO root fetch - processPackages [mentabotix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mentabotix-0.1.5.8.tar.gz tmp/mentabotix-0.1.5.9.tar.gz --markdown 20240528/m/mentabotix/0.1.5.8-0.1.5.9/README.md --exclude *.pyd
+[2024-05-28 13:35:02] INFO root fetch - processPackages [jobqueues]: Downloading https://files.pythonhosted.org/packages/ae/06/f37a1862cfc15e84b2b5b32a80b0d8aad393607b255688ffccca107aa1fe/jobqueues-0.9.7.tar.gz
+[2024-05-28 13:35:02] INFO root fetch - processPackages [pyresumeparser]: Downloading https://files.pythonhosted.org/packages/23/4c/c02ee8f69195971e3abcee9325322414f1b93046a981853a0aef4cfaa52e/pyresumeparser-0.0.5.tar.gz
+[2024-05-28 13:35:02] INFO root fetch - processPackages [catnekaise.cdk-iam-utilities]: Downloading https://files.pythonhosted.org/packages/c8/ef/ab94af237bc69799f9f3c4807f3209559abd7d0ee944361b18b849893b45/catnekaise.cdk-iam-utilities-0.0.25.tar.gz
+[2024-05-28 13:35:02] INFO root fetch - processPackages [fastapi-cache2-fork]: Downloading https://files.pythonhosted.org/packages/2b/02/0dffe5ab94b47a5b912681a6094a02459bc108ec0a795a3c0dadeae38f9d/fastapi_cache2_fork-0.3.2.tar.gz
+[2024-05-28 13:35:02] INFO root fetch - processPackages [jobqueues]: executing diffoscope
+[2024-05-28 13:35:02] INFO root fetch - processPackages [jobqueues]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jobqueues-0.9.6.tar.gz tmp/jobqueues-0.9.7.tar.gz --markdown 20240528/j/jobqueues/0.9.6-0.9.7/README.md --exclude *.pyd
+[2024-05-28 13:35:02] INFO root fetch - processPackages [pyresumeparser]: executing diffoscope
+[2024-05-28 13:35:02] INFO root fetch - processPackages [pyresumeparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyresumeparser-0.0.3.tar.gz tmp/pyresumeparser-0.0.5.tar.gz --markdown 20240528/p/pyresumeparser/0.0.3-0.0.5/README.md --exclude *.pyd
+[2024-05-28 13:35:02] INFO root fetch - processPackages [fastapi-cache2-fork]: executing diffoscope
+[2024-05-28 13:35:02] INFO root fetch - processPackages [fastapi-cache2-fork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_cache2_fork-0.3.1.tar.gz tmp/fastapi_cache2_fork-0.3.2.tar.gz --markdown 20240528/f/fastapi-cache2-fork/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-28 13:35:02] INFO root fetch - processPackages [catnekaise.ghrawel]: Downloading https://files.pythonhosted.org/packages/15/a1/d4db42648d073fac0fdfa638072b7600d69d0d1c58b390c2894eb9a6ceae/catnekaise.ghrawel-0.0.9.tar.gz
+[2024-05-28 13:35:02] INFO root fetch - processPackages [catnekaise.cdk-iam-utilities]: executing diffoscope
+[2024-05-28 13:35:02] INFO root fetch - processPackages [catnekaise.cdk-iam-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catnekaise.cdk-iam-utilities-0.0.24.tar.gz tmp/catnekaise.cdk-iam-utilities-0.0.25.tar.gz --markdown 20240528/c/catnekaise.cdk-iam-utilities/0.0.24-0.0.25/README.md --exclude *.pyd
+[2024-05-28 13:35:02] INFO root fetch - processPackages [neuro-fuzzy-matrix]: Remove: archive file [/home/abi/fetcher/tmp/neuro_fuzzy_matrix-0.1.tar.gz]
+[2024-05-28 13:35:02] INFO root fetch - processPackages [neuro-fuzzy-matrix]: Remove: archive file [/home/abi/fetcher/tmp/neuro_fuzzy_matrix-0.2.tar.gz]
+[2024-05-28 13:35:02] INFO root fetch - main [MainThread]: End processing [neuro-fuzzy-matrix]: success
+[2024-05-28 13:35:02] INFO root fetch - processPackages [STEAM-materials]: Downloading https://files.pythonhosted.org/packages/db/11/9bee5c88bf32eeccd7d36024625826de81b52e5f2d7c1081c205b96465ef/steam_materials-2024.5.1.tar.gz
+[2024-05-28 13:35:02] INFO root fetch - processPackages [catnekaise.ghrawel]: executing diffoscope
+[2024-05-28 13:35:02] INFO root fetch - processPackages [catnekaise.ghrawel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catnekaise.ghrawel-0.0.8.tar.gz tmp/catnekaise.ghrawel-0.0.9.tar.gz --markdown 20240528/c/catnekaise.ghrawel/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-28 13:35:02] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/1c/05/20ca6ae64b7ef861deb542361240a62b453ec651be6d65e333a95ab8ed1e/cdk-sops-secrets-1.8.9.tar.gz
+[2024-05-28 13:35:02] INFO root fetch - processPackages [STEAM-materials]: executing diffoscope
+[2024-05-28 13:35:02] INFO root fetch - processPackages [STEAM-materials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/STEAM_materials-2024.4.2.tar.gz tmp/steam_materials-2024.5.1.tar.gz --markdown 20240528/S/STEAM-materials/2024.4.2-2024.5.1/README.md --exclude *.pyd
+[2024-05-28 13:35:02] INFO root fetch - processPackages [mentabotix]: Remove: archive file [/home/abi/fetcher/tmp/mentabotix-0.1.5.8.tar.gz]
+[2024-05-28 13:35:02] INFO root fetch - processPackages [mentabotix]: Remove: archive file [/home/abi/fetcher/tmp/mentabotix-0.1.5.9.tar.gz]
+[2024-05-28 13:35:02] INFO root fetch - main [MainThread]: End processing [mentabotix]: success
+[2024-05-28 13:35:03] INFO root fetch - processPackages [jobqueues]: Remove: archive file [/home/abi/fetcher/tmp/jobqueues-0.9.6.tar.gz]
+[2024-05-28 13:35:03] INFO root fetch - processPackages [jobqueues]: Remove: archive file [/home/abi/fetcher/tmp/jobqueues-0.9.7.tar.gz]
+[2024-05-28 13:35:03] INFO root fetch - main [MainThread]: End processing [jobqueues]: success
+[2024-05-28 13:35:03] INFO root fetch - processPackages [fastapi-cache2-fork]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_cache2_fork-0.3.1.tar.gz]
+[2024-05-28 13:35:03] INFO root fetch - processPackages [fastapi-cache2-fork]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_cache2_fork-0.3.2.tar.gz]
+[2024-05-28 13:35:03] INFO root fetch - main [MainThread]: End processing [fastapi-cache2-fork]: success
+[2024-05-28 13:35:03] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2024-05-28 13:35:03] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.8.8.tar.gz tmp/cdk-sops-secrets-1.8.9.tar.gz --markdown 20240528/c/cdk-sops-secrets/1.8.8-1.8.9/README.md --exclude *.pyd
+[2024-05-28 13:35:03] INFO root fetch - processPackages [catnekaise.cdk-iam-utilities]: Remove: archive file [/home/abi/fetcher/tmp/catnekaise.cdk-iam-utilities-0.0.24.tar.gz]
+[2024-05-28 13:35:03] INFO root fetch - processPackages [catnekaise.cdk-iam-utilities]: Remove: archive file [/home/abi/fetcher/tmp/catnekaise.cdk-iam-utilities-0.0.25.tar.gz]
+[2024-05-28 13:35:03] INFO root fetch - main [MainThread]: End processing [catnekaise.cdk-iam-utilities]: success
+[2024-05-28 13:35:03] INFO root fetch - processPackages [pyresumeparser]: Remove: archive file [/home/abi/fetcher/tmp/pyresumeparser-0.0.3.tar.gz]
+[2024-05-28 13:35:03] INFO root fetch - processPackages [pyresumeparser]: Remove: archive file [/home/abi/fetcher/tmp/pyresumeparser-0.0.5.tar.gz]
+[2024-05-28 13:35:03] INFO root fetch - main [MainThread]: End processing [pyresumeparser]: success
+[2024-05-28 13:35:04] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.8.8.tar.gz]
+[2024-05-28 13:35:04] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.8.9.tar.gz]
+[2024-05-28 13:35:04] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2024-05-28 13:35:04] INFO root fetch - processPackages [STEAM-materials]: Remove: archive file [/home/abi/fetcher/tmp/STEAM_materials-2024.4.2.tar.gz]
+[2024-05-28 13:35:04] INFO root fetch - processPackages [STEAM-materials]: Remove: archive file [/home/abi/fetcher/tmp/steam_materials-2024.5.1.tar.gz]
+[2024-05-28 13:35:04] INFO root fetch - main [MainThread]: End processing [STEAM-materials]: success
+[2024-05-28 13:35:04] INFO root fetch - processPackages [catnekaise.ghrawel]: Remove: archive file [/home/abi/fetcher/tmp/catnekaise.ghrawel-0.0.8.tar.gz]
+[2024-05-28 13:35:04] INFO root fetch - processPackages [catnekaise.ghrawel]: Remove: archive file [/home/abi/fetcher/tmp/catnekaise.ghrawel-0.0.9.tar.gz]
+[2024-05-28 13:35:04] INFO root fetch - main [MainThread]: End processing [catnekaise.ghrawel]: success
+[2024-05-28 13:35:04] INFO root fetch - main [MainThread]: Store serial: [23410363]
