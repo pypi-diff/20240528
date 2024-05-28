@@ -8753,3 +8753,40 @@
 [2024-05-28 08:16:27] INFO root fetch - processPackages [cabinet]: Remove: archive file [/home/abi/fetcher/tmp/cabinet-2024.5.7.1.tar.gz]
 [2024-05-28 08:16:27] INFO root fetch - main [MainThread]: End processing [cabinet]: success
 [2024-05-28 08:16:27] INFO root fetch - main [MainThread]: Store serial: [23406499]
+[2024-05-28 08:18:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23406499]
+[2024-05-28 08:18:35] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-28 08:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: v2-samplesheet-maker
+[2024-05-28 08:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stocknotebridgenew
+[2024-05-28 08:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fake-bpy-module-latest
+[2024-05-28 08:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fake-bpy-module
+[2024-05-28 08:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: data-and-reporting-sdk
+[2024-05-28 08:18:36] INFO root fetch - processPackages [stocknotebridgenew]: New version: [4.0.2] Old Version: [4.0.1]
+[2024-05-28 08:18:36] INFO root fetch - processPackages [fake-bpy-module]: New version: [20240528] Old Version: [20240524]
+[2024-05-28 08:18:36] INFO root fetch - processPackages [v2-samplesheet-maker]: New version: [4.2.4.post20240528161300] Old Version: [4.2.4.post20240508150053]
+[2024-05-28 08:18:36] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20240528] Old Version: [20240524]
+[2024-05-28 08:18:36] WARNING root fetch - processPackages [data-and-reporting-sdk]: Skipping, unable to determine old version
+[2024-05-28 08:18:36] INFO root fetch - main [MainThread]: End processing [data-and-reporting-sdk] error
+[2024-05-28 08:18:36] ERROR root fetch - processPackages [stocknotebridgenew]: Unable to fetch info: No such project/version 'stocknotebridgenew' 4.0.1
+[2024-05-28 08:18:36] INFO root fetch - main [MainThread]: End processing [stocknotebridgenew] error
+[2024-05-28 08:18:36] INFO root fetch - processPackages [fake-bpy-module]: Downloading https://files.pythonhosted.org/packages/47/bd/e0fab045cdff798984604f87b83347cf5061e660c76bfd513e28dd391282/fake_bpy_module-20240524.tar.gz
+[2024-05-28 08:18:36] INFO root fetch - processPackages [v2-samplesheet-maker]: Downloading https://files.pythonhosted.org/packages/85/14/7e162a094cfbd8232b1ae81c0312509070e02948d2d10b7f4d40d9c54276/v2_samplesheet_maker-4.2.4.post20240508150053.tar.gz
+[2024-05-28 08:18:36] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/c8/d9/f92ba292561805c06eb688ea8eb3c44a8c519bc6a092d040084582809e98/fake_bpy_module_latest-20240524.tar.gz
+[2024-05-28 08:18:36] INFO root fetch - processPackages [fake-bpy-module]: Downloading https://files.pythonhosted.org/packages/ef/7c/145fcec2a10c723872d2304430d91d1258b68c05affdc4dfacdcaa5af656/fake_bpy_module-20240528.tar.gz
+[2024-05-28 08:18:36] INFO root fetch - processPackages [v2-samplesheet-maker]: Downloading https://files.pythonhosted.org/packages/27/45/61a962df4ffa645f9140b9077e3b2654a1a4c3bdc9d830e3b3385a336ce6/v2_samplesheet_maker-4.2.4.post20240528161300.tar.gz
+[2024-05-28 08:18:36] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/1c/17/014f1daa7a38e5330e244e160d02f352f17941f2f12c3c624e8723c0fa02/fake_bpy_module_latest-20240528.tar.gz
+[2024-05-28 08:18:36] INFO root fetch - processPackages [v2-samplesheet-maker]: executing diffoscope
+[2024-05-28 08:18:36] INFO root fetch - processPackages [v2-samplesheet-maker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/v2_samplesheet_maker-4.2.4.post20240508150053.tar.gz tmp/v2_samplesheet_maker-4.2.4.post20240528161300.tar.gz --markdown 20240528/v/v2-samplesheet-maker/4.2.4.post20240508150053-4.2.4.post20240528161300/README.md --exclude *.pyd
+[2024-05-28 08:18:37] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2024-05-28 08:18:37] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake_bpy_module_latest-20240524.tar.gz tmp/fake_bpy_module_latest-20240528.tar.gz --markdown 20240528/f/fake-bpy-module-latest/20240524-20240528/README.md --exclude *.pyd
+[2024-05-28 08:18:37] INFO root fetch - processPackages [fake-bpy-module]: executing diffoscope
+[2024-05-28 08:18:37] INFO root fetch - processPackages [fake-bpy-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake_bpy_module-20240524.tar.gz tmp/fake_bpy_module-20240528.tar.gz --markdown 20240528/f/fake-bpy-module/20240524-20240528/README.md --exclude *.pyd
+[2024-05-28 08:18:37] INFO root fetch - processPackages [v2-samplesheet-maker]: Remove: archive file [/home/abi/fetcher/tmp/v2_samplesheet_maker-4.2.4.post20240508150053.tar.gz]
+[2024-05-28 08:18:37] INFO root fetch - processPackages [v2-samplesheet-maker]: Remove: archive file [/home/abi/fetcher/tmp/v2_samplesheet_maker-4.2.4.post20240528161300.tar.gz]
+[2024-05-28 08:18:37] INFO root fetch - main [MainThread]: End processing [v2-samplesheet-maker]: success
+[2024-05-28 08:18:45] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module_latest-20240524.tar.gz]
+[2024-05-28 08:18:45] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module_latest-20240528.tar.gz]
+[2024-05-28 08:18:45] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2024-05-28 08:18:45] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module-20240524.tar.gz]
+[2024-05-28 08:18:45] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module-20240528.tar.gz]
+[2024-05-28 08:18:45] INFO root fetch - main [MainThread]: End processing [fake-bpy-module]: success
+[2024-05-28 08:18:45] INFO root fetch - main [MainThread]: Store serial: [23406513]
