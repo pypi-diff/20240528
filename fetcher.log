@@ -22534,3 +22534,66 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 16:17:54] INFO root fetch - processPackages [jaqpotpy]: Remove: archive file [/home/abi/fetcher/tmp/jaqpotpy-1.2.0.tar.gz]
 [2024-05-28 16:17:54] INFO root fetch - main [MainThread]: End processing [jaqpotpy]: success
 [2024-05-28 16:17:54] INFO root fetch - main [MainThread]: Store serial: [23412756]
+[2024-05-28 16:19:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23412756]
+[2024-05-28 16:20:04] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-28 16:20:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PTMP
+[2024-05-28 16:20:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: djangoldp-energiepartagee
+[2024-05-28 16:20:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: agricore_sp_models
+[2024-05-28 16:20:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: brightest-path-lib
+[2024-05-28 16:20:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: c2cciutils
+[2024-05-28 16:20:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dean-utils
+[2024-05-28 16:20:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: eventsourcing
+[2024-05-28 16:20:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: turbodialog
+[2024-05-28 16:20:05] WARNING root fetch - processPackages [PTMP]: Skipping, unable to determine old version
+[2024-05-28 16:20:05] INFO root fetch - main [MainThread]: End processing [PTMP] error
+[2024-05-28 16:20:05] WARNING root fetch - processPackages [turbodialog]: Skipping, unable to determine old version
+[2024-05-28 16:20:05] INFO root fetch - main [MainThread]: End processing [turbodialog] error
+[2024-05-28 16:20:05] INFO root fetch - processPackages [dean-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-28 16:20:05] INFO root fetch - processPackages [agricore_sp_models]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-28 16:20:05] INFO root fetch - processPackages [brightest-path-lib]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-28 16:20:05] INFO root fetch - processPackages [c2cciutils]: New version: [1.7.0.dev99] Old Version: [1.7.0.dev98]
+[2024-05-28 16:20:05] INFO root fetch - processPackages [eventsourcing]: New version: [9.3.0b1] Old Version: [9.3.0a1]
+[2024-05-28 16:20:05] INFO root fetch - processPackages [djangoldp-energiepartagee]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-28 16:20:05] INFO root fetch - processPackages [dean-utils]: Downloading https://files.pythonhosted.org/packages/e3/c8/1d6edc30de862026ec9432ff6e345932cf0e0fe3a209463e1e3f9094025a/dean_utils-0.0.8.tar.gz
+[2024-05-28 16:20:05] INFO root fetch - processPackages [agricore_sp_models]: Downloading https://files.pythonhosted.org/packages/99/3b/b1847ba262596ccdb2f2745d722aa75dade6d77edde9077aa24e0867d5f0/agricore_sp_models-0.5.8.tar.gz
+[2024-05-28 16:20:05] INFO root fetch - processPackages [brightest-path-lib]: Downloading https://files.pythonhosted.org/packages/16/35/0435bb304df5bfa341c2723320673dff8222befa2a49cf7627fe76d649c8/brightest-path-lib-1.0.8.tar.gz
+[2024-05-28 16:20:05] INFO root fetch - processPackages [djangoldp-energiepartagee]: Downloading https://files.pythonhosted.org/packages/8f/be/55927dc3a0c5a56cfaee18bcf15d0303bf773302a1b499fd0c406fb5abcf/djangoldp_energiepartagee-2.0.8.tar.gz
+[2024-05-28 16:20:05] INFO root fetch - processPackages [eventsourcing]: Downloading https://files.pythonhosted.org/packages/ae/71/d673835aa4b383a12c902e9373656e7a3831b06e5899971151c1de02d844/eventsourcing-9.3.0a1.tar.gz
+[2024-05-28 16:20:05] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/62/aa/080c37692bc6af730809e32f5cb82932c00c5513d164349ff96537069e82/c2cciutils-1.7.0.dev98.tar.gz
+[2024-05-28 16:20:06] INFO root fetch - processPackages [agricore_sp_models]: Downloading https://files.pythonhosted.org/packages/4f/c3/15dc30bfa86b2dc97f35cb28d8ef45f99d8a64f480013f5b15c7b47dde11/agricore_sp_models-0.5.9.tar.gz
+[2024-05-28 16:20:06] INFO root fetch - processPackages [dean-utils]: Downloading https://files.pythonhosted.org/packages/76/2f/ebd69e2be447702b94870fddefbde30d022c0c4b92b4ff3de68e17b5412f/dean_utils-0.0.9.tar.gz
+[2024-05-28 16:20:06] INFO root fetch - processPackages [eventsourcing]: Downloading https://files.pythonhosted.org/packages/b9/e0/35b086bf24ed46cc6c2cdb81acd1dad9b33ae654ca31756a008ca43029d5/eventsourcing-9.3.0b1.tar.gz
+[2024-05-28 16:20:06] INFO root fetch - processPackages [djangoldp-energiepartagee]: Downloading https://files.pythonhosted.org/packages/f8/1a/601ffcfc692611b9fa43d0ff1fc56868c633b69bcf918abc8b4c2405c6cf/djangoldp_energiepartagee-2.0.9.tar.gz
+[2024-05-28 16:20:06] INFO root fetch - processPackages [agricore_sp_models]: executing diffoscope
+[2024-05-28 16:20:06] INFO root fetch - processPackages [agricore_sp_models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agricore_sp_models-0.5.8.tar.gz tmp/agricore_sp_models-0.5.9.tar.gz --markdown 20240528/a/agricore_sp_models/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-28 16:20:06] INFO root fetch - processPackages [dean-utils]: executing diffoscope
+[2024-05-28 16:20:06] INFO root fetch - processPackages [dean-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dean_utils-0.0.8.tar.gz tmp/dean_utils-0.0.9.tar.gz --markdown 20240528/d/dean-utils/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-28 16:20:06] INFO root fetch - processPackages [brightest-path-lib]: Downloading https://files.pythonhosted.org/packages/22/49/87d6c444f2bc3bbf7612f97223f34cb4152931bb71f0c6c77a3ca28aeb1a/brightest-path-lib-1.0.9.tar.gz
+[2024-05-28 16:20:06] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/0b/33/b4f2b2d1c9a7ae924ddcc8b7cbf69f1ed37a1a5f0faa155ac94becd05a90/c2cciutils-1.7.0.dev99.tar.gz
+[2024-05-28 16:20:06] INFO root fetch - processPackages [eventsourcing]: executing diffoscope
+[2024-05-28 16:20:06] INFO root fetch - processPackages [eventsourcing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eventsourcing-9.3.0a1.tar.gz tmp/eventsourcing-9.3.0b1.tar.gz --markdown 20240528/e/eventsourcing/9.3.0a1-9.3.0b1/README.md --exclude *.pyd
+[2024-05-28 16:20:06] INFO root fetch - processPackages [djangoldp-energiepartagee]: executing diffoscope
+[2024-05-28 16:20:06] INFO root fetch - processPackages [djangoldp-energiepartagee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_energiepartagee-2.0.8.tar.gz tmp/djangoldp_energiepartagee-2.0.9.tar.gz --markdown 20240528/d/djangoldp-energiepartagee/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-28 16:20:06] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2024-05-28 16:20:06] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.7.0.dev98.tar.gz tmp/c2cciutils-1.7.0.dev99.tar.gz --markdown 20240528/c/c2cciutils/1.7.0.dev98-1.7.0.dev99/README.md --exclude *.pyd
+[2024-05-28 16:20:06] INFO root fetch - processPackages [dean-utils]: Remove: archive file [/home/abi/fetcher/tmp/dean_utils-0.0.8.tar.gz]
+[2024-05-28 16:20:06] INFO root fetch - processPackages [dean-utils]: Remove: archive file [/home/abi/fetcher/tmp/dean_utils-0.0.9.tar.gz]
+[2024-05-28 16:20:06] INFO root fetch - main [MainThread]: End processing [dean-utils]: success
+[2024-05-28 16:20:06] INFO root fetch - processPackages [agricore_sp_models]: Remove: archive file [/home/abi/fetcher/tmp/agricore_sp_models-0.5.8.tar.gz]
+[2024-05-28 16:20:06] INFO root fetch - processPackages [agricore_sp_models]: Remove: archive file [/home/abi/fetcher/tmp/agricore_sp_models-0.5.9.tar.gz]
+[2024-05-28 16:20:06] INFO root fetch - main [MainThread]: End processing [agricore_sp_models]: success
+[2024-05-28 16:20:07] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.7.0.dev98.tar.gz]
+[2024-05-28 16:20:07] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.7.0.dev99.tar.gz]
+[2024-05-28 16:20:07] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2024-05-28 16:20:07] INFO root fetch - processPackages [eventsourcing]: Remove: archive file [/home/abi/fetcher/tmp/eventsourcing-9.3.0a1.tar.gz]
+[2024-05-28 16:20:07] INFO root fetch - processPackages [eventsourcing]: Remove: archive file [/home/abi/fetcher/tmp/eventsourcing-9.3.0b1.tar.gz]
+[2024-05-28 16:20:07] INFO root fetch - main [MainThread]: End processing [eventsourcing]: success
+[2024-05-28 16:20:07] INFO root fetch - processPackages [brightest-path-lib]: executing diffoscope
+[2024-05-28 16:20:07] INFO root fetch - processPackages [brightest-path-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brightest-path-lib-1.0.8.tar.gz tmp/brightest-path-lib-1.0.9.tar.gz --markdown 20240528/b/brightest-path-lib/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-28 16:20:07] INFO root fetch - processPackages [djangoldp-energiepartagee]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_energiepartagee-2.0.8.tar.gz]
+[2024-05-28 16:20:07] INFO root fetch - processPackages [djangoldp-energiepartagee]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_energiepartagee-2.0.9.tar.gz]
+[2024-05-28 16:20:07] INFO root fetch - main [MainThread]: End processing [djangoldp-energiepartagee]: success
+[2024-05-28 16:20:07] INFO root fetch - processPackages [brightest-path-lib]: Remove: archive file [/home/abi/fetcher/tmp/brightest-path-lib-1.0.8.tar.gz]
+[2024-05-28 16:20:07] INFO root fetch - processPackages [brightest-path-lib]: Remove: archive file [/home/abi/fetcher/tmp/brightest-path-lib-1.0.9.tar.gz]
+[2024-05-28 16:20:07] INFO root fetch - main [MainThread]: End processing [brightest-path-lib]: success
+[2024-05-28 16:20:07] INFO root fetch - main [MainThread]: Store serial: [23412784]
