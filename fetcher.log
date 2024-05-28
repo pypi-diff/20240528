@@ -2462,3 +2462,33 @@
 [2024-05-28 02:55:01] INFO root fetch - processPackages [esphome]: Remove: archive file [/home/abi/fetcher/tmp/esphome-2024.5.4.tar.gz]
 [2024-05-28 02:55:01] INFO root fetch - main [MainThread]: End processing [esphome]: success
 [2024-05-28 02:55:01] INFO root fetch - main [MainThread]: Store serial: [23403806]
+[2024-05-28 02:57:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23403806]
+[2024-05-28 02:57:10] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-28 02:57:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gmalglib
+[2024-05-28 02:57:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-lambda-layer-curl
+[2024-05-28 02:57:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bruhanimate
+[2024-05-28 02:57:10] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-28 02:57:10] INFO root fetch - processPackages [gmalglib]: New version: [0.5.6] Old Version: [0.5.5]
+[2024-05-28 02:57:10] INFO root fetch - processPackages [bruhanimate]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-28 02:57:10] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2024-05-28 02:57:10] INFO root fetch - processPackages [bruhanimate]: Downloading https://files.pythonhosted.org/packages/c6/57/095c701edc2b245ce61b81a58bbcffca96482e88b8959cf0f29bfff462f4/bruhanimate-0.2.8.tar.gz
+[2024-05-28 02:57:10] INFO root fetch - processPackages [gmalglib]: Downloading https://files.pythonhosted.org/packages/bd/f3/dff7070ac97a29ca24ce00436a0f4b4621e7f27ba3cc483898faa7630351/gmalglib-0.5.5.tar.gz
+[2024-05-28 02:57:11] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2024-05-28 02:57:11] INFO root fetch - processPackages [gmalglib]: Downloading https://files.pythonhosted.org/packages/62/c9/31b7f816b5e0ba1728ccaf39921a36e3ecd167d4c7ed822b4e579a989051/gmalglib-0.5.6.tar.gz
+[2024-05-28 02:57:11] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2024-05-28 02:57:11] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20240528/c/cdk-lambda-layer-curl/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-28 02:57:11] INFO root fetch - processPackages [bruhanimate]: Downloading https://files.pythonhosted.org/packages/2b/4a/71ab6f8b8a90ae4cbb391898ac5550ba56895062c0a9520b306d10c23329/bruhanimate-0.2.9.tar.gz
+[2024-05-28 02:57:11] INFO root fetch - processPackages [bruhanimate]: executing diffoscope
+[2024-05-28 02:57:11] INFO root fetch - processPackages [bruhanimate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bruhanimate-0.2.8.tar.gz tmp/bruhanimate-0.2.9.tar.gz --markdown 20240528/b/bruhanimate/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-28 02:57:11] INFO root fetch - processPackages [gmalglib]: executing diffoscope
+[2024-05-28 02:57:11] INFO root fetch - processPackages [gmalglib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmalglib-0.5.5.tar.gz tmp/gmalglib-0.5.6.tar.gz --markdown 20240528/g/gmalglib/0.5.5-0.5.6/README.md --exclude *.pyd
+[2024-05-28 02:57:12] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2024-05-28 02:57:12] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2024-05-28 02:57:12] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2024-05-28 02:57:12] INFO root fetch - processPackages [gmalglib]: Remove: archive file [/home/abi/fetcher/tmp/gmalglib-0.5.5.tar.gz]
+[2024-05-28 02:57:12] INFO root fetch - processPackages [gmalglib]: Remove: archive file [/home/abi/fetcher/tmp/gmalglib-0.5.6.tar.gz]
+[2024-05-28 02:57:12] INFO root fetch - main [MainThread]: End processing [gmalglib]: success
+[2024-05-28 02:57:12] INFO root fetch - processPackages [bruhanimate]: Remove: archive file [/home/abi/fetcher/tmp/bruhanimate-0.2.8.tar.gz]
+[2024-05-28 02:57:12] INFO root fetch - processPackages [bruhanimate]: Remove: archive file [/home/abi/fetcher/tmp/bruhanimate-0.2.9.tar.gz]
+[2024-05-28 02:57:12] INFO root fetch - main [MainThread]: End processing [bruhanimate]: success
+[2024-05-28 02:57:12] INFO root fetch - main [MainThread]: Store serial: [23403818]
