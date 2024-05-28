@@ -5175,3 +5175,42 @@
 [2024-05-28 05:52:21] INFO root fetch - processPackages [XiaoqiangUpdater]: Remove: archive file [/home/abi/fetcher/tmp/xiaoqiangupdater-1.0.1.tar.gz]
 [2024-05-28 05:52:21] INFO root fetch - main [MainThread]: End processing [XiaoqiangUpdater]: success
 [2024-05-28 05:52:21] INFO root fetch - main [MainThread]: Store serial: [23404880]
+[2024-05-28 05:54:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23404880]
+[2024-05-28 05:54:30] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-28 05:54:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nanababa
+[2024-05-28 05:54:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: EasyDrive
+[2024-05-28 05:54:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: asciiscape
+[2024-05-28 05:54:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addons-oca-delivery-carrier
+[2024-05-28 05:54:30] INFO root fetch - processPackages [nanababa]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-28 05:54:30] INFO root fetch - processPackages [asciiscape]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-05-28 05:54:30] INFO root fetch - processPackages [EasyDrive]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-28 05:54:30] INFO root fetch - processPackages [nanababa]: Downloading https://files.pythonhosted.org/packages/f7/3d/a4c932ae6262eb430cc0857f311ea158788c70ab8c5aaafd9c93acd4b2f5/nanababa-0.1.1-py3-none-any.whl
+[2024-05-28 05:54:30] INFO root fetch - processPackages [EasyDrive]: Downloading https://files.pythonhosted.org/packages/25/4b/ece8fff962e68bad1b92ada82eea2409ca2421112e03dca297940eb34e8c/easydrive-0.0.3.tar.gz
+[2024-05-28 05:54:30] INFO root fetch - processPackages [odoo14-addons-oca-delivery-carrier]: New version: [14.0.20240527.0] Old Version: [14.0.20240518.0]
+[2024-05-28 05:54:30] INFO root fetch - processPackages [asciiscape]: Downloading https://files.pythonhosted.org/packages/34/b1/64ccd24cbe2840ab20fdb330d9ff6bf74eebb974fde56374761ece6cd9e8/asciiscape-0.0.1.tar.gz
+[2024-05-28 05:54:30] INFO root fetch - processPackages [odoo14-addons-oca-delivery-carrier]: Downloading https://files.pythonhosted.org/packages/c9/e0/58dd1ffbce77d5da98286bc2d54913009ce04588ec1a701742b0ccd4faf2/odoo14_addons_oca_delivery_carrier-14.0.20240518.0-py3-none-any.whl
+[2024-05-28 05:54:30] INFO root fetch - processPackages [EasyDrive]: Downloading https://files.pythonhosted.org/packages/be/bf/db7528ab3341c1ae7fa9458f6d0c3ea8c29a0a2b32c97f9f134833e93bb8/easydrive-0.0.4.tar.gz
+[2024-05-28 05:54:30] INFO root fetch - processPackages [nanababa]: Downloading https://files.pythonhosted.org/packages/ec/41/9f8a5e3599935ef5082b881a2a689aec6e65e8ceb6135d49b9989b4864db/nanababa-0.1.2.tar.gz
+[2024-05-28 05:54:30] INFO root fetch - processPackages [asciiscape]: Downloading https://files.pythonhosted.org/packages/3d/e8/faadd2f790ec361564fc991d123232b18af83099536de2f8ce88cefff505/asciiscape-0.1.0.tar.gz
+[2024-05-28 05:54:30] INFO root fetch - processPackages [EasyDrive]: executing diffoscope
+[2024-05-28 05:54:30] INFO root fetch - processPackages [EasyDrive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easydrive-0.0.3.tar.gz tmp/easydrive-0.0.4.tar.gz --markdown 20240528/E/EasyDrive/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-28 05:54:30] INFO root fetch - processPackages [nanababa]: executing diffoscope
+[2024-05-28 05:54:30] INFO root fetch - processPackages [nanababa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanababa-0.1.1-py3-none-any.whl.zip tmp/nanababa-0.1.2.tar.gz --markdown 20240528/n/nanababa/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-28 05:54:30] INFO root fetch - processPackages [odoo14-addons-oca-delivery-carrier]: Downloading https://files.pythonhosted.org/packages/55/1b/7b961b69406072ab76b7ab8a7919b7f1f95314c283ef64fcddf24593e121/odoo14_addons_oca_delivery_carrier-14.0.20240527.0-py3-none-any.whl
+[2024-05-28 05:54:30] INFO root fetch - processPackages [asciiscape]: executing diffoscope
+[2024-05-28 05:54:30] INFO root fetch - processPackages [asciiscape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asciiscape-0.0.1.tar.gz tmp/asciiscape-0.1.0.tar.gz --markdown 20240528/a/asciiscape/0.0.1-0.1.0/README.md --exclude *.pyd
+[2024-05-28 05:54:30] INFO root fetch - processPackages [odoo14-addons-oca-delivery-carrier]: executing diffoscope
+[2024-05-28 05:54:30] INFO root fetch - processPackages [odoo14-addons-oca-delivery-carrier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_delivery_carrier-14.0.20240518.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_delivery_carrier-14.0.20240527.0-py3-none-any.whl.zip --markdown 20240528/o/odoo14-addons-oca-delivery-carrier/14.0.20240518.0-14.0.20240527.0/README.md --exclude *.pyd
+[2024-05-28 05:54:31] INFO root fetch - processPackages [nanababa]: Remove: archive file [/home/abi/fetcher/tmp/nanababa-0.1.1-py3-none-any.whl.zip]
+[2024-05-28 05:54:31] INFO root fetch - processPackages [nanababa]: Remove: archive file [/home/abi/fetcher/tmp/nanababa-0.1.2.tar.gz]
+[2024-05-28 05:54:31] INFO root fetch - main [MainThread]: End processing [nanababa]: success
+[2024-05-28 05:54:31] INFO root fetch - processPackages [EasyDrive]: Remove: archive file [/home/abi/fetcher/tmp/easydrive-0.0.3.tar.gz]
+[2024-05-28 05:54:31] INFO root fetch - processPackages [EasyDrive]: Remove: archive file [/home/abi/fetcher/tmp/easydrive-0.0.4.tar.gz]
+[2024-05-28 05:54:31] INFO root fetch - main [MainThread]: End processing [EasyDrive]: success
+[2024-05-28 05:54:31] INFO root fetch - processPackages [odoo14-addons-oca-delivery-carrier]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_delivery_carrier-14.0.20240518.0-py3-none-any.whl.zip]
+[2024-05-28 05:54:31] INFO root fetch - processPackages [odoo14-addons-oca-delivery-carrier]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_delivery_carrier-14.0.20240527.0-py3-none-any.whl.zip]
+[2024-05-28 05:54:31] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-delivery-carrier]: success
+[2024-05-28 05:54:31] INFO root fetch - processPackages [asciiscape]: Remove: archive file [/home/abi/fetcher/tmp/asciiscape-0.0.1.tar.gz]
+[2024-05-28 05:54:31] INFO root fetch - processPackages [asciiscape]: Remove: archive file [/home/abi/fetcher/tmp/asciiscape-0.1.0.tar.gz]
+[2024-05-28 05:54:31] INFO root fetch - main [MainThread]: End processing [asciiscape]: success
+[2024-05-28 05:54:31] INFO root fetch - main [MainThread]: Store serial: [23404890]
