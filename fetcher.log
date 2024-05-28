@@ -1737,3 +1737,39 @@
 [2024-05-28 02:05:50] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.1.0.20240527.425.tar.gz]
 [2024-05-28 02:05:50] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
 [2024-05-28 02:05:50] INFO root fetch - main [MainThread]: Store serial: [23403509]
+[2024-05-28 02:07:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23403509]
+[2024-05-28 02:07:59] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-28 02:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eth-mnemonic-to-key
+[2024-05-28 02:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: seamm
+[2024-05-28 02:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jaxutils-nightly
+[2024-05-28 02:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: compressed-tensors-nightly
+[2024-05-28 02:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flask-bootstrap-extendeds
+[2024-05-28 02:07:59] INFO root fetch - processPackages [compressed-tensors-nightly]: New version: [0.3.3.20240527] Old Version: [0.3.3.20240526]
+[2024-05-28 02:07:59] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20240527] Old Version: [0.0.8.dev20240526]
+[2024-05-28 02:07:59] INFO root fetch - processPackages [compressed-tensors-nightly]: Downloading https://files.pythonhosted.org/packages/5a/47/519bbb031fff8bc23ff8b30d21b19027eedb467b6e540517832f6c682d87/compressed_tensors_nightly-0.3.3.20240526-py3-none-any.whl
+[2024-05-28 02:07:59] WARNING root fetch - processPackages [eth-mnemonic-to-key]: Skipping, unable to determine old version
+[2024-05-28 02:07:59] INFO root fetch - main [MainThread]: End processing [eth-mnemonic-to-key] error
+[2024-05-28 02:07:59] WARNING root fetch - processPackages [flask-bootstrap-extendeds]: Skipping, unable to determine old version
+[2024-05-28 02:07:59] INFO root fetch - main [MainThread]: End processing [flask-bootstrap-extendeds] error
+[2024-05-28 02:07:59] INFO root fetch - processPackages [seamm]: New version: [220.8.3] Old Version: [2024.5.3.1]
+[2024-05-28 02:07:59] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/1b/54/d9f9767294d3c4652886d6d2d10f95db12c8d461803f3c9395d111a0e69b/jaxutils-nightly-0.0.8.dev20240526.tar.gz
+[2024-05-28 02:07:59] INFO root fetch - processPackages [seamm]: Downloading https://files.pythonhosted.org/packages/5c/3a/3ff97f8f1ee053a7340cdad16894854c31f75ad74b5d38b7b139fe62e75a/seamm-2024.5.3.1.tar.gz
+[2024-05-28 02:07:59] INFO root fetch - processPackages [compressed-tensors-nightly]: Downloading https://files.pythonhosted.org/packages/71/70/defe6ca19c8d153923b44c4f75d9c205a5e1b6523346381fcfeabbbd9ce5/compressed_tensors_nightly-0.3.3.20240527-py3-none-any.whl
+[2024-05-28 02:07:59] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/fd/e8/d9555483a61a121d7a9bc80417bb3ab3dfffb0ebd7ee2147353e7e09e145/jaxutils-nightly-0.0.8.dev20240527.tar.gz
+[2024-05-28 02:07:59] INFO root fetch - processPackages [compressed-tensors-nightly]: executing diffoscope
+[2024-05-28 02:07:59] INFO root fetch - processPackages [compressed-tensors-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compressed_tensors_nightly-0.3.3.20240526-py3-none-any.whl.zip tmp/compressed_tensors_nightly-0.3.3.20240527-py3-none-any.whl.zip --markdown 20240528/c/compressed-tensors-nightly/0.3.3.20240526-0.3.3.20240527/README.md --exclude *.pyd
+[2024-05-28 02:07:59] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2024-05-28 02:07:59] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20240526.tar.gz tmp/jaxutils-nightly-0.0.8.dev20240527.tar.gz --markdown 20240528/j/jaxutils-nightly/0.0.8.dev20240526-0.0.8.dev20240527/README.md --exclude *.pyd
+[2024-05-28 02:08:00] INFO root fetch - processPackages [seamm]: Downloading https://files.pythonhosted.org/packages/73/a6/b374fc37a4d9a1891852ea20c1c820584f15f1a55e0d2f73b4b733637218/seamm-220.8.3.tar.gz
+[2024-05-28 02:08:00] INFO root fetch - processPackages [seamm]: executing diffoscope
+[2024-05-28 02:08:00] INFO root fetch - processPackages [seamm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seamm-2024.5.3.1.tar.gz tmp/seamm-220.8.3.tar.gz --markdown 20240528/s/seamm/2024.5.3.1-220.8.3/README.md --exclude *.pyd
+[2024-05-28 02:08:00] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20240526.tar.gz]
+[2024-05-28 02:08:00] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20240527.tar.gz]
+[2024-05-28 02:08:00] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2024-05-28 02:08:00] INFO root fetch - processPackages [compressed-tensors-nightly]: Remove: archive file [/home/abi/fetcher/tmp/compressed_tensors_nightly-0.3.3.20240526-py3-none-any.whl.zip]
+[2024-05-28 02:08:00] INFO root fetch - processPackages [compressed-tensors-nightly]: Remove: archive file [/home/abi/fetcher/tmp/compressed_tensors_nightly-0.3.3.20240527-py3-none-any.whl.zip]
+[2024-05-28 02:08:00] INFO root fetch - main [MainThread]: End processing [compressed-tensors-nightly]: success
+[2024-05-28 02:08:00] INFO root fetch - processPackages [seamm]: Remove: archive file [/home/abi/fetcher/tmp/seamm-2024.5.3.1.tar.gz]
+[2024-05-28 02:08:00] INFO root fetch - processPackages [seamm]: Remove: archive file [/home/abi/fetcher/tmp/seamm-220.8.3.tar.gz]
+[2024-05-28 02:08:00] INFO root fetch - main [MainThread]: End processing [seamm]: success
+[2024-05-28 02:08:00] INFO root fetch - main [MainThread]: Store serial: [23403528]
