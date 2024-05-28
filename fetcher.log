@@ -20822,3 +20822,74 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 15:28:04] INFO root fetch - processPackages [tmlt-analytics]: Remove: archive file [/home/abi/fetcher/tmp/tmlt_analytics-0.9.0rc6.tar.gz]
 [2024-05-28 15:28:04] INFO root fetch - main [MainThread]: End processing [tmlt-analytics]: success
 [2024-05-28 15:28:04] INFO root fetch - main [MainThread]: Store serial: [23411902]
+[2024-05-28 15:30:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23411902]
+[2024-05-28 15:30:13] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-28 15:30:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hangulpy
+[2024-05-28 15:30:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: netron
+[2024-05-28 15:30:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Nimbus-Splash
+[2024-05-28 15:30:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-project-manager
+[2024-05-28 15:30:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mkdocs-ai-summary
+[2024-05-28 15:30:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: SynapseTrie
+[2024-05-28 15:30:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spaceone-inventory
+[2024-05-28 15:30:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: modelagnosticsafeaipackage
+[2024-05-28 15:30:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: slackattack
+[2024-05-28 15:30:13] INFO root fetch - processPackages [modelagnosticsafeaipackage]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-28 15:30:13] INFO root fetch - processPackages [slackattack]: New version: [1.1.7] Old Version: [1.1.6]
+[2024-05-28 15:30:13] WARNING root fetch - processPackages [hangulpy]: Skipping, unable to determine old version
+[2024-05-28 15:30:13] INFO root fetch - main [MainThread]: End processing [hangulpy] error
+[2024-05-28 15:30:13] INFO root fetch - processPackages [mkdocs-ai-summary]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-28 15:30:13] INFO root fetch - processPackages [modelagnosticsafeaipackage]: Downloading https://files.pythonhosted.org/packages/53/84/b88abda3a1cf1f96ac81fa29d447db4496406d481a62a6a970d342c1e0e0/modelagnosticsafeaipackage-0.3.0.tar.gz
+[2024-05-28 15:30:13] INFO root fetch - processPackages [slackattack]: Downloading https://files.pythonhosted.org/packages/34/96/54034b0acc7760d1f9ed75e93617175405c1da73193a9ba164d71e606dcd/slackattack-1.1.6.tar.gz
+[2024-05-28 15:30:13] INFO root fetch - processPackages [python-project-manager]: New version: [2.1.2] Old Version: [2.1.1]
+[2024-05-28 15:30:13] WARNING root fetch - processPackages [SynapseTrie]: Skipping, unable to determine old version
+[2024-05-28 15:30:13] INFO root fetch - main [MainThread]: End processing [SynapseTrie] error
+[2024-05-28 15:30:13] INFO root fetch - processPackages [netron]: New version: [7.7.0] Old Version: [7.6.9]
+[2024-05-28 15:30:13] INFO root fetch - processPackages [Nimbus-Splash]: New version: [1.6.0] Old Version: [1.5.0]
+[2024-05-28 15:30:13] INFO root fetch - processPackages [spaceone-inventory]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-05-28 15:30:13] INFO root fetch - processPackages [mkdocs-ai-summary]: Downloading https://files.pythonhosted.org/packages/42/c7/1933068e6d0a788f1c3a8ff4872ba56bf2ead4924d87d418ce4f5153c0e8/mkdocs_ai_summary-0.2.3.tar.gz
+[2024-05-28 15:30:13] INFO root fetch - processPackages [python-project-manager]: Downloading https://files.pythonhosted.org/packages/92/fb/751308bc774b4489f6134a957746e15520fe3a4a05dd44adebbe97e11e02/python_project_manager-2.1.1.tar.gz
+[2024-05-28 15:30:13] INFO root fetch - processPackages [Nimbus-Splash]: Downloading https://files.pythonhosted.org/packages/a4/58/db50af68e2a29dd6b13a3da4a7b871d708db38e31f94417a8adfad790bfa/nimbus_splash-1.5.0.tar.gz
+[2024-05-28 15:30:13] INFO root fetch - processPackages [netron]: Downloading https://files.pythonhosted.org/packages/83/7b/44d1156c46534a49796e9eef10286c6f5cf20712767248ea5038eaafc18f/netron-7.6.9-py3-none-any.whl
+[2024-05-28 15:30:14] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/2b/23/73e091142fbd007706604f94cc95718e79d9259d998aa9dd424fc7cc6f7f/spaceone-inventory-2.0.dev98.tar.gz
+[2024-05-28 15:30:14] INFO root fetch - processPackages [modelagnosticsafeaipackage]: Downloading https://files.pythonhosted.org/packages/b1/8b/eb16f37c953d4fd53b5d29b31a766574bec97818379fad8560a6aa72b446/modelagnosticsafeaipackage-0.4.0.tar.gz
+[2024-05-28 15:30:14] INFO root fetch - processPackages [slackattack]: Downloading https://files.pythonhosted.org/packages/60/14/9549218b3eb9a49a8f7157563a3983f7fd53ae5426da4f1cfcba31eb3858/slackattack-1.1.7.tar.gz
+[2024-05-28 15:30:14] INFO root fetch - processPackages [modelagnosticsafeaipackage]: executing diffoscope
+[2024-05-28 15:30:14] INFO root fetch - processPackages [modelagnosticsafeaipackage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelagnosticsafeaipackage-0.3.0.tar.gz tmp/modelagnosticsafeaipackage-0.4.0.tar.gz --markdown 20240528/m/modelagnosticsafeaipackage/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-28 15:30:14] INFO root fetch - processPackages [mkdocs-ai-summary]: Downloading https://files.pythonhosted.org/packages/8d/86/7dfc75e8870a0c73eb8d0e528fb37f72a4f5abbb94d2ea048cdfc3789c17/mkdocs_ai_summary-0.2.4.tar.gz
+[2024-05-28 15:30:14] INFO root fetch - processPackages [python-project-manager]: Downloading https://files.pythonhosted.org/packages/54/af/7c9ae4dbf012618617e8a8190485d60d2209b691492c2194b4ea61a40b0a/python_project_manager-2.1.2.tar.gz
+[2024-05-28 15:30:14] INFO root fetch - processPackages [Nimbus-Splash]: Downloading https://files.pythonhosted.org/packages/fc/4c/999fd145bded4f96d59c4ead62ce1e6d3e48cdac0f2a480bfc6728a10088/nimbus_splash-1.6.0.tar.gz
+[2024-05-28 15:30:14] INFO root fetch - processPackages [mkdocs-ai-summary]: executing diffoscope
+[2024-05-28 15:30:14] INFO root fetch - processPackages [mkdocs-ai-summary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_ai_summary-0.2.3.tar.gz tmp/mkdocs_ai_summary-0.2.4.tar.gz --markdown 20240528/m/mkdocs-ai-summary/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-05-28 15:30:14] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/e7/30/f1229bb9f69283d6576804b473d6fe73ff3118fb5543c89d48b18f899ca2/spaceone-inventory-2.0.dev99.tar.gz
+[2024-05-28 15:30:14] INFO root fetch - processPackages [slackattack]: executing diffoscope
+[2024-05-28 15:30:14] INFO root fetch - processPackages [slackattack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slackattack-1.1.6.tar.gz tmp/slackattack-1.1.7.tar.gz --markdown 20240528/s/slackattack/1.1.6-1.1.7/README.md --exclude *.pyd
+[2024-05-28 15:30:14] INFO root fetch - processPackages [netron]: Downloading https://files.pythonhosted.org/packages/1a/e8/6b2d653da51baf9b26a7b9ec1facfe42a16b679d5f00f1fec09712e15cb1/netron-7.7.0-py3-none-any.whl
+[2024-05-28 15:30:14] INFO root fetch - processPackages [Nimbus-Splash]: executing diffoscope
+[2024-05-28 15:30:14] INFO root fetch - processPackages [Nimbus-Splash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nimbus_splash-1.5.0.tar.gz tmp/nimbus_splash-1.6.0.tar.gz --markdown 20240528/N/Nimbus-Splash/1.5.0-1.6.0/README.md --exclude *.pyd
+[2024-05-28 15:30:14] INFO root fetch - processPackages [python-project-manager]: executing diffoscope
+[2024-05-28 15:30:14] INFO root fetch - processPackages [python-project-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_project_manager-2.1.1.tar.gz tmp/python_project_manager-2.1.2.tar.gz --markdown 20240528/p/python-project-manager/2.1.1-2.1.2/README.md --exclude *.pyd
+[2024-05-28 15:30:14] INFO root fetch - processPackages [spaceone-inventory]: executing diffoscope
+[2024-05-28 15:30:14] INFO root fetch - processPackages [spaceone-inventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-inventory-2.0.dev98.tar.gz tmp/spaceone-inventory-2.0.dev99.tar.gz --markdown 20240528/s/spaceone-inventory/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-05-28 15:30:14] INFO root fetch - processPackages [netron]: executing diffoscope
+[2024-05-28 15:30:14] INFO root fetch - processPackages [netron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netron-7.6.9-py3-none-any.whl.zip tmp/netron-7.7.0-py3-none-any.whl.zip --markdown 20240528/n/netron/7.6.9-7.7.0/README.md --exclude *.pyd
+[2024-05-28 15:30:14] INFO root fetch - processPackages [modelagnosticsafeaipackage]: Remove: archive file [/home/abi/fetcher/tmp/modelagnosticsafeaipackage-0.3.0.tar.gz]
+[2024-05-28 15:30:14] INFO root fetch - processPackages [modelagnosticsafeaipackage]: Remove: archive file [/home/abi/fetcher/tmp/modelagnosticsafeaipackage-0.4.0.tar.gz]
+[2024-05-28 15:30:14] INFO root fetch - main [MainThread]: End processing [modelagnosticsafeaipackage]: success
+[2024-05-28 15:30:15] INFO root fetch - processPackages [slackattack]: Remove: archive file [/home/abi/fetcher/tmp/slackattack-1.1.6.tar.gz]
+[2024-05-28 15:30:15] INFO root fetch - processPackages [slackattack]: Remove: archive file [/home/abi/fetcher/tmp/slackattack-1.1.7.tar.gz]
+[2024-05-28 15:30:15] INFO root fetch - main [MainThread]: End processing [slackattack]: success
+[2024-05-28 15:30:15] INFO root fetch - processPackages [mkdocs-ai-summary]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_ai_summary-0.2.3.tar.gz]
+[2024-05-28 15:30:15] INFO root fetch - processPackages [mkdocs-ai-summary]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_ai_summary-0.2.4.tar.gz]
+[2024-05-28 15:30:15] INFO root fetch - main [MainThread]: End processing [mkdocs-ai-summary]: success
+[2024-05-28 15:30:15] INFO root fetch - processPackages [python-project-manager]: Remove: archive file [/home/abi/fetcher/tmp/python_project_manager-2.1.1.tar.gz]
+[2024-05-28 15:30:15] INFO root fetch - processPackages [python-project-manager]: Remove: archive file [/home/abi/fetcher/tmp/python_project_manager-2.1.2.tar.gz]
+[2024-05-28 15:30:15] INFO root fetch - main [MainThread]: End processing [python-project-manager]: success
+[2024-05-28 15:30:15] INFO root fetch - processPackages [Nimbus-Splash]: Remove: archive file [/home/abi/fetcher/tmp/nimbus_splash-1.5.0.tar.gz]
+[2024-05-28 15:30:15] INFO root fetch - processPackages [Nimbus-Splash]: Remove: archive file [/home/abi/fetcher/tmp/nimbus_splash-1.6.0.tar.gz]
+[2024-05-28 15:30:15] INFO root fetch - main [MainThread]: End processing [Nimbus-Splash]: success
+[2024-05-28 15:30:15] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev98.tar.gz]
+[2024-05-28 15:30:15] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev99.tar.gz]
+[2024-05-28 15:30:15] INFO root fetch - main [MainThread]: End processing [spaceone-inventory]: success
+[2024-05-28 15:33:14] ERROR root fetch - processPackages [netron]: Timeout during execution of pkgdiff
+[2024-05-28 15:33:14] INFO root fetch - main [MainThread]: End processing [netron] error
+[2024-05-28 15:33:14] INFO root fetch - main [MainThread]: Store serial: [23411931]
