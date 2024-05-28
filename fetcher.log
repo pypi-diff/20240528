@@ -4639,3 +4639,42 @@
 [2024-05-28 05:15:07] INFO root fetch - processPackages [innova-controls]: Remove: archive file [/home/abi/fetcher/tmp/innova_controls-2.2.2.tar.gz]
 [2024-05-28 05:15:07] INFO root fetch - main [MainThread]: End processing [innova-controls]: success
 [2024-05-28 05:15:07] INFO root fetch - main [MainThread]: Store serial: [23404650]
+[2024-05-28 05:17:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23404650]
+[2024-05-28 05:17:16] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-28 05:17:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyvrp-shipment
+[2024-05-28 05:17:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tools-hjh
+[2024-05-28 05:17:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: keras-cv-nightly
+[2024-05-28 05:17:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: surfkit
+[2024-05-28 05:17:16] INFO root fetch - processPackages [keras-cv-nightly]: New version: [0.9.0.dev2024043000] Old Version: [0.9.0.dev2024042919]
+[2024-05-28 05:17:16] INFO root fetch - processPackages [surfkit]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-28 05:17:16] INFO root fetch - processPackages [tools-hjh]: New version: [2.6.7] Old Version: [2.6.6]
+[2024-05-28 05:17:16] INFO root fetch - processPackages [keras-cv-nightly]: Downloading https://files.pythonhosted.org/packages/bd/17/3faa9e969f58abadca2ff3a4053bed558afb777bae344f994feeeaf1cfd3/keras_cv_nightly-0.9.0.dev2024042919.tar.gz
+[2024-05-28 05:17:16] INFO root fetch - processPackages [pyvrp-shipment]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-28 05:17:16] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/c2/e4/d9d6efb4013a22047e07b2174dc8716a86fe2b3fe0652e6e1edddbde177b/surfkit-0.1.98.tar.gz
+[2024-05-28 05:17:16] INFO root fetch - processPackages [tools-hjh]: Downloading https://files.pythonhosted.org/packages/e6/c2/96c46f6640f8f2777253749b69a28808b9331a1301bd4e411bfe617d2551/tools_hjh-2.6.6.tar.gz
+[2024-05-28 05:17:16] INFO root fetch - processPackages [pyvrp-shipment]: Downloading https://files.pythonhosted.org/packages/d3/2d/c6c88ba339f7a7fce3d18e2dccea86ae4f9f7a2dd20fcad19c36faf1153c/pyvrp_shipment-0.1.0-py3-none-any.whl
+[2024-05-28 05:17:16] INFO root fetch - processPackages [keras-cv-nightly]: Downloading https://files.pythonhosted.org/packages/81/e8/990891e08c4d6686000132786b783a9e72d0cf684f6f44245f2949fd0e57/keras_cv_nightly-0.9.0.dev2024043000.tar.gz
+[2024-05-28 05:17:16] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/65/a8/bfc822b58240522d18c4cf24a25a6f2476da037058406af11377393fa476/surfkit-0.1.99.tar.gz
+[2024-05-28 05:17:16] INFO root fetch - processPackages [keras-cv-nightly]: executing diffoscope
+[2024-05-28 05:17:16] INFO root fetch - processPackages [keras-cv-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_cv_nightly-0.9.0.dev2024042919.tar.gz tmp/keras_cv_nightly-0.9.0.dev2024043000.tar.gz --markdown 20240528/k/keras-cv-nightly/0.9.0.dev2024042919-0.9.0.dev2024043000/README.md --exclude *.pyd
+[2024-05-28 05:17:16] INFO root fetch - processPackages [surfkit]: executing diffoscope
+[2024-05-28 05:17:16] INFO root fetch - processPackages [surfkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surfkit-0.1.98.tar.gz tmp/surfkit-0.1.99.tar.gz --markdown 20240528/s/surfkit/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-28 05:17:16] INFO root fetch - processPackages [tools-hjh]: Downloading https://files.pythonhosted.org/packages/16/ad/d898e7652b1f4d583a19dde4c1595b2386626e05871dbe261bf76b67e889/tools_hjh-2.6.7.tar.gz
+[2024-05-28 05:17:16] INFO root fetch - processPackages [pyvrp-shipment]: Downloading https://files.pythonhosted.org/packages/41/e2/82b4e92895b70059c5d86dd2f290f893cef422665713cbb41489607ad20e/pyvrp_shipment-0.1.1-py3-none-any.whl
+[2024-05-28 05:17:16] INFO root fetch - processPackages [pyvrp-shipment]: executing diffoscope
+[2024-05-28 05:17:16] INFO root fetch - processPackages [pyvrp-shipment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvrp_shipment-0.1.0-py3-none-any.whl.zip tmp/pyvrp_shipment-0.1.1-py3-none-any.whl.zip --markdown 20240528/p/pyvrp-shipment/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-28 05:17:17] INFO root fetch - processPackages [tools-hjh]: executing diffoscope
+[2024-05-28 05:17:17] INFO root fetch - processPackages [tools-hjh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tools_hjh-2.6.6.tar.gz tmp/tools_hjh-2.6.7.tar.gz --markdown 20240528/t/tools-hjh/2.6.6-2.6.7/README.md --exclude *.pyd
+[2024-05-28 05:17:17] INFO root fetch - processPackages [pyvrp-shipment]: Remove: archive file [/home/abi/fetcher/tmp/pyvrp_shipment-0.1.0-py3-none-any.whl.zip]
+[2024-05-28 05:17:17] INFO root fetch - processPackages [pyvrp-shipment]: Remove: archive file [/home/abi/fetcher/tmp/pyvrp_shipment-0.1.1-py3-none-any.whl.zip]
+[2024-05-28 05:17:17] INFO root fetch - main [MainThread]: End processing [pyvrp-shipment]: success
+[2024-05-28 05:17:17] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.98.tar.gz]
+[2024-05-28 05:17:17] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.99.tar.gz]
+[2024-05-28 05:17:17] INFO root fetch - main [MainThread]: End processing [surfkit]: success
+[2024-05-28 05:17:17] INFO root fetch - processPackages [tools-hjh]: Remove: archive file [/home/abi/fetcher/tmp/tools_hjh-2.6.6.tar.gz]
+[2024-05-28 05:17:17] INFO root fetch - processPackages [tools-hjh]: Remove: archive file [/home/abi/fetcher/tmp/tools_hjh-2.6.7.tar.gz]
+[2024-05-28 05:17:17] INFO root fetch - main [MainThread]: End processing [tools-hjh]: success
+[2024-05-28 05:17:18] INFO root fetch - processPackages [keras-cv-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_cv_nightly-0.9.0.dev2024042919.tar.gz]
+[2024-05-28 05:17:18] INFO root fetch - processPackages [keras-cv-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_cv_nightly-0.9.0.dev2024043000.tar.gz]
+[2024-05-28 05:17:18] INFO root fetch - main [MainThread]: End processing [keras-cv-nightly]: success
+[2024-05-28 05:17:18] INFO root fetch - main [MainThread]: Store serial: [23404661]
