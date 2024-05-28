@@ -13661,3 +13661,54 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 11:14:58] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
 [2024-05-28 11:14:58] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
 [2024-05-28 11:14:58] INFO root fetch - main [MainThread]: Store serial: [23408631]
+[2024-05-28 11:17:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23408631]
+[2024-05-28 11:17:07] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-28 11:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nvfuser-cu121
+[2024-05-28 11:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mia-vgg
+[2024-05-28 11:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hstrader
+[2024-05-28 11:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: muffin
+[2024-05-28 11:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nvfuser-cu118
+[2024-05-28 11:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: omspy
+[2024-05-28 11:17:07] INFO root fetch - processPackages [nvfuser-cu118]: New version: [0.2.5.dev20240527] Old Version: [0.2.5.dev20240526]
+[2024-05-28 11:17:07] INFO root fetch - processPackages [mia-vgg]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-28 11:17:07] INFO root fetch - processPackages [nvfuser-cu121]: New version: [0.2.5.dev20240527] Old Version: [0.2.5.dev20240526]
+[2024-05-28 11:17:07] INFO root fetch - processPackages [muffin]: New version: [0.99.3] Old Version: [0.99.2]
+[2024-05-28 11:17:07] WARNING root fetch - processPackages [hstrader]: Skipping, unable to determine old version
+[2024-05-28 11:17:07] INFO root fetch - main [MainThread]: End processing [hstrader] error
+[2024-05-28 11:17:07] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/5d/16/69e9ff08fe17e56335eadbc4501ee6dd574d6f8d41570411c7e88ac8d6ea/nvfuser_cu118-0.2.5.dev20240526.tar.gz
+[2024-05-28 11:17:07] INFO root fetch - processPackages [mia-vgg]: Downloading https://files.pythonhosted.org/packages/7d/99/89bc26b6fc0c4be64ccf67e364ca9e0df91458fd29d11e2358855b46e97d/mia_vgg-0.0.8.tar.gz
+[2024-05-28 11:17:07] INFO root fetch - processPackages [omspy]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-28 11:17:07] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/03/92/473541b79b99175e3589fff37a6d6ca18fd882a5ba9bdf19bfab857f60f6/nvfuser_cu121-0.2.5.dev20240526.tar.gz
+[2024-05-28 11:17:07] INFO root fetch - processPackages [muffin]: Downloading https://files.pythonhosted.org/packages/fc/fe/6a2f0f6019f0fee3612848583c12b64310c2871d6491d21e511af7b3b23f/muffin-0.99.2.tar.gz
+[2024-05-28 11:17:07] INFO root fetch - processPackages [mia-vgg]: Downloading https://files.pythonhosted.org/packages/cc/39/4b0634a6c0cfb889300cdd32b0b9e896e244894df317465107e5a88463b0/mia_vgg-0.0.9.tar.gz
+[2024-05-28 11:17:07] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/95/29/55e4553604e201f4b93fae56452078841d67769ce7cdd1a25dc2fb350754/nvfuser_cu121-0.2.5.dev20240527.tar.gz
+[2024-05-28 11:17:07] INFO root fetch - processPackages [omspy]: Downloading https://files.pythonhosted.org/packages/89/da/13dd50c5057cb20d1f1dfd59d8fa8239c28775ada5acb478fd81e71a8edf/omspy-0.9.0.tar.gz
+[2024-05-28 11:17:07] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/a4/07/9800b78f10c375627b7e157bb3e9b6c76ab419a08d07ba7d5af171ab167f/nvfuser_cu118-0.2.5.dev20240527.tar.gz
+[2024-05-28 11:17:07] INFO root fetch - processPackages [mia-vgg]: executing diffoscope
+[2024-05-28 11:17:07] INFO root fetch - processPackages [mia-vgg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mia_vgg-0.0.8.tar.gz tmp/mia_vgg-0.0.9.tar.gz --markdown 20240528/m/mia-vgg/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-28 11:17:07] INFO root fetch - processPackages [nvfuser-cu121]: executing diffoscope
+[2024-05-28 11:17:07] INFO root fetch - processPackages [nvfuser-cu121]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu121-0.2.5.dev20240526.tar.gz tmp/nvfuser_cu121-0.2.5.dev20240527.tar.gz --markdown 20240528/n/nvfuser-cu121/0.2.5.dev20240526-0.2.5.dev20240527/README.md --exclude *.pyd
+[2024-05-28 11:17:08] INFO root fetch - processPackages [nvfuser-cu118]: executing diffoscope
+[2024-05-28 11:17:08] INFO root fetch - processPackages [nvfuser-cu118]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu118-0.2.5.dev20240526.tar.gz tmp/nvfuser_cu118-0.2.5.dev20240527.tar.gz --markdown 20240528/n/nvfuser-cu118/0.2.5.dev20240526-0.2.5.dev20240527/README.md --exclude *.pyd
+[2024-05-28 11:17:08] INFO root fetch - processPackages [muffin]: Downloading https://files.pythonhosted.org/packages/79/0d/3a802c1a84f14b560c1eaeba64037dfe8976a2e2c0c1ecb74ccb1854180e/muffin-0.99.3.tar.gz
+[2024-05-28 11:17:08] INFO root fetch - processPackages [omspy]: Downloading https://files.pythonhosted.org/packages/e3/3f/57e49ea70efb1fcb3d40210e9e1fa481e6605c4de98a3deb18880fc3fdff/omspy-0.9.1.tar.gz
+[2024-05-28 11:17:08] INFO root fetch - processPackages [muffin]: executing diffoscope
+[2024-05-28 11:17:08] INFO root fetch - processPackages [muffin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muffin-0.99.2.tar.gz tmp/muffin-0.99.3.tar.gz --markdown 20240528/m/muffin/0.99.2-0.99.3/README.md --exclude *.pyd
+[2024-05-28 11:17:08] INFO root fetch - processPackages [omspy]: executing diffoscope
+[2024-05-28 11:17:08] INFO root fetch - processPackages [omspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omspy-0.9.0.tar.gz tmp/omspy-0.9.1.tar.gz --markdown 20240528/o/omspy/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-28 11:17:08] INFO root fetch - processPackages [mia-vgg]: Remove: archive file [/home/abi/fetcher/tmp/mia_vgg-0.0.8.tar.gz]
+[2024-05-28 11:17:08] INFO root fetch - processPackages [mia-vgg]: Remove: archive file [/home/abi/fetcher/tmp/mia_vgg-0.0.9.tar.gz]
+[2024-05-28 11:17:08] INFO root fetch - main [MainThread]: End processing [mia-vgg]: success
+[2024-05-28 11:17:08] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.2.5.dev20240526.tar.gz]
+[2024-05-28 11:17:08] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.2.5.dev20240527.tar.gz]
+[2024-05-28 11:17:08] INFO root fetch - main [MainThread]: End processing [nvfuser-cu118]: success
+[2024-05-28 11:17:08] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.2.5.dev20240526.tar.gz]
+[2024-05-28 11:17:08] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.2.5.dev20240527.tar.gz]
+[2024-05-28 11:17:08] INFO root fetch - main [MainThread]: End processing [nvfuser-cu121]: success
+[2024-05-28 11:17:08] INFO root fetch - processPackages [muffin]: Remove: archive file [/home/abi/fetcher/tmp/muffin-0.99.2.tar.gz]
+[2024-05-28 11:17:08] INFO root fetch - processPackages [muffin]: Remove: archive file [/home/abi/fetcher/tmp/muffin-0.99.3.tar.gz]
+[2024-05-28 11:17:08] INFO root fetch - main [MainThread]: End processing [muffin]: success
+[2024-05-28 11:17:08] INFO root fetch - processPackages [omspy]: Remove: archive file [/home/abi/fetcher/tmp/omspy-0.9.0.tar.gz]
+[2024-05-28 11:17:08] INFO root fetch - processPackages [omspy]: Remove: archive file [/home/abi/fetcher/tmp/omspy-0.9.1.tar.gz]
+[2024-05-28 11:17:08] INFO root fetch - main [MainThread]: End processing [omspy]: success
+[2024-05-28 11:17:08] INFO root fetch - main [MainThread]: Store serial: [23408651]
