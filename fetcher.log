@@ -10692,3 +10692,33 @@
 [2024-05-28 09:47:00] INFO root fetch - processPackages [riscv-config]: Remove: archive file [/home/abi/fetcher/tmp/riscv_config-3.9.2.tar.gz]
 [2024-05-28 09:47:00] INFO root fetch - main [MainThread]: End processing [riscv-config]: success
 [2024-05-28 09:47:00] INFO root fetch - main [MainThread]: Store serial: [23407258]
+[2024-05-28 09:49:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23407258]
+[2024-05-28 09:49:08] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-28 09:49:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: emotion-analysis
+[2024-05-28 09:49:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nftpy
+[2024-05-28 09:49:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datamarket
+[2024-05-28 09:49:08] INFO root fetch - processPackages [datamarket]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-28 09:49:08] INFO root fetch - processPackages [nftpy]: New version: [1.1.0] Old Version: [1.0.2]
+[2024-05-28 09:49:08] INFO root fetch - processPackages [emotion-analysis]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-28 09:49:09] INFO root fetch - processPackages [nftpy]: Downloading https://files.pythonhosted.org/packages/77/02/b5b2d9c24fe381a2c3367d3f0c938c53b09c0785a18ce01ca4972b58b0dc/nftpy-1.0.2.tar.gz
+[2024-05-28 09:49:09] INFO root fetch - processPackages [emotion-analysis]: Downloading https://files.pythonhosted.org/packages/6f/cb/1056a95d4575efa325d1ac2625c6cc7dee1d8bc39ffe809be607e085eb70/emotion_analysis-0.1.3.tar.gz
+[2024-05-28 09:49:09] INFO root fetch - processPackages [datamarket]: Downloading https://files.pythonhosted.org/packages/ce/ea/a4fbc93ef1bfa26be26a91524eb373c9e6c5451a74213d73c642fff65f5a/datamarket-0.5.8.tar.gz
+[2024-05-28 09:49:09] INFO root fetch - processPackages [emotion-analysis]: Downloading https://files.pythonhosted.org/packages/50/3e/24a62dd5e5cfd7033576d9903da27bcaa5e0319ca4f54ee2f42998d10842/emotion_analysis-0.1.4.tar.gz
+[2024-05-28 09:49:09] INFO root fetch - processPackages [nftpy]: Downloading https://files.pythonhosted.org/packages/66/14/c9901e9993a45975084211c2def0cfcab4e36925dc51692bb54f7ccc1faa/nftpy-1.1.0.tar.gz
+[2024-05-28 09:49:09] INFO root fetch - processPackages [datamarket]: Downloading https://files.pythonhosted.org/packages/16/8e/507a86263e1f893be2b058029d3591f30f2b280b549f398c3137a18b5af2/datamarket-0.5.9.tar.gz
+[2024-05-28 09:49:09] INFO root fetch - processPackages [nftpy]: executing diffoscope
+[2024-05-28 09:49:09] INFO root fetch - processPackages [emotion-analysis]: executing diffoscope
+[2024-05-28 09:49:09] INFO root fetch - processPackages [emotion-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emotion_analysis-0.1.3.tar.gz tmp/emotion_analysis-0.1.4.tar.gz --markdown 20240528/e/emotion-analysis/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-28 09:49:09] INFO root fetch - processPackages [nftpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nftpy-1.0.2.tar.gz tmp/nftpy-1.1.0.tar.gz --markdown 20240528/n/nftpy/1.0.2-1.1.0/README.md --exclude *.pyd
+[2024-05-28 09:49:09] INFO root fetch - processPackages [datamarket]: executing diffoscope
+[2024-05-28 09:49:09] INFO root fetch - processPackages [datamarket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamarket-0.5.8.tar.gz tmp/datamarket-0.5.9.tar.gz --markdown 20240528/d/datamarket/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-28 09:49:10] INFO root fetch - processPackages [emotion-analysis]: Remove: archive file [/home/abi/fetcher/tmp/emotion_analysis-0.1.3.tar.gz]
+[2024-05-28 09:49:10] INFO root fetch - processPackages [emotion-analysis]: Remove: archive file [/home/abi/fetcher/tmp/emotion_analysis-0.1.4.tar.gz]
+[2024-05-28 09:49:10] INFO root fetch - main [MainThread]: End processing [emotion-analysis]: success
+[2024-05-28 09:49:10] INFO root fetch - processPackages [datamarket]: Remove: archive file [/home/abi/fetcher/tmp/datamarket-0.5.8.tar.gz]
+[2024-05-28 09:49:10] INFO root fetch - processPackages [datamarket]: Remove: archive file [/home/abi/fetcher/tmp/datamarket-0.5.9.tar.gz]
+[2024-05-28 09:49:10] INFO root fetch - main [MainThread]: End processing [datamarket]: success
+[2024-05-28 09:49:10] INFO root fetch - processPackages [nftpy]: Remove: archive file [/home/abi/fetcher/tmp/nftpy-1.0.2.tar.gz]
+[2024-05-28 09:49:10] INFO root fetch - processPackages [nftpy]: Remove: archive file [/home/abi/fetcher/tmp/nftpy-1.1.0.tar.gz]
+[2024-05-28 09:49:10] INFO root fetch - main [MainThread]: End processing [nftpy]: success
+[2024-05-28 09:49:10] INFO root fetch - main [MainThread]: Store serial: [23407265]
