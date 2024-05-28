@@ -15210,3 +15210,54 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 12:04:18] INFO root fetch - processPackages [cw-rpa]: Remove: archive file [/home/abi/fetcher/tmp/cw_rpa-0.1.0b1-py3-none-any.whl.zip]
 [2024-05-28 12:04:18] INFO root fetch - main [MainThread]: End processing [cw-rpa]: success
 [2024-05-28 12:04:18] INFO root fetch - main [MainThread]: Store serial: [23409274]
+[2024-05-28 12:06:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23409274]
+[2024-05-28 12:06:27] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-28 12:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: radiverse
+[2024-05-28 12:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ding-api-client
+[2024-05-28 12:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CI-CloudConnector
+[2024-05-28 12:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sl2pm
+[2024-05-28 12:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: anemoi-utils
+[2024-05-28 12:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: uvx
+[2024-05-28 12:06:27] INFO root fetch - processPackages [anemoi-utils]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-05-28 12:06:27] INFO root fetch - processPackages [CI-CloudConnector]: New version: [0.92] Old Version: [0.91]
+[2024-05-28 12:06:27] WARNING root fetch - processPackages [radiverse]: Skipping, unable to determine old version
+[2024-05-28 12:06:27] INFO root fetch - main [MainThread]: End processing [radiverse] error
+[2024-05-28 12:06:27] INFO root fetch - processPackages [ding-api-client]: New version: [3.7.3] Old Version: [3.7.2]
+[2024-05-28 12:06:27] INFO root fetch - processPackages [sl2pm]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-28 12:06:27] INFO root fetch - processPackages [CI-CloudConnector]: Downloading https://files.pythonhosted.org/packages/9a/be/82c5931eb70e919e51112b1548f58d37aaf1659f6f5781436e9bef76a23b/ci_cloudconnector-0.91.tar.gz
+[2024-05-28 12:06:27] INFO root fetch - processPackages [anemoi-utils]: Downloading https://files.pythonhosted.org/packages/6c/ad/df205321d8438cd0f2c647df80dcdf7516de87aa2cb99e1e215f4d0f0cca/anemoi_utils-0.1.9.tar.gz
+[2024-05-28 12:06:27] INFO root fetch - processPackages [uvx]: New version: [2.2.0] Old Version: [2.1.0]
+[2024-05-28 12:06:27] INFO root fetch - processPackages [ding-api-client]: Downloading https://files.pythonhosted.org/packages/6a/1b/888efed9e17b067cf420ae651820882ac6c835a5fa6bbf069597d6741df3/ding_api_client-3.7.2.tar.gz
+[2024-05-28 12:06:27] INFO root fetch - processPackages [anemoi-utils]: Downloading https://files.pythonhosted.org/packages/8b/e1/9b14718c5ab5b719cd00b20dde5649ce95a2cfed394ca962bf0fdcc17049/anemoi_utils-0.2.0.tar.gz
+[2024-05-28 12:06:27] INFO root fetch - processPackages [sl2pm]: Downloading https://files.pythonhosted.org/packages/73/6d/7342f401c2c4c9169c030b075e48c20f2197aa47cde2e7e81a04d6f1273c/sl2pm-1.0.0.tar.gz
+[2024-05-28 12:06:27] INFO root fetch - processPackages [CI-CloudConnector]: Downloading https://files.pythonhosted.org/packages/a7/04/a0878004ae2d0fb5df05f02a479eddd71a640a0edb96d8eafbb37d8c4cbd/ci_cloudconnector-0.92.tar.gz
+[2024-05-28 12:06:27] INFO root fetch - processPackages [uvx]: Downloading https://files.pythonhosted.org/packages/c8/20/3915614f0a6d7cf70d116ee0efa9e646de7ea6db8f811dc3ee995c804283/uvx-2.1.0.tar.gz
+[2024-05-28 12:06:27] INFO root fetch - processPackages [anemoi-utils]: executing diffoscope
+[2024-05-28 12:06:27] INFO root fetch - processPackages [anemoi-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anemoi_utils-0.1.9.tar.gz tmp/anemoi_utils-0.2.0.tar.gz --markdown 20240528/a/anemoi-utils/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-05-28 12:06:27] INFO root fetch - processPackages [CI-CloudConnector]: executing diffoscope
+[2024-05-28 12:06:27] INFO root fetch - processPackages [CI-CloudConnector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ci_cloudconnector-0.91.tar.gz tmp/ci_cloudconnector-0.92.tar.gz --markdown 20240528/C/CI-CloudConnector/0.91-0.92/README.md --exclude *.pyd
+[2024-05-28 12:06:27] INFO root fetch - processPackages [ding-api-client]: Downloading https://files.pythonhosted.org/packages/f7/ef/49d82b481a8077b23798c25ba49c85b95a1b5c75930208d89cac28df32a1/ding_api_client-3.7.3.tar.gz
+[2024-05-28 12:06:28] INFO root fetch - processPackages [uvx]: Downloading https://files.pythonhosted.org/packages/5e/45/fdbf14bbe46778fdfaec0e10f064b3b52f665e1f3e6547cb9ba4a899f6fa/uvx-2.2.0-py3-none-manylinux_2_34_aarch64.whl
+[2024-05-28 12:06:28] INFO root fetch - processPackages [ding-api-client]: executing diffoscope
+[2024-05-28 12:06:28] INFO root fetch - processPackages [ding-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ding_api_client-3.7.2.tar.gz tmp/ding_api_client-3.7.3.tar.gz --markdown 20240528/d/ding-api-client/3.7.2-3.7.3/README.md --exclude *.pyd
+[2024-05-28 12:06:28] INFO root fetch - processPackages [CI-CloudConnector]: Remove: archive file [/home/abi/fetcher/tmp/ci_cloudconnector-0.91.tar.gz]
+[2024-05-28 12:06:28] INFO root fetch - processPackages [CI-CloudConnector]: Remove: archive file [/home/abi/fetcher/tmp/ci_cloudconnector-0.92.tar.gz]
+[2024-05-28 12:06:28] INFO root fetch - main [MainThread]: End processing [CI-CloudConnector]: success
+[2024-05-28 12:06:28] INFO root fetch - processPackages [sl2pm]: Downloading https://files.pythonhosted.org/packages/17/4a/07817bedbeb587bd0017aa9f380963cb6ee7588371abfeb189a4b4dc55dd/sl2pm-1.0.1.tar.gz
+[2024-05-28 12:06:28] INFO root fetch - processPackages [anemoi-utils]: Remove: archive file [/home/abi/fetcher/tmp/anemoi_utils-0.1.9.tar.gz]
+[2024-05-28 12:06:28] INFO root fetch - processPackages [anemoi-utils]: Remove: archive file [/home/abi/fetcher/tmp/anemoi_utils-0.2.0.tar.gz]
+[2024-05-28 12:06:28] INFO root fetch - main [MainThread]: End processing [anemoi-utils]: success
+[2024-05-28 12:06:28] INFO root fetch - processPackages [ding-api-client]: Remove: archive file [/home/abi/fetcher/tmp/ding_api_client-3.7.2.tar.gz]
+[2024-05-28 12:06:28] INFO root fetch - processPackages [ding-api-client]: Remove: archive file [/home/abi/fetcher/tmp/ding_api_client-3.7.3.tar.gz]
+[2024-05-28 12:06:28] INFO root fetch - main [MainThread]: End processing [ding-api-client]: success
+[2024-05-28 12:06:29] INFO root fetch - processPackages [sl2pm]: executing diffoscope
+[2024-05-28 12:06:29] INFO root fetch - processPackages [sl2pm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sl2pm-1.0.0.tar.gz tmp/sl2pm-1.0.1.tar.gz --markdown 20240528/s/sl2pm/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-28 12:06:30] INFO root fetch - processPackages [uvx]: executing diffoscope
+[2024-05-28 12:06:30] INFO root fetch - processPackages [uvx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uvx-2.1.0.tar.gz tmp/uvx-2.2.0-py3-none-manylinux_2_34_aarch64.whl.zip --markdown 20240528/u/uvx/2.1.0-2.2.0/README.md --exclude *.pyd
+[2024-05-28 12:06:31] INFO root fetch - processPackages [sl2pm]: Remove: archive file [/home/abi/fetcher/tmp/sl2pm-1.0.0.tar.gz]
+[2024-05-28 12:06:31] INFO root fetch - processPackages [sl2pm]: Remove: archive file [/home/abi/fetcher/tmp/sl2pm-1.0.1.tar.gz]
+[2024-05-28 12:06:31] INFO root fetch - main [MainThread]: End processing [sl2pm]: success
+[2024-05-28 12:06:31] INFO root fetch - processPackages [uvx]: Remove: archive file [/home/abi/fetcher/tmp/uvx-2.1.0.tar.gz]
+[2024-05-28 12:06:31] INFO root fetch - processPackages [uvx]: Remove: archive file [/home/abi/fetcher/tmp/uvx-2.2.0-py3-none-manylinux_2_34_aarch64.whl.zip]
+[2024-05-28 12:06:31] INFO root fetch - main [MainThread]: End processing [uvx]: success
+[2024-05-28 12:06:31] INFO root fetch - main [MainThread]: Store serial: [23409291]
