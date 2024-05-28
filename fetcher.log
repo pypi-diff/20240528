@@ -5593,3 +5593,29 @@
 [2024-05-28 06:20:51] INFO root fetch - processPackages [py-dbchat]: Remove: archive file [/home/abi/fetcher/tmp/py_dbchat-0.0.2rc99.post1.tar.gz]
 [2024-05-28 06:20:51] INFO root fetch - main [MainThread]: End processing [py-dbchat]: success
 [2024-05-28 06:20:51] INFO root fetch - main [MainThread]: Store serial: [23405040]
+[2024-05-28 06:22:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23405040]
+[2024-05-28 06:22:59] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-28 06:24:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23405040]
+[2024-05-28 06:25:04] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-28 06:25:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kossou-hillshade-base
+[2024-05-28 06:25:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: HappyLife
+[2024-05-28 06:25:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: storey
+[2024-05-28 06:25:04] INFO root fetch - processPackages [kossou-hillshade-base]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-28 06:25:04] INFO root fetch - processPackages [kossou-hillshade-base]: Downloading https://files.pythonhosted.org/packages/8d/40/6b3398e2a623b4a0116519aa27ce70fabae69cbc9eb9439ca17aa1a61386/kossou_hillshade_base-0.0.3.tar.gz
+[2024-05-28 06:25:04] WARNING root fetch - processPackages [HappyLife]: Skipping, unable to determine old version
+[2024-05-28 06:25:04] INFO root fetch - main [MainThread]: End processing [HappyLife] error
+[2024-05-28 06:25:04] INFO root fetch - processPackages [storey]: New version: [1.7.9] Old Version: [1.7.8]
+[2024-05-28 06:25:05] INFO root fetch - processPackages [storey]: Downloading https://files.pythonhosted.org/packages/ce/f2/fb725885928d8ccbbb0a7f28c52605a4972284c1100e5cca1a2523767ad3/storey-1.7.8.tar.gz
+[2024-05-28 06:25:05] INFO root fetch - processPackages [kossou-hillshade-base]: Downloading https://files.pythonhosted.org/packages/f1/10/d7e1901bf01357b2f38737184658274d661e23ecb5ba70c21b3dcc1f5c02/kossou_hillshade_base-0.0.4.tar.gz
+[2024-05-28 06:25:05] INFO root fetch - processPackages [storey]: Downloading https://files.pythonhosted.org/packages/7a/07/b7c06ed930f7729cbabcef2eff7245adf34a98245820a6dc5cc2585c3d31/storey-1.7.9.tar.gz
+[2024-05-28 06:25:05] INFO root fetch - processPackages [kossou-hillshade-base]: executing diffoscope
+[2024-05-28 06:25:05] INFO root fetch - processPackages [kossou-hillshade-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kossou_hillshade_base-0.0.3.tar.gz tmp/kossou_hillshade_base-0.0.4.tar.gz --markdown 20240528/k/kossou-hillshade-base/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-28 06:25:05] INFO root fetch - processPackages [storey]: executing diffoscope
+[2024-05-28 06:25:05] INFO root fetch - processPackages [storey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/storey-1.7.8.tar.gz tmp/storey-1.7.9.tar.gz --markdown 20240528/s/storey/1.7.8-1.7.9/README.md --exclude *.pyd
+[2024-05-28 06:25:06] INFO root fetch - processPackages [kossou-hillshade-base]: Remove: archive file [/home/abi/fetcher/tmp/kossou_hillshade_base-0.0.3.tar.gz]
+[2024-05-28 06:25:06] INFO root fetch - processPackages [kossou-hillshade-base]: Remove: archive file [/home/abi/fetcher/tmp/kossou_hillshade_base-0.0.4.tar.gz]
+[2024-05-28 06:25:06] INFO root fetch - main [MainThread]: End processing [kossou-hillshade-base]: success
+[2024-05-28 06:25:06] INFO root fetch - processPackages [storey]: Remove: archive file [/home/abi/fetcher/tmp/storey-1.7.8.tar.gz]
+[2024-05-28 06:25:06] INFO root fetch - processPackages [storey]: Remove: archive file [/home/abi/fetcher/tmp/storey-1.7.9.tar.gz]
+[2024-05-28 06:25:06] INFO root fetch - main [MainThread]: End processing [storey]: success
+[2024-05-28 06:25:06] INFO root fetch - main [MainThread]: Store serial: [23405051]
