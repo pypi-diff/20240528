@@ -9761,3 +9761,39 @@
 [2024-05-28 09:07:15] INFO root fetch - processPackages [TPTBox]: Remove: archive file [/home/abi/fetcher/tmp/tptbox-0.1.2-py3-none-any.whl.zip]
 [2024-05-28 09:07:15] INFO root fetch - main [MainThread]: End processing [TPTBox]: success
 [2024-05-28 09:07:15] INFO root fetch - main [MainThread]: Store serial: [23406894]
+[2024-05-28 09:09:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23406894]
+[2024-05-28 09:09:24] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-28 09:09:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-hub-nightly
+[2024-05-28 09:09:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bitcoin-utils
+[2024-05-28 09:09:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nxsrecselector
+[2024-05-28 09:09:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openbroker
+[2024-05-28 09:09:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: EcoStart
+[2024-05-28 09:09:24] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2024-05-28 09:09:24] WARNING root fetch - processPackages [EcoStart]: Skipping, unable to determine old version
+[2024-05-28 09:09:24] INFO root fetch - main [MainThread]: End processing [EcoStart] error
+[2024-05-28 09:09:24] INFO root fetch - processPackages [nxsrecselector]: New version: [3.40.0] Old Version: [3.39.0]
+[2024-05-28 09:09:24] WARNING root fetch - processPackages [openbroker]: Skipping, unable to determine old version
+[2024-05-28 09:09:24] INFO root fetch - main [MainThread]: End processing [openbroker] error
+[2024-05-28 09:09:24] INFO root fetch - processPackages [bitcoin-utils]: New version: [0.6.8] Old Version: [0.6.6]
+[2024-05-28 09:09:24] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2024-05-28 09:09:25] INFO root fetch - processPackages [nxsrecselector]: Downloading https://files.pythonhosted.org/packages/76/cb/64183d443e96b07ff115d730e910c3371116d3243733037687f10b7cabf7/nxsrecselector-3.39.0.tar.gz
+[2024-05-28 09:09:25] INFO root fetch - processPackages [bitcoin-utils]: Downloading https://files.pythonhosted.org/packages/ab/a0/791c8015cea15be61f46c49a5abf2bf2fd52f6e3158509fc4db7b87765be/bitcoin-utils-0.6.6.tar.gz
+[2024-05-28 09:09:25] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2024-05-28 09:09:25] INFO root fetch - processPackages [bitcoin-utils]: Downloading https://files.pythonhosted.org/packages/51/cf/825b7e91412eca3f99f5dad6d0af1e0554199ebd2452b6f7bdc9d5d2e40e/bitcoin-utils-0.6.8.tar.gz
+[2024-05-28 09:09:25] INFO root fetch - processPackages [nxsrecselector]: Downloading https://files.pythonhosted.org/packages/92/4d/29062804a56e09781807d0b29a4fcfe253d0960412ccd442236678cf544a/nxsrecselector-3.40.0.tar.gz
+[2024-05-28 09:09:25] INFO root fetch - processPackages [bitcoin-utils]: executing diffoscope
+[2024-05-28 09:09:25] INFO root fetch - processPackages [bitcoin-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitcoin-utils-0.6.6.tar.gz tmp/bitcoin-utils-0.6.8.tar.gz --markdown 20240528/b/bitcoin-utils/0.6.6-0.6.8/README.md --exclude *.pyd
+[2024-05-28 09:09:25] INFO root fetch - processPackages [nxsrecselector]: executing diffoscope
+[2024-05-28 09:09:25] INFO root fetch - processPackages [nxsrecselector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nxsrecselector-3.39.0.tar.gz tmp/nxsrecselector-3.40.0.tar.gz --markdown 20240528/n/nxsrecselector/3.39.0-3.40.0/README.md --exclude *.pyd
+[2024-05-28 09:09:25] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2024-05-28 09:09:25] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20240528/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/README.md --exclude *.pyd
+[2024-05-28 09:09:26] INFO root fetch - processPackages [bitcoin-utils]: Remove: archive file [/home/abi/fetcher/tmp/bitcoin-utils-0.6.6.tar.gz]
+[2024-05-28 09:09:26] INFO root fetch - processPackages [bitcoin-utils]: Remove: archive file [/home/abi/fetcher/tmp/bitcoin-utils-0.6.8.tar.gz]
+[2024-05-28 09:09:26] INFO root fetch - main [MainThread]: End processing [bitcoin-utils]: success
+[2024-05-28 09:09:26] INFO root fetch - processPackages [nxsrecselector]: Remove: archive file [/home/abi/fetcher/tmp/nxsrecselector-3.39.0.tar.gz]
+[2024-05-28 09:09:26] INFO root fetch - processPackages [nxsrecselector]: Remove: archive file [/home/abi/fetcher/tmp/nxsrecselector-3.40.0.tar.gz]
+[2024-05-28 09:09:26] INFO root fetch - main [MainThread]: End processing [nxsrecselector]: success
+[2024-05-28 09:09:26] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2024-05-28 09:09:26] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2024-05-28 09:09:26] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2024-05-28 09:09:26] INFO root fetch - main [MainThread]: Store serial: [23406914]
