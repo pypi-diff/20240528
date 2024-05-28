@@ -5619,3 +5619,33 @@
 [2024-05-28 06:25:06] INFO root fetch - processPackages [storey]: Remove: archive file [/home/abi/fetcher/tmp/storey-1.7.9.tar.gz]
 [2024-05-28 06:25:06] INFO root fetch - main [MainThread]: End processing [storey]: success
 [2024-05-28 06:25:06] INFO root fetch - main [MainThread]: Store serial: [23405051]
+[2024-05-28 06:27:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23405051]
+[2024-05-28 06:27:14] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-28 06:27:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: camply
+[2024-05-28 06:27:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gable
+[2024-05-28 06:27:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kossou-hillshade-base
+[2024-05-28 06:27:14] INFO root fetch - processPackages [kossou-hillshade-base]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-28 06:27:14] INFO root fetch - processPackages [kossou-hillshade-base]: Downloading https://files.pythonhosted.org/packages/f1/10/d7e1901bf01357b2f38737184658274d661e23ecb5ba70c21b3dcc1f5c02/kossou_hillshade_base-0.0.4.tar.gz
+[2024-05-28 06:27:14] INFO root fetch - processPackages [gable]: New version: [0.9.0a3] Old Version: [0.9.0a2]
+[2024-05-28 06:27:14] INFO root fetch - processPackages [camply]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-05-28 06:27:14] INFO root fetch - processPackages [camply]: Downloading https://files.pythonhosted.org/packages/b6/1e/0f4c1cd15a9dc716c825ce9473f46b8d514cdeef6ffa87576366bf2588f5/camply-0.9.2.tar.gz
+[2024-05-28 06:27:14] INFO root fetch - processPackages [gable]: Downloading https://files.pythonhosted.org/packages/3c/25/205ee4d565d0bf0f974e4b429be2eb6f978c964647c940357bfa9601db85/gable-0.9.0a2.tar.gz
+[2024-05-28 06:27:15] INFO root fetch - processPackages [kossou-hillshade-base]: Downloading https://files.pythonhosted.org/packages/46/06/50e911b24333c456d9a080400ad93fab80a1afb2f40c2b854441b51091de/kossou_hillshade_base-0.0.5.tar.gz
+[2024-05-28 06:27:15] INFO root fetch - processPackages [camply]: Downloading https://files.pythonhosted.org/packages/3e/d1/4f9e81a5f74b69b8f9c95b378d56780fcddfa4ab3f0f8226c1a7a7116867/camply-0.9.3.tar.gz
+[2024-05-28 06:27:15] INFO root fetch - processPackages [gable]: Downloading https://files.pythonhosted.org/packages/df/19/7ed3e403c062cfa539ddfa26caecd22d3365e387d62ab3f2a6db2e30ac8a/gable-0.9.0a3.tar.gz
+[2024-05-28 06:27:15] INFO root fetch - processPackages [camply]: executing diffoscope
+[2024-05-28 06:27:15] INFO root fetch - processPackages [camply]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camply-0.9.2.tar.gz tmp/camply-0.9.3.tar.gz --markdown 20240528/c/camply/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-05-28 06:27:15] INFO root fetch - processPackages [kossou-hillshade-base]: executing diffoscope
+[2024-05-28 06:27:15] INFO root fetch - processPackages [kossou-hillshade-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kossou_hillshade_base-0.0.4.tar.gz tmp/kossou_hillshade_base-0.0.5.tar.gz --markdown 20240528/k/kossou-hillshade-base/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-28 06:27:15] INFO root fetch - processPackages [gable]: executing diffoscope
+[2024-05-28 06:27:15] INFO root fetch - processPackages [gable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gable-0.9.0a2.tar.gz tmp/gable-0.9.0a3.tar.gz --markdown 20240528/g/gable/0.9.0a2-0.9.0a3/README.md --exclude *.pyd
+[2024-05-28 06:27:15] INFO root fetch - processPackages [camply]: Remove: archive file [/home/abi/fetcher/tmp/camply-0.9.2.tar.gz]
+[2024-05-28 06:27:15] INFO root fetch - processPackages [camply]: Remove: archive file [/home/abi/fetcher/tmp/camply-0.9.3.tar.gz]
+[2024-05-28 06:27:15] INFO root fetch - main [MainThread]: End processing [camply]: success
+[2024-05-28 06:27:15] INFO root fetch - processPackages [kossou-hillshade-base]: Remove: archive file [/home/abi/fetcher/tmp/kossou_hillshade_base-0.0.4.tar.gz]
+[2024-05-28 06:27:15] INFO root fetch - processPackages [kossou-hillshade-base]: Remove: archive file [/home/abi/fetcher/tmp/kossou_hillshade_base-0.0.5.tar.gz]
+[2024-05-28 06:27:15] INFO root fetch - main [MainThread]: End processing [kossou-hillshade-base]: success
+[2024-05-28 06:27:16] INFO root fetch - processPackages [gable]: Remove: archive file [/home/abi/fetcher/tmp/gable-0.9.0a2.tar.gz]
+[2024-05-28 06:27:16] INFO root fetch - processPackages [gable]: Remove: archive file [/home/abi/fetcher/tmp/gable-0.9.0a3.tar.gz]
+[2024-05-28 06:27:16] INFO root fetch - main [MainThread]: End processing [gable]: success
+[2024-05-28 06:27:16] INFO root fetch - main [MainThread]: Store serial: [23405060]
