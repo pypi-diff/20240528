@@ -17125,3 +17125,126 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 13:23:40] INFO root fetch - processPackages [databouncer]: Remove: archive file [/home/abi/fetcher/tmp/databouncer-0.2.0rc1-cp39-cp39-macosx_10_12_x86_64.whl.zip]
 [2024-05-28 13:23:40] INFO root fetch - main [MainThread]: End processing [databouncer]: success
 [2024-05-28 13:23:40] INFO root fetch - main [MainThread]: Store serial: [23410128]
+[2024-05-28 13:25:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23410128]
+[2024-05-28 13:25:51] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-05-28 13:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bdmc
+[2024-05-28 13:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: airbyte-source-pinterest
+[2024-05-28 13:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cerebrumscanner
+[2024-05-28 13:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rpcclient
+[2024-05-28 13:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cpyvpn
+[2024-05-28 13:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scCASE
+[2024-05-28 13:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flet-page-manager
+[2024-05-28 13:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: amplify
+[2024-05-28 13:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: caliber
+[2024-05-28 13:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ClappScrapers
+[2024-05-28 13:25:51] INFO root fetch - processPackages [cerebrumscanner]: New version: [0.0.1b5] Old Version: [0.0.1b4]
+[2024-05-28 13:25:51] INFO root fetch - processPackages [cpyvpn]: New version: [1.6.2] Old Version: [1.6.1]
+[2024-05-28 13:25:51] INFO root fetch - processPackages [bdmc]: New version: [0.1.5.9] Old Version: [0.1.5.8]
+[2024-05-28 13:25:51] INFO root fetch - processPackages [caliber]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-28 13:25:51] INFO root fetch - processPackages [cerebrumscanner]: Downloading https://files.pythonhosted.org/packages/09/0e/aca144d18cb979479365af698800e8f486240a85896ac098e3de2d515c34/cerebrumscanner-0.0.1b4.tar.gz
+[2024-05-28 13:25:51] INFO root fetch - processPackages [flet-page-manager]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-05-28 13:25:51] INFO root fetch - processPackages [scCASE]: New version: [0.2.5] Old Version: [0.2.3]
+[2024-05-28 13:25:51] INFO root fetch - processPackages [airbyte-source-pinterest]: New version: [2.0.0] Old Version: [1.3.3]
+[2024-05-28 13:25:51] INFO root fetch - processPackages [ClappScrapers]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-28 13:25:51] INFO root fetch - processPackages [rpcclient]: New version: [4.7.0] Old Version: [4.6.1]
+[2024-05-28 13:25:51] INFO root fetch - processPackages [cpyvpn]: Downloading https://files.pythonhosted.org/packages/17/8e/e2b79171a212e300b66fd52a03407cf2dc25eacefb01ed062c1b09a2a0c1/cpyvpn-1.6.1.tar.gz
+[2024-05-28 13:25:51] INFO root fetch - processPackages [amplify]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-28 13:25:52] INFO root fetch - processPackages [bdmc]: Downloading https://files.pythonhosted.org/packages/7b/a4/6d673f004389618881a3a5641b084f02f3e3c9606bea3e6b2a5fb9f265d6/bdmc-0.1.5.8.tar.gz
+[2024-05-28 13:25:52] INFO root fetch - processPackages [caliber]: Downloading https://files.pythonhosted.org/packages/36/ad/7d8521257a5b99c97acf9fb1128749820a9615ad342ba2c433351ed26463/caliber-0.1.8.tar.gz
+[2024-05-28 13:25:52] INFO root fetch - processPackages [airbyte-source-pinterest]: Downloading https://files.pythonhosted.org/packages/8a/0b/9b87d43ec4eeb1e5233beca874533ab8365e4cb88706ae577968afa4b510/airbyte_source_pinterest-1.3.3.tar.gz
+[2024-05-28 13:25:52] INFO root fetch - processPackages [scCASE]: Downloading https://files.pythonhosted.org/packages/14/1d/e90c0fe6fb3cfb6d9ea22e34db27ffa1224c4ed1222478e287ebf2b1ec37/scCASE-0.2.3.tar.gz
+[2024-05-28 13:25:52] INFO root fetch - processPackages [flet-page-manager]: Downloading https://files.pythonhosted.org/packages/49/05/93a453b6e0ac11c58c07ed319d5b7a8329f04cfd69f5dd4c8a71ea9fba5c/flet_page_manager-0.1.9-py312-none-any.whl
+[2024-05-28 13:25:52] INFO root fetch - processPackages [rpcclient]: Downloading https://files.pythonhosted.org/packages/cc/78/4eb49cdb33060319c0d5622aac9fd6a37c331f5938a99309f140171d2826/rpcclient-4.6.1.tar.gz
+[2024-05-28 13:25:52] INFO root fetch - processPackages [cerebrumscanner]: Downloading https://files.pythonhosted.org/packages/8a/51/713ae1f07cac55b7edca3b6ac906e419d23cb2067e463cd9a20a38809793/cerebrumscanner-0.0.1b5.tar.gz
+[2024-05-28 13:25:52] INFO root fetch - processPackages [ClappScrapers]: Downloading https://files.pythonhosted.org/packages/7c/ef/c0707db23afa5bb9a600a22b8803943dfa4bafcaf317fc207b677db36b3a/ClappScrapers-0.2.8.tar.gz
+[2024-05-28 13:25:52] INFO root fetch - processPackages [amplify]: Downloading https://files.pythonhosted.org/packages/7c/5d/529a50097760a2c4607fb1f285bec49637bd230e5034ce7115672c507073/amplify-1.1.0-cp39-cp39-win_amd64.whl
+[2024-05-28 13:25:52] INFO root fetch - processPackages [cerebrumscanner]: executing diffoscope
+[2024-05-28 13:25:52] INFO root fetch - processPackages [cerebrumscanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cerebrumscanner-0.0.1b4.tar.gz tmp/cerebrumscanner-0.0.1b5.tar.gz --markdown 20240528/c/cerebrumscanner/0.0.1b4-0.0.1b5/README.md --exclude *.pyd
+[2024-05-28 13:25:52] INFO root fetch - processPackages [cpyvpn]: Downloading https://files.pythonhosted.org/packages/a0/c4/4ecb5cb8d28ea66235666f6aa446d1da99ba1a6e83b449f87d562072c2bd/cpyvpn-1.6.2.tar.gz
+[2024-05-28 13:25:52] INFO root fetch - processPackages [bdmc]: Downloading https://files.pythonhosted.org/packages/0b/9d/0fd87f38893641236ff55f80f919c108ccfbe16165193350adcd472d5b64/bdmc-0.1.5.9.tar.gz
+[2024-05-28 13:25:52] INFO root fetch - processPackages [caliber]: Downloading https://files.pythonhosted.org/packages/de/09/e790860a3d6622784ee44ce40dd0be2a21770be22f5f2966ad115b3c8ece/caliber-0.1.9.tar.gz
+[2024-05-28 13:25:52] INFO root fetch - processPackages [cpyvpn]: executing diffoscope
+[2024-05-28 13:25:52] INFO root fetch - processPackages [cpyvpn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpyvpn-1.6.1.tar.gz tmp/cpyvpn-1.6.2.tar.gz --markdown 20240528/c/cpyvpn/1.6.1-1.6.2/README.md --exclude *.pyd
+[2024-05-28 13:25:52] INFO root fetch - processPackages [airbyte-source-pinterest]: Downloading https://files.pythonhosted.org/packages/b3/64/7723d338cd549f7d6b5622901e625d98325d749e3a59a50c6181b264a0c2/airbyte_source_pinterest-2.0.0.tar.gz
+[2024-05-28 13:25:52] INFO root fetch - processPackages [flet-page-manager]: Downloading https://files.pythonhosted.org/packages/fe/6b/47e4713e06abab77857763eaed7fb88c20bef1e4f0c5502879c02e9cf61e/flet_page_manager-0.2.0-py3-none-any.whl
+[2024-05-28 13:25:52] INFO root fetch - processPackages [scCASE]: Downloading https://files.pythonhosted.org/packages/fa/76/0d4b30d692fca0bc947c23c9916313333dc26e2263dc30e213c9bfc712b6/scCASE-0.2.5.tar.gz
+[2024-05-28 13:25:52] INFO root fetch - processPackages [ClappScrapers]: Downloading https://files.pythonhosted.org/packages/69/28/5241dd64642ae008952f886de24606f39edafaad7764ee85a03b3ef3aeb6/ClappScrapers-0.2.9.tar.gz
+[2024-05-28 13:25:52] INFO root fetch - processPackages [rpcclient]: Downloading https://files.pythonhosted.org/packages/76/78/9c066bdcd771e6d22a3f999c7b6c0a92a3d829b90057f10c44531118d832/rpcclient-4.7.0.tar.gz
+[2024-05-28 13:25:52] INFO root fetch - processPackages [bdmc]: executing diffoscope
+[2024-05-28 13:25:52] INFO root fetch - processPackages [bdmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bdmc-0.1.5.8.tar.gz tmp/bdmc-0.1.5.9.tar.gz --markdown 20240528/b/bdmc/0.1.5.8-0.1.5.9/README.md --exclude *.pyd
+[2024-05-28 13:25:52] INFO root fetch - processPackages [caliber]: executing diffoscope
+[2024-05-28 13:25:52] INFO root fetch - processPackages [caliber]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caliber-0.1.8.tar.gz tmp/caliber-0.1.9.tar.gz --markdown 20240528/c/caliber/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-28 13:25:52] INFO root fetch - processPackages [scCASE]: executing diffoscope
+[2024-05-28 13:25:52] INFO root fetch - processPackages [scCASE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scCASE-0.2.3.tar.gz tmp/scCASE-0.2.5.tar.gz --markdown 20240528/s/scCASE/0.2.3-0.2.5/README.md --exclude *.pyd
+[2024-05-28 13:25:52] INFO root fetch - processPackages [airbyte-source-pinterest]: executing diffoscope
+[2024-05-28 13:25:52] INFO root fetch - processPackages [airbyte-source-pinterest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_pinterest-1.3.3.tar.gz tmp/airbyte_source_pinterest-2.0.0.tar.gz --markdown 20240528/a/airbyte-source-pinterest/1.3.3-2.0.0/README.md --exclude *.pyd
+[2024-05-28 13:25:52] INFO root fetch - processPackages [flet-page-manager]: executing diffoscope
+[2024-05-28 13:25:52] INFO root fetch - processPackages [flet-page-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_page_manager-0.1.9-py312-none-any.whl.zip tmp/flet_page_manager-0.2.0-py3-none-any.whl.zip --markdown 20240528/f/flet-page-manager/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-05-28 13:25:52] INFO root fetch - processPackages [ClappScrapers]: executing diffoscope
+[2024-05-28 13:25:52] INFO root fetch - processPackages [ClappScrapers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ClappScrapers-0.2.8.tar.gz tmp/ClappScrapers-0.2.9.tar.gz --markdown 20240528/C/ClappScrapers/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-28 13:25:52] INFO root fetch - processPackages [rpcclient]: executing diffoscope
+[2024-05-28 13:25:52] INFO root fetch - processPackages [rpcclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpcclient-4.6.1.tar.gz tmp/rpcclient-4.7.0.tar.gz --markdown 20240528/r/rpcclient/4.6.1-4.7.0/README.md --exclude *.pyd
+[2024-05-28 13:25:52] INFO root fetch - processPackages [amplify]: Downloading https://files.pythonhosted.org/packages/ee/4c/f37b80c43a9dc2e6f82beaef551f7e56e320943743946f181452c8ba91f7/amplify-1.1.1-cp39-cp39-win_amd64.whl
+[2024-05-28 13:25:53] INFO root fetch - processPackages [cerebrumscanner]: Remove: archive file [/home/abi/fetcher/tmp/cerebrumscanner-0.0.1b4.tar.gz]
+[2024-05-28 13:25:53] INFO root fetch - processPackages [cerebrumscanner]: Remove: archive file [/home/abi/fetcher/tmp/cerebrumscanner-0.0.1b5.tar.gz]
+[2024-05-28 13:25:53] INFO root fetch - processPackages [cerebrumscanner]: Start processing: dash-rsuite-components
+[2024-05-28 13:25:53] INFO root fetch - main [MainThread]: End processing [cerebrumscanner]: success
+[2024-05-28 13:25:53] WARNING root fetch - processPackages [dash-rsuite-components]: Skipping, unable to determine old version
+[2024-05-28 13:25:53] INFO root fetch - processPackages [dash-rsuite-components]: Start processing: PVNet
+[2024-05-28 13:25:53] INFO root fetch - main [MainThread]: End processing [dash-rsuite-components] error
+[2024-05-28 13:25:53] INFO root fetch - processPackages [bdmc]: Remove: archive file [/home/abi/fetcher/tmp/bdmc-0.1.5.8.tar.gz]
+[2024-05-28 13:25:53] INFO root fetch - processPackages [bdmc]: Remove: archive file [/home/abi/fetcher/tmp/bdmc-0.1.5.9.tar.gz]
+[2024-05-28 13:25:53] INFO root fetch - processPackages [bdmc]: Start processing: PyProfQueue
+[2024-05-28 13:25:53] INFO root fetch - main [MainThread]: End processing [bdmc]: success
+[2024-05-28 13:25:53] INFO root fetch - processPackages [PVNet]: New version: [3.0.9] Old Version: [3.0.8]
+[2024-05-28 13:25:53] INFO root fetch - processPackages [PyProfQueue]: New version: [0.2.2a1] Old Version: [0.2.2a0]
+[2024-05-28 13:25:53] INFO root fetch - processPackages [flet-page-manager]: Remove: archive file [/home/abi/fetcher/tmp/flet_page_manager-0.1.9-py312-none-any.whl.zip]
+[2024-05-28 13:25:53] INFO root fetch - processPackages [flet-page-manager]: Remove: archive file [/home/abi/fetcher/tmp/flet_page_manager-0.2.0-py3-none-any.whl.zip]
+[2024-05-28 13:25:53] INFO root fetch - processPackages [flet-page-manager]: Start processing: ampel-hu-astro
+[2024-05-28 13:25:53] INFO root fetch - main [MainThread]: End processing [flet-page-manager]: success
+[2024-05-28 13:25:53] INFO root fetch - processPackages [scCASE]: Remove: archive file [/home/abi/fetcher/tmp/scCASE-0.2.3.tar.gz]
+[2024-05-28 13:25:53] INFO root fetch - processPackages [scCASE]: Remove: archive file [/home/abi/fetcher/tmp/scCASE-0.2.5.tar.gz]
+[2024-05-28 13:25:53] INFO root fetch - main [MainThread]: End processing [scCASE]: success
+[2024-05-28 13:25:53] INFO root fetch - processPackages [PVNet]: Downloading https://files.pythonhosted.org/packages/47/d6/3a89799187c251f632672a9aa190b5b93fac0e00f5ec20eb85fe39a56fe2/PVNet-3.0.8.tar.gz
+[2024-05-28 13:25:53] INFO root fetch - processPackages [ClappScrapers]: Remove: archive file [/home/abi/fetcher/tmp/ClappScrapers-0.2.8.tar.gz]
+[2024-05-28 13:25:53] INFO root fetch - processPackages [ClappScrapers]: Remove: archive file [/home/abi/fetcher/tmp/ClappScrapers-0.2.9.tar.gz]
+[2024-05-28 13:25:53] INFO root fetch - main [MainThread]: End processing [ClappScrapers]: success
+[2024-05-28 13:25:53] INFO root fetch - processPackages [airbyte-source-pinterest]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_pinterest-1.3.3.tar.gz]
+[2024-05-28 13:25:53] INFO root fetch - processPackages [airbyte-source-pinterest]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_pinterest-2.0.0.tar.gz]
+[2024-05-28 13:25:53] INFO root fetch - main [MainThread]: End processing [airbyte-source-pinterest]: success
+[2024-05-28 13:25:53] INFO root fetch - processPackages [cpyvpn]: Remove: archive file [/home/abi/fetcher/tmp/cpyvpn-1.6.1.tar.gz]
+[2024-05-28 13:25:53] INFO root fetch - processPackages [cpyvpn]: Remove: archive file [/home/abi/fetcher/tmp/cpyvpn-1.6.2.tar.gz]
+[2024-05-28 13:25:53] INFO root fetch - main [MainThread]: End processing [cpyvpn]: success
+[2024-05-28 13:25:53] INFO root fetch - processPackages [ampel-hu-astro]: New version: [0.8.4a0] Old Version: [0.8.3a9]
+[2024-05-28 13:25:53] INFO root fetch - processPackages [PyProfQueue]: Downloading https://files.pythonhosted.org/packages/d3/ac/117974eff0199cde09c9c1d804cd8a94195dcb32c9e70e8e49a5847b365c/PyProfQueue-0.2.2a0.tar.gz
+[2024-05-28 13:25:53] INFO root fetch - processPackages [caliber]: Remove: archive file [/home/abi/fetcher/tmp/caliber-0.1.8.tar.gz]
+[2024-05-28 13:25:53] INFO root fetch - processPackages [caliber]: Remove: archive file [/home/abi/fetcher/tmp/caliber-0.1.9.tar.gz]
+[2024-05-28 13:25:53] INFO root fetch - main [MainThread]: End processing [caliber]: success
+[2024-05-28 13:25:53] INFO root fetch - processPackages [amplify]: executing diffoscope
+[2024-05-28 13:25:53] INFO root fetch - processPackages [rpcclient]: Remove: archive file [/home/abi/fetcher/tmp/rpcclient-4.6.1.tar.gz]
+[2024-05-28 13:25:53] INFO root fetch - processPackages [amplify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amplify-1.1.0-cp39-cp39-win_amd64.whl.zip tmp/amplify-1.1.1-cp39-cp39-win_amd64.whl.zip --markdown 20240528/a/amplify/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-28 13:25:53] INFO root fetch - processPackages [rpcclient]: Remove: archive file [/home/abi/fetcher/tmp/rpcclient-4.7.0.tar.gz]
+[2024-05-28 13:25:53] INFO root fetch - main [MainThread]: End processing [rpcclient]: success
+[2024-05-28 13:25:54] INFO root fetch - processPackages [ampel-hu-astro]: Downloading https://files.pythonhosted.org/packages/d9/c4/270178fe50141342c34f3c294e849e807125e17d7185973134399288235a/ampel_hu_astro-0.8.3a9.tar.gz
+[2024-05-28 13:25:54] INFO root fetch - processPackages [PVNet]: Downloading https://files.pythonhosted.org/packages/05/79/f3c9a6a17b563f480074d48bf5010f5bd4c77a300c1cbbb5b246ad094c7c/PVNet-3.0.9.tar.gz
+[2024-05-28 13:25:54] INFO root fetch - processPackages [PyProfQueue]: Downloading https://files.pythonhosted.org/packages/c7/15/de89b9fdea8626140f9fdf9f9c90df78916edfff0bb204aad09ead20bf78/PyProfQueue-0.2.2a1.tar.gz
+[2024-05-28 13:25:54] INFO root fetch - processPackages [PVNet]: executing diffoscope
+[2024-05-28 13:25:54] INFO root fetch - processPackages [PVNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PVNet-3.0.8.tar.gz tmp/PVNet-3.0.9.tar.gz --markdown 20240528/P/PVNet/3.0.8-3.0.9/README.md --exclude *.pyd
+[2024-05-28 13:25:54] INFO root fetch - processPackages [PyProfQueue]: executing diffoscope
+[2024-05-28 13:25:54] INFO root fetch - processPackages [PyProfQueue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyProfQueue-0.2.2a0.tar.gz tmp/PyProfQueue-0.2.2a1.tar.gz --markdown 20240528/P/PyProfQueue/0.2.2a0-0.2.2a1/README.md --exclude *.pyd
+[2024-05-28 13:25:54] INFO root fetch - processPackages [ampel-hu-astro]: Downloading https://files.pythonhosted.org/packages/d0/9e/b75aff37c1fdb779a108045b6c602f2df59dd2caf83a5c720247218f7dba/ampel_hu_astro-0.8.4a0.tar.gz
+[2024-05-28 13:25:54] INFO root fetch - processPackages [amplify]: Remove: archive file [/home/abi/fetcher/tmp/amplify-1.1.0-cp39-cp39-win_amd64.whl.zip]
+[2024-05-28 13:25:54] INFO root fetch - processPackages [amplify]: Remove: archive file [/home/abi/fetcher/tmp/amplify-1.1.1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-28 13:25:54] INFO root fetch - main [MainThread]: End processing [amplify]: success
+[2024-05-28 13:25:54] INFO root fetch - processPackages [ampel-hu-astro]: executing diffoscope
+[2024-05-28 13:25:54] INFO root fetch - processPackages [ampel-hu-astro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ampel_hu_astro-0.8.3a9.tar.gz tmp/ampel_hu_astro-0.8.4a0.tar.gz --markdown 20240528/a/ampel-hu-astro/0.8.3a9-0.8.4a0/README.md --exclude *.pyd
+[2024-05-28 13:25:54] INFO root fetch - processPackages [PyProfQueue]: Remove: archive file [/home/abi/fetcher/tmp/PyProfQueue-0.2.2a0.tar.gz]
+[2024-05-28 13:25:54] INFO root fetch - processPackages [PyProfQueue]: Remove: archive file [/home/abi/fetcher/tmp/PyProfQueue-0.2.2a1.tar.gz]
+[2024-05-28 13:25:54] INFO root fetch - main [MainThread]: End processing [PyProfQueue]: success
+[2024-05-28 13:25:54] INFO root fetch - processPackages [PVNet]: Remove: archive file [/home/abi/fetcher/tmp/PVNet-3.0.8.tar.gz]
+[2024-05-28 13:25:54] INFO root fetch - processPackages [PVNet]: Remove: archive file [/home/abi/fetcher/tmp/PVNet-3.0.9.tar.gz]
+[2024-05-28 13:25:54] INFO root fetch - main [MainThread]: End processing [PVNet]: success
+[2024-05-28 13:25:56] INFO root fetch - processPackages [ampel-hu-astro]: Remove: archive file [/home/abi/fetcher/tmp/ampel_hu_astro-0.8.3a9.tar.gz]
+[2024-05-28 13:25:56] INFO root fetch - processPackages [ampel-hu-astro]: Remove: archive file [/home/abi/fetcher/tmp/ampel_hu_astro-0.8.4a0.tar.gz]
+[2024-05-28 13:25:56] INFO root fetch - main [MainThread]: End processing [ampel-hu-astro]: success
+[2024-05-28 13:25:56] INFO root fetch - main [MainThread]: Store serial: [23410215]
