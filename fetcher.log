@@ -21497,3 +21497,99 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 15:55:30] INFO root fetch - processPackages [reuse]: Remove: archive file [/home/abi/fetcher/tmp/reuse-3.1.0a1.tar.gz]
 [2024-05-28 15:55:30] INFO root fetch - main [MainThread]: End processing [reuse]: success
 [2024-05-28 15:55:30] INFO root fetch - main [MainThread]: Store serial: [23412226]
+[2024-05-28 15:57:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23412226]
+[2024-05-28 15:57:39] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-28 15:57:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: imecilabt-gpulab-cli
+[2024-05-28 15:57:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: partenaire-qualif
+[2024-05-28 15:57:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rina-pp-pyb
+[2024-05-28 15:57:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nipo-company-distance
+[2024-05-28 15:57:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: manual-tls
+[2024-05-28 15:57:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dj-dynamic-settings
+[2024-05-28 15:57:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wizproxy
+[2024-05-28 15:57:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: DLMS-SPODES
+[2024-05-28 15:57:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lusid-workflow-sdk-preview
+[2024-05-28 15:57:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: research-task
+[2024-05-28 15:57:39] INFO root fetch - processPackages [manual-tls]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-28 15:57:39] INFO root fetch - processPackages [research-task]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-28 15:57:39] INFO root fetch - processPackages [DLMS-SPODES]: New version: [0.9.0] Old Version: [0.8.3]
+[2024-05-28 15:57:39] WARNING root fetch - processPackages [nipo-company-distance]: Skipping, unable to determine old version
+[2024-05-28 15:57:39] INFO root fetch - processPackages [nipo-company-distance]: Start processing: web-ui-helper
+[2024-05-28 15:57:39] INFO root fetch - main [MainThread]: End processing [nipo-company-distance] error
+[2024-05-28 15:57:39] INFO root fetch - processPackages [partenaire-qualif]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-28 15:57:40] INFO root fetch - processPackages [imecilabt-gpulab-cli]: New version: [3.9.5] Old Version: [3.9.4]
+[2024-05-28 15:57:40] INFO root fetch - processPackages [wizproxy]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-05-28 15:57:40] INFO root fetch - processPackages [dj-dynamic-settings]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-05-28 15:57:40] INFO root fetch - processPackages [manual-tls]: Downloading https://files.pythonhosted.org/packages/06/bf/b3d20aec79f3cf5961a7234f9f5af1314a2a9dba190b7fe282551f99bc31/manual_tls-0.0.2.tar.gz
+[2024-05-28 15:57:40] INFO root fetch - processPackages [rina-pp-pyb]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-28 15:57:40] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: New version: [0.1.996] Old Version: [0.1.995]
+[2024-05-28 15:57:40] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/97/e2/60be495fca055220080de90e294b2c16ad5a60ea6485cdee969131f05bf4/DLMS_SPODES-0.8.3.tar.gz
+[2024-05-28 15:57:40] INFO root fetch - processPackages [web-ui-helper]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-28 15:57:40] INFO root fetch - processPackages [research-task]: Downloading https://files.pythonhosted.org/packages/ec/4f/65bd0812454ffa279b2f09ff7e3b0b27e952060079ca2f07c8abaf849bc0/research-task-0.1.0.tar.gz
+[2024-05-28 15:57:40] INFO root fetch - processPackages [partenaire-qualif]: Downloading https://files.pythonhosted.org/packages/a4/cf/4d295110ece24b749727914d8d0b67ce133de6d20a8ecea7ace64bf4b716/partenaire-qualif-0.2.3.tar.gz
+[2024-05-28 15:57:40] INFO root fetch - processPackages [imecilabt-gpulab-cli]: Downloading https://files.pythonhosted.org/packages/1f/e8/fc9c589cafd31c2b36156f065deb071fa0c136fb676a61733f766175add1/imecilabt-gpulab-cli-3.9.4.tar.gz
+[2024-05-28 15:57:40] INFO root fetch - processPackages [dj-dynamic-settings]: Downloading https://files.pythonhosted.org/packages/6f/3d/6d813de87e595469a8a93323bca2c25f84eaaf1332760546f9532c56c38b/dj-dynamic-settings-0.2.6.tar.gz
+[2024-05-28 15:57:40] INFO root fetch - processPackages [wizproxy]: Downloading https://files.pythonhosted.org/packages/4a/82/6bb8a6f00fbc1ce01440a3452c493abe177de6ccad128ab201fa737f0e49/wizproxy-0.4.0.tar.gz
+[2024-05-28 15:57:40] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Downloading https://files.pythonhosted.org/packages/56/ac/c34b1b8edd4a745ceacc5a310a38b3dcca685fe17507cacc1cd57db81fdd/lusid-workflow-sdk-preview-0.1.995.tar.gz
+[2024-05-28 15:57:40] INFO root fetch - processPackages [rina-pp-pyb]: Downloading https://files.pythonhosted.org/packages/47/a7/9f15ad4e3fe6aaaa42673d1bc434c019114af80fffc611a439224b55e2a4/rina_pp_pyb-1.0.0.tar.gz
+[2024-05-28 15:57:40] INFO root fetch - processPackages [manual-tls]: Downloading https://files.pythonhosted.org/packages/4b/90/894bdd90a881dad5d89ddaf398f75b2f79e5a0c0764547b44f684d28f74e/manual_tls-0.0.3.tar.gz
+[2024-05-28 15:57:40] INFO root fetch - processPackages [web-ui-helper]: Downloading https://files.pythonhosted.org/packages/70/26/195d21bc6888bd753d2ec483ef08d0491bc80ffe87ccb6cfb44f550950bc/web-ui-helper-1.0.2.tar.gz
+[2024-05-28 15:57:40] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/78/a8/0e1e9fd1aa9750b28e12462781d408863affaeb92dbdb8c020b6d3078e67/DLMS_SPODES-0.9.0.tar.gz
+[2024-05-28 15:57:40] INFO root fetch - processPackages [manual-tls]: executing diffoscope
+[2024-05-28 15:57:40] INFO root fetch - processPackages [manual-tls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manual_tls-0.0.2.tar.gz tmp/manual_tls-0.0.3.tar.gz --markdown 20240528/m/manual-tls/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-28 15:57:40] INFO root fetch - processPackages [DLMS-SPODES]: executing diffoscope
+[2024-05-28 15:57:40] INFO root fetch - processPackages [DLMS-SPODES]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES-0.8.3.tar.gz tmp/DLMS_SPODES-0.9.0.tar.gz --markdown 20240528/D/DLMS-SPODES/0.8.3-0.9.0/README.md --exclude *.pyd
+[2024-05-28 15:57:40] INFO root fetch - processPackages [research-task]: Downloading https://files.pythonhosted.org/packages/24/bc/240633e87da5aac51d5107586cc9befbe6b8e1d5bdc97719ec1a474c6bc4/research-task-0.1.1.tar.gz
+[2024-05-28 15:57:40] INFO root fetch - processPackages [partenaire-qualif]: Downloading https://files.pythonhosted.org/packages/2f/20/6b47e7def3371c449000fc8ec572011d96eeadb54f24a71cf767f61821c3/partenaire-qualif-0.2.4.tar.gz
+[2024-05-28 15:57:40] INFO root fetch - processPackages [imecilabt-gpulab-cli]: Downloading https://files.pythonhosted.org/packages/3b/57/42a66554db6b85cd413c253856acdc20bd7c8b98b59faddf2d9fb0f0c2a2/imecilabt_gpulab_cli-3.9.5.tar.gz
+[2024-05-28 15:57:40] INFO root fetch - processPackages [rina-pp-pyb]: Downloading https://files.pythonhosted.org/packages/0d/bb/76c9ac6ea7be5c8dddd027def91384714ded44e9272ba89158585c85f67b/rina_pp_pyb-1.0.1.tar.gz
+[2024-05-28 15:57:40] INFO root fetch - processPackages [dj-dynamic-settings]: Downloading https://files.pythonhosted.org/packages/86/6c/94497e511bba50505789a879700efd29a218f7c026d54f16bba692abe1af/dj-dynamic-settings-0.2.7.tar.gz
+[2024-05-28 15:57:40] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Downloading https://files.pythonhosted.org/packages/ad/65/93d0e7790f005c1bba7ae75a47e2b35b3d8a514713f549fccca0619a2df9/lusid-workflow-sdk-preview-0.1.996.tar.gz
+[2024-05-28 15:57:40] INFO root fetch - processPackages [wizproxy]: Downloading https://files.pythonhosted.org/packages/d8/96/a3b60fde989ab79299d605cf28493492d2922e6f7fb1211bd1f95fcd94b8/wizproxy-0.5.0.tar.gz
+[2024-05-28 15:57:40] INFO root fetch - processPackages [research-task]: executing diffoscope
+[2024-05-28 15:57:40] INFO root fetch - processPackages [research-task]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/research-task-0.1.0.tar.gz tmp/research-task-0.1.1.tar.gz --markdown 20240528/r/research-task/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-28 15:57:40] INFO root fetch - processPackages [web-ui-helper]: Downloading https://files.pythonhosted.org/packages/1f/c8/38480624bf604917088ea0e5aef3e4fa27207321ecc535bb420ac1161961/web-ui-helper-1.0.3.tar.gz
+[2024-05-28 15:57:40] INFO root fetch - processPackages [partenaire-qualif]: executing diffoscope
+[2024-05-28 15:57:40] INFO root fetch - processPackages [partenaire-qualif]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/partenaire-qualif-0.2.3.tar.gz tmp/partenaire-qualif-0.2.4.tar.gz --markdown 20240528/p/partenaire-qualif/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-05-28 15:57:40] INFO root fetch - processPackages [imecilabt-gpulab-cli]: executing diffoscope
+[2024-05-28 15:57:40] INFO root fetch - processPackages [imecilabt-gpulab-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imecilabt-gpulab-cli-3.9.4.tar.gz tmp/imecilabt_gpulab_cli-3.9.5.tar.gz --markdown 20240528/i/imecilabt-gpulab-cli/3.9.4-3.9.5/README.md --exclude *.pyd
+[2024-05-28 15:57:40] INFO root fetch - processPackages [dj-dynamic-settings]: executing diffoscope
+[2024-05-28 15:57:40] INFO root fetch - processPackages [dj-dynamic-settings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dj-dynamic-settings-0.2.6.tar.gz tmp/dj-dynamic-settings-0.2.7.tar.gz --markdown 20240528/d/dj-dynamic-settings/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-05-28 15:57:40] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: executing diffoscope
+[2024-05-28 15:57:40] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-workflow-sdk-preview-0.1.995.tar.gz tmp/lusid-workflow-sdk-preview-0.1.996.tar.gz --markdown 20240528/l/lusid-workflow-sdk-preview/0.1.995-0.1.996/README.md --exclude *.pyd
+[2024-05-28 15:57:40] INFO root fetch - processPackages [wizproxy]: executing diffoscope
+[2024-05-28 15:57:40] INFO root fetch - processPackages [wizproxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizproxy-0.4.0.tar.gz tmp/wizproxy-0.5.0.tar.gz --markdown 20240528/w/wizproxy/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-05-28 15:57:40] INFO root fetch - processPackages [rina-pp-pyb]: executing diffoscope
+[2024-05-28 15:57:40] INFO root fetch - processPackages [rina-pp-pyb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rina_pp_pyb-1.0.0.tar.gz tmp/rina_pp_pyb-1.0.1.tar.gz --markdown 20240528/r/rina-pp-pyb/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-28 15:57:41] INFO root fetch - processPackages [web-ui-helper]: executing diffoscope
+[2024-05-28 15:57:41] INFO root fetch - processPackages [web-ui-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web-ui-helper-1.0.2.tar.gz tmp/web-ui-helper-1.0.3.tar.gz --markdown 20240528/w/web-ui-helper/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-28 15:57:41] INFO root fetch - processPackages [manual-tls]: Remove: archive file [/home/abi/fetcher/tmp/manual_tls-0.0.2.tar.gz]
+[2024-05-28 15:57:41] INFO root fetch - processPackages [manual-tls]: Remove: archive file [/home/abi/fetcher/tmp/manual_tls-0.0.3.tar.gz]
+[2024-05-28 15:57:41] INFO root fetch - main [MainThread]: End processing [manual-tls]: success
+[2024-05-28 15:57:41] INFO root fetch - processPackages [imecilabt-gpulab-cli]: Remove: archive file [/home/abi/fetcher/tmp/imecilabt-gpulab-cli-3.9.4.tar.gz]
+[2024-05-28 15:57:41] INFO root fetch - processPackages [imecilabt-gpulab-cli]: Remove: archive file [/home/abi/fetcher/tmp/imecilabt_gpulab_cli-3.9.5.tar.gz]
+[2024-05-28 15:57:41] INFO root fetch - main [MainThread]: End processing [imecilabt-gpulab-cli]: success
+[2024-05-28 15:57:41] INFO root fetch - processPackages [research-task]: Remove: archive file [/home/abi/fetcher/tmp/research-task-0.1.0.tar.gz]
+[2024-05-28 15:57:41] INFO root fetch - processPackages [partenaire-qualif]: Remove: archive file [/home/abi/fetcher/tmp/partenaire-qualif-0.2.3.tar.gz]
+[2024-05-28 15:57:41] INFO root fetch - processPackages [research-task]: Remove: archive file [/home/abi/fetcher/tmp/research-task-0.1.1.tar.gz]
+[2024-05-28 15:57:41] INFO root fetch - processPackages [partenaire-qualif]: Remove: archive file [/home/abi/fetcher/tmp/partenaire-qualif-0.2.4.tar.gz]
+[2024-05-28 15:57:41] INFO root fetch - main [MainThread]: End processing [research-task]: success
+[2024-05-28 15:57:41] INFO root fetch - main [MainThread]: End processing [partenaire-qualif]: success
+[2024-05-28 15:57:41] INFO root fetch - processPackages [dj-dynamic-settings]: Remove: archive file [/home/abi/fetcher/tmp/dj-dynamic-settings-0.2.6.tar.gz]
+[2024-05-28 15:57:41] INFO root fetch - processPackages [dj-dynamic-settings]: Remove: archive file [/home/abi/fetcher/tmp/dj-dynamic-settings-0.2.7.tar.gz]
+[2024-05-28 15:57:41] INFO root fetch - main [MainThread]: End processing [dj-dynamic-settings]: success
+[2024-05-28 15:57:41] INFO root fetch - processPackages [wizproxy]: Remove: archive file [/home/abi/fetcher/tmp/wizproxy-0.4.0.tar.gz]
+[2024-05-28 15:57:41] INFO root fetch - processPackages [wizproxy]: Remove: archive file [/home/abi/fetcher/tmp/wizproxy-0.5.0.tar.gz]
+[2024-05-28 15:57:41] INFO root fetch - main [MainThread]: End processing [wizproxy]: success
+[2024-05-28 15:57:41] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.8.3.tar.gz]
+[2024-05-28 15:57:41] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.9.0.tar.gz]
+[2024-05-28 15:57:41] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
+[2024-05-28 15:57:42] INFO root fetch - processPackages [rina-pp-pyb]: Remove: archive file [/home/abi/fetcher/tmp/rina_pp_pyb-1.0.0.tar.gz]
+[2024-05-28 15:57:42] INFO root fetch - processPackages [rina-pp-pyb]: Remove: archive file [/home/abi/fetcher/tmp/rina_pp_pyb-1.0.1.tar.gz]
+[2024-05-28 15:57:42] INFO root fetch - main [MainThread]: End processing [rina-pp-pyb]: success
+[2024-05-28 15:57:42] INFO root fetch - processPackages [web-ui-helper]: Remove: archive file [/home/abi/fetcher/tmp/web-ui-helper-1.0.2.tar.gz]
+[2024-05-28 15:57:42] INFO root fetch - processPackages [web-ui-helper]: Remove: archive file [/home/abi/fetcher/tmp/web-ui-helper-1.0.3.tar.gz]
+[2024-05-28 15:57:42] INFO root fetch - main [MainThread]: End processing [web-ui-helper]: success
+[2024-05-28 15:57:42] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-workflow-sdk-preview-0.1.995.tar.gz]
+[2024-05-28 15:57:42] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-workflow-sdk-preview-0.1.996.tar.gz]
+[2024-05-28 15:57:42] INFO root fetch - main [MainThread]: End processing [lusid-workflow-sdk-preview]: success
+[2024-05-28 15:57:42] INFO root fetch - main [MainThread]: Store serial: [23412299]
