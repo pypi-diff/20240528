@@ -16610,3 +16610,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 13:01:23] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.9.0.0b0.tar.gz]
 [2024-05-28 13:01:23] INFO root fetch - main [MainThread]: End processing [dcicutils]: success
 [2024-05-28 13:01:23] INFO root fetch - main [MainThread]: Store serial: [23409920]
+[2024-05-28 13:03:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23409920]
+[2024-05-28 13:03:33] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-28 13:03:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cogflow
+[2024-05-28 13:03:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: 3scale-api
+[2024-05-28 13:03:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dynamicio
+[2024-05-28 13:03:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: muttfuzz
+[2024-05-28 13:03:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: myinternshipcalculator2024
+[2024-05-28 13:03:33] INFO root fetch - processPackages [muttfuzz]: New version: [0.7.7] Old Version: [0.7.6]
+[2024-05-28 13:03:34] INFO root fetch - processPackages [muttfuzz]: Downloading https://files.pythonhosted.org/packages/58/3a/21c52c2ecae994aa6b026bae743c001aa9ebeb1f9751f4fd88bb572eb25a/muttfuzz-0.7.6-py3-none-any.whl
+[2024-05-28 13:03:34] INFO root fetch - processPackages [myinternshipcalculator2024]: New version: [0.2.6] Old Version: [0.1]
+[2024-05-28 13:03:34] INFO root fetch - processPackages [dynamicio]: New version: [5.0.0rc6] Old Version: [5.0.0rc5]
+[2024-05-28 13:03:34] INFO root fetch - processPackages [3scale-api]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-28 13:03:34] INFO root fetch - processPackages [cogflow]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-28 13:03:34] INFO root fetch - processPackages [3scale-api]: Downloading https://files.pythonhosted.org/packages/d7/27/4911fee4f1930058b1f48ce63993d497d0faa5d03fd3615744ae45e86a4b/3scale-api-0.8.0.tar.gz
+[2024-05-28 13:03:34] INFO root fetch - processPackages [myinternshipcalculator2024]: Downloading https://files.pythonhosted.org/packages/f0/dc/16337ada88ec7e2f15abf8a0c454cdb9cf5153de341cc9661d5ea4d74856/myinternshipcalculator2024-0.1.tar.gz
+[2024-05-28 13:03:34] INFO root fetch - processPackages [cogflow]: Downloading https://files.pythonhosted.org/packages/3a/44/2dd887dfefc5e198a68539c2565726dced636a615597d201136d1a92a466/cogflow-1.9.8.tar.gz
+[2024-05-28 13:03:34] INFO root fetch - processPackages [dynamicio]: Downloading https://files.pythonhosted.org/packages/ba/c4/73584341d4d102fb8bd17c2aa46cb03729ee23eb535603bb84a25d9fe91f/dynamicio-5.0.0rc5.tar.gz
+[2024-05-28 13:03:34] INFO root fetch - processPackages [muttfuzz]: Downloading https://files.pythonhosted.org/packages/0a/f0/ad0531f811773ef21d6379e1346ca96e6197a4da4841113f9cffb07afdb0/muttfuzz-0.7.7-py3-none-any.whl
+[2024-05-28 13:03:34] INFO root fetch - processPackages [muttfuzz]: executing diffoscope
+[2024-05-28 13:03:34] INFO root fetch - processPackages [muttfuzz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muttfuzz-0.7.6-py3-none-any.whl.zip tmp/muttfuzz-0.7.7-py3-none-any.whl.zip --markdown 20240528/m/muttfuzz/0.7.6-0.7.7/README.md --exclude *.pyd
+[2024-05-28 13:03:34] INFO root fetch - processPackages [3scale-api]: Downloading https://files.pythonhosted.org/packages/03/d0/282b47e57048872040f55fda206d960886b79c092333addc4e217f7cccd9/3scale-api-0.9.0.tar.gz
+[2024-05-28 13:03:34] INFO root fetch - processPackages [myinternshipcalculator2024]: Downloading https://files.pythonhosted.org/packages/79/00/3ac365ad65e25f7ae148b2f244abb5904d92ae90ce86a4428ddc374490f1/myinternshipcalculator2024-0.2.6.tar.gz
+[2024-05-28 13:03:34] INFO root fetch - processPackages [cogflow]: Downloading https://files.pythonhosted.org/packages/0e/16/8f5f931a1aa5b5143fe0b0ad8fd8950276383f3e063a3d599473897f4af3/cogflow-1.9.9.tar.gz
+[2024-05-28 13:03:34] INFO root fetch - processPackages [dynamicio]: Downloading https://files.pythonhosted.org/packages/28/6a/258ccf3c37db7db4c14977b4828eca2bdcf4a6c1c0699fb070c13fb267d8/dynamicio-5.0.0rc6.tar.gz
+[2024-05-28 13:03:34] INFO root fetch - processPackages [3scale-api]: executing diffoscope
+[2024-05-28 13:03:34] INFO root fetch - processPackages [3scale-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/3scale-api-0.8.0.tar.gz tmp/3scale-api-0.9.0.tar.gz --markdown 20240528/3/3scale-api/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-28 13:03:34] INFO root fetch - processPackages [cogflow]: executing diffoscope
+[2024-05-28 13:03:34] INFO root fetch - processPackages [cogflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cogflow-1.9.8.tar.gz tmp/cogflow-1.9.9.tar.gz --markdown 20240528/c/cogflow/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-05-28 13:03:34] INFO root fetch - processPackages [myinternshipcalculator2024]: executing diffoscope
+[2024-05-28 13:03:34] INFO root fetch - processPackages [myinternshipcalculator2024]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myinternshipcalculator2024-0.1.tar.gz tmp/myinternshipcalculator2024-0.2.6.tar.gz --markdown 20240528/m/myinternshipcalculator2024/0.1-0.2.6/README.md --exclude *.pyd
+[2024-05-28 13:03:34] INFO root fetch - processPackages [dynamicio]: executing diffoscope
+[2024-05-28 13:03:34] INFO root fetch - processPackages [dynamicio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynamicio-5.0.0rc5.tar.gz tmp/dynamicio-5.0.0rc6.tar.gz --markdown 20240528/d/dynamicio/5.0.0rc5-5.0.0rc6/README.md --exclude *.pyd
+[2024-05-28 13:03:35] INFO root fetch - processPackages [muttfuzz]: Remove: archive file [/home/abi/fetcher/tmp/muttfuzz-0.7.6-py3-none-any.whl.zip]
+[2024-05-28 13:03:35] INFO root fetch - processPackages [muttfuzz]: Remove: archive file [/home/abi/fetcher/tmp/muttfuzz-0.7.7-py3-none-any.whl.zip]
+[2024-05-28 13:03:35] INFO root fetch - main [MainThread]: End processing [muttfuzz]: success
+[2024-05-28 13:03:35] INFO root fetch - processPackages [myinternshipcalculator2024]: Remove: archive file [/home/abi/fetcher/tmp/myinternshipcalculator2024-0.1.tar.gz]
+[2024-05-28 13:03:35] INFO root fetch - processPackages [myinternshipcalculator2024]: Remove: archive file [/home/abi/fetcher/tmp/myinternshipcalculator2024-0.2.6.tar.gz]
+[2024-05-28 13:03:35] INFO root fetch - main [MainThread]: End processing [myinternshipcalculator2024]: success
+[2024-05-28 13:03:35] INFO root fetch - processPackages [cogflow]: Remove: archive file [/home/abi/fetcher/tmp/cogflow-1.9.8.tar.gz]
+[2024-05-28 13:03:35] INFO root fetch - processPackages [cogflow]: Remove: archive file [/home/abi/fetcher/tmp/cogflow-1.9.9.tar.gz]
+[2024-05-28 13:03:35] INFO root fetch - main [MainThread]: End processing [cogflow]: success
+[2024-05-28 13:03:35] INFO root fetch - processPackages [3scale-api]: Remove: archive file [/home/abi/fetcher/tmp/3scale-api-0.8.0.tar.gz]
+[2024-05-28 13:03:35] INFO root fetch - processPackages [3scale-api]: Remove: archive file [/home/abi/fetcher/tmp/3scale-api-0.9.0.tar.gz]
+[2024-05-28 13:03:35] INFO root fetch - main [MainThread]: End processing [3scale-api]: success
+[2024-05-28 13:03:35] INFO root fetch - processPackages [dynamicio]: Remove: archive file [/home/abi/fetcher/tmp/dynamicio-5.0.0rc5.tar.gz]
+[2024-05-28 13:03:35] INFO root fetch - processPackages [dynamicio]: Remove: archive file [/home/abi/fetcher/tmp/dynamicio-5.0.0rc6.tar.gz]
+[2024-05-28 13:03:35] INFO root fetch - main [MainThread]: End processing [dynamicio]: success
+[2024-05-28 13:03:35] INFO root fetch - main [MainThread]: Store serial: [23409949]
