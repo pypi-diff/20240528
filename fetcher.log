@@ -2232,3 +2232,18 @@
 [2024-05-28 02:39:05] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.29a1716835373.tar.gz]
 [2024-05-28 02:39:05] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
 [2024-05-28 02:39:05] INFO root fetch - main [MainThread]: Store serial: [23403703]
+[2024-05-28 02:41:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23403703]
+[2024-05-28 02:41:13] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-28 02:41:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qulacs
+[2024-05-28 02:41:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gene-synthesis
+[2024-05-28 02:41:13] WARNING root fetch - processPackages [gene-synthesis]: Skipping, unable to determine old version
+[2024-05-28 02:41:13] INFO root fetch - main [MainThread]: End processing [gene-synthesis] error
+[2024-05-28 02:41:13] INFO root fetch - processPackages [qulacs]: New version: [0.6.4.1] Old Version: [0.6.3]
+[2024-05-28 02:41:14] INFO root fetch - processPackages [qulacs]: Downloading https://files.pythonhosted.org/packages/c2/86/886949db3231edba0e24b0ffa5745a7b29dd18f28ca6fb758139233f6287/qulacs-0.6.3.tar.gz
+[2024-05-28 02:41:14] INFO root fetch - processPackages [qulacs]: Downloading https://files.pythonhosted.org/packages/bc/c4/9afe9409619b9e36f761e7b404d2f50770c7e6ea24d120ed57a8708e55f6/qulacs-0.6.4.1.tar.gz
+[2024-05-28 02:41:14] INFO root fetch - processPackages [qulacs]: executing diffoscope
+[2024-05-28 02:41:14] INFO root fetch - processPackages [qulacs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qulacs-0.6.3.tar.gz tmp/qulacs-0.6.4.1.tar.gz --markdown 20240528/q/qulacs/0.6.3-0.6.4.1/README.md --exclude *.pyd
+[2024-05-28 02:41:27] INFO root fetch - processPackages [qulacs]: Remove: archive file [/home/abi/fetcher/tmp/qulacs-0.6.3.tar.gz]
+[2024-05-28 02:41:27] INFO root fetch - processPackages [qulacs]: Remove: archive file [/home/abi/fetcher/tmp/qulacs-0.6.4.1.tar.gz]
+[2024-05-28 02:41:27] INFO root fetch - main [MainThread]: End processing [qulacs]: success
+[2024-05-28 02:41:27] INFO root fetch - main [MainThread]: Store serial: [23403712]
