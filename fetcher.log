@@ -22666,3 +22666,138 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 16:22:22] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9998.tar.gz]
 [2024-05-28 16:22:22] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
 [2024-05-28 16:22:22] INFO root fetch - main [MainThread]: Store serial: [23412823]
+[2024-05-28 16:24:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23412823]
+[2024-05-28 16:24:31] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2024-05-28 16:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quantplay
+[2024-05-28 16:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: parsys-requests-unixsocket
+[2024-05-28 16:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sentry-cli
+[2024-05-28 16:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: agptools
+[2024-05-28 16:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nvidia-dali-tf-plugin-nightly-cuda120
+[2024-05-28 16:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: syncmodels
+[2024-05-28 16:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: swarmtube
+[2024-05-28 16:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyBlindRL
+[2024-05-28 16:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyBlindRL
+[2024-05-28 16:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: RodTracker
+[2024-05-28 16:24:32] INFO root fetch - processPackages [syncmodels]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-28 16:24:32] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: New version: [1.39.0.dev20240527] Old Version: [1.39.0.dev20240521]
+[2024-05-28 16:24:32] INFO root fetch - processPackages [agptools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-28 16:24:32] INFO root fetch - processPackages [swarmtube]: New version: [0.1.52] Old Version: [0.1.51]
+[2024-05-28 16:24:32] INFO root fetch - processPackages [sentry-cli]: New version: [2.32.0] Old Version: [2.31.2]
+[2024-05-28 16:24:32] INFO root fetch - processPackages [quantplay]: New version: [1.5.9] Old Version: [1.5.82]
+[2024-05-28 16:24:32] WARNING root fetch - processPackages [parsys-requests-unixsocket]: Skipping, unable to determine old version
+[2024-05-28 16:24:32] INFO root fetch - processPackages [parsys-requests-unixsocket]: Start processing: coiled
+[2024-05-28 16:24:32] INFO root fetch - main [MainThread]: End processing [parsys-requests-unixsocket] error
+[2024-05-28 16:24:32] INFO root fetch - processPackages [RodTracker]: New version: [0.6.3.dev6] Old Version: [0.6.3.dev5]
+[2024-05-28 16:24:32] INFO root fetch - processPackages [pyBlindRL]: New version: [0.1.2rc97.post1] Old Version: [0.1.2rc96.post1]
+[2024-05-28 16:24:32] INFO root fetch - processPackages [pyBlindRL]: New version: [0.1.2rc97.post1] Old Version: [0.1.2rc96.post1]
+[2024-05-28 16:24:32] INFO root fetch - processPackages [syncmodels]: Downloading https://files.pythonhosted.org/packages/09/13/db4988a642af43523190154e2a5fc392ebeed8a8fa626973e593b7c6b635/syncmodels-0.1.8-py2.py3-none-any.whl
+[2024-05-28 16:24:32] INFO root fetch - processPackages [sentry-cli]: Downloading https://files.pythonhosted.org/packages/b5/f9/8c62fc1477f7916b4023857e28bb72e227f3727c7fa3c24e55e280855aae/sentry_cli-2.31.2.tar.gz
+[2024-05-28 16:24:32] INFO root fetch - processPackages [swarmtube]: Downloading https://files.pythonhosted.org/packages/3a/b4/f4c435b92401d31b30ea4056ad0311678e85ef488f02d0e9bb497ee45090/swarmtube-0.1.51-py2.py3-none-any.whl
+[2024-05-28 16:24:32] INFO root fetch - processPackages [agptools]: Downloading https://files.pythonhosted.org/packages/ef/90/08317ea7b8434657a0c64c671a0ce91127781d19896203a19175d974fc12/agptools-0.1.8-py2.py3-none-any.whl
+[2024-05-28 16:24:32] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/c3/64/6753121bbf36c17ecd015021d52c6a131a5af90200c15da7f76ace822fe3/nvidia_dali_tf_plugin_nightly_cuda120-1.39.0.dev20240521.tar.gz
+[2024-05-28 16:24:32] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/d3/63/cc0b5247c4654038d9ff672cd7f532cb8e0b75f4b6f68a8fcfaddddccc80/quantplay-1.5.82.tar.gz
+[2024-05-28 16:24:32] INFO root fetch - processPackages [RodTracker]: Downloading https://files.pythonhosted.org/packages/cd/71/02aae4d6cf86c79dc35a6b948292bc0edbe40d1cd4f5199834f1328ce183/rodtracker-0.6.3.dev5.tar.gz
+[2024-05-28 16:24:32] INFO root fetch - processPackages [pyBlindRL]: Downloading https://files.pythonhosted.org/packages/84/1d/0dbe22444712f9b1459a5249de9008f4d9283821ce488470798930e93661/pyblindrl-0.1.2rc96.post1.tar.gz
+[2024-05-28 16:24:32] INFO root fetch - processPackages [pyBlindRL]: Downloading https://files.pythonhosted.org/packages/84/1d/0dbe22444712f9b1459a5249de9008f4d9283821ce488470798930e93661/pyblindrl-0.1.2rc96.post1.tar.gz
+[2024-05-28 16:24:32] WARNING root fetch - processPackages [RodTracker]: Skipping package: exceeds size limit 16671905>=10485760
+[2024-05-28 16:24:32] INFO root fetch - processPackages [RodTracker]: Start processing: skrub
+[2024-05-28 16:24:32] INFO root fetch - main [MainThread]: End processing [RodTracker] error
+[2024-05-28 16:24:32] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/25/d2/da1a452c527598eecceeae0b58e12a77efa91882a4527812a6c4ff7183da/nvidia_dali_tf_plugin_nightly_cuda120-1.39.0.dev20240527.tar.gz
+[2024-05-28 16:24:32] INFO root fetch - processPackages [sentry-cli]: Downloading https://files.pythonhosted.org/packages/80/23/93bdc928656f38fb140c6137c9c873678aef700e8f8d779e5f58b245604d/sentry_cli-2.32.0.tar.gz
+[2024-05-28 16:24:32] INFO root fetch - processPackages [agptools]: Downloading https://files.pythonhosted.org/packages/b4/96/a1fa0a1e147cbeb8acd6a36e118eb3b3ecfbf93d5b5de31b99b5d8bef5f4/agptools-0.1.9-py2.py3-none-any.whl
+[2024-05-28 16:24:32] INFO root fetch - processPackages [swarmtube]: Downloading https://files.pythonhosted.org/packages/99/5a/02eb53f3391b4b9f7766641c1753fea0855b18b5efcdd6b7b8dc7b5e2f29/swarmtube-0.1.52-py2.py3-none-any.whl
+[2024-05-28 16:24:32] INFO root fetch - processPackages [syncmodels]: Downloading https://files.pythonhosted.org/packages/fa/f6/eeeb0b12fc045f5917cfc3967317eddb0f896b12df99ee9cb26dd42b0529/syncmodels-0.1.9-py2.py3-none-any.whl
+[2024-05-28 16:24:32] INFO root fetch - processPackages [skrub]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-28 16:24:32] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/29/44/bc619a0a4e2ecba52ee7f6eac8f51f600a1d90bb67f88a28638d7d9f9c62/quantplay-1.5.9.tar.gz
+[2024-05-28 16:24:32] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: executing diffoscope
+[2024-05-28 16:24:32] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia_dali_tf_plugin_nightly_cuda120-1.39.0.dev20240521.tar.gz tmp/nvidia_dali_tf_plugin_nightly_cuda120-1.39.0.dev20240527.tar.gz --markdown 20240528/n/nvidia-dali-tf-plugin-nightly-cuda120/1.39.0.dev20240521-1.39.0.dev20240527/README.md --exclude *.pyd
+[2024-05-28 16:24:32] INFO root fetch - processPackages [agptools]: executing diffoscope
+[2024-05-28 16:24:32] INFO root fetch - processPackages [agptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agptools-0.1.8-py2.py3-none-any.whl.zip tmp/agptools-0.1.9-py2.py3-none-any.whl.zip --markdown 20240528/a/agptools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-28 16:24:32] INFO root fetch - processPackages [sentry-cli]: executing diffoscope
+[2024-05-28 16:24:32] INFO root fetch - processPackages [sentry-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry_cli-2.31.2.tar.gz tmp/sentry_cli-2.32.0.tar.gz --markdown 20240528/s/sentry-cli/2.31.2-2.32.0/README.md --exclude *.pyd
+[2024-05-28 16:24:32] INFO root fetch - processPackages [swarmtube]: executing diffoscope
+[2024-05-28 16:24:32] INFO root fetch - processPackages [swarmtube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmtube-0.1.51-py2.py3-none-any.whl.zip tmp/swarmtube-0.1.52-py2.py3-none-any.whl.zip --markdown 20240528/s/swarmtube/0.1.51-0.1.52/README.md --exclude *.pyd
+[2024-05-28 16:24:32] INFO root fetch - processPackages [syncmodels]: executing diffoscope
+[2024-05-28 16:24:32] INFO root fetch - processPackages [syncmodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syncmodels-0.1.8-py2.py3-none-any.whl.zip tmp/syncmodels-0.1.9-py2.py3-none-any.whl.zip --markdown 20240528/s/syncmodels/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-28 16:24:32] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2024-05-28 16:24:32] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.5.82.tar.gz tmp/quantplay-1.5.9.tar.gz --markdown 20240528/q/quantplay/1.5.82-1.5.9/README.md --exclude *.pyd
+[2024-05-28 16:24:32] INFO root fetch - processPackages [pyBlindRL]: Downloading https://files.pythonhosted.org/packages/1a/9b/ce4fdea372da39ecd0e3fccf50d9f62d92a542171275c749ce2a33383a8c/pyblindrl-0.1.2rc97.post1.tar.gz
+[2024-05-28 16:24:32] INFO root fetch - processPackages [pyBlindRL]: Downloading https://files.pythonhosted.org/packages/1a/9b/ce4fdea372da39ecd0e3fccf50d9f62d92a542171275c749ce2a33383a8c/pyblindrl-0.1.2rc97.post1.tar.gz
+[2024-05-28 16:24:32] INFO root fetch - processPackages [skrub]: Downloading https://files.pythonhosted.org/packages/63/f6/c489e124a16b58a81dcf31ee2cde860f733b0c2d08d66a743deafe9893e3/skrub-0.1.0.tar.gz
+[2024-05-28 16:24:33] INFO root fetch - processPackages [pyBlindRL]: executing diffoscope
+[2024-05-28 16:24:33] INFO root fetch - processPackages [pyBlindRL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyblindrl-0.1.2rc96.post1.tar.gz tmp/pyblindrl-0.1.2rc97.post1.tar.gz --markdown 20240528/p/pyBlindRL/0.1.2rc96.post1-0.1.2rc97.post1/README.md --exclude *.pyd
+[2024-05-28 16:24:33] INFO root fetch - processPackages [coiled]: New version: [1.9.1.dev9] Old Version: [1.9.1.dev8]
+[2024-05-28 16:24:33] INFO root fetch - processPackages [pyBlindRL]: executing diffoscope
+[2024-05-28 16:24:33] INFO root fetch - processPackages [pyBlindRL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyblindrl-0.1.2rc96.post1.tar.gz tmp/pyblindrl-0.1.2rc97.post1.tar.gz --markdown 20240528/p/pyBlindRL/0.1.2rc96.post1-0.1.2rc97.post1/README.md --exclude *.pyd
+[2024-05-28 16:24:33] INFO root fetch - processPackages [skrub]: Downloading https://files.pythonhosted.org/packages/23/a6/35d8a972a46f4ef55c3552123d0095101b5de6e1817f0acfd9c661943d08/skrub-0.1.1.tar.gz
+[2024-05-28 16:24:33] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/8b/97/14337c08d9fc8bec2c9c7a5961519e141cf75d7dffa582bb987eecacefa4/coiled-1.9.1.dev8.tar.gz
+[2024-05-28 16:24:33] INFO root fetch - processPackages [agptools]: Remove: archive file [/home/abi/fetcher/tmp/agptools-0.1.8-py2.py3-none-any.whl.zip]
+[2024-05-28 16:24:33] INFO root fetch - processPackages [agptools]: Remove: archive file [/home/abi/fetcher/tmp/agptools-0.1.9-py2.py3-none-any.whl.zip]
+[2024-05-28 16:24:33] INFO root fetch - processPackages [agptools]: Start processing: openai-cost-logger
+[2024-05-28 16:24:33] INFO root fetch - main [MainThread]: End processing [agptools]: success
+[2024-05-28 16:24:33] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_tf_plugin_nightly_cuda120-1.39.0.dev20240521.tar.gz]
+[2024-05-28 16:24:33] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_tf_plugin_nightly_cuda120-1.39.0.dev20240527.tar.gz]
+[2024-05-28 16:24:33] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Start processing: gandai
+[2024-05-28 16:24:33] INFO root fetch - main [MainThread]: End processing [nvidia-dali-tf-plugin-nightly-cuda120]: success
+[2024-05-28 16:24:33] INFO root fetch - processPackages [openai-cost-logger]: New version: [0.5.0] Old Version: [0.4.1]
+[2024-05-28 16:24:33] INFO root fetch - processPackages [syncmodels]: Remove: archive file [/home/abi/fetcher/tmp/syncmodels-0.1.8-py2.py3-none-any.whl.zip]
+[2024-05-28 16:24:33] INFO root fetch - processPackages [syncmodels]: Remove: archive file [/home/abi/fetcher/tmp/syncmodels-0.1.9-py2.py3-none-any.whl.zip]
+[2024-05-28 16:24:33] INFO root fetch - processPackages [syncmodels]: Start processing: ultracart-rest-sdk
+[2024-05-28 16:24:33] INFO root fetch - main [MainThread]: End processing [syncmodels]: success
+[2024-05-28 16:24:33] INFO root fetch - processPackages [skrub]: executing diffoscope
+[2024-05-28 16:24:33] INFO root fetch - processPackages [skrub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skrub-0.1.0.tar.gz tmp/skrub-0.1.1.tar.gz --markdown 20240528/s/skrub/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-28 16:24:33] INFO root fetch - processPackages [openai-cost-logger]: Downloading https://files.pythonhosted.org/packages/e9/a1/7b7acf43840f700a83e72f6f20f2a91b358a5bae5cb2d7d25d394d7d580f/openai-cost-logger-0.4.1.tar.gz
+[2024-05-28 16:24:33] INFO root fetch - processPackages [swarmtube]: Remove: archive file [/home/abi/fetcher/tmp/swarmtube-0.1.51-py2.py3-none-any.whl.zip]
+[2024-05-28 16:24:33] INFO root fetch - processPackages [swarmtube]: Remove: archive file [/home/abi/fetcher/tmp/swarmtube-0.1.52-py2.py3-none-any.whl.zip]
+[2024-05-28 16:24:33] INFO root fetch - processPackages [swarmtube]: Start processing: openopc2
+[2024-05-28 16:24:33] INFO root fetch - main [MainThread]: End processing [swarmtube]: success
+[2024-05-28 16:24:33] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/58/16/aec6b9100728dfee740792b7dd55fc6e56240fdadb5ef317a1d120e019d7/coiled-1.9.1.dev9.tar.gz
+[2024-05-28 16:24:33] INFO root fetch - processPackages [gandai]: New version: [1.7.55] Old Version: [1.7.54]
+[2024-05-28 16:24:33] INFO root fetch - processPackages [pyBlindRL]: Remove: archive file [/home/abi/fetcher/tmp/pyblindrl-0.1.2rc96.post1.tar.gz]
+[2024-05-28 16:24:33] INFO root fetch - processPackages [pyBlindRL]: Remove: archive file [/home/abi/fetcher/tmp/pyblindrl-0.1.2rc97.post1.tar.gz]
+[2024-05-28 16:24:33] INFO root fetch - main [MainThread]: End processing [pyBlindRL]: success
+[2024-05-28 16:24:34] INFO root fetch - main [MainThread]: End processing [pyBlindRL]: success
+[2024-05-28 16:24:34] INFO root fetch - processPackages [openai-cost-logger]: Downloading https://files.pythonhosted.org/packages/de/21/6d084c75e96106d683ab3cae3c2b6b610290ded74dfd7846f3943d12c23f/openai-cost-logger-0.5.0.tar.gz
+[2024-05-28 16:24:34] INFO root fetch - processPackages [ultracart-rest-sdk]: New version: [4.0.99rc0] Old Version: [4.0.98rc0]
+[2024-05-28 16:24:34] INFO root fetch - processPackages [openopc2]: New version: [0.1.9] Old Version: [0.1.7]
+[2024-05-28 16:24:34] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2024-05-28 16:24:34] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-1.9.1.dev8.tar.gz tmp/coiled-1.9.1.dev9.tar.gz --markdown 20240528/c/coiled/1.9.1.dev8-1.9.1.dev9/README.md --exclude *.pyd
+[2024-05-28 16:24:34] INFO root fetch - processPackages [openai-cost-logger]: executing diffoscope
+[2024-05-28 16:24:34] INFO root fetch - processPackages [openai-cost-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai-cost-logger-0.4.1.tar.gz tmp/openai-cost-logger-0.5.0.tar.gz --markdown 20240528/o/openai-cost-logger/0.4.1-0.5.0/README.md --exclude *.pyd
+[2024-05-28 16:24:34] INFO root fetch - processPackages [gandai]: Downloading https://files.pythonhosted.org/packages/7d/06/33dbcbf39e9f40c338eaebe76d5d2d2cd41ac0c0f7bcc3359446a1e51e25/gandai-1.7.54.tar.gz
+[2024-05-28 16:24:34] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.82.tar.gz]
+[2024-05-28 16:24:34] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.9.tar.gz]
+[2024-05-28 16:24:34] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2024-05-28 16:24:34] INFO root fetch - processPackages [ultracart-rest-sdk]: Downloading https://files.pythonhosted.org/packages/71/ef/7b3e4c3123392afa24ebd5018befc34b4baacf0250c8a0c2ceeff4a3e3ad/ultracart_rest_sdk-4.0.98rc0.tar.gz
+[2024-05-28 16:24:34] INFO root fetch - processPackages [openopc2]: Downloading https://files.pythonhosted.org/packages/d7/4c/f9afa5e399587d88b26ef6c07ff4ed642319dbf8009f380f6e532e079ce5/openopc2-0.1.7.tar.gz
+[2024-05-28 16:24:34] INFO root fetch - processPackages [sentry-cli]: Remove: archive file [/home/abi/fetcher/tmp/sentry_cli-2.31.2.tar.gz]
+[2024-05-28 16:24:34] INFO root fetch - processPackages [sentry-cli]: Remove: archive file [/home/abi/fetcher/tmp/sentry_cli-2.32.0.tar.gz]
+[2024-05-28 16:24:34] INFO root fetch - main [MainThread]: End processing [sentry-cli]: success
+[2024-05-28 16:24:34] INFO root fetch - processPackages [gandai]: Downloading https://files.pythonhosted.org/packages/8d/33/b62783e59c12b142512643ea746730ceac2a27f5ead9fc0428fc5fe14938/gandai-1.7.55.tar.gz
+[2024-05-28 16:24:34] INFO root fetch - processPackages [openai-cost-logger]: Remove: archive file [/home/abi/fetcher/tmp/openai-cost-logger-0.4.1.tar.gz]
+[2024-05-28 16:24:34] INFO root fetch - processPackages [openai-cost-logger]: Remove: archive file [/home/abi/fetcher/tmp/openai-cost-logger-0.5.0.tar.gz]
+[2024-05-28 16:24:34] INFO root fetch - main [MainThread]: End processing [openai-cost-logger]: success
+[2024-05-28 16:24:34] INFO root fetch - processPackages [ultracart-rest-sdk]: Downloading https://files.pythonhosted.org/packages/53/de/3357390dfc51b1725d15b38c41c9c2ab33d663a1cf3e2ab06dd0ed795755/ultracart_rest_sdk-4.0.99rc0.tar.gz
+[2024-05-28 16:24:34] INFO root fetch - processPackages [skrub]: Remove: archive file [/home/abi/fetcher/tmp/skrub-0.1.0.tar.gz]
+[2024-05-28 16:24:34] INFO root fetch - processPackages [skrub]: Remove: archive file [/home/abi/fetcher/tmp/skrub-0.1.1.tar.gz]
+[2024-05-28 16:24:34] INFO root fetch - main [MainThread]: End processing [skrub]: success
+[2024-05-28 16:24:34] INFO root fetch - processPackages [gandai]: executing diffoscope
+[2024-05-28 16:24:34] INFO root fetch - processPackages [gandai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gandai-1.7.54.tar.gz tmp/gandai-1.7.55.tar.gz --markdown 20240528/g/gandai/1.7.54-1.7.55/README.md --exclude *.pyd
+[2024-05-28 16:24:34] INFO root fetch - processPackages [openopc2]: Downloading https://files.pythonhosted.org/packages/27/ec/19de5c21745afe23dbeff50e5259af89e27e0b7c35cf5ba545c75e790452/openopc2-0.1.9.tar.gz
+[2024-05-28 16:24:34] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev8.tar.gz]
+[2024-05-28 16:24:34] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev9.tar.gz]
+[2024-05-28 16:24:34] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2024-05-28 16:24:35] INFO root fetch - processPackages [ultracart-rest-sdk]: executing diffoscope
+[2024-05-28 16:24:35] INFO root fetch - processPackages [ultracart-rest-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultracart_rest_sdk-4.0.98rc0.tar.gz tmp/ultracart_rest_sdk-4.0.99rc0.tar.gz --markdown 20240528/u/ultracart-rest-sdk/4.0.98rc0-4.0.99rc0/README.md --exclude *.pyd
+[2024-05-28 16:24:35] INFO root fetch - processPackages [gandai]: Remove: archive file [/home/abi/fetcher/tmp/gandai-1.7.54.tar.gz]
+[2024-05-28 16:24:35] INFO root fetch - processPackages [gandai]: Remove: archive file [/home/abi/fetcher/tmp/gandai-1.7.55.tar.gz]
+[2024-05-28 16:24:35] INFO root fetch - main [MainThread]: End processing [gandai]: success
+[2024-05-28 16:24:36] INFO root fetch - processPackages [openopc2]: executing diffoscope
+[2024-05-28 16:24:36] INFO root fetch - processPackages [openopc2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openopc2-0.1.7.tar.gz tmp/openopc2-0.1.9.tar.gz --markdown 20240528/o/openopc2/0.1.7-0.1.9/README.md --exclude *.pyd
+[2024-05-28 16:24:36] INFO root fetch - processPackages [openopc2]: Remove: archive file [/home/abi/fetcher/tmp/openopc2-0.1.7.tar.gz]
+[2024-05-28 16:24:36] INFO root fetch - processPackages [openopc2]: Remove: archive file [/home/abi/fetcher/tmp/openopc2-0.1.9.tar.gz]
+[2024-05-28 16:24:36] INFO root fetch - main [MainThread]: End processing [openopc2]: success
+[2024-05-28 16:24:38] INFO root fetch - processPackages [ultracart-rest-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ultracart_rest_sdk-4.0.98rc0.tar.gz]
+[2024-05-28 16:24:38] INFO root fetch - processPackages [ultracart-rest-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ultracart_rest_sdk-4.0.99rc0.tar.gz]
+[2024-05-28 16:24:38] INFO root fetch - main [MainThread]: End processing [ultracart-rest-sdk]: success
+[2024-05-28 16:24:38] INFO root fetch - main [MainThread]: Store serial: [23412881]
