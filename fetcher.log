@@ -9797,3 +9797,45 @@
 [2024-05-28 09:09:26] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
 [2024-05-28 09:09:26] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
 [2024-05-28 09:09:26] INFO root fetch - main [MainThread]: Store serial: [23406914]
+[2024-05-28 09:11:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23406914]
+[2024-05-28 09:11:34] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-28 09:11:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: objectbox
+[2024-05-28 09:11:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mia-vgg
+[2024-05-28 09:11:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-oauth-emailbackend
+[2024-05-28 09:11:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hestia-earth-models
+[2024-05-28 09:11:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: NeuroR
+[2024-05-28 09:11:35] INFO root fetch - processPackages [mia-vgg]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-28 09:11:35] INFO root fetch - processPackages [objectbox]: New version: [4.0.0a4] Old Version: [4.0.0a3]
+[2024-05-28 09:11:35] INFO root fetch - processPackages [mia-vgg]: Downloading https://files.pythonhosted.org/packages/7d/99/89bc26b6fc0c4be64ccf67e364ca9e0df91458fd29d11e2358855b46e97d/mia_vgg-0.0.8.tar.gz
+[2024-05-28 09:11:35] WARNING root fetch - processPackages [django-oauth-emailbackend]: Skipping, unable to determine old version
+[2024-05-28 09:11:35] INFO root fetch - main [MainThread]: End processing [django-oauth-emailbackend] error
+[2024-05-28 09:11:35] INFO root fetch - processPackages [NeuroR]: New version: [1.7.0] Old Version: [1.6.4]
+[2024-05-28 09:11:35] INFO root fetch - processPackages [objectbox]: Downloading https://files.pythonhosted.org/packages/a0/d6/51aff7a528bd52b9e1d8cb347bcdba88eeb84c16317e155acde5a62f10fd/objectbox-4.0.0a3-py3-none-any.whl
+[2024-05-28 09:11:35] INFO root fetch - processPackages [hestia-earth-models]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-28 09:11:35] INFO root fetch - processPackages [NeuroR]: Downloading https://files.pythonhosted.org/packages/6c/04/dc63cf0dfd9b7b349346cce2ce2b7de5f8e1562cbea895bc32bd88e7c4a4/NeuroR-1.6.4.tar.gz
+[2024-05-28 09:11:35] INFO root fetch - processPackages [mia-vgg]: Downloading https://files.pythonhosted.org/packages/cc/39/4b0634a6c0cfb889300cdd32b0b9e896e244894df317465107e5a88463b0/mia_vgg-0.0.9.tar.gz
+[2024-05-28 09:11:35] INFO root fetch - processPackages [hestia-earth-models]: Downloading https://files.pythonhosted.org/packages/a2/61/d19a2d7e01e8a5e0035eea49d6f5bdd2e224d17d89fe9ef0012f7ff05723/hestia-earth-models-0.9.0.tar.gz
+[2024-05-28 09:11:35] INFO root fetch - processPackages [mia-vgg]: executing diffoscope
+[2024-05-28 09:11:35] INFO root fetch - processPackages [mia-vgg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mia_vgg-0.0.8.tar.gz tmp/mia_vgg-0.0.9.tar.gz --markdown 20240528/m/mia-vgg/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-28 09:11:35] INFO root fetch - processPackages [objectbox]: Downloading https://files.pythonhosted.org/packages/64/73/1a4394596ab34b87377d733bdf127c2116070d59b1e812f0decaeb181d57/objectbox-4.0.0a4-py3-none-any.whl
+[2024-05-28 09:11:35] INFO root fetch - processPackages [NeuroR]: Downloading https://files.pythonhosted.org/packages/a0/eb/b4dafd7dcd973779d6b49aac5e3f9da28c64b33d1d3bc1dfd20b7356248e/NeuroR-1.7.0.tar.gz
+[2024-05-28 09:11:35] INFO root fetch - processPackages [NeuroR]: executing diffoscope
+[2024-05-28 09:11:35] INFO root fetch - processPackages [NeuroR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NeuroR-1.6.4.tar.gz tmp/NeuroR-1.7.0.tar.gz --markdown 20240528/N/NeuroR/1.6.4-1.7.0/README.md --exclude *.pyd
+[2024-05-28 09:11:35] INFO root fetch - processPackages [hestia-earth-models]: Downloading https://files.pythonhosted.org/packages/59/94/5b9b4317f8ae747ccffceb5debddd5d4f68a8aac6d6d53afb2ade6dbdfdb/hestia-earth-models-0.9.1.tar.gz
+[2024-05-28 09:11:36] INFO root fetch - processPackages [objectbox]: executing diffoscope
+[2024-05-28 09:11:36] INFO root fetch - processPackages [objectbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/objectbox-4.0.0a3-py3-none-any.whl.zip tmp/objectbox-4.0.0a4-py3-none-any.whl.zip --markdown 20240528/o/objectbox/4.0.0a3-4.0.0a4/README.md --exclude *.pyd
+[2024-05-28 09:11:36] INFO root fetch - processPackages [mia-vgg]: Remove: archive file [/home/abi/fetcher/tmp/mia_vgg-0.0.8.tar.gz]
+[2024-05-28 09:11:36] INFO root fetch - processPackages [mia-vgg]: Remove: archive file [/home/abi/fetcher/tmp/mia_vgg-0.0.9.tar.gz]
+[2024-05-28 09:11:36] INFO root fetch - main [MainThread]: End processing [mia-vgg]: success
+[2024-05-28 09:11:36] INFO root fetch - processPackages [hestia-earth-models]: executing diffoscope
+[2024-05-28 09:11:36] INFO root fetch - processPackages [hestia-earth-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hestia-earth-models-0.9.0.tar.gz tmp/hestia-earth-models-0.9.1.tar.gz --markdown 20240528/h/hestia-earth-models/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-28 09:11:36] INFO root fetch - processPackages [objectbox]: Remove: archive file [/home/abi/fetcher/tmp/objectbox-4.0.0a3-py3-none-any.whl.zip]
+[2024-05-28 09:11:36] INFO root fetch - processPackages [objectbox]: Remove: archive file [/home/abi/fetcher/tmp/objectbox-4.0.0a4-py3-none-any.whl.zip]
+[2024-05-28 09:11:36] INFO root fetch - main [MainThread]: End processing [objectbox]: success
+[2024-05-28 09:11:36] INFO root fetch - processPackages [NeuroR]: Remove: archive file [/home/abi/fetcher/tmp/NeuroR-1.6.4.tar.gz]
+[2024-05-28 09:11:36] INFO root fetch - processPackages [NeuroR]: Remove: archive file [/home/abi/fetcher/tmp/NeuroR-1.7.0.tar.gz]
+[2024-05-28 09:11:36] INFO root fetch - main [MainThread]: End processing [NeuroR]: success
+[2024-05-28 09:11:37] INFO root fetch - processPackages [hestia-earth-models]: Remove: archive file [/home/abi/fetcher/tmp/hestia-earth-models-0.9.0.tar.gz]
+[2024-05-28 09:11:37] INFO root fetch - processPackages [hestia-earth-models]: Remove: archive file [/home/abi/fetcher/tmp/hestia-earth-models-0.9.1.tar.gz]
+[2024-05-28 09:11:37] INFO root fetch - main [MainThread]: End processing [hestia-earth-models]: success
+[2024-05-28 09:11:37] INFO root fetch - main [MainThread]: Store serial: [23406929]
