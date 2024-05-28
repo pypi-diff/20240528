@@ -2021,3 +2021,45 @@
 [2024-05-28 02:23:09] WARNING root fetch - processPackages [cdk-cr-constructs]: Skipping package: exceeds size limit 15123826>=10485760
 [2024-05-28 02:23:09] INFO root fetch - main [MainThread]: End processing [cdk-cr-constructs] error
 [2024-05-28 02:23:09] INFO root fetch - main [MainThread]: Store serial: [23403616]
+[2024-05-28 02:25:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23403616]
+[2024-05-28 02:25:18] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-28 02:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: diamond-hpc
+[2024-05-28 02:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nsj-rest-lib
+[2024-05-28 02:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rra-tools
+[2024-05-28 02:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-certbot-dns-route53
+[2024-05-28 02:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ect
+[2024-05-28 02:25:18] WARNING root fetch - processPackages [diamond-hpc]: Skipping, unable to determine old version
+[2024-05-28 02:25:18] INFO root fetch - main [MainThread]: End processing [diamond-hpc] error
+[2024-05-28 02:25:18] INFO root fetch - processPackages [rra-tools]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-28 02:25:18] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.4.99] Old Version: [2.4.98]
+[2024-05-28 02:25:18] INFO root fetch - processPackages [ect]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-28 02:25:18] INFO root fetch - processPackages [nsj-rest-lib]: New version: [2.7.2] Old Version: [2.7.1]
+[2024-05-28 02:25:18] INFO root fetch - processPackages [rra-tools]: Downloading https://files.pythonhosted.org/packages/bd/aa/b9b814ba12fceda2d5fd10d987eec815a1de40dd09489e06b3a1f046db5d/rra_tools-1.0.8.tar.gz
+[2024-05-28 02:25:18] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/7d/4d/b1cb6c8586d736f490cc5099e0220282aadb28d3aefc028cf88e6a183b06/cdk-certbot-dns-route53-2.4.98.tar.gz
+[2024-05-28 02:25:18] INFO root fetch - processPackages [ect]: Downloading https://files.pythonhosted.org/packages/15/27/28157a931fbb6e4068b53b7ebda9ef44e41e53f14e9a7130c377afdf2bc8/ect-0.1.3.tar.gz
+[2024-05-28 02:25:18] INFO root fetch - processPackages [rra-tools]: Downloading https://files.pythonhosted.org/packages/68/c7/fb3cf8e8b3a2ab0d32d71c35a6667f6962b508fa32e2322e12c66bf8c2a2/rra_tools-1.0.9.tar.gz
+[2024-05-28 02:25:18] INFO root fetch - processPackages [nsj-rest-lib]: Downloading https://files.pythonhosted.org/packages/a2/dd/3700d12ce6753ff7f0ec4cdf40f9a3d0a51826bb28a3975ef439a6c0f307/nsj_rest_lib-2.7.1.tar.gz
+[2024-05-28 02:25:18] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/28/81/76f66486f9d6f5aee6f787bb13f11ab8012414fd95d10756b575fd69b909/cdk-certbot-dns-route53-2.4.99.tar.gz
+[2024-05-28 02:25:19] INFO root fetch - processPackages [rra-tools]: executing diffoscope
+[2024-05-28 02:25:19] INFO root fetch - processPackages [rra-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rra_tools-1.0.8.tar.gz tmp/rra_tools-1.0.9.tar.gz --markdown 20240528/r/rra-tools/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-28 02:25:19] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2024-05-28 02:25:19] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.4.98.tar.gz tmp/cdk-certbot-dns-route53-2.4.99.tar.gz --markdown 20240528/c/cdk-certbot-dns-route53/2.4.98-2.4.99/README.md --exclude *.pyd
+[2024-05-28 02:25:19] INFO root fetch - processPackages [ect]: Downloading https://files.pythonhosted.org/packages/5b/76/f883c2b49eae0e9aea2b5a82e171bf391a3bd929d37158116305e5f53797/ect-0.1.4.tar.gz
+[2024-05-28 02:25:19] INFO root fetch - processPackages [nsj-rest-lib]: Downloading https://files.pythonhosted.org/packages/11/8b/b1500d91672d3389b99bdfcdd13d47075d5b16f7b965fb546bc320b1238f/nsj_rest_lib-2.7.2.tar.gz
+[2024-05-28 02:25:19] INFO root fetch - processPackages [ect]: executing diffoscope
+[2024-05-28 02:25:19] INFO root fetch - processPackages [ect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ect-0.1.3.tar.gz tmp/ect-0.1.4.tar.gz --markdown 20240528/e/ect/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-28 02:25:19] INFO root fetch - processPackages [nsj-rest-lib]: executing diffoscope
+[2024-05-28 02:25:19] INFO root fetch - processPackages [nsj-rest-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsj_rest_lib-2.7.1.tar.gz tmp/nsj_rest_lib-2.7.2.tar.gz --markdown 20240528/n/nsj-rest-lib/2.7.1-2.7.2/README.md --exclude *.pyd
+[2024-05-28 02:25:19] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.98.tar.gz]
+[2024-05-28 02:25:19] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.99.tar.gz]
+[2024-05-28 02:25:19] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2024-05-28 02:25:19] INFO root fetch - processPackages [rra-tools]: Remove: archive file [/home/abi/fetcher/tmp/rra_tools-1.0.8.tar.gz]
+[2024-05-28 02:25:19] INFO root fetch - processPackages [rra-tools]: Remove: archive file [/home/abi/fetcher/tmp/rra_tools-1.0.9.tar.gz]
+[2024-05-28 02:25:19] INFO root fetch - main [MainThread]: End processing [rra-tools]: success
+[2024-05-28 02:25:19] INFO root fetch - processPackages [ect]: Remove: archive file [/home/abi/fetcher/tmp/ect-0.1.3.tar.gz]
+[2024-05-28 02:25:19] INFO root fetch - processPackages [ect]: Remove: archive file [/home/abi/fetcher/tmp/ect-0.1.4.tar.gz]
+[2024-05-28 02:25:19] INFO root fetch - main [MainThread]: End processing [ect]: success
+[2024-05-28 02:25:20] INFO root fetch - processPackages [nsj-rest-lib]: Remove: archive file [/home/abi/fetcher/tmp/nsj_rest_lib-2.7.1.tar.gz]
+[2024-05-28 02:25:20] INFO root fetch - processPackages [nsj-rest-lib]: Remove: archive file [/home/abi/fetcher/tmp/nsj_rest_lib-2.7.2.tar.gz]
+[2024-05-28 02:25:20] INFO root fetch - main [MainThread]: End processing [nsj-rest-lib]: success
+[2024-05-28 02:25:20] INFO root fetch - main [MainThread]: Store serial: [23403632]
