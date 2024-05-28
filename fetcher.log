@@ -3593,3 +3593,60 @@
 [2024-05-28 04:06:36] INFO root fetch - processPackages [arcan]: Remove: archive file [/home/abi/fetcher/tmp/arcan-0.1.1.tar.gz]
 [2024-05-28 04:06:36] INFO root fetch - main [MainThread]: End processing [arcan]: success
 [2024-05-28 04:06:36] INFO root fetch - main [MainThread]: Store serial: [23404273]
+[2024-05-28 04:08:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23404273]
+[2024-05-28 04:08:44] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-28 04:08:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: docmesh-agent
+[2024-05-28 04:08:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sora-sdk
+[2024-05-28 04:08:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pms-encoder
+[2024-05-28 04:08:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Python-Education-Tools
+[2024-05-28 04:08:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pwdata
+[2024-05-28 04:08:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: docmesh-server
+[2024-05-28 04:08:44] INFO root fetch - processPackages [pms-encoder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-28 04:08:44] INFO root fetch - processPackages [pwdata]: New version: [0.2.13] Old Version: [0.2.12]
+[2024-05-28 04:08:44] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/80/f1/88f2f54188c15bf6cca5ba7a3a347b8d1c83b15a626f541acf3dde5aa63d/pms_encoder-0.0.8.tar.gz
+[2024-05-28 04:08:44] INFO root fetch - processPackages [docmesh-agent]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-28 04:08:44] INFO root fetch - processPackages [docmesh-server]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-28 04:08:44] INFO root fetch - processPackages [Python-Education-Tools]: New version: [24.5.8] Old Version: [24.5.3]
+[2024-05-28 04:08:44] INFO root fetch - processPackages [sora-sdk]: New version: [2024.3.0.dev2] Old Version: [2024.3.0.dev1]
+[2024-05-28 04:08:45] INFO root fetch - processPackages [pwdata]: Downloading https://files.pythonhosted.org/packages/50/f8/9332fbcfe7cbbb3296b6a6d029ee8b415bf5f01a22664e179893416c43cf/pwdata-0.2.12.tar.gz
+[2024-05-28 04:08:45] INFO root fetch - processPackages [docmesh-agent]: Downloading https://files.pythonhosted.org/packages/c3/b0/5fc9c83a2bcc65d8d51dca6ffee6eae36b23585bb31cc0af364af19c914d/docmesh_agent-0.0.8.tar.gz
+[2024-05-28 04:08:45] INFO root fetch - processPackages [Python-Education-Tools]: Downloading https://files.pythonhosted.org/packages/f9/94/1a054bf5a1f5c7c4dcc779cd3e6a2beb54a735ddc01c6ea4684e814c46ba/Python_Education_Tools-24.5.3-py3-none-any.whl
+[2024-05-28 04:08:45] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/93/31/8bb081756db42925fab6507b6e0f497d6bf45acd407ff38cb00f2aaec54c/pms_encoder-0.0.9.tar.gz
+[2024-05-28 04:08:45] INFO root fetch - processPackages [docmesh-server]: Downloading https://files.pythonhosted.org/packages/fc/76/ee492e00e25ab8e40842eb0c6def2ceb5aa04bf4a8c103d0105039703eee/docmesh_server-0.0.8.tar.gz
+[2024-05-28 04:08:45] INFO root fetch - processPackages [sora-sdk]: Downloading https://files.pythonhosted.org/packages/88/4f/4a2279fec65d687c0e5bce934a604d129d71df0087b410555fb01f08978f/sora_sdk-2024.3.0.dev1.tar.gz
+[2024-05-28 04:08:45] INFO root fetch - processPackages [pms-encoder]: executing diffoscope
+[2024-05-28 04:08:45] INFO root fetch - processPackages [pms-encoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pms_encoder-0.0.8.tar.gz tmp/pms_encoder-0.0.9.tar.gz --markdown 20240528/p/pms-encoder/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-28 04:08:45] INFO root fetch - processPackages [docmesh-agent]: Downloading https://files.pythonhosted.org/packages/f1/74/15e929e9f72b2a648f760cad7f92f4689c6b6af3deda97d5d136baebe27c/docmesh_agent-0.0.9.tar.gz
+[2024-05-28 04:08:45] INFO root fetch - processPackages [docmesh-server]: Downloading https://files.pythonhosted.org/packages/11/18/42e4c8bb081f5bfe70332fd6c6252caa8b4d797064b3ede40fd1156ff7c1/docmesh_server-0.0.9.tar.gz
+[2024-05-28 04:08:45] INFO root fetch - processPackages [pwdata]: Downloading https://files.pythonhosted.org/packages/17/7d/6263e134ccba6b2db813146ccc8f295b246a02aa9c21599c4e42aaf8565c/pwdata-0.2.13.tar.gz
+[2024-05-28 04:08:45] INFO root fetch - processPackages [docmesh-agent]: executing diffoscope
+[2024-05-28 04:08:45] INFO root fetch - processPackages [docmesh-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docmesh_agent-0.0.8.tar.gz tmp/docmesh_agent-0.0.9.tar.gz --markdown 20240528/d/docmesh-agent/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-28 04:08:45] INFO root fetch - processPackages [docmesh-server]: executing diffoscope
+[2024-05-28 04:08:45] INFO root fetch - processPackages [docmesh-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docmesh_server-0.0.8.tar.gz tmp/docmesh_server-0.0.9.tar.gz --markdown 20240528/d/docmesh-server/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-28 04:08:45] INFO root fetch - processPackages [pwdata]: executing diffoscope
+[2024-05-28 04:08:45] INFO root fetch - processPackages [pwdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pwdata-0.2.12.tar.gz tmp/pwdata-0.2.13.tar.gz --markdown 20240528/p/pwdata/0.2.12-0.2.13/README.md --exclude *.pyd
+[2024-05-28 04:08:45] INFO root fetch - processPackages [Python-Education-Tools]: Downloading https://files.pythonhosted.org/packages/42/3c/1f2f6573ad9661f267e29c6b9dc46f6e0c80fa8555e8c52475fb718fd47d/Python_Education_Tools-24.5.8-py3-none-any.whl
+[2024-05-28 04:08:45] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.8.tar.gz]
+[2024-05-28 04:08:45] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.9.tar.gz]
+[2024-05-28 04:08:45] INFO root fetch - main [MainThread]: End processing [pms-encoder]: success
+[2024-05-28 04:08:46] INFO root fetch - processPackages [Python-Education-Tools]: executing diffoscope
+[2024-05-28 04:08:46] INFO root fetch - processPackages [Python-Education-Tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Python_Education_Tools-24.5.3-py3-none-any.whl.zip tmp/Python_Education_Tools-24.5.8-py3-none-any.whl.zip --markdown 20240528/P/Python-Education-Tools/24.5.3-24.5.8/README.md --exclude *.pyd
+[2024-05-28 04:08:46] INFO root fetch - processPackages [sora-sdk]: Downloading https://files.pythonhosted.org/packages/8a/9d/6e5acd3f980b44a135187660ac4c4d6d34a03c2d83c581439b477aa528e0/sora_sdk-2024.3.0.dev2.tar.gz
+[2024-05-28 04:08:46] INFO root fetch - processPackages [docmesh-agent]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_agent-0.0.8.tar.gz]
+[2024-05-28 04:08:46] INFO root fetch - processPackages [docmesh-agent]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_agent-0.0.9.tar.gz]
+[2024-05-28 04:08:46] INFO root fetch - main [MainThread]: End processing [docmesh-agent]: success
+[2024-05-28 04:08:46] INFO root fetch - processPackages [docmesh-server]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_server-0.0.8.tar.gz]
+[2024-05-28 04:08:46] INFO root fetch - processPackages [docmesh-server]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_server-0.0.9.tar.gz]
+[2024-05-28 04:08:46] INFO root fetch - main [MainThread]: End processing [docmesh-server]: success
+[2024-05-28 04:08:46] INFO root fetch - processPackages [pwdata]: Remove: archive file [/home/abi/fetcher/tmp/pwdata-0.2.12.tar.gz]
+[2024-05-28 04:08:46] INFO root fetch - processPackages [pwdata]: Remove: archive file [/home/abi/fetcher/tmp/pwdata-0.2.13.tar.gz]
+[2024-05-28 04:08:46] INFO root fetch - main [MainThread]: End processing [pwdata]: success
+[2024-05-28 04:08:46] INFO root fetch - processPackages [sora-sdk]: executing diffoscope
+[2024-05-28 04:08:46] INFO root fetch - processPackages [sora-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sora_sdk-2024.3.0.dev1.tar.gz tmp/sora_sdk-2024.3.0.dev2.tar.gz --markdown 20240528/s/sora-sdk/2024.3.0.dev1-2024.3.0.dev2/README.md --exclude *.pyd
+[2024-05-28 04:08:46] INFO root fetch - processPackages [Python-Education-Tools]: Remove: archive file [/home/abi/fetcher/tmp/Python_Education_Tools-24.5.3-py3-none-any.whl.zip]
+[2024-05-28 04:08:46] INFO root fetch - processPackages [Python-Education-Tools]: Remove: archive file [/home/abi/fetcher/tmp/Python_Education_Tools-24.5.8-py3-none-any.whl.zip]
+[2024-05-28 04:08:46] INFO root fetch - main [MainThread]: End processing [Python-Education-Tools]: success
+[2024-05-28 04:08:58] INFO root fetch - processPackages [sora-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sora_sdk-2024.3.0.dev1.tar.gz]
+[2024-05-28 04:08:58] INFO root fetch - processPackages [sora-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sora_sdk-2024.3.0.dev2.tar.gz]
+[2024-05-28 04:08:58] INFO root fetch - main [MainThread]: End processing [sora-sdk]: success
+[2024-05-28 04:08:58] INFO root fetch - main [MainThread]: Store serial: [23404304]
