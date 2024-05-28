@@ -14959,3 +14959,72 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 11:55:33] INFO root fetch - processPackages [glue-vispy-viewers]: Remove: archive file [/home/abi/fetcher/tmp/glue_vispy_viewers-1.2.1.tar.gz]
 [2024-05-28 11:55:33] INFO root fetch - main [MainThread]: End processing [glue-vispy-viewers]: success
 [2024-05-28 11:55:33] INFO root fetch - main [MainThread]: Store serial: [23409144]
+[2024-05-28 11:57:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23409144]
+[2024-05-28 11:57:42] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-28 11:57:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: metaflow-stubs
+[2024-05-28 11:57:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: metaflow
+[2024-05-28 11:57:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MASSIVEChem
+[2024-05-28 11:57:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zimagi
+[2024-05-28 11:57:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: CI-CloudConnector
+[2024-05-28 11:57:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: adt-clients
+[2024-05-28 11:57:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rippling-flux-sdk
+[2024-05-28 11:57:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: AlfenCharger
+[2024-05-28 11:57:42] INFO root fetch - processPackages [CI-CloudConnector]: New version: [0.91] Old Version: [0.90]
+[2024-05-28 11:57:42] INFO root fetch - processPackages [MASSIVEChem]: New version: [5.2] Old Version: [5.1]
+[2024-05-28 11:57:42] WARNING root fetch - processPackages [AlfenCharger]: Skipping, unable to determine old version
+[2024-05-28 11:57:42] INFO root fetch - main [MainThread]: End processing [AlfenCharger] error
+[2024-05-28 11:57:42] INFO root fetch - processPackages [rippling-flux-sdk]: New version: [0.9.27] Old Version: [0.9.26]
+[2024-05-28 11:57:42] INFO root fetch - processPackages [zimagi]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-05-28 11:57:42] INFO root fetch - processPackages [rippling-flux-sdk]: Downloading https://files.pythonhosted.org/packages/0f/9d/f4cd2d2adeaab6fdd684b7eaf8d691c14ca1bef27a4a2790c5e7e06cfff6/rippling_flux_sdk-0.9.26.tar.gz
+[2024-05-28 11:57:42] INFO root fetch - processPackages [CI-CloudConnector]: Downloading https://files.pythonhosted.org/packages/6a/07/5a01e44a5ee81eaa4a74f721375fa147317d9dcaedad2338a8935f3ac757/ci_cloudconnector-0.90.tar.gz
+[2024-05-28 11:57:42] INFO root fetch - processPackages [adt-clients]: New version: [2.3.1] Old Version: [2.3.0]
+[2024-05-28 11:57:42] INFO root fetch - processPackages [metaflow-stubs]: New version: [2.12.0] Old Version: [2.11.9]
+[2024-05-28 11:57:42] INFO root fetch - processPackages [MASSIVEChem]: Downloading https://files.pythonhosted.org/packages/6f/43/d640edc46a7ab57d29733b5e7c3dd8b06a048273b018ad415e662d9df3c6/massivechem-5.1.tar.gz
+[2024-05-28 11:57:42] INFO root fetch - processPackages [metaflow]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-05-28 11:57:42] INFO root fetch - processPackages [zimagi]: Downloading https://files.pythonhosted.org/packages/e8/4b/b155e4f0b7606d368c19e3d41df4c6af5d2743ec086d5c519e39a5e8ada7/zimagi-0.9.4.tar.gz
+[2024-05-28 11:57:42] INFO root fetch - processPackages [adt-clients]: Downloading https://files.pythonhosted.org/packages/2a/b1/211bb89d02d7f70b8617d1bbba6e5a36da33861c9a208c970b89e44a73f1/adt_clients-2.3.0-py3-none-any.whl
+[2024-05-28 11:57:42] INFO root fetch - processPackages [metaflow-stubs]: Downloading https://files.pythonhosted.org/packages/93/d9/ff4fdd76c5436176503c5c86034e607815e89abf05a9bced2dc60dca48a5/metaflow-stubs-2.11.9.tar.gz
+[2024-05-28 11:57:42] INFO root fetch - processPackages [rippling-flux-sdk]: Downloading https://files.pythonhosted.org/packages/94/03/093a310cfb4ff2c4b673f26d4895395ebf647cc4efa7d58bf63c31013fed/rippling_flux_sdk-0.9.27.tar.gz
+[2024-05-28 11:57:43] INFO root fetch - processPackages [metaflow]: Downloading https://files.pythonhosted.org/packages/44/4c/81a863eb61cc3eb10a21d19229d37d1cc3b50218fa45146c79e2b9122f45/metaflow-2.9.8.tar.gz
+[2024-05-28 11:57:43] INFO root fetch - processPackages [MASSIVEChem]: Downloading https://files.pythonhosted.org/packages/d9/ac/8dbf80289ef8dd5ed8ad5e918c3a766a11277175f38aa3d504a5dae27e0d/massivechem-5.2.tar.gz
+[2024-05-28 11:57:43] INFO root fetch - processPackages [CI-CloudConnector]: Downloading https://files.pythonhosted.org/packages/9a/be/82c5931eb70e919e51112b1548f58d37aaf1659f6f5781436e9bef76a23b/ci_cloudconnector-0.91.tar.gz
+[2024-05-28 11:57:43] INFO root fetch - processPackages [rippling-flux-sdk]: executing diffoscope
+[2024-05-28 11:57:43] INFO root fetch - processPackages [rippling-flux-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rippling_flux_sdk-0.9.26.tar.gz tmp/rippling_flux_sdk-0.9.27.tar.gz --markdown 20240528/r/rippling-flux-sdk/0.9.26-0.9.27/README.md --exclude *.pyd
+[2024-05-28 11:57:43] INFO root fetch - processPackages [zimagi]: Downloading https://files.pythonhosted.org/packages/98/d2/7e3715c9f3f31766db54027f7e4db00e400d7de314d70b833776ce02930f/zimagi-0.9.5.tar.gz
+[2024-05-28 11:57:43] INFO root fetch - processPackages [CI-CloudConnector]: executing diffoscope
+[2024-05-28 11:57:43] INFO root fetch - processPackages [CI-CloudConnector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ci_cloudconnector-0.90.tar.gz tmp/ci_cloudconnector-0.91.tar.gz --markdown 20240528/C/CI-CloudConnector/0.90-0.91/README.md --exclude *.pyd
+[2024-05-28 11:57:43] INFO root fetch - processPackages [MASSIVEChem]: executing diffoscope
+[2024-05-28 11:57:43] INFO root fetch - processPackages [MASSIVEChem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/massivechem-5.1.tar.gz tmp/massivechem-5.2.tar.gz --markdown 20240528/M/MASSIVEChem/5.1-5.2/README.md --exclude *.pyd
+[2024-05-28 11:57:43] INFO root fetch - processPackages [zimagi]: executing diffoscope
+[2024-05-28 11:57:43] INFO root fetch - processPackages [zimagi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zimagi-0.9.4.tar.gz tmp/zimagi-0.9.5.tar.gz --markdown 20240528/z/zimagi/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-05-28 11:57:43] INFO root fetch - processPackages [metaflow-stubs]: Downloading https://files.pythonhosted.org/packages/98/14/11b5e91ec27b77773e6a0a78faf826a52c2bfb16b8f3a514ddf32177b631/metaflow_stubs-2.12.0.tar.gz
+[2024-05-28 11:57:43] INFO root fetch - processPackages [adt-clients]: Downloading https://files.pythonhosted.org/packages/00/95/54ab57442596c748be17a52e4e6d14757adf55b121519f8ccb4e8796d937/adt_clients-2.3.1-py3-none-any.whl
+[2024-05-28 11:57:43] INFO root fetch - processPackages [metaflow]: Downloading https://files.pythonhosted.org/packages/63/60/3262d89f8512f63109d640bc0d30b7f6e64a1efeab58463d69f43d2275ad/metaflow-2.9.9.tar.gz
+[2024-05-28 11:57:43] INFO root fetch - processPackages [metaflow-stubs]: executing diffoscope
+[2024-05-28 11:57:43] INFO root fetch - processPackages [metaflow-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaflow-stubs-2.11.9.tar.gz tmp/metaflow_stubs-2.12.0.tar.gz --markdown 20240528/m/metaflow-stubs/2.11.9-2.12.0/README.md --exclude *.pyd
+[2024-05-28 11:57:43] INFO root fetch - processPackages [metaflow]: executing diffoscope
+[2024-05-28 11:57:43] INFO root fetch - processPackages [metaflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaflow-2.9.8.tar.gz tmp/metaflow-2.9.9.tar.gz --markdown 20240528/m/metaflow/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-05-28 11:57:43] INFO root fetch - processPackages [adt-clients]: executing diffoscope
+[2024-05-28 11:57:43] INFO root fetch - processPackages [adt-clients]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adt_clients-2.3.0-py3-none-any.whl.zip tmp/adt_clients-2.3.1-py3-none-any.whl.zip --markdown 20240528/a/adt-clients/2.3.0-2.3.1/README.md --exclude *.pyd
+[2024-05-28 11:57:43] INFO root fetch - processPackages [rippling-flux-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rippling_flux_sdk-0.9.26.tar.gz]
+[2024-05-28 11:57:43] INFO root fetch - processPackages [rippling-flux-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rippling_flux_sdk-0.9.27.tar.gz]
+[2024-05-28 11:57:43] INFO root fetch - main [MainThread]: End processing [rippling-flux-sdk]: success
+[2024-05-28 11:57:43] INFO root fetch - processPackages [zimagi]: Remove: archive file [/home/abi/fetcher/tmp/zimagi-0.9.4.tar.gz]
+[2024-05-28 11:57:43] INFO root fetch - processPackages [zimagi]: Remove: archive file [/home/abi/fetcher/tmp/zimagi-0.9.5.tar.gz]
+[2024-05-28 11:57:43] INFO root fetch - main [MainThread]: End processing [zimagi]: success
+[2024-05-28 11:57:44] INFO root fetch - processPackages [CI-CloudConnector]: Remove: archive file [/home/abi/fetcher/tmp/ci_cloudconnector-0.90.tar.gz]
+[2024-05-28 11:57:44] INFO root fetch - processPackages [CI-CloudConnector]: Remove: archive file [/home/abi/fetcher/tmp/ci_cloudconnector-0.91.tar.gz]
+[2024-05-28 11:57:44] INFO root fetch - main [MainThread]: End processing [CI-CloudConnector]: success
+[2024-05-28 11:57:44] INFO root fetch - processPackages [MASSIVEChem]: Remove: archive file [/home/abi/fetcher/tmp/massivechem-5.1.tar.gz]
+[2024-05-28 11:57:44] INFO root fetch - processPackages [MASSIVEChem]: Remove: archive file [/home/abi/fetcher/tmp/massivechem-5.2.tar.gz]
+[2024-05-28 11:57:44] INFO root fetch - main [MainThread]: End processing [MASSIVEChem]: success
+[2024-05-28 11:57:44] INFO root fetch - processPackages [adt-clients]: Remove: archive file [/home/abi/fetcher/tmp/adt_clients-2.3.0-py3-none-any.whl.zip]
+[2024-05-28 11:57:44] INFO root fetch - processPackages [adt-clients]: Remove: archive file [/home/abi/fetcher/tmp/adt_clients-2.3.1-py3-none-any.whl.zip]
+[2024-05-28 11:57:44] INFO root fetch - main [MainThread]: End processing [adt-clients]: success
+[2024-05-28 11:57:44] INFO root fetch - processPackages [metaflow-stubs]: Remove: archive file [/home/abi/fetcher/tmp/metaflow-stubs-2.11.9.tar.gz]
+[2024-05-28 11:57:44] INFO root fetch - processPackages [metaflow-stubs]: Remove: archive file [/home/abi/fetcher/tmp/metaflow_stubs-2.12.0.tar.gz]
+[2024-05-28 11:57:44] INFO root fetch - main [MainThread]: End processing [metaflow-stubs]: success
+[2024-05-28 11:57:45] INFO root fetch - processPackages [metaflow]: Remove: archive file [/home/abi/fetcher/tmp/metaflow-2.9.8.tar.gz]
+[2024-05-28 11:57:45] INFO root fetch - processPackages [metaflow]: Remove: archive file [/home/abi/fetcher/tmp/metaflow-2.9.9.tar.gz]
+[2024-05-28 11:57:45] INFO root fetch - main [MainThread]: End processing [metaflow]: success
+[2024-05-28 11:57:45] INFO root fetch - main [MainThread]: Store serial: [23409171]
