@@ -23904,3 +23904,54 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 16:57:54] INFO root fetch - processPackages [zerohertzLib]: Remove: archive file [/home/abi/fetcher/tmp/zerohertzLib-1.1.0.tar.gz]
 [2024-05-28 16:57:54] INFO root fetch - main [MainThread]: End processing [zerohertzLib]: success
 [2024-05-28 16:57:54] INFO root fetch - main [MainThread]: Store serial: [23413467]
+[2024-05-28 16:59:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23413467]
+[2024-05-28 17:00:04] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-28 17:00:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wakaru
+[2024-05-28 17:00:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: home-assistant-intents
+[2024-05-28 17:00:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: branchnews
+[2024-05-28 17:00:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-sops-secrets
+[2024-05-28 17:00:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: eyeballvul
+[2024-05-28 17:00:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: red_utils
+[2024-05-28 17:00:04] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.8.9] Old Version: [1.8.8]
+[2024-05-28 17:00:04] WARNING root fetch - processPackages [wakaru]: Skipping, unable to determine old version
+[2024-05-28 17:00:04] INFO root fetch - main [MainThread]: End processing [wakaru] error
+[2024-05-28 17:00:04] INFO root fetch - processPackages [home-assistant-intents]: New version: [2024.5.28] Old Version: [2024.4.3]
+[2024-05-28 17:00:04] INFO root fetch - processPackages [eyeballvul]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-28 17:00:04] INFO root fetch - processPackages [branchnews]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-05-28 17:00:04] INFO root fetch - processPackages [red_utils]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-28 17:00:04] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/22/57/f00405583429b6d40e2d710c7edd54c51939309d8bd46a9e487491fc479d/cdk-sops-secrets-1.8.8.tar.gz
+[2024-05-28 17:00:04] INFO root fetch - processPackages [home-assistant-intents]: Downloading https://files.pythonhosted.org/packages/60/9e/d69ecd27f3956dca44c75db3e035215a8b3fc7cf10a883cf0edf51c2bd16/home-assistant-intents-2024.4.3.tar.gz
+[2024-05-28 17:00:04] INFO root fetch - processPackages [branchnews]: Downloading https://files.pythonhosted.org/packages/4b/68/8d131d77c9e636d4656dbe3ec7b924a0c253f85c0924b2c02caa536670e8/branchnews-0.1.1.tar.gz
+[2024-05-28 17:00:04] INFO root fetch - processPackages [red_utils]: Downloading https://files.pythonhosted.org/packages/01/49/5b5df4cabf6cd1cd227d223a4a8c604952ae25b027d256c421197f2999ff/red_utils-0.2.8.tar.gz
+[2024-05-28 17:00:05] INFO root fetch - processPackages [eyeballvul]: Downloading https://files.pythonhosted.org/packages/26/fc/798b662aa4464d81cd60a4c370eb9ebdb4e5d62991563c840fb88c2e3abc/eyeballvul-0.4.0.tar.gz
+[2024-05-28 17:00:05] INFO root fetch - processPackages [home-assistant-intents]: Downloading https://files.pythonhosted.org/packages/d2/9e/05998c3d001284240a25cd49e367462bf3801955e196961e083a4b140c80/home-assistant-intents-2024.5.28.tar.gz
+[2024-05-28 17:00:05] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/1c/05/20ca6ae64b7ef861deb542361240a62b453ec651be6d65e333a95ab8ed1e/cdk-sops-secrets-1.8.9.tar.gz
+[2024-05-28 17:00:05] INFO root fetch - processPackages [branchnews]: Downloading https://files.pythonhosted.org/packages/c7/f0/bff3cbdd7720db916fac8785a6a43b9dfa2f48246d9706ddf26471d0af2e/branchnews-0.2.0.tar.gz
+[2024-05-28 17:00:05] INFO root fetch - processPackages [home-assistant-intents]: executing diffoscope
+[2024-05-28 17:00:05] INFO root fetch - processPackages [home-assistant-intents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/home-assistant-intents-2024.4.3.tar.gz tmp/home-assistant-intents-2024.5.28.tar.gz --markdown 20240528/h/home-assistant-intents/2024.4.3-2024.5.28/README.md --exclude *.pyd
+[2024-05-28 17:00:05] INFO root fetch - processPackages [eyeballvul]: Downloading https://files.pythonhosted.org/packages/1b/11/944d50109344d45bda349599e2add0bf36e31d6a32b8f6ea752582cb3329/eyeballvul-0.4.1.tar.gz
+[2024-05-28 17:00:05] INFO root fetch - processPackages [branchnews]: executing diffoscope
+[2024-05-28 17:00:05] INFO root fetch - processPackages [branchnews]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/branchnews-0.1.1.tar.gz tmp/branchnews-0.2.0.tar.gz --markdown 20240528/b/branchnews/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-05-28 17:00:05] INFO root fetch - processPackages [red_utils]: Downloading https://files.pythonhosted.org/packages/27/50/8b809c64b9b6d9c951d2543605156cf5c87969a8de173e26de7e332ff1ea/red_utils-0.2.9.tar.gz
+[2024-05-28 17:00:05] INFO root fetch - processPackages [eyeballvul]: executing diffoscope
+[2024-05-28 17:00:05] INFO root fetch - processPackages [eyeballvul]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eyeballvul-0.4.0.tar.gz tmp/eyeballvul-0.4.1.tar.gz --markdown 20240528/e/eyeballvul/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-28 17:00:05] INFO root fetch - processPackages [red_utils]: executing diffoscope
+[2024-05-28 17:00:05] INFO root fetch - processPackages [red_utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/red_utils-0.2.8.tar.gz tmp/red_utils-0.2.9.tar.gz --markdown 20240528/r/red_utils/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-28 17:00:05] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2024-05-28 17:00:05] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.8.8.tar.gz tmp/cdk-sops-secrets-1.8.9.tar.gz --markdown 20240528/c/cdk-sops-secrets/1.8.8-1.8.9/README.md --exclude *.pyd
+[2024-05-28 17:00:06] INFO root fetch - processPackages [branchnews]: Remove: archive file [/home/abi/fetcher/tmp/branchnews-0.1.1.tar.gz]
+[2024-05-28 17:00:06] INFO root fetch - processPackages [branchnews]: Remove: archive file [/home/abi/fetcher/tmp/branchnews-0.2.0.tar.gz]
+[2024-05-28 17:00:06] INFO root fetch - main [MainThread]: End processing [branchnews]: success
+[2024-05-28 17:00:06] INFO root fetch - processPackages [eyeballvul]: Remove: archive file [/home/abi/fetcher/tmp/eyeballvul-0.4.0.tar.gz]
+[2024-05-28 17:00:06] INFO root fetch - processPackages [eyeballvul]: Remove: archive file [/home/abi/fetcher/tmp/eyeballvul-0.4.1.tar.gz]
+[2024-05-28 17:00:06] INFO root fetch - main [MainThread]: End processing [eyeballvul]: success
+[2024-05-28 17:00:06] INFO root fetch - processPackages [red_utils]: Remove: archive file [/home/abi/fetcher/tmp/red_utils-0.2.8.tar.gz]
+[2024-05-28 17:00:06] INFO root fetch - processPackages [red_utils]: Remove: archive file [/home/abi/fetcher/tmp/red_utils-0.2.9.tar.gz]
+[2024-05-28 17:00:06] INFO root fetch - main [MainThread]: End processing [red_utils]: success
+[2024-05-28 17:00:06] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.8.8.tar.gz]
+[2024-05-28 17:00:06] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.8.9.tar.gz]
+[2024-05-28 17:00:06] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2024-05-28 17:00:08] INFO root fetch - processPackages [home-assistant-intents]: Remove: archive file [/home/abi/fetcher/tmp/home-assistant-intents-2024.4.3.tar.gz]
+[2024-05-28 17:00:08] INFO root fetch - processPackages [home-assistant-intents]: Remove: archive file [/home/abi/fetcher/tmp/home-assistant-intents-2024.5.28.tar.gz]
+[2024-05-28 17:00:08] INFO root fetch - main [MainThread]: End processing [home-assistant-intents]: success
+[2024-05-28 17:00:08] INFO root fetch - main [MainThread]: Store serial: [23413490]
