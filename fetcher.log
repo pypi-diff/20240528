@@ -9499,3 +9499,63 @@
 [2024-05-28 08:58:30] INFO root fetch - processPackages [redhat-qe-cloud-tools]: Remove: archive file [/home/abi/fetcher/tmp/redhat_qe_cloud_tools-1.0.9.tar.gz]
 [2024-05-28 08:58:30] INFO root fetch - main [MainThread]: End processing [redhat-qe-cloud-tools]: success
 [2024-05-28 08:58:30] INFO root fetch - main [MainThread]: Store serial: [23406797]
+[2024-05-28 09:00:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23406797]
+[2024-05-28 09:00:39] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-28 09:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openshift-cli-installer
+[2024-05-28 09:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nimbletl
+[2024-05-28 09:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: abstract-pandas
+[2024-05-28 09:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openshift-cluster-management-python-wrapper
+[2024-05-28 09:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: megickfilebrowse
+[2024-05-28 09:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-sale-report-commitment-date
+[2024-05-28 09:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: CI-CloudConnector
+[2024-05-28 09:00:39] INFO root fetch - processPackages [openshift-cli-installer]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-28 09:00:39] INFO root fetch - processPackages [nimbletl]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-28 09:00:39] INFO root fetch - processPackages [CI-CloudConnector]: New version: [0.90] Old Version: [0.9]
+[2024-05-28 09:00:39] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-28 09:00:39] INFO root fetch - processPackages [abstract-pandas]: New version: [0.0.0.98] Old Version: [0.0.0.97]
+[2024-05-28 09:00:39] WARNING root fetch - processPackages [megickfilebrowse]: Skipping, unable to determine old version
+[2024-05-28 09:00:39] INFO root fetch - main [MainThread]: End processing [megickfilebrowse] error
+[2024-05-28 09:00:39] INFO root fetch - processPackages [odoo-addon-sale-report-commitment-date]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2024-05-28 09:00:39] INFO root fetch - processPackages [CI-CloudConnector]: Downloading https://files.pythonhosted.org/packages/4c/eb/b4639debe39d86d516b4aa0b9e6cdec32e0a06d0220a60ed52a6b5fada1f/CI_CloudConnector-0.9.zip
+[2024-05-28 09:00:39] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/a9/ca/9e379e07a1604b3f9d653e6282765d5bd79ce47a50c7d65fe38c99088c22/abstract_pandas-0.0.0.97.tar.gz
+[2024-05-28 09:00:39] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: Downloading https://files.pythonhosted.org/packages/c0/59/4a411cf32353a4aa27ed7df897022dba7186efabe6440e073e02e93578c7/openshift_cluster_management_python_wrapper-1.0.98.tar.gz
+[2024-05-28 09:00:39] INFO root fetch - processPackages [nimbletl]: Downloading https://files.pythonhosted.org/packages/b1/8f/48a91156032d7c86c647f67136d0f7b1fd3de14aefd0f92bbfa75a4ebc0b/nimbletl-0.1.0.tar.gz
+[2024-05-28 09:00:39] INFO root fetch - processPackages [openshift-cli-installer]: Downloading https://files.pythonhosted.org/packages/93/ea/081916b4f7f911ee0b4d2373be0df43c7c020915e4dc0daddae9d0c85d23/openshift_cli_installer-2.0.8.tar.gz
+[2024-05-28 09:00:39] INFO root fetch - processPackages [odoo-addon-sale-report-commitment-date]: Downloading https://files.pythonhosted.org/packages/7c/0a/eaf15b1949b94e15e6015d8fdd74843ccc5c6a8d091c1546009353403b64/odoo_addon_sale_report_commitment_date-16.0.1.0.0.2-py3-none-any.whl
+[2024-05-28 09:00:39] INFO root fetch - processPackages [openshift-cli-installer]: Downloading https://files.pythonhosted.org/packages/2e/36/23bd27005a72d5bc87d2d81bd55477f2c4cbdee088189ef184dea2fb149c/openshift_cli_installer-2.0.9.tar.gz
+[2024-05-28 09:00:39] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/ce/0f/d5bd2aeb0ef8c0b2c92b58e797db9d84598679100668576784ae5df2e597/abstract_pandas-0.0.0.98.tar.gz
+[2024-05-28 09:00:39] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: Downloading https://files.pythonhosted.org/packages/11/56/6990be30b6f5fcf73a2731cd41504a76f9454ec027047d669aeb3f238561/openshift_cluster_management_python_wrapper-1.0.99.tar.gz
+[2024-05-28 09:00:40] INFO root fetch - processPackages [CI-CloudConnector]: Downloading https://files.pythonhosted.org/packages/6a/07/5a01e44a5ee81eaa4a74f721375fa147317d9dcaedad2338a8935f3ac757/ci_cloudconnector-0.90.tar.gz
+[2024-05-28 09:00:40] INFO root fetch - processPackages [nimbletl]: Downloading https://files.pythonhosted.org/packages/53/95/5cb9affc6bb6a7658eb0a6deceed2abc34de41e86b8cae30ffb27bde0e5b/nimbletl-0.1.1.tar.gz
+[2024-05-28 09:00:40] INFO root fetch - processPackages [openshift-cli-installer]: executing diffoscope
+[2024-05-28 09:00:40] INFO root fetch - processPackages [openshift-cli-installer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift_cli_installer-2.0.8.tar.gz tmp/openshift_cli_installer-2.0.9.tar.gz --markdown 20240528/o/openshift-cli-installer/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-28 09:00:40] INFO root fetch - processPackages [abstract-pandas]: executing diffoscope
+[2024-05-28 09:00:40] INFO root fetch - processPackages [abstract-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_pandas-0.0.0.97.tar.gz tmp/abstract_pandas-0.0.0.98.tar.gz --markdown 20240528/a/abstract-pandas/0.0.0.97-0.0.0.98/README.md --exclude *.pyd
+[2024-05-28 09:00:40] INFO root fetch - processPackages [odoo-addon-sale-report-commitment-date]: Downloading https://files.pythonhosted.org/packages/e1/8a/b3eeebc1128dad22408b2b116d9e64923236de0730d18562c6c486c22e66/odoo_addon_sale_report_commitment_date-16.0.1.0.0.3-py3-none-any.whl
+[2024-05-28 09:00:40] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: executing diffoscope
+[2024-05-28 09:00:40] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift_cluster_management_python_wrapper-1.0.98.tar.gz tmp/openshift_cluster_management_python_wrapper-1.0.99.tar.gz --markdown 20240528/o/openshift-cluster-management-python-wrapper/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-28 09:00:40] INFO root fetch - processPackages [CI-CloudConnector]: executing diffoscope
+[2024-05-28 09:00:40] INFO root fetch - processPackages [CI-CloudConnector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CI_CloudConnector-0.9.zip tmp/ci_cloudconnector-0.90.tar.gz --markdown 20240528/C/CI-CloudConnector/0.9-0.90/README.md --exclude *.pyd
+[2024-05-28 09:00:40] INFO root fetch - processPackages [nimbletl]: executing diffoscope
+[2024-05-28 09:00:40] INFO root fetch - processPackages [nimbletl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nimbletl-0.1.0.tar.gz tmp/nimbletl-0.1.1.tar.gz --markdown 20240528/n/nimbletl/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-28 09:00:40] INFO root fetch - processPackages [odoo-addon-sale-report-commitment-date]: executing diffoscope
+[2024-05-28 09:00:40] INFO root fetch - processPackages [odoo-addon-sale-report-commitment-date]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_report_commitment_date-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_sale_report_commitment_date-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240528/o/odoo-addon-sale-report-commitment-date/16.0.1.0.0.2-16.0.1.0.0.3/README.md --exclude *.pyd
+[2024-05-28 09:00:40] INFO root fetch - processPackages [CI-CloudConnector]: Remove: archive file [/home/abi/fetcher/tmp/CI_CloudConnector-0.9.zip]
+[2024-05-28 09:00:40] INFO root fetch - processPackages [CI-CloudConnector]: Remove: archive file [/home/abi/fetcher/tmp/ci_cloudconnector-0.90.tar.gz]
+[2024-05-28 09:00:40] INFO root fetch - main [MainThread]: End processing [CI-CloudConnector]: success
+[2024-05-28 09:00:40] INFO root fetch - processPackages [nimbletl]: Remove: archive file [/home/abi/fetcher/tmp/nimbletl-0.1.0.tar.gz]
+[2024-05-28 09:00:40] INFO root fetch - processPackages [nimbletl]: Remove: archive file [/home/abi/fetcher/tmp/nimbletl-0.1.1.tar.gz]
+[2024-05-28 09:00:40] INFO root fetch - main [MainThread]: End processing [nimbletl]: success
+[2024-05-28 09:00:40] INFO root fetch - processPackages [openshift-cli-installer]: Remove: archive file [/home/abi/fetcher/tmp/openshift_cli_installer-2.0.8.tar.gz]
+[2024-05-28 09:00:40] INFO root fetch - processPackages [openshift-cli-installer]: Remove: archive file [/home/abi/fetcher/tmp/openshift_cli_installer-2.0.9.tar.gz]
+[2024-05-28 09:00:40] INFO root fetch - main [MainThread]: End processing [openshift-cli-installer]: success
+[2024-05-28 09:00:40] INFO root fetch - processPackages [odoo-addon-sale-report-commitment-date]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_report_commitment_date-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-28 09:00:40] INFO root fetch - processPackages [odoo-addon-sale-report-commitment-date]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_report_commitment_date-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-28 09:00:40] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-report-commitment-date]: success
+[2024-05-28 09:00:40] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.97.tar.gz]
+[2024-05-28 09:00:40] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.98.tar.gz]
+[2024-05-28 09:00:40] INFO root fetch - main [MainThread]: End processing [abstract-pandas]: success
+[2024-05-28 09:00:41] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/openshift_cluster_management_python_wrapper-1.0.98.tar.gz]
+[2024-05-28 09:00:41] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/openshift_cluster_management_python_wrapper-1.0.99.tar.gz]
+[2024-05-28 09:00:41] INFO root fetch - main [MainThread]: End processing [openshift-cluster-management-python-wrapper]: success
+[2024-05-28 09:00:41] INFO root fetch - main [MainThread]: Store serial: [23406819]
