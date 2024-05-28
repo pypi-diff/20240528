@@ -19897,3 +19897,45 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 15:00:13] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.8.9.tar.gz]
 [2024-05-28 15:00:13] INFO root fetch - main [MainThread]: End processing [xklb]: success
 [2024-05-28 15:00:13] INFO root fetch - main [MainThread]: Store serial: [23411509]
+[2024-05-28 15:02:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23411509]
+[2024-05-28 15:02:22] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-28 15:02:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: superlinked
+[2024-05-28 15:02:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stldim
+[2024-05-28 15:02:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gpe-lib
+[2024-05-28 15:02:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quantplay
+[2024-05-28 15:02:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lusid-sdk
+[2024-05-28 15:02:22] INFO root fetch - processPackages [stldim]: New version: [0.3.0] Old Version: [0.2.2]
+[2024-05-28 15:02:22] INFO root fetch - processPackages [superlinked]: New version: [5.7.0] Old Version: [5.6.0]
+[2024-05-28 15:02:22] INFO root fetch - processPackages [quantplay]: New version: [1.5.9] Old Version: [1.5.81]
+[2024-05-28 15:02:22] WARNING root fetch - processPackages [gpe-lib]: Skipping, unable to determine old version
+[2024-05-28 15:02:22] INFO root fetch - main [MainThread]: End processing [gpe-lib] error
+[2024-05-28 15:02:22] INFO root fetch - processPackages [stldim]: Downloading https://files.pythonhosted.org/packages/d1/10/5c285e615ad60a34b14959100264d6843fa418e1f28e4da118df07494bba/stldim-0.2.2.tar.gz
+[2024-05-28 15:02:22] INFO root fetch - processPackages [superlinked]: Downloading https://files.pythonhosted.org/packages/c6/73/af3717a8b37497455855d11e007ebe3a3ffae201c8c3143fd9d60170cece/superlinked-5.6.0.tar.gz
+[2024-05-28 15:02:22] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/43/3b/7d207425422b6530cd17d1b2e98dacb3262cc24888abb3a3fe65a8310e2c/quantplay-1.5.81.tar.gz
+[2024-05-28 15:02:22] INFO root fetch - processPackages [superlinked]: Downloading https://files.pythonhosted.org/packages/c1/de/e6b86f113df66525ec751543a71533ddb9e2b05c671515d4ead3bdea67f7/superlinked-5.7.0.tar.gz
+[2024-05-28 15:02:22] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/29/44/bc619a0a4e2ecba52ee7f6eac8f51f600a1d90bb67f88a28638d7d9f9c62/quantplay-1.5.9.tar.gz
+[2024-05-28 15:02:22] INFO root fetch - processPackages [superlinked]: executing diffoscope
+[2024-05-28 15:02:22] INFO root fetch - processPackages [superlinked]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superlinked-5.6.0.tar.gz tmp/superlinked-5.7.0.tar.gz --markdown 20240528/s/superlinked/5.6.0-5.7.0/README.md --exclude *.pyd
+[2024-05-28 15:02:22] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2024-05-28 15:02:22] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.5.81.tar.gz tmp/quantplay-1.5.9.tar.gz --markdown 20240528/q/quantplay/1.5.81-1.5.9/README.md --exclude *.pyd
+[2024-05-28 15:02:23] INFO root fetch - processPackages [stldim]: Downloading https://files.pythonhosted.org/packages/1a/31/53120a4662ef76510d483135319252ef231f2935b733452bd2ae5fa3172d/stldim-0.3.0.tar.gz
+[2024-05-28 15:02:23] INFO root fetch - processPackages [lusid-sdk]: New version: [2.1.99] Old Version: [2.1.98]
+[2024-05-28 15:02:23] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.81.tar.gz]
+[2024-05-28 15:02:23] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.9.tar.gz]
+[2024-05-28 15:02:23] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2024-05-28 15:02:23] INFO root fetch - processPackages [stldim]: executing diffoscope
+[2024-05-28 15:02:23] INFO root fetch - processPackages [stldim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stldim-0.2.2.tar.gz tmp/stldim-0.3.0.tar.gz --markdown 20240528/s/stldim/0.2.2-0.3.0/README.md --exclude *.pyd
+[2024-05-28 15:02:23] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/15/56/0526e0499d9414b698f8c1260f8aac2e2a3209a0dc66949600aff2c28199/lusid_sdk-2.1.98.tar.gz
+[2024-05-28 15:02:23] INFO root fetch - processPackages [superlinked]: Remove: archive file [/home/abi/fetcher/tmp/superlinked-5.6.0.tar.gz]
+[2024-05-28 15:02:23] INFO root fetch - processPackages [superlinked]: Remove: archive file [/home/abi/fetcher/tmp/superlinked-5.7.0.tar.gz]
+[2024-05-28 15:02:23] INFO root fetch - main [MainThread]: End processing [superlinked]: success
+[2024-05-28 15:02:24] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/2c/d6/b08aeae5c238a1e7a8cd3ba4a93d6c65acd45e317b927d0f06091d65479d/lusid_sdk-2.1.99.tar.gz
+[2024-05-28 15:02:24] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2024-05-28 15:02:24] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_sdk-2.1.98.tar.gz tmp/lusid_sdk-2.1.99.tar.gz --markdown 20240528/l/lusid-sdk/2.1.98-2.1.99/README.md --exclude *.pyd
+[2024-05-28 15:02:24] INFO root fetch - processPackages [stldim]: Remove: archive file [/home/abi/fetcher/tmp/stldim-0.2.2.tar.gz]
+[2024-05-28 15:02:24] INFO root fetch - processPackages [stldim]: Remove: archive file [/home/abi/fetcher/tmp/stldim-0.3.0.tar.gz]
+[2024-05-28 15:02:24] INFO root fetch - main [MainThread]: End processing [stldim]: success
+[2024-05-28 15:02:28] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.98.tar.gz]
+[2024-05-28 15:02:28] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.99.tar.gz]
+[2024-05-28 15:02:28] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2024-05-28 15:02:28] INFO root fetch - main [MainThread]: Store serial: [23411525]
