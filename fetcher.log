@@ -20128,3 +20128,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 15:09:09] INFO root fetch - processPackages [itk-ants]: Remove: archive file [/home/abi/fetcher/tmp/itk_ants-0.6.0-cp310-cp310-macosx_11_0_arm64.whl.zip]
 [2024-05-28 15:09:09] INFO root fetch - main [MainThread]: End processing [itk-ants]: success
 [2024-05-28 15:09:09] INFO root fetch - main [MainThread]: Store serial: [23411603]
+[2024-05-28 15:11:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23411603]
+[2024-05-28 15:11:20] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-28 15:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: itk-ants
+[2024-05-28 15:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: orquestra-workflow-runtime
+[2024-05-28 15:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: continuous-toolbox
+[2024-05-28 15:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ETH-GTD-cli
+[2024-05-28 15:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pypanasonic
+[2024-05-28 15:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: drf-audit-trail
+[2024-05-28 15:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gliner-spacy
+[2024-05-28 15:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ourchester
+[2024-05-28 15:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ta-sites
+[2024-05-28 15:11:20] INFO root fetch - processPackages [ETH-GTD-cli]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-28 15:11:20] INFO root fetch - processPackages [itk-ants]: New version: [0.6.0] Old Version: [0.4rc3]
+[2024-05-28 15:11:20] INFO root fetch - processPackages [gliner-spacy]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-28 15:11:20] INFO root fetch - processPackages [pypanasonic]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-28 15:11:20] WARNING root fetch - processPackages [orquestra-workflow-runtime]: Skipping, unable to determine old version
+[2024-05-28 15:11:20] INFO root fetch - main [MainThread]: End processing [orquestra-workflow-runtime] error
+[2024-05-28 15:11:20] INFO root fetch - processPackages [ETH-GTD-cli]: Downloading https://files.pythonhosted.org/packages/bb/0a/50fa1ec5d25c4299fe860bbee1353c0eb7f1f3a83808556d2c92d59af108/eth_gtd_cli-0.0.98.tar.gz
+[2024-05-28 15:11:20] WARNING root fetch - processPackages [ourchester]: Skipping, unable to determine old version
+[2024-05-28 15:11:20] INFO root fetch - main [MainThread]: End processing [ourchester] error
+[2024-05-28 15:11:20] INFO root fetch - processPackages [drf-audit-trail]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-28 15:11:20] INFO root fetch - processPackages [ta-sites]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-28 15:11:20] WARNING root fetch - processPackages [continuous-toolbox]: Skipping, unable to determine old version
+[2024-05-28 15:11:20] INFO root fetch - main [MainThread]: End processing [continuous-toolbox] error
+[2024-05-28 15:11:20] INFO root fetch - processPackages [itk-ants]: Downloading https://files.pythonhosted.org/packages/08/db/03aa0c0a5b92624e547c19e3d173e1d50176243d2b391c9a0e2d9630898c/itk_ants-0.4rc3-cp39-cp39-win_amd64.whl
+[2024-05-28 15:11:20] INFO root fetch - processPackages [gliner-spacy]: Downloading https://files.pythonhosted.org/packages/19/43/29c1e9a20df69aeea7f075ed475cc91687a3badbec97202bfaa75550c524/gliner-spacy-0.0.6.tar.gz
+[2024-05-28 15:11:20] INFO root fetch - processPackages [pypanasonic]: Downloading https://files.pythonhosted.org/packages/90/d0/7fbad6e145eba39d6acedd6ae9ef303bb75c99f1fb7b7e796a151ca0d6be/pypanasonic-0.0.7.tar.gz
+[2024-05-28 15:11:20] INFO root fetch - processPackages [drf-audit-trail]: Downloading https://files.pythonhosted.org/packages/9d/a4/6d6ec841976cd21369e1186c3be50f12b5740d9988395ab5ac401dff0382/drf_audit_trail-0.1.4.tar.gz
+[2024-05-28 15:11:20] INFO root fetch - processPackages [ETH-GTD-cli]: Downloading https://files.pythonhosted.org/packages/3a/3a/941df551139bad5139862c5d9037c073bb93892398261de84ccbd2737322/eth_gtd_cli-0.0.99.tar.gz
+[2024-05-28 15:11:20] INFO root fetch - processPackages [ta-sites]: Downloading https://files.pythonhosted.org/packages/f1/4f/b3b4be18697e8e1f4f59c75d8051454e2b8dd5cf4f506cee91096ae25d09/ta_sites-0.4.8.tar.gz
+[2024-05-28 15:11:20] INFO root fetch - processPackages [ETH-GTD-cli]: executing diffoscope
+[2024-05-28 15:11:20] INFO root fetch - processPackages [ETH-GTD-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eth_gtd_cli-0.0.98.tar.gz tmp/eth_gtd_cli-0.0.99.tar.gz --markdown 20240528/E/ETH-GTD-cli/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-28 15:11:20] INFO root fetch - processPackages [itk-ants]: Downloading https://files.pythonhosted.org/packages/95/8f/94e9691a3fb62b93a2ec274696c4ae1112f243617cb436a830085cfa9060/itk_ants-0.6.0-cp310-cp310-macosx_11_0_arm64.whl
+[2024-05-28 15:11:20] INFO root fetch - processPackages [gliner-spacy]: Downloading https://files.pythonhosted.org/packages/58/9f/5ffdad3ac25d1a1a0a3d02d86966d486e85c063d867fff3eb6c45cec0d2c/gliner-spacy-0.0.7.tar.gz
+[2024-05-28 15:11:20] INFO root fetch - processPackages [drf-audit-trail]: Downloading https://files.pythonhosted.org/packages/09/28/f3abcbac4f9a879e58646d086438f1459d120031bfeb23dcc77be2fe0d65/drf_audit_trail-0.1.5.tar.gz
+[2024-05-28 15:11:21] INFO root fetch - processPackages [pypanasonic]: Downloading https://files.pythonhosted.org/packages/c8/56/0b42c2fa33772b37727d331eecb5d8fcebd72cce0198812cdc871c176ebb/pypanasonic-0.0.8.tar.gz
+[2024-05-28 15:11:21] INFO root fetch - processPackages [gliner-spacy]: executing diffoscope
+[2024-05-28 15:11:21] INFO root fetch - processPackages [gliner-spacy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gliner-spacy-0.0.6.tar.gz tmp/gliner-spacy-0.0.7.tar.gz --markdown 20240528/g/gliner-spacy/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-28 15:11:21] INFO root fetch - processPackages [ta-sites]: Downloading https://files.pythonhosted.org/packages/88/c9/a1ad9b61ed05df748d89e207a2140fbadb94c9bb13610a41ae0e10cbf606/ta_sites-0.4.9.tar.gz
+[2024-05-28 15:11:21] INFO root fetch - processPackages [drf-audit-trail]: executing diffoscope
+[2024-05-28 15:11:21] INFO root fetch - processPackages [drf-audit-trail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf_audit_trail-0.1.4.tar.gz tmp/drf_audit_trail-0.1.5.tar.gz --markdown 20240528/d/drf-audit-trail/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-28 15:11:21] INFO root fetch - processPackages [ta-sites]: executing diffoscope
+[2024-05-28 15:11:21] INFO root fetch - processPackages [ta-sites]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ta_sites-0.4.8.tar.gz tmp/ta_sites-0.4.9.tar.gz --markdown 20240528/t/ta-sites/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-28 15:11:21] INFO root fetch - processPackages [pypanasonic]: executing diffoscope
+[2024-05-28 15:11:21] INFO root fetch - processPackages [pypanasonic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypanasonic-0.0.7.tar.gz tmp/pypanasonic-0.0.8.tar.gz --markdown 20240528/p/pypanasonic/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-28 15:11:21] INFO root fetch - processPackages [itk-ants]: executing diffoscope
+[2024-05-28 15:11:21] INFO root fetch - processPackages [itk-ants]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itk_ants-0.4rc3-cp39-cp39-win_amd64.whl.zip tmp/itk_ants-0.6.0-cp310-cp310-macosx_11_0_arm64.whl.zip --markdown 20240528/i/itk-ants/0.4rc3-0.6.0/README.md --exclude *.pyd
+[2024-05-28 15:11:21] INFO root fetch - processPackages [ETH-GTD-cli]: Remove: archive file [/home/abi/fetcher/tmp/eth_gtd_cli-0.0.98.tar.gz]
+[2024-05-28 15:11:21] INFO root fetch - processPackages [ETH-GTD-cli]: Remove: archive file [/home/abi/fetcher/tmp/eth_gtd_cli-0.0.99.tar.gz]
+[2024-05-28 15:11:21] INFO root fetch - main [MainThread]: End processing [ETH-GTD-cli]: success
+[2024-05-28 15:11:21] INFO root fetch - processPackages [drf-audit-trail]: Remove: archive file [/home/abi/fetcher/tmp/drf_audit_trail-0.1.4.tar.gz]
+[2024-05-28 15:11:21] INFO root fetch - processPackages [drf-audit-trail]: Remove: archive file [/home/abi/fetcher/tmp/drf_audit_trail-0.1.5.tar.gz]
+[2024-05-28 15:11:21] INFO root fetch - main [MainThread]: End processing [drf-audit-trail]: success
+[2024-05-28 15:11:21] INFO root fetch - processPackages [ta-sites]: Remove: archive file [/home/abi/fetcher/tmp/ta_sites-0.4.8.tar.gz]
+[2024-05-28 15:11:21] INFO root fetch - processPackages [ta-sites]: Remove: archive file [/home/abi/fetcher/tmp/ta_sites-0.4.9.tar.gz]
+[2024-05-28 15:11:21] INFO root fetch - main [MainThread]: End processing [ta-sites]: success
+[2024-05-28 15:11:21] INFO root fetch - processPackages [gliner-spacy]: Remove: archive file [/home/abi/fetcher/tmp/gliner-spacy-0.0.6.tar.gz]
+[2024-05-28 15:11:21] INFO root fetch - processPackages [gliner-spacy]: Remove: archive file [/home/abi/fetcher/tmp/gliner-spacy-0.0.7.tar.gz]
+[2024-05-28 15:11:21] INFO root fetch - main [MainThread]: End processing [gliner-spacy]: success
+[2024-05-28 15:11:21] INFO root fetch - processPackages [pypanasonic]: Remove: archive file [/home/abi/fetcher/tmp/pypanasonic-0.0.7.tar.gz]
+[2024-05-28 15:11:21] INFO root fetch - processPackages [pypanasonic]: Remove: archive file [/home/abi/fetcher/tmp/pypanasonic-0.0.8.tar.gz]
+[2024-05-28 15:11:21] INFO root fetch - main [MainThread]: End processing [pypanasonic]: success
+[2024-05-28 15:11:22] INFO root fetch - processPackages [itk-ants]: Remove: archive file [/home/abi/fetcher/tmp/itk_ants-0.4rc3-cp39-cp39-win_amd64.whl.zip]
+[2024-05-28 15:11:22] INFO root fetch - processPackages [itk-ants]: Remove: archive file [/home/abi/fetcher/tmp/itk_ants-0.6.0-cp310-cp310-macosx_11_0_arm64.whl.zip]
+[2024-05-28 15:11:22] INFO root fetch - main [MainThread]: End processing [itk-ants]: success
+[2024-05-28 15:11:22] INFO root fetch - main [MainThread]: Store serial: [23411657]
