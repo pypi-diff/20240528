@@ -13712,3 +13712,72 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 11:17:08] INFO root fetch - processPackages [omspy]: Remove: archive file [/home/abi/fetcher/tmp/omspy-0.9.1.tar.gz]
 [2024-05-28 11:17:08] INFO root fetch - main [MainThread]: End processing [omspy]: success
 [2024-05-28 11:17:08] INFO root fetch - main [MainThread]: Store serial: [23408651]
+[2024-05-28 11:19:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23408651]
+[2024-05-28 11:19:17] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-28 11:19:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-antimonkey
+[2024-05-28 11:19:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sunyata
+[2024-05-28 11:19:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vital
+[2024-05-28 11:19:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ragfmk
+[2024-05-28 11:19:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo12-addon-vertical-carsharing-emc
+[2024-05-28 11:19:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aistrainer
+[2024-05-28 11:19:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sqlalchemy-schema-factory
+[2024-05-28 11:19:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pymodins
+[2024-05-28 11:19:17] INFO root fetch - processPackages [nonebot-plugin-antimonkey]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-28 11:19:17] INFO root fetch - processPackages [odoo12-addon-vertical-carsharing-emc]: New version: [12.0.0.0.9] Old Version: [12.0.0.0.8]
+[2024-05-28 11:19:17] INFO root fetch - processPackages [sunyata]: New version: [0.0.49] Old Version: [0.0.48]
+[2024-05-28 11:19:17] INFO root fetch - processPackages [nonebot-plugin-antimonkey]: Downloading https://files.pythonhosted.org/packages/0c/64/2c5ca643e10ca33271a3405b30a100afbcd226aef9998a84a2b90e55a75a/nonebot_plugin_antimonkey-1.0.2.tar.gz
+[2024-05-28 11:19:17] INFO root fetch - processPackages [ragfmk]: New version: [0.1.4.11] Old Version: [0.1.4.10]
+[2024-05-28 11:19:17] INFO root fetch - processPackages [pymodins]: New version: [2.0.3] Old Version: [2.0.2]
+[2024-05-28 11:19:17] INFO root fetch - processPackages [sqlalchemy-schema-factory]: New version: [0.2.0] Old Version: [0.1.4]
+[2024-05-28 11:19:17] WARNING root fetch - processPackages [aistrainer]: Skipping, unable to determine old version
+[2024-05-28 11:19:17] INFO root fetch - main [MainThread]: End processing [aistrainer] error
+[2024-05-28 11:19:17] INFO root fetch - processPackages [vital]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-28 11:19:17] INFO root fetch - processPackages [sunyata]: Downloading https://files.pythonhosted.org/packages/5d/e6/d3477530ac25d23dacc4a867b0712183a61cd33eec2b0f55b69a46e66ab9/sunyata-0.0.48.tar.gz
+[2024-05-28 11:19:17] INFO root fetch - processPackages [odoo12-addon-vertical-carsharing-emc]: Downloading https://files.pythonhosted.org/packages/ac/35/f6a1ead467e526e820c5c4d6107772c22ee7c842430341ff0871a97c8b56/odoo12_addon_vertical_carsharing_emc-12.0.0.0.8-py3-none-any.whl
+[2024-05-28 11:19:18] INFO root fetch - processPackages [nonebot-plugin-antimonkey]: Downloading https://files.pythonhosted.org/packages/bc/f0/417d3d1e7af55a22cb57870ce8db69d0deb0d851fba58035ecd5662a4f07/nonebot_plugin_antimonkey-1.0.3.tar.gz
+[2024-05-28 11:19:18] INFO root fetch - processPackages [ragfmk]: Downloading https://files.pythonhosted.org/packages/a6/e6/88763e1c24bcce22629fcf8269f046211f7ddc78137aed9ec4ab17556559/ragfmk-0.1.4.10-py3-none-any.whl
+[2024-05-28 11:19:18] INFO root fetch - processPackages [odoo12-addon-vertical-carsharing-emc]: Downloading https://files.pythonhosted.org/packages/81/f7/33fe6109167a7c7e9f9cb927dc55ddf2a246faafd41ddc9ffe0f99081203/odoo12_addon_vertical_carsharing_emc-12.0.0.0.9-py3-none-any.whl
+[2024-05-28 11:19:18] INFO root fetch - processPackages [pymodins]: Downloading https://files.pythonhosted.org/packages/57/6b/d15e412d2bc45f283539e134ef03d7598203ba8133d3e261d5ce05466a60/pymodins-2.0.2.tar.gz
+[2024-05-28 11:19:18] INFO root fetch - processPackages [vital]: Downloading https://files.pythonhosted.org/packages/47/2f/ae769da2f499bc8d85817885b79a3fc4adab12ecff998782f0ab9ea7cdbd/vital-2.1.8.tar.gz
+[2024-05-28 11:19:18] INFO root fetch - processPackages [sqlalchemy-schema-factory]: Downloading https://files.pythonhosted.org/packages/ff/4d/ec4d7edd506f300c8670dfd9763d707feba2aaae20ff956b9a9c01c4332e/sqlalchemy_schema_factory-0.1.4.tar.gz
+[2024-05-28 11:19:18] INFO root fetch - processPackages [sunyata]: Downloading https://files.pythonhosted.org/packages/e1/38/bba32c28cba994ef2343394755facb5f3a647c668ca04a2e52f9afa5d26f/sunyata-0.0.49.tar.gz
+[2024-05-28 11:19:18] INFO root fetch - processPackages [odoo12-addon-vertical-carsharing-emc]: executing diffoscope
+[2024-05-28 11:19:18] INFO root fetch - processPackages [odoo12-addon-vertical-carsharing-emc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_vertical_carsharing_emc-12.0.0.0.8-py3-none-any.whl.zip tmp/odoo12_addon_vertical_carsharing_emc-12.0.0.0.9-py3-none-any.whl.zip --markdown 20240528/o/odoo12-addon-vertical-carsharing-emc/12.0.0.0.8-12.0.0.0.9/README.md --exclude *.pyd
+[2024-05-28 11:19:18] INFO root fetch - processPackages [nonebot-plugin-antimonkey]: executing diffoscope
+[2024-05-28 11:19:18] INFO root fetch - processPackages [nonebot-plugin-antimonkey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_antimonkey-1.0.2.tar.gz tmp/nonebot_plugin_antimonkey-1.0.3.tar.gz --markdown 20240528/n/nonebot-plugin-antimonkey/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-28 11:19:18] INFO root fetch - processPackages [sunyata]: executing diffoscope
+[2024-05-28 11:19:18] INFO root fetch - processPackages [sunyata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunyata-0.0.48.tar.gz tmp/sunyata-0.0.49.tar.gz --markdown 20240528/s/sunyata/0.0.48-0.0.49/README.md --exclude *.pyd
+[2024-05-28 11:19:18] INFO root fetch - processPackages [ragfmk]: Downloading https://files.pythonhosted.org/packages/0e/2e/8ff2fd1e22c60bbed9a45fdf8b53387b2d6673a9ec0082e77a15435ba99b/ragfmk-0.1.4.11-py3-none-any.whl
+[2024-05-28 11:19:18] INFO root fetch - processPackages [sqlalchemy-schema-factory]: Downloading https://files.pythonhosted.org/packages/75/aa/cd40e6af6d9112e05c44e0ab033873de2c253678a582cab5b3220004a758/sqlalchemy_schema_factory-0.2.0.tar.gz
+[2024-05-28 11:19:18] INFO root fetch - processPackages [pymodins]: Downloading https://files.pythonhosted.org/packages/e0/dd/1a084a45ead73c0abe63f3d7ee490ae3723e34c0f95727d437f608c026f9/pymodins-2.0.3.tar.gz
+[2024-05-28 11:19:18] INFO root fetch - processPackages [ragfmk]: executing diffoscope
+[2024-05-28 11:19:18] INFO root fetch - processPackages [ragfmk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragfmk-0.1.4.10-py3-none-any.whl.zip tmp/ragfmk-0.1.4.11-py3-none-any.whl.zip --markdown 20240528/r/ragfmk/0.1.4.10-0.1.4.11/README.md --exclude *.pyd
+[2024-05-28 11:19:18] INFO root fetch - processPackages [sqlalchemy-schema-factory]: executing diffoscope
+[2024-05-28 11:19:18] INFO root fetch - processPackages [sqlalchemy-schema-factory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy_schema_factory-0.1.4.tar.gz tmp/sqlalchemy_schema_factory-0.2.0.tar.gz --markdown 20240528/s/sqlalchemy-schema-factory/0.1.4-0.2.0/README.md --exclude *.pyd
+[2024-05-28 11:19:18] INFO root fetch - processPackages [pymodins]: executing diffoscope
+[2024-05-28 11:19:18] INFO root fetch - processPackages [pymodins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymodins-2.0.2.tar.gz tmp/pymodins-2.0.3.tar.gz --markdown 20240528/p/pymodins/2.0.2-2.0.3/README.md --exclude *.pyd
+[2024-05-28 11:19:19] INFO root fetch - processPackages [odoo12-addon-vertical-carsharing-emc]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_vertical_carsharing_emc-12.0.0.0.8-py3-none-any.whl.zip]
+[2024-05-28 11:19:19] INFO root fetch - processPackages [odoo12-addon-vertical-carsharing-emc]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_vertical_carsharing_emc-12.0.0.0.9-py3-none-any.whl.zip]
+[2024-05-28 11:19:19] INFO root fetch - main [MainThread]: End processing [odoo12-addon-vertical-carsharing-emc]: success
+[2024-05-28 11:19:19] INFO root fetch - processPackages [vital]: Downloading https://files.pythonhosted.org/packages/55/ed/95f19201856105f10aefbb2d502d004bdb326be56939b7077320e857cfb4/vital-2.1.9.tar.gz
+[2024-05-28 11:19:19] INFO root fetch - processPackages [sunyata]: Remove: archive file [/home/abi/fetcher/tmp/sunyata-0.0.48.tar.gz]
+[2024-05-28 11:19:19] INFO root fetch - processPackages [sunyata]: Remove: archive file [/home/abi/fetcher/tmp/sunyata-0.0.49.tar.gz]
+[2024-05-28 11:19:19] INFO root fetch - main [MainThread]: End processing [sunyata]: success
+[2024-05-28 11:19:19] INFO root fetch - processPackages [vital]: executing diffoscope
+[2024-05-28 11:19:19] INFO root fetch - processPackages [vital]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vital-2.1.8.tar.gz tmp/vital-2.1.9.tar.gz --markdown 20240528/v/vital/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-28 11:19:19] INFO root fetch - processPackages [nonebot-plugin-antimonkey]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_antimonkey-1.0.2.tar.gz]
+[2024-05-28 11:19:19] INFO root fetch - processPackages [nonebot-plugin-antimonkey]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_antimonkey-1.0.3.tar.gz]
+[2024-05-28 11:19:19] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-antimonkey]: success
+[2024-05-28 11:19:19] INFO root fetch - processPackages [sqlalchemy-schema-factory]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_schema_factory-0.1.4.tar.gz]
+[2024-05-28 11:19:19] INFO root fetch - processPackages [sqlalchemy-schema-factory]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_schema_factory-0.2.0.tar.gz]
+[2024-05-28 11:19:19] INFO root fetch - main [MainThread]: End processing [sqlalchemy-schema-factory]: success
+[2024-05-28 11:19:19] INFO root fetch - processPackages [ragfmk]: Remove: archive file [/home/abi/fetcher/tmp/ragfmk-0.1.4.10-py3-none-any.whl.zip]
+[2024-05-28 11:19:19] INFO root fetch - processPackages [ragfmk]: Remove: archive file [/home/abi/fetcher/tmp/ragfmk-0.1.4.11-py3-none-any.whl.zip]
+[2024-05-28 11:19:19] INFO root fetch - main [MainThread]: End processing [ragfmk]: success
+[2024-05-28 11:19:19] INFO root fetch - processPackages [pymodins]: Remove: archive file [/home/abi/fetcher/tmp/pymodins-2.0.2.tar.gz]
+[2024-05-28 11:19:19] INFO root fetch - processPackages [pymodins]: Remove: archive file [/home/abi/fetcher/tmp/pymodins-2.0.3.tar.gz]
+[2024-05-28 11:19:19] INFO root fetch - main [MainThread]: End processing [pymodins]: success
+[2024-05-28 11:19:20] INFO root fetch - processPackages [vital]: Remove: archive file [/home/abi/fetcher/tmp/vital-2.1.8.tar.gz]
+[2024-05-28 11:19:20] INFO root fetch - processPackages [vital]: Remove: archive file [/home/abi/fetcher/tmp/vital-2.1.9.tar.gz]
+[2024-05-28 11:19:20] INFO root fetch - main [MainThread]: End processing [vital]: success
+[2024-05-28 11:19:20] INFO root fetch - main [MainThread]: Store serial: [23408678]
