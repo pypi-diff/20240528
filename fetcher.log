@@ -6427,3 +6427,79 @@
 [2024-05-28 07:20:41] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.9.tar.gz]
 [2024-05-28 07:20:41] INFO root fetch - main [MainThread]: End processing [quantplay]: success
 [2024-05-28 07:20:41] INFO root fetch - main [MainThread]: Store serial: [23405411]
+[2024-05-28 07:22:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23405411]
+[2024-05-28 07:22:49] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-28 07:22:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: espresso-machine
+[2024-05-28 07:22:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kossou-hillshade-base
+[2024-05-28 07:22:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: espresso-machine
+[2024-05-28 07:22:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: espresso-machine
+[2024-05-28 07:22:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: espresso-machine
+[2024-05-28 07:22:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pythran
+[2024-05-28 07:22:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyrtz2
+[2024-05-28 07:22:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: espresso-machine
+[2024-05-28 07:22:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-currency-rate-update-RO-BNR
+[2024-05-28 07:22:50] INFO root fetch - processPackages [pyrtz2]: New version: [1.2.0] Old Version: [1.1.25]
+[2024-05-28 07:22:50] INFO root fetch - processPackages [espresso-machine]: New version: [0.0.25] Old Version: [0.0.200]
+[2024-05-28 07:22:50] INFO root fetch - processPackages [espresso-machine]: New version: [0.0.25] Old Version: [0.0.200]
+[2024-05-28 07:22:50] INFO root fetch - processPackages [espresso-machine]: New version: [0.0.25] Old Version: [0.0.200]
+[2024-05-28 07:22:50] INFO root fetch - processPackages [espresso-machine]: New version: [0.0.25] Old Version: [0.0.200]
+[2024-05-28 07:22:50] INFO root fetch - processPackages [kossou-hillshade-base]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-28 07:22:50] INFO root fetch - processPackages [espresso-machine]: New version: [0.0.25] Old Version: [0.0.200]
+[2024-05-28 07:22:50] INFO root fetch - processPackages [pythran]: New version: [0.9.9] Old Version: [0.9.8.post2]
+[2024-05-28 07:22:50] INFO root fetch - processPackages [odoo-addon-currency-rate-update-RO-BNR]: New version: [17.0.1.5.0] Old Version: [17.0.1.4.0]
+[2024-05-28 07:22:50] INFO root fetch - processPackages [pyrtz2]: Downloading https://files.pythonhosted.org/packages/b5/6e/f098a84908b66c8af1312a4a874602246debf40597fe461b8d0b16ed1695/pyrtz2-1.1.25.tar.gz
+[2024-05-28 07:22:50] INFO root fetch - processPackages [kossou-hillshade-base]: Downloading https://files.pythonhosted.org/packages/f9/d1/674df80b03750ba67d5a98c9b51adbac10c6516d577df90e3b58338607aa/kossou_hillshade_base-0.0.6.tar.gz
+[2024-05-28 07:22:50] INFO root fetch - processPackages [espresso-machine]: Downloading https://files.pythonhosted.org/packages/99/80/cd471f3e1726899530efef4a72707b3810f59476eddd8ae7415e5adbc47c/espresso_machine-0.0.200.tar.gz
+[2024-05-28 07:22:50] INFO root fetch - processPackages [espresso-machine]: Downloading https://files.pythonhosted.org/packages/99/80/cd471f3e1726899530efef4a72707b3810f59476eddd8ae7415e5adbc47c/espresso_machine-0.0.200.tar.gz
+[2024-05-28 07:22:50] INFO root fetch - processPackages [espresso-machine]: Downloading https://files.pythonhosted.org/packages/99/80/cd471f3e1726899530efef4a72707b3810f59476eddd8ae7415e5adbc47c/espresso_machine-0.0.200.tar.gz
+[2024-05-28 07:22:50] INFO root fetch - processPackages [espresso-machine]: Downloading https://files.pythonhosted.org/packages/99/80/cd471f3e1726899530efef4a72707b3810f59476eddd8ae7415e5adbc47c/espresso_machine-0.0.200.tar.gz
+[2024-05-28 07:22:50] INFO root fetch - processPackages [espresso-machine]: Downloading https://files.pythonhosted.org/packages/99/80/cd471f3e1726899530efef4a72707b3810f59476eddd8ae7415e5adbc47c/espresso_machine-0.0.200.tar.gz
+[2024-05-28 07:22:50] INFO root fetch - processPackages [pythran]: Downloading https://files.pythonhosted.org/packages/59/ba/5be012116a5f39413c49b9498c892ee6da38e537f0bc57dfa7a12b832224/pythran-0.9.8.post2.tar.gz
+[2024-05-28 07:22:50] INFO root fetch - processPackages [odoo-addon-currency-rate-update-RO-BNR]: Downloading https://files.pythonhosted.org/packages/d1/c4/86f95fa0f13185cee57cc8bb5656fc88456e539bb1743646a8d456e1de13/odoo_addon_currency_rate_update_RO_BNR-17.0.1.4.0-py3-none-any.whl
+[2024-05-28 07:22:50] INFO root fetch - processPackages [espresso-machine]: Downloading https://files.pythonhosted.org/packages/32/a6/d2226a0d6f1b5f41349ae03f1afa9da39fe31e85131c8b1c6990cc152f5b/espresso_machine-0.0.25.tar.gz
+[2024-05-28 07:22:50] INFO root fetch - processPackages [espresso-machine]: Downloading https://files.pythonhosted.org/packages/32/a6/d2226a0d6f1b5f41349ae03f1afa9da39fe31e85131c8b1c6990cc152f5b/espresso_machine-0.0.25.tar.gz
+[2024-05-28 07:22:50] INFO root fetch - processPackages [espresso-machine]: Downloading https://files.pythonhosted.org/packages/32/a6/d2226a0d6f1b5f41349ae03f1afa9da39fe31e85131c8b1c6990cc152f5b/espresso_machine-0.0.25.tar.gz
+[2024-05-28 07:22:50] INFO root fetch - processPackages [espresso-machine]: Downloading https://files.pythonhosted.org/packages/32/a6/d2226a0d6f1b5f41349ae03f1afa9da39fe31e85131c8b1c6990cc152f5b/espresso_machine-0.0.25.tar.gz
+[2024-05-28 07:22:50] INFO root fetch - processPackages [espresso-machine]: Downloading https://files.pythonhosted.org/packages/32/a6/d2226a0d6f1b5f41349ae03f1afa9da39fe31e85131c8b1c6990cc152f5b/espresso_machine-0.0.25.tar.gz
+[2024-05-28 07:22:50] INFO root fetch - processPackages [espresso-machine]: executing diffoscope
+[2024-05-28 07:22:50] INFO root fetch - processPackages [espresso-machine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/espresso_machine-0.0.200.tar.gz tmp/espresso_machine-0.0.25.tar.gz --markdown 20240528/e/espresso-machine/0.0.200-0.0.25/README.md --exclude *.pyd
+[2024-05-28 07:22:50] INFO root fetch - processPackages [pyrtz2]: Downloading https://files.pythonhosted.org/packages/55/84/46369617255938767504e54c80cf9a20e3f83bdcd065e8301c460e38f766/pyrtz2-1.2.0.tar.gz
+[2024-05-28 07:22:50] INFO root fetch - processPackages [espresso-machine]: executing diffoscope
+[2024-05-28 07:22:50] INFO root fetch - processPackages [espresso-machine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/espresso_machine-0.0.200.tar.gz tmp/espresso_machine-0.0.25.tar.gz --markdown 20240528/e/espresso-machine/0.0.200-0.0.25/README.md --exclude *.pyd
+[2024-05-28 07:22:50] INFO root fetch - processPackages [kossou-hillshade-base]: Downloading https://files.pythonhosted.org/packages/8a/25/94390cfd5d0f21a055d995ec93c6f7c87dafad600f86e5c1edda054a2557/kossou_hillshade_base-0.0.7.tar.gz
+[2024-05-28 07:22:50] INFO root fetch - processPackages [espresso-machine]: executing diffoscope
+[2024-05-28 07:22:50] INFO root fetch - processPackages [espresso-machine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/espresso_machine-0.0.200.tar.gz tmp/espresso_machine-0.0.25.tar.gz --markdown 20240528/e/espresso-machine/0.0.200-0.0.25/README.md --exclude *.pyd
+[2024-05-28 07:22:50] INFO root fetch - processPackages [espresso-machine]: executing diffoscope
+[2024-05-28 07:22:50] INFO root fetch - processPackages [espresso-machine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/espresso_machine-0.0.200.tar.gz tmp/espresso_machine-0.0.25.tar.gz --markdown 20240528/e/espresso-machine/0.0.200-0.0.25/README.md --exclude *.pyd
+[2024-05-28 07:22:50] INFO root fetch - processPackages [espresso-machine]: executing diffoscope
+[2024-05-28 07:22:50] INFO root fetch - processPackages [espresso-machine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/espresso_machine-0.0.200.tar.gz tmp/espresso_machine-0.0.25.tar.gz --markdown 20240528/e/espresso-machine/0.0.200-0.0.25/README.md --exclude *.pyd
+[2024-05-28 07:22:50] INFO root fetch - processPackages [kossou-hillshade-base]: executing diffoscope
+[2024-05-28 07:22:50] INFO root fetch - processPackages [kossou-hillshade-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kossou_hillshade_base-0.0.6.tar.gz tmp/kossou_hillshade_base-0.0.7.tar.gz --markdown 20240528/k/kossou-hillshade-base/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-28 07:22:51] INFO root fetch - processPackages [odoo-addon-currency-rate-update-RO-BNR]: Downloading https://files.pythonhosted.org/packages/61/e4/d8041f565707a8a243f4bf4670358620b40a18dbaefece1b3c1d2ec1ab98/odoo_addon_currency_rate_update_RO_BNR-17.0.1.5.0-py3-none-any.whl
+[2024-05-28 07:22:51] INFO root fetch - processPackages [pyrtz2]: executing diffoscope
+[2024-05-28 07:22:51] INFO root fetch - processPackages [pyrtz2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrtz2-1.1.25.tar.gz tmp/pyrtz2-1.2.0.tar.gz --markdown 20240528/p/pyrtz2/1.1.25-1.2.0/README.md --exclude *.pyd
+[2024-05-28 07:22:51] INFO root fetch - processPackages [odoo-addon-currency-rate-update-RO-BNR]: executing diffoscope
+[2024-05-28 07:22:51] INFO root fetch - processPackages [odoo-addon-currency-rate-update-RO-BNR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_currency_rate_update_RO_BNR-17.0.1.4.0-py3-none-any.whl.zip tmp/odoo_addon_currency_rate_update_RO_BNR-17.0.1.5.0-py3-none-any.whl.zip --markdown 20240528/o/odoo-addon-currency-rate-update-RO-BNR/17.0.1.4.0-17.0.1.5.0/README.md --exclude *.pyd
+[2024-05-28 07:22:51] INFO root fetch - processPackages [espresso-machine]: Remove: archive file [/home/abi/fetcher/tmp/espresso_machine-0.0.200.tar.gz]
+[2024-05-28 07:22:51] INFO root fetch - processPackages [espresso-machine]: Remove: archive file [/home/abi/fetcher/tmp/espresso_machine-0.0.25.tar.gz]
+[2024-05-28 07:22:51] INFO root fetch - main [MainThread]: End processing [espresso-machine]: success
+[2024-05-28 07:22:51] INFO root fetch - main [MainThread]: End processing [espresso-machine]: success
+[2024-05-28 07:22:51] INFO root fetch - main [MainThread]: End processing [espresso-machine]: success
+[2024-05-28 07:22:51] INFO root fetch - processPackages [kossou-hillshade-base]: Remove: archive file [/home/abi/fetcher/tmp/kossou_hillshade_base-0.0.6.tar.gz]
+[2024-05-28 07:22:51] INFO root fetch - processPackages [kossou-hillshade-base]: Remove: archive file [/home/abi/fetcher/tmp/kossou_hillshade_base-0.0.7.tar.gz]
+[2024-05-28 07:22:51] INFO root fetch - main [MainThread]: End processing [kossou-hillshade-base]: success
+[2024-05-28 07:22:51] INFO root fetch - processPackages [pythran]: Downloading https://files.pythonhosted.org/packages/0b/59/f7ee94aa7d71721ab2ab23fb3cdaba8b384bb385b25ca8702aab9631892c/pythran-0.9.9.tar.gz
+[2024-05-28 07:22:51] INFO root fetch - main [MainThread]: End processing [espresso-machine]: success
+[2024-05-28 07:22:51] INFO root fetch - main [MainThread]: End processing [espresso-machine]: success
+[2024-05-28 07:22:52] INFO root fetch - processPackages [pyrtz2]: Remove: archive file [/home/abi/fetcher/tmp/pyrtz2-1.1.25.tar.gz]
+[2024-05-28 07:22:52] INFO root fetch - processPackages [pyrtz2]: Remove: archive file [/home/abi/fetcher/tmp/pyrtz2-1.2.0.tar.gz]
+[2024-05-28 07:22:52] INFO root fetch - main [MainThread]: End processing [pyrtz2]: success
+[2024-05-28 07:22:52] INFO root fetch - processPackages [odoo-addon-currency-rate-update-RO-BNR]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_currency_rate_update_RO_BNR-17.0.1.4.0-py3-none-any.whl.zip]
+[2024-05-28 07:22:52] INFO root fetch - processPackages [odoo-addon-currency-rate-update-RO-BNR]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_currency_rate_update_RO_BNR-17.0.1.5.0-py3-none-any.whl.zip]
+[2024-05-28 07:22:52] INFO root fetch - main [MainThread]: End processing [odoo-addon-currency-rate-update-RO-BNR]: success
+[2024-05-28 07:22:53] INFO root fetch - processPackages [pythran]: executing diffoscope
+[2024-05-28 07:22:53] INFO root fetch - processPackages [pythran]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythran-0.9.8.post2.tar.gz tmp/pythran-0.9.9.tar.gz --markdown 20240528/p/pythran/0.9.8.post2-0.9.9/README.md --exclude *.pyd
+[2024-05-28 07:23:30] INFO root fetch - processPackages [pythran]: Remove: archive file [/home/abi/fetcher/tmp/pythran-0.9.8.post2.tar.gz]
+[2024-05-28 07:23:30] INFO root fetch - processPackages [pythran]: Remove: archive file [/home/abi/fetcher/tmp/pythran-0.9.9.tar.gz]
+[2024-05-28 07:23:30] INFO root fetch - main [MainThread]: End processing [pythran]: success
+[2024-05-28 07:23:30] INFO root fetch - main [MainThread]: Store serial: [23405436]
