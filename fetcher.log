@@ -10560,3 +10560,66 @@
 [2024-05-28 09:42:39] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.9.3.tar.gz]
 [2024-05-28 09:42:39] INFO root fetch - main [MainThread]: End processing [mteb]: success
 [2024-05-28 09:42:39] INFO root fetch - main [MainThread]: Store serial: [23407207]
+[2024-05-28 09:44:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23407207]
+[2024-05-28 09:44:47] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-28 09:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vbinsta
+[2024-05-28 09:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: asterisk-utils
+[2024-05-28 09:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vaultrun
+[2024-05-28 09:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: reolink-aio
+[2024-05-28 09:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cvat_sdk_i_digit
+[2024-05-28 09:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sphinxawesome-theme
+[2024-05-28 09:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: scenaripy-api
+[2024-05-28 09:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hqq
+[2024-05-28 09:44:47] INFO root fetch - processPackages [vbinsta]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-28 09:44:47] INFO root fetch - processPackages [vaultrun]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-28 09:44:47] INFO root fetch - processPackages [reolink-aio]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-28 09:44:47] INFO root fetch - processPackages [vbinsta]: Downloading https://files.pythonhosted.org/packages/34/1b/a770a0febc1a2d19b7d9a721adfb39152147bce4e087123175de41511c7b/vbinsta-0.1.8.tar.gz
+[2024-05-28 09:44:47] WARNING root fetch - processPackages [asterisk-utils]: Skipping, unable to determine old version
+[2024-05-28 09:44:47] INFO root fetch - main [MainThread]: End processing [asterisk-utils] error
+[2024-05-28 09:44:47] WARNING root fetch - processPackages [scenaripy-api]: Skipping, unable to determine old version
+[2024-05-28 09:44:47] INFO root fetch - main [MainThread]: End processing [scenaripy-api] error
+[2024-05-28 09:44:47] INFO root fetch - processPackages [hqq]: New version: [0.1.7.post3] Old Version: [0.1.7.post2]
+[2024-05-28 09:44:47] INFO root fetch - processPackages [cvat_sdk_i_digit]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-28 09:44:47] INFO root fetch - processPackages [sphinxawesome-theme]: New version: [5.1.5] Old Version: [5.1.4]
+[2024-05-28 09:44:47] INFO root fetch - processPackages [vaultrun]: Downloading https://files.pythonhosted.org/packages/78/bd/22e8d7fd2172fddb70b09fde2454531d9c407c294bf1c5d82cd54db87bce/vaultrun-1.0.8.tar.gz
+[2024-05-28 09:44:47] INFO root fetch - processPackages [reolink-aio]: Downloading https://files.pythonhosted.org/packages/1f/d7/21914426fa08720fe6cab52e2b7a86e18c7d50cd27fc1e32ee4c18598cb6/reolink_aio-0.8.8.tar.gz
+[2024-05-28 09:44:47] INFO root fetch - processPackages [cvat_sdk_i_digit]: Downloading https://files.pythonhosted.org/packages/f3/67/ad72be0ed132305c391e01b101eb281116fc624d9c45f5275b21fbfc65e2/cvat_sdk_i_digit-0.0.7.tar.gz
+[2024-05-28 09:44:47] INFO root fetch - processPackages [sphinxawesome-theme]: Downloading https://files.pythonhosted.org/packages/1e/23/78b3423889dd6e79c868685e9472ce39281c1090a73f468fddf757664ff1/sphinxawesome_theme-5.1.4.tar.gz
+[2024-05-28 09:44:47] INFO root fetch - processPackages [vbinsta]: Downloading https://files.pythonhosted.org/packages/a7/d2/35fbd21f92c75b6742fd430bfeef190dbc05dd8b654cd957f6d558179064/vbinsta-0.1.9.tar.gz
+[2024-05-28 09:44:48] INFO root fetch - processPackages [hqq]: Downloading https://files.pythonhosted.org/packages/73/6e/0bc1bedbc4cdb0608ea56df9a1656ac9214936e1e8da5df57807b05a9b7b/hqq-0.1.7.post2.tar.gz
+[2024-05-28 09:44:48] INFO root fetch - processPackages [vbinsta]: executing diffoscope
+[2024-05-28 09:44:48] INFO root fetch - processPackages [vbinsta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbinsta-0.1.8.tar.gz tmp/vbinsta-0.1.9.tar.gz --markdown 20240528/v/vbinsta/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-28 09:44:48] INFO root fetch - processPackages [vaultrun]: Downloading https://files.pythonhosted.org/packages/41/88/e59aa29ebb4df6da4fa087dab365d5900125fc537a78a10bc3a8323b11d7/vaultrun-1.0.9.tar.gz
+[2024-05-28 09:44:48] INFO root fetch - processPackages [cvat_sdk_i_digit]: Downloading https://files.pythonhosted.org/packages/a4/72/a5aa9fc61642d1975456fb8576cce6eecb0e224ba603663ab79fd7eb8648/cvat_sdk_i_digit-0.0.8.tar.gz
+[2024-05-28 09:44:48] INFO root fetch - processPackages [sphinxawesome-theme]: Downloading https://files.pythonhosted.org/packages/1a/33/8a46e6d6010f58b2a51c394d753ab682af8854e57469fd12651a88252efd/sphinxawesome_theme-5.1.5.tar.gz
+[2024-05-28 09:44:48] INFO root fetch - processPackages [cvat_sdk_i_digit]: executing diffoscope
+[2024-05-28 09:44:48] INFO root fetch - processPackages [cvat_sdk_i_digit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvat_sdk_i_digit-0.0.7.tar.gz tmp/cvat_sdk_i_digit-0.0.8.tar.gz --markdown 20240528/c/cvat_sdk_i_digit/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-28 09:44:48] INFO root fetch - processPackages [hqq]: Downloading https://files.pythonhosted.org/packages/3c/dd/424704d87e7a387d4fd9ce28b193b71252aa3e6a812d57342e59b9f1f019/hqq-0.1.7.post3.tar.gz
+[2024-05-28 09:44:48] INFO root fetch - processPackages [vaultrun]: executing diffoscope
+[2024-05-28 09:44:48] INFO root fetch - processPackages [vaultrun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vaultrun-1.0.8.tar.gz tmp/vaultrun-1.0.9.tar.gz --markdown 20240528/v/vaultrun/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-28 09:44:48] INFO root fetch - processPackages [sphinxawesome-theme]: executing diffoscope
+[2024-05-28 09:44:48] INFO root fetch - processPackages [sphinxawesome-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinxawesome_theme-5.1.4.tar.gz tmp/sphinxawesome_theme-5.1.5.tar.gz --markdown 20240528/s/sphinxawesome-theme/5.1.4-5.1.5/README.md --exclude *.pyd
+[2024-05-28 09:44:48] INFO root fetch - processPackages [hqq]: executing diffoscope
+[2024-05-28 09:44:48] INFO root fetch - processPackages [hqq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hqq-0.1.7.post2.tar.gz tmp/hqq-0.1.7.post3.tar.gz --markdown 20240528/h/hqq/0.1.7.post2-0.1.7.post3/README.md --exclude *.pyd
+[2024-05-28 09:44:48] INFO root fetch - processPackages [vbinsta]: Remove: archive file [/home/abi/fetcher/tmp/vbinsta-0.1.8.tar.gz]
+[2024-05-28 09:44:48] INFO root fetch - processPackages [vbinsta]: Remove: archive file [/home/abi/fetcher/tmp/vbinsta-0.1.9.tar.gz]
+[2024-05-28 09:44:48] INFO root fetch - main [MainThread]: End processing [vbinsta]: success
+[2024-05-28 09:44:48] INFO root fetch - processPackages [reolink-aio]: Downloading https://files.pythonhosted.org/packages/c4/de/060683746083241d72d842b723b3a9052bbe295f681bba314c4d32ad2a43/reolink_aio-0.8.9.tar.gz
+[2024-05-28 09:44:48] INFO root fetch - processPackages [cvat_sdk_i_digit]: Remove: archive file [/home/abi/fetcher/tmp/cvat_sdk_i_digit-0.0.7.tar.gz]
+[2024-05-28 09:44:48] INFO root fetch - processPackages [cvat_sdk_i_digit]: Remove: archive file [/home/abi/fetcher/tmp/cvat_sdk_i_digit-0.0.8.tar.gz]
+[2024-05-28 09:44:48] INFO root fetch - main [MainThread]: End processing [cvat_sdk_i_digit]: success
+[2024-05-28 09:44:49] INFO root fetch - processPackages [vaultrun]: Remove: archive file [/home/abi/fetcher/tmp/vaultrun-1.0.8.tar.gz]
+[2024-05-28 09:44:49] INFO root fetch - processPackages [vaultrun]: Remove: archive file [/home/abi/fetcher/tmp/vaultrun-1.0.9.tar.gz]
+[2024-05-28 09:44:49] INFO root fetch - main [MainThread]: End processing [vaultrun]: success
+[2024-05-28 09:44:49] INFO root fetch - processPackages [reolink-aio]: executing diffoscope
+[2024-05-28 09:44:49] INFO root fetch - processPackages [reolink-aio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reolink_aio-0.8.8.tar.gz tmp/reolink_aio-0.8.9.tar.gz --markdown 20240528/r/reolink-aio/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-28 09:44:49] INFO root fetch - processPackages [hqq]: Remove: archive file [/home/abi/fetcher/tmp/hqq-0.1.7.post2.tar.gz]
+[2024-05-28 09:44:49] INFO root fetch - processPackages [hqq]: Remove: archive file [/home/abi/fetcher/tmp/hqq-0.1.7.post3.tar.gz]
+[2024-05-28 09:44:49] INFO root fetch - main [MainThread]: End processing [hqq]: success
+[2024-05-28 09:44:49] INFO root fetch - processPackages [sphinxawesome-theme]: Remove: archive file [/home/abi/fetcher/tmp/sphinxawesome_theme-5.1.4.tar.gz]
+[2024-05-28 09:44:49] INFO root fetch - processPackages [sphinxawesome-theme]: Remove: archive file [/home/abi/fetcher/tmp/sphinxawesome_theme-5.1.5.tar.gz]
+[2024-05-28 09:44:49] INFO root fetch - main [MainThread]: End processing [sphinxawesome-theme]: success
+[2024-05-28 09:44:49] INFO root fetch - processPackages [reolink-aio]: Remove: archive file [/home/abi/fetcher/tmp/reolink_aio-0.8.8.tar.gz]
+[2024-05-28 09:44:49] INFO root fetch - processPackages [reolink-aio]: Remove: archive file [/home/abi/fetcher/tmp/reolink_aio-0.8.9.tar.gz]
+[2024-05-28 09:44:49] INFO root fetch - main [MainThread]: End processing [reolink-aio]: success
+[2024-05-28 09:44:49] INFO root fetch - main [MainThread]: Store serial: [23407234]
