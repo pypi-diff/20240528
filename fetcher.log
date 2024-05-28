@@ -2955,3 +2955,36 @@
 [2024-05-28 03:29:38] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-1.1.0.dev202405270129.tar.gz]
 [2024-05-28 03:29:38] INFO root fetch - main [MainThread]: End processing [onediff]: success
 [2024-05-28 03:29:38] INFO root fetch - main [MainThread]: Store serial: [23404014]
+[2024-05-28 03:31:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23404014]
+[2024-05-28 03:31:46] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-28 03:31:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: utubes
+[2024-05-28 03:31:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datetime-eu
+[2024-05-28 03:31:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: logyca-azure-storage-blob
+[2024-05-28 03:31:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gizai
+[2024-05-28 03:31:46] INFO root fetch - processPackages [gizai]: New version: [5.9.1] Old Version: [5.6.1]
+[2024-05-28 03:31:46] INFO root fetch - processPackages [gizai]: Downloading https://files.pythonhosted.org/packages/01/83/b0110f05b1480d30f378d727382dac2b2e091afab0e8b384fd19699747f7/gizai-5.6.1.tar.gz
+[2024-05-28 03:31:46] WARNING root fetch - processPackages [datetime-eu]: Skipping, unable to determine old version
+[2024-05-28 03:31:46] INFO root fetch - main [MainThread]: End processing [datetime-eu] error
+[2024-05-28 03:31:46] INFO root fetch - processPackages [logyca-azure-storage-blob]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-28 03:31:46] INFO root fetch - processPackages [utubes]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-28 03:31:46] INFO root fetch - processPackages [utubes]: Downloading https://files.pythonhosted.org/packages/d2/e5/91bc5e73a5bce4b80f48a5e9e9b1bd239404484593fa343462a49eb01099/utubes-0.0.8.tar.gz
+[2024-05-28 03:31:46] INFO root fetch - processPackages [gizai]: Downloading https://files.pythonhosted.org/packages/bd/e0/e34a72b06da9054a2c2be6561feb68d8df248f033dea7576bd6df6bb25a9/gizai-5.9.1.tar.gz
+[2024-05-28 03:31:46] INFO root fetch - processPackages [logyca-azure-storage-blob]: Downloading https://files.pythonhosted.org/packages/a1/4f/00f85c3da5b5b77c1f7f6df8e7390daedc0df290d7b8fe4a8285a2ded593/logyca_azure_storage_blob-0.1.0.tar.gz
+[2024-05-28 03:31:46] INFO root fetch - processPackages [gizai]: executing diffoscope
+[2024-05-28 03:31:46] INFO root fetch - processPackages [gizai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gizai-5.6.1.tar.gz tmp/gizai-5.9.1.tar.gz --markdown 20240528/g/gizai/5.6.1-5.9.1/README.md --exclude *.pyd
+[2024-05-28 03:31:47] INFO root fetch - processPackages [utubes]: Downloading https://files.pythonhosted.org/packages/aa/9e/f4f060addff3038b06e174480b907bd2e35e83a1950b27a245be95c891d8/utubes-0.0.9.tar.gz
+[2024-05-28 03:31:47] INFO root fetch - processPackages [logyca-azure-storage-blob]: Downloading https://files.pythonhosted.org/packages/10/f4/9ca19b3ed3774fdff23ec38ba18817c75cead7523f4c39991c872b1e31ba/logyca_azure_storage_blob-0.1.1.tar.gz
+[2024-05-28 03:31:47] INFO root fetch - processPackages [utubes]: executing diffoscope
+[2024-05-28 03:31:47] INFO root fetch - processPackages [utubes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utubes-0.0.8.tar.gz tmp/utubes-0.0.9.tar.gz --markdown 20240528/u/utubes/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-28 03:31:47] INFO root fetch - processPackages [logyca-azure-storage-blob]: executing diffoscope
+[2024-05-28 03:31:47] INFO root fetch - processPackages [logyca-azure-storage-blob]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logyca_azure_storage_blob-0.1.0.tar.gz tmp/logyca_azure_storage_blob-0.1.1.tar.gz --markdown 20240528/l/logyca-azure-storage-blob/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-28 03:31:47] INFO root fetch - processPackages [gizai]: Remove: archive file [/home/abi/fetcher/tmp/gizai-5.6.1.tar.gz]
+[2024-05-28 03:31:47] INFO root fetch - processPackages [gizai]: Remove: archive file [/home/abi/fetcher/tmp/gizai-5.9.1.tar.gz]
+[2024-05-28 03:31:47] INFO root fetch - main [MainThread]: End processing [gizai]: success
+[2024-05-28 03:31:47] INFO root fetch - processPackages [utubes]: Remove: archive file [/home/abi/fetcher/tmp/utubes-0.0.8.tar.gz]
+[2024-05-28 03:31:47] INFO root fetch - processPackages [utubes]: Remove: archive file [/home/abi/fetcher/tmp/utubes-0.0.9.tar.gz]
+[2024-05-28 03:31:47] INFO root fetch - main [MainThread]: End processing [utubes]: success
+[2024-05-28 03:31:47] INFO root fetch - processPackages [logyca-azure-storage-blob]: Remove: archive file [/home/abi/fetcher/tmp/logyca_azure_storage_blob-0.1.0.tar.gz]
+[2024-05-28 03:31:47] INFO root fetch - processPackages [logyca-azure-storage-blob]: Remove: archive file [/home/abi/fetcher/tmp/logyca_azure_storage_blob-0.1.1.tar.gz]
+[2024-05-28 03:31:47] INFO root fetch - main [MainThread]: End processing [logyca-azure-storage-blob]: success
+[2024-05-28 03:31:47] INFO root fetch - main [MainThread]: Store serial: [23404028]
