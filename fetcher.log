@@ -6916,3 +6916,51 @@
 [2024-05-28 07:47:32] INFO root fetch - processPackages [asusrouter]: Remove: archive file [/home/abi/fetcher/tmp/asusrouter-1.9.0.tar.gz]
 [2024-05-28 07:47:32] INFO root fetch - main [MainThread]: End processing [asusrouter]: success
 [2024-05-28 07:47:32] INFO root fetch - main [MainThread]: Store serial: [23405621]
+[2024-05-28 07:49:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23405621]
+[2024-05-28 07:49:41] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-28 07:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: guolei-py3-database
+[2024-05-28 07:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datagen-kuma-kuma
+[2024-05-28 07:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: QuasarCode
+[2024-05-28 07:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mg-pso-gui
+[2024-05-28 07:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datagen-kuma
+[2024-05-28 07:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: react-i18next-lint
+[2024-05-28 07:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dlt
+[2024-05-28 07:49:41] INFO root fetch - processPackages [QuasarCode]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-28 07:49:41] INFO root fetch - processPackages [guolei-py3-database]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-28 07:49:41] INFO root fetch - processPackages [mg-pso-gui]: New version: [0.1.95] Old Version: [0.1.94]
+[2024-05-28 07:49:41] INFO root fetch - processPackages [QuasarCode]: Downloading https://files.pythonhosted.org/packages/4b/f9/b2d8ee96804291c82aa8544413344aeff5d171030de7fca251a7887f43b4/QuasarCode-0.8.0.tar.gz
+[2024-05-28 07:49:41] INFO root fetch - processPackages [guolei-py3-database]: Downloading https://files.pythonhosted.org/packages/fd/12/791a562d3c94520139b422ef5a63f8cef362cfa8ed61d4bf51e5180e29b4/guolei_py3_database-0.0.4.tar.gz
+[2024-05-28 07:49:41] WARNING root fetch - processPackages [react-i18next-lint]: Skipping, unable to determine old version
+[2024-05-28 07:49:41] INFO root fetch - main [MainThread]: End processing [react-i18next-lint] error
+[2024-05-28 07:49:41] ERROR root fetch - processPackages [datagen-kuma-kuma]: Unable to get metadata: No such project 'datagen-kuma-kuma'
+[2024-05-28 07:49:41] WARNING root fetch - processPackages [datagen-kuma]: Skipping, unable to determine old version
+[2024-05-28 07:49:41] INFO root fetch - main [MainThread]: End processing [datagen-kuma-kuma] error
+[2024-05-28 07:49:41] INFO root fetch - main [MainThread]: End processing [datagen-kuma] error
+[2024-05-28 07:49:41] INFO root fetch - processPackages [dlt]: New version: [0.4.9a2] Old Version: [0.4.9a1]
+[2024-05-28 07:49:41] INFO root fetch - processPackages [mg-pso-gui]: Downloading https://files.pythonhosted.org/packages/8f/88/fc9ab10e17d14a79c82357fb936c99857b716069ea5148ac565476c71f6f/mg-pso-gui-0.1.94.tar.gz
+[2024-05-28 07:49:41] INFO root fetch - processPackages [QuasarCode]: Downloading https://files.pythonhosted.org/packages/67/46/55d9a0f234778abc638a43b265aa1558469d0967d78b5d026750dc299011/QuasarCode-0.9.0.tar.gz
+[2024-05-28 07:49:41] INFO root fetch - processPackages [dlt]: Downloading https://files.pythonhosted.org/packages/05/ee/6ffac4e898ce64eedd4b03a6d7925596d4a1959c0d2de78570cdfb266d85/dlt-0.4.9a1.tar.gz
+[2024-05-28 07:49:41] INFO root fetch - processPackages [mg-pso-gui]: Downloading https://files.pythonhosted.org/packages/38/8d/93fa9f6f521e215bcedf5f3d350b9d9408625f7d15282c941af8c5d5cb3e/mg-pso-gui-0.1.95.tar.gz
+[2024-05-28 07:49:41] INFO root fetch - processPackages [guolei-py3-database]: Downloading https://files.pythonhosted.org/packages/2f/1e/faa440fa40071f299460804edab6dcb12f9cb52163572f6ce39e790ab55f/guolei_py3_database-0.0.5.tar.gz
+[2024-05-28 07:49:41] INFO root fetch - processPackages [QuasarCode]: executing diffoscope
+[2024-05-28 07:49:41] INFO root fetch - processPackages [QuasarCode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuasarCode-0.8.0.tar.gz tmp/QuasarCode-0.9.0.tar.gz --markdown 20240528/Q/QuasarCode/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-28 07:49:41] INFO root fetch - processPackages [mg-pso-gui]: executing diffoscope
+[2024-05-28 07:49:41] INFO root fetch - processPackages [mg-pso-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mg-pso-gui-0.1.94.tar.gz tmp/mg-pso-gui-0.1.95.tar.gz --markdown 20240528/m/mg-pso-gui/0.1.94-0.1.95/README.md --exclude *.pyd
+[2024-05-28 07:49:41] INFO root fetch - processPackages [guolei-py3-database]: executing diffoscope
+[2024-05-28 07:49:41] INFO root fetch - processPackages [guolei-py3-database]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guolei_py3_database-0.0.4.tar.gz tmp/guolei_py3_database-0.0.5.tar.gz --markdown 20240528/g/guolei-py3-database/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-28 07:49:42] INFO root fetch - processPackages [dlt]: Downloading https://files.pythonhosted.org/packages/80/54/48192f67adc74da5eaa9b9c96b71f9a397fe9c84c79e6344ba7df65e8362/dlt-0.4.9a2.tar.gz
+[2024-05-28 07:49:42] INFO root fetch - processPackages [QuasarCode]: Remove: archive file [/home/abi/fetcher/tmp/QuasarCode-0.8.0.tar.gz]
+[2024-05-28 07:49:42] INFO root fetch - processPackages [QuasarCode]: Remove: archive file [/home/abi/fetcher/tmp/QuasarCode-0.9.0.tar.gz]
+[2024-05-28 07:49:42] INFO root fetch - main [MainThread]: End processing [QuasarCode]: success
+[2024-05-28 07:49:42] INFO root fetch - processPackages [dlt]: executing diffoscope
+[2024-05-28 07:49:42] INFO root fetch - processPackages [dlt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlt-0.4.9a1.tar.gz tmp/dlt-0.4.9a2.tar.gz --markdown 20240528/d/dlt/0.4.9a1-0.4.9a2/README.md --exclude *.pyd
+[2024-05-28 07:49:42] INFO root fetch - processPackages [guolei-py3-database]: Remove: archive file [/home/abi/fetcher/tmp/guolei_py3_database-0.0.4.tar.gz]
+[2024-05-28 07:49:42] INFO root fetch - processPackages [guolei-py3-database]: Remove: archive file [/home/abi/fetcher/tmp/guolei_py3_database-0.0.5.tar.gz]
+[2024-05-28 07:49:42] INFO root fetch - main [MainThread]: End processing [guolei-py3-database]: success
+[2024-05-28 07:49:42] INFO root fetch - processPackages [mg-pso-gui]: Remove: archive file [/home/abi/fetcher/tmp/mg-pso-gui-0.1.94.tar.gz]
+[2024-05-28 07:49:42] INFO root fetch - processPackages [mg-pso-gui]: Remove: archive file [/home/abi/fetcher/tmp/mg-pso-gui-0.1.95.tar.gz]
+[2024-05-28 07:49:42] INFO root fetch - main [MainThread]: End processing [mg-pso-gui]: success
+[2024-05-28 07:49:43] INFO root fetch - processPackages [dlt]: Remove: archive file [/home/abi/fetcher/tmp/dlt-0.4.9a1.tar.gz]
+[2024-05-28 07:49:43] INFO root fetch - processPackages [dlt]: Remove: archive file [/home/abi/fetcher/tmp/dlt-0.4.9a2.tar.gz]
+[2024-05-28 07:49:43] INFO root fetch - main [MainThread]: End processing [dlt]: success
+[2024-05-28 07:49:43] INFO root fetch - main [MainThread]: Store serial: [23405650]
