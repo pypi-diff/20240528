@@ -1686,3 +1686,54 @@
 [2024-05-28 02:03:39] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240527.tar.gz]
 [2024-05-28 02:03:39] INFO root fetch - main [MainThread]: End processing [onnxscript]: success
 [2024-05-28 02:03:39] INFO root fetch - main [MainThread]: Store serial: [23403490]
+[2024-05-28 02:05:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23403490]
+[2024-05-28 02:05:47] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-28 02:05:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jaanca-utils-os
+[2024-05-28 02:05:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mct-nightly
+[2024-05-28 02:05:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jaxkern-nightly
+[2024-05-28 02:05:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyjvc
+[2024-05-28 02:05:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: eink-calendar
+[2024-05-28 02:05:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flask-bootstrap-extended
+[2024-05-28 02:05:47] INFO root fetch - processPackages [jaanca-utils-os]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-28 02:05:47] INFO root fetch - processPackages [pyjvc]: New version: [4.4.5] Old Version: [4.4.4]
+[2024-05-28 02:05:47] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2024-05-28 02:05:47] INFO root fetch - processPackages [mct-nightly]: New version: [2.1.0.20240527.425] Old Version: [2.0.0.20240526.437]
+[2024-05-28 02:05:48] INFO root fetch - processPackages [jaanca-utils-os]: Downloading https://files.pythonhosted.org/packages/14/73/65eb008cb70ad23bf5fa0213aec54e4d5d59ddea7c73295fe06e2f0e85cb/jaanca_utils_os-0.1.3.tar.gz
+[2024-05-28 02:05:48] INFO root fetch - processPackages [eink-calendar]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-28 02:05:48] WARNING root fetch - processPackages [flask-bootstrap-extended]: Skipping, unable to determine old version
+[2024-05-28 02:05:48] INFO root fetch - main [MainThread]: End processing [flask-bootstrap-extended] error
+[2024-05-28 02:05:48] INFO root fetch - processPackages [pyjvc]: Downloading https://files.pythonhosted.org/packages/ca/1b/5fb5081cf5ca652d40bd04576dd320d6db3f70bc4795086bf16fba495ee9/pyjvc-4.4.4.tar.gz
+[2024-05-28 02:05:48] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2024-05-28 02:05:48] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/d8/13/0e2ed909a78fc5aa58f70241a1caa97afb56dd76628aa44e557526220086/mct-nightly-2.0.0.20240526.437.tar.gz
+[2024-05-28 02:05:48] INFO root fetch - processPackages [eink-calendar]: Downloading https://files.pythonhosted.org/packages/63/fc/d2db4c58c161c50cebccb382eec1f1b4fef29ad9d2308fa12d23b2882769/eink_calendar-0.1.0.tar.gz
+[2024-05-28 02:05:48] INFO root fetch - processPackages [pyjvc]: Downloading https://files.pythonhosted.org/packages/5f/8e/7d82621d04fc302420b6ba0f82cee677bd40245ca7fe9cb330294158ec26/pyjvc-4.4.5.tar.gz
+[2024-05-28 02:05:48] INFO root fetch - processPackages [jaanca-utils-os]: Downloading https://files.pythonhosted.org/packages/7c/25/5a5372b2225560bb9d8dca8d942a1aad6f6cbfd66b8886972a1acf937e09/jaanca_utils_os-0.1.4.tar.gz
+[2024-05-28 02:05:48] INFO root fetch - processPackages [pyjvc]: executing diffoscope
+[2024-05-28 02:05:48] INFO root fetch - processPackages [pyjvc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjvc-4.4.4.tar.gz tmp/pyjvc-4.4.5.tar.gz --markdown 20240528/p/pyjvc/4.4.4-4.4.5/README.md --exclude *.pyd
+[2024-05-28 02:05:48] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2024-05-28 02:05:48] INFO root fetch - processPackages [jaanca-utils-os]: executing diffoscope
+[2024-05-28 02:05:48] INFO root fetch - processPackages [jaanca-utils-os]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaanca_utils_os-0.1.3.tar.gz tmp/jaanca_utils_os-0.1.4.tar.gz --markdown 20240528/j/jaanca-utils-os/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-28 02:05:48] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/e6/bd/de64d0f99e528d034f656eb21c8eff8eda6147dc642db13bb9d2de0325f5/mct-nightly-2.1.0.20240527.425.tar.gz
+[2024-05-28 02:05:48] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2024-05-28 02:05:48] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20240528/j/jaxkern-nightly/0.dev20221221-0.dev20221222/README.md --exclude *.pyd
+[2024-05-28 02:05:48] INFO root fetch - processPackages [eink-calendar]: Downloading https://files.pythonhosted.org/packages/60/d0/a61dfac578808d364983ea439c3d6f607c1497f12a8434f2121d2330ad77/eink_calendar-0.2.0.tar.gz
+[2024-05-28 02:05:48] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2024-05-28 02:05:48] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-2.0.0.20240526.437.tar.gz tmp/mct-nightly-2.1.0.20240527.425.tar.gz --markdown 20240528/m/mct-nightly/2.0.0.20240526.437-2.1.0.20240527.425/README.md --exclude *.pyd
+[2024-05-28 02:05:48] INFO root fetch - processPackages [eink-calendar]: executing diffoscope
+[2024-05-28 02:05:48] INFO root fetch - processPackages [eink-calendar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eink_calendar-0.1.0.tar.gz tmp/eink_calendar-0.2.0.tar.gz --markdown 20240528/e/eink-calendar/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-28 02:05:49] INFO root fetch - processPackages [pyjvc]: Remove: archive file [/home/abi/fetcher/tmp/pyjvc-4.4.4.tar.gz]
+[2024-05-28 02:05:49] INFO root fetch - processPackages [pyjvc]: Remove: archive file [/home/abi/fetcher/tmp/pyjvc-4.4.5.tar.gz]
+[2024-05-28 02:05:49] INFO root fetch - main [MainThread]: End processing [pyjvc]: success
+[2024-05-28 02:05:49] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2024-05-28 02:05:49] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2024-05-28 02:05:49] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2024-05-28 02:05:49] INFO root fetch - processPackages [jaanca-utils-os]: Remove: archive file [/home/abi/fetcher/tmp/jaanca_utils_os-0.1.3.tar.gz]
+[2024-05-28 02:05:49] INFO root fetch - processPackages [jaanca-utils-os]: Remove: archive file [/home/abi/fetcher/tmp/jaanca_utils_os-0.1.4.tar.gz]
+[2024-05-28 02:05:49] INFO root fetch - main [MainThread]: End processing [jaanca-utils-os]: success
+[2024-05-28 02:05:49] INFO root fetch - processPackages [eink-calendar]: Remove: archive file [/home/abi/fetcher/tmp/eink_calendar-0.1.0.tar.gz]
+[2024-05-28 02:05:49] INFO root fetch - processPackages [eink-calendar]: Remove: archive file [/home/abi/fetcher/tmp/eink_calendar-0.2.0.tar.gz]
+[2024-05-28 02:05:49] INFO root fetch - main [MainThread]: End processing [eink-calendar]: success
+[2024-05-28 02:05:50] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240526.437.tar.gz]
+[2024-05-28 02:05:50] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.1.0.20240527.425.tar.gz]
+[2024-05-28 02:05:50] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2024-05-28 02:05:50] INFO root fetch - main [MainThread]: Store serial: [23403509]
