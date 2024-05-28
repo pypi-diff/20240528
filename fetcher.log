@@ -3489,3 +3489,36 @@
 [2024-05-28 03:57:57] INFO root fetch - processPackages [slackattack]: Remove: archive file [/home/abi/fetcher/tmp/slackattack-1.1.5.tar.gz]
 [2024-05-28 03:57:57] INFO root fetch - main [MainThread]: End processing [slackattack]: success
 [2024-05-28 03:57:57] INFO root fetch - main [MainThread]: Store serial: [23404219]
+[2024-05-28 04:00:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23404219]
+[2024-05-28 04:00:06] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-28 04:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kossou-hillshade-base
+[2024-05-28 04:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cardscan-client
+[2024-05-28 04:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: slackattack
+[2024-05-28 04:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aviatrix-migration-nat
+[2024-05-28 04:00:06] WARNING root fetch - processPackages [kossou-hillshade-base]: Skipping, unable to determine old version
+[2024-05-28 04:00:06] INFO root fetch - main [MainThread]: End processing [kossou-hillshade-base] error
+[2024-05-28 04:00:06] INFO root fetch - processPackages [slackattack]: New version: [1.1.5] Old Version: [1.1.4]
+[2024-05-28 04:00:06] INFO root fetch - processPackages [slackattack]: Downloading https://files.pythonhosted.org/packages/62/4d/eee00c1fdd6a78278639e7d1af65173a582c210459845701ff38c3fa49d5/slackattack-1.1.4.tar.gz
+[2024-05-28 04:00:06] INFO root fetch - processPackages [cardscan-client]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-05-28 04:00:06] INFO root fetch - processPackages [aviatrix-migration-nat]: New version: [0.9.1] Old Version: [0.8.4]
+[2024-05-28 04:00:06] INFO root fetch - processPackages [slackattack]: Downloading https://files.pythonhosted.org/packages/52/93/25c2430dece57d801802972e834a0f7a26611d7ea3773085c95c33ba5c48/slackattack-1.1.5.tar.gz
+[2024-05-28 04:00:06] INFO root fetch - processPackages [cardscan-client]: Downloading https://files.pythonhosted.org/packages/42/ee/f95646c7f98c4dc63168dda10790d30673c57bfc4a43a465b0c24c97aa4d/cardscan_client-0.0.1.tar.gz
+[2024-05-28 04:00:06] INFO root fetch - processPackages [aviatrix-migration-nat]: Downloading https://files.pythonhosted.org/packages/cb/47/92651d92ccba0fbe9e38d333a7b5429e4de29cde51799fffc63cbd67ef8f/aviatrix_migration_nat-0.8.4-cp39-cp39-win_amd64.whl
+[2024-05-28 04:00:06] INFO root fetch - processPackages [slackattack]: executing diffoscope
+[2024-05-28 04:00:06] INFO root fetch - processPackages [slackattack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slackattack-1.1.4.tar.gz tmp/slackattack-1.1.5.tar.gz --markdown 20240528/s/slackattack/1.1.4-1.1.5/README.md --exclude *.pyd
+[2024-05-28 04:00:06] INFO root fetch - processPackages [cardscan-client]: Downloading https://files.pythonhosted.org/packages/c6/60/fe98700ac05675ace3b00fafc25d60e837fc9f015986b22e69815eb5cc35/cardscan_client-0.1.0.tar.gz
+[2024-05-28 04:00:06] INFO root fetch - processPackages [cardscan-client]: executing diffoscope
+[2024-05-28 04:00:06] INFO root fetch - processPackages [cardscan-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cardscan_client-0.0.1.tar.gz tmp/cardscan_client-0.1.0.tar.gz --markdown 20240528/c/cardscan-client/0.0.1-0.1.0/README.md --exclude *.pyd
+[2024-05-28 04:00:06] INFO root fetch - processPackages [aviatrix-migration-nat]: Downloading https://files.pythonhosted.org/packages/a5/f1/afbc85547537c9fc243fd287facbdca6346a56251b681c75fba48417d0d3/aviatrix_migration_nat-0.9.1-cp39-cp39-win_amd64.whl
+[2024-05-28 04:00:07] INFO root fetch - processPackages [slackattack]: Remove: archive file [/home/abi/fetcher/tmp/slackattack-1.1.4.tar.gz]
+[2024-05-28 04:00:07] INFO root fetch - processPackages [slackattack]: Remove: archive file [/home/abi/fetcher/tmp/slackattack-1.1.5.tar.gz]
+[2024-05-28 04:00:07] INFO root fetch - main [MainThread]: End processing [slackattack]: success
+[2024-05-28 04:00:07] INFO root fetch - processPackages [aviatrix-migration-nat]: executing diffoscope
+[2024-05-28 04:00:07] INFO root fetch - processPackages [aviatrix-migration-nat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aviatrix_migration_nat-0.8.4-cp39-cp39-win_amd64.whl.zip tmp/aviatrix_migration_nat-0.9.1-cp39-cp39-win_amd64.whl.zip --markdown 20240528/a/aviatrix-migration-nat/0.8.4-0.9.1/README.md --exclude *.pyd
+[2024-05-28 04:00:07] INFO root fetch - processPackages [aviatrix-migration-nat]: Remove: archive file [/home/abi/fetcher/tmp/aviatrix_migration_nat-0.8.4-cp39-cp39-win_amd64.whl.zip]
+[2024-05-28 04:00:07] INFO root fetch - processPackages [aviatrix-migration-nat]: Remove: archive file [/home/abi/fetcher/tmp/aviatrix_migration_nat-0.9.1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-28 04:00:07] INFO root fetch - main [MainThread]: End processing [aviatrix-migration-nat]: success
+[2024-05-28 04:00:07] INFO root fetch - processPackages [cardscan-client]: Remove: archive file [/home/abi/fetcher/tmp/cardscan_client-0.0.1.tar.gz]
+[2024-05-28 04:00:07] INFO root fetch - processPackages [cardscan-client]: Remove: archive file [/home/abi/fetcher/tmp/cardscan_client-0.1.0.tar.gz]
+[2024-05-28 04:00:07] INFO root fetch - main [MainThread]: End processing [cardscan-client]: success
+[2024-05-28 04:00:07] INFO root fetch - main [MainThread]: Store serial: [23404232]
