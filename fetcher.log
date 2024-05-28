@@ -10000,3 +10000,33 @@
 [2024-05-28 09:20:18] INFO root fetch - processPackages [exv]: Remove: archive file [/home/abi/fetcher/tmp/exv-1.0.1.tar.gz]
 [2024-05-28 09:20:18] INFO root fetch - main [MainThread]: End processing [exv]: success
 [2024-05-28 09:20:18] INFO root fetch - main [MainThread]: Store serial: [23406992]
+[2024-05-28 09:22:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23406992]
+[2024-05-28 09:22:27] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-28 09:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openbroker
+[2024-05-28 09:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: uvicorn
+[2024-05-28 09:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mg-pso-gui
+[2024-05-28 09:22:27] INFO root fetch - processPackages [uvicorn]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-28 09:22:27] INFO root fetch - processPackages [mg-pso-gui]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-28 09:22:27] INFO root fetch - processPackages [openbroker]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-28 09:22:27] INFO root fetch - processPackages [mg-pso-gui]: Downloading https://files.pythonhosted.org/packages/df/83/034ff30ffab79111af61b23ddbbacb0dc8d0faee9958bec000f788ee7a76/mg-pso-gui-0.1.98.tar.gz
+[2024-05-28 09:22:27] INFO root fetch - processPackages [uvicorn]: Downloading https://files.pythonhosted.org/packages/5a/a9/2ab492155d9b76cf109c2370e201822ba3c7f4aed85f5a1b4d22907e7206/uvicorn-0.9.0.tar.gz
+[2024-05-28 09:22:27] INFO root fetch - processPackages [openbroker]: Downloading https://files.pythonhosted.org/packages/35/b1/7cbf1ffa1c8f403f7dfa14c22ba57510d83cf24551b1441440eede05dab5/openbroker-0.1.0.tar.gz
+[2024-05-28 09:22:27] INFO root fetch - processPackages [mg-pso-gui]: Downloading https://files.pythonhosted.org/packages/02/26/25a563653e3f76ef0cdf3b09aef810d638a12dd3cab560f67bf7a0c694e9/mg-pso-gui-0.1.99.tar.gz
+[2024-05-28 09:22:27] INFO root fetch - processPackages [uvicorn]: Downloading https://files.pythonhosted.org/packages/37/b6/ceaccbf4af91bb6331ef8818fd845b3370fdca178f29b1d253406a284219/uvicorn-0.9.1.tar.gz
+[2024-05-28 09:22:27] INFO root fetch - processPackages [mg-pso-gui]: executing diffoscope
+[2024-05-28 09:22:27] INFO root fetch - processPackages [mg-pso-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mg-pso-gui-0.1.98.tar.gz tmp/mg-pso-gui-0.1.99.tar.gz --markdown 20240528/m/mg-pso-gui/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-28 09:22:27] INFO root fetch - processPackages [openbroker]: Downloading https://files.pythonhosted.org/packages/f2/88/8c31ec42bd71572d7f2bcdbb14482686e5a0d55a4e57cbabcf8cdc749c80/openbroker-0.1.1.tar.gz
+[2024-05-28 09:22:27] INFO root fetch - processPackages [uvicorn]: executing diffoscope
+[2024-05-28 09:22:27] INFO root fetch - processPackages [uvicorn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uvicorn-0.9.0.tar.gz tmp/uvicorn-0.9.1.tar.gz --markdown 20240528/u/uvicorn/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-28 09:22:28] INFO root fetch - processPackages [openbroker]: executing diffoscope
+[2024-05-28 09:22:28] INFO root fetch - processPackages [openbroker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbroker-0.1.0.tar.gz tmp/openbroker-0.1.1.tar.gz --markdown 20240528/o/openbroker/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-28 09:22:28] INFO root fetch - processPackages [mg-pso-gui]: Remove: archive file [/home/abi/fetcher/tmp/mg-pso-gui-0.1.98.tar.gz]
+[2024-05-28 09:22:28] INFO root fetch - processPackages [mg-pso-gui]: Remove: archive file [/home/abi/fetcher/tmp/mg-pso-gui-0.1.99.tar.gz]
+[2024-05-28 09:22:28] INFO root fetch - main [MainThread]: End processing [mg-pso-gui]: success
+[2024-05-28 09:22:28] INFO root fetch - processPackages [uvicorn]: Remove: archive file [/home/abi/fetcher/tmp/uvicorn-0.9.0.tar.gz]
+[2024-05-28 09:22:28] INFO root fetch - processPackages [uvicorn]: Remove: archive file [/home/abi/fetcher/tmp/uvicorn-0.9.1.tar.gz]
+[2024-05-28 09:22:28] INFO root fetch - main [MainThread]: End processing [uvicorn]: success
+[2024-05-28 09:22:28] INFO root fetch - processPackages [openbroker]: Remove: archive file [/home/abi/fetcher/tmp/openbroker-0.1.0.tar.gz]
+[2024-05-28 09:22:28] INFO root fetch - processPackages [openbroker]: Remove: archive file [/home/abi/fetcher/tmp/openbroker-0.1.1.tar.gz]
+[2024-05-28 09:22:28] INFO root fetch - main [MainThread]: End processing [openbroker]: success
+[2024-05-28 09:22:28] INFO root fetch - main [MainThread]: Store serial: [23407001]
