@@ -17380,3 +17380,53 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 13:30:31] INFO root fetch - processPackages [rowingdata]: Remove: archive file [/home/abi/fetcher/tmp/rowingdata-3.6.8.tar.gz]
 [2024-05-28 13:30:31] INFO root fetch - main [MainThread]: End processing [rowingdata]: success
 [2024-05-28 13:30:31] INFO root fetch - main [MainThread]: Store serial: [23410320]
+[2024-05-28 13:32:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23410320]
+[2024-05-28 13:32:42] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-28 13:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torchsnapshot-nightly
+[2024-05-28 13:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: text-fabric
+[2024-05-28 13:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-core-xe-addons-21
+[2024-05-28 13:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ood_detectors
+[2024-05-28 13:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: textual
+[2024-05-28 13:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Products.urban
+[2024-05-28 13:32:43] INFO root fetch - processPackages [ood_detectors]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-28 13:32:43] INFO root fetch - processPackages [textual]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-28 13:32:43] INFO root fetch - processPackages [torchsnapshot-nightly]: New version: [2024.5.27] Old Version: [2024.5.26]
+[2024-05-28 13:32:43] INFO root fetch - processPackages [Products.urban]: New version: [2.7.9] Old Version: [2.7.8]
+[2024-05-28 13:32:43] INFO root fetch - processPackages [text-fabric]: New version: [9.5.2] Old Version: [9.4.4]
+[2024-05-28 13:32:43] INFO root fetch - processPackages [ood_detectors]: Downloading https://files.pythonhosted.org/packages/2c/c1/0e33f36a315cc0d60a299e5970cb3dbd7fe0ffebd495cef6770f937ba24f/ood_detectors-0.0.8.tar.gz
+[2024-05-28 13:32:43] INFO root fetch - processPackages [bigdl-core-xe-addons-21]: New version: [2.5.0b20240528] Old Version: [2.5.0b20240527]
+[2024-05-28 13:32:43] INFO root fetch - processPackages [torchsnapshot-nightly]: Downloading https://files.pythonhosted.org/packages/3a/0d/553bca64ef5cf6fb915040357607ed5e3d00394a7285e8be87e4b5ed914d/torchsnapshot_nightly-2024.5.26.tar.gz
+[2024-05-28 13:32:43] INFO root fetch - processPackages [textual]: Downloading https://files.pythonhosted.org/packages/17/d2/002affba91d339187f5699c26fecc3fa3bf966f17c5d08bb696c724b63ee/textual-0.9.0.tar.gz
+[2024-05-28 13:32:43] INFO root fetch - processPackages [Products.urban]: Downloading https://files.pythonhosted.org/packages/62/cf/1ffb24c7205fcd21981095d8787cc318af5c5db4ae86ce3f94784b119e50/Products.urban-2.7.8.tar.gz
+[2024-05-28 13:32:43] INFO root fetch - processPackages [text-fabric]: Downloading https://files.pythonhosted.org/packages/bb/80/b9db47ad2d39859a5c2276e27c56daae0db451a130db8305340dfe7dd7ee/text_fabric-9.4.4-py3-none-any.whl
+[2024-05-28 13:32:43] INFO root fetch - processPackages [bigdl-core-xe-addons-21]: Downloading https://files.pythonhosted.org/packages/c7/87/20b2b4bb72b9def330b541b24279f8f80b3f13d66eb0d82b62ca0a2dd8d1/bigdl_core_xe_addons_21-2.5.0b20240527-cp311-cp311-win_amd64.whl
+[2024-05-28 13:32:43] INFO root fetch - processPackages [ood_detectors]: Downloading https://files.pythonhosted.org/packages/3f/d6/a55f4bc549efaaabe3d000911be652e72d55a5a47cabc317d531a8ec8ada/ood_detectors-0.0.9.tar.gz
+[2024-05-28 13:32:43] WARNING root fetch - processPackages [Products.urban]: Skipping package: exceeds size limit 20169294>=10485760
+[2024-05-28 13:32:43] INFO root fetch - main [MainThread]: End processing [Products.urban] error
+[2024-05-28 13:32:43] INFO root fetch - processPackages [ood_detectors]: executing diffoscope
+[2024-05-28 13:32:43] INFO root fetch - processPackages [ood_detectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ood_detectors-0.0.8.tar.gz tmp/ood_detectors-0.0.9.tar.gz --markdown 20240528/o/ood_detectors/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-28 13:32:43] INFO root fetch - processPackages [torchsnapshot-nightly]: Downloading https://files.pythonhosted.org/packages/be/07/f85e541304303a9fdb67becc0ece2eead4b88766f5ca86b827eff7c836c9/torchsnapshot_nightly-2024.5.27.tar.gz
+[2024-05-28 13:32:43] INFO root fetch - processPackages [bigdl-core-xe-addons-21]: Downloading https://files.pythonhosted.org/packages/20/62/7b3a7f2f8455202dc8158ae54f3afb34c180f2369adfd79339774f50184a/bigdl_core_xe_addons_21-2.5.0b20240528-cp310-cp310-manylinux2010_x86_64.whl
+[2024-05-28 13:32:43] INFO root fetch - processPackages [textual]: Downloading https://files.pythonhosted.org/packages/0e/7d/2155bf024c3bdf1dc6365e109a16bab46098e032e62666565176ebc9f84a/textual-0.9.1.tar.gz
+[2024-05-28 13:32:43] WARNING root fetch - processPackages [bigdl-core-xe-addons-21]: Skipping package: exceeds size limit 44517037>=10485760
+[2024-05-28 13:32:43] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-addons-21] error
+[2024-05-28 13:32:43] INFO root fetch - processPackages [torchsnapshot-nightly]: executing diffoscope
+[2024-05-28 13:32:43] INFO root fetch - processPackages [torchsnapshot-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchsnapshot_nightly-2024.5.26.tar.gz tmp/torchsnapshot_nightly-2024.5.27.tar.gz --markdown 20240528/t/torchsnapshot-nightly/2024.5.26-2024.5.27/README.md --exclude *.pyd
+[2024-05-28 13:32:43] INFO root fetch - processPackages [textual]: executing diffoscope
+[2024-05-28 13:32:43] INFO root fetch - processPackages [textual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textual-0.9.0.tar.gz tmp/textual-0.9.1.tar.gz --markdown 20240528/t/textual/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-28 13:32:44] INFO root fetch - processPackages [ood_detectors]: Remove: archive file [/home/abi/fetcher/tmp/ood_detectors-0.0.8.tar.gz]
+[2024-05-28 13:32:44] INFO root fetch - processPackages [ood_detectors]: Remove: archive file [/home/abi/fetcher/tmp/ood_detectors-0.0.9.tar.gz]
+[2024-05-28 13:32:44] INFO root fetch - main [MainThread]: End processing [ood_detectors]: success
+[2024-05-28 13:32:44] INFO root fetch - processPackages [torchsnapshot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchsnapshot_nightly-2024.5.26.tar.gz]
+[2024-05-28 13:32:44] INFO root fetch - processPackages [torchsnapshot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchsnapshot_nightly-2024.5.27.tar.gz]
+[2024-05-28 13:32:44] INFO root fetch - main [MainThread]: End processing [torchsnapshot-nightly]: success
+[2024-05-28 13:32:44] INFO root fetch - processPackages [textual]: Remove: archive file [/home/abi/fetcher/tmp/textual-0.9.0.tar.gz]
+[2024-05-28 13:32:44] INFO root fetch - processPackages [textual]: Remove: archive file [/home/abi/fetcher/tmp/textual-0.9.1.tar.gz]
+[2024-05-28 13:32:44] INFO root fetch - main [MainThread]: End processing [textual]: success
+[2024-05-28 13:32:44] INFO root fetch - processPackages [text-fabric]: Downloading https://files.pythonhosted.org/packages/5a/68/601e800ea7b082fabb89c3c0c122fd9fa13b4da75c0bdfbafa945139092a/text_fabric-9.5.2-py3-none-any.whl
+[2024-05-28 13:32:47] INFO root fetch - processPackages [text-fabric]: executing diffoscope
+[2024-05-28 13:32:47] INFO root fetch - processPackages [text-fabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text_fabric-9.4.4-py3-none-any.whl.zip tmp/text_fabric-9.5.2-py3-none-any.whl.zip --markdown 20240528/t/text-fabric/9.4.4-9.5.2/README.md --exclude *.pyd
+[2024-05-28 13:32:48] INFO root fetch - processPackages [text-fabric]: Remove: archive file [/home/abi/fetcher/tmp/text_fabric-9.4.4-py3-none-any.whl.zip]
+[2024-05-28 13:32:48] INFO root fetch - processPackages [text-fabric]: Remove: archive file [/home/abi/fetcher/tmp/text_fabric-9.5.2-py3-none-any.whl.zip]
+[2024-05-28 13:32:48] INFO root fetch - main [MainThread]: End processing [text-fabric]: success
+[2024-05-28 13:32:48] INFO root fetch - main [MainThread]: Store serial: [23410336]
