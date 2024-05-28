@@ -12439,3 +12439,90 @@
 [2024-05-28 10:41:45] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.4.3.dev9.tar.gz]
 [2024-05-28 10:41:45] INFO root fetch - main [MainThread]: End processing [kuzu]: success
 [2024-05-28 10:41:45] INFO root fetch - main [MainThread]: Store serial: [23408184]
+[2024-05-28 10:43:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23408184]
+[2024-05-28 10:43:54] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-28 10:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: annet
+[2024-05-28 10:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lazylinop
+[2024-05-28 10:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: validio-sdk
+[2024-05-28 10:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: validio-cli
+[2024-05-28 10:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python-115
+[2024-05-28 10:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kappamodules
+[2024-05-28 10:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: graphdatascience
+[2024-05-28 10:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: AioDatabase
+[2024-05-28 10:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: truenaspy
+[2024-05-28 10:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zodchy-notations
+[2024-05-28 10:43:54] INFO root fetch - processPackages [annet]: New version: [0.9] Old Version: [0.8]
+[2024-05-28 10:43:54] INFO root fetch - processPackages [truenaspy]: New version: [0.6.5] Old Version: [0.6.4]
+[2024-05-28 10:43:54] INFO root fetch - processPackages [python-115]: New version: [0.0.8.4] Old Version: [0.0.8.3.7]
+[2024-05-28 10:43:54] INFO root fetch - processPackages [validio-sdk]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-28 10:43:54] INFO root fetch - processPackages [kappamodules]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-28 10:43:54] INFO root fetch - processPackages [annet]: Downloading https://files.pythonhosted.org/packages/43/03/2bd7e8afe1cef1ffcdf8b3a53c32197a76076672190d4a3f0684979508f9/annet-0.8.tar.gz
+[2024-05-28 10:43:54] INFO root fetch - processPackages [truenaspy]: Downloading https://files.pythonhosted.org/packages/1d/d0/279e10cb1bad4ab396f8eaed213b775de40555f1b085247cf44844609074/truenaspy-0.6.4.tar.gz
+[2024-05-28 10:43:54] WARNING root fetch - processPackages [AioDatabase]: Skipping, unable to determine old version
+[2024-05-28 10:43:54] INFO root fetch - main [MainThread]: End processing [AioDatabase] error
+[2024-05-28 10:43:54] INFO root fetch - processPackages [zodchy-notations]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-28 10:43:54] INFO root fetch - processPackages [lazylinop]: New version: [1.9.1a0] Old Version: [1.9.1]
+[2024-05-28 10:43:54] INFO root fetch - processPackages [validio-cli]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-28 10:43:54] INFO root fetch - processPackages [graphdatascience]: New version: [1.9] Old Version: [1.8]
+[2024-05-28 10:43:54] INFO root fetch - processPackages [python-115]: Downloading https://files.pythonhosted.org/packages/4b/e3/1c503206f9b55dd4a6ccf8ee75b748df7733f8db428c9bde3aae22e69f9a/python_115-0.0.8.3.7.tar.gz
+[2024-05-28 10:43:55] INFO root fetch - processPackages [lazylinop]: Downloading https://files.pythonhosted.org/packages/3c/3e/7a581818e7f56d650adade71845d87138c6e65d3bb329b52b20b5d4ed84f/lazylinop-1.9.1-py3-none-any.whl
+[2024-05-28 10:43:55] INFO root fetch - processPackages [validio-sdk]: Downloading https://files.pythonhosted.org/packages/94/70/6947c0ccdffe9c8607f04bd8432d095d8f4c19e643b3c5e023db491e3fbd/validio_sdk-0.8.0.tar.gz
+[2024-05-28 10:43:55] INFO root fetch - processPackages [kappamodules]: Downloading https://files.pythonhosted.org/packages/3b/e2/1ae9387d8409532bc4bf07acb0b2668b501b1cde2d63e40733fb972b1f4c/kappamodules-0.1.7.tar.gz
+[2024-05-28 10:43:55] INFO root fetch - processPackages [annet]: Downloading https://files.pythonhosted.org/packages/41/c3/39483a248016582b415acc5071d94f0dfba19bb328455d81cb638d77d2ed/annet-0.9.tar.gz
+[2024-05-28 10:43:55] INFO root fetch - processPackages [zodchy-notations]: Downloading https://files.pythonhosted.org/packages/b6/62/5158640dd471fdedfdea2a0bda1994ba7b9f25382b27d1efd127dae13816/zodchy_notations-0.1.3.tar.gz
+[2024-05-28 10:43:55] INFO root fetch - processPackages [python-115]: Downloading https://files.pythonhosted.org/packages/46/e8/b9d61872b4c531ed798642832498fa09d44f2189f7f5e669b5b4aff09750/python_115-0.0.8.4.tar.gz
+[2024-05-28 10:43:55] INFO root fetch - processPackages [graphdatascience]: Downloading https://files.pythonhosted.org/packages/79/76/3d4898bd695bc9072d211caf6ee210d3ccfcf03d13db93500c9d785aa2eb/graphdatascience-1.8.tar.gz
+[2024-05-28 10:43:55] INFO root fetch - processPackages [validio-cli]: Downloading https://files.pythonhosted.org/packages/50/ef/bee0fbe9261ca2e2fd646048a6c24877fb616066e64d61d6f2b42d9e1faf/validio_cli-0.8.0.tar.gz
+[2024-05-28 10:43:55] INFO root fetch - processPackages [truenaspy]: Downloading https://files.pythonhosted.org/packages/92/51/b27d09463ab1f0d436eff83a7a098e4fceb3d5e545d23c0c98f5aeadb76b/truenaspy-0.6.5.tar.gz
+[2024-05-28 10:43:55] INFO root fetch - processPackages [lazylinop]: Downloading https://files.pythonhosted.org/packages/d8/ac/f6789b4ccf99cb84a6ceb2a00b986e2b6748021affe8fe540664b003b1c7/lazylinop-1.9.1a0-py3-none-any.whl
+[2024-05-28 10:43:55] INFO root fetch - processPackages [annet]: executing diffoscope
+[2024-05-28 10:43:55] INFO root fetch - processPackages [annet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/annet-0.8.tar.gz tmp/annet-0.9.tar.gz --markdown 20240528/a/annet/0.8-0.9/README.md --exclude *.pyd
+[2024-05-28 10:43:55] INFO root fetch - processPackages [python-115]: executing diffoscope
+[2024-05-28 10:43:55] INFO root fetch - processPackages [python-115]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_115-0.0.8.3.7.tar.gz tmp/python_115-0.0.8.4.tar.gz --markdown 20240528/p/python-115/0.0.8.3.7-0.0.8.4/README.md --exclude *.pyd
+[2024-05-28 10:43:55] INFO root fetch - processPackages [truenaspy]: executing diffoscope
+[2024-05-28 10:43:55] INFO root fetch - processPackages [truenaspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/truenaspy-0.6.4.tar.gz tmp/truenaspy-0.6.5.tar.gz --markdown 20240528/t/truenaspy/0.6.4-0.6.5/README.md --exclude *.pyd
+[2024-05-28 10:43:55] INFO root fetch - processPackages [lazylinop]: executing diffoscope
+[2024-05-28 10:43:55] INFO root fetch - processPackages [lazylinop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazylinop-1.9.1-py3-none-any.whl.zip tmp/lazylinop-1.9.1a0-py3-none-any.whl.zip --markdown 20240528/l/lazylinop/1.9.1-1.9.1a0/README.md --exclude *.pyd
+[2024-05-28 10:43:55] INFO root fetch - processPackages [validio-sdk]: Downloading https://files.pythonhosted.org/packages/db/91/e39c8107f98699b979e164ef962827501361573e283df30edc9d182ac594/validio_sdk-0.9.0.tar.gz
+[2024-05-28 10:43:55] INFO root fetch - processPackages [kappamodules]: Downloading https://files.pythonhosted.org/packages/81/fc/bada4aae7de7149188e11f5ee6f6bb78d0725367f860197922b557fbd65b/kappamodules-0.1.8.tar.gz
+[2024-05-28 10:43:55] INFO root fetch - processPackages [zodchy-notations]: Downloading https://files.pythonhosted.org/packages/1b/08/eae77358d129db9f1ed43a809a9cab64dc646b435da8988a2973a2e05f80/zodchy_notations-0.1.4.tar.gz
+[2024-05-28 10:43:55] INFO root fetch - processPackages [validio-cli]: Downloading https://files.pythonhosted.org/packages/fb/8b/71e38f220651f67974b3c38f5b2c6d0c5f513a5631fbc842c063d386dda4/validio_cli-0.9.0.tar.gz
+[2024-05-28 10:43:55] INFO root fetch - processPackages [kappamodules]: executing diffoscope
+[2024-05-28 10:43:55] INFO root fetch - processPackages [kappamodules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kappamodules-0.1.7.tar.gz tmp/kappamodules-0.1.8.tar.gz --markdown 20240528/k/kappamodules/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-28 10:43:55] INFO root fetch - processPackages [validio-sdk]: executing diffoscope
+[2024-05-28 10:43:55] INFO root fetch - processPackages [validio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/validio_sdk-0.8.0.tar.gz tmp/validio_sdk-0.9.0.tar.gz --markdown 20240528/v/validio-sdk/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-28 10:43:55] INFO root fetch - processPackages [graphdatascience]: Downloading https://files.pythonhosted.org/packages/a0/e2/18c4e752cef97f684c083bb94889d74103fde2d340b8c460b80934c75e26/graphdatascience-1.9.tar.gz
+[2024-05-28 10:43:55] INFO root fetch - processPackages [validio-cli]: executing diffoscope
+[2024-05-28 10:43:55] INFO root fetch - processPackages [validio-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/validio_cli-0.8.0.tar.gz tmp/validio_cli-0.9.0.tar.gz --markdown 20240528/v/validio-cli/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-28 10:43:55] INFO root fetch - processPackages [zodchy-notations]: executing diffoscope
+[2024-05-28 10:43:55] INFO root fetch - processPackages [zodchy-notations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zodchy_notations-0.1.3.tar.gz tmp/zodchy_notations-0.1.4.tar.gz --markdown 20240528/z/zodchy-notations/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-28 10:43:56] INFO root fetch - processPackages [graphdatascience]: executing diffoscope
+[2024-05-28 10:43:56] INFO root fetch - processPackages [graphdatascience]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphdatascience-1.8.tar.gz tmp/graphdatascience-1.9.tar.gz --markdown 20240528/g/graphdatascience/1.8-1.9/README.md --exclude *.pyd
+[2024-05-28 10:43:56] INFO root fetch - processPackages [truenaspy]: Remove: archive file [/home/abi/fetcher/tmp/truenaspy-0.6.4.tar.gz]
+[2024-05-28 10:43:56] INFO root fetch - processPackages [truenaspy]: Remove: archive file [/home/abi/fetcher/tmp/truenaspy-0.6.5.tar.gz]
+[2024-05-28 10:43:56] INFO root fetch - main [MainThread]: End processing [truenaspy]: success
+[2024-05-28 10:43:56] INFO root fetch - processPackages [zodchy-notations]: Remove: archive file [/home/abi/fetcher/tmp/zodchy_notations-0.1.3.tar.gz]
+[2024-05-28 10:43:56] INFO root fetch - processPackages [zodchy-notations]: Remove: archive file [/home/abi/fetcher/tmp/zodchy_notations-0.1.4.tar.gz]
+[2024-05-28 10:43:56] INFO root fetch - processPackages [lazylinop]: Remove: archive file [/home/abi/fetcher/tmp/lazylinop-1.9.1-py3-none-any.whl.zip]
+[2024-05-28 10:43:56] INFO root fetch - processPackages [lazylinop]: Remove: archive file [/home/abi/fetcher/tmp/lazylinop-1.9.1a0-py3-none-any.whl.zip]
+[2024-05-28 10:43:56] INFO root fetch - main [MainThread]: End processing [zodchy-notations]: success
+[2024-05-28 10:43:56] INFO root fetch - main [MainThread]: End processing [lazylinop]: success
+[2024-05-28 10:43:56] INFO root fetch - processPackages [python-115]: Remove: archive file [/home/abi/fetcher/tmp/python_115-0.0.8.3.7.tar.gz]
+[2024-05-28 10:43:56] INFO root fetch - processPackages [python-115]: Remove: archive file [/home/abi/fetcher/tmp/python_115-0.0.8.4.tar.gz]
+[2024-05-28 10:43:56] INFO root fetch - main [MainThread]: End processing [python-115]: success
+[2024-05-28 10:43:56] INFO root fetch - processPackages [kappamodules]: Remove: archive file [/home/abi/fetcher/tmp/kappamodules-0.1.7.tar.gz]
+[2024-05-28 10:43:56] INFO root fetch - processPackages [kappamodules]: Remove: archive file [/home/abi/fetcher/tmp/kappamodules-0.1.8.tar.gz]
+[2024-05-28 10:43:56] INFO root fetch - main [MainThread]: End processing [kappamodules]: success
+[2024-05-28 10:43:56] INFO root fetch - processPackages [validio-cli]: Remove: archive file [/home/abi/fetcher/tmp/validio_cli-0.8.0.tar.gz]
+[2024-05-28 10:43:56] INFO root fetch - processPackages [validio-cli]: Remove: archive file [/home/abi/fetcher/tmp/validio_cli-0.9.0.tar.gz]
+[2024-05-28 10:43:56] INFO root fetch - main [MainThread]: End processing [validio-cli]: success
+[2024-05-28 10:43:56] INFO root fetch - processPackages [annet]: Remove: archive file [/home/abi/fetcher/tmp/annet-0.8.tar.gz]
+[2024-05-28 10:43:56] INFO root fetch - processPackages [annet]: Remove: archive file [/home/abi/fetcher/tmp/annet-0.9.tar.gz]
+[2024-05-28 10:43:56] INFO root fetch - main [MainThread]: End processing [annet]: success
+[2024-05-28 10:43:57] INFO root fetch - processPackages [graphdatascience]: Remove: archive file [/home/abi/fetcher/tmp/graphdatascience-1.8.tar.gz]
+[2024-05-28 10:43:57] INFO root fetch - processPackages [graphdatascience]: Remove: archive file [/home/abi/fetcher/tmp/graphdatascience-1.9.tar.gz]
+[2024-05-28 10:43:57] INFO root fetch - main [MainThread]: End processing [graphdatascience]: success
+[2024-05-28 10:43:57] INFO root fetch - processPackages [validio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/validio_sdk-0.8.0.tar.gz]
+[2024-05-28 10:43:57] INFO root fetch - processPackages [validio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/validio_sdk-0.9.0.tar.gz]
+[2024-05-28 10:43:57] INFO root fetch - main [MainThread]: End processing [validio-sdk]: success
+[2024-05-28 10:43:57] INFO root fetch - main [MainThread]: Store serial: [23408215]
