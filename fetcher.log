@@ -19371,3 +19371,108 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 14:43:43] INFO root fetch - processPackages [qat]: Remove: archive file [/home/abi/fetcher/tmp/qat-1.1.2.tar.gz]
 [2024-05-28 14:43:43] INFO root fetch - main [MainThread]: End processing [qat]: success
 [2024-05-28 14:43:43] INFO root fetch - main [MainThread]: Store serial: [23411194]
+[2024-05-28 14:46:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23411194]
+[2024-05-28 14:46:10] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-28 14:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: table2string
+[2024-05-28 14:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-115
+[2024-05-28 14:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: catalystwan
+[2024-05-28 14:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ClappScrapers
+[2024-05-28 14:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dj-database-url
+[2024-05-28 14:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: clinvar-this
+[2024-05-28 14:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spherinator
+[2024-05-28 14:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyresumeparser
+[2024-05-28 14:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pytest-mh
+[2024-05-28 14:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cw-rpa
+[2024-05-28 14:46:10] INFO root fetch - processPackages [cw-rpa]: New version: [0.1.0b1] Old Version: [0.1.0b0]
+[2024-05-28 14:46:10] INFO root fetch - processPackages [dj-database-url]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-05-28 14:46:10] INFO root fetch - processPackages [pyresumeparser]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-28 14:46:10] INFO root fetch - processPackages [python-115]: New version: [0.0.8.5.2] Old Version: [0.0.8.5.1]
+[2024-05-28 14:46:10] INFO root fetch - processPackages [catalystwan]: New version: [0.33.7.dev2] Old Version: [0.33.7.dev1]
+[2024-05-28 14:46:10] INFO root fetch - processPackages [ClappScrapers]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-28 14:46:10] INFO root fetch - processPackages [clinvar-this]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-28 14:46:10] INFO root fetch - processPackages [table2string]: New version: [1.2.0] Old Version: [1.1.1]
+[2024-05-28 14:46:10] INFO root fetch - processPackages [pytest-mh]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-28 14:46:10] WARNING root fetch - processPackages [spherinator]: Skipping, unable to determine old version
+[2024-05-28 14:46:10] INFO root fetch - processPackages [spherinator]: Start processing: debloat
+[2024-05-28 14:46:10] INFO root fetch - main [MainThread]: End processing [spherinator] error
+[2024-05-28 14:46:10] INFO root fetch - processPackages [cw-rpa]: Downloading https://files.pythonhosted.org/packages/b7/6d/bc864b55b1a2181e788d1b6f6574844a9c040cf6003fe0f4004d9984eda1/cw_rpa-0.1.0b0-py3-none-any.whl
+[2024-05-28 14:46:10] INFO root fetch - processPackages [pyresumeparser]: Downloading https://files.pythonhosted.org/packages/62/8f/25f7f952c0d3e8990874c9922d0203e77f31b44d6741a94e12c85835766b/pyresumeparser-0.0.6.tar.gz
+[2024-05-28 14:46:10] INFO root fetch - processPackages [python-115]: Downloading https://files.pythonhosted.org/packages/72/8d/8d57445899f4a13f5c70e0ca9dc6b518773f8a718405a4485b1118cc068c/python_115-0.0.8.5.1.tar.gz
+[2024-05-28 14:46:10] INFO root fetch - processPackages [catalystwan]: Downloading https://files.pythonhosted.org/packages/8f/4a/02d0b8c4ba5b8991407ebf62382cfdd03e853c27397a3eebb1f629a37465/catalystwan-0.33.7.dev1.tar.gz
+[2024-05-28 14:46:10] INFO root fetch - processPackages [ClappScrapers]: Downloading https://files.pythonhosted.org/packages/7c/ef/c0707db23afa5bb9a600a22b8803943dfa4bafcaf317fc207b677db36b3a/ClappScrapers-0.2.8.tar.gz
+[2024-05-28 14:46:10] INFO root fetch - processPackages [clinvar-this]: Downloading https://files.pythonhosted.org/packages/92/dd/adb9732c07e53d7480023492ef32db0b94046095bc789a51e02ee77a502a/clinvar-this-0.8.0.tar.gz
+[2024-05-28 14:46:10] INFO root fetch - processPackages [dj-database-url]: Downloading https://files.pythonhosted.org/packages/12/86/baa0420d364dc9b3d78198ff6a73c2f41d8997026ddb36615d07dbf4c472/dj-database-url-2.0.0.tar.gz
+[2024-05-28 14:46:10] INFO root fetch - processPackages [debloat]: New version: [1.5.6.1] Old Version: [1.5.6]
+[2024-05-28 14:46:10] INFO root fetch - processPackages [table2string]: Downloading https://files.pythonhosted.org/packages/90/31/5b170d07be23d53b11c3210976a6a5fa61ded04906ad2e137871f2a18d11/table2string-1.1.1.tar.gz
+[2024-05-28 14:46:10] INFO root fetch - processPackages [pytest-mh]: Downloading https://files.pythonhosted.org/packages/dc/ac/caac0b9a94e96879a8fce90bf5e6f1b025d0b7054ff38dd3814db0ef88ec/pytest_mh-1.0.8.tar.gz
+[2024-05-28 14:46:10] INFO root fetch - processPackages [cw-rpa]: Downloading https://files.pythonhosted.org/packages/6f/e9/dc67f69d1c43aa4119b127d68accb92259dc6ae14ef3fb5a631154fcbb46/cw_rpa-0.1.0b1-py3-none-any.whl
+[2024-05-28 14:46:11] INFO root fetch - processPackages [ClappScrapers]: Downloading https://files.pythonhosted.org/packages/69/28/5241dd64642ae008952f886de24606f39edafaad7764ee85a03b3ef3aeb6/ClappScrapers-0.2.9.tar.gz
+[2024-05-28 14:46:11] INFO root fetch - processPackages [clinvar-this]: Downloading https://files.pythonhosted.org/packages/96/12/05c118fa1e44d1d7496dbdfbfe8d91f7ddf24d30b25205020eb29ecf4ad2/clinvar-this-0.9.0.tar.gz
+[2024-05-28 14:46:11] INFO root fetch - processPackages [catalystwan]: Downloading https://files.pythonhosted.org/packages/1d/d6/c9c9eb2758ef64b4e0a974f1502963cc4acfec062f8d962d555b41f3b037/catalystwan-0.33.7.dev2.tar.gz
+[2024-05-28 14:46:11] INFO root fetch - processPackages [pyresumeparser]: Downloading https://files.pythonhosted.org/packages/64/fe/2276d0fa916e1752fb4044bb4fd278e5e119ff649c0c622b9b79fa6e050a/pyresumeparser-0.0.7.tar.gz
+[2024-05-28 14:46:11] INFO root fetch - processPackages [debloat]: Downloading https://files.pythonhosted.org/packages/71/55/e80e410c7fb9f32a3bcfd60d4fc67b2f8d63533fe9cff91fbab52aed627b/debloat-1.5.6.tar.gz
+[2024-05-28 14:46:11] INFO root fetch - processPackages [python-115]: Downloading https://files.pythonhosted.org/packages/c7/e7/1d1d91353ec91def0ea68ab85d8c97098eacc4e390a7e0c85976ee7d8de8/python_115-0.0.8.5.2.tar.gz
+[2024-05-28 14:46:11] INFO root fetch - processPackages [cw-rpa]: executing diffoscope
+[2024-05-28 14:46:11] INFO root fetch - processPackages [cw-rpa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cw_rpa-0.1.0b0-py3-none-any.whl.zip tmp/cw_rpa-0.1.0b1-py3-none-any.whl.zip --markdown 20240528/c/cw-rpa/0.1.0b0-0.1.0b1/README.md --exclude *.pyd
+[2024-05-28 14:46:11] INFO root fetch - processPackages [ClappScrapers]: executing diffoscope
+[2024-05-28 14:46:11] INFO root fetch - processPackages [ClappScrapers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ClappScrapers-0.2.8.tar.gz tmp/ClappScrapers-0.2.9.tar.gz --markdown 20240528/C/ClappScrapers/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-28 14:46:11] INFO root fetch - processPackages [pyresumeparser]: executing diffoscope
+[2024-05-28 14:46:11] INFO root fetch - processPackages [pyresumeparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyresumeparser-0.0.6.tar.gz tmp/pyresumeparser-0.0.7.tar.gz --markdown 20240528/p/pyresumeparser/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-28 14:46:11] INFO root fetch - processPackages [clinvar-this]: executing diffoscope
+[2024-05-28 14:46:11] INFO root fetch - processPackages [clinvar-this]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clinvar-this-0.8.0.tar.gz tmp/clinvar-this-0.9.0.tar.gz --markdown 20240528/c/clinvar-this/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-28 14:46:11] INFO root fetch - processPackages [dj-database-url]: Downloading https://files.pythonhosted.org/packages/f0/1d/91ca6ded2b97688bc0287240c916690b6ee7ce2fd5327ea83f847730f6ec/dj-database-url-2.1.0.tar.gz
+[2024-05-28 14:46:11] INFO root fetch - processPackages [table2string]: Downloading https://files.pythonhosted.org/packages/6b/bf/345b7af7821c0a956187b6ab5fd8b9d0e4012de854ff8a6eb32ba5e2a6ae/table2string-1.2.0.tar.gz
+[2024-05-28 14:46:11] INFO root fetch - processPackages [python-115]: executing diffoscope
+[2024-05-28 14:46:11] INFO root fetch - processPackages [python-115]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_115-0.0.8.5.1.tar.gz tmp/python_115-0.0.8.5.2.tar.gz --markdown 20240528/p/python-115/0.0.8.5.1-0.0.8.5.2/README.md --exclude *.pyd
+[2024-05-28 14:46:11] INFO root fetch - processPackages [catalystwan]: executing diffoscope
+[2024-05-28 14:46:11] INFO root fetch - processPackages [catalystwan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catalystwan-0.33.7.dev1.tar.gz tmp/catalystwan-0.33.7.dev2.tar.gz --markdown 20240528/c/catalystwan/0.33.7.dev1-0.33.7.dev2/README.md --exclude *.pyd
+[2024-05-28 14:46:11] INFO root fetch - processPackages [dj-database-url]: executing diffoscope
+[2024-05-28 14:46:11] INFO root fetch - processPackages [dj-database-url]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dj-database-url-2.0.0.tar.gz tmp/dj-database-url-2.1.0.tar.gz --markdown 20240528/d/dj-database-url/2.0.0-2.1.0/README.md --exclude *.pyd
+[2024-05-28 14:46:11] INFO root fetch - processPackages [pytest-mh]: Downloading https://files.pythonhosted.org/packages/6d/cf/e099d18eabc8e396e04fa030c5340b9f97ba6293137dc89ba861d1559cb4/pytest_mh-1.0.9.tar.gz
+[2024-05-28 14:46:11] INFO root fetch - processPackages [debloat]: Downloading https://files.pythonhosted.org/packages/b1/75/b3a736dbe02658c53a65c1523bd7b61c5b1b4ddee3d1c70ccbb68ee9ca47/debloat-1.5.6.1.tar.gz
+[2024-05-28 14:46:11] INFO root fetch - processPackages [debloat]: executing diffoscope
+[2024-05-28 14:46:11] INFO root fetch - processPackages [debloat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/debloat-1.5.6.tar.gz tmp/debloat-1.5.6.1.tar.gz --markdown 20240528/d/debloat/1.5.6-1.5.6.1/README.md --exclude *.pyd
+[2024-05-28 14:46:11] INFO root fetch - processPackages [pytest-mh]: executing diffoscope
+[2024-05-28 14:46:11] INFO root fetch - processPackages [pytest-mh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_mh-1.0.8.tar.gz tmp/pytest_mh-1.0.9.tar.gz --markdown 20240528/p/pytest-mh/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-28 14:46:11] INFO root fetch - processPackages [cw-rpa]: Remove: archive file [/home/abi/fetcher/tmp/cw_rpa-0.1.0b0-py3-none-any.whl.zip]
+[2024-05-28 14:46:11] INFO root fetch - processPackages [cw-rpa]: Remove: archive file [/home/abi/fetcher/tmp/cw_rpa-0.1.0b1-py3-none-any.whl.zip]
+[2024-05-28 14:46:11] INFO root fetch - processPackages [cw-rpa]: Start processing: quarkstudio
+[2024-05-28 14:46:11] INFO root fetch - main [MainThread]: End processing [cw-rpa]: success
+[2024-05-28 14:46:12] INFO root fetch - processPackages [table2string]: executing diffoscope
+[2024-05-28 14:46:12] INFO root fetch - processPackages [table2string]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/table2string-1.1.1.tar.gz tmp/table2string-1.2.0.tar.gz --markdown 20240528/t/table2string/1.1.1-1.2.0/README.md --exclude *.pyd
+[2024-05-28 14:46:12] INFO root fetch - processPackages [ClappScrapers]: Remove: archive file [/home/abi/fetcher/tmp/ClappScrapers-0.2.8.tar.gz]
+[2024-05-28 14:46:12] INFO root fetch - processPackages [ClappScrapers]: Remove: archive file [/home/abi/fetcher/tmp/ClappScrapers-0.2.9.tar.gz]
+[2024-05-28 14:46:12] INFO root fetch - main [MainThread]: End processing [ClappScrapers]: success
+[2024-05-28 14:46:12] INFO root fetch - processPackages [quarkstudio]: New version: [6.6.7.3] Old Version: [6.6.7.2]
+[2024-05-28 14:46:12] INFO root fetch - processPackages [python-115]: Remove: archive file [/home/abi/fetcher/tmp/python_115-0.0.8.5.1.tar.gz]
+[2024-05-28 14:46:12] INFO root fetch - processPackages [python-115]: Remove: archive file [/home/abi/fetcher/tmp/python_115-0.0.8.5.2.tar.gz]
+[2024-05-28 14:46:12] INFO root fetch - main [MainThread]: End processing [python-115]: success
+[2024-05-28 14:46:12] INFO root fetch - processPackages [pyresumeparser]: Remove: archive file [/home/abi/fetcher/tmp/pyresumeparser-0.0.6.tar.gz]
+[2024-05-28 14:46:12] INFO root fetch - processPackages [pyresumeparser]: Remove: archive file [/home/abi/fetcher/tmp/pyresumeparser-0.0.7.tar.gz]
+[2024-05-28 14:46:12] INFO root fetch - main [MainThread]: End processing [pyresumeparser]: success
+[2024-05-28 14:46:12] INFO root fetch - processPackages [dj-database-url]: Remove: archive file [/home/abi/fetcher/tmp/dj-database-url-2.0.0.tar.gz]
+[2024-05-28 14:46:12] INFO root fetch - processPackages [dj-database-url]: Remove: archive file [/home/abi/fetcher/tmp/dj-database-url-2.1.0.tar.gz]
+[2024-05-28 14:46:12] INFO root fetch - main [MainThread]: End processing [dj-database-url]: success
+[2024-05-28 14:46:12] INFO root fetch - processPackages [clinvar-this]: Remove: archive file [/home/abi/fetcher/tmp/clinvar-this-0.8.0.tar.gz]
+[2024-05-28 14:46:12] INFO root fetch - processPackages [clinvar-this]: Remove: archive file [/home/abi/fetcher/tmp/clinvar-this-0.9.0.tar.gz]
+[2024-05-28 14:46:12] INFO root fetch - main [MainThread]: End processing [clinvar-this]: success
+[2024-05-28 14:46:12] INFO root fetch - processPackages [quarkstudio]: Downloading https://files.pythonhosted.org/packages/ed/b5/52dbbe9f448fd8b6f1cdc048cfc1a8dc471a1bbdbdf1e1d32c62e77b79e1/quarkstudio-6.6.7.2-cp312-none-win_amd64.whl
+[2024-05-28 14:46:12] INFO root fetch - processPackages [debloat]: Remove: archive file [/home/abi/fetcher/tmp/debloat-1.5.6.tar.gz]
+[2024-05-28 14:46:12] INFO root fetch - processPackages [debloat]: Remove: archive file [/home/abi/fetcher/tmp/debloat-1.5.6.1.tar.gz]
+[2024-05-28 14:46:12] INFO root fetch - main [MainThread]: End processing [debloat]: success
+[2024-05-28 14:46:12] INFO root fetch - processPackages [pytest-mh]: Remove: archive file [/home/abi/fetcher/tmp/pytest_mh-1.0.8.tar.gz]
+[2024-05-28 14:46:12] INFO root fetch - processPackages [pytest-mh]: Remove: archive file [/home/abi/fetcher/tmp/pytest_mh-1.0.9.tar.gz]
+[2024-05-28 14:46:12] INFO root fetch - main [MainThread]: End processing [pytest-mh]: success
+[2024-05-28 14:46:12] INFO root fetch - processPackages [quarkstudio]: Downloading https://files.pythonhosted.org/packages/1d/5e/6c7393a3a8c8769145c070d36632de910714b19aae11ac37decf93dbd4ed/quarkstudio-6.6.7.3-cp311-none-win_amd64.whl
+[2024-05-28 14:46:12] INFO root fetch - processPackages [quarkstudio]: executing diffoscope
+[2024-05-28 14:46:12] INFO root fetch - processPackages [quarkstudio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quarkstudio-6.6.7.2-cp312-none-win_amd64.whl.zip tmp/quarkstudio-6.6.7.3-cp311-none-win_amd64.whl.zip --markdown 20240528/q/quarkstudio/6.6.7.2-6.6.7.3/README.md --exclude *.pyd
+[2024-05-28 14:46:12] INFO root fetch - processPackages [table2string]: Remove: archive file [/home/abi/fetcher/tmp/table2string-1.1.1.tar.gz]
+[2024-05-28 14:46:12] INFO root fetch - processPackages [table2string]: Remove: archive file [/home/abi/fetcher/tmp/table2string-1.2.0.tar.gz]
+[2024-05-28 14:46:12] INFO root fetch - main [MainThread]: End processing [table2string]: success
+[2024-05-28 14:46:13] INFO root fetch - processPackages [quarkstudio]: Remove: archive file [/home/abi/fetcher/tmp/quarkstudio-6.6.7.2-cp312-none-win_amd64.whl.zip]
+[2024-05-28 14:46:13] INFO root fetch - processPackages [quarkstudio]: Remove: archive file [/home/abi/fetcher/tmp/quarkstudio-6.6.7.3-cp311-none-win_amd64.whl.zip]
+[2024-05-28 14:46:13] INFO root fetch - main [MainThread]: End processing [quarkstudio]: success
+[2024-05-28 14:46:14] INFO root fetch - processPackages [catalystwan]: Remove: archive file [/home/abi/fetcher/tmp/catalystwan-0.33.7.dev1.tar.gz]
+[2024-05-28 14:46:14] INFO root fetch - processPackages [catalystwan]: Remove: archive file [/home/abi/fetcher/tmp/catalystwan-0.33.7.dev2.tar.gz]
+[2024-05-28 14:46:14] INFO root fetch - main [MainThread]: End processing [catalystwan]: success
+[2024-05-28 14:46:14] INFO root fetch - main [MainThread]: Store serial: [23411252]
