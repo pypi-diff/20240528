@@ -14384,3 +14384,84 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 11:37:51] INFO root fetch - processPackages [moto-ext]: Remove: archive file [/home/abi/fetcher/tmp/moto_ext-5.0.8.post1.tar.gz]
 [2024-05-28 11:37:51] INFO root fetch - main [MainThread]: End processing [moto-ext]: success
 [2024-05-28 11:37:51] INFO root fetch - main [MainThread]: Store serial: [23408930]
+[2024-05-28 11:39:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23408930]
+[2024-05-28 11:40:00] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-28 11:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sentry-cli
+[2024-05-28 11:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zyx
+[2024-05-28 11:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: udata
+[2024-05-28 11:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: imspy
+[2024-05-28 11:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tna-frontend-jinja
+[2024-05-28 11:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: udata
+[2024-05-28 11:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kanstream
+[2024-05-28 11:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ds-fastapi-middleware
+[2024-05-28 11:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: annet
+[2024-05-28 11:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nucliadb
+[2024-05-28 11:40:00] INFO root fetch - processPackages [annet]: New version: [0.9] Old Version: [0.8]
+[2024-05-28 11:40:00] INFO root fetch - processPackages [kanstream]: New version: [2.1.0] Old Version: [2.0.4]
+[2024-05-28 11:40:00] INFO root fetch - processPackages [udata]: New version: [8.0.1.dev29166] Old Version: [8.0.1.dev29160]
+[2024-05-28 11:40:00] INFO root fetch - processPackages [nucliadb]: New version: [4.0.1.post548] Old Version: [4.0.1.post547]
+[2024-05-28 11:40:00] INFO root fetch - processPackages [udata]: New version: [8.0.1.dev29166] Old Version: [8.0.1.dev29160]
+[2024-05-28 11:40:00] INFO root fetch - processPackages [annet]: Downloading https://files.pythonhosted.org/packages/43/03/2bd7e8afe1cef1ffcdf8b3a53c32197a76076672190d4a3f0684979508f9/annet-0.8.tar.gz
+[2024-05-28 11:40:00] INFO root fetch - processPackages [zyx]: New version: [0.1.90] Old Version: [0.0.16]
+[2024-05-28 11:40:00] INFO root fetch - processPackages [ds-fastapi-middleware]: New version: [2024.3.1] Old Version: [2024.3.0]
+[2024-05-28 11:40:00] INFO root fetch - processPackages [imspy]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-28 11:40:00] INFO root fetch - processPackages [sentry-cli]: New version: [2.32.0] Old Version: [2.31.2]
+[2024-05-28 11:40:00] INFO root fetch - processPackages [tna-frontend-jinja]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-28 11:40:00] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/02/28/a08ba5aa3460f4b0507353cfb668f812678e2b5d1f95a249dc56fed67214/nucliadb-4.0.1.post547-py3-none-any.whl
+[2024-05-28 11:40:00] INFO root fetch - processPackages [kanstream]: Downloading https://files.pythonhosted.org/packages/59/7d/4cbb3ceddbc2b9e9de4ebb946ac5f6b745d2dec3a26d55cd24bd02284206/kanstream-2.0.4.tar.gz
+[2024-05-28 11:40:00] INFO root fetch - processPackages [zyx]: Downloading https://files.pythonhosted.org/packages/44/a7/9ac071d0b52cc30120b5ce34067e6f0fe574fc9ef9fe9b11399db3d76d7d/zyx-0.0.16.tar.gz
+[2024-05-28 11:40:00] INFO root fetch - processPackages [udata]: Downloading https://files.pythonhosted.org/packages/eb/53/e31f8b6018385a432500b161914e9df1ae53b8cb99964429f406b9b13556/udata-8.0.1.dev29160-py2.py3-none-any.whl
+[2024-05-28 11:40:00] INFO root fetch - processPackages [udata]: Downloading https://files.pythonhosted.org/packages/eb/53/e31f8b6018385a432500b161914e9df1ae53b8cb99964429f406b9b13556/udata-8.0.1.dev29160-py2.py3-none-any.whl
+[2024-05-28 11:40:00] INFO root fetch - processPackages [sentry-cli]: Downloading https://files.pythonhosted.org/packages/b5/f9/8c62fc1477f7916b4023857e28bb72e227f3727c7fa3c24e55e280855aae/sentry_cli-2.31.2.tar.gz
+[2024-05-28 11:40:00] INFO root fetch - processPackages [imspy]: Downloading https://files.pythonhosted.org/packages/31/98/6857709f354252ff4f3c3dabf032ae7429b2b42675f781a44a0af4ccd5a9/imspy-0.2.8.tar.gz
+[2024-05-28 11:40:00] INFO root fetch - processPackages [tna-frontend-jinja]: Downloading https://files.pythonhosted.org/packages/9a/40/e849ab89ebf62fb58116667b0e32612c85220ecdf17671dce7b6f15291f8/tna-frontend-jinja-0.1.8.tar.gz
+[2024-05-28 11:40:00] INFO root fetch - processPackages [ds-fastapi-middleware]: Downloading https://files.pythonhosted.org/packages/67/c5/97afbda652c4d167f68f43335a3555b9c4b703cde56e7fc2cd4c728d8a18/ds_fastapi_middleware-2024.3.0-py3-none-any.whl
+[2024-05-28 11:40:00] INFO root fetch - processPackages [annet]: Downloading https://files.pythonhosted.org/packages/41/c3/39483a248016582b415acc5071d94f0dfba19bb328455d81cb638d77d2ed/annet-0.9.tar.gz
+[2024-05-28 11:40:00] WARNING root fetch - processPackages [udata]: Skipping package: exceeds size limit 19789511>=10485760
+[2024-05-28 11:40:00] INFO root fetch - main [MainThread]: End processing [udata] error
+[2024-05-28 11:40:00] WARNING root fetch - processPackages [udata]: Skipping package: exceeds size limit 19789511>=10485760
+[2024-05-28 11:40:00] INFO root fetch - main [MainThread]: End processing [udata] error
+[2024-05-28 11:40:00] WARNING root fetch - processPackages [imspy]: Skipping package: exceeds size limit 14822664>=10485760
+[2024-05-28 11:40:00] INFO root fetch - main [MainThread]: End processing [imspy] error
+[2024-05-28 11:40:01] INFO root fetch - processPackages [annet]: executing diffoscope
+[2024-05-28 11:40:01] INFO root fetch - processPackages [annet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/annet-0.8.tar.gz tmp/annet-0.9.tar.gz --markdown 20240528/a/annet/0.8-0.9/README.md --exclude *.pyd
+[2024-05-28 11:40:01] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/de/ab/6bad5457345fadb70542c6b4c5cf6ca0c2a9242827b1aa0d0b4bd7dddfbd/nucliadb-4.0.1.post548-py3-none-any.whl
+[2024-05-28 11:40:01] INFO root fetch - processPackages [kanstream]: Downloading https://files.pythonhosted.org/packages/78/62/a116844ef25273eae96890af7235395c2182ad349cce2753faa3648f53df/kanstream-2.1.0.tar.gz
+[2024-05-28 11:40:01] INFO root fetch - processPackages [ds-fastapi-middleware]: Downloading https://files.pythonhosted.org/packages/97/84/9d294d93ba84f123d998c4da15cf8c01486f1151a044d37f9e7e25a57d4b/ds_fastapi_middleware-2024.3.1-py3-none-any.whl
+[2024-05-28 11:40:01] INFO root fetch - processPackages [zyx]: Downloading https://files.pythonhosted.org/packages/ee/e7/5383e3cdaf402117f2938267c40c15e410358825c1dfcc63d31a7f43cc19/zyx-0.1.90.tar.gz
+[2024-05-28 11:40:01] INFO root fetch - processPackages [sentry-cli]: Downloading https://files.pythonhosted.org/packages/80/23/93bdc928656f38fb140c6137c9c873678aef700e8f8d779e5f58b245604d/sentry_cli-2.32.0.tar.gz
+[2024-05-28 11:40:01] INFO root fetch - processPackages [tna-frontend-jinja]: Downloading https://files.pythonhosted.org/packages/d8/ef/ca870c7d93414a215b920eba8b57830de3bc6c6a851308c2989e4f81eb7c/tna-frontend-jinja-0.1.9.tar.gz
+[2024-05-28 11:40:01] INFO root fetch - processPackages [kanstream]: executing diffoscope
+[2024-05-28 11:40:01] INFO root fetch - processPackages [kanstream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kanstream-2.0.4.tar.gz tmp/kanstream-2.1.0.tar.gz --markdown 20240528/k/kanstream/2.0.4-2.1.0/README.md --exclude *.pyd
+[2024-05-28 11:40:01] INFO root fetch - processPackages [zyx]: executing diffoscope
+[2024-05-28 11:40:01] INFO root fetch - processPackages [zyx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zyx-0.0.16.tar.gz tmp/zyx-0.1.90.tar.gz --markdown 20240528/z/zyx/0.0.16-0.1.90/README.md --exclude *.pyd
+[2024-05-28 11:40:01] INFO root fetch - processPackages [sentry-cli]: executing diffoscope
+[2024-05-28 11:40:01] INFO root fetch - processPackages [sentry-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry_cli-2.31.2.tar.gz tmp/sentry_cli-2.32.0.tar.gz --markdown 20240528/s/sentry-cli/2.31.2-2.32.0/README.md --exclude *.pyd
+[2024-05-28 11:40:01] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2024-05-28 11:40:01] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-4.0.1.post547-py3-none-any.whl.zip tmp/nucliadb-4.0.1.post548-py3-none-any.whl.zip --markdown 20240528/n/nucliadb/4.0.1.post547-4.0.1.post548/README.md --exclude *.pyd
+[2024-05-28 11:40:01] INFO root fetch - processPackages [ds-fastapi-middleware]: executing diffoscope
+[2024-05-28 11:40:01] INFO root fetch - processPackages [ds-fastapi-middleware]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ds_fastapi_middleware-2024.3.0-py3-none-any.whl.zip tmp/ds_fastapi_middleware-2024.3.1-py3-none-any.whl.zip --markdown 20240528/d/ds-fastapi-middleware/2024.3.0-2024.3.1/README.md --exclude *.pyd
+[2024-05-28 11:40:01] INFO root fetch - processPackages [tna-frontend-jinja]: executing diffoscope
+[2024-05-28 11:40:01] INFO root fetch - processPackages [tna-frontend-jinja]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tna-frontend-jinja-0.1.8.tar.gz tmp/tna-frontend-jinja-0.1.9.tar.gz --markdown 20240528/t/tna-frontend-jinja/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-28 11:40:02] INFO root fetch - processPackages [zyx]: Remove: archive file [/home/abi/fetcher/tmp/zyx-0.0.16.tar.gz]
+[2024-05-28 11:40:02] INFO root fetch - processPackages [zyx]: Remove: archive file [/home/abi/fetcher/tmp/zyx-0.1.90.tar.gz]
+[2024-05-28 11:40:02] INFO root fetch - main [MainThread]: End processing [zyx]: success
+[2024-05-28 11:40:02] INFO root fetch - processPackages [kanstream]: Remove: archive file [/home/abi/fetcher/tmp/kanstream-2.0.4.tar.gz]
+[2024-05-28 11:40:02] INFO root fetch - processPackages [kanstream]: Remove: archive file [/home/abi/fetcher/tmp/kanstream-2.1.0.tar.gz]
+[2024-05-28 11:40:02] INFO root fetch - main [MainThread]: End processing [kanstream]: success
+[2024-05-28 11:40:02] INFO root fetch - processPackages [annet]: Remove: archive file [/home/abi/fetcher/tmp/annet-0.8.tar.gz]
+[2024-05-28 11:40:02] INFO root fetch - processPackages [annet]: Remove: archive file [/home/abi/fetcher/tmp/annet-0.9.tar.gz]
+[2024-05-28 11:40:02] INFO root fetch - main [MainThread]: End processing [annet]: success
+[2024-05-28 11:40:02] INFO root fetch - processPackages [ds-fastapi-middleware]: Remove: archive file [/home/abi/fetcher/tmp/ds_fastapi_middleware-2024.3.0-py3-none-any.whl.zip]
+[2024-05-28 11:40:02] INFO root fetch - processPackages [ds-fastapi-middleware]: Remove: archive file [/home/abi/fetcher/tmp/ds_fastapi_middleware-2024.3.1-py3-none-any.whl.zip]
+[2024-05-28 11:40:02] INFO root fetch - main [MainThread]: End processing [ds-fastapi-middleware]: success
+[2024-05-28 11:40:02] INFO root fetch - processPackages [tna-frontend-jinja]: Remove: archive file [/home/abi/fetcher/tmp/tna-frontend-jinja-0.1.8.tar.gz]
+[2024-05-28 11:40:02] INFO root fetch - processPackages [tna-frontend-jinja]: Remove: archive file [/home/abi/fetcher/tmp/tna-frontend-jinja-0.1.9.tar.gz]
+[2024-05-28 11:40:02] INFO root fetch - main [MainThread]: End processing [tna-frontend-jinja]: success
+[2024-05-28 11:40:02] INFO root fetch - processPackages [sentry-cli]: Remove: archive file [/home/abi/fetcher/tmp/sentry_cli-2.31.2.tar.gz]
+[2024-05-28 11:40:02] INFO root fetch - processPackages [sentry-cli]: Remove: archive file [/home/abi/fetcher/tmp/sentry_cli-2.32.0.tar.gz]
+[2024-05-28 11:40:02] INFO root fetch - main [MainThread]: End processing [sentry-cli]: success
+[2024-05-28 11:40:03] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-4.0.1.post547-py3-none-any.whl.zip]
+[2024-05-28 11:40:03] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-4.0.1.post548-py3-none-any.whl.zip]
+[2024-05-28 11:40:03] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2024-05-28 11:40:03] INFO root fetch - main [MainThread]: Store serial: [23408969]
