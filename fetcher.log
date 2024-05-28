@@ -9080,3 +9080,24 @@
 [2024-05-28 08:34:40] INFO root fetch - processPackages [nb-libs]: Remove: archive file [/home/abi/fetcher/tmp/nb_libs-1.2.tar.gz]
 [2024-05-28 08:34:40] INFO root fetch - main [MainThread]: End processing [nb-libs]: success
 [2024-05-28 08:34:40] INFO root fetch - main [MainThread]: Store serial: [23406632]
+[2024-05-28 08:36:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23406632]
+[2024-05-28 08:36:49] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-28 08:36:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ullm
+[2024-05-28 08:36:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: criteria-local
+[2024-05-28 08:36:49] INFO root fetch - processPackages [criteria-local]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-28 08:36:49] INFO root fetch - processPackages [ullm]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-28 08:36:49] INFO root fetch - processPackages [criteria-local]: Downloading https://files.pythonhosted.org/packages/6a/64/3cfdc8c1fab42a46a86e91f09bc94dac7098131bf28a574989d677a5c176/criteria-local-0.0.7.tar.gz
+[2024-05-28 08:36:49] INFO root fetch - processPackages [ullm]: Downloading https://files.pythonhosted.org/packages/89/66/5be57760450ec83052322400a4d77da04abfe6286aaef8a4ac218f3be353/ullm-0.2.0.tar.gz
+[2024-05-28 08:36:49] INFO root fetch - processPackages [criteria-local]: Downloading https://files.pythonhosted.org/packages/64/00/8a1d3648f3a7e5706ec3bdd7415e0f7db56b10dc9df9b5fb8ade8dfdeda6/criteria-local-0.0.8.tar.gz
+[2024-05-28 08:36:49] INFO root fetch - processPackages [ullm]: Downloading https://files.pythonhosted.org/packages/88/0d/6b288f756382fb39657f48d6d5bf7d9a1612930050c66f1629be67a3f89e/ullm-0.3.0.tar.gz
+[2024-05-28 08:36:49] INFO root fetch - processPackages [criteria-local]: executing diffoscope
+[2024-05-28 08:36:49] INFO root fetch - processPackages [criteria-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/criteria-local-0.0.7.tar.gz tmp/criteria-local-0.0.8.tar.gz --markdown 20240528/c/criteria-local/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-28 08:36:49] INFO root fetch - processPackages [ullm]: executing diffoscope
+[2024-05-28 08:36:49] INFO root fetch - processPackages [ullm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ullm-0.2.0.tar.gz tmp/ullm-0.3.0.tar.gz --markdown 20240528/u/ullm/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-28 08:36:50] INFO root fetch - processPackages [criteria-local]: Remove: archive file [/home/abi/fetcher/tmp/criteria-local-0.0.7.tar.gz]
+[2024-05-28 08:36:50] INFO root fetch - processPackages [criteria-local]: Remove: archive file [/home/abi/fetcher/tmp/criteria-local-0.0.8.tar.gz]
+[2024-05-28 08:36:50] INFO root fetch - main [MainThread]: End processing [criteria-local]: success
+[2024-05-28 08:36:50] INFO root fetch - processPackages [ullm]: Remove: archive file [/home/abi/fetcher/tmp/ullm-0.2.0.tar.gz]
+[2024-05-28 08:36:50] INFO root fetch - processPackages [ullm]: Remove: archive file [/home/abi/fetcher/tmp/ullm-0.3.0.tar.gz]
+[2024-05-28 08:36:50] INFO root fetch - main [MainThread]: End processing [ullm]: success
+[2024-05-28 08:36:50] INFO root fetch - main [MainThread]: Store serial: [23406639]
