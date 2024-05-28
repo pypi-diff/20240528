@@ -5754,3 +5754,15 @@
 [2024-05-28 06:35:56] INFO root fetch - processPackages [starlette-admin]: Remove: archive file [/home/abi/fetcher/tmp/starlette_admin-0.9.0.dev0.tar.gz]
 [2024-05-28 06:35:56] INFO root fetch - main [MainThread]: End processing [starlette-admin]: success
 [2024-05-28 06:35:56] INFO root fetch - main [MainThread]: Store serial: [23405096]
+[2024-05-28 06:38:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23405096]
+[2024-05-28 06:38:05] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-28 06:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: marker-pdf
+[2024-05-28 06:38:05] INFO root fetch - processPackages [marker-pdf]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-28 06:38:05] INFO root fetch - processPackages [marker-pdf]: Downloading https://files.pythonhosted.org/packages/9c/7f/aa27a6ddcc12d073279b373b7fe5d4f23ee5c342dd6bc535ee052a6ff702/marker_pdf-0.2.8.tar.gz
+[2024-05-28 06:38:05] INFO root fetch - processPackages [marker-pdf]: Downloading https://files.pythonhosted.org/packages/50/c3/93dd7686515c4e0290e5a3b37ae17a9de05318d79324c6f5b0cc45d5aa96/marker_pdf-0.2.9.tar.gz
+[2024-05-28 06:38:06] INFO root fetch - processPackages [marker-pdf]: executing diffoscope
+[2024-05-28 06:38:06] INFO root fetch - processPackages [marker-pdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marker_pdf-0.2.8.tar.gz tmp/marker_pdf-0.2.9.tar.gz --markdown 20240528/m/marker-pdf/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-28 06:38:06] INFO root fetch - processPackages [marker-pdf]: Remove: archive file [/home/abi/fetcher/tmp/marker_pdf-0.2.8.tar.gz]
+[2024-05-28 06:38:06] INFO root fetch - processPackages [marker-pdf]: Remove: archive file [/home/abi/fetcher/tmp/marker_pdf-0.2.9.tar.gz]
+[2024-05-28 06:38:06] INFO root fetch - main [MainThread]: End processing [marker-pdf]: success
+[2024-05-28 06:38:06] INFO root fetch - main [MainThread]: Store serial: [23405099]
