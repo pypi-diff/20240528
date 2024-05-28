@@ -18199,3 +18199,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 14:02:31] INFO root fetch - processPackages [TaskBridge]: Remove: archive file [/home/abi/fetcher/tmp/taskbridge-0.1.1.tar.gz]
 [2024-05-28 14:02:31] INFO root fetch - main [MainThread]: End processing [TaskBridge]: success
 [2024-05-28 14:02:31] INFO root fetch - main [MainThread]: Store serial: [23410646]
+[2024-05-28 14:04:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23410646]
+[2024-05-28 14:04:40] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-28 14:04:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: minet
+[2024-05-28 14:04:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: data-repo-client
+[2024-05-28 14:04:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rad-tools
+[2024-05-28 14:04:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: langchain-objectbox
+[2024-05-28 14:04:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lnbits
+[2024-05-28 14:04:40] INFO root fetch - processPackages [minet]: New version: [2.0.3] Old Version: [2.0.2]
+[2024-05-28 14:04:40] INFO root fetch - processPackages [langchain-objectbox]: New version: [0.1.0a5] Old Version: [0.1.0a4]
+[2024-05-28 14:04:40] INFO root fetch - processPackages [data-repo-client]: New version: [2.73.0] Old Version: [2.72.0]
+[2024-05-28 14:04:40] INFO root fetch - processPackages [lnbits]: New version: [0.12.8] Old Version: [0.12.7]
+[2024-05-28 14:04:40] INFO root fetch - processPackages [rad-tools]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-28 14:04:40] INFO root fetch - processPackages [langchain-objectbox]: Downloading https://files.pythonhosted.org/packages/17/55/e50b62747f45faf5e44e0d8d4c4d8cccbc2bf7276b37fe2db13a893460a9/langchain_objectbox-0.1.0a4.tar.gz
+[2024-05-28 14:04:40] INFO root fetch - processPackages [minet]: Downloading https://files.pythonhosted.org/packages/70/33/307d9a2203ce14dbf07f87cc035714de56e4feb7eaaf39963a1d55d67410/minet-2.0.2.tar.gz
+[2024-05-28 14:04:40] INFO root fetch - processPackages [data-repo-client]: Downloading https://files.pythonhosted.org/packages/78/b1/4919272689f6a9fa45724576df5afaaa7a845e4f54c116e1c4cd9a4be088/data-repo-client-2.72.0.tar.gz
+[2024-05-28 14:04:40] INFO root fetch - processPackages [lnbits]: Downloading https://files.pythonhosted.org/packages/b6/b7/c42ea5c082b87a66fda05d65c73f828d9092191af78031c4f919017ab958/lnbits-0.12.7.tar.gz
+[2024-05-28 14:04:40] INFO root fetch - processPackages [rad-tools]: Downloading https://files.pythonhosted.org/packages/a2/64/a51b719f91e34e69643736630756232cf0f86335d5f362fbe6926b368181/rad-tools-0.8.8.tar.gz
+[2024-05-28 14:04:40] INFO root fetch - processPackages [langchain-objectbox]: Downloading https://files.pythonhosted.org/packages/89/06/b3db0ce67108e046cfab46c875a167fd480a7cf6e7b763d1adf8624a1e61/langchain_objectbox-0.1.0a5.tar.gz
+[2024-05-28 14:04:40] INFO root fetch - processPackages [data-repo-client]: Downloading https://files.pythonhosted.org/packages/12/e7/8874e8ab12099c04e8d2b867c66caa32515cb15091328bdb21ca96ff8e02/data-repo-client-2.73.0.tar.gz
+[2024-05-28 14:04:40] INFO root fetch - processPackages [langchain-objectbox]: executing diffoscope
+[2024-05-28 14:04:40] INFO root fetch - processPackages [langchain-objectbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_objectbox-0.1.0a4.tar.gz tmp/langchain_objectbox-0.1.0a5.tar.gz --markdown 20240528/l/langchain-objectbox/0.1.0a4-0.1.0a5/README.md --exclude *.pyd
+[2024-05-28 14:04:40] INFO root fetch - processPackages [minet]: Downloading https://files.pythonhosted.org/packages/24/2a/d028aed18ab4061629acc6d866aa2a627b294aab0b269d9bc0782d22c829/minet-2.0.3.tar.gz
+[2024-05-28 14:04:40] INFO root fetch - processPackages [rad-tools]: Downloading https://files.pythonhosted.org/packages/ff/b5/8c2b1b5632e0d4a7c81d7db851f76766375443be94f059a3aac0c6cb3853/rad-tools-0.8.9.tar.gz
+[2024-05-28 14:04:41] INFO root fetch - processPackages [minet]: executing diffoscope
+[2024-05-28 14:04:41] INFO root fetch - processPackages [minet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minet-2.0.2.tar.gz tmp/minet-2.0.3.tar.gz --markdown 20240528/m/minet/2.0.2-2.0.3/README.md --exclude *.pyd
+[2024-05-28 14:04:41] INFO root fetch - processPackages [lnbits]: Downloading https://files.pythonhosted.org/packages/08/7e/5924b5372d6bb9cba82efbeb794b7734df3dadbc5d2f7d39e7a02d373de0/lnbits-0.12.8.tar.gz
+[2024-05-28 14:04:41] INFO root fetch - processPackages [rad-tools]: executing diffoscope
+[2024-05-28 14:04:41] INFO root fetch - processPackages [rad-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rad-tools-0.8.8.tar.gz tmp/rad-tools-0.8.9.tar.gz --markdown 20240528/r/rad-tools/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-28 14:04:41] INFO root fetch - processPackages [data-repo-client]: executing diffoscope
+[2024-05-28 14:04:41] INFO root fetch - processPackages [data-repo-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data-repo-client-2.72.0.tar.gz tmp/data-repo-client-2.73.0.tar.gz --markdown 20240528/d/data-repo-client/2.72.0-2.73.0/README.md --exclude *.pyd
+[2024-05-28 14:04:41] INFO root fetch - processPackages [langchain-objectbox]: Remove: archive file [/home/abi/fetcher/tmp/langchain_objectbox-0.1.0a4.tar.gz]
+[2024-05-28 14:04:41] INFO root fetch - processPackages [langchain-objectbox]: Remove: archive file [/home/abi/fetcher/tmp/langchain_objectbox-0.1.0a5.tar.gz]
+[2024-05-28 14:04:41] INFO root fetch - main [MainThread]: End processing [langchain-objectbox]: success
+[2024-05-28 14:04:41] INFO root fetch - processPackages [lnbits]: executing diffoscope
+[2024-05-28 14:04:41] INFO root fetch - processPackages [lnbits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnbits-0.12.7.tar.gz tmp/lnbits-0.12.8.tar.gz --markdown 20240528/l/lnbits/0.12.7-0.12.8/README.md --exclude *.pyd
+[2024-05-28 14:04:42] INFO root fetch - processPackages [minet]: Remove: archive file [/home/abi/fetcher/tmp/minet-2.0.2.tar.gz]
+[2024-05-28 14:04:42] INFO root fetch - processPackages [minet]: Remove: archive file [/home/abi/fetcher/tmp/minet-2.0.3.tar.gz]
+[2024-05-28 14:04:42] INFO root fetch - main [MainThread]: End processing [minet]: success
+[2024-05-28 14:04:42] INFO root fetch - processPackages [rad-tools]: Remove: archive file [/home/abi/fetcher/tmp/rad-tools-0.8.8.tar.gz]
+[2024-05-28 14:04:42] INFO root fetch - processPackages [rad-tools]: Remove: archive file [/home/abi/fetcher/tmp/rad-tools-0.8.9.tar.gz]
+[2024-05-28 14:04:42] INFO root fetch - main [MainThread]: End processing [rad-tools]: success
+[2024-05-28 14:04:42] INFO root fetch - processPackages [data-repo-client]: Remove: archive file [/home/abi/fetcher/tmp/data-repo-client-2.72.0.tar.gz]
+[2024-05-28 14:04:42] INFO root fetch - processPackages [data-repo-client]: Remove: archive file [/home/abi/fetcher/tmp/data-repo-client-2.73.0.tar.gz]
+[2024-05-28 14:04:42] INFO root fetch - main [MainThread]: End processing [data-repo-client]: success
+[2024-05-28 14:04:58] INFO root fetch - processPackages [lnbits]: Remove: archive file [/home/abi/fetcher/tmp/lnbits-0.12.7.tar.gz]
+[2024-05-28 14:04:58] INFO root fetch - processPackages [lnbits]: Remove: archive file [/home/abi/fetcher/tmp/lnbits-0.12.8.tar.gz]
+[2024-05-28 14:04:58] INFO root fetch - main [MainThread]: End processing [lnbits]: success
+[2024-05-28 14:04:58] INFO root fetch - main [MainThread]: Store serial: [23410663]
