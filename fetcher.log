@@ -17081,3 +17081,47 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 13:21:22] INFO root fetch - processPackages [panda-server]: Remove: archive file [/home/abi/fetcher/tmp/panda_server-0.3.8.tar.gz]
 [2024-05-28 13:21:22] INFO root fetch - main [MainThread]: End processing [panda-server]: success
 [2024-05-28 13:21:22] INFO root fetch - main [MainThread]: Store serial: [23410109]
+[2024-05-28 13:23:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23410109]
+[2024-05-28 13:23:33] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-28 13:23:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-smartbase-admin
+[2024-05-28 13:23:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langtrace-python-sdk
+[2024-05-28 13:23:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-core-xe-21
+[2024-05-28 13:23:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sqla-async-orm-queries
+[2024-05-28 13:23:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: databouncer
+[2024-05-28 13:23:33] INFO root fetch - processPackages [django-smartbase-admin]: New version: [0.2.9] Old Version: [0.2.7]
+[2024-05-28 13:23:33] INFO root fetch - processPackages [sqla-async-orm-queries]: New version: [1.1.5] Old Version: [1.1.4]
+[2024-05-28 13:23:33] INFO root fetch - processPackages [bigdl-core-xe-21]: New version: [2.5.0b20240528] Old Version: [2.5.0b20240527]
+[2024-05-28 13:23:33] INFO root fetch - processPackages [django-smartbase-admin]: Downloading https://files.pythonhosted.org/packages/4c/b9/c32d7019547d76c2c6c1b8ea747b942212105b1c88767762bab1ac62f415/django_smartbase_admin-0.2.7.tar.gz
+[2024-05-28 13:23:33] INFO root fetch - processPackages [langtrace-python-sdk]: New version: [2.1.0] Old Version: [2.0.9]
+[2024-05-28 13:23:33] INFO root fetch - processPackages [databouncer]: New version: [0.2.0rc1] Old Version: [0.1.1]
+[2024-05-28 13:23:34] INFO root fetch - processPackages [bigdl-core-xe-21]: Downloading https://files.pythonhosted.org/packages/0b/5d/021bcd61fb11e16cb80faada466b189795ed324838c9019a440262990436/bigdl_core_xe_21-2.5.0b20240527-cp39-cp39-win_amd64.whl
+[2024-05-28 13:23:34] INFO root fetch - processPackages [sqla-async-orm-queries]: Downloading https://files.pythonhosted.org/packages/d1/c5/19f03f61c433c9b0bee9f18496af840d571d5ea46971a1fc988ebc07f192/sqla_async_orm_queries-1.1.4.tar.gz
+[2024-05-28 13:23:34] INFO root fetch - processPackages [langtrace-python-sdk]: Downloading https://files.pythonhosted.org/packages/9d/34/9d8d38f891d35ca35d5cd1e564106e48fe5785bd3f2a4283b64d8bd8d99c/langtrace_python_sdk-2.0.9.tar.gz
+[2024-05-28 13:23:34] INFO root fetch - processPackages [databouncer]: Downloading https://files.pythonhosted.org/packages/6f/e2/d8a4c53e1ae894f6d6fbcb7d65502ec17c3fab494f88a0f80f5986be2b46/databouncer-0.1.1-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-28 13:23:34] INFO root fetch - processPackages [django-smartbase-admin]: Downloading https://files.pythonhosted.org/packages/63/1e/301c376a330a21311919a45d9762d7c6c5d2090546a3b0d3b0e36db1c986/django_smartbase_admin-0.2.9.tar.gz
+[2024-05-28 13:23:34] INFO root fetch - processPackages [sqla-async-orm-queries]: Downloading https://files.pythonhosted.org/packages/51/31/5d9e48e486f03a7de7c6d2fff54b86989ab2e834b08c3253899be3be4227/sqla_async_orm_queries-1.1.5.tar.gz
+[2024-05-28 13:23:34] INFO root fetch - processPackages [langtrace-python-sdk]: Downloading https://files.pythonhosted.org/packages/08/80/4464e1173902158c5c7f46ce4123f2431c88f15c03dda3cbe608f38072f5/langtrace_python_sdk-2.1.0.tar.gz
+[2024-05-28 13:23:34] WARNING root fetch - processPackages [bigdl-core-xe-21]: Skipping package: exceeds size limit 33865418>=10485760
+[2024-05-28 13:23:34] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-21] error
+[2024-05-28 13:23:34] INFO root fetch - processPackages [sqla-async-orm-queries]: executing diffoscope
+[2024-05-28 13:23:34] INFO root fetch - processPackages [sqla-async-orm-queries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqla_async_orm_queries-1.1.4.tar.gz tmp/sqla_async_orm_queries-1.1.5.tar.gz --markdown 20240528/s/sqla-async-orm-queries/1.1.4-1.1.5/README.md --exclude *.pyd
+[2024-05-28 13:23:34] INFO root fetch - processPackages [langtrace-python-sdk]: executing diffoscope
+[2024-05-28 13:23:34] INFO root fetch - processPackages [langtrace-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langtrace_python_sdk-2.0.9.tar.gz tmp/langtrace_python_sdk-2.1.0.tar.gz --markdown 20240528/l/langtrace-python-sdk/2.0.9-2.1.0/README.md --exclude *.pyd
+[2024-05-28 13:23:34] INFO root fetch - processPackages [django-smartbase-admin]: executing diffoscope
+[2024-05-28 13:23:34] INFO root fetch - processPackages [django-smartbase-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_smartbase_admin-0.2.7.tar.gz tmp/django_smartbase_admin-0.2.9.tar.gz --markdown 20240528/d/django-smartbase-admin/0.2.7-0.2.9/README.md --exclude *.pyd
+[2024-05-28 13:23:35] INFO root fetch - processPackages [sqla-async-orm-queries]: Remove: archive file [/home/abi/fetcher/tmp/sqla_async_orm_queries-1.1.4.tar.gz]
+[2024-05-28 13:23:35] INFO root fetch - processPackages [sqla-async-orm-queries]: Remove: archive file [/home/abi/fetcher/tmp/sqla_async_orm_queries-1.1.5.tar.gz]
+[2024-05-28 13:23:35] INFO root fetch - main [MainThread]: End processing [sqla-async-orm-queries]: success
+[2024-05-28 13:23:35] INFO root fetch - processPackages [langtrace-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/langtrace_python_sdk-2.0.9.tar.gz]
+[2024-05-28 13:23:35] INFO root fetch - processPackages [langtrace-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/langtrace_python_sdk-2.1.0.tar.gz]
+[2024-05-28 13:23:35] INFO root fetch - main [MainThread]: End processing [langtrace-python-sdk]: success
+[2024-05-28 13:23:36] INFO root fetch - processPackages [databouncer]: Downloading https://files.pythonhosted.org/packages/d9/3e/1b0430c0ad1f3e2be735b2539295c4f05df72deb730d5d33b8644d8889f7/databouncer-0.2.0rc1-cp39-cp39-macosx_10_12_x86_64.whl
+[2024-05-28 13:23:39] INFO root fetch - processPackages [databouncer]: executing diffoscope
+[2024-05-28 13:23:39] INFO root fetch - processPackages [databouncer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databouncer-0.1.1-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/databouncer-0.2.0rc1-cp39-cp39-macosx_10_12_x86_64.whl.zip --markdown 20240528/d/databouncer/0.1.1-0.2.0rc1/README.md --exclude *.pyd
+[2024-05-28 13:23:39] INFO root fetch - processPackages [django-smartbase-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_smartbase_admin-0.2.7.tar.gz]
+[2024-05-28 13:23:39] INFO root fetch - processPackages [django-smartbase-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_smartbase_admin-0.2.9.tar.gz]
+[2024-05-28 13:23:39] INFO root fetch - main [MainThread]: End processing [django-smartbase-admin]: success
+[2024-05-28 13:23:40] INFO root fetch - processPackages [databouncer]: Remove: archive file [/home/abi/fetcher/tmp/databouncer-0.1.1-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-28 13:23:40] INFO root fetch - processPackages [databouncer]: Remove: archive file [/home/abi/fetcher/tmp/databouncer-0.2.0rc1-cp39-cp39-macosx_10_12_x86_64.whl.zip]
+[2024-05-28 13:23:40] INFO root fetch - main [MainThread]: End processing [databouncer]: success
+[2024-05-28 13:23:40] INFO root fetch - main [MainThread]: Store serial: [23410128]
