@@ -8727,3 +8727,29 @@
 [2024-05-28 08:14:18] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240527.tar.gz]
 [2024-05-28 08:14:18] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2024-05-28 08:14:18] INFO root fetch - main [MainThread]: Store serial: [23406389]
+[2024-05-28 08:16:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23406389]
+[2024-05-28 08:16:26] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-28 08:16:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cabinet
+[2024-05-28 08:16:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dde-agent-lib
+[2024-05-28 08:16:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: parcels
+[2024-05-28 08:16:26] INFO root fetch - processPackages [dde-agent-lib]: New version: [1.0.0a2] Old Version: [1.0.0a1]
+[2024-05-28 08:16:26] INFO root fetch - processPackages [dde-agent-lib]: Downloading https://files.pythonhosted.org/packages/67/aa/ffe0822e186f1236f0624e090bc0d5a831f53e3a452c6120d831a27b10a0/dde-agent-lib-1.0.0a1.tar.gz
+[2024-05-28 08:16:26] INFO root fetch - processPackages [cabinet]: New version: [2024.5.7.1] Old Version: [2024.5.27.1]
+[2024-05-28 08:16:26] INFO root fetch - processPackages [parcels]: New version: [3.0.3] Old Version: [3.0.2]
+[2024-05-28 08:16:26] INFO root fetch - processPackages [dde-agent-lib]: Downloading https://files.pythonhosted.org/packages/40/ed/4f1c79e16c37c05cc191c7579fba68e3fd84bcb934a413817eb36392b895/dde-agent-lib-1.0.0a2.tar.gz
+[2024-05-28 08:16:26] INFO root fetch - processPackages [cabinet]: Downloading https://files.pythonhosted.org/packages/05/00/b1b9d29677eaeeb86b6a4bec00dc975c33938356d509d209b197722cfcf9/cabinet-2024.5.27.1.tar.gz
+[2024-05-28 08:16:26] INFO root fetch - processPackages [parcels]: Downloading https://files.pythonhosted.org/packages/6f/4b/9b882928af320a0b87f8e1c9375cfb8f0ab898bae0da212c6a1d2af97d2c/parcels-3.0.2.tar.gz
+[2024-05-28 08:16:26] INFO root fetch - processPackages [dde-agent-lib]: executing diffoscope
+[2024-05-28 08:16:26] INFO root fetch - processPackages [dde-agent-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dde-agent-lib-1.0.0a1.tar.gz tmp/dde-agent-lib-1.0.0a2.tar.gz --markdown 20240528/d/dde-agent-lib/1.0.0a1-1.0.0a2/README.md --exclude *.pyd
+[2024-05-28 08:16:27] WARNING root fetch - processPackages [parcels]: Skipping package: exceeds size limit 23340873>=10485760
+[2024-05-28 08:16:27] INFO root fetch - main [MainThread]: End processing [parcels] error
+[2024-05-28 08:16:27] INFO root fetch - processPackages [cabinet]: Downloading https://files.pythonhosted.org/packages/8c/3a/40844357de4ff855e2a9483bd4cda34b0df4400f21b5084a02372dffbc0b/cabinet-2024.5.7.1.tar.gz
+[2024-05-28 08:16:27] INFO root fetch - processPackages [cabinet]: executing diffoscope
+[2024-05-28 08:16:27] INFO root fetch - processPackages [cabinet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cabinet-2024.5.27.1.tar.gz tmp/cabinet-2024.5.7.1.tar.gz --markdown 20240528/c/cabinet/2024.5.27.1-2024.5.7.1/README.md --exclude *.pyd
+[2024-05-28 08:16:27] INFO root fetch - processPackages [dde-agent-lib]: Remove: archive file [/home/abi/fetcher/tmp/dde-agent-lib-1.0.0a1.tar.gz]
+[2024-05-28 08:16:27] INFO root fetch - processPackages [dde-agent-lib]: Remove: archive file [/home/abi/fetcher/tmp/dde-agent-lib-1.0.0a2.tar.gz]
+[2024-05-28 08:16:27] INFO root fetch - main [MainThread]: End processing [dde-agent-lib]: success
+[2024-05-28 08:16:27] INFO root fetch - processPackages [cabinet]: Remove: archive file [/home/abi/fetcher/tmp/cabinet-2024.5.27.1.tar.gz]
+[2024-05-28 08:16:27] INFO root fetch - processPackages [cabinet]: Remove: archive file [/home/abi/fetcher/tmp/cabinet-2024.5.7.1.tar.gz]
+[2024-05-28 08:16:27] INFO root fetch - main [MainThread]: End processing [cabinet]: success
+[2024-05-28 08:16:27] INFO root fetch - main [MainThread]: Store serial: [23406499]
