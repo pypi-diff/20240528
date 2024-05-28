@@ -10912,3 +10912,42 @@
 [2024-05-28 09:57:55] INFO root fetch - processPackages [linopy]: Remove: archive file [/home/abi/fetcher/tmp/linopy-0.3.9.tar.gz]
 [2024-05-28 09:57:55] INFO root fetch - main [MainThread]: End processing [linopy]: success
 [2024-05-28 09:57:55] INFO root fetch - main [MainThread]: Store serial: [23407326]
+[2024-05-28 09:59:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23407326]
+[2024-05-28 10:00:04] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-28 10:00:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: synctl
+[2024-05-28 10:00:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alita-tools
+[2024-05-28 10:00:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wis2downloader
+[2024-05-28 10:00:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: model-compression-toolkit
+[2024-05-28 10:00:04] INFO root fetch - processPackages [alita-tools]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-28 10:00:04] INFO root fetch - processPackages [model-compression-toolkit]: New version: [2.0.0] Old Version: [1.9.1]
+[2024-05-28 10:00:04] INFO root fetch - processPackages [alita-tools]: Downloading https://files.pythonhosted.org/packages/11/7e/f89b7d2fb29b664d4a1b772c0a8757857534dc4981d9d9547b1410352f8b/alita_tools-0.0.8.tar.gz
+[2024-05-28 10:00:04] INFO root fetch - processPackages [wis2downloader]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-28 10:00:04] INFO root fetch - processPackages [synctl]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-28 10:00:04] INFO root fetch - processPackages [model-compression-toolkit]: Downloading https://files.pythonhosted.org/packages/45/bf/b7cddf437e025516df4ad2af414cdf6af7b2e0c3fcd0accef2f96da19fd7/model_compression_toolkit-1.9.1.tar.gz
+[2024-05-28 10:00:04] INFO root fetch - processPackages [wis2downloader]: Downloading https://files.pythonhosted.org/packages/01/97/404e763cb4767427e2332a785f76fc01fc3e9092f041a1b054c4aaae70a9/wis2downloader-0.1.0.tar.gz
+[2024-05-28 10:00:04] INFO root fetch - processPackages [synctl]: Downloading https://files.pythonhosted.org/packages/c6/2e/4663ec4803dd454fa179acb3cb9a5cf1abe739f86e9ca10e50b7b07b5a83/synctl-1.1.8.tar.gz
+[2024-05-28 10:00:04] INFO root fetch - processPackages [alita-tools]: Downloading https://files.pythonhosted.org/packages/b2/e0/efa7908f0bf622856778acf50ffea9fd834a7e4b47167ee967dc96ba217d/alita_tools-0.0.9.tar.gz
+[2024-05-28 10:00:04] INFO root fetch - processPackages [alita-tools]: executing diffoscope
+[2024-05-28 10:00:04] INFO root fetch - processPackages [alita-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alita_tools-0.0.8.tar.gz tmp/alita_tools-0.0.9.tar.gz --markdown 20240528/a/alita-tools/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-28 10:00:05] INFO root fetch - processPackages [wis2downloader]: Downloading https://files.pythonhosted.org/packages/9a/a2/5e22e7ebedf14d3db4787d14da514a092ee0cb9c6a0263eaafd6df0116ed/wis2downloader-0.1.1.tar.gz
+[2024-05-28 10:00:05] INFO root fetch - processPackages [synctl]: Downloading https://files.pythonhosted.org/packages/8c/36/17050c4cc2ab487068590663b29429375f087b200d4e4efb95c862c9d6de/synctl-1.1.9.tar.gz
+[2024-05-28 10:00:05] INFO root fetch - processPackages [model-compression-toolkit]: Downloading https://files.pythonhosted.org/packages/02/0a/4f2ac77f7aafe1c1657da24275eccfcf01b0ff22e35657ee965b723f82fc/model_compression_toolkit-2.0.0.tar.gz
+[2024-05-28 10:00:05] INFO root fetch - processPackages [synctl]: executing diffoscope
+[2024-05-28 10:00:05] INFO root fetch - processPackages [synctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synctl-1.1.8.tar.gz tmp/synctl-1.1.9.tar.gz --markdown 20240528/s/synctl/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-28 10:00:05] INFO root fetch - processPackages [wis2downloader]: executing diffoscope
+[2024-05-28 10:00:05] INFO root fetch - processPackages [wis2downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wis2downloader-0.1.0.tar.gz tmp/wis2downloader-0.1.1.tar.gz --markdown 20240528/w/wis2downloader/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-28 10:00:05] INFO root fetch - processPackages [model-compression-toolkit]: executing diffoscope
+[2024-05-28 10:00:05] INFO root fetch - processPackages [model-compression-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_compression_toolkit-1.9.1.tar.gz tmp/model_compression_toolkit-2.0.0.tar.gz --markdown 20240528/m/model-compression-toolkit/1.9.1-2.0.0/README.md --exclude *.pyd
+[2024-05-28 10:00:05] INFO root fetch - processPackages [alita-tools]: Remove: archive file [/home/abi/fetcher/tmp/alita_tools-0.0.8.tar.gz]
+[2024-05-28 10:00:05] INFO root fetch - processPackages [alita-tools]: Remove: archive file [/home/abi/fetcher/tmp/alita_tools-0.0.9.tar.gz]
+[2024-05-28 10:00:05] INFO root fetch - main [MainThread]: End processing [alita-tools]: success
+[2024-05-28 10:00:05] INFO root fetch - processPackages [synctl]: Remove: archive file [/home/abi/fetcher/tmp/synctl-1.1.8.tar.gz]
+[2024-05-28 10:00:05] INFO root fetch - processPackages [synctl]: Remove: archive file [/home/abi/fetcher/tmp/synctl-1.1.9.tar.gz]
+[2024-05-28 10:00:05] INFO root fetch - main [MainThread]: End processing [synctl]: success
+[2024-05-28 10:00:06] INFO root fetch - processPackages [wis2downloader]: Remove: archive file [/home/abi/fetcher/tmp/wis2downloader-0.1.0.tar.gz]
+[2024-05-28 10:00:06] INFO root fetch - processPackages [wis2downloader]: Remove: archive file [/home/abi/fetcher/tmp/wis2downloader-0.1.1.tar.gz]
+[2024-05-28 10:00:06] INFO root fetch - main [MainThread]: End processing [wis2downloader]: success
+[2024-05-28 10:00:08] INFO root fetch - processPackages [model-compression-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/model_compression_toolkit-1.9.1.tar.gz]
+[2024-05-28 10:00:08] INFO root fetch - processPackages [model-compression-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/model_compression_toolkit-2.0.0.tar.gz]
+[2024-05-28 10:00:08] INFO root fetch - main [MainThread]: End processing [model-compression-toolkit]: success
+[2024-05-28 10:00:08] INFO root fetch - main [MainThread]: Store serial: [23407335]
