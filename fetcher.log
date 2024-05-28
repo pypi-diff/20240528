@@ -11191,3 +11191,54 @@
 [2024-05-28 10:09:04] INFO root fetch - processPackages [Furious-GUI]: Remove: archive file [/home/abi/fetcher/tmp/Furious-GUI-0.4.6.tar.gz]
 [2024-05-28 10:09:04] INFO root fetch - main [MainThread]: End processing [Furious-GUI]: success
 [2024-05-28 10:09:04] INFO root fetch - main [MainThread]: Store serial: [23407406]
+[2024-05-28 10:11:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23407406]
+[2024-05-28 10:11:12] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-28 10:11:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: discord-components
+[2024-05-28 10:11:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: akshare
+[2024-05-28 10:11:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: athina
+[2024-05-28 10:11:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mech-client
+[2024-05-28 10:11:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: adeploy
+[2024-05-28 10:11:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: snowddl
+[2024-05-28 10:11:13] INFO root fetch - processPackages [mech-client]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-28 10:11:13] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2024-05-28 10:11:13] WARNING root fetch - processPackages [discord-components]: Skipping, unable to determine old version
+[2024-05-28 10:11:13] INFO root fetch - main [MainThread]: End processing [discord-components] error
+[2024-05-28 10:11:13] INFO root fetch - processPackages [athina]: New version: [1.3.3] Old Version: [1.3.2]
+[2024-05-28 10:11:13] INFO root fetch - processPackages [adeploy]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-28 10:11:13] INFO root fetch - processPackages [snowddl]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-28 10:11:13] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2024-05-28 10:11:13] INFO root fetch - processPackages [athina]: Downloading https://files.pythonhosted.org/packages/6c/eb/502076f1f63e33e44de884cba5de395c48790aaaa2e87ca6261f69f32a8a/athina-1.3.2.tar.gz
+[2024-05-28 10:11:13] INFO root fetch - processPackages [mech-client]: Downloading https://files.pythonhosted.org/packages/9e/22/71254386f6ebfd7ea61cb348cb33b4a2284c76446fee98f7d8efbfd8eede/mech_client-0.2.8.tar.gz
+[2024-05-28 10:11:13] INFO root fetch - processPackages [adeploy]: Downloading https://files.pythonhosted.org/packages/76/8e/e35f0763e853d3af7f8744fe5d726b9cacda6d95922b02e2e52125950afb/adeploy-1.0.0.tar.gz
+[2024-05-28 10:11:13] INFO root fetch - processPackages [snowddl]: Downloading https://files.pythonhosted.org/packages/de/fb/cfd61d54e05e02fe6de2cc9e2c72dd3a952770c7781bfa63593b47647600/snowddl-0.9.8.tar.gz
+[2024-05-28 10:11:13] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2024-05-28 10:11:13] INFO root fetch - processPackages [athina]: Downloading https://files.pythonhosted.org/packages/36/cf/30d6ef56d38825022225c7ae0d35d5cd046b94a2ffa282090fd8a3a86c95/athina-1.3.3.tar.gz
+[2024-05-28 10:11:13] INFO root fetch - processPackages [mech-client]: Downloading https://files.pythonhosted.org/packages/b7/89/204573c86c164c2548dc583c2087587969f6569178fc8cfa76e27395dec1/mech_client-0.2.9.tar.gz
+[2024-05-28 10:11:13] INFO root fetch - processPackages [athina]: executing diffoscope
+[2024-05-28 10:11:13] INFO root fetch - processPackages [athina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/athina-1.3.2.tar.gz tmp/athina-1.3.3.tar.gz --markdown 20240528/a/athina/1.3.2-1.3.3/README.md --exclude *.pyd
+[2024-05-28 10:11:13] INFO root fetch - processPackages [adeploy]: Downloading https://files.pythonhosted.org/packages/ba/6b/2ec429ee9a2e69533fd88f7d90a6db720aea0399f00c0471c957a674920c/adeploy-1.1.0.tar.gz
+[2024-05-28 10:11:13] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2024-05-28 10:11:13] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20240528/a/akshare/1.9.98-1.9.99/README.md --exclude *.pyd
+[2024-05-28 10:11:13] INFO root fetch - processPackages [snowddl]: Downloading https://files.pythonhosted.org/packages/30/b1/743904be3436bae396d5a7d758a63419ad2a611878e2b644c34e43e5266b/snowddl-0.9.9.tar.gz
+[2024-05-28 10:11:13] INFO root fetch - processPackages [mech-client]: executing diffoscope
+[2024-05-28 10:11:13] INFO root fetch - processPackages [mech-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mech_client-0.2.8.tar.gz tmp/mech_client-0.2.9.tar.gz --markdown 20240528/m/mech-client/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-28 10:11:13] INFO root fetch - processPackages [adeploy]: executing diffoscope
+[2024-05-28 10:11:13] INFO root fetch - processPackages [adeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adeploy-1.0.0.tar.gz tmp/adeploy-1.1.0.tar.gz --markdown 20240528/a/adeploy/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-28 10:11:13] INFO root fetch - processPackages [snowddl]: executing diffoscope
+[2024-05-28 10:11:13] INFO root fetch - processPackages [snowddl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowddl-0.9.8.tar.gz tmp/snowddl-0.9.9.tar.gz --markdown 20240528/s/snowddl/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-28 10:11:14] INFO root fetch - processPackages [mech-client]: Remove: archive file [/home/abi/fetcher/tmp/mech_client-0.2.8.tar.gz]
+[2024-05-28 10:11:14] INFO root fetch - processPackages [mech-client]: Remove: archive file [/home/abi/fetcher/tmp/mech_client-0.2.9.tar.gz]
+[2024-05-28 10:11:14] INFO root fetch - main [MainThread]: End processing [mech-client]: success
+[2024-05-28 10:11:14] INFO root fetch - processPackages [athina]: Remove: archive file [/home/abi/fetcher/tmp/athina-1.3.2.tar.gz]
+[2024-05-28 10:11:14] INFO root fetch - processPackages [athina]: Remove: archive file [/home/abi/fetcher/tmp/athina-1.3.3.tar.gz]
+[2024-05-28 10:11:14] INFO root fetch - main [MainThread]: End processing [athina]: success
+[2024-05-28 10:11:15] INFO root fetch - processPackages [adeploy]: Remove: archive file [/home/abi/fetcher/tmp/adeploy-1.0.0.tar.gz]
+[2024-05-28 10:11:15] INFO root fetch - processPackages [adeploy]: Remove: archive file [/home/abi/fetcher/tmp/adeploy-1.1.0.tar.gz]
+[2024-05-28 10:11:15] INFO root fetch - main [MainThread]: End processing [adeploy]: success
+[2024-05-28 10:11:15] INFO root fetch - processPackages [snowddl]: Remove: archive file [/home/abi/fetcher/tmp/snowddl-0.9.8.tar.gz]
+[2024-05-28 10:11:15] INFO root fetch - processPackages [snowddl]: Remove: archive file [/home/abi/fetcher/tmp/snowddl-0.9.9.tar.gz]
+[2024-05-28 10:11:15] INFO root fetch - main [MainThread]: End processing [snowddl]: success
+[2024-05-28 10:11:16] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2024-05-28 10:11:16] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2024-05-28 10:11:16] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2024-05-28 10:11:16] INFO root fetch - main [MainThread]: Store serial: [23407422]
