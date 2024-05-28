@@ -22435,3 +22435,102 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 16:15:41] INFO root fetch - processPackages [eidolon-ai-client]: Remove: archive file [/home/abi/fetcher/tmp/eidolon_ai_client-0.1.9.tar.gz]
 [2024-05-28 16:15:41] INFO root fetch - main [MainThread]: End processing [eidolon-ai-client]: success
 [2024-05-28 16:15:41] INFO root fetch - main [MainThread]: Store serial: [23412712]
+[2024-05-28 16:17:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23412712]
+[2024-05-28 16:17:51] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-28 16:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: halerium-utilities
+[2024-05-28 16:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spaceone-inventory
+[2024-05-28 16:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: addereq
+[2024-05-28 16:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ourchester
+[2024-05-28 16:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zalando-kubectl
+[2024-05-28 16:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: iden
+[2024-05-28 16:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: defender-com
+[2024-05-28 16:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-serverless-clamscan
+[2024-05-28 16:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: FLUTE-LLM
+[2024-05-28 16:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sdkit
+[2024-05-28 16:17:51] INFO root fetch - processPackages [ourchester]: New version: [0.1.2] Old Version: [0.1.0]
+[2024-05-28 16:17:51] INFO root fetch - processPackages [spaceone-inventory]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-05-28 16:17:51] WARNING root fetch - processPackages [defender-com]: Skipping, unable to determine old version
+[2024-05-28 16:17:51] INFO root fetch - processPackages [defender-com]: Start processing: hacs-frontend
+[2024-05-28 16:17:51] INFO root fetch - main [MainThread]: End processing [defender-com] error
+[2024-05-28 16:17:51] INFO root fetch - processPackages [sdkit]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-28 16:17:51] INFO root fetch - processPackages [zalando-kubectl]: New version: [1.9.3.46] Old Version: [1.9.3.45]
+[2024-05-28 16:17:51] INFO root fetch - processPackages [hacs-frontend]: New version: [9] Old Version: [8]
+[2024-05-28 16:17:51] WARNING root fetch - processPackages [FLUTE-LLM]: Skipping, unable to determine old version
+[2024-05-28 16:17:51] INFO root fetch - processPackages [FLUTE-LLM]: Start processing: jaqpotpy
+[2024-05-28 16:17:51] INFO root fetch - main [MainThread]: End processing [FLUTE-LLM] error
+[2024-05-28 16:17:51] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/2b/23/73e091142fbd007706604f94cc95718e79d9259d998aa9dd424fc7cc6f7f/spaceone-inventory-2.0.dev98.tar.gz
+[2024-05-28 16:17:51] INFO root fetch - processPackages [halerium-utilities]: New version: [2.5.0] Old Version: [2.4.0]
+[2024-05-28 16:17:51] INFO root fetch - processPackages [iden]: New version: [0.0.4] Old Version: [0.0.3a0]
+[2024-05-28 16:17:51] INFO root fetch - processPackages [addereq]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-05-28 16:17:51] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/4f/d9/7218fa4642a4063b7605ea2709719503ddae7889d494777e16effbcd2447/sdkit-2.0.8.tar.gz
+[2024-05-28 16:17:51] INFO root fetch - processPackages [cdk-serverless-clamscan]: New version: [2.6.99] Old Version: [2.6.98]
+[2024-05-28 16:17:51] INFO root fetch - processPackages [ourchester]: Downloading https://files.pythonhosted.org/packages/a4/02/4b99eb6be149f4090f29cf2a5cbb89d9fa2833501f832c1ff87c5a64e09f/ourchester-0.1.0.tar.gz
+[2024-05-28 16:17:51] INFO root fetch - processPackages [hacs-frontend]: Downloading https://files.pythonhosted.org/packages/4b/54/4a6311d8b103f58145787acb710d11417db7aa8446ae2bec85633213f873/hacs-frontend-8.tar.gz
+[2024-05-28 16:17:51] INFO root fetch - processPackages [jaqpotpy]: New version: [1.2.0] Old Version: [1.1.2]
+[2024-05-28 16:17:51] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/04/67/6fb0e00ee65986b766391e4327a7370cec35f8458c0c80507e3b56a79e57/cdk-serverless-clamscan-2.6.98.tar.gz
+[2024-05-28 16:17:51] INFO root fetch - processPackages [zalando-kubectl]: Downloading https://files.pythonhosted.org/packages/17/27/7c57e4bfb5742cdbbb539cdfb30cf6130058dfc614148341010c91c0ab38/zalando-kubectl-1.9.3.45.tar.gz
+[2024-05-28 16:17:52] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/a3/3b/170fb343234797b20456dea2c5c46bfe6a8c52594affdec77735ecf76561/sdkit-2.0.9.tar.gz
+[2024-05-28 16:17:52] INFO root fetch - processPackages [halerium-utilities]: Downloading https://files.pythonhosted.org/packages/ec/3d/85b5218db690cac58f443238146e1aee14840b7265be75be4efea9dc8b6c/halerium_utilities-2.4.0-py3-none-any.whl
+[2024-05-28 16:17:52] INFO root fetch - processPackages [addereq]: Downloading https://files.pythonhosted.org/packages/bc/17/442ade84607cdc85eae477f39e1e268e30dbfd6f6e307505e086287ac6c8/addereq-1.0.7-cp39-cp39-win_amd64.whl
+[2024-05-28 16:17:52] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/e7/30/f1229bb9f69283d6576804b473d6fe73ff3118fb5543c89d48b18f899ca2/spaceone-inventory-2.0.dev99.tar.gz
+[2024-05-28 16:17:52] INFO root fetch - processPackages [iden]: Downloading https://files.pythonhosted.org/packages/09/3c/91a9ce222e7dc58c9152a5fb32905943920c7546c0d4260b56816732279a/iden-0.0.3a0.tar.gz
+[2024-05-28 16:17:52] INFO root fetch - processPackages [hacs-frontend]: Downloading https://files.pythonhosted.org/packages/27/64/99fc7d5e575ed7ac25aaf6fa2230eea1499ac447c06f0c88af1a96d19d69/hacs-frontend-9.tar.gz
+[2024-05-28 16:17:52] INFO root fetch - processPackages [jaqpotpy]: Downloading https://files.pythonhosted.org/packages/3b/9a/36293efffc86060fe029963abf8ff2bf15f7a2f96b2c0479da62e2d6f416/jaqpotpy-1.1.2.tar.gz
+[2024-05-28 16:17:52] INFO root fetch - processPackages [sdkit]: executing diffoscope
+[2024-05-28 16:17:52] INFO root fetch - processPackages [sdkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkit-2.0.8.tar.gz tmp/sdkit-2.0.9.tar.gz --markdown 20240528/s/sdkit/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-28 16:17:52] INFO root fetch - processPackages [ourchester]: Downloading https://files.pythonhosted.org/packages/eb/b2/f4e956e483881aa215149682eb215e75e4bb0690d7eafcf351d7bc1787a6/ourchester-0.1.2.tar.gz
+[2024-05-28 16:17:52] INFO root fetch - processPackages [spaceone-inventory]: executing diffoscope
+[2024-05-28 16:17:52] INFO root fetch - processPackages [spaceone-inventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-inventory-2.0.dev98.tar.gz tmp/spaceone-inventory-2.0.dev99.tar.gz --markdown 20240528/s/spaceone-inventory/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-05-28 16:17:52] INFO root fetch - processPackages [hacs-frontend]: executing diffoscope
+[2024-05-28 16:17:52] INFO root fetch - processPackages [hacs-frontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hacs-frontend-8.tar.gz tmp/hacs-frontend-9.tar.gz --markdown 20240528/h/hacs-frontend/8-9/README.md --exclude *.pyd
+[2024-05-28 16:17:52] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/53/8f/ea40546b0f696761a1aaeee533ca8a5f53147131c3aa1f0aa1316112f44f/cdk-serverless-clamscan-2.6.99.tar.gz
+[2024-05-28 16:17:52] INFO root fetch - processPackages [zalando-kubectl]: Downloading https://files.pythonhosted.org/packages/b0/8c/40f48ac4d1bc22f066f2fd8ea893a31a7c6e03893deecec223d45e719377/zalando-kubectl-1.9.3.46.tar.gz
+[2024-05-28 16:17:52] INFO root fetch - processPackages [ourchester]: executing diffoscope
+[2024-05-28 16:17:52] INFO root fetch - processPackages [ourchester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ourchester-0.1.0.tar.gz tmp/ourchester-0.1.2.tar.gz --markdown 20240528/o/ourchester/0.1.0-0.1.2/README.md --exclude *.pyd
+[2024-05-28 16:17:52] INFO root fetch - processPackages [halerium-utilities]: Downloading https://files.pythonhosted.org/packages/a1/d3/c128edbb63ebd82c3d388591f3d47f761820063f122878355c3da25c9ca7/halerium_utilities-2.5.0-py3-none-any.whl
+[2024-05-28 16:17:52] INFO root fetch - processPackages [addereq]: Downloading https://files.pythonhosted.org/packages/73/0b/0af8fbf46fb071738da6e65a49ab2523c213a949de5e9dee2d0b2412be19/addereq-1.0.8-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2024-05-28 16:17:52] INFO root fetch - processPackages [cdk-serverless-clamscan]: executing diffoscope
+[2024-05-28 16:17:52] INFO root fetch - processPackages [cdk-serverless-clamscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-serverless-clamscan-2.6.98.tar.gz tmp/cdk-serverless-clamscan-2.6.99.tar.gz --markdown 20240528/c/cdk-serverless-clamscan/2.6.98-2.6.99/README.md --exclude *.pyd
+[2024-05-28 16:17:52] INFO root fetch - processPackages [iden]: Downloading https://files.pythonhosted.org/packages/80/69/2f30daa54a4eb081906bebf6653a47f79b9eb10185580570f87d4d7ff7da/iden-0.0.4.tar.gz
+[2024-05-28 16:17:52] INFO root fetch - processPackages [zalando-kubectl]: executing diffoscope
+[2024-05-28 16:17:52] INFO root fetch - processPackages [zalando-kubectl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zalando-kubectl-1.9.3.45.tar.gz tmp/zalando-kubectl-1.9.3.46.tar.gz --markdown 20240528/z/zalando-kubectl/1.9.3.45-1.9.3.46/README.md --exclude *.pyd
+[2024-05-28 16:17:52] INFO root fetch - processPackages [halerium-utilities]: executing diffoscope
+[2024-05-28 16:17:52] INFO root fetch - processPackages [halerium-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/halerium_utilities-2.4.0-py3-none-any.whl.zip tmp/halerium_utilities-2.5.0-py3-none-any.whl.zip --markdown 20240528/h/halerium-utilities/2.4.0-2.5.0/README.md --exclude *.pyd
+[2024-05-28 16:17:52] INFO root fetch - processPackages [addereq]: executing diffoscope
+[2024-05-28 16:17:52] INFO root fetch - processPackages [addereq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/addereq-1.0.7-cp39-cp39-win_amd64.whl.zip tmp/addereq-1.0.8-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip --markdown 20240528/a/addereq/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-05-28 16:17:52] INFO root fetch - processPackages [iden]: executing diffoscope
+[2024-05-28 16:17:52] INFO root fetch - processPackages [iden]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iden-0.0.3a0.tar.gz tmp/iden-0.0.4.tar.gz --markdown 20240528/i/iden/0.0.3a0-0.0.4/README.md --exclude *.pyd
+[2024-05-28 16:17:53] INFO root fetch - processPackages [jaqpotpy]: Downloading https://files.pythonhosted.org/packages/73/cd/ca72b9d079b6ffb4d18bccd1888e0b53e341b917b2bbe22b1fc93142bb1f/jaqpotpy-1.2.0.tar.gz
+[2024-05-28 16:17:53] INFO root fetch - processPackages [ourchester]: Remove: archive file [/home/abi/fetcher/tmp/ourchester-0.1.0.tar.gz]
+[2024-05-28 16:17:53] INFO root fetch - processPackages [ourchester]: Remove: archive file [/home/abi/fetcher/tmp/ourchester-0.1.2.tar.gz]
+[2024-05-28 16:17:53] INFO root fetch - main [MainThread]: End processing [ourchester]: success
+[2024-05-28 16:17:53] INFO root fetch - processPackages [jaqpotpy]: executing diffoscope
+[2024-05-28 16:17:53] INFO root fetch - processPackages [jaqpotpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaqpotpy-1.1.2.tar.gz tmp/jaqpotpy-1.2.0.tar.gz --markdown 20240528/j/jaqpotpy/1.1.2-1.2.0/README.md --exclude *.pyd
+[2024-05-28 16:17:53] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-2.0.8.tar.gz]
+[2024-05-28 16:17:53] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-2.0.9.tar.gz]
+[2024-05-28 16:17:53] INFO root fetch - main [MainThread]: End processing [sdkit]: success
+[2024-05-28 16:17:53] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.6.98.tar.gz]
+[2024-05-28 16:17:53] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.6.99.tar.gz]
+[2024-05-28 16:17:53] INFO root fetch - main [MainThread]: End processing [cdk-serverless-clamscan]: success
+[2024-05-28 16:17:53] INFO root fetch - processPackages [addereq]: Remove: archive file [/home/abi/fetcher/tmp/addereq-1.0.7-cp39-cp39-win_amd64.whl.zip]
+[2024-05-28 16:17:53] INFO root fetch - processPackages [addereq]: Remove: archive file [/home/abi/fetcher/tmp/addereq-1.0.8-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
+[2024-05-28 16:17:53] INFO root fetch - main [MainThread]: End processing [addereq]: success
+[2024-05-28 16:17:53] INFO root fetch - processPackages [zalando-kubectl]: Remove: archive file [/home/abi/fetcher/tmp/zalando-kubectl-1.9.3.45.tar.gz]
+[2024-05-28 16:17:53] INFO root fetch - processPackages [zalando-kubectl]: Remove: archive file [/home/abi/fetcher/tmp/zalando-kubectl-1.9.3.46.tar.gz]
+[2024-05-28 16:17:53] INFO root fetch - main [MainThread]: End processing [zalando-kubectl]: success
+[2024-05-28 16:17:53] INFO root fetch - processPackages [hacs-frontend]: Remove: archive file [/home/abi/fetcher/tmp/hacs-frontend-8.tar.gz]
+[2024-05-28 16:17:53] INFO root fetch - processPackages [hacs-frontend]: Remove: archive file [/home/abi/fetcher/tmp/hacs-frontend-9.tar.gz]
+[2024-05-28 16:17:53] INFO root fetch - main [MainThread]: End processing [hacs-frontend]: success
+[2024-05-28 16:17:53] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev98.tar.gz]
+[2024-05-28 16:17:53] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev99.tar.gz]
+[2024-05-28 16:17:53] INFO root fetch - main [MainThread]: End processing [spaceone-inventory]: success
+[2024-05-28 16:17:53] INFO root fetch - processPackages [iden]: Remove: archive file [/home/abi/fetcher/tmp/iden-0.0.3a0.tar.gz]
+[2024-05-28 16:17:53] INFO root fetch - processPackages [iden]: Remove: archive file [/home/abi/fetcher/tmp/iden-0.0.4.tar.gz]
+[2024-05-28 16:17:53] INFO root fetch - main [MainThread]: End processing [iden]: success
+[2024-05-28 16:17:54] INFO root fetch - processPackages [halerium-utilities]: Remove: archive file [/home/abi/fetcher/tmp/halerium_utilities-2.4.0-py3-none-any.whl.zip]
+[2024-05-28 16:17:54] INFO root fetch - processPackages [halerium-utilities]: Remove: archive file [/home/abi/fetcher/tmp/halerium_utilities-2.5.0-py3-none-any.whl.zip]
+[2024-05-28 16:17:54] INFO root fetch - main [MainThread]: End processing [halerium-utilities]: success
+[2024-05-28 16:17:54] INFO root fetch - processPackages [jaqpotpy]: Remove: archive file [/home/abi/fetcher/tmp/jaqpotpy-1.1.2.tar.gz]
+[2024-05-28 16:17:54] INFO root fetch - processPackages [jaqpotpy]: Remove: archive file [/home/abi/fetcher/tmp/jaqpotpy-1.2.0.tar.gz]
+[2024-05-28 16:17:54] INFO root fetch - main [MainThread]: End processing [jaqpotpy]: success
+[2024-05-28 16:17:54] INFO root fetch - main [MainThread]: Store serial: [23412756]
