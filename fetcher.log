@@ -6844,3 +6844,42 @@
 [2024-05-28 07:41:03] INFO root fetch - processPackages [openmetadata-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata-ingestion-1.4.1.0.tar.gz]
 [2024-05-28 07:41:03] INFO root fetch - main [MainThread]: End processing [openmetadata-ingestion]: success
 [2024-05-28 07:41:03] INFO root fetch - main [MainThread]: Store serial: [23405587]
+[2024-05-28 07:43:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23405587]
+[2024-05-28 07:43:12] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-28 07:43:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dcnum
+[2024-05-28 07:43:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openmetadata-managed-apis
+[2024-05-28 07:43:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: QuasarCode
+[2024-05-28 07:43:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mg-pso-gui
+[2024-05-28 07:43:12] INFO root fetch - processPackages [QuasarCode]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-28 07:43:12] INFO root fetch - processPackages [QuasarCode]: Downloading https://files.pythonhosted.org/packages/4b/f9/b2d8ee96804291c82aa8544413344aeff5d171030de7fca251a7887f43b4/QuasarCode-0.8.0.tar.gz
+[2024-05-28 07:43:12] INFO root fetch - processPackages [dcnum]: New version: [0.20.1] Old Version: [0.20.0]
+[2024-05-28 07:43:12] INFO root fetch - processPackages [openmetadata-managed-apis]: New version: [1.4.1.0] Old Version: [1.4.0.1]
+[2024-05-28 07:43:12] INFO root fetch - processPackages [mg-pso-gui]: New version: [0.1.95] Old Version: [0.1.94]
+[2024-05-28 07:43:12] INFO root fetch - processPackages [dcnum]: Downloading https://files.pythonhosted.org/packages/35/da/c94e889e2b54205a6279708e458786770d5711bdc8c2cd874673eaea2455/dcnum-0.20.0.tar.gz
+[2024-05-28 07:43:12] INFO root fetch - processPackages [QuasarCode]: Downloading https://files.pythonhosted.org/packages/67/46/55d9a0f234778abc638a43b265aa1558469d0967d78b5d026750dc299011/QuasarCode-0.9.0.tar.gz
+[2024-05-28 07:43:12] INFO root fetch - processPackages [openmetadata-managed-apis]: Downloading https://files.pythonhosted.org/packages/a4/bf/d2c852007c3de30a45e6d8f64fc0532a7220a8f992ae943d8a72c073d021/openmetadata_managed_apis-1.4.0.1.tar.gz
+[2024-05-28 07:43:12] INFO root fetch - processPackages [QuasarCode]: executing diffoscope
+[2024-05-28 07:43:12] INFO root fetch - processPackages [QuasarCode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuasarCode-0.8.0.tar.gz tmp/QuasarCode-0.9.0.tar.gz --markdown 20240528/Q/QuasarCode/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-28 07:43:12] INFO root fetch - processPackages [mg-pso-gui]: Downloading https://files.pythonhosted.org/packages/8f/88/fc9ab10e17d14a79c82357fb936c99857b716069ea5148ac565476c71f6f/mg-pso-gui-0.1.94.tar.gz
+[2024-05-28 07:43:12] INFO root fetch - processPackages [dcnum]: Downloading https://files.pythonhosted.org/packages/5a/f2/d0e11c67b3a77279045e885d6816c2f136c082dc97b4dc437add84d9a8d9/dcnum-0.20.1.tar.gz
+[2024-05-28 07:43:12] INFO root fetch - processPackages [openmetadata-managed-apis]: Downloading https://files.pythonhosted.org/packages/79/e9/a7c817754dc2886397268465d6552907001ed865238a4398bcb9fb62edbe/openmetadata_managed_apis-1.4.1.0.tar.gz
+[2024-05-28 07:43:12] INFO root fetch - processPackages [openmetadata-managed-apis]: executing diffoscope
+[2024-05-28 07:43:12] INFO root fetch - processPackages [openmetadata-managed-apis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmetadata_managed_apis-1.4.0.1.tar.gz tmp/openmetadata_managed_apis-1.4.1.0.tar.gz --markdown 20240528/o/openmetadata-managed-apis/1.4.0.1-1.4.1.0/README.md --exclude *.pyd
+[2024-05-28 07:43:13] INFO root fetch - processPackages [dcnum]: executing diffoscope
+[2024-05-28 07:43:13] INFO root fetch - processPackages [dcnum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcnum-0.20.0.tar.gz tmp/dcnum-0.20.1.tar.gz --markdown 20240528/d/dcnum/0.20.0-0.20.1/README.md --exclude *.pyd
+[2024-05-28 07:43:13] INFO root fetch - processPackages [mg-pso-gui]: Downloading https://files.pythonhosted.org/packages/38/8d/93fa9f6f521e215bcedf5f3d350b9d9408625f7d15282c941af8c5d5cb3e/mg-pso-gui-0.1.95.tar.gz
+[2024-05-28 07:43:13] INFO root fetch - processPackages [QuasarCode]: Remove: archive file [/home/abi/fetcher/tmp/QuasarCode-0.8.0.tar.gz]
+[2024-05-28 07:43:13] INFO root fetch - processPackages [QuasarCode]: Remove: archive file [/home/abi/fetcher/tmp/QuasarCode-0.9.0.tar.gz]
+[2024-05-28 07:43:13] INFO root fetch - main [MainThread]: End processing [QuasarCode]: success
+[2024-05-28 07:43:13] INFO root fetch - processPackages [mg-pso-gui]: executing diffoscope
+[2024-05-28 07:43:13] INFO root fetch - processPackages [mg-pso-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mg-pso-gui-0.1.94.tar.gz tmp/mg-pso-gui-0.1.95.tar.gz --markdown 20240528/m/mg-pso-gui/0.1.94-0.1.95/README.md --exclude *.pyd
+[2024-05-28 07:43:13] INFO root fetch - processPackages [openmetadata-managed-apis]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata_managed_apis-1.4.0.1.tar.gz]
+[2024-05-28 07:43:13] INFO root fetch - processPackages [openmetadata-managed-apis]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata_managed_apis-1.4.1.0.tar.gz]
+[2024-05-28 07:43:13] INFO root fetch - main [MainThread]: End processing [openmetadata-managed-apis]: success
+[2024-05-28 07:43:13] INFO root fetch - processPackages [dcnum]: Remove: archive file [/home/abi/fetcher/tmp/dcnum-0.20.0.tar.gz]
+[2024-05-28 07:43:13] INFO root fetch - processPackages [dcnum]: Remove: archive file [/home/abi/fetcher/tmp/dcnum-0.20.1.tar.gz]
+[2024-05-28 07:43:13] INFO root fetch - main [MainThread]: End processing [dcnum]: success
+[2024-05-28 07:43:14] INFO root fetch - processPackages [mg-pso-gui]: Remove: archive file [/home/abi/fetcher/tmp/mg-pso-gui-0.1.94.tar.gz]
+[2024-05-28 07:43:14] INFO root fetch - processPackages [mg-pso-gui]: Remove: archive file [/home/abi/fetcher/tmp/mg-pso-gui-0.1.95.tar.gz]
+[2024-05-28 07:43:14] INFO root fetch - main [MainThread]: End processing [mg-pso-gui]: success
+[2024-05-28 07:43:14] INFO root fetch - main [MainThread]: Store serial: [23405601]
