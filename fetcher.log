@@ -4579,3 +4579,42 @@
 [2024-05-28 05:10:45] INFO root fetch - processPackages [pywxdump]: Remove: archive file [/home/abi/fetcher/tmp/pywxdump-3.0.8.tar.gz]
 [2024-05-28 05:10:45] INFO root fetch - main [MainThread]: End processing [pywxdump]: success
 [2024-05-28 05:10:45] INFO root fetch - main [MainThread]: Store serial: [23404633]
+[2024-05-28 05:12:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23404633]
+[2024-05-28 05:12:54] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-28 05:12:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flask-bootstrap-module-extendeds
+[2024-05-28 05:12:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lean-dojo
+[2024-05-28 05:12:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: opencf-core
+[2024-05-28 05:12:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: litellm
+[2024-05-28 05:12:54] INFO root fetch - processPackages [opencf-core]: New version: [0.3.1a1] Old Version: [0.3.1a0]
+[2024-05-28 05:12:54] INFO root fetch - processPackages [flask-bootstrap-module-extendeds]: New version: [5.1.5] Old Version: [5.1.4]
+[2024-05-28 05:12:54] INFO root fetch - processPackages [flask-bootstrap-module-extendeds]: Downloading https://files.pythonhosted.org/packages/41/d0/ad54095654d77848f49618715c16f5a52cf6e798880c09125649b82d1d59/flask_bootstrap_module_extendeds-5.1.4.tar.gz
+[2024-05-28 05:12:54] INFO root fetch - processPackages [opencf-core]: Downloading https://files.pythonhosted.org/packages/c6/09/5d466801d5626ec7fb637162f545cb6e3455d146bdfabf6bda874ddeacae/opencf_core-0.3.1a0.tar.gz
+[2024-05-28 05:12:54] INFO root fetch - processPackages [lean-dojo]: New version: [1.9.0] Old Version: [1.8.2]
+[2024-05-28 05:12:54] INFO root fetch - processPackages [litellm]: New version: [1.9.dev0] Old Version: [1.9.5]
+[2024-05-28 05:12:54] INFO root fetch - processPackages [lean-dojo]: Downloading https://files.pythonhosted.org/packages/1c/e3/efbd2e740951b8d7b841958b51fc91141f8859b3ae2daaac41af9995947c/lean_dojo-1.8.2.tar.gz
+[2024-05-28 05:12:54] INFO root fetch - processPackages [opencf-core]: Downloading https://files.pythonhosted.org/packages/cd/38/2ee1960eb955e3e159237478dd075cd203434d94862c4a3ef21c88ea48b2/opencf_core-0.3.1a1.tar.gz
+[2024-05-28 05:12:54] INFO root fetch - processPackages [flask-bootstrap-module-extendeds]: Downloading https://files.pythonhosted.org/packages/45/b4/72fb9136b6db5efe24c56cbcbc34c87c7361fba9776d419899e4f4d66d74/flask_bootstrap_module_extendeds-5.1.5.tar.gz
+[2024-05-28 05:12:54] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/38/f3/1cbeaf4074e7b284cd140263ff165948d8f4cc8f5dd72c89be43a0469387/litellm-1.9.5.tar.gz
+[2024-05-28 05:12:54] INFO root fetch - processPackages [opencf-core]: executing diffoscope
+[2024-05-28 05:12:54] INFO root fetch - processPackages [opencf-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opencf_core-0.3.1a0.tar.gz tmp/opencf_core-0.3.1a1.tar.gz --markdown 20240528/o/opencf-core/0.3.1a0-0.3.1a1/README.md --exclude *.pyd
+[2024-05-28 05:12:54] INFO root fetch - processPackages [flask-bootstrap-module-extendeds]: executing diffoscope
+[2024-05-28 05:12:54] INFO root fetch - processPackages [flask-bootstrap-module-extendeds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_bootstrap_module_extendeds-5.1.4.tar.gz tmp/flask_bootstrap_module_extendeds-5.1.5.tar.gz --markdown 20240528/f/flask-bootstrap-module-extendeds/5.1.4-5.1.5/README.md --exclude *.pyd
+[2024-05-28 05:12:54] INFO root fetch - processPackages [lean-dojo]: Downloading https://files.pythonhosted.org/packages/0d/b3/79b22341733eaa4523e9c1abc4083a18f7b6fb4548f03551ed39b72afe7d/lean_dojo-1.9.0.tar.gz
+[2024-05-28 05:12:55] INFO root fetch - processPackages [lean-dojo]: executing diffoscope
+[2024-05-28 05:12:55] INFO root fetch - processPackages [lean-dojo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lean_dojo-1.8.2.tar.gz tmp/lean_dojo-1.9.0.tar.gz --markdown 20240528/l/lean-dojo/1.8.2-1.9.0/README.md --exclude *.pyd
+[2024-05-28 05:12:55] INFO root fetch - processPackages [opencf-core]: Remove: archive file [/home/abi/fetcher/tmp/opencf_core-0.3.1a0.tar.gz]
+[2024-05-28 05:12:55] INFO root fetch - processPackages [opencf-core]: Remove: archive file [/home/abi/fetcher/tmp/opencf_core-0.3.1a1.tar.gz]
+[2024-05-28 05:12:55] INFO root fetch - main [MainThread]: End processing [opencf-core]: success
+[2024-05-28 05:12:55] INFO root fetch - processPackages [flask-bootstrap-module-extendeds]: Remove: archive file [/home/abi/fetcher/tmp/flask_bootstrap_module_extendeds-5.1.4.tar.gz]
+[2024-05-28 05:12:55] INFO root fetch - processPackages [flask-bootstrap-module-extendeds]: Remove: archive file [/home/abi/fetcher/tmp/flask_bootstrap_module_extendeds-5.1.5.tar.gz]
+[2024-05-28 05:12:55] INFO root fetch - main [MainThread]: End processing [flask-bootstrap-module-extendeds]: success
+[2024-05-28 05:12:56] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/ad/6c/162b83e9cf68f5a94c30153e835414c3ee11c8602ffaacc9a032851dfa26/litellm-1.9.dev0.tar.gz
+[2024-05-28 05:12:56] INFO root fetch - processPackages [lean-dojo]: Remove: archive file [/home/abi/fetcher/tmp/lean_dojo-1.8.2.tar.gz]
+[2024-05-28 05:12:56] INFO root fetch - processPackages [lean-dojo]: Remove: archive file [/home/abi/fetcher/tmp/lean_dojo-1.9.0.tar.gz]
+[2024-05-28 05:12:56] INFO root fetch - main [MainThread]: End processing [lean-dojo]: success
+[2024-05-28 05:12:56] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2024-05-28 05:12:56] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-1.9.5.tar.gz tmp/litellm-1.9.dev0.tar.gz --markdown 20240528/l/litellm/1.9.5-1.9.dev0/README.md --exclude *.pyd
+[2024-05-28 05:12:57] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.5.tar.gz]
+[2024-05-28 05:12:57] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.dev0.tar.gz]
+[2024-05-28 05:12:57] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2024-05-28 05:12:57] INFO root fetch - main [MainThread]: Store serial: [23404645]
