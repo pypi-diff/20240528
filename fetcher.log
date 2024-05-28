@@ -23046,3 +23046,107 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 16:31:15] INFO root fetch - processPackages [nef-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/nef_pipelines-0.1.73.tar.gz]
 [2024-05-28 16:31:15] INFO root fetch - main [MainThread]: End processing [nef-pipelines]: success
 [2024-05-28 16:31:15] INFO root fetch - main [MainThread]: Store serial: [23412998]
+[2024-05-28 16:33:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23412998]
+[2024-05-28 16:33:24] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-28 16:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ecodev-cloud
+[2024-05-28 16:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: metallicious
+[2024-05-28 16:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langroid
+[2024-05-28 16:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: coiled
+[2024-05-28 16:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: webbpsf
+[2024-05-28 16:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: resc-backend
+[2024-05-28 16:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: GenETL
+[2024-05-28 16:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-editor-ymaps
+[2024-05-28 16:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: drisk-api
+[2024-05-28 16:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ziplip
+[2024-05-28 16:33:24] INFO root fetch - processPackages [GenETL]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-28 16:33:24] INFO root fetch - processPackages [resc-backend]: New version: [3.3.1] Old Version: [3.3.0]
+[2024-05-28 16:33:24] INFO root fetch - processPackages [django-editor-ymaps]: New version: [2.3.9] Old Version: [2.3.8]
+[2024-05-28 16:33:24] INFO root fetch - processPackages [langroid]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-28 16:33:24] INFO root fetch - processPackages [coiled]: New version: [1.9.1.dev9] Old Version: [1.9.1.dev8]
+[2024-05-28 16:33:24] WARNING root fetch - processPackages [ecodev-cloud]: Skipping, unable to determine old version
+[2024-05-28 16:33:24] INFO root fetch - processPackages [ecodev-cloud]: Start processing: nucliadb-node-binding
+[2024-05-28 16:33:24] INFO root fetch - main [MainThread]: End processing [ecodev-cloud] error
+[2024-05-28 16:33:24] INFO root fetch - processPackages [webbpsf]: New version: [1.3.0] Old Version: [1.2.1]
+[2024-05-28 16:33:24] INFO root fetch - processPackages [drisk-api]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-28 16:33:24] INFO root fetch - processPackages [GenETL]: Downloading https://files.pythonhosted.org/packages/e2/6f/496861862723e828a219d13d4c040f09baa0298594a5c079e5628ad40299/GenETL-0.0.6.tar.gz
+[2024-05-28 16:33:24] WARNING root fetch - processPackages [ziplip]: Skipping, unable to determine old version
+[2024-05-28 16:33:24] INFO root fetch - processPackages [ziplip]: Start processing: klarda-python-sdk
+[2024-05-28 16:33:24] INFO root fetch - main [MainThread]: End processing [ziplip] error
+[2024-05-28 16:33:24] INFO root fetch - processPackages [metallicious]: New version: [0.2.28] Old Version: [0.2.27]
+[2024-05-28 16:33:24] INFO root fetch - processPackages [django-editor-ymaps]: Downloading https://files.pythonhosted.org/packages/22/48/7687f7fea967edc60be0b8bb25005558a2cec8bedb6b5ac4ee2a5d05c229/django-editor-ymaps-2.3.8.tar.gz
+[2024-05-28 16:33:24] INFO root fetch - processPackages [langroid]: Downloading https://files.pythonhosted.org/packages/ab/bb/220d2ce35d659c9c3f621a8e92246d4d25420d75def80d96d19a8abf2b62/langroid-0.1.98.tar.gz
+[2024-05-28 16:33:24] INFO root fetch - processPackages [resc-backend]: Downloading https://files.pythonhosted.org/packages/5d/43/2c39d7d7590072e3bc7ebc0a6f809c20f5f45ce897c47e41b951b7a45307/resc_backend-3.3.0.tar.gz
+[2024-05-28 16:33:24] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/8b/97/14337c08d9fc8bec2c9c7a5961519e141cf75d7dffa582bb987eecacefa4/coiled-1.9.1.dev8.tar.gz
+[2024-05-28 16:33:24] INFO root fetch - processPackages [klarda-python-sdk]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-28 16:33:24] INFO root fetch - processPackages [nucliadb-node-binding]: New version: [4.0.1.post1380] Old Version: [4.0.1.post1376]
+[2024-05-28 16:33:24] INFO root fetch - processPackages [webbpsf]: Downloading https://files.pythonhosted.org/packages/a9/5b/40e678e11e8837ba38c9ec5ad9c83d8c06d416caf6efa3828a9ac4edfb06/webbpsf-1.2.1.tar.gz
+[2024-05-28 16:33:24] INFO root fetch - processPackages [GenETL]: Downloading https://files.pythonhosted.org/packages/bd/4a/4c7d3245414c3b26189ab94c59808d408bd66969b299d9007d149c6d78b6/GenETL-0.0.7.tar.gz
+[2024-05-28 16:33:24] INFO root fetch - processPackages [metallicious]: Downloading https://files.pythonhosted.org/packages/95/e6/1c2b668bb07929b928390d863f3aae8b10168ddd77d089cd2c2ef801b972/metallicious-0.2.27-py3-none-any.whl
+[2024-05-28 16:33:24] WARNING root fetch - processPackages [webbpsf]: Skipping package: exceeds size limit 57366138>=10485760
+[2024-05-28 16:33:24] INFO root fetch - processPackages [webbpsf]: Start processing: ultracart-rest-sdk
+[2024-05-28 16:33:24] INFO root fetch - main [MainThread]: End processing [webbpsf] error
+[2024-05-28 16:33:24] INFO root fetch - processPackages [drisk-api]: Downloading https://files.pythonhosted.org/packages/38/1c/f655392a25f5898b641808b191c3b496748c69a89803c3a4639dd865877f/drisk_api-0.0.2.tar.gz
+[2024-05-28 16:33:25] INFO root fetch - processPackages [ultracart-rest-sdk]: New version: [4.0.99rc0] Old Version: [4.0.98rc0]
+[2024-05-28 16:33:25] INFO root fetch - processPackages [resc-backend]: Downloading https://files.pythonhosted.org/packages/42/27/15325b14a1cc170d9af5fa08590c75ad4effdc76f995ccb5e2b622262ee1/resc_backend-3.3.1.tar.gz
+[2024-05-28 16:33:25] INFO root fetch - processPackages [langroid]: Downloading https://files.pythonhosted.org/packages/e0/31/f66ec6ea338a8eb66884a575a589c46c9cda101c179d652dccf9a12f918f/langroid-0.1.99.tar.gz
+[2024-05-28 16:33:25] INFO root fetch - processPackages [django-editor-ymaps]: Downloading https://files.pythonhosted.org/packages/ec/63/0bd08d6028fdcc6ede975c117d1260fd976d7259f014f38e5f2215ff0d67/django_editor_ymaps-2.3.9.tar.gz
+[2024-05-28 16:33:25] INFO root fetch - processPackages [GenETL]: executing diffoscope
+[2024-05-28 16:33:25] INFO root fetch - processPackages [GenETL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GenETL-0.0.6.tar.gz tmp/GenETL-0.0.7.tar.gz --markdown 20240528/G/GenETL/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-28 16:33:25] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/58/16/aec6b9100728dfee740792b7dd55fc6e56240fdadb5ef317a1d120e019d7/coiled-1.9.1.dev9.tar.gz
+[2024-05-28 16:33:25] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/da/eb/567b032d4c5c2c6b094483bcc84c908d0990a41791ac65d182b4a86d7128/nucliadb_node_binding-4.0.1.post1376.tar.gz
+[2024-05-28 16:33:25] INFO root fetch - processPackages [klarda-python-sdk]: Downloading https://files.pythonhosted.org/packages/9e/fe/2f556b3595101607b7e88ab7c9a7b54a912e239cdd75e932f29958b4c104/klarda_python_sdk-1.0.1.tar.gz
+[2024-05-28 16:33:25] INFO root fetch - processPackages [ultracart-rest-sdk]: Downloading https://files.pythonhosted.org/packages/71/ef/7b3e4c3123392afa24ebd5018befc34b4baacf0250c8a0c2ceeff4a3e3ad/ultracart_rest_sdk-4.0.98rc0.tar.gz
+[2024-05-28 16:33:25] INFO root fetch - processPackages [resc-backend]: executing diffoscope
+[2024-05-28 16:33:25] INFO root fetch - processPackages [resc-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resc_backend-3.3.0.tar.gz tmp/resc_backend-3.3.1.tar.gz --markdown 20240528/r/resc-backend/3.3.0-3.3.1/README.md --exclude *.pyd
+[2024-05-28 16:33:25] INFO root fetch - processPackages [langroid]: executing diffoscope
+[2024-05-28 16:33:25] INFO root fetch - processPackages [langroid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langroid-0.1.98.tar.gz tmp/langroid-0.1.99.tar.gz --markdown 20240528/l/langroid/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-28 16:33:25] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2024-05-28 16:33:25] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-1.9.1.dev8.tar.gz tmp/coiled-1.9.1.dev9.tar.gz --markdown 20240528/c/coiled/1.9.1.dev8-1.9.1.dev9/README.md --exclude *.pyd
+[2024-05-28 16:33:25] INFO root fetch - processPackages [django-editor-ymaps]: executing diffoscope
+[2024-05-28 16:33:25] INFO root fetch - processPackages [django-editor-ymaps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-editor-ymaps-2.3.8.tar.gz tmp/django_editor_ymaps-2.3.9.tar.gz --markdown 20240528/d/django-editor-ymaps/2.3.8-2.3.9/README.md --exclude *.pyd
+[2024-05-28 16:33:25] INFO root fetch - processPackages [metallicious]: Downloading https://files.pythonhosted.org/packages/b0/39/0b70167c1be93da1d66eeecc1c85b85973ce4c1b17ed6cc54219e6ca4dbd/metallicious-0.2.28-py3-none-any.whl
+[2024-05-28 16:33:25] INFO root fetch - processPackages [drisk-api]: Downloading https://files.pythonhosted.org/packages/55/67/e8c3eabb7675ac5a57d9ca0dbcf1712b2b5fc66ff509be242ceee8b6fb4b/drisk_api-0.0.3-pp39-pypy39_pp73-manylinux_2_5_i686.manylinux1_i686.whl
+[2024-05-28 16:33:25] INFO root fetch - processPackages [ultracart-rest-sdk]: Downloading https://files.pythonhosted.org/packages/53/de/3357390dfc51b1725d15b38c41c9c2ab33d663a1cf3e2ab06dd0ed795755/ultracart_rest_sdk-4.0.99rc0.tar.gz
+[2024-05-28 16:33:25] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/ab/0a/b6c612763424bb987406ff1f5ec6f83d9228713d4a260b2f770598ad4f41/nucliadb_node_binding-4.0.1.post1380.tar.gz
+[2024-05-28 16:33:25] INFO root fetch - processPackages [klarda-python-sdk]: Downloading https://files.pythonhosted.org/packages/0f/50/02798cfcfee7cb4a67cb082461134891e42db0607239d025c5eed68fb613/klarda_python_sdk-1.0.2.tar.gz
+[2024-05-28 16:33:25] INFO root fetch - processPackages [ultracart-rest-sdk]: executing diffoscope
+[2024-05-28 16:33:25] INFO root fetch - processPackages [ultracart-rest-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultracart_rest_sdk-4.0.98rc0.tar.gz tmp/ultracart_rest_sdk-4.0.99rc0.tar.gz --markdown 20240528/u/ultracart-rest-sdk/4.0.98rc0-4.0.99rc0/README.md --exclude *.pyd
+[2024-05-28 16:33:25] INFO root fetch - processPackages [klarda-python-sdk]: executing diffoscope
+[2024-05-28 16:33:25] INFO root fetch - processPackages [klarda-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klarda_python_sdk-1.0.1.tar.gz tmp/klarda_python_sdk-1.0.2.tar.gz --markdown 20240528/k/klarda-python-sdk/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-28 16:33:25] INFO root fetch - processPackages [GenETL]: Remove: archive file [/home/abi/fetcher/tmp/GenETL-0.0.6.tar.gz]
+[2024-05-28 16:33:25] INFO root fetch - processPackages [GenETL]: Remove: archive file [/home/abi/fetcher/tmp/GenETL-0.0.7.tar.gz]
+[2024-05-28 16:33:25] INFO root fetch - main [MainThread]: End processing [GenETL]: success
+[2024-05-28 16:33:25] INFO root fetch - processPackages [metallicious]: executing diffoscope
+[2024-05-28 16:33:25] INFO root fetch - processPackages [metallicious]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metallicious-0.2.27-py3-none-any.whl.zip tmp/metallicious-0.2.28-py3-none-any.whl.zip --markdown 20240528/m/metallicious/0.2.27-0.2.28/README.md --exclude *.pyd
+[2024-05-28 16:33:25] INFO root fetch - processPackages [nucliadb-node-binding]: executing diffoscope
+[2024-05-28 16:33:25] INFO root fetch - processPackages [nucliadb-node-binding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_node_binding-4.0.1.post1376.tar.gz tmp/nucliadb_node_binding-4.0.1.post1380.tar.gz --markdown 20240528/n/nucliadb-node-binding/4.0.1.post1376-4.0.1.post1380/README.md --exclude *.pyd
+[2024-05-28 16:33:26] INFO root fetch - processPackages [langroid]: Remove: archive file [/home/abi/fetcher/tmp/langroid-0.1.98.tar.gz]
+[2024-05-28 16:33:26] INFO root fetch - processPackages [langroid]: Remove: archive file [/home/abi/fetcher/tmp/langroid-0.1.99.tar.gz]
+[2024-05-28 16:33:26] INFO root fetch - main [MainThread]: End processing [langroid]: success
+[2024-05-28 16:33:26] INFO root fetch - processPackages [resc-backend]: Remove: archive file [/home/abi/fetcher/tmp/resc_backend-3.3.0.tar.gz]
+[2024-05-28 16:33:26] INFO root fetch - processPackages [resc-backend]: Remove: archive file [/home/abi/fetcher/tmp/resc_backend-3.3.1.tar.gz]
+[2024-05-28 16:33:26] INFO root fetch - main [MainThread]: End processing [resc-backend]: success
+[2024-05-28 16:33:26] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev8.tar.gz]
+[2024-05-28 16:33:26] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev9.tar.gz]
+[2024-05-28 16:33:26] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2024-05-28 16:33:26] INFO root fetch - processPackages [klarda-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/klarda_python_sdk-1.0.1.tar.gz]
+[2024-05-28 16:33:26] INFO root fetch - processPackages [klarda-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/klarda_python_sdk-1.0.2.tar.gz]
+[2024-05-28 16:33:26] INFO root fetch - main [MainThread]: End processing [klarda-python-sdk]: success
+[2024-05-28 16:33:26] INFO root fetch - processPackages [drisk-api]: executing diffoscope
+[2024-05-28 16:33:26] INFO root fetch - processPackages [drisk-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drisk_api-0.0.2.tar.gz tmp/drisk_api-0.0.3-pp39-pypy39_pp73-manylinux_2_5_i686.manylinux1_i686.whl.zip --markdown 20240528/d/drisk-api/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-28 16:33:27] INFO root fetch - processPackages [drisk-api]: Remove: archive file [/home/abi/fetcher/tmp/drisk_api-0.0.2.tar.gz]
+[2024-05-28 16:33:27] INFO root fetch - processPackages [drisk-api]: Remove: archive file [/home/abi/fetcher/tmp/drisk_api-0.0.3-pp39-pypy39_pp73-manylinux_2_5_i686.manylinux1_i686.whl.zip]
+[2024-05-28 16:33:27] INFO root fetch - main [MainThread]: End processing [drisk-api]: success
+[2024-05-28 16:33:28] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-4.0.1.post1376.tar.gz]
+[2024-05-28 16:33:28] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-4.0.1.post1380.tar.gz]
+[2024-05-28 16:33:28] INFO root fetch - main [MainThread]: End processing [nucliadb-node-binding]: success
+[2024-05-28 16:33:29] INFO root fetch - processPackages [metallicious]: Remove: archive file [/home/abi/fetcher/tmp/metallicious-0.2.27-py3-none-any.whl.zip]
+[2024-05-28 16:33:29] INFO root fetch - processPackages [metallicious]: Remove: archive file [/home/abi/fetcher/tmp/metallicious-0.2.28-py3-none-any.whl.zip]
+[2024-05-28 16:33:29] INFO root fetch - main [MainThread]: End processing [metallicious]: success
+[2024-05-28 16:33:29] INFO root fetch - processPackages [ultracart-rest-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ultracart_rest_sdk-4.0.98rc0.tar.gz]
+[2024-05-28 16:33:29] INFO root fetch - processPackages [ultracart-rest-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ultracart_rest_sdk-4.0.99rc0.tar.gz]
+[2024-05-28 16:33:29] INFO root fetch - main [MainThread]: End processing [ultracart-rest-sdk]: success
+[2024-05-28 16:33:37] INFO root fetch - processPackages [django-editor-ymaps]: Remove: archive file [/home/abi/fetcher/tmp/django-editor-ymaps-2.3.8.tar.gz]
+[2024-05-28 16:33:37] INFO root fetch - processPackages [django-editor-ymaps]: Remove: archive file [/home/abi/fetcher/tmp/django_editor_ymaps-2.3.9.tar.gz]
+[2024-05-28 16:33:37] INFO root fetch - main [MainThread]: End processing [django-editor-ymaps]: success
+[2024-05-28 16:33:37] INFO root fetch - main [MainThread]: Store serial: [23413084]
