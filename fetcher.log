@@ -11413,3 +11413,43 @@
 [2024-05-28 10:20:07] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-9.0.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-28 10:20:07] INFO root fetch - main [MainThread]: End processing [ert]: success
 [2024-05-28 10:20:07] INFO root fetch - main [MainThread]: Store serial: [23407542]
+[2024-05-28 10:22:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23407542]
+[2024-05-28 10:22:17] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-28 10:22:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: KratosContactStructuralMechanicsApplication
+[2024-05-28 10:22:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: libreflow.extensions.anpo.export-illustrator
+[2024-05-28 10:22:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: combinedpackmsnk
+[2024-05-28 10:22:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: blessmore
+[2024-05-28 10:22:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ovos-core
+[2024-05-28 10:22:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openi
+[2024-05-28 10:22:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: power-grid-model
+[2024-05-28 10:22:17] INFO root fetch - processPackages [ovos-core]: New version: [0.0.8a99] Old Version: [0.0.8a98]
+[2024-05-28 10:22:17] WARNING root fetch - processPackages [libreflow.extensions.anpo.export-illustrator]: Skipping, unable to determine old version
+[2024-05-28 10:22:17] INFO root fetch - main [MainThread]: End processing [libreflow.extensions.anpo.export-illustrator] error
+[2024-05-28 10:22:17] INFO root fetch - processPackages [ovos-core]: Downloading https://files.pythonhosted.org/packages/43/09/2b998a2fbb4c473f88a1adb0b7d511b133aff775b19c15441b76d479f339/ovos_core-0.0.8a98-py3-none-any.whl
+[2024-05-28 10:22:17] WARNING root fetch - processPackages [combinedpackmsnk]: Skipping, unable to determine old version
+[2024-05-28 10:22:17] INFO root fetch - main [MainThread]: End processing [combinedpackmsnk] error
+[2024-05-28 10:22:17] WARNING root fetch - processPackages [blessmore]: Skipping, unable to determine old version
+[2024-05-28 10:22:17] INFO root fetch - main [MainThread]: End processing [blessmore] error
+[2024-05-28 10:22:17] INFO root fetch - processPackages [openi]: New version: [2.0.0b5] Old Version: [2.0.0b2]
+[2024-05-28 10:22:17] WARNING root fetch - processPackages [ovos-core]: Skipping package: exceeds size limit 18555543>=10485760
+[2024-05-28 10:22:17] INFO root fetch - main [MainThread]: End processing [ovos-core] error
+[2024-05-28 10:22:17] INFO root fetch - processPackages [KratosContactStructuralMechanicsApplication]: New version: [9.5.1] Old Version: [9.5]
+[2024-05-28 10:22:17] INFO root fetch - processPackages [openi]: Downloading https://files.pythonhosted.org/packages/17/95/35c8cb8e2403ac22b75f43398662244c47e0136e348ed8e30690d5616b49/openi-2.0.0b2.tar.gz
+[2024-05-28 10:22:17] INFO root fetch - processPackages [KratosContactStructuralMechanicsApplication]: Downloading https://files.pythonhosted.org/packages/84/4c/b4658ebf5b9407adb977d18fd9cfc88cf8c83aa8204e059a0a46083dc51c/KratosContactStructuralMechanicsApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-28 10:22:18] WARNING root fetch - processPackages [KratosContactStructuralMechanicsApplication]: Skipping package: exceeds size limit 17568896>=10485760
+[2024-05-28 10:22:18] INFO root fetch - main [MainThread]: End processing [KratosContactStructuralMechanicsApplication] error
+[2024-05-28 10:22:18] INFO root fetch - processPackages [openi]: Downloading https://files.pythonhosted.org/packages/04/d1/0491b8775678a797f8b2ee866b0db9eaa92252eca5a20aab90e331aa3b2b/openi-2.0.0b5.tar.gz
+[2024-05-28 10:22:18] INFO root fetch - processPackages [power-grid-model]: New version: [1.7.9] Old Version: [1.7.8a1374103622511]
+[2024-05-28 10:22:18] INFO root fetch - processPackages [openi]: executing diffoscope
+[2024-05-28 10:22:18] INFO root fetch - processPackages [openi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openi-2.0.0b2.tar.gz tmp/openi-2.0.0b5.tar.gz --markdown 20240528/o/openi/2.0.0b2-2.0.0b5/README.md --exclude *.pyd
+[2024-05-28 10:22:18] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/f2/89/c6c2797d33b80597aba4cfaa3eb46b859cefaabca623a75550c89a3289f7/power-grid-model-1.7.8a1374103622511.tar.gz
+[2024-05-28 10:22:18] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/56/2b/86814a7f75dec690d4b62403c87b2b3b5aa0b3c73f37f4294b843a74b0d9/power-grid-model-1.7.9.tar.gz
+[2024-05-28 10:22:18] INFO root fetch - processPackages [openi]: Remove: archive file [/home/abi/fetcher/tmp/openi-2.0.0b2.tar.gz]
+[2024-05-28 10:22:18] INFO root fetch - processPackages [openi]: Remove: archive file [/home/abi/fetcher/tmp/openi-2.0.0b5.tar.gz]
+[2024-05-28 10:22:18] INFO root fetch - main [MainThread]: End processing [openi]: success
+[2024-05-28 10:22:19] INFO root fetch - processPackages [power-grid-model]: executing diffoscope
+[2024-05-28 10:22:19] INFO root fetch - processPackages [power-grid-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power-grid-model-1.7.8a1374103622511.tar.gz tmp/power-grid-model-1.7.9.tar.gz --markdown 20240528/p/power-grid-model/1.7.8a1374103622511-1.7.9/README.md --exclude *.pyd
+[2024-05-28 10:22:21] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.7.8a1374103622511.tar.gz]
+[2024-05-28 10:22:21] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.7.9.tar.gz]
+[2024-05-28 10:22:21] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
+[2024-05-28 10:22:21] INFO root fetch - main [MainThread]: Store serial: [23407577]
