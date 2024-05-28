@@ -18753,3 +18753,84 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 14:24:45] INFO root fetch - processPackages [dataengine]: Remove: archive file [/home/abi/fetcher/tmp/dataengine-0.0.9.tar.gz]
 [2024-05-28 14:24:45] INFO root fetch - main [MainThread]: End processing [dataengine]: success
 [2024-05-28 14:24:45] INFO root fetch - main [MainThread]: Store serial: [23410904]
+[2024-05-28 14:26:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23410904]
+[2024-05-28 14:26:54] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-28 14:26:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: AmaProductReviews
+[2024-05-28 14:26:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langtrace-python-sdk
+[2024-05-28 14:26:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: research-task
+[2024-05-28 14:26:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sayari
+[2024-05-28 14:26:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: edurpa-cloud
+[2024-05-28 14:26:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ibm-platform-services
+[2024-05-28 14:26:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: invenio-mail
+[2024-05-28 14:26:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yedextended
+[2024-05-28 14:26:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spacestudio-orbit-propagation
+[2024-05-28 14:26:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: qcentroid-agent-cli
+[2024-05-28 14:26:54] INFO root fetch - processPackages [AmaProductReviews]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-28 14:26:54] WARNING root fetch - processPackages [research-task]: Skipping, unable to determine old version
+[2024-05-28 14:26:54] INFO root fetch - main [MainThread]: End processing [research-task] error
+[2024-05-28 14:26:54] INFO root fetch - processPackages [ibm-platform-services]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-05-28 14:26:54] INFO root fetch - processPackages [langtrace-python-sdk]: New version: [2.1.0] Old Version: [2.0.9]
+[2024-05-28 14:26:54] INFO root fetch - processPackages [AmaProductReviews]: Downloading https://files.pythonhosted.org/packages/56/73/e1388aa3146c5a938c8af92d91918829de6db0483573d2b637fa090fabcb/amaproductreviews-0.1.0.tar.gz
+[2024-05-28 14:26:54] INFO root fetch - processPackages [invenio-mail]: New version: [2.1.1] Old Version: [2.1.0]
+[2024-05-28 14:26:54] INFO root fetch - processPackages [sayari]: New version: [0.0.82] Old Version: [0.0.78]
+[2024-05-28 14:26:54] WARNING root fetch - processPackages [spacestudio-orbit-propagation]: Skipping, unable to determine old version
+[2024-05-28 14:26:54] INFO root fetch - main [MainThread]: End processing [spacestudio-orbit-propagation] error
+[2024-05-28 14:26:54] INFO root fetch - processPackages [edurpa-cloud]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-28 14:26:54] INFO root fetch - processPackages [yedextended]: New version: [2.0.0a0] Old Version: [1.0.9]
+[2024-05-28 14:26:54] INFO root fetch - processPackages [langtrace-python-sdk]: Downloading https://files.pythonhosted.org/packages/9d/34/9d8d38f891d35ca35d5cd1e564106e48fe5785bd3f2a4283b64d8bd8d99c/langtrace_python_sdk-2.0.9.tar.gz
+[2024-05-28 14:26:54] INFO root fetch - processPackages [ibm-platform-services]: Downloading https://files.pythonhosted.org/packages/86/fd/38a583c4bf3803a477a17b9be43e72b393cf8decd9dab05982dda03bd356/ibm-platform-services-0.9.2.tar.gz
+[2024-05-28 14:26:54] INFO root fetch - processPackages [AmaProductReviews]: Downloading https://files.pythonhosted.org/packages/4b/ab/407be1e81f9b5fbeadaeea786c07200786eeba303275f1cd091d99c0e3fe/amaproductreviews-0.1.1.tar.gz
+[2024-05-28 14:26:54] INFO root fetch - processPackages [sayari]: Downloading https://files.pythonhosted.org/packages/ff/5e/c42bfb86dff2aad9437480fdbc8855fc861ef8bdc8ef0b93f17efcec4a51/sayari-0.0.78.tar.gz
+[2024-05-28 14:26:54] INFO root fetch - processPackages [edurpa-cloud]: Downloading https://files.pythonhosted.org/packages/4c/38/7706817cfaca99a4f5ed96836beb4b7c52dd93d9ecd2e709ac1fff70c74d/edurpa_cloud-0.0.2-py3-none-any.whl
+[2024-05-28 14:26:55] INFO root fetch - processPackages [invenio-mail]: Downloading https://files.pythonhosted.org/packages/e6/17/50aeeeb862af706f7708a02f80ad5653ab6ab4bd3d79f473d369dea147e6/invenio-mail-2.1.0.tar.gz
+[2024-05-28 14:26:55] INFO root fetch - processPackages [yedextended]: Downloading https://files.pythonhosted.org/packages/af/21/a3f600e9246bb1e6a209239ce84b1c4d21a12c7d02fa67ccad46f08a536b/yedextended-1.0.9.tar.gz
+[2024-05-28 14:26:55] INFO root fetch - processPackages [AmaProductReviews]: executing diffoscope
+[2024-05-28 14:26:55] INFO root fetch - processPackages [AmaProductReviews]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amaproductreviews-0.1.0.tar.gz tmp/amaproductreviews-0.1.1.tar.gz --markdown 20240528/A/AmaProductReviews/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-28 14:26:55] INFO root fetch - processPackages [qcentroid-agent-cli]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-28 14:26:55] INFO root fetch - processPackages [langtrace-python-sdk]: Downloading https://files.pythonhosted.org/packages/08/80/4464e1173902158c5c7f46ce4123f2431c88f15c03dda3cbe608f38072f5/langtrace_python_sdk-2.1.0.tar.gz
+[2024-05-28 14:26:55] INFO root fetch - processPackages [ibm-platform-services]: Downloading https://files.pythonhosted.org/packages/eb/cd/ec1224c39d96300a991247d2c33d28366f0f7eb4674391683396e51aa651/ibm-platform-services-0.9.3.tar.gz
+[2024-05-28 14:26:55] INFO root fetch - processPackages [qcentroid-agent-cli]: Downloading https://files.pythonhosted.org/packages/3e/2a/53d676266af16e46cf54bd7745fa928648723eb24adece8d6359de392f15/qcentroid_agent_cli-0.3.8.tar.gz
+[2024-05-28 14:26:55] INFO root fetch - processPackages [ibm-platform-services]: executing diffoscope
+[2024-05-28 14:26:55] INFO root fetch - processPackages [ibm-platform-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibm-platform-services-0.9.2.tar.gz tmp/ibm-platform-services-0.9.3.tar.gz --markdown 20240528/i/ibm-platform-services/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-05-28 14:26:55] INFO root fetch - processPackages [invenio-mail]: Downloading https://files.pythonhosted.org/packages/85/da/f132f0bbdec947d79f7ae5f20c5c8556a977d1465ff8ac0d1adad4af3bed/invenio-mail-2.1.1.tar.gz
+[2024-05-28 14:26:55] INFO root fetch - processPackages [langtrace-python-sdk]: executing diffoscope
+[2024-05-28 14:26:55] INFO root fetch - processPackages [langtrace-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langtrace_python_sdk-2.0.9.tar.gz tmp/langtrace_python_sdk-2.1.0.tar.gz --markdown 20240528/l/langtrace-python-sdk/2.0.9-2.1.0/README.md --exclude *.pyd
+[2024-05-28 14:26:55] INFO root fetch - processPackages [yedextended]: Downloading https://files.pythonhosted.org/packages/24/73/689e206111d9bb2deaca86ba32017ea5c1cd4636a4a8cefa925ffc57f122/yedextended-2.0.0a0.tar.gz
+[2024-05-28 14:26:55] INFO root fetch - processPackages [edurpa-cloud]: Downloading https://files.pythonhosted.org/packages/51/05/ce16ff7b90a6ef92f8dcf0ddd22887634053b139340775158b3e6ee45d1a/edurpa_cloud-0.0.3-py3-none-any.whl
+[2024-05-28 14:26:55] INFO root fetch - processPackages [sayari]: Downloading https://files.pythonhosted.org/packages/e9/67/372cedf0dcdd858112b38338979bc85de99e70d527581e853e216ec713af/sayari-0.0.82.tar.gz
+[2024-05-28 14:26:55] INFO root fetch - processPackages [invenio-mail]: executing diffoscope
+[2024-05-28 14:26:55] INFO root fetch - processPackages [invenio-mail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-mail-2.1.0.tar.gz tmp/invenio-mail-2.1.1.tar.gz --markdown 20240528/i/invenio-mail/2.1.0-2.1.1/README.md --exclude *.pyd
+[2024-05-28 14:26:55] INFO root fetch - processPackages [yedextended]: executing diffoscope
+[2024-05-28 14:26:55] INFO root fetch - processPackages [yedextended]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yedextended-1.0.9.tar.gz tmp/yedextended-2.0.0a0.tar.gz --markdown 20240528/y/yedextended/1.0.9-2.0.0a0/README.md --exclude *.pyd
+[2024-05-28 14:26:55] INFO root fetch - processPackages [edurpa-cloud]: executing diffoscope
+[2024-05-28 14:26:55] INFO root fetch - processPackages [edurpa-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edurpa_cloud-0.0.2-py3-none-any.whl.zip tmp/edurpa_cloud-0.0.3-py3-none-any.whl.zip --markdown 20240528/e/edurpa-cloud/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-28 14:26:55] INFO root fetch - processPackages [AmaProductReviews]: Remove: archive file [/home/abi/fetcher/tmp/amaproductreviews-0.1.0.tar.gz]
+[2024-05-28 14:26:55] INFO root fetch - processPackages [AmaProductReviews]: Remove: archive file [/home/abi/fetcher/tmp/amaproductreviews-0.1.1.tar.gz]
+[2024-05-28 14:26:55] INFO root fetch - main [MainThread]: End processing [AmaProductReviews]: success
+[2024-05-28 14:26:55] INFO root fetch - processPackages [sayari]: executing diffoscope
+[2024-05-28 14:26:55] INFO root fetch - processPackages [sayari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sayari-0.0.78.tar.gz tmp/sayari-0.0.82.tar.gz --markdown 20240528/s/sayari/0.0.78-0.0.82/README.md --exclude *.pyd
+[2024-05-28 14:26:55] INFO root fetch - processPackages [qcentroid-agent-cli]: Downloading https://files.pythonhosted.org/packages/6c/4f/cbeba738d8334ff0db5b1112d1c7475f4c9d1defb55eb593eb6b96c8c526/qcentroid_agent_cli-0.3.9.tar.gz
+[2024-05-28 14:26:55] INFO root fetch - processPackages [qcentroid-agent-cli]: executing diffoscope
+[2024-05-28 14:26:55] INFO root fetch - processPackages [qcentroid-agent-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qcentroid_agent_cli-0.3.8.tar.gz tmp/qcentroid_agent_cli-0.3.9.tar.gz --markdown 20240528/q/qcentroid-agent-cli/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-28 14:26:56] INFO root fetch - processPackages [invenio-mail]: Remove: archive file [/home/abi/fetcher/tmp/invenio-mail-2.1.0.tar.gz]
+[2024-05-28 14:26:56] INFO root fetch - processPackages [invenio-mail]: Remove: archive file [/home/abi/fetcher/tmp/invenio-mail-2.1.1.tar.gz]
+[2024-05-28 14:26:56] INFO root fetch - main [MainThread]: End processing [invenio-mail]: success
+[2024-05-28 14:26:56] INFO root fetch - processPackages [edurpa-cloud]: Remove: archive file [/home/abi/fetcher/tmp/edurpa_cloud-0.0.2-py3-none-any.whl.zip]
+[2024-05-28 14:26:56] INFO root fetch - processPackages [edurpa-cloud]: Remove: archive file [/home/abi/fetcher/tmp/edurpa_cloud-0.0.3-py3-none-any.whl.zip]
+[2024-05-28 14:26:56] INFO root fetch - main [MainThread]: End processing [edurpa-cloud]: success
+[2024-05-28 14:26:56] INFO root fetch - processPackages [yedextended]: Remove: archive file [/home/abi/fetcher/tmp/yedextended-1.0.9.tar.gz]
+[2024-05-28 14:26:56] INFO root fetch - processPackages [yedextended]: Remove: archive file [/home/abi/fetcher/tmp/yedextended-2.0.0a0.tar.gz]
+[2024-05-28 14:26:56] INFO root fetch - main [MainThread]: End processing [yedextended]: success
+[2024-05-28 14:26:56] INFO root fetch - processPackages [ibm-platform-services]: Remove: archive file [/home/abi/fetcher/tmp/ibm-platform-services-0.9.2.tar.gz]
+[2024-05-28 14:26:56] INFO root fetch - processPackages [ibm-platform-services]: Remove: archive file [/home/abi/fetcher/tmp/ibm-platform-services-0.9.3.tar.gz]
+[2024-05-28 14:26:56] INFO root fetch - main [MainThread]: End processing [ibm-platform-services]: success
+[2024-05-28 14:26:56] INFO root fetch - processPackages [qcentroid-agent-cli]: Remove: archive file [/home/abi/fetcher/tmp/qcentroid_agent_cli-0.3.8.tar.gz]
+[2024-05-28 14:26:56] INFO root fetch - processPackages [qcentroid-agent-cli]: Remove: archive file [/home/abi/fetcher/tmp/qcentroid_agent_cli-0.3.9.tar.gz]
+[2024-05-28 14:26:56] INFO root fetch - main [MainThread]: End processing [qcentroid-agent-cli]: success
+[2024-05-28 14:26:56] INFO root fetch - processPackages [langtrace-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/langtrace_python_sdk-2.0.9.tar.gz]
+[2024-05-28 14:26:56] INFO root fetch - processPackages [langtrace-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/langtrace_python_sdk-2.1.0.tar.gz]
+[2024-05-28 14:26:56] INFO root fetch - main [MainThread]: End processing [langtrace-python-sdk]: success
+[2024-05-28 14:26:57] INFO root fetch - processPackages [sayari]: Remove: archive file [/home/abi/fetcher/tmp/sayari-0.0.78.tar.gz]
+[2024-05-28 14:26:57] INFO root fetch - processPackages [sayari]: Remove: archive file [/home/abi/fetcher/tmp/sayari-0.0.82.tar.gz]
+[2024-05-28 14:26:57] INFO root fetch - main [MainThread]: End processing [sayari]: success
+[2024-05-28 14:26:57] INFO root fetch - main [MainThread]: Store serial: [23410932]
