@@ -5951,3 +5951,30 @@
 [2024-05-28 06:53:17] INFO root fetch - processPackages [python-alist]: Remove: archive file [/home/abi/fetcher/tmp/python_alist-0.0.9.9.tar.gz]
 [2024-05-28 06:53:17] INFO root fetch - main [MainThread]: End processing [python-alist]: success
 [2024-05-28 06:53:17] INFO root fetch - main [MainThread]: Store serial: [23405167]
+[2024-05-28 06:55:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23405167]
+[2024-05-28 06:55:26] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-28 06:55:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: amaze-benchmarker
+[2024-05-28 06:55:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sparql-grammar-pydantic
+[2024-05-28 06:55:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openbot-training-frontend
+[2024-05-28 06:55:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pypdfzipcrack
+[2024-05-28 06:55:26] INFO root fetch - processPackages [openbot-training-frontend]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-28 06:55:26] INFO root fetch - processPackages [openbot-training-frontend]: Downloading https://files.pythonhosted.org/packages/dc/4c/3cb9b6fdc3f56f9d85ce48e8929a6c4e84aebf40db432c840a873bb8fe85/openbot_training_frontend-0.2.0.tar.gz
+[2024-05-28 06:55:26] INFO root fetch - processPackages [amaze-benchmarker]: New version: [1.0rc0.post2] Old Version: [1.0rc0.post1]
+[2024-05-28 06:55:26] WARNING root fetch - processPackages [pypdfzipcrack]: Skipping, unable to determine old version
+[2024-05-28 06:55:26] INFO root fetch - main [MainThread]: End processing [pypdfzipcrack] error
+[2024-05-28 06:55:26] WARNING root fetch - processPackages [sparql-grammar-pydantic]: Skipping, unable to determine old version
+[2024-05-28 06:55:26] INFO root fetch - main [MainThread]: End processing [sparql-grammar-pydantic] error
+[2024-05-28 06:55:26] INFO root fetch - processPackages [amaze-benchmarker]: Downloading https://files.pythonhosted.org/packages/72/75/24b43dad8e34a9794732184d0adfc8eef9a4fdca6d6b7dcfb7f5f80dccef/amaze-benchmarker-1.0rc0.post1.tar.gz
+[2024-05-28 06:55:26] INFO root fetch - processPackages [openbot-training-frontend]: Downloading https://files.pythonhosted.org/packages/0e/0f/fe7db8bca7a175f68245b7ec9cddf9be607cea4e26157d6405018e9dd286/openbot_training_frontend-0.3.0.tar.gz
+[2024-05-28 06:55:26] INFO root fetch - processPackages [openbot-training-frontend]: executing diffoscope
+[2024-05-28 06:55:26] INFO root fetch - processPackages [openbot-training-frontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbot_training_frontend-0.2.0.tar.gz tmp/openbot_training_frontend-0.3.0.tar.gz --markdown 20240528/o/openbot-training-frontend/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-28 06:55:27] INFO root fetch - processPackages [amaze-benchmarker]: Downloading https://files.pythonhosted.org/packages/be/f5/7fa2fbf764fdea33cd66b15c406907a18bd2bff97e4e07bc475605ef8a22/amaze_benchmarker-1.0rc0.post2.tar.gz
+[2024-05-28 06:55:27] INFO root fetch - processPackages [amaze-benchmarker]: executing diffoscope
+[2024-05-28 06:55:27] INFO root fetch - processPackages [amaze-benchmarker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amaze-benchmarker-1.0rc0.post1.tar.gz tmp/amaze_benchmarker-1.0rc0.post2.tar.gz --markdown 20240528/a/amaze-benchmarker/1.0rc0.post1-1.0rc0.post2/README.md --exclude *.pyd
+[2024-05-28 06:55:27] INFO root fetch - processPackages [openbot-training-frontend]: Remove: archive file [/home/abi/fetcher/tmp/openbot_training_frontend-0.2.0.tar.gz]
+[2024-05-28 06:55:27] INFO root fetch - processPackages [openbot-training-frontend]: Remove: archive file [/home/abi/fetcher/tmp/openbot_training_frontend-0.3.0.tar.gz]
+[2024-05-28 06:55:27] INFO root fetch - main [MainThread]: End processing [openbot-training-frontend]: success
+[2024-05-28 06:55:28] INFO root fetch - processPackages [amaze-benchmarker]: Remove: archive file [/home/abi/fetcher/tmp/amaze-benchmarker-1.0rc0.post1.tar.gz]
+[2024-05-28 06:55:28] INFO root fetch - processPackages [amaze-benchmarker]: Remove: archive file [/home/abi/fetcher/tmp/amaze_benchmarker-1.0rc0.post2.tar.gz]
+[2024-05-28 06:55:28] INFO root fetch - main [MainThread]: End processing [amaze-benchmarker]: success
+[2024-05-28 06:55:28] INFO root fetch - main [MainThread]: Store serial: [23405183]
