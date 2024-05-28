@@ -6261,3 +6261,36 @@
 [2024-05-28 07:12:00] INFO root fetch - processPackages [pyrtz2]: Remove: archive file [/home/abi/fetcher/tmp/pyrtz2-1.2.0.tar.gz]
 [2024-05-28 07:12:00] INFO root fetch - main [MainThread]: End processing [pyrtz2]: success
 [2024-05-28 07:12:00] INFO root fetch - main [MainThread]: Store serial: [23405347]
+[2024-05-28 07:14:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23405347]
+[2024-05-28 07:14:09] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-28 07:14:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-l10n-it-account
+[2024-05-28 07:14:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dirstuff
+[2024-05-28 07:14:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: guolei-py3-database
+[2024-05-28 07:14:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hydro-topo
+[2024-05-28 07:14:09] INFO root fetch - processPackages [guolei-py3-database]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-28 07:14:09] INFO root fetch - processPackages [dirstuff]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-28 07:14:09] INFO root fetch - processPackages [guolei-py3-database]: Downloading https://files.pythonhosted.org/packages/62/97/77792b1f1befdb3ad2137ed2d339087adf02d15e881a57c9cd0bca840619/guolei_py3_database-0.0.3.tar.gz
+[2024-05-28 07:14:09] WARNING root fetch - processPackages [hydro-topo]: Skipping, unable to determine old version
+[2024-05-28 07:14:09] INFO root fetch - main [MainThread]: End processing [hydro-topo] error
+[2024-05-28 07:14:09] INFO root fetch - processPackages [odoo-addon-l10n-it-account]: New version: [16.0.1.1.0.1] Old Version: [16.0.1.1.0]
+[2024-05-28 07:14:09] INFO root fetch - processPackages [dirstuff]: Downloading https://files.pythonhosted.org/packages/0c/a1/501f019b4de2081d4f29fc2c191a3f4eecc80c18bc19fc352f7cb85c6d4b/dirstuff-0.1.2.tar.gz
+[2024-05-28 07:14:09] INFO root fetch - processPackages [odoo-addon-l10n-it-account]: Downloading https://files.pythonhosted.org/packages/ef/da/9af807dc009f9d0103bb9f6cb7f4dca2ab1b11ba38dfc2e511ef638ee9a0/odoo_addon_l10n_it_account-16.0.1.1.0-py3-none-any.whl
+[2024-05-28 07:14:09] INFO root fetch - processPackages [guolei-py3-database]: Downloading https://files.pythonhosted.org/packages/fd/12/791a562d3c94520139b422ef5a63f8cef362cfa8ed61d4bf51e5180e29b4/guolei_py3_database-0.0.4.tar.gz
+[2024-05-28 07:14:09] INFO root fetch - processPackages [guolei-py3-database]: executing diffoscope
+[2024-05-28 07:14:09] INFO root fetch - processPackages [guolei-py3-database]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guolei_py3_database-0.0.3.tar.gz tmp/guolei_py3_database-0.0.4.tar.gz --markdown 20240528/g/guolei-py3-database/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-28 07:14:09] INFO root fetch - processPackages [dirstuff]: Downloading https://files.pythonhosted.org/packages/47/37/8870285e1f417f770cc7bf086a73524d683ee4186136c12ed354f7df51d8/dirstuff-0.1.3.tar.gz
+[2024-05-28 07:14:09] INFO root fetch - processPackages [odoo-addon-l10n-it-account]: Downloading https://files.pythonhosted.org/packages/a0/39/ac5ececd07eaafd7feb6baee7344d2044ccfa663e850b3c4a28b82d6d787/odoo_addon_l10n_it_account-16.0.1.1.0.1-py3-none-any.whl
+[2024-05-28 07:14:10] INFO root fetch - processPackages [odoo-addon-l10n-it-account]: executing diffoscope
+[2024-05-28 07:14:10] INFO root fetch - processPackages [odoo-addon-l10n-it-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_it_account-16.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_it_account-16.0.1.1.0.1-py3-none-any.whl.zip --markdown 20240528/o/odoo-addon-l10n-it-account/16.0.1.1.0-16.0.1.1.0.1/README.md --exclude *.pyd
+[2024-05-28 07:14:10] INFO root fetch - processPackages [dirstuff]: executing diffoscope
+[2024-05-28 07:14:10] INFO root fetch - processPackages [dirstuff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dirstuff-0.1.2.tar.gz tmp/dirstuff-0.1.3.tar.gz --markdown 20240528/d/dirstuff/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-28 07:14:10] INFO root fetch - processPackages [guolei-py3-database]: Remove: archive file [/home/abi/fetcher/tmp/guolei_py3_database-0.0.3.tar.gz]
+[2024-05-28 07:14:10] INFO root fetch - processPackages [guolei-py3-database]: Remove: archive file [/home/abi/fetcher/tmp/guolei_py3_database-0.0.4.tar.gz]
+[2024-05-28 07:14:10] INFO root fetch - main [MainThread]: End processing [guolei-py3-database]: success
+[2024-05-28 07:14:10] INFO root fetch - processPackages [dirstuff]: Remove: archive file [/home/abi/fetcher/tmp/dirstuff-0.1.2.tar.gz]
+[2024-05-28 07:14:10] INFO root fetch - processPackages [dirstuff]: Remove: archive file [/home/abi/fetcher/tmp/dirstuff-0.1.3.tar.gz]
+[2024-05-28 07:14:10] INFO root fetch - main [MainThread]: End processing [dirstuff]: success
+[2024-05-28 07:14:10] INFO root fetch - processPackages [odoo-addon-l10n-it-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_account-16.0.1.1.0-py3-none-any.whl.zip]
+[2024-05-28 07:14:10] INFO root fetch - processPackages [odoo-addon-l10n-it-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_account-16.0.1.1.0.1-py3-none-any.whl.zip]
+[2024-05-28 07:14:10] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-it-account]: success
+[2024-05-28 07:14:10] INFO root fetch - main [MainThread]: Store serial: [23405359]
