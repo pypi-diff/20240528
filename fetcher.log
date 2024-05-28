@@ -4792,3 +4792,47 @@
 [2024-05-28 05:24:12] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-3.3.3.dev2024052703.tar.gz]
 [2024-05-28 05:24:12] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
 [2024-05-28 05:24:12] INFO root fetch - main [MainThread]: Store serial: [23404702]
+[2024-05-28 05:26:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23404702]
+[2024-05-28 05:26:20] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-28 05:26:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: monisha
+[2024-05-28 05:26:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: publicsuffixlist
+[2024-05-28 05:26:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ovos-core
+[2024-05-28 05:26:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-cmis
+[2024-05-28 05:26:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dataframeviewer
+[2024-05-28 05:26:21] INFO root fetch - processPackages [odoo-addon-cmis]: New version: [16.0.1.0.1] Old Version: [16.0.1.0.0.4]
+[2024-05-28 05:26:21] INFO root fetch - processPackages [dataframeviewer]: New version: [1.7.0] Old Version: [1.6.7]
+[2024-05-28 05:26:21] INFO root fetch - processPackages [odoo-addon-cmis]: Downloading https://files.pythonhosted.org/packages/b4/07/359a9e4d784addbae1d2716f08feac4f7ce6cd40a54e078ae3f014034ada/odoo_addon_cmis-16.0.1.0.0.4-py3-none-any.whl
+[2024-05-28 05:26:21] INFO root fetch - processPackages [monisha]: New version: [0.0.77] Old Version: [0.0.76]
+[2024-05-28 05:26:21] INFO root fetch - processPackages [publicsuffixlist]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-05-28 05:26:21] INFO root fetch - processPackages [ovos-core]: New version: [0.0.8a99] Old Version: [0.0.8a98]
+[2024-05-28 05:26:21] INFO root fetch - processPackages [dataframeviewer]: Downloading https://files.pythonhosted.org/packages/21/e8/ea407eb8a644af24de1aa13df442b6d48261d73bb4311b9dc939c1873a83/dataframeviewer-1.6.7.tar.gz
+[2024-05-28 05:26:21] INFO root fetch - processPackages [publicsuffixlist]: Downloading https://files.pythonhosted.org/packages/e9/d3/789ccc7b502183c3ca52f463a65a341194fd8caf884d33f4eedf4ae8f390/publicsuffixlist-0.9.3.tar.gz
+[2024-05-28 05:26:21] INFO root fetch - processPackages [monisha]: Downloading https://files.pythonhosted.org/packages/d3/bc/d5ced26a0c1f3f6a24f0e9a2e22815a6440e1521006d9fea9c851603f518/monisha-0.0.76.tar.gz
+[2024-05-28 05:26:21] INFO root fetch - processPackages [odoo-addon-cmis]: Downloading https://files.pythonhosted.org/packages/c7/7d/5ce71daab012bdd43ef406ab58b129fc973eccd76b7258bce3ff84e0c3f3/odoo_addon_cmis-16.0.1.0.1-py3-none-any.whl
+[2024-05-28 05:26:21] INFO root fetch - processPackages [ovos-core]: Downloading https://files.pythonhosted.org/packages/43/09/2b998a2fbb4c473f88a1adb0b7d511b133aff775b19c15441b76d479f339/ovos_core-0.0.8a98-py3-none-any.whl
+[2024-05-28 05:26:21] WARNING root fetch - processPackages [ovos-core]: Skipping package: exceeds size limit 18555543>=10485760
+[2024-05-28 05:26:21] INFO root fetch - main [MainThread]: End processing [ovos-core] error
+[2024-05-28 05:26:21] INFO root fetch - processPackages [odoo-addon-cmis]: executing diffoscope
+[2024-05-28 05:26:21] INFO root fetch - processPackages [odoo-addon-cmis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_cmis-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_cmis-16.0.1.0.1-py3-none-any.whl.zip --markdown 20240528/o/odoo-addon-cmis/16.0.1.0.0.4-16.0.1.0.1/README.md --exclude *.pyd
+[2024-05-28 05:26:21] INFO root fetch - processPackages [monisha]: Downloading https://files.pythonhosted.org/packages/4c/e9/36beb46b92a948a246fde0509e0f329c6347222fc4d9f18bf9492ca1449c/monisha-0.0.77.tar.gz
+[2024-05-28 05:26:21] INFO root fetch - processPackages [publicsuffixlist]: Downloading https://files.pythonhosted.org/packages/3c/09/9dc48e18dc8c917eb66fe2caef48273e4f55dea0f8d56f9f6a427373c08b/publicsuffixlist-0.9.4.tar.gz
+[2024-05-28 05:26:21] INFO root fetch - processPackages [dataframeviewer]: Downloading https://files.pythonhosted.org/packages/e1/87/e791413d6c6781c0287fb3585b5039bddb898fde1562bce92bf2e71448f5/dataframeviewer-1.7.0.tar.gz
+[2024-05-28 05:26:21] INFO root fetch - processPackages [monisha]: executing diffoscope
+[2024-05-28 05:26:21] INFO root fetch - processPackages [monisha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monisha-0.0.76.tar.gz tmp/monisha-0.0.77.tar.gz --markdown 20240528/m/monisha/0.0.76-0.0.77/README.md --exclude *.pyd
+[2024-05-28 05:26:21] INFO root fetch - processPackages [publicsuffixlist]: executing diffoscope
+[2024-05-28 05:26:21] INFO root fetch - processPackages [publicsuffixlist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/publicsuffixlist-0.9.3.tar.gz tmp/publicsuffixlist-0.9.4.tar.gz --markdown 20240528/p/publicsuffixlist/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-05-28 05:26:22] INFO root fetch - processPackages [dataframeviewer]: executing diffoscope
+[2024-05-28 05:26:22] INFO root fetch - processPackages [dataframeviewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataframeviewer-1.6.7.tar.gz tmp/dataframeviewer-1.7.0.tar.gz --markdown 20240528/d/dataframeviewer/1.6.7-1.7.0/README.md --exclude *.pyd
+[2024-05-28 05:26:22] INFO root fetch - processPackages [odoo-addon-cmis]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_cmis-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-28 05:26:22] INFO root fetch - processPackages [odoo-addon-cmis]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_cmis-16.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-28 05:26:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-cmis]: success
+[2024-05-28 05:26:22] INFO root fetch - processPackages [monisha]: Remove: archive file [/home/abi/fetcher/tmp/monisha-0.0.76.tar.gz]
+[2024-05-28 05:26:22] INFO root fetch - processPackages [monisha]: Remove: archive file [/home/abi/fetcher/tmp/monisha-0.0.77.tar.gz]
+[2024-05-28 05:26:22] INFO root fetch - main [MainThread]: End processing [monisha]: success
+[2024-05-28 05:26:22] INFO root fetch - processPackages [publicsuffixlist]: Remove: archive file [/home/abi/fetcher/tmp/publicsuffixlist-0.9.3.tar.gz]
+[2024-05-28 05:26:22] INFO root fetch - processPackages [publicsuffixlist]: Remove: archive file [/home/abi/fetcher/tmp/publicsuffixlist-0.9.4.tar.gz]
+[2024-05-28 05:26:22] INFO root fetch - main [MainThread]: End processing [publicsuffixlist]: success
+[2024-05-28 05:26:23] INFO root fetch - processPackages [dataframeviewer]: Remove: archive file [/home/abi/fetcher/tmp/dataframeviewer-1.6.7.tar.gz]
+[2024-05-28 05:26:23] INFO root fetch - processPackages [dataframeviewer]: Remove: archive file [/home/abi/fetcher/tmp/dataframeviewer-1.7.0.tar.gz]
+[2024-05-28 05:26:23] INFO root fetch - main [MainThread]: End processing [dataframeviewer]: success
+[2024-05-28 05:26:23] INFO root fetch - main [MainThread]: Store serial: [23404715]
