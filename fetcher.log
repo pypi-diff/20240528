@@ -5214,3 +5214,33 @@
 [2024-05-28 05:54:31] INFO root fetch - processPackages [asciiscape]: Remove: archive file [/home/abi/fetcher/tmp/asciiscape-0.1.0.tar.gz]
 [2024-05-28 05:54:31] INFO root fetch - main [MainThread]: End processing [asciiscape]: success
 [2024-05-28 05:54:31] INFO root fetch - main [MainThread]: Store serial: [23404890]
+[2024-05-28 05:56:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23404890]
+[2024-05-28 05:56:39] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-28 05:56:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: download-center
+[2024-05-28 05:56:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cxxheaderparser
+[2024-05-28 05:56:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datafog
+[2024-05-28 05:56:39] INFO root fetch - processPackages [datafog]: New version: [3.2.1b9] Old Version: [3.2.1b8]
+[2024-05-28 05:56:40] INFO root fetch - processPackages [datafog]: Downloading https://files.pythonhosted.org/packages/14/f2/2ef87c1f8b78d1dd4985fa015abc8d7cf07d265bbf6d03cdf5065f11c4df/datafog-3.2.1b8.tar.gz
+[2024-05-28 05:56:40] INFO root fetch - processPackages [download-center]: New version: [5.3.9] Old Version: [5.3.7]
+[2024-05-28 05:56:40] INFO root fetch - processPackages [cxxheaderparser]: New version: [1.3.2] Old Version: [1.3.1]
+[2024-05-28 05:56:40] INFO root fetch - processPackages [download-center]: Downloading https://files.pythonhosted.org/packages/9b/9b/c66f1ce355c515f31c47a7dd642ca9e9cfa3c2b1a7a354ee5613e7a432a3/download-center-5.3.7.tar.gz
+[2024-05-28 05:56:40] INFO root fetch - processPackages [cxxheaderparser]: Downloading https://files.pythonhosted.org/packages/ca/ca/a3e7d3ae24ee8870decfd469242d612943626977d7a852648a7a53f6bc38/cxxheaderparser-1.3.1.tar.gz
+[2024-05-28 05:56:40] INFO root fetch - processPackages [datafog]: Downloading https://files.pythonhosted.org/packages/42/99/de76c59b4d38e9e959d4f9ea2573fde34e37125739888433214a3190d490/datafog-3.2.1b9.tar.gz
+[2024-05-28 05:56:40] INFO root fetch - processPackages [datafog]: executing diffoscope
+[2024-05-28 05:56:40] INFO root fetch - processPackages [datafog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datafog-3.2.1b8.tar.gz tmp/datafog-3.2.1b9.tar.gz --markdown 20240528/d/datafog/3.2.1b8-3.2.1b9/README.md --exclude *.pyd
+[2024-05-28 05:56:40] INFO root fetch - processPackages [download-center]: Downloading https://files.pythonhosted.org/packages/95/35/dc76a0559493239431324f1d52542daa2a1b65d71a74ec51eb0214cebe21/download-center-5.3.9.tar.gz
+[2024-05-28 05:56:40] INFO root fetch - processPackages [cxxheaderparser]: Downloading https://files.pythonhosted.org/packages/d5/29/fb600a21535d17b39ec5ed366e4f76d6d44763d6def2334abf990f963724/cxxheaderparser-1.3.2.tar.gz
+[2024-05-28 05:56:40] INFO root fetch - processPackages [download-center]: executing diffoscope
+[2024-05-28 05:56:40] INFO root fetch - processPackages [download-center]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/download-center-5.3.7.tar.gz tmp/download-center-5.3.9.tar.gz --markdown 20240528/d/download-center/5.3.7-5.3.9/README.md --exclude *.pyd
+[2024-05-28 05:56:40] INFO root fetch - processPackages [cxxheaderparser]: executing diffoscope
+[2024-05-28 05:56:40] INFO root fetch - processPackages [cxxheaderparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cxxheaderparser-1.3.1.tar.gz tmp/cxxheaderparser-1.3.2.tar.gz --markdown 20240528/c/cxxheaderparser/1.3.1-1.3.2/README.md --exclude *.pyd
+[2024-05-28 05:56:41] INFO root fetch - processPackages [datafog]: Remove: archive file [/home/abi/fetcher/tmp/datafog-3.2.1b8.tar.gz]
+[2024-05-28 05:56:41] INFO root fetch - processPackages [datafog]: Remove: archive file [/home/abi/fetcher/tmp/datafog-3.2.1b9.tar.gz]
+[2024-05-28 05:56:41] INFO root fetch - main [MainThread]: End processing [datafog]: success
+[2024-05-28 05:56:41] INFO root fetch - processPackages [download-center]: Remove: archive file [/home/abi/fetcher/tmp/download-center-5.3.7.tar.gz]
+[2024-05-28 05:56:41] INFO root fetch - processPackages [download-center]: Remove: archive file [/home/abi/fetcher/tmp/download-center-5.3.9.tar.gz]
+[2024-05-28 05:56:41] INFO root fetch - main [MainThread]: End processing [download-center]: success
+[2024-05-28 05:56:41] INFO root fetch - processPackages [cxxheaderparser]: Remove: archive file [/home/abi/fetcher/tmp/cxxheaderparser-1.3.1.tar.gz]
+[2024-05-28 05:56:41] INFO root fetch - processPackages [cxxheaderparser]: Remove: archive file [/home/abi/fetcher/tmp/cxxheaderparser-1.3.2.tar.gz]
+[2024-05-28 05:56:41] INFO root fetch - main [MainThread]: End processing [cxxheaderparser]: success
+[2024-05-28 05:56:41] INFO root fetch - main [MainThread]: Store serial: [23404899]
