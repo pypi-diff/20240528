@@ -17793,3 +17793,126 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 13:48:58] WARNING root fetch - processPackages [ciscoconfparse2]: Skipping package: exceeds size limit 12946892>=10485760
 [2024-05-28 13:48:58] INFO root fetch - main [MainThread]: End processing [ciscoconfparse2] error
 [2024-05-28 13:48:58] INFO root fetch - main [MainThread]: Store serial: [23410456]
+[2024-05-28 13:51:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23410456]
+[2024-05-28 13:51:10] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-05-28 13:51:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: research-task
+[2024-05-28 13:51:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eliasliu
+[2024-05-28 13:51:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: evo-framework
+[2024-05-28 13:51:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Multiclass-interface
+[2024-05-28 13:51:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: md2weasypdf
+[2024-05-28 13:51:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ood_detectors
+[2024-05-28 13:51:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: allcrypt
+[2024-05-28 13:51:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flythings
+[2024-05-28 13:51:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dicio-py
+[2024-05-28 13:51:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bigdl-core-xe-batch-21
+[2024-05-28 13:51:11] INFO root fetch - processPackages [evo-framework]: New version: [2024.5.16] Old Version: [2024.5.15]
+[2024-05-28 13:51:11] INFO root fetch - processPackages [ood_detectors]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-28 13:51:11] INFO root fetch - processPackages [dicio-py]: New version: [2.4] Old Version: [2.3]
+[2024-05-28 13:51:11] WARNING root fetch - processPackages [research-task]: Skipping, unable to determine old version
+[2024-05-28 13:51:11] INFO root fetch - processPackages [research-task]: Start processing: PolicyEngine-UK
+[2024-05-28 13:51:11] INFO root fetch - main [MainThread]: End processing [research-task] error
+[2024-05-28 13:51:11] INFO root fetch - processPackages [eliasliu]: New version: [0.1.61] Old Version: [0.1.60]
+[2024-05-28 13:51:11] INFO root fetch - processPackages [md2weasypdf]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-28 13:51:11] INFO root fetch - processPackages [Multiclass-interface]: New version: [1.3] Old Version: [1.2]
+[2024-05-28 13:51:11] INFO root fetch - processPackages [allcrypt]: New version: [1.5.2] Old Version: [1.5.1]
+[2024-05-28 13:51:11] INFO root fetch - processPackages [bigdl-core-xe-batch-21]: New version: [2.5.0b20240528] Old Version: [2.5.0b20240527]
+[2024-05-28 13:51:11] INFO root fetch - processPackages [PolicyEngine-UK]: New version: [0.78.0] Old Version: [0.77.0]
+[2024-05-28 13:51:11] INFO root fetch - processPackages [flythings]: New version: [2.2.8] Old Version: [2.2.7]
+[2024-05-28 13:51:11] INFO root fetch - processPackages [ood_detectors]: Downloading https://files.pythonhosted.org/packages/2c/c1/0e33f36a315cc0d60a299e5970cb3dbd7fe0ffebd495cef6770f937ba24f/ood_detectors-0.0.8.tar.gz
+[2024-05-28 13:51:11] INFO root fetch - processPackages [evo-framework]: Downloading https://files.pythonhosted.org/packages/d3/5d/429689e6d7242fffc6893d6ec9b31136fcb42f6017279c9fc19e501e5c70/evo_framework-2024.5.15.tar.gz
+[2024-05-28 13:51:11] INFO root fetch - processPackages [dicio-py]: Downloading https://files.pythonhosted.org/packages/5c/d6/23586600d70a1fa35769e71750e05c3fb569f29603ffe3f263c05ba76991/dicio_py-2.3.tar.gz
+[2024-05-28 13:51:11] INFO root fetch - processPackages [PolicyEngine-UK]: Downloading https://files.pythonhosted.org/packages/c6/7c/98da82defeb0215e1d6f1e00eee47a41b648e659a0d75ba6f567553c73c0/PolicyEngine-UK-0.77.0.tar.gz
+[2024-05-28 13:51:11] INFO root fetch - processPackages [eliasliu]: Downloading https://files.pythonhosted.org/packages/41/79/7c2244598d01cc17c94b567619ad8e51a9fc14f4823d84ace3998d1f5a41/eliasliu-0.1.60.tar.gz
+[2024-05-28 13:51:11] INFO root fetch - processPackages [md2weasypdf]: Downloading https://files.pythonhosted.org/packages/f1/65/3db61cef53340868f62f959d46e320f31e325fe6cdc694d83d50d179a65c/md2weasypdf-0.0.8.tar.gz
+[2024-05-28 13:51:11] INFO root fetch - processPackages [Multiclass-interface]: Downloading https://files.pythonhosted.org/packages/51/79/47007e0dc4c69f091f290b681c5ebf448c8081fdf5ce73b8a942af164a92/multiclass_interface-1.2.tar.gz
+[2024-05-28 13:51:11] INFO root fetch - processPackages [allcrypt]: Downloading https://files.pythonhosted.org/packages/b7/26/8bbc05413587b92024f029150e748019c3a40ebce177e395465340a4de97/allcrypt-1.5.1.tar.gz
+[2024-05-28 13:51:11] INFO root fetch - processPackages [bigdl-core-xe-batch-21]: Downloading https://files.pythonhosted.org/packages/df/b0/66f6f8fd3bff9733295fb94b5c590a48f5e0dbc4ca9ebc6e3bb7be48a290/bigdl_core_xe_batch_21-2.5.0b20240527-cp311-cp311-win_amd64.whl
+[2024-05-28 13:51:11] INFO root fetch - processPackages [flythings]: Downloading https://files.pythonhosted.org/packages/cd/4c/bd15593f1189dd192914b075e38a2a48a9a352d4f354caeb1468182b9b8c/flythings-2.2.7.zip
+[2024-05-28 13:51:11] INFO root fetch - processPackages [ood_detectors]: Downloading https://files.pythonhosted.org/packages/3f/d6/a55f4bc549efaaabe3d000911be652e72d55a5a47cabc317d531a8ec8ada/ood_detectors-0.0.9.tar.gz
+[2024-05-28 13:51:11] INFO root fetch - processPackages [evo-framework]: Downloading https://files.pythonhosted.org/packages/2c/f3/9435be7ddec501f6c5cbbabf29ce01a2432e07ee26dc9f804feb4e8664af/evo_framework-2024.5.16.tar.gz
+[2024-05-28 13:51:11] INFO root fetch - processPackages [dicio-py]: Downloading https://files.pythonhosted.org/packages/52/f7/8cff9675f9c67916016a8646caf81e4fd645b623700820a6b185f47b42ad/dicio_py-2.4.tar.gz
+[2024-05-28 13:51:11] INFO root fetch - processPackages [ood_detectors]: executing diffoscope
+[2024-05-28 13:51:11] INFO root fetch - processPackages [ood_detectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ood_detectors-0.0.8.tar.gz tmp/ood_detectors-0.0.9.tar.gz --markdown 20240528/o/ood_detectors/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-28 13:51:11] INFO root fetch - processPackages [eliasliu]: Downloading https://files.pythonhosted.org/packages/5c/a8/051b3a6afe9b9dbc5e56b9250242759929349f2e716b606edf14a4b24593/eliasliu-0.1.61.tar.gz
+[2024-05-28 13:51:11] INFO root fetch - processPackages [evo-framework]: executing diffoscope
+[2024-05-28 13:51:11] INFO root fetch - processPackages [evo-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evo_framework-2024.5.15.tar.gz tmp/evo_framework-2024.5.16.tar.gz --markdown 20240528/e/evo-framework/2024.5.15-2024.5.16/README.md --exclude *.pyd
+[2024-05-28 13:51:11] INFO root fetch - processPackages [Multiclass-interface]: Downloading https://files.pythonhosted.org/packages/88/07/240090ffa3fc08bf0dd7c21215ed4ddedf98a8df60700cd35d495aa7ea7c/multiclass_interface-1.3.tar.gz
+[2024-05-28 13:51:11] INFO root fetch - processPackages [md2weasypdf]: Downloading https://files.pythonhosted.org/packages/2d/c8/5fc78dc955826f3ab8a2775165ba7451c92a6e7754467bb63b75296af655/md2weasypdf-0.0.9.tar.gz
+[2024-05-28 13:51:11] INFO root fetch - processPackages [PolicyEngine-UK]: Downloading https://files.pythonhosted.org/packages/5f/9c/4400d6816a2ba071d3b3fb4a94667ac26386987924f53f7c5b5eaf007af9/PolicyEngine-UK-0.78.0.tar.gz
+[2024-05-28 13:51:11] INFO root fetch - processPackages [allcrypt]: Downloading https://files.pythonhosted.org/packages/d7/e2/45e0723b19c8dfbd53f619802270ae647196c103278e0d55ae79045c6b27/allcrypt-1.5.2.tar.gz
+[2024-05-28 13:51:11] INFO root fetch - processPackages [dicio-py]: executing diffoscope
+[2024-05-28 13:51:11] INFO root fetch - processPackages [dicio-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dicio_py-2.3.tar.gz tmp/dicio_py-2.4.tar.gz --markdown 20240528/d/dicio-py/2.3-2.4/README.md --exclude *.pyd
+[2024-05-28 13:51:11] INFO root fetch - processPackages [flythings]: Downloading https://files.pythonhosted.org/packages/af/84/2ce53fcdaa9f7753e6ed0c5809dea823af4b42bfad48356bd9f03a421754/flythings-2.2.8.zip
+[2024-05-28 13:51:12] INFO root fetch - processPackages [eliasliu]: executing diffoscope
+[2024-05-28 13:51:12] INFO root fetch - processPackages [eliasliu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eliasliu-0.1.60.tar.gz tmp/eliasliu-0.1.61.tar.gz --markdown 20240528/e/eliasliu/0.1.60-0.1.61/README.md --exclude *.pyd
+[2024-05-28 13:51:12] INFO root fetch - processPackages [Multiclass-interface]: executing diffoscope
+[2024-05-28 13:51:12] INFO root fetch - processPackages [Multiclass-interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multiclass_interface-1.2.tar.gz tmp/multiclass_interface-1.3.tar.gz --markdown 20240528/M/Multiclass-interface/1.2-1.3/README.md --exclude *.pyd
+[2024-05-28 13:51:12] INFO root fetch - processPackages [md2weasypdf]: executing diffoscope
+[2024-05-28 13:51:12] INFO root fetch - processPackages [md2weasypdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/md2weasypdf-0.0.8.tar.gz tmp/md2weasypdf-0.0.9.tar.gz --markdown 20240528/m/md2weasypdf/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-28 13:51:12] INFO root fetch - processPackages [allcrypt]: executing diffoscope
+[2024-05-28 13:51:12] INFO root fetch - processPackages [allcrypt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/allcrypt-1.5.1.tar.gz tmp/allcrypt-1.5.2.tar.gz --markdown 20240528/a/allcrypt/1.5.1-1.5.2/README.md --exclude *.pyd
+[2024-05-28 13:51:12] INFO root fetch - processPackages [flythings]: executing diffoscope
+[2024-05-28 13:51:12] INFO root fetch - processPackages [flythings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flythings-2.2.7.zip tmp/flythings-2.2.8.zip --markdown 20240528/f/flythings/2.2.7-2.2.8/README.md --exclude *.pyd
+[2024-05-28 13:51:12] INFO root fetch - processPackages [PolicyEngine-UK]: executing diffoscope
+[2024-05-28 13:51:12] INFO root fetch - processPackages [PolicyEngine-UK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PolicyEngine-UK-0.77.0.tar.gz tmp/PolicyEngine-UK-0.78.0.tar.gz --markdown 20240528/P/PolicyEngine-UK/0.77.0-0.78.0/README.md --exclude *.pyd
+[2024-05-28 13:51:12] INFO root fetch - processPackages [bigdl-core-xe-batch-21]: Downloading https://files.pythonhosted.org/packages/2d/1d/be131901c7ae639fa1fa56121142e52bcc61377d349b5c58c0feba2b2f46/bigdl_core_xe_batch_21-2.5.0b20240528-cp311-cp311-manylinux2010_x86_64.whl
+[2024-05-28 13:51:12] WARNING root fetch - processPackages [bigdl-core-xe-batch-21]: Skipping package: exceeds size limit 71251938>=10485760
+[2024-05-28 13:51:12] INFO root fetch - processPackages [bigdl-core-xe-batch-21]: Start processing: utilsds
+[2024-05-28 13:51:12] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-batch-21] error
+[2024-05-28 13:51:12] INFO root fetch - processPackages [utilsds]: New version: [0.3.1] Old Version: [0.3]
+[2024-05-28 13:51:12] INFO root fetch - processPackages [utilsds]: Downloading https://files.pythonhosted.org/packages/97/dc/4e20402f6355f59b143e6a9cd1fa030d8ea121e04cb12d653a9e58fb6be8/utilsds-0.3.tar.gz
+[2024-05-28 13:51:12] INFO root fetch - processPackages [ood_detectors]: Remove: archive file [/home/abi/fetcher/tmp/ood_detectors-0.0.8.tar.gz]
+[2024-05-28 13:51:12] INFO root fetch - processPackages [ood_detectors]: Remove: archive file [/home/abi/fetcher/tmp/ood_detectors-0.0.9.tar.gz]
+[2024-05-28 13:51:12] INFO root fetch - processPackages [ood_detectors]: Start processing: parepy-toolbox
+[2024-05-28 13:51:12] INFO root fetch - main [MainThread]: End processing [ood_detectors]: success
+[2024-05-28 13:51:12] INFO root fetch - processPackages [parepy-toolbox]: New version: [0.0.1] Old Version: [0.0.0]
+[2024-05-28 13:51:12] INFO root fetch - processPackages [parepy-toolbox]: Downloading https://files.pythonhosted.org/packages/9d/08/2964e78c5871d2ce494775a39c05dc14503593a0e3b7a1a5354ce2ede8fa/parepy_toolbox-0.0.0.tar.gz
+[2024-05-28 13:51:12] INFO root fetch - processPackages [dicio-py]: Remove: archive file [/home/abi/fetcher/tmp/dicio_py-2.3.tar.gz]
+[2024-05-28 13:51:12] INFO root fetch - processPackages [dicio-py]: Remove: archive file [/home/abi/fetcher/tmp/dicio_py-2.4.tar.gz]
+[2024-05-28 13:51:12] INFO root fetch - processPackages [dicio-py]: Start processing: therix
+[2024-05-28 13:51:12] INFO root fetch - main [MainThread]: End processing [dicio-py]: success
+[2024-05-28 13:51:12] INFO root fetch - processPackages [utilsds]: Downloading https://files.pythonhosted.org/packages/39/9a/00d0bcd02dc137f761bf0eae58d6562e879bc70317993541f99ce2ed3a08/utilsds-0.3.1.tar.gz
+[2024-05-28 13:51:12] INFO root fetch - processPackages [therix]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-28 13:51:13] INFO root fetch - processPackages [eliasliu]: Remove: archive file [/home/abi/fetcher/tmp/eliasliu-0.1.60.tar.gz]
+[2024-05-28 13:51:13] INFO root fetch - processPackages [eliasliu]: Remove: archive file [/home/abi/fetcher/tmp/eliasliu-0.1.61.tar.gz]
+[2024-05-28 13:51:13] INFO root fetch - processPackages [eliasliu]: Start processing: PSO-Logger
+[2024-05-28 13:51:13] INFO root fetch - main [MainThread]: End processing [eliasliu]: success
+[2024-05-28 13:51:13] INFO root fetch - processPackages [evo-framework]: Remove: archive file [/home/abi/fetcher/tmp/evo_framework-2024.5.15.tar.gz]
+[2024-05-28 13:51:13] INFO root fetch - processPackages [evo-framework]: Remove: archive file [/home/abi/fetcher/tmp/evo_framework-2024.5.16.tar.gz]
+[2024-05-28 13:51:13] INFO root fetch - main [MainThread]: End processing [evo-framework]: success
+[2024-05-28 13:51:13] INFO root fetch - processPackages [parepy-toolbox]: Downloading https://files.pythonhosted.org/packages/2f/63/27b00890e5d135039b89af092a921d74b07b9ff866e8e57afdfd9b8edce3/parepy_toolbox-0.0.1.tar.gz
+[2024-05-28 13:51:13] WARNING root fetch - processPackages [PSO-Logger]: Skipping, unable to determine old version
+[2024-05-28 13:51:13] INFO root fetch - main [MainThread]: End processing [PSO-Logger] error
+[2024-05-28 13:51:13] INFO root fetch - processPackages [flythings]: Remove: archive file [/home/abi/fetcher/tmp/flythings-2.2.7.zip]
+[2024-05-28 13:51:13] INFO root fetch - processPackages [flythings]: Remove: archive file [/home/abi/fetcher/tmp/flythings-2.2.8.zip]
+[2024-05-28 13:51:13] INFO root fetch - main [MainThread]: End processing [flythings]: success
+[2024-05-28 13:51:13] INFO root fetch - processPackages [utilsds]: executing diffoscope
+[2024-05-28 13:51:13] INFO root fetch - processPackages [utilsds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utilsds-0.3.tar.gz tmp/utilsds-0.3.1.tar.gz --markdown 20240528/u/utilsds/0.3-0.3.1/README.md --exclude *.pyd
+[2024-05-28 13:51:13] INFO root fetch - processPackages [md2weasypdf]: Remove: archive file [/home/abi/fetcher/tmp/md2weasypdf-0.0.8.tar.gz]
+[2024-05-28 13:51:13] INFO root fetch - processPackages [md2weasypdf]: Remove: archive file [/home/abi/fetcher/tmp/md2weasypdf-0.0.9.tar.gz]
+[2024-05-28 13:51:13] INFO root fetch - main [MainThread]: End processing [md2weasypdf]: success
+[2024-05-28 13:51:13] INFO root fetch - processPackages [Multiclass-interface]: Remove: archive file [/home/abi/fetcher/tmp/multiclass_interface-1.2.tar.gz]
+[2024-05-28 13:51:13] INFO root fetch - processPackages [Multiclass-interface]: Remove: archive file [/home/abi/fetcher/tmp/multiclass_interface-1.3.tar.gz]
+[2024-05-28 13:51:13] INFO root fetch - main [MainThread]: End processing [Multiclass-interface]: success
+[2024-05-28 13:51:13] INFO root fetch - processPackages [parepy-toolbox]: executing diffoscope
+[2024-05-28 13:51:13] INFO root fetch - processPackages [parepy-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parepy_toolbox-0.0.0.tar.gz tmp/parepy_toolbox-0.0.1.tar.gz --markdown 20240528/p/parepy-toolbox/0.0.0-0.0.1/README.md --exclude *.pyd
+[2024-05-28 13:51:13] INFO root fetch - processPackages [therix]: Downloading https://files.pythonhosted.org/packages/f1/a8/4a3271dbe063ea17246d65ba9739ec10c81f4c3477759aa094dcb71d3ffd/therix-0.1.8.tar.gz
+[2024-05-28 13:51:13] INFO root fetch - processPackages [allcrypt]: Remove: archive file [/home/abi/fetcher/tmp/allcrypt-1.5.1.tar.gz]
+[2024-05-28 13:51:13] INFO root fetch - processPackages [allcrypt]: Remove: archive file [/home/abi/fetcher/tmp/allcrypt-1.5.2.tar.gz]
+[2024-05-28 13:51:13] INFO root fetch - main [MainThread]: End processing [allcrypt]: success
+[2024-05-28 13:51:13] INFO root fetch - processPackages [therix]: Downloading https://files.pythonhosted.org/packages/05/fd/28e7c0ce7af9ca0f499fda87e401d8c0bbe6ec293fae4635dd0db3f76d70/therix-0.1.9.tar.gz
+[2024-05-28 13:51:13] INFO root fetch - processPackages [parepy-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/parepy_toolbox-0.0.0.tar.gz]
+[2024-05-28 13:51:13] INFO root fetch - processPackages [parepy-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/parepy_toolbox-0.0.1.tar.gz]
+[2024-05-28 13:51:13] INFO root fetch - main [MainThread]: End processing [parepy-toolbox]: success
+[2024-05-28 13:51:13] INFO root fetch - processPackages [therix]: executing diffoscope
+[2024-05-28 13:51:13] INFO root fetch - processPackages [therix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/therix-0.1.8.tar.gz tmp/therix-0.1.9.tar.gz --markdown 20240528/t/therix/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-28 13:51:13] INFO root fetch - processPackages [utilsds]: Remove: archive file [/home/abi/fetcher/tmp/utilsds-0.3.tar.gz]
+[2024-05-28 13:51:13] INFO root fetch - processPackages [utilsds]: Remove: archive file [/home/abi/fetcher/tmp/utilsds-0.3.1.tar.gz]
+[2024-05-28 13:51:13] INFO root fetch - main [MainThread]: End processing [utilsds]: success
+[2024-05-28 13:51:14] INFO root fetch - processPackages [PolicyEngine-UK]: Remove: archive file [/home/abi/fetcher/tmp/PolicyEngine-UK-0.77.0.tar.gz]
+[2024-05-28 13:51:14] INFO root fetch - processPackages [PolicyEngine-UK]: Remove: archive file [/home/abi/fetcher/tmp/PolicyEngine-UK-0.78.0.tar.gz]
+[2024-05-28 13:51:14] INFO root fetch - main [MainThread]: End processing [PolicyEngine-UK]: success
+[2024-05-28 13:51:14] INFO root fetch - processPackages [therix]: Remove: archive file [/home/abi/fetcher/tmp/therix-0.1.8.tar.gz]
+[2024-05-28 13:51:14] INFO root fetch - processPackages [therix]: Remove: archive file [/home/abi/fetcher/tmp/therix-0.1.9.tar.gz]
+[2024-05-28 13:51:14] INFO root fetch - main [MainThread]: End processing [therix]: success
+[2024-05-28 13:51:14] INFO root fetch - main [MainThread]: Store serial: [23410500]
