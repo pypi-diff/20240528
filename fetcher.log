@@ -17248,3 +17248,84 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 13:25:56] INFO root fetch - processPackages [ampel-hu-astro]: Remove: archive file [/home/abi/fetcher/tmp/ampel_hu_astro-0.8.4a0.tar.gz]
 [2024-05-28 13:25:56] INFO root fetch - main [MainThread]: End processing [ampel-hu-astro]: success
 [2024-05-28 13:25:56] INFO root fetch - main [MainThread]: Store serial: [23410215]
+[2024-05-28 13:28:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23410215]
+[2024-05-28 13:28:07] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-28 13:28:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torchrl-nightly
+[2024-05-28 13:28:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torchtnt-nightly
+[2024-05-28 13:28:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torchx-nightly
+[2024-05-28 13:28:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: newrl
+[2024-05-28 13:28:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datagrok-api
+[2024-05-28 13:28:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ixmp4
+[2024-05-28 13:28:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: unicorn-binance-local-depth-cache
+[2024-05-28 13:28:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyatlan
+[2024-05-28 13:28:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: in-silico-cancer-cell
+[2024-05-28 13:28:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cellmaps-sdk
+[2024-05-28 13:28:07] INFO root fetch - processPackages [torchx-nightly]: New version: [2024.5.9] Old Version: [2024.5.8]
+[2024-05-28 13:28:07] INFO root fetch - processPackages [unicorn-binance-local-depth-cache]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-05-28 13:28:07] INFO root fetch - processPackages [newrl]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-05-28 13:28:07] INFO root fetch - processPackages [ixmp4]: New version: [0.9.0] Old Version: [0.8.3]
+[2024-05-28 13:28:07] ERROR root fetch - processPackages [cellmaps-sdk]: Unable to get metadata: No such project 'cellmaps-sdk'
+[2024-05-28 13:28:07] INFO root fetch - main [MainThread]: End processing [cellmaps-sdk] error
+[2024-05-28 13:28:07] INFO root fetch - processPackages [datagrok-api]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-28 13:28:07] INFO root fetch - processPackages [unicorn-binance-local-depth-cache]: Downloading https://files.pythonhosted.org/packages/31/e9/20127c5445f7f8a97e14d03bd7e3dadef41a2bc211d73ba7b2fa0b9a337d/unicorn_binance_local_depth_cache-2.0.0.tar.gz
+[2024-05-28 13:28:07] INFO root fetch - processPackages [pyatlan]: New version: [2.2.2] Old Version: [2.2.1]
+[2024-05-28 13:28:07] WARNING root fetch - processPackages [in-silico-cancer-cell]: Skipping, unable to determine old version
+[2024-05-28 13:28:07] INFO root fetch - main [MainThread]: End processing [in-silico-cancer-cell] error
+[2024-05-28 13:28:07] INFO root fetch - processPackages [torchtnt-nightly]: New version: [2024.5.28] Old Version: [2024.5.27]
+[2024-05-28 13:28:07] INFO root fetch - processPackages [torchrl-nightly]: New version: [2024.5.9] Old Version: [2024.5.8]
+[2024-05-28 13:28:07] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/4f/2c/1b1fd11c1eb29345cef72d90c551ee6ca39cb1ca91dcb13a62e39d09d3e9/torchx_nightly-2024.5.8-py3-none-any.whl
+[2024-05-28 13:28:07] INFO root fetch - processPackages [datagrok-api]: Downloading https://files.pythonhosted.org/packages/fc/df/91e46f3c5767e67e000cb562119667bb03d6d2bc32a111e329115a5e1561/datagrok_api-0.0.1.tar.gz
+[2024-05-28 13:28:07] INFO root fetch - processPackages [newrl]: Downloading https://files.pythonhosted.org/packages/0f/88/5329a5d7bfed5f09e2f0b3641f666d77d92015a31eb07f7eda4d6dbbc19b/newrl-0.3.5.tar.gz
+[2024-05-28 13:28:07] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/76/48/8255df3bf3f927165a13927733046614c156232c2208ac6caf4ad7849198/torchtnt_nightly-2024.5.27.tar.gz
+[2024-05-28 13:28:07] INFO root fetch - processPackages [pyatlan]: Downloading https://files.pythonhosted.org/packages/6f/cb/7a50c95cf93fa36cb53219ea654c03897a39c8bcd0957bd43160d3978291/pyatlan-2.2.1.tar.gz
+[2024-05-28 13:28:07] INFO root fetch - processPackages [ixmp4]: Downloading https://files.pythonhosted.org/packages/96/e9/3daa6c49382ed985b5f5b91861094660e640ef8df8cd23b4249d89c83e0e/ixmp4-0.8.3.tar.gz
+[2024-05-28 13:28:07] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/a5/6d/9461214af24f1d24305421c7f45896fa740108e193fceb8f3145648e07e2/torchrl_nightly-2024.5.8-cp39-cp39-win_amd64.whl
+[2024-05-28 13:28:07] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/77/19/3475ceeec15466054f155b399d006faaf128258c35d771397c04ac9cf1e4/torchx_nightly-2024.5.9-py3-none-any.whl
+[2024-05-28 13:28:07] INFO root fetch - processPackages [unicorn-binance-local-depth-cache]: Downloading https://files.pythonhosted.org/packages/bc/b8/559d8afcdea455ac5faaa909bbd599ff3fe634f70877dff4de3cc5a76ee7/unicorn_binance_local_depth_cache-2.1.0.tar.gz
+[2024-05-28 13:28:08] INFO root fetch - processPackages [newrl]: Downloading https://files.pythonhosted.org/packages/b6/27/1efe4b41c1444427ae60eeca2f93f6baef170302e73f74112e74d74dacdc/newrl-0.3.6.tar.gz
+[2024-05-28 13:28:08] INFO root fetch - processPackages [torchx-nightly]: executing diffoscope
+[2024-05-28 13:28:08] INFO root fetch - processPackages [torchx-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchx_nightly-2024.5.8-py3-none-any.whl.zip tmp/torchx_nightly-2024.5.9-py3-none-any.whl.zip --markdown 20240528/t/torchx-nightly/2024.5.8-2024.5.9/README.md --exclude *.pyd
+[2024-05-28 13:28:08] INFO root fetch - processPackages [datagrok-api]: Downloading https://files.pythonhosted.org/packages/27/47/a686687fc340d88dc0a83b48cc8df7becb7bc387be3ccd74cad3b87709dc/datagrok_api-0.0.2.tar.gz
+[2024-05-28 13:28:08] INFO root fetch - processPackages [pyatlan]: Downloading https://files.pythonhosted.org/packages/b8/f8/5479bad9ecd77599fcb6dcd678696f984ebbcbaf9fd9e876ef6f248cd14f/pyatlan-2.2.2.tar.gz
+[2024-05-28 13:28:08] INFO root fetch - processPackages [unicorn-binance-local-depth-cache]: executing diffoscope
+[2024-05-28 13:28:08] INFO root fetch - processPackages [unicorn-binance-local-depth-cache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unicorn_binance_local_depth_cache-2.0.0.tar.gz tmp/unicorn_binance_local_depth_cache-2.1.0.tar.gz --markdown 20240528/u/unicorn-binance-local-depth-cache/2.0.0-2.1.0/README.md --exclude *.pyd
+[2024-05-28 13:28:08] INFO root fetch - processPackages [ixmp4]: Downloading https://files.pythonhosted.org/packages/f9/d7/6a30bf4ae3fcc26dca0ae854aaf8a5561eaa299847a51729c2bcf829f2e1/ixmp4-0.9.0.tar.gz
+[2024-05-28 13:28:08] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/41/8a/cc93f9de00452ffcc2eb40cf004444186480d9c8f6db5775f9223dc3a967/torchtnt_nightly-2024.5.28.tar.gz
+[2024-05-28 13:28:08] INFO root fetch - processPackages [newrl]: executing diffoscope
+[2024-05-28 13:28:08] INFO root fetch - processPackages [newrl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/newrl-0.3.5.tar.gz tmp/newrl-0.3.6.tar.gz --markdown 20240528/n/newrl/0.3.5-0.3.6/README.md --exclude *.pyd
+[2024-05-28 13:28:08] INFO root fetch - processPackages [datagrok-api]: executing diffoscope
+[2024-05-28 13:28:08] INFO root fetch - processPackages [datagrok-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datagrok_api-0.0.1.tar.gz tmp/datagrok_api-0.0.2.tar.gz --markdown 20240528/d/datagrok-api/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-28 13:28:08] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/e9/e4/1d21a71adb0d6367cd81a5f47617cabf90f99ac96a421dda991f6aeefff2/torchrl_nightly-2024.5.9-cp39-cp39-win_amd64.whl
+[2024-05-28 13:28:08] INFO root fetch - processPackages [ixmp4]: executing diffoscope
+[2024-05-28 13:28:08] INFO root fetch - processPackages [ixmp4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ixmp4-0.8.3.tar.gz tmp/ixmp4-0.9.0.tar.gz --markdown 20240528/i/ixmp4/0.8.3-0.9.0/README.md --exclude *.pyd
+[2024-05-28 13:28:08] INFO root fetch - processPackages [torchtnt-nightly]: executing diffoscope
+[2024-05-28 13:28:08] INFO root fetch - processPackages [torchtnt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchtnt_nightly-2024.5.27.tar.gz tmp/torchtnt_nightly-2024.5.28.tar.gz --markdown 20240528/t/torchtnt-nightly/2024.5.27-2024.5.28/README.md --exclude *.pyd
+[2024-05-28 13:28:08] INFO root fetch - processPackages [pyatlan]: executing diffoscope
+[2024-05-28 13:28:08] INFO root fetch - processPackages [pyatlan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyatlan-2.2.1.tar.gz tmp/pyatlan-2.2.2.tar.gz --markdown 20240528/p/pyatlan/2.2.1-2.2.2/README.md --exclude *.pyd
+[2024-05-28 13:28:08] INFO root fetch - processPackages [torchrl-nightly]: executing diffoscope
+[2024-05-28 13:28:08] INFO root fetch - processPackages [torchrl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrl_nightly-2024.5.8-cp39-cp39-win_amd64.whl.zip tmp/torchrl_nightly-2024.5.9-cp39-cp39-win_amd64.whl.zip --markdown 20240528/t/torchrl-nightly/2024.5.8-2024.5.9/README.md --exclude *.pyd
+[2024-05-28 13:28:08] INFO root fetch - processPackages [datagrok-api]: Remove: archive file [/home/abi/fetcher/tmp/datagrok_api-0.0.1.tar.gz]
+[2024-05-28 13:28:08] INFO root fetch - processPackages [datagrok-api]: Remove: archive file [/home/abi/fetcher/tmp/datagrok_api-0.0.2.tar.gz]
+[2024-05-28 13:28:08] INFO root fetch - main [MainThread]: End processing [datagrok-api]: success
+[2024-05-28 13:28:08] INFO root fetch - processPackages [newrl]: Remove: archive file [/home/abi/fetcher/tmp/newrl-0.3.5.tar.gz]
+[2024-05-28 13:28:08] INFO root fetch - processPackages [newrl]: Remove: archive file [/home/abi/fetcher/tmp/newrl-0.3.6.tar.gz]
+[2024-05-28 13:28:08] INFO root fetch - main [MainThread]: End processing [newrl]: success
+[2024-05-28 13:28:09] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2024.5.8-py3-none-any.whl.zip]
+[2024-05-28 13:28:09] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2024.5.9-py3-none-any.whl.zip]
+[2024-05-28 13:28:09] INFO root fetch - main [MainThread]: End processing [torchx-nightly]: success
+[2024-05-28 13:28:09] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt_nightly-2024.5.27.tar.gz]
+[2024-05-28 13:28:09] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt_nightly-2024.5.28.tar.gz]
+[2024-05-28 13:28:09] INFO root fetch - main [MainThread]: End processing [torchtnt-nightly]: success
+[2024-05-28 13:28:09] INFO root fetch - processPackages [ixmp4]: Remove: archive file [/home/abi/fetcher/tmp/ixmp4-0.8.3.tar.gz]
+[2024-05-28 13:28:09] INFO root fetch - processPackages [ixmp4]: Remove: archive file [/home/abi/fetcher/tmp/ixmp4-0.9.0.tar.gz]
+[2024-05-28 13:28:09] INFO root fetch - main [MainThread]: End processing [ixmp4]: success
+[2024-05-28 13:28:09] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2024.5.8-cp39-cp39-win_amd64.whl.zip]
+[2024-05-28 13:28:09] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2024.5.9-cp39-cp39-win_amd64.whl.zip]
+[2024-05-28 13:28:09] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
+[2024-05-28 13:28:09] INFO root fetch - processPackages [unicorn-binance-local-depth-cache]: Remove: archive file [/home/abi/fetcher/tmp/unicorn_binance_local_depth_cache-2.0.0.tar.gz]
+[2024-05-28 13:28:09] INFO root fetch - processPackages [unicorn-binance-local-depth-cache]: Remove: archive file [/home/abi/fetcher/tmp/unicorn_binance_local_depth_cache-2.1.0.tar.gz]
+[2024-05-28 13:28:09] INFO root fetch - main [MainThread]: End processing [unicorn-binance-local-depth-cache]: success
+[2024-05-28 13:28:10] INFO root fetch - processPackages [pyatlan]: Remove: archive file [/home/abi/fetcher/tmp/pyatlan-2.2.1.tar.gz]
+[2024-05-28 13:28:10] INFO root fetch - processPackages [pyatlan]: Remove: archive file [/home/abi/fetcher/tmp/pyatlan-2.2.2.tar.gz]
+[2024-05-28 13:28:10] INFO root fetch - main [MainThread]: End processing [pyatlan]: success
+[2024-05-28 13:28:10] INFO root fetch - main [MainThread]: Store serial: [23410278]
