@@ -20521,3 +20521,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 15:21:25] INFO root fetch - processPackages [camel-ai]: Remove: archive file [/home/abi/fetcher/tmp/camel_ai-0.1.4.tar.gz]
 [2024-05-28 15:21:25] INFO root fetch - main [MainThread]: End processing [camel-ai]: success
 [2024-05-28 15:21:25] INFO root fetch - main [MainThread]: Store serial: [23411800]
+[2024-05-28 15:23:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23411800]
+[2024-05-28 15:23:34] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-28 15:23:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ocf-datapipes
+[2024-05-28 15:23:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iqvia-e360
+[2024-05-28 15:23:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: postfinancex
+[2024-05-28 15:23:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: simevopy
+[2024-05-28 15:23:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: prvict
+[2024-05-28 15:23:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: earningscall
+[2024-05-28 15:23:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bec-ipython-client
+[2024-05-28 15:23:35] INFO root fetch - processPackages [earningscall]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-28 15:23:35] INFO root fetch - processPackages [simevopy]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-28 15:23:35] INFO root fetch - processPackages [ocf-datapipes]: New version: [3.3.9] Old Version: [3.3.8]
+[2024-05-28 15:23:35] INFO root fetch - processPackages [iqvia-e360]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-05-28 15:23:35] WARNING root fetch - processPackages [prvict]: Skipping, unable to determine old version
+[2024-05-28 15:23:35] INFO root fetch - main [MainThread]: End processing [prvict] error
+[2024-05-28 15:23:35] INFO root fetch - processPackages [postfinancex]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-28 15:23:35] INFO root fetch - processPackages [earningscall]: Downloading https://files.pythonhosted.org/packages/28/52/968758dbe63a34e3249a9a692440d9fb17af7484aa86192d81671a3f958d/earningscall-0.0.6.tar.gz
+[2024-05-28 15:23:35] INFO root fetch - processPackages [simevopy]: Downloading https://files.pythonhosted.org/packages/a7/95/7b73e01221c239dbb21ad69e6e31e4bf710b1f289bd7cdb74c540f13b0c6/simevopy-0.1.8.tar.gz
+[2024-05-28 15:23:35] INFO root fetch - processPackages [bec-ipython-client]: New version: [2.9.6] Old Version: [2.9.5]
+[2024-05-28 15:23:35] INFO root fetch - processPackages [ocf-datapipes]: Downloading https://files.pythonhosted.org/packages/15/c1/a7b606f36344fabf944e15a0797bc3247212355d28ff2a63eef5077883b8/ocf_datapipes-3.3.8.tar.gz
+[2024-05-28 15:23:35] INFO root fetch - processPackages [iqvia-e360]: Downloading https://files.pythonhosted.org/packages/24/83/49240b1e608b093b5cb3041d5a062cd19221aa19dbd5c96230f539024a74/iqvia_e360-0.9.5-py3-none-any.whl
+[2024-05-28 15:23:35] INFO root fetch - processPackages [postfinancex]: Downloading https://files.pythonhosted.org/packages/d8/a9/f9103049d190db9c81ae5297ff510ebd9601e30f5e768006115d475e9f1c/postfinancex-0.0.8.tar.gz
+[2024-05-28 15:23:35] INFO root fetch - processPackages [simevopy]: Downloading https://files.pythonhosted.org/packages/22/53/31d63eb0aba745235ab86e254349ffc473dcf70538f3ab35a99fc2cf58ed/simevopy-0.1.9.tar.gz
+[2024-05-28 15:23:35] INFO root fetch - processPackages [bec-ipython-client]: Downloading https://files.pythonhosted.org/packages/42/2a/dcf7efb78da250ad0ac30ed1bb83ea66d2277294db43860c65b3d4015fd9/bec_ipython_client-2.9.5.tar.gz
+[2024-05-28 15:23:35] INFO root fetch - processPackages [earningscall]: Downloading https://files.pythonhosted.org/packages/26/64/28bb868f991e445b46a7eaec9562c32df7b39eb2bf111f486d14aa9b098b/earningscall-0.0.7.tar.gz
+[2024-05-28 15:23:35] INFO root fetch - processPackages [simevopy]: executing diffoscope
+[2024-05-28 15:23:35] INFO root fetch - processPackages [simevopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simevopy-0.1.8.tar.gz tmp/simevopy-0.1.9.tar.gz --markdown 20240528/s/simevopy/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-28 15:23:35] INFO root fetch - processPackages [ocf-datapipes]: Downloading https://files.pythonhosted.org/packages/55/0a/5970538e840540313fb117c6e1f7bad44ee3f3749d076d0440485cc60a89/ocf_datapipes-3.3.9.tar.gz
+[2024-05-28 15:23:35] INFO root fetch - processPackages [earningscall]: executing diffoscope
+[2024-05-28 15:23:35] INFO root fetch - processPackages [earningscall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/earningscall-0.0.6.tar.gz tmp/earningscall-0.0.7.tar.gz --markdown 20240528/e/earningscall/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-28 15:23:35] INFO root fetch - processPackages [iqvia-e360]: Downloading https://files.pythonhosted.org/packages/c1/6c/504a03a58f03294bcd58fa6ba3f541b8c5e45abd4401410c33ee257da381/iqvia_e360-0.9.6-py3-none-any.whl
+[2024-05-28 15:23:35] INFO root fetch - processPackages [postfinancex]: Downloading https://files.pythonhosted.org/packages/5c/83/328230b716fe7acee9a1b06cc053d84210aae05d70bec8f159f0ba66e200/postfinancex-0.0.9.tar.gz
+[2024-05-28 15:23:35] INFO root fetch - processPackages [ocf-datapipes]: executing diffoscope
+[2024-05-28 15:23:35] INFO root fetch - processPackages [ocf-datapipes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocf_datapipes-3.3.8.tar.gz tmp/ocf_datapipes-3.3.9.tar.gz --markdown 20240528/o/ocf-datapipes/3.3.8-3.3.9/README.md --exclude *.pyd
+[2024-05-28 15:23:35] INFO root fetch - processPackages [bec-ipython-client]: Downloading https://files.pythonhosted.org/packages/13/80/aec73bca57d40003e967ae6f6ee26ab8daed9452221ca1f19dc73ff620dd/bec_ipython_client-2.9.6.tar.gz
+[2024-05-28 15:23:35] INFO root fetch - processPackages [postfinancex]: executing diffoscope
+[2024-05-28 15:23:35] INFO root fetch - processPackages [postfinancex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/postfinancex-0.0.8.tar.gz tmp/postfinancex-0.0.9.tar.gz --markdown 20240528/p/postfinancex/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-28 15:23:35] INFO root fetch - processPackages [iqvia-e360]: executing diffoscope
+[2024-05-28 15:23:35] INFO root fetch - processPackages [iqvia-e360]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iqvia_e360-0.9.5-py3-none-any.whl.zip tmp/iqvia_e360-0.9.6-py3-none-any.whl.zip --markdown 20240528/i/iqvia-e360/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-05-28 15:23:36] INFO root fetch - processPackages [bec-ipython-client]: executing diffoscope
+[2024-05-28 15:23:36] INFO root fetch - processPackages [bec-ipython-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_ipython_client-2.9.5.tar.gz tmp/bec_ipython_client-2.9.6.tar.gz --markdown 20240528/b/bec-ipython-client/2.9.5-2.9.6/README.md --exclude *.pyd
+[2024-05-28 15:23:36] INFO root fetch - processPackages [simevopy]: Remove: archive file [/home/abi/fetcher/tmp/simevopy-0.1.8.tar.gz]
+[2024-05-28 15:23:36] INFO root fetch - processPackages [simevopy]: Remove: archive file [/home/abi/fetcher/tmp/simevopy-0.1.9.tar.gz]
+[2024-05-28 15:23:36] INFO root fetch - main [MainThread]: End processing [simevopy]: success
+[2024-05-28 15:23:36] INFO root fetch - processPackages [postfinancex]: Remove: archive file [/home/abi/fetcher/tmp/postfinancex-0.0.8.tar.gz]
+[2024-05-28 15:23:36] INFO root fetch - processPackages [postfinancex]: Remove: archive file [/home/abi/fetcher/tmp/postfinancex-0.0.9.tar.gz]
+[2024-05-28 15:23:36] INFO root fetch - main [MainThread]: End processing [postfinancex]: success
+[2024-05-28 15:23:36] INFO root fetch - processPackages [earningscall]: Remove: archive file [/home/abi/fetcher/tmp/earningscall-0.0.6.tar.gz]
+[2024-05-28 15:23:36] INFO root fetch - processPackages [earningscall]: Remove: archive file [/home/abi/fetcher/tmp/earningscall-0.0.7.tar.gz]
+[2024-05-28 15:23:36] INFO root fetch - main [MainThread]: End processing [earningscall]: success
+[2024-05-28 15:23:36] INFO root fetch - processPackages [iqvia-e360]: Remove: archive file [/home/abi/fetcher/tmp/iqvia_e360-0.9.5-py3-none-any.whl.zip]
+[2024-05-28 15:23:36] INFO root fetch - processPackages [iqvia-e360]: Remove: archive file [/home/abi/fetcher/tmp/iqvia_e360-0.9.6-py3-none-any.whl.zip]
+[2024-05-28 15:23:36] INFO root fetch - main [MainThread]: End processing [iqvia-e360]: success
+[2024-05-28 15:23:36] INFO root fetch - processPackages [bec-ipython-client]: Remove: archive file [/home/abi/fetcher/tmp/bec_ipython_client-2.9.5.tar.gz]
+[2024-05-28 15:23:36] INFO root fetch - processPackages [bec-ipython-client]: Remove: archive file [/home/abi/fetcher/tmp/bec_ipython_client-2.9.6.tar.gz]
+[2024-05-28 15:23:36] INFO root fetch - main [MainThread]: End processing [bec-ipython-client]: success
+[2024-05-28 15:23:36] INFO root fetch - processPackages [ocf-datapipes]: Remove: archive file [/home/abi/fetcher/tmp/ocf_datapipes-3.3.8.tar.gz]
+[2024-05-28 15:23:36] INFO root fetch - processPackages [ocf-datapipes]: Remove: archive file [/home/abi/fetcher/tmp/ocf_datapipes-3.3.9.tar.gz]
+[2024-05-28 15:23:36] INFO root fetch - main [MainThread]: End processing [ocf-datapipes]: success
+[2024-05-28 15:23:36] INFO root fetch - main [MainThread]: Store serial: [23411824]
