@@ -14905,3 +14905,57 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 11:53:22] INFO root fetch - processPackages [panoptic]: Remove: archive file [/home/abi/fetcher/tmp/panoptic-0.3.4rc2.tar.gz]
 [2024-05-28 11:53:22] INFO root fetch - main [MainThread]: End processing [panoptic]: success
 [2024-05-28 11:53:22] INFO root fetch - main [MainThread]: Store serial: [23409116]
+[2024-05-28 11:55:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23409116]
+[2024-05-28 11:55:32] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-28 11:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: AlfenCharger
+[2024-05-28 11:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: transstellar-antd
+[2024-05-28 11:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: matplobblib
+[2024-05-28 11:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: solvency2-data
+[2024-05-28 11:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gpt-computer-assistant
+[2024-05-28 11:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-ticketbai
+[2024-05-28 11:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: glue-vispy-viewers
+[2024-05-28 11:55:32] INFO root fetch - processPackages [transstellar-antd]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-28 11:55:32] INFO root fetch - processPackages [gpt-computer-assistant]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-28 11:55:32] WARNING root fetch - processPackages [AlfenCharger]: Skipping, unable to determine old version
+[2024-05-28 11:55:32] INFO root fetch - main [MainThread]: End processing [AlfenCharger] error
+[2024-05-28 11:55:32] INFO root fetch - processPackages [django-ticketbai]: New version: [1.5] Old Version: [1.4]
+[2024-05-28 11:55:32] INFO root fetch - processPackages [transstellar-antd]: Downloading https://files.pythonhosted.org/packages/8f/a6/d619f3451d6a76e12fef710752e73b34964d894a417d58432367108c9910/transstellar_antd-0.8.1.tar.gz
+[2024-05-28 11:55:32] INFO root fetch - processPackages [solvency2-data]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-28 11:55:32] INFO root fetch - processPackages [gpt-computer-assistant]: Downloading https://files.pythonhosted.org/packages/eb/a5/dde638c7e81272607397596382cf0abe12b05df113bb1bd222737763a5d8/gpt_computer_assistant-0.2.0.tar.gz
+[2024-05-28 11:55:32] WARNING root fetch - processPackages [matplobblib]: Skipping, unable to determine old version
+[2024-05-28 11:55:32] INFO root fetch - main [MainThread]: End processing [matplobblib] error
+[2024-05-28 11:55:32] INFO root fetch - processPackages [glue-vispy-viewers]: New version: [1.2.1] Old Version: [1.1.0]
+[2024-05-28 11:55:32] INFO root fetch - processPackages [solvency2-data]: Downloading https://files.pythonhosted.org/packages/1e/19/834673576a598595ab28891350048e6025e8aa0f639b7e72bbf566c5690e/solvency2_data-0.2.0.tar.gz
+[2024-05-28 11:55:32] INFO root fetch - processPackages [django-ticketbai]: Downloading https://files.pythonhosted.org/packages/86/22/79a4ecaa14129b9ce11100001e001ebf8e4b0ac3058220778d59b8443b53/django_ticketbai-1.4.tar.gz
+[2024-05-28 11:55:32] INFO root fetch - processPackages [glue-vispy-viewers]: Downloading https://files.pythonhosted.org/packages/ae/d8/2e20b5d635afa147e4d4c4f27ffc2ffcbdc71c7fb3a92c18c9e9645ecc5e/glue-vispy-viewers-1.1.0.tar.gz
+[2024-05-28 11:55:32] INFO root fetch - processPackages [transstellar-antd]: Downloading https://files.pythonhosted.org/packages/71/89/6a56e920e316df0da9580cc9789cd02c1fe6b93a5d4fd10dc20c13fd9f5f/transstellar_antd-0.9.0.tar.gz
+[2024-05-28 11:55:32] INFO root fetch - processPackages [gpt-computer-assistant]: Downloading https://files.pythonhosted.org/packages/50/12/86f4ac9ab244814d66c6f4103afd6030c78e55c5cce43193b1192551c1d3/gpt_computer_assistant-0.3.0.tar.gz
+[2024-05-28 11:55:32] INFO root fetch - processPackages [transstellar-antd]: executing diffoscope
+[2024-05-28 11:55:32] INFO root fetch - processPackages [transstellar-antd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transstellar_antd-0.8.1.tar.gz tmp/transstellar_antd-0.9.0.tar.gz --markdown 20240528/t/transstellar-antd/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-28 11:55:32] INFO root fetch - processPackages [gpt-computer-assistant]: executing diffoscope
+[2024-05-28 11:55:32] INFO root fetch - processPackages [gpt-computer-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_computer_assistant-0.2.0.tar.gz tmp/gpt_computer_assistant-0.3.0.tar.gz --markdown 20240528/g/gpt-computer-assistant/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-28 11:55:32] INFO root fetch - processPackages [django-ticketbai]: Downloading https://files.pythonhosted.org/packages/2b/00/c32ca280c53c43dbc99819da9a977495e49343d1e1a74277ec658046ea3c/django_ticketbai-1.5.tar.gz
+[2024-05-28 11:55:32] INFO root fetch - processPackages [solvency2-data]: Downloading https://files.pythonhosted.org/packages/4f/e2/4364f906eadd49b34911b9f6127ffc6aed6a3c4e32d19799f9593bf44723/solvency2_data-0.2.1.tar.gz
+[2024-05-28 11:55:32] INFO root fetch - processPackages [glue-vispy-viewers]: Downloading https://files.pythonhosted.org/packages/e5/15/86bdbd38a6e1fee8e38dc4ac532a0a060c174850de4bd66421af33caa897/glue_vispy_viewers-1.2.1.tar.gz
+[2024-05-28 11:55:33] INFO root fetch - processPackages [solvency2-data]: executing diffoscope
+[2024-05-28 11:55:33] INFO root fetch - processPackages [solvency2-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solvency2_data-0.2.0.tar.gz tmp/solvency2_data-0.2.1.tar.gz --markdown 20240528/s/solvency2-data/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-28 11:55:33] INFO root fetch - processPackages [django-ticketbai]: executing diffoscope
+[2024-05-28 11:55:33] INFO root fetch - processPackages [django-ticketbai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_ticketbai-1.4.tar.gz tmp/django_ticketbai-1.5.tar.gz --markdown 20240528/d/django-ticketbai/1.4-1.5/README.md --exclude *.pyd
+[2024-05-28 11:55:33] INFO root fetch - processPackages [glue-vispy-viewers]: executing diffoscope
+[2024-05-28 11:55:33] INFO root fetch - processPackages [glue-vispy-viewers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glue-vispy-viewers-1.1.0.tar.gz tmp/glue_vispy_viewers-1.2.1.tar.gz --markdown 20240528/g/glue-vispy-viewers/1.1.0-1.2.1/README.md --exclude *.pyd
+[2024-05-28 11:55:33] INFO root fetch - processPackages [transstellar-antd]: Remove: archive file [/home/abi/fetcher/tmp/transstellar_antd-0.8.1.tar.gz]
+[2024-05-28 11:55:33] INFO root fetch - processPackages [transstellar-antd]: Remove: archive file [/home/abi/fetcher/tmp/transstellar_antd-0.9.0.tar.gz]
+[2024-05-28 11:55:33] INFO root fetch - main [MainThread]: End processing [transstellar-antd]: success
+[2024-05-28 11:55:33] INFO root fetch - processPackages [solvency2-data]: Remove: archive file [/home/abi/fetcher/tmp/solvency2_data-0.2.0.tar.gz]
+[2024-05-28 11:55:33] INFO root fetch - processPackages [solvency2-data]: Remove: archive file [/home/abi/fetcher/tmp/solvency2_data-0.2.1.tar.gz]
+[2024-05-28 11:55:33] INFO root fetch - main [MainThread]: End processing [solvency2-data]: success
+[2024-05-28 11:55:33] INFO root fetch - processPackages [django-ticketbai]: Remove: archive file [/home/abi/fetcher/tmp/django_ticketbai-1.4.tar.gz]
+[2024-05-28 11:55:33] INFO root fetch - processPackages [django-ticketbai]: Remove: archive file [/home/abi/fetcher/tmp/django_ticketbai-1.5.tar.gz]
+[2024-05-28 11:55:33] INFO root fetch - main [MainThread]: End processing [django-ticketbai]: success
+[2024-05-28 11:55:33] INFO root fetch - processPackages [gpt-computer-assistant]: Remove: archive file [/home/abi/fetcher/tmp/gpt_computer_assistant-0.2.0.tar.gz]
+[2024-05-28 11:55:33] INFO root fetch - processPackages [gpt-computer-assistant]: Remove: archive file [/home/abi/fetcher/tmp/gpt_computer_assistant-0.3.0.tar.gz]
+[2024-05-28 11:55:33] INFO root fetch - main [MainThread]: End processing [gpt-computer-assistant]: success
+[2024-05-28 11:55:33] INFO root fetch - processPackages [glue-vispy-viewers]: Remove: archive file [/home/abi/fetcher/tmp/glue-vispy-viewers-1.1.0.tar.gz]
+[2024-05-28 11:55:33] INFO root fetch - processPackages [glue-vispy-viewers]: Remove: archive file [/home/abi/fetcher/tmp/glue_vispy_viewers-1.2.1.tar.gz]
+[2024-05-28 11:55:33] INFO root fetch - main [MainThread]: End processing [glue-vispy-viewers]: success
+[2024-05-28 11:55:33] INFO root fetch - main [MainThread]: Store serial: [23409144]
