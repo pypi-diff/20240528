@@ -5340,3 +5340,24 @@
 [2024-05-28 06:05:23] INFO root fetch - processPackages [python-cmethods]: Remove: archive file [/home/abi/fetcher/tmp/python_cmethods-2.2.5.tar.gz]
 [2024-05-28 06:05:23] INFO root fetch - main [MainThread]: End processing [python-cmethods]: success
 [2024-05-28 06:05:23] INFO root fetch - main [MainThread]: Store serial: [23404940]
+[2024-05-28 06:07:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23404940]
+[2024-05-28 06:07:32] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-28 06:07:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-webapp-skeleton
+[2024-05-28 06:07:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zuspec-parser
+[2024-05-28 06:07:32] INFO root fetch - processPackages [cdk-webapp-skeleton]: New version: [0.9.0] Old Version: [0.8.1.dev3]
+[2024-05-28 06:07:32] INFO root fetch - processPackages [cdk-webapp-skeleton]: Downloading https://files.pythonhosted.org/packages/b3/fb/d9d129202d96c36a40c69be92333a9e14d8d05f635904bcef2d2c5670d6c/cdk_webapp_skeleton-0.8.1.dev3.tar.gz
+[2024-05-28 06:07:32] INFO root fetch - processPackages [zuspec-parser]: New version: [0.0.1.9263293579] Old Version: [0.0.1.9257795183]
+[2024-05-28 06:07:32] INFO root fetch - processPackages [zuspec-parser]: Downloading https://files.pythonhosted.org/packages/8e/88/4b2e962e7be90434f03a7409f93fe1e43cae21c964811088cca3545cec31/zuspec_parser-0.0.1.9257795183-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-28 06:07:32] INFO root fetch - processPackages [cdk-webapp-skeleton]: Downloading https://files.pythonhosted.org/packages/a7/d8/db080b0959451f6730573139dec9f9331f911952d3339ac706d10a47102b/cdk_webapp_skeleton-0.9.0.tar.gz
+[2024-05-28 06:07:32] INFO root fetch - processPackages [cdk-webapp-skeleton]: executing diffoscope
+[2024-05-28 06:07:32] INFO root fetch - processPackages [cdk-webapp-skeleton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_webapp_skeleton-0.8.1.dev3.tar.gz tmp/cdk_webapp_skeleton-0.9.0.tar.gz --markdown 20240528/c/cdk-webapp-skeleton/0.8.1.dev3-0.9.0/README.md --exclude *.pyd
+[2024-05-28 06:07:33] INFO root fetch - processPackages [cdk-webapp-skeleton]: Remove: archive file [/home/abi/fetcher/tmp/cdk_webapp_skeleton-0.8.1.dev3.tar.gz]
+[2024-05-28 06:07:33] INFO root fetch - processPackages [cdk-webapp-skeleton]: Remove: archive file [/home/abi/fetcher/tmp/cdk_webapp_skeleton-0.9.0.tar.gz]
+[2024-05-28 06:07:33] INFO root fetch - main [MainThread]: End processing [cdk-webapp-skeleton]: success
+[2024-05-28 06:07:34] INFO root fetch - processPackages [zuspec-parser]: Downloading https://files.pythonhosted.org/packages/1c/ad/51f9a960fab54b7cdc54a64b138967c6e2eefbfad48d084456f08b7dd375/zuspec_parser-0.0.1.9263293579-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-28 06:07:35] INFO root fetch - processPackages [zuspec-parser]: executing diffoscope
+[2024-05-28 06:07:35] INFO root fetch - processPackages [zuspec-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zuspec_parser-0.0.1.9257795183-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/zuspec_parser-0.0.1.9263293579-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240528/z/zuspec-parser/0.0.1.9257795183-0.0.1.9263293579/README.md --exclude *.pyd
+[2024-05-28 06:07:49] INFO root fetch - processPackages [zuspec-parser]: Remove: archive file [/home/abi/fetcher/tmp/zuspec_parser-0.0.1.9257795183-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-28 06:07:49] INFO root fetch - processPackages [zuspec-parser]: Remove: archive file [/home/abi/fetcher/tmp/zuspec_parser-0.0.1.9263293579-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-28 06:07:49] INFO root fetch - main [MainThread]: End processing [zuspec-parser]: success
+[2024-05-28 06:07:49] INFO root fetch - main [MainThread]: Store serial: [23404950]
