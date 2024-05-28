@@ -16074,3 +16074,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 12:39:25] INFO root fetch - processPackages [codeforlife-portal]: Remove: archive file [/home/abi/fetcher/tmp/codeforlife-portal-6.9.0.tar.gz]
 [2024-05-28 12:39:25] INFO root fetch - main [MainThread]: End processing [codeforlife-portal]: success
 [2024-05-28 12:39:25] INFO root fetch - main [MainThread]: Store serial: [23409681]
+[2024-05-28 12:41:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23409681]
+[2024-05-28 12:41:35] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-28 12:41:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: subgroups
+[2024-05-28 12:41:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pymemgpt-nightly
+[2024-05-28 12:41:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: leadguru-jobs
+[2024-05-28 12:41:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pynet-scanner
+[2024-05-28 12:41:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: streamlit-islands
+[2024-05-28 12:41:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-mrp-flattened-bom-xlsx-labour-cost
+[2024-05-28 12:41:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: polars-list-helpers
+[2024-05-28 12:41:35] INFO root fetch - processPackages [subgroups]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-28 12:41:35] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2024-05-28 12:41:35] INFO root fetch - processPackages [subgroups]: Downloading https://files.pythonhosted.org/packages/8d/fe/95f64b95f2870711e9351a0025ee132e5547e2d5ff835f89af255a801431/subgroups-0.1.6.tar.gz
+[2024-05-28 12:41:35] WARNING root fetch - processPackages [pynet-scanner]: Skipping, unable to determine old version
+[2024-05-28 12:41:35] INFO root fetch - main [MainThread]: End processing [pynet-scanner] error
+[2024-05-28 12:41:35] WARNING root fetch - processPackages [odoo-addon-mrp-flattened-bom-xlsx-labour-cost]: Skipping, unable to determine old version
+[2024-05-28 12:41:35] INFO root fetch - main [MainThread]: End processing [odoo-addon-mrp-flattened-bom-xlsx-labour-cost] error
+[2024-05-28 12:41:35] INFO root fetch - processPackages [pymemgpt-nightly]: New version: [0.3.9.dev20240412103904] Old Version: [0.3.9.dev20240411103902]
+[2024-05-28 12:41:35] INFO root fetch - processPackages [streamlit-islands]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-28 12:41:35] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2024-05-28 12:41:35] WARNING root fetch - processPackages [polars-list-helpers]: Skipping, unable to determine old version
+[2024-05-28 12:41:35] INFO root fetch - main [MainThread]: End processing [polars-list-helpers] error
+[2024-05-28 12:41:35] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/28/e7/e8c0c970c21e3670e810627cef085bbbbac1f9e994540354838d7781a0ac/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz
+[2024-05-28 12:41:35] INFO root fetch - processPackages [subgroups]: Downloading https://files.pythonhosted.org/packages/d7/34/ddd583df29515e641728100e41222f2eca9825d9a863f4f6195719e047b0/subgroups-0.1.7.tar.gz
+[2024-05-28 12:41:35] INFO root fetch - processPackages [streamlit-islands]: Downloading https://files.pythonhosted.org/packages/a9/16/300005be338338914204b854205f3f02cfd3261b50abdad1fb5257faf24a/streamlit-islands-0.0.6.tar.gz
+[2024-05-28 12:41:35] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2024-05-28 12:41:35] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/50/4a/4c9c1fb70a7ee971f3c8697cc6dedb251e3b10cafdd23be4d035ece0f2ec/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz
+[2024-05-28 12:41:35] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2024-05-28 12:41:35] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20240528/l/leadguru-jobs/0.98.0-0.99.0/README.md --exclude *.pyd
+[2024-05-28 12:41:35] INFO root fetch - processPackages [subgroups]: executing diffoscope
+[2024-05-28 12:41:35] INFO root fetch - processPackages [subgroups]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/subgroups-0.1.6.tar.gz tmp/subgroups-0.1.7.tar.gz --markdown 20240528/s/subgroups/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-28 12:41:35] INFO root fetch - processPackages [pymemgpt-nightly]: executing diffoscope
+[2024-05-28 12:41:35] INFO root fetch - processPackages [pymemgpt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz tmp/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz --markdown 20240528/p/pymemgpt-nightly/0.3.9.dev20240411103902-0.3.9.dev20240412103904/README.md --exclude *.pyd
+[2024-05-28 12:41:36] INFO root fetch - processPackages [streamlit-islands]: Downloading https://files.pythonhosted.org/packages/f0/cd/46a83cabcb42101cc6006271d5feab6f815827239ab5a3f1b48397bf7c9b/streamlit-islands-0.0.7.tar.gz
+[2024-05-28 12:41:36] INFO root fetch - processPackages [streamlit-islands]: executing diffoscope
+[2024-05-28 12:41:36] INFO root fetch - processPackages [streamlit-islands]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-islands-0.0.6.tar.gz tmp/streamlit-islands-0.0.7.tar.gz --markdown 20240528/s/streamlit-islands/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-28 12:41:36] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.98.0.tar.gz]
+[2024-05-28 12:41:36] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.99.0.tar.gz]
+[2024-05-28 12:41:36] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2024-05-28 12:41:36] INFO root fetch - processPackages [streamlit-islands]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-islands-0.0.6.tar.gz]
+[2024-05-28 12:41:36] INFO root fetch - processPackages [streamlit-islands]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-islands-0.0.7.tar.gz]
+[2024-05-28 12:41:36] INFO root fetch - main [MainThread]: End processing [streamlit-islands]: success
+[2024-05-28 12:41:36] INFO root fetch - processPackages [subgroups]: Remove: archive file [/home/abi/fetcher/tmp/subgroups-0.1.6.tar.gz]
+[2024-05-28 12:41:36] INFO root fetch - processPackages [subgroups]: Remove: archive file [/home/abi/fetcher/tmp/subgroups-0.1.7.tar.gz]
+[2024-05-28 12:41:36] INFO root fetch - main [MainThread]: End processing [subgroups]: success
+[2024-05-28 12:41:36] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz]
+[2024-05-28 12:41:36] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz]
+[2024-05-28 12:41:36] INFO root fetch - main [MainThread]: End processing [pymemgpt-nightly]: success
+[2024-05-28 12:41:36] INFO root fetch - main [MainThread]: Store serial: [23409707]
