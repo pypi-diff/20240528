@@ -1674,3 +1674,15 @@
 [2024-05-28 02:01:29] INFO root fetch - processPackages [sbcli-dev]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_dev-2.7.7.zip]
 [2024-05-28 02:01:29] INFO root fetch - main [MainThread]: End processing [sbcli-dev]: success
 [2024-05-28 02:01:29] INFO root fetch - main [MainThread]: Store serial: [23403486]
+[2024-05-28 02:03:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23403486]
+[2024-05-28 02:03:37] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-28 02:03:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: onnxscript
+[2024-05-28 02:03:37] INFO root fetch - processPackages [onnxscript]: New version: [0.1.0.dev20240527] Old Version: [0.1.0.dev20240526]
+[2024-05-28 02:03:37] INFO root fetch - processPackages [onnxscript]: Downloading https://files.pythonhosted.org/packages/af/0d/843f15d85267744534f44a85cc22180ba04ebaffd583ff8a4f5a74d58485/onnxscript-0.1.0.dev20240526.tar.gz
+[2024-05-28 02:03:37] INFO root fetch - processPackages [onnxscript]: Downloading https://files.pythonhosted.org/packages/c3/02/48bdbfa5a3657526edafabb7413c1ef4e05b0fffef1fdc3cddcafa045499/onnxscript-0.1.0.dev20240527.tar.gz
+[2024-05-28 02:03:38] INFO root fetch - processPackages [onnxscript]: executing diffoscope
+[2024-05-28 02:03:38] INFO root fetch - processPackages [onnxscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnxscript-0.1.0.dev20240526.tar.gz tmp/onnxscript-0.1.0.dev20240527.tar.gz --markdown 20240528/o/onnxscript/0.1.0.dev20240526-0.1.0.dev20240527/README.md --exclude *.pyd
+[2024-05-28 02:03:39] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240526.tar.gz]
+[2024-05-28 02:03:39] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240527.tar.gz]
+[2024-05-28 02:03:39] INFO root fetch - main [MainThread]: End processing [onnxscript]: success
+[2024-05-28 02:03:39] INFO root fetch - main [MainThread]: Store serial: [23403490]
