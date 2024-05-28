@@ -13127,3 +13127,243 @@
 [2024-05-28 11:03:55] INFO root fetch - processPackages [cos-ruleengine]: Remove: archive file [/home/abi/fetcher/tmp/cos-ruleengine-0.1.9.tar.gz]
 [2024-05-28 11:03:55] INFO root fetch - main [MainThread]: End processing [cos-ruleengine]: success
 [2024-05-28 11:03:55] INFO root fetch - main [MainThread]: Store serial: [23408459]
+[2024-05-28 11:05:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23408459]
+[2024-05-28 11:06:03] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2024-05-28 11:06:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autogluon.common
+[2024-05-28 11:06:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PIPython
+[2024-05-28 11:06:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dataset-iterator
+[2024-05-28 11:06:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autogluon.core
+[2024-05-28 11:06:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autogluon.features
+[2024-05-28 11:06:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ovhai
+[2024-05-28 11:06:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autogluon.cloud
+[2024-05-28 11:06:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: autogluon.tabular
+[2024-05-28 11:06:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: core-models
+[2024-05-28 11:06:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lightningchart
+[2024-05-28 11:06:04] INFO root fetch - processPackages [autogluon.core]: New version: [1.1.1b20240527] Old Version: [1.1.1b20240526]
+[2024-05-28 11:06:04] INFO root fetch - processPackages [autogluon.cloud]: New version: [0.4.0b20240527] Old Version: [0.4.0b20240526]
+[2024-05-28 11:06:04] INFO root fetch - processPackages [autogluon.common]: New version: [1.1.1b20240527] Old Version: [1.1.1b20240526]
+[2024-05-28 11:06:04] INFO root fetch - processPackages [dataset-iterator]: New version: [0.4.6] Old Version: [0.4.5]
+[2024-05-28 11:06:04] INFO root fetch - processPackages [autogluon.features]: New version: [1.1.1b20240527] Old Version: [1.1.1b20240526]
+[2024-05-28 11:06:04] INFO root fetch - processPackages [ovhai]: New version: [0.1a2] Old Version: [0.1a1]
+[2024-05-28 11:06:04] INFO root fetch - processPackages [lightningchart]: New version: [0.7.0] Old Version: [0.6.9]
+[2024-05-28 11:06:04] INFO root fetch - processPackages [core-models]: New version: [0.5.0] Old Version: [0.4.9]
+[2024-05-28 11:06:04] INFO root fetch - processPackages [autogluon.cloud]: Downloading https://files.pythonhosted.org/packages/0a/ce/e5571d67d6a791dcbf473324566d61ccf39eb54f1ecc809b1d559b76435b/autogluon.cloud-0.4.0b20240526.tar.gz
+[2024-05-28 11:06:04] INFO root fetch - processPackages [PIPython]: New version: [2.9.0.4] Old Version: [2.8.0.3]
+[2024-05-28 11:06:04] INFO root fetch - processPackages [autogluon.tabular]: New version: [1.1.1b20240528] Old Version: [1.1.1b20240527]
+[2024-05-28 11:06:04] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/ca/a5/ae79eeacfad44fdeb97272b4e3ede41416103526338f5d3bf7ed19d4a32c/autogluon.common-1.1.1b20240526.tar.gz
+[2024-05-28 11:06:04] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/df/51/c195aba1ecfe4a09a8f19f29ebe9e55bf0d5d9d7dae2b9c12e145033641b/autogluon.features-1.1.1b20240526.tar.gz
+[2024-05-28 11:06:04] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/8d/a7/c3f1be9eae5c325db9e613f07a201532a2cf5232968ca054c44990d96560/autogluon.core-1.1.1b20240526.tar.gz
+[2024-05-28 11:06:04] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/df/21/e84b15adbd557dfe93ded82fe97a0d2344940f41c94b84f5bb463f81d956/autogluon.tabular-1.1.1b20240527.tar.gz
+[2024-05-28 11:06:04] INFO root fetch - processPackages [dataset-iterator]: Downloading https://files.pythonhosted.org/packages/5d/e9/5a464ba164f3e39bfea5cd7afe51c482e9d8b44f58238393bd776b91baec/dataset_iterator-0.4.5.tar.gz
+[2024-05-28 11:06:04] INFO root fetch - processPackages [ovhai]: Downloading https://files.pythonhosted.org/packages/b3/df/a683d4a0f834ef0eea8c611014534ce654574bd74de231afd266b3e74b8c/ovhai-0.1a1.tar.gz
+[2024-05-28 11:06:04] INFO root fetch - processPackages [PIPython]: Downloading https://files.pythonhosted.org/packages/b4/b6/9bb562e5b5915d071883262edc1ca9c12e36c8da4181b2073a9d3de62115/PIPython-2.8.0.3.tar.gz
+[2024-05-28 11:06:04] INFO root fetch - processPackages [lightningchart]: Downloading https://files.pythonhosted.org/packages/b0/2a/c37c62150392b5f3f1dda4a8cca397be4b75c7128058c527957c3fec6629/lightningchart-0.6.9-py3-none-any.whl
+[2024-05-28 11:06:04] INFO root fetch - processPackages [core-models]: Downloading https://files.pythonhosted.org/packages/0c/67/e3ae17e881e8d809dfed698e44c5c84254bc82a986633c7ea89c34b69efd/core_models-0.4.9.tar.gz
+[2024-05-28 11:06:04] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/50/b7/ef93544bf38e214d876511b5db3b14fa097605a71a1c32ac8c6621afab8c/autogluon.common-1.1.1b20240527.tar.gz
+[2024-05-28 11:06:04] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/bf/8f/196bf191530e96e85cff7d4f74b5d8dd15845a79c9788f655bc2c97d48cf/autogluon.features-1.1.1b20240527.tar.gz
+[2024-05-28 11:06:04] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/70/a6/2ef278b9b95aa4e990f801e048799a026fef57d2d00253a29d1df075a97c/autogluon.core-1.1.1b20240527.tar.gz
+[2024-05-28 11:06:04] INFO root fetch - processPackages [autogluon.cloud]: Downloading https://files.pythonhosted.org/packages/b5/23/f0cdd5503d64b7a822dd66c83a0f7c7343a7a3e47737c4fdabe78ee43117/autogluon.cloud-0.4.0b20240527.tar.gz
+[2024-05-28 11:06:04] INFO root fetch - processPackages [autogluon.common]: executing diffoscope
+[2024-05-28 11:06:04] INFO root fetch - processPackages [autogluon.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.common-1.1.1b20240526.tar.gz tmp/autogluon.common-1.1.1b20240527.tar.gz --markdown 20240528/a/autogluon.common/1.1.1b20240526-1.1.1b20240527/README.md --exclude *.pyd
+[2024-05-28 11:06:04] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/89/52/ffa39b6ffa9707a4c4d250b4027342b15d4ed6945d8ac784adb8dd378342/autogluon.tabular-1.1.1b20240528.tar.gz
+[2024-05-28 11:06:04] INFO root fetch - processPackages [dataset-iterator]: Downloading https://files.pythonhosted.org/packages/6f/12/90c03339718ef4d1036448868b5fa36fca19464db6d12ab925add806d5e2/dataset_iterator-0.4.6.tar.gz
+[2024-05-28 11:06:04] INFO root fetch - processPackages [autogluon.features]: executing diffoscope
+[2024-05-28 11:06:04] INFO root fetch - processPackages [autogluon.features]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.features-1.1.1b20240526.tar.gz tmp/autogluon.features-1.1.1b20240527.tar.gz --markdown 20240528/a/autogluon.features/1.1.1b20240526-1.1.1b20240527/README.md --exclude *.pyd
+[2024-05-28 11:06:04] INFO root fetch - processPackages [ovhai]: Downloading https://files.pythonhosted.org/packages/f0/c4/67049a103db49a3f7a99423d8afc1de273ff1ac03087f030508ffb4484c5/ovhai-0.1a2.tar.gz
+[2024-05-28 11:06:04] INFO root fetch - processPackages [autogluon.cloud]: executing diffoscope
+[2024-05-28 11:06:04] INFO root fetch - processPackages [autogluon.cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.cloud-0.4.0b20240526.tar.gz tmp/autogluon.cloud-0.4.0b20240527.tar.gz --markdown 20240528/a/autogluon.cloud/0.4.0b20240526-0.4.0b20240527/README.md --exclude *.pyd
+[2024-05-28 11:06:04] INFO root fetch - processPackages [autogluon.core]: executing diffoscope
+[2024-05-28 11:06:04] INFO root fetch - processPackages [autogluon.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.core-1.1.1b20240526.tar.gz tmp/autogluon.core-1.1.1b20240527.tar.gz --markdown 20240528/a/autogluon.core/1.1.1b20240526-1.1.1b20240527/README.md --exclude *.pyd
+[2024-05-28 11:06:04] INFO root fetch - processPackages [core-models]: Downloading https://files.pythonhosted.org/packages/7b/be/72f6128ac862dacedcca1a5e3810ea094b9c2081a7da5673876400f22260/core_models-0.5.0.tar.gz
+[2024-05-28 11:06:04] INFO root fetch - processPackages [autogluon.tabular]: executing diffoscope
+[2024-05-28 11:06:04] INFO root fetch - processPackages [autogluon.tabular]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.tabular-1.1.1b20240527.tar.gz tmp/autogluon.tabular-1.1.1b20240528.tar.gz --markdown 20240528/a/autogluon.tabular/1.1.1b20240527-1.1.1b20240528/README.md --exclude *.pyd
+[2024-05-28 11:06:05] INFO root fetch - processPackages [PIPython]: Downloading https://files.pythonhosted.org/packages/3b/af/0cd87bd27524ee769244148ccd68321ec80e55bd3308a625d8d6d60acddf/PIPython-2.9.0.4.tar.gz
+[2024-05-28 11:06:05] INFO root fetch - processPackages [dataset-iterator]: executing diffoscope
+[2024-05-28 11:06:05] INFO root fetch - processPackages [dataset-iterator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataset_iterator-0.4.5.tar.gz tmp/dataset_iterator-0.4.6.tar.gz --markdown 20240528/d/dataset-iterator/0.4.5-0.4.6/README.md --exclude *.pyd
+[2024-05-28 11:06:05] INFO root fetch - processPackages [ovhai]: executing diffoscope
+[2024-05-28 11:06:05] INFO root fetch - processPackages [ovhai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovhai-0.1a1.tar.gz tmp/ovhai-0.1a2.tar.gz --markdown 20240528/o/ovhai/0.1a1-0.1a2/README.md --exclude *.pyd
+[2024-05-28 11:06:05] INFO root fetch - processPackages [core-models]: executing diffoscope
+[2024-05-28 11:06:05] INFO root fetch - processPackages [core-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_models-0.4.9.tar.gz tmp/core_models-0.5.0.tar.gz --markdown 20240528/c/core-models/0.4.9-0.5.0/README.md --exclude *.pyd
+[2024-05-28 11:06:05] INFO root fetch - processPackages [lightningchart]: Downloading https://files.pythonhosted.org/packages/d5/5f/0c457c226cb6001ac312f6c91d0c8a4b61f7a9317d5f653da0216fea12f5/lightningchart-0.7.0-py3-none-any.whl
+[2024-05-28 11:06:05] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-1.1.1b20240526.tar.gz]
+[2024-05-28 11:06:05] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-1.1.1b20240527.tar.gz]
+[2024-05-28 11:06:05] INFO root fetch - processPackages [autogluon.features]: Start processing: autogluon.multimodal
+[2024-05-28 11:06:05] INFO root fetch - main [MainThread]: End processing [autogluon.features]: success
+[2024-05-28 11:06:05] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-1.1.1b20240526.tar.gz]
+[2024-05-28 11:06:05] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-1.1.1b20240527.tar.gz]
+[2024-05-28 11:06:05] INFO root fetch - processPackages [autogluon.common]: Start processing: ledger-app-clients.ethereum
+[2024-05-28 11:06:05] INFO root fetch - main [MainThread]: End processing [autogluon.common]: success
+[2024-05-28 11:06:05] INFO root fetch - processPackages [lightningchart]: executing diffoscope
+[2024-05-28 11:06:05] INFO root fetch - processPackages [lightningchart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightningchart-0.6.9-py3-none-any.whl.zip tmp/lightningchart-0.7.0-py3-none-any.whl.zip --markdown 20240528/l/lightningchart/0.6.9-0.7.0/README.md --exclude *.pyd
+[2024-05-28 11:06:05] INFO root fetch - processPackages [autogluon.cloud]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.cloud-0.4.0b20240526.tar.gz]
+[2024-05-28 11:06:05] INFO root fetch - processPackages [autogluon.cloud]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.cloud-0.4.0b20240527.tar.gz]
+[2024-05-28 11:06:05] INFO root fetch - processPackages [autogluon.cloud]: Start processing: siat
+[2024-05-28 11:06:05] INFO root fetch - main [MainThread]: End processing [autogluon.cloud]: success
+[2024-05-28 11:06:05] INFO root fetch - processPackages [autogluon.multimodal]: New version: [1.1.1b20240528] Old Version: [1.1.1b20240527]
+[2024-05-28 11:06:05] INFO root fetch - processPackages [ledger-app-clients.ethereum]: New version: [0.4.1.dev71] Old Version: [0.4.1.dev36]
+[2024-05-28 11:06:05] INFO root fetch - processPackages [PIPython]: executing diffoscope
+[2024-05-28 11:06:05] INFO root fetch - processPackages [PIPython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PIPython-2.8.0.3.tar.gz tmp/PIPython-2.9.0.4.tar.gz --markdown 20240528/P/PIPython/2.8.0.3-2.9.0.4/README.md --exclude *.pyd
+[2024-05-28 11:06:06] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/66/b2/3db7f886d050b4ddc40de959f1b64bf964f31b0e4cb9bbf63cd17239c0d8/autogluon.multimodal-1.1.1b20240527.tar.gz
+[2024-05-28 11:06:06] INFO root fetch - processPackages [dataset-iterator]: Remove: archive file [/home/abi/fetcher/tmp/dataset_iterator-0.4.5.tar.gz]
+[2024-05-28 11:06:06] INFO root fetch - processPackages [dataset-iterator]: Remove: archive file [/home/abi/fetcher/tmp/dataset_iterator-0.4.6.tar.gz]
+[2024-05-28 11:06:06] INFO root fetch - processPackages [dataset-iterator]: Start processing: autogluon.timeseries
+[2024-05-28 11:06:06] INFO root fetch - main [MainThread]: End processing [dataset-iterator]: success
+[2024-05-28 11:06:06] INFO root fetch - processPackages [siat]: New version: [3.1.5] Old Version: [3.1.4]
+[2024-05-28 11:06:06] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-1.1.1b20240526.tar.gz]
+[2024-05-28 11:06:06] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-1.1.1b20240527.tar.gz]
+[2024-05-28 11:06:06] INFO root fetch - processPackages [autogluon.core]: Start processing: uat-breeze-connect
+[2024-05-28 11:06:06] INFO root fetch - main [MainThread]: End processing [autogluon.core]: success
+[2024-05-28 11:06:06] INFO root fetch - processPackages [autogluon.timeseries]: New version: [1.1.1b20240527] Old Version: [1.1.1b20240526]
+[2024-05-28 11:06:06] INFO root fetch - processPackages [ledger-app-clients.ethereum]: Downloading https://files.pythonhosted.org/packages/78/6b/793fca32e82e33287bed1cbd56db18a925c2a78dba01dee859ff954d695f/ledger_app_clients.ethereum-0.4.1.dev36.tar.gz
+[2024-05-28 11:06:06] INFO root fetch - processPackages [core-models]: Remove: archive file [/home/abi/fetcher/tmp/core_models-0.4.9.tar.gz]
+[2024-05-28 11:06:06] INFO root fetch - processPackages [core-models]: Remove: archive file [/home/abi/fetcher/tmp/core_models-0.5.0.tar.gz]
+[2024-05-28 11:06:06] INFO root fetch - processPackages [core-models]: Start processing: autogluon
+[2024-05-28 11:06:06] INFO root fetch - main [MainThread]: End processing [core-models]: success
+[2024-05-28 11:06:06] INFO root fetch - processPackages [uat-breeze-connect]: New version: [1.0.14rc39] Old Version: [1.0.14rc38]
+[2024-05-28 11:06:06] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-1.1.1b20240527.tar.gz]
+[2024-05-28 11:06:06] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-1.1.1b20240528.tar.gz]
+[2024-05-28 11:06:06] INFO root fetch - processPackages [autogluon.tabular]: Start processing: odoo-addon-account-portal-invoice-search
+[2024-05-28 11:06:06] INFO root fetch - main [MainThread]: End processing [autogluon.tabular]: success
+[2024-05-28 11:06:06] INFO root fetch - processPackages [autogluon]: New version: [1.1.1b20240527] Old Version: [1.1.1b20240526]
+[2024-05-28 11:06:06] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/ff/44/e3f0efe4c3c47d77491a887d398e98659115a3c14b8b05d478f68305990b/autogluon.timeseries-1.1.1b20240526.tar.gz
+[2024-05-28 11:06:06] INFO root fetch - processPackages [odoo-addon-account-portal-invoice-search]: New version: [15.0.1.0.1] Old Version: [15.0.1.0.0.5]
+[2024-05-28 11:06:06] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/38/0e/0e8012e069f0cb818356163fda91f9bfffea6134fffb7bc24131ce63bcf8/autogluon-1.1.1b20240526.tar.gz
+[2024-05-28 11:06:06] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/b6/ab/02658d77517e13f4d5926b9d6015aee286d8867adfa388db104867874345/autogluon.multimodal-1.1.1b20240528.tar.gz
+[2024-05-28 11:06:06] INFO root fetch - processPackages [uat-breeze-connect]: Downloading https://files.pythonhosted.org/packages/5d/7b/1f359182299baafeaecd74991f22e66939b890d7f68a20f084103fe575d0/uat_breeze_connect-1.0.14rc38.tar.gz
+[2024-05-28 11:06:06] INFO root fetch - processPackages [siat]: Downloading https://files.pythonhosted.org/packages/ec/60/c24f8506759a7622580e131b6baed567a6d164fe20550641d7f06d88b212/siat-3.1.5-py3-none-any.whl
+[2024-05-28 11:06:06] INFO root fetch - processPackages [ovhai]: Remove: archive file [/home/abi/fetcher/tmp/ovhai-0.1a1.tar.gz]
+[2024-05-28 11:06:06] INFO root fetch - processPackages [ovhai]: Remove: archive file [/home/abi/fetcher/tmp/ovhai-0.1a2.tar.gz]
+[2024-05-28 11:06:06] INFO root fetch - main [MainThread]: End processing [ovhai]: success
+[2024-05-28 11:06:06] INFO root fetch - processPackages [odoo-addon-account-portal-invoice-search]: Downloading https://files.pythonhosted.org/packages/f0/62/81b2684cd453793c72334f406feb6ee282ef6b5dd9a89c305d009ba6e73d/odoo_addon_account_portal_invoice_search-15.0.1.0.0.5-py3-none-any.whl
+[2024-05-28 11:06:06] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/38/51/aee4dd97927b10e2d0d93be0633dc0d98afdd2f32ce664879b29613f1830/autogluon.timeseries-1.1.1b20240527.tar.gz
+[2024-05-28 11:06:06] INFO root fetch - processPackages [autogluon.multimodal]: executing diffoscope
+[2024-05-28 11:06:06] INFO root fetch - processPackages [autogluon.multimodal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.multimodal-1.1.1b20240527.tar.gz tmp/autogluon.multimodal-1.1.1b20240528.tar.gz --markdown 20240528/a/autogluon.multimodal/1.1.1b20240527-1.1.1b20240528/README.md --exclude *.pyd
+[2024-05-28 11:06:06] INFO root fetch - processPackages [ledger-app-clients.ethereum]: Downloading https://files.pythonhosted.org/packages/aa/2e/47a2392199bf94ec253b1a4335eb25cb971f798cd6e3465835d2570997db/ledger_app_clients_ethereum-0.4.1.dev71.tar.gz
+[2024-05-28 11:06:06] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/92/6b/ba5810dd4dbb3f987724bdf36f5a39c8103e8d7524fbd33e3d0dc71f4566/autogluon-1.1.1b20240527.tar.gz
+[2024-05-28 11:06:06] INFO root fetch - processPackages [siat]: executing diffoscope
+[2024-05-28 11:06:06] INFO root fetch - processPackages [siat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siat-3.1.4-py3-none-any.whl.zip tmp/siat-3.1.5-py3-none-any.whl.zip --markdown 20240528/s/siat/3.1.4-3.1.5/README.md --exclude *.pyd
+[2024-05-28 11:06:06] INFO root fetch - processPackages [autogluon.timeseries]: executing diffoscope
+[2024-05-28 11:06:06] INFO root fetch - processPackages [autogluon.timeseries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.timeseries-1.1.1b20240526.tar.gz tmp/autogluon.timeseries-1.1.1b20240527.tar.gz --markdown 20240528/a/autogluon.timeseries/1.1.1b20240526-1.1.1b20240527/README.md --exclude *.pyd
+[2024-05-28 11:06:06] INFO root fetch - processPackages [uat-breeze-connect]: Downloading https://files.pythonhosted.org/packages/45/89/673d9be2ca0e2bb1f9774967cee1903efed6675c0098fe3f887f9fcadcf0/uat_breeze_connect-1.0.14rc39.tar.gz
+[2024-05-28 11:06:06] INFO root fetch - processPackages [autogluon]: executing diffoscope
+[2024-05-28 11:06:06] INFO root fetch - processPackages [autogluon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon-1.1.1b20240526.tar.gz tmp/autogluon-1.1.1b20240527.tar.gz --markdown 20240528/a/autogluon/1.1.1b20240526-1.1.1b20240527/README.md --exclude *.pyd
+[2024-05-28 11:06:06] INFO root fetch - processPackages [ledger-app-clients.ethereum]: executing diffoscope
+[2024-05-28 11:06:06] INFO root fetch - processPackages [ledger-app-clients.ethereum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ledger_app_clients.ethereum-0.4.1.dev36.tar.gz tmp/ledger_app_clients_ethereum-0.4.1.dev71.tar.gz --markdown 20240528/l/ledger-app-clients.ethereum/0.4.1.dev36-0.4.1.dev71/README.md --exclude *.pyd
+[2024-05-28 11:06:06] INFO root fetch - processPackages [uat-breeze-connect]: executing diffoscope
+[2024-05-28 11:06:06] INFO root fetch - processPackages [uat-breeze-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uat_breeze_connect-1.0.14rc38.tar.gz tmp/uat_breeze_connect-1.0.14rc39.tar.gz --markdown 20240528/u/uat-breeze-connect/1.0.14rc38-1.0.14rc39/README.md --exclude *.pyd
+[2024-05-28 11:06:07] INFO root fetch - processPackages [odoo-addon-account-portal-invoice-search]: Downloading https://files.pythonhosted.org/packages/a2/7d/cbead23e0e63118567586b199eaf74068e8db57090b99a3c755794f37703/odoo_addon_account_portal_invoice_search-15.0.1.0.1-py3-none-any.whl
+[2024-05-28 11:06:07] INFO root fetch - processPackages [odoo-addon-account-portal-invoice-search]: executing diffoscope
+[2024-05-28 11:06:07] INFO root fetch - processPackages [odoo-addon-account-portal-invoice-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_portal_invoice_search-15.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_account_portal_invoice_search-15.0.1.0.1-py3-none-any.whl.zip --markdown 20240528/o/odoo-addon-account-portal-invoice-search/15.0.1.0.0.5-15.0.1.0.1/README.md --exclude *.pyd
+[2024-05-28 11:06:07] ERROR root fetch - processPackages [siat]: Diffoscope failed: time="2024-05-28T11:06:06+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid continuation byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 433, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid continuation byte
+
+[2024-05-28 11:06:07] INFO root fetch - main [MainThread]: End processing [siat] error
+[2024-05-28 11:06:07] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-1.1.1b20240526.tar.gz]
+[2024-05-28 11:06:07] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-1.1.1b20240527.tar.gz]
+[2024-05-28 11:06:07] INFO root fetch - main [MainThread]: End processing [autogluon]: success
+[2024-05-28 11:06:07] INFO root fetch - processPackages [ledger-app-clients.ethereum]: Remove: archive file [/home/abi/fetcher/tmp/ledger_app_clients.ethereum-0.4.1.dev36.tar.gz]
+[2024-05-28 11:06:07] INFO root fetch - processPackages [ledger-app-clients.ethereum]: Remove: archive file [/home/abi/fetcher/tmp/ledger_app_clients_ethereum-0.4.1.dev71.tar.gz]
+[2024-05-28 11:06:07] INFO root fetch - main [MainThread]: End processing [ledger-app-clients.ethereum]: success
+[2024-05-28 11:06:07] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-1.1.1b20240526.tar.gz]
+[2024-05-28 11:06:07] INFO root fetch - processPackages [uat-breeze-connect]: Remove: archive file [/home/abi/fetcher/tmp/uat_breeze_connect-1.0.14rc38.tar.gz]
+[2024-05-28 11:06:07] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-1.1.1b20240527.tar.gz]
+[2024-05-28 11:06:07] INFO root fetch - processPackages [uat-breeze-connect]: Remove: archive file [/home/abi/fetcher/tmp/uat_breeze_connect-1.0.14rc39.tar.gz]
+[2024-05-28 11:06:07] INFO root fetch - main [MainThread]: End processing [autogluon.timeseries]: success
+[2024-05-28 11:06:07] INFO root fetch - main [MainThread]: End processing [uat-breeze-connect]: success
+[2024-05-28 11:06:08] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-1.1.1b20240527.tar.gz]
+[2024-05-28 11:06:08] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-1.1.1b20240528.tar.gz]
+[2024-05-28 11:06:08] INFO root fetch - main [MainThread]: End processing [autogluon.multimodal]: success
+[2024-05-28 11:06:08] INFO root fetch - processPackages [odoo-addon-account-portal-invoice-search]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_portal_invoice_search-15.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-28 11:06:08] INFO root fetch - processPackages [odoo-addon-account-portal-invoice-search]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_portal_invoice_search-15.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-28 11:06:08] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-portal-invoice-search]: success
+[2024-05-28 11:06:08] INFO root fetch - processPackages [lightningchart]: Remove: archive file [/home/abi/fetcher/tmp/lightningchart-0.6.9-py3-none-any.whl.zip]
+[2024-05-28 11:06:08] INFO root fetch - processPackages [lightningchart]: Remove: archive file [/home/abi/fetcher/tmp/lightningchart-0.7.0-py3-none-any.whl.zip]
+[2024-05-28 11:06:08] INFO root fetch - main [MainThread]: End processing [lightningchart]: success
+[2024-05-28 11:06:11] INFO root fetch - processPackages [PIPython]: Remove: archive file [/home/abi/fetcher/tmp/PIPython-2.8.0.3.tar.gz]
+[2024-05-28 11:06:11] INFO root fetch - processPackages [PIPython]: Remove: archive file [/home/abi/fetcher/tmp/PIPython-2.9.0.4.tar.gz]
+[2024-05-28 11:06:11] INFO root fetch - main [MainThread]: End processing [PIPython]: success
+[2024-05-28 11:06:11] INFO root fetch - main [MainThread]: Store serial: [23408506]
