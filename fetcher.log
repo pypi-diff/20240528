@@ -7384,3 +7384,324 @@
 [2024-05-28 08:05:00] INFO root fetch - processPackages [pyobjc-framework-Cinematic]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc_framework_Cinematic-10.3-py2.py3-none-any.whl.zip]
 [2024-05-28 08:05:00] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-Cinematic]: success
 [2024-05-28 08:05:00] INFO root fetch - main [MainThread]: Store serial: [23405812]
+[2024-05-28 08:07:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23405812]
+[2024-05-28 08:07:09] INFO root fetch - main [MainThread]: Found 36 changed packages
+[2024-05-28 08:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyobjc-framework-ClassKit
+[2024-05-28 08:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyobjc-framework-CloudKit
+[2024-05-28 08:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyobjc-framework-Cocoa
+[2024-05-28 08:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyobjc-framework-Collaboration
+[2024-05-28 08:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyobjc-framework-ColorSync
+[2024-05-28 08:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyobjc-framework-Contacts
+[2024-05-28 08:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyobjc-framework-ContactsUI
+[2024-05-28 08:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: stocknotebridgenew
+[2024-05-28 08:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyobjc-framework-CoreAudio
+[2024-05-28 08:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyobjc-framework-CoreAudioKit
+[2024-05-28 08:07:09] INFO root fetch - processPackages [pyobjc-framework-ClassKit]: New version: [9.2] Old Version: [9.1b1]
+[2024-05-28 08:07:10] INFO root fetch - processPackages [pyobjc-framework-ColorSync]: New version: [9.2] Old Version: [9.1b1]
+[2024-05-28 08:07:10] INFO root fetch - processPackages [pyobjc-framework-Collaboration]: New version: [9.2] Old Version: [9.1b1]
+[2024-05-28 08:07:10] INFO root fetch - processPackages [pyobjc-framework-CoreAudio]: New version: [9.2] Old Version: [9.1b1]
+[2024-05-28 08:07:10] INFO root fetch - processPackages [pyobjc-framework-CloudKit]: New version: [9.2] Old Version: [9.1b1]
+[2024-05-28 08:07:10] INFO root fetch - processPackages [pyobjc-framework-ClassKit]: Downloading https://files.pythonhosted.org/packages/2a/cd/7715ca18d86d7cc4dbf8692985f0d9d2daf43dd67e4871b0908140ae4979/pyobjc-framework-ClassKit-9.1b1.tar.gz
+[2024-05-28 08:07:10] WARNING root fetch - processPackages [stocknotebridgenew]: Skipping, unable to determine old version
+[2024-05-28 08:07:10] INFO root fetch - processPackages [stocknotebridgenew]: Start processing: cerebrumscanner
+[2024-05-28 08:07:10] INFO root fetch - main [MainThread]: End processing [stocknotebridgenew] error
+[2024-05-28 08:07:10] INFO root fetch - processPackages [pyobjc-framework-Contacts]: New version: [9.2] Old Version: [9.1b1]
+[2024-05-28 08:07:10] INFO root fetch - processPackages [pyobjc-framework-CoreAudioKit]: New version: [9.2] Old Version: [9.1b1]
+[2024-05-28 08:07:10] INFO root fetch - processPackages [pyobjc-framework-Cocoa]: New version: [9.2] Old Version: [9.1b1]
+[2024-05-28 08:07:10] INFO root fetch - processPackages [pyobjc-framework-ContactsUI]: New version: [9.2] Old Version: [9.1b1]
+[2024-05-28 08:07:10] INFO root fetch - processPackages [cerebrumscanner]: New version: [0.0.1b3] Old Version: [0.0.1b2]
+[2024-05-28 08:07:10] INFO root fetch - processPackages [pyobjc-framework-ColorSync]: Downloading https://files.pythonhosted.org/packages/43/f1/8d6e2709952f3a83862b77515a2b0d6177eca8d4146e0e4644f48933b7e2/pyobjc-framework-ColorSync-9.1b1.tar.gz
+[2024-05-28 08:07:10] INFO root fetch - processPackages [cerebrumscanner]: Downloading https://files.pythonhosted.org/packages/05/3f/9f58716b1c8f0c00e3072a055483be6e40416a47ebc427c369f4283693cb/cerebrumscanner-0.0.1b2.tar.gz
+[2024-05-28 08:07:10] INFO root fetch - processPackages [pyobjc-framework-Collaboration]: Downloading https://files.pythonhosted.org/packages/9e/52/7e9252016584f55d8ca0aa2ec5b64dc25f0359576177fa520924916d7cdd/pyobjc-framework-Collaboration-9.1b1.tar.gz
+[2024-05-28 08:07:10] INFO root fetch - processPackages [pyobjc-framework-CoreAudio]: Downloading https://files.pythonhosted.org/packages/e7/e6/17cfe9d48d0d3d6b8f504bc9ff292ccd58ee8a7b1f62ff2556c8590c4b06/pyobjc-framework-CoreAudio-9.1b1.tar.gz
+[2024-05-28 08:07:10] INFO root fetch - processPackages [pyobjc-framework-CloudKit]: Downloading https://files.pythonhosted.org/packages/9a/e6/7b9255ec3e1a897f6a678aa8f3a166fd6f12689a4b0a4cd42b1d6eecaa47/pyobjc-framework-CloudKit-9.1b1.tar.gz
+[2024-05-28 08:07:10] INFO root fetch - processPackages [pyobjc-framework-Contacts]: Downloading https://files.pythonhosted.org/packages/28/1c/eee3a121618d231ed4772f5daecc6638392cb27f118d4fa01fb6cbe5834e/pyobjc-framework-Contacts-9.1b1.tar.gz
+[2024-05-28 08:07:10] INFO root fetch - processPackages [pyobjc-framework-ClassKit]: Downloading https://files.pythonhosted.org/packages/7f/58/a7e5684dfcab8f65488336b28285db4cfc4e32174ff7cb05015c67b89315/pyobjc-framework-ClassKit-9.2.tar.gz
+[2024-05-28 08:07:10] INFO root fetch - processPackages [pyobjc-framework-CoreAudioKit]: Downloading https://files.pythonhosted.org/packages/ad/09/16d779ed288acbe2bed8c169e369d869fbbc807ac85ea6508a1b02aa35ec/pyobjc-framework-CoreAudioKit-9.1b1.tar.gz
+[2024-05-28 08:07:10] INFO root fetch - processPackages [pyobjc-framework-ContactsUI]: Downloading https://files.pythonhosted.org/packages/ac/dd/ec2e576a303ae4ef3ae69e279a5747f8baf4c417dbc59152416ca864a3ce/pyobjc-framework-ContactsUI-9.1b1.tar.gz
+[2024-05-28 08:07:10] INFO root fetch - processPackages [pyobjc-framework-Cocoa]: Downloading https://files.pythonhosted.org/packages/f8/e3/5b097c70ece99f82228e5673b8831ef81cb31b01737fc3ba0d4f07bd59f7/pyobjc-framework-Cocoa-9.1b1.tar.gz
+[2024-05-28 08:07:10] INFO root fetch - processPackages [pyobjc-framework-ClassKit]: executing diffoscope
+[2024-05-28 08:07:10] INFO root fetch - processPackages [pyobjc-framework-ClassKit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-ClassKit-9.1b1.tar.gz tmp/pyobjc-framework-ClassKit-9.2.tar.gz --markdown 20240528/p/pyobjc-framework-ClassKit/9.1b1-9.2/README.md --exclude *.pyd
+[2024-05-28 08:07:10] INFO root fetch - processPackages [cerebrumscanner]: Downloading https://files.pythonhosted.org/packages/28/c7/5e49d6328b9ed08e37232615b2c54820fcfda6bb28539b6879c31a1af652/cerebrumscanner-0.0.1b3.tar.gz
+[2024-05-28 08:07:10] INFO root fetch - processPackages [pyobjc-framework-ColorSync]: Downloading https://files.pythonhosted.org/packages/cb/39/a453f316596a9f5ff638e541ad3b85e211118af542543ac536ac8877fd6d/pyobjc-framework-ColorSync-9.2.tar.gz
+[2024-05-28 08:07:10] INFO root fetch - processPackages [pyobjc-framework-Collaboration]: Downloading https://files.pythonhosted.org/packages/b6/39/a430883fdfbb8b42bdac111d02ccfe6f4618bbe7ef7ccd193ebc9b879386/pyobjc-framework-Collaboration-9.2.tar.gz
+[2024-05-28 08:07:10] INFO root fetch - processPackages [pyobjc-framework-CoreAudio]: Downloading https://files.pythonhosted.org/packages/51/43/d15c986e635066db113bd6a1f6d99857bd88ac46bf70f619b2cdff8362f3/pyobjc-framework-CoreAudio-9.2.tar.gz
+[2024-05-28 08:07:10] INFO root fetch - processPackages [pyobjc-framework-CloudKit]: Downloading https://files.pythonhosted.org/packages/0a/66/4047a4a8edf74cdbc32bddaaf08f830415c5784df32dde674f7dc17f8481/pyobjc-framework-CloudKit-9.2.tar.gz
+[2024-05-28 08:07:10] INFO root fetch - processPackages [pyobjc-framework-Contacts]: Downloading https://files.pythonhosted.org/packages/b6/e0/3af081a26f545c39e79101653f80047965266ab9ccc8b432130801a00dc7/pyobjc-framework-Contacts-9.2.tar.gz
+[2024-05-28 08:07:10] INFO root fetch - processPackages [cerebrumscanner]: executing diffoscope
+[2024-05-28 08:07:10] INFO root fetch - processPackages [cerebrumscanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cerebrumscanner-0.0.1b2.tar.gz tmp/cerebrumscanner-0.0.1b3.tar.gz --markdown 20240528/c/cerebrumscanner/0.0.1b2-0.0.1b3/README.md --exclude *.pyd
+[2024-05-28 08:07:10] INFO root fetch - processPackages [pyobjc-framework-ContactsUI]: Downloading https://files.pythonhosted.org/packages/4f/5f/644d203fc7cbb4a69fc24b050eb2c073354681e0479d74a83ac01d6e8104/pyobjc-framework-ContactsUI-9.2.tar.gz
+[2024-05-28 08:07:10] INFO root fetch - processPackages [pyobjc-framework-ColorSync]: executing diffoscope
+[2024-05-28 08:07:10] INFO root fetch - processPackages [pyobjc-framework-ColorSync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-ColorSync-9.1b1.tar.gz tmp/pyobjc-framework-ColorSync-9.2.tar.gz --markdown 20240528/p/pyobjc-framework-ColorSync/9.1b1-9.2/README.md --exclude *.pyd
+[2024-05-28 08:07:10] INFO root fetch - processPackages [pyobjc-framework-CoreAudioKit]: Downloading https://files.pythonhosted.org/packages/bc/6a/e08990f4b2dea5acb4bac3a153beb4a0db4944ef39b52447a2c70496a280/pyobjc-framework-CoreAudioKit-9.2.tar.gz
+[2024-05-28 08:07:10] INFO root fetch - processPackages [pyobjc-framework-Collaboration]: executing diffoscope
+[2024-05-28 08:07:10] INFO root fetch - processPackages [pyobjc-framework-Collaboration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-Collaboration-9.1b1.tar.gz tmp/pyobjc-framework-Collaboration-9.2.tar.gz --markdown 20240528/p/pyobjc-framework-Collaboration/9.1b1-9.2/README.md --exclude *.pyd
+[2024-05-28 08:07:11] INFO root fetch - processPackages [pyobjc-framework-CoreAudio]: executing diffoscope
+[2024-05-28 08:07:11] INFO root fetch - processPackages [pyobjc-framework-CoreAudio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-CoreAudio-9.1b1.tar.gz tmp/pyobjc-framework-CoreAudio-9.2.tar.gz --markdown 20240528/p/pyobjc-framework-CoreAudio/9.1b1-9.2/README.md --exclude *.pyd
+[2024-05-28 08:07:11] INFO root fetch - processPackages [pyobjc-framework-Contacts]: executing diffoscope
+[2024-05-28 08:07:11] INFO root fetch - processPackages [pyobjc-framework-Contacts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-Contacts-9.1b1.tar.gz tmp/pyobjc-framework-Contacts-9.2.tar.gz --markdown 20240528/p/pyobjc-framework-Contacts/9.1b1-9.2/README.md --exclude *.pyd
+[2024-05-28 08:07:11] INFO root fetch - processPackages [pyobjc-framework-ContactsUI]: executing diffoscope
+[2024-05-28 08:07:11] INFO root fetch - processPackages [pyobjc-framework-ContactsUI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-ContactsUI-9.1b1.tar.gz tmp/pyobjc-framework-ContactsUI-9.2.tar.gz --markdown 20240528/p/pyobjc-framework-ContactsUI/9.1b1-9.2/README.md --exclude *.pyd
+[2024-05-28 08:07:11] INFO root fetch - processPackages [pyobjc-framework-CloudKit]: executing diffoscope
+[2024-05-28 08:07:11] INFO root fetch - processPackages [pyobjc-framework-CloudKit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-CloudKit-9.1b1.tar.gz tmp/pyobjc-framework-CloudKit-9.2.tar.gz --markdown 20240528/p/pyobjc-framework-CloudKit/9.1b1-9.2/README.md --exclude *.pyd
+[2024-05-28 08:07:11] INFO root fetch - processPackages [pyobjc-framework-CoreAudioKit]: executing diffoscope
+[2024-05-28 08:07:11] INFO root fetch - processPackages [pyobjc-framework-CoreAudioKit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-CoreAudioKit-9.1b1.tar.gz tmp/pyobjc-framework-CoreAudioKit-9.2.tar.gz --markdown 20240528/p/pyobjc-framework-CoreAudioKit/9.1b1-9.2/README.md --exclude *.pyd
+[2024-05-28 08:07:11] INFO root fetch - processPackages [pyobjc-framework-ClassKit]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-ClassKit-9.1b1.tar.gz]
+[2024-05-28 08:07:11] INFO root fetch - processPackages [pyobjc-framework-ClassKit]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-ClassKit-9.2.tar.gz]
+[2024-05-28 08:07:11] INFO root fetch - processPackages [pyobjc-framework-ClassKit]: Start processing: pyobjc-framework-CoreBluetooth
+[2024-05-28 08:07:11] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-ClassKit]: success
+[2024-05-28 08:07:11] INFO root fetch - processPackages [pyobjc-framework-CoreBluetooth]: New version: [9.2] Old Version: [9.1b1]
+[2024-05-28 08:07:11] INFO root fetch - processPackages [cerebrumscanner]: Remove: archive file [/home/abi/fetcher/tmp/cerebrumscanner-0.0.1b2.tar.gz]
+[2024-05-28 08:07:11] INFO root fetch - processPackages [cerebrumscanner]: Remove: archive file [/home/abi/fetcher/tmp/cerebrumscanner-0.0.1b3.tar.gz]
+[2024-05-28 08:07:11] INFO root fetch - processPackages [cerebrumscanner]: Start processing: pyobjc-framework-CoreData
+[2024-05-28 08:07:11] INFO root fetch - main [MainThread]: End processing [cerebrumscanner]: success
+[2024-05-28 08:07:11] INFO root fetch - processPackages [pyobjc-framework-Collaboration]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-Collaboration-9.1b1.tar.gz]
+[2024-05-28 08:07:11] INFO root fetch - processPackages [pyobjc-framework-Collaboration]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-Collaboration-9.2.tar.gz]
+[2024-05-28 08:07:11] INFO root fetch - processPackages [pyobjc-framework-Collaboration]: Start processing: pyobjc-framework-CoreHaptics
+[2024-05-28 08:07:11] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-Collaboration]: success
+[2024-05-28 08:07:11] INFO root fetch - processPackages [pyobjc-framework-CoreData]: New version: [9.2] Old Version: [9.1b1]
+[2024-05-28 08:07:11] INFO root fetch - processPackages [pyobjc-framework-CoreBluetooth]: Downloading https://files.pythonhosted.org/packages/ef/57/b64e9d3c2f59f54b0b110a6f2053a6f16b423a559bdab19752f36f002400/pyobjc-framework-CoreBluetooth-9.1b1.tar.gz
+[2024-05-28 08:07:11] INFO root fetch - processPackages [pyobjc-framework-ContactsUI]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-ContactsUI-9.1b1.tar.gz]
+[2024-05-28 08:07:11] INFO root fetch - processPackages [pyobjc-framework-ContactsUI]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-ContactsUI-9.2.tar.gz]
+[2024-05-28 08:07:11] INFO root fetch - processPackages [pyobjc-framework-ContactsUI]: Start processing: pyobjc-framework-CoreLocation
+[2024-05-28 08:07:11] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-ContactsUI]: success
+[2024-05-28 08:07:11] INFO root fetch - processPackages [pyobjc-framework-CoreHaptics]: New version: [9.2] Old Version: [9.1b1]
+[2024-05-28 08:07:11] INFO root fetch - processPackages [pyobjc-framework-ColorSync]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-ColorSync-9.1b1.tar.gz]
+[2024-05-28 08:07:11] INFO root fetch - processPackages [pyobjc-framework-ColorSync]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-ColorSync-9.2.tar.gz]
+[2024-05-28 08:07:11] INFO root fetch - processPackages [pyobjc-framework-ColorSync]: Start processing: odoo-addon-openupgrade-scripts
+[2024-05-28 08:07:11] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-ColorSync]: success
+[2024-05-28 08:07:11] INFO root fetch - processPackages [pyobjc-framework-CoreAudioKit]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-CoreAudioKit-9.1b1.tar.gz]
+[2024-05-28 08:07:11] INFO root fetch - processPackages [pyobjc-framework-CoreAudioKit]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-CoreAudioKit-9.2.tar.gz]
+[2024-05-28 08:07:11] INFO root fetch - processPackages [pyobjc-framework-CoreAudioKit]: Start processing: pyobjc-framework-CoreMIDI
+[2024-05-28 08:07:11] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-CoreAudioKit]: success
+[2024-05-28 08:07:12] INFO root fetch - processPackages [pyobjc-framework-CoreLocation]: New version: [9.2] Old Version: [9.1b1]
+[2024-05-28 08:07:12] INFO root fetch - processPackages [pyobjc-framework-CoreData]: Downloading https://files.pythonhosted.org/packages/8a/f3/5271019b3c24cefa0b6e7995f27dcf9c6d1e7e65ac729d1b35467dec1983/pyobjc-framework-CoreData-9.1b1.tar.gz
+[2024-05-28 08:07:12] INFO root fetch - processPackages [pyobjc-framework-CoreMIDI]: New version: [9.2] Old Version: [9.1b1]
+[2024-05-28 08:07:12] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: New version: [17.0.1.0.1.3] Old Version: [17.0.1.0.1.2]
+[2024-05-28 08:07:12] INFO root fetch - processPackages [pyobjc-framework-CoreAudio]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-CoreAudio-9.1b1.tar.gz]
+[2024-05-28 08:07:12] INFO root fetch - processPackages [pyobjc-framework-CoreAudio]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-CoreAudio-9.2.tar.gz]
+[2024-05-28 08:07:12] INFO root fetch - processPackages [pyobjc-framework-CoreAudio]: Start processing: pyobjc-framework-CoreML
+[2024-05-28 08:07:12] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-CoreAudio]: success
+[2024-05-28 08:07:12] INFO root fetch - processPackages [pyobjc-framework-CoreHaptics]: Downloading https://files.pythonhosted.org/packages/8c/3a/9c1e255c52dc60fcac16220e618e0643c40dce565c3b72e484b81d2f80e3/pyobjc-framework-CoreHaptics-9.1b1.tar.gz
+[2024-05-28 08:07:12] INFO root fetch - processPackages [pyobjc-framework-Cocoa]: Downloading https://files.pythonhosted.org/packages/38/91/c54fdffda6d7cfad67ff617f19001163658d50bc72376d1584e691cf4895/pyobjc-framework-Cocoa-9.2.tar.gz
+[2024-05-28 08:07:12] INFO root fetch - processPackages [pyobjc-framework-CloudKit]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-CloudKit-9.1b1.tar.gz]
+[2024-05-28 08:07:12] INFO root fetch - processPackages [pyobjc-framework-CloudKit]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-CloudKit-9.2.tar.gz]
+[2024-05-28 08:07:12] INFO root fetch - processPackages [pyobjc-framework-CloudKit]: Start processing: pyobjc-framework-CoreMedia
+[2024-05-28 08:07:12] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-CloudKit]: success
+[2024-05-28 08:07:12] INFO root fetch - processPackages [pyobjc-framework-Contacts]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-Contacts-9.1b1.tar.gz]
+[2024-05-28 08:07:12] INFO root fetch - processPackages [pyobjc-framework-Contacts]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-Contacts-9.2.tar.gz]
+[2024-05-28 08:07:12] INFO root fetch - processPackages [pyobjc-framework-Contacts]: Start processing: pyobjc-framework-CoreMediaIO
+[2024-05-28 08:07:12] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-Contacts]: success
+[2024-05-28 08:07:12] INFO root fetch - processPackages [pyobjc-framework-CoreBluetooth]: Downloading https://files.pythonhosted.org/packages/f1/7a/239d5b1ac63056bb3e754c1f189f3e17051f3d2c3368c339d15b34f2ac48/pyobjc-framework-CoreBluetooth-9.2.tar.gz
+[2024-05-28 08:07:12] INFO root fetch - processPackages [pyobjc-framework-CoreML]: New version: [9.2] Old Version: [9.1b1]
+[2024-05-28 08:07:12] INFO root fetch - processPackages [pyobjc-framework-CoreMedia]: New version: [9.2] Old Version: [9.1b1]
+[2024-05-28 08:07:12] INFO root fetch - processPackages [pyobjc-framework-CoreLocation]: Downloading https://files.pythonhosted.org/packages/79/81/418b6592d8f1786f6fbc0f02d531e34ea46dbe7d771c6b538663be933ba7/pyobjc-framework-CoreLocation-9.1b1.tar.gz
+[2024-05-28 08:07:12] INFO root fetch - processPackages [pyobjc-framework-CoreMIDI]: Downloading https://files.pythonhosted.org/packages/67/a1/21fb3a453a9d11d1ba7d8bd9f021e3d88549ff0ba9db8e8c519c3f0daad6/pyobjc-framework-CoreMIDI-9.1b1.tar.gz
+[2024-05-28 08:07:12] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/2e/07/cd2a4ed7796c54648aaa9877e518fbf9fbf32efb82f079e0a29a9bc2c6a8/odoo_addon_openupgrade_scripts-17.0.1.0.1.2-py3-none-any.whl
+[2024-05-28 08:07:12] INFO root fetch - processPackages [pyobjc-framework-CoreMediaIO]: New version: [9.2] Old Version: [9.1b1]
+[2024-05-28 08:07:12] INFO root fetch - processPackages [pyobjc-framework-CoreBluetooth]: executing diffoscope
+[2024-05-28 08:07:12] INFO root fetch - processPackages [pyobjc-framework-CoreBluetooth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-CoreBluetooth-9.1b1.tar.gz tmp/pyobjc-framework-CoreBluetooth-9.2.tar.gz --markdown 20240528/p/pyobjc-framework-CoreBluetooth/9.1b1-9.2/README.md --exclude *.pyd
+[2024-05-28 08:07:12] INFO root fetch - processPackages [pyobjc-framework-CoreMedia]: Downloading https://files.pythonhosted.org/packages/0e/b6/b354f7a16ec92a0eff32a7fe755f801d4ed18f82646565e37fc9a8994352/pyobjc-framework-CoreMedia-9.1b1.tar.gz
+[2024-05-28 08:07:12] INFO root fetch - processPackages [pyobjc-framework-CoreData]: Downloading https://files.pythonhosted.org/packages/69/eb/f53d3f9e08ded40b8e4171dcb0be06ae6d210c843d68455a304dd1051ba7/pyobjc-framework-CoreData-9.2.tar.gz
+[2024-05-28 08:07:12] INFO root fetch - processPackages [pyobjc-framework-CoreML]: Downloading https://files.pythonhosted.org/packages/7a/11/fb7a609f7b333019a3c65ffb2935c146e9a7cc782b2113a1e2efb34f3f4b/pyobjc-framework-CoreML-9.1b1.tar.gz
+[2024-05-28 08:07:12] INFO root fetch - processPackages [pyobjc-framework-CoreHaptics]: Downloading https://files.pythonhosted.org/packages/7c/63/820702999cf22a55029fb10df5db7cf4d35c66de898fa4a1b989bc9e6e79/pyobjc-framework-CoreHaptics-9.2.tar.gz
+[2024-05-28 08:07:12] INFO root fetch - processPackages [pyobjc-framework-CoreMediaIO]: Downloading https://files.pythonhosted.org/packages/7b/fd/89318030e2476e57450b0e090b14bc3eed3eb4ebb471f79a518886cf48c9/pyobjc-framework-CoreMediaIO-9.1b1.tar.gz
+[2024-05-28 08:07:12] INFO root fetch - processPackages [pyobjc-framework-CoreData]: executing diffoscope
+[2024-05-28 08:07:12] INFO root fetch - processPackages [pyobjc-framework-CoreData]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-CoreData-9.1b1.tar.gz tmp/pyobjc-framework-CoreData-9.2.tar.gz --markdown 20240528/p/pyobjc-framework-CoreData/9.1b1-9.2/README.md --exclude *.pyd
+[2024-05-28 08:07:12] INFO root fetch - processPackages [pyobjc-framework-CoreHaptics]: executing diffoscope
+[2024-05-28 08:07:12] INFO root fetch - processPackages [pyobjc-framework-CoreHaptics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-CoreHaptics-9.1b1.tar.gz tmp/pyobjc-framework-CoreHaptics-9.2.tar.gz --markdown 20240528/p/pyobjc-framework-CoreHaptics/9.1b1-9.2/README.md --exclude *.pyd
+[2024-05-28 08:07:12] INFO root fetch - processPackages [pyobjc-framework-CoreLocation]: Downloading https://files.pythonhosted.org/packages/ce/f4/e2a190a76bca21a435b59d467f9d1b53e5f6225a2a773accba3d2bb46077/pyobjc-framework-CoreLocation-9.2.tar.gz
+[2024-05-28 08:07:12] INFO root fetch - processPackages [pyobjc-framework-Cocoa]: executing diffoscope
+[2024-05-28 08:07:12] INFO root fetch - processPackages [pyobjc-framework-Cocoa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-Cocoa-9.1b1.tar.gz tmp/pyobjc-framework-Cocoa-9.2.tar.gz --markdown 20240528/p/pyobjc-framework-Cocoa/9.1b1-9.2/README.md --exclude *.pyd
+[2024-05-28 08:07:12] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/f2/91/02310927fe11638961035a9674b0da49957cf5a36fe9d4f8296940bc73b9/odoo_addon_openupgrade_scripts-17.0.1.0.1.3-py3-none-any.whl
+[2024-05-28 08:07:12] INFO root fetch - processPackages [pyobjc-framework-CoreMedia]: Downloading https://files.pythonhosted.org/packages/a9/2f/4131ac7b4a400b3767c40fb7f17f46d0caf8dc66b6ae400d1489fc596329/pyobjc-framework-CoreMedia-9.2.tar.gz
+[2024-05-28 08:07:12] INFO root fetch - processPackages [pyobjc-framework-CoreML]: Downloading https://files.pythonhosted.org/packages/3b/d3/e60f81465d3194eb6f311d415754ca90cd09ff7bcc5ebbacccc7b1cc6bf3/pyobjc-framework-CoreML-9.2.tar.gz
+[2024-05-28 08:07:13] INFO root fetch - processPackages [pyobjc-framework-CoreLocation]: executing diffoscope
+[2024-05-28 08:07:13] INFO root fetch - processPackages [pyobjc-framework-CoreLocation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-CoreLocation-9.1b1.tar.gz tmp/pyobjc-framework-CoreLocation-9.2.tar.gz --markdown 20240528/p/pyobjc-framework-CoreLocation/9.1b1-9.2/README.md --exclude *.pyd
+[2024-05-28 08:07:13] INFO root fetch - processPackages [pyobjc-framework-CoreMedia]: executing diffoscope
+[2024-05-28 08:07:13] INFO root fetch - processPackages [pyobjc-framework-CoreMedia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-CoreMedia-9.1b1.tar.gz tmp/pyobjc-framework-CoreMedia-9.2.tar.gz --markdown 20240528/p/pyobjc-framework-CoreMedia/9.1b1-9.2/README.md --exclude *.pyd
+[2024-05-28 08:07:13] INFO root fetch - processPackages [pyobjc-framework-CoreMIDI]: Downloading https://files.pythonhosted.org/packages/7c/49/0de8a2a39342b67f60b252e012098ef6578c55a0895f5f8d6cb21fabd9e1/pyobjc-framework-CoreMIDI-9.2.tar.gz
+[2024-05-28 08:07:13] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: executing diffoscope
+[2024-05-28 08:07:13] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_openupgrade_scripts-17.0.1.0.1.2-py3-none-any.whl.zip tmp/odoo_addon_openupgrade_scripts-17.0.1.0.1.3-py3-none-any.whl.zip --markdown 20240528/o/odoo-addon-openupgrade-scripts/17.0.1.0.1.2-17.0.1.0.1.3/README.md --exclude *.pyd
+[2024-05-28 08:07:13] INFO root fetch - processPackages [pyobjc-framework-CoreML]: executing diffoscope
+[2024-05-28 08:07:13] INFO root fetch - processPackages [pyobjc-framework-CoreML]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-CoreML-9.1b1.tar.gz tmp/pyobjc-framework-CoreML-9.2.tar.gz --markdown 20240528/p/pyobjc-framework-CoreML/9.1b1-9.2/README.md --exclude *.pyd
+[2024-05-28 08:07:13] INFO root fetch - processPackages [pyobjc-framework-CoreMediaIO]: Downloading https://files.pythonhosted.org/packages/af/77/7b964ff6eabb676fc177837c6af773ea5ebd43f8b16fc3c7c570821c242b/pyobjc-framework-CoreMediaIO-9.2.tar.gz
+[2024-05-28 08:07:13] INFO root fetch - processPackages [pyobjc-framework-CoreBluetooth]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-CoreBluetooth-9.1b1.tar.gz]
+[2024-05-28 08:07:13] INFO root fetch - processPackages [pyobjc-framework-CoreBluetooth]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-CoreBluetooth-9.2.tar.gz]
+[2024-05-28 08:07:13] INFO root fetch - processPackages [pyobjc-framework-CoreBluetooth]: Start processing: pyobjc-framework-CoreMotion
+[2024-05-28 08:07:13] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-CoreBluetooth]: success
+[2024-05-28 08:07:13] INFO root fetch - processPackages [pyobjc-framework-CoreMediaIO]: executing diffoscope
+[2024-05-28 08:07:13] INFO root fetch - processPackages [pyobjc-framework-CoreMediaIO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-CoreMediaIO-9.1b1.tar.gz tmp/pyobjc-framework-CoreMediaIO-9.2.tar.gz --markdown 20240528/p/pyobjc-framework-CoreMediaIO/9.1b1-9.2/README.md --exclude *.pyd
+[2024-05-28 08:07:13] INFO root fetch - processPackages [pyobjc-framework-CoreMotion]: New version: [9.2] Old Version: [9.1b1]
+[2024-05-28 08:07:13] INFO root fetch - processPackages [pyobjc-framework-CoreHaptics]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-CoreHaptics-9.1b1.tar.gz]
+[2024-05-28 08:07:13] INFO root fetch - processPackages [pyobjc-framework-CoreHaptics]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-CoreHaptics-9.2.tar.gz]
+[2024-05-28 08:07:13] INFO root fetch - processPackages [pyobjc-framework-CoreHaptics]: Start processing: pyobjc-framework-CoreServices
+[2024-05-28 08:07:13] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-CoreHaptics]: success
+[2024-05-28 08:07:13] INFO root fetch - processPackages [pyobjc-framework-CoreMotion]: Downloading https://files.pythonhosted.org/packages/f0/05/da76e73163ced439dda8fa41a4c849a60cedfff0346ac85ea1ba9384802e/pyobjc-framework-CoreMotion-9.1b1.tar.gz
+[2024-05-28 08:07:13] INFO root fetch - processPackages [pyobjc-framework-CoreServices]: New version: [9.2] Old Version: [9.1b1]
+[2024-05-28 08:07:14] INFO root fetch - processPackages [pyobjc-framework-CoreServices]: Downloading https://files.pythonhosted.org/packages/de/32/75dede10d6c5f692a65cfc88222044585daa736c36a711dccb618027e824/pyobjc-framework-CoreServices-9.1b1.tar.gz
+[2024-05-28 08:07:14] INFO root fetch - processPackages [pyobjc-framework-CoreMotion]: Downloading https://files.pythonhosted.org/packages/34/27/2fd4c951ed6a9932238b2d320891b893c036481daf397d7a32ea7e275b46/pyobjc-framework-CoreMotion-9.2.tar.gz
+[2024-05-28 08:07:14] INFO root fetch - processPackages [pyobjc-framework-CoreData]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-CoreData-9.1b1.tar.gz]
+[2024-05-28 08:07:14] INFO root fetch - processPackages [pyobjc-framework-CoreData]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-CoreData-9.2.tar.gz]
+[2024-05-28 08:07:14] INFO root fetch - processPackages [pyobjc-framework-CoreData]: Start processing: pyobjc-framework-CoreSpotlight
+[2024-05-28 08:07:14] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-CoreData]: success
+[2024-05-28 08:07:14] INFO root fetch - processPackages [pyobjc-framework-CoreMotion]: executing diffoscope
+[2024-05-28 08:07:14] INFO root fetch - processPackages [pyobjc-framework-CoreMotion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-CoreMotion-9.1b1.tar.gz tmp/pyobjc-framework-CoreMotion-9.2.tar.gz --markdown 20240528/p/pyobjc-framework-CoreMotion/9.1b1-9.2/README.md --exclude *.pyd
+[2024-05-28 08:07:14] INFO root fetch - processPackages [pyobjc-framework-CoreML]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-CoreML-9.1b1.tar.gz]
+[2024-05-28 08:07:14] INFO root fetch - processPackages [pyobjc-framework-CoreML]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-CoreML-9.2.tar.gz]
+[2024-05-28 08:07:14] INFO root fetch - processPackages [pyobjc-framework-CoreML]: Start processing: pyobjc-framework-CoreText
+[2024-05-28 08:07:14] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-CoreML]: success
+[2024-05-28 08:07:14] INFO root fetch - processPackages [pyobjc-framework-CoreSpotlight]: New version: [9.2] Old Version: [9.1b1]
+[2024-05-28 08:07:14] INFO root fetch - processPackages [pyobjc-framework-CoreText]: New version: [9.2] Old Version: [9.1b1]
+[2024-05-28 08:07:14] INFO root fetch - processPackages [pyobjc-framework-CoreLocation]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-CoreLocation-9.1b1.tar.gz]
+[2024-05-28 08:07:14] INFO root fetch - processPackages [pyobjc-framework-CoreLocation]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-CoreLocation-9.2.tar.gz]
+[2024-05-28 08:07:14] INFO root fetch - processPackages [pyobjc-framework-CoreLocation]: Start processing: pyobjc-framework-CoreWLAN
+[2024-05-28 08:07:14] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-CoreLocation]: success
+[2024-05-28 08:07:14] INFO root fetch - processPackages [pyobjc-framework-CoreMedia]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-CoreMedia-9.1b1.tar.gz]
+[2024-05-28 08:07:14] INFO root fetch - processPackages [pyobjc-framework-CoreMedia]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-CoreMedia-9.2.tar.gz]
+[2024-05-28 08:07:14] INFO root fetch - processPackages [pyobjc-framework-CoreMedia]: Start processing: pyobjc-framework-CryptoTokenKit
+[2024-05-28 08:07:14] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-CoreMedia]: success
+[2024-05-28 08:07:14] INFO root fetch - processPackages [pyobjc-framework-CoreServices]: Downloading https://files.pythonhosted.org/packages/c0/6d/7f42e55281194169d4d41e97fd1aa2a761fe408b1f740576bcbf3c29faab/pyobjc-framework-CoreServices-9.2.tar.gz
+[2024-05-28 08:07:14] INFO root fetch - processPackages [pyobjc-framework-CoreMediaIO]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-CoreMediaIO-9.1b1.tar.gz]
+[2024-05-28 08:07:14] INFO root fetch - processPackages [pyobjc-framework-CoreMediaIO]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-CoreMediaIO-9.2.tar.gz]
+[2024-05-28 08:07:14] INFO root fetch - processPackages [pyobjc-framework-CoreMediaIO]: Start processing: pyobjc-framework-DVDPlayback
+[2024-05-28 08:07:14] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-CoreMediaIO]: success
+[2024-05-28 08:07:14] INFO root fetch - processPackages [pyobjc-framework-CoreSpotlight]: Downloading https://files.pythonhosted.org/packages/54/6b/0cd1d208c6859adb8452520ef07007cb4301a9df9207b8ef0de6b80d29f9/pyobjc-framework-CoreSpotlight-9.1b1.tar.gz
+[2024-05-28 08:07:14] INFO root fetch - processPackages [pyobjc-framework-CoreWLAN]: New version: [9.2] Old Version: [9.1b1]
+[2024-05-28 08:07:14] INFO root fetch - processPackages [pyobjc-framework-CoreText]: Downloading https://files.pythonhosted.org/packages/1d/e8/a7469ffb68b872e39c18a2e0e45d8540c438699189445153c71194624044/pyobjc-framework-CoreText-9.1b1.tar.gz
+[2024-05-28 08:07:14] INFO root fetch - processPackages [pyobjc-framework-CryptoTokenKit]: New version: [9.2] Old Version: [9.1b1]
+[2024-05-28 08:07:14] INFO root fetch - processPackages [pyobjc-framework-DVDPlayback]: New version: [9.2] Old Version: [9.1b1]
+[2024-05-28 08:07:14] INFO root fetch - processPackages [pyobjc-framework-CoreServices]: executing diffoscope
+[2024-05-28 08:07:14] INFO root fetch - processPackages [pyobjc-framework-CoreServices]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-CoreServices-9.1b1.tar.gz tmp/pyobjc-framework-CoreServices-9.2.tar.gz --markdown 20240528/p/pyobjc-framework-CoreServices/9.1b1-9.2/README.md --exclude *.pyd
+[2024-05-28 08:07:14] INFO root fetch - processPackages [pyobjc-framework-CoreWLAN]: Downloading https://files.pythonhosted.org/packages/b1/fc/a166e54a68624adcfffa21e17841ca65c97f0bdea4b7dbdb4d853fe5ee09/pyobjc-framework-CoreWLAN-9.1b1.tar.gz
+[2024-05-28 08:07:14] INFO root fetch - processPackages [pyobjc-framework-CryptoTokenKit]: Downloading https://files.pythonhosted.org/packages/32/92/a8574e14f39a760fbeddf62605a5b53a7c75d4d71a6849a089405ce3633d/pyobjc-framework-CryptoTokenKit-9.1b1.tar.gz
+[2024-05-28 08:07:14] INFO root fetch - processPackages [pyobjc-framework-DVDPlayback]: Downloading https://files.pythonhosted.org/packages/a6/b5/1544e806d2eddacfe8401cc16fb65d340c12cf56a5da3e132dbf89263a79/pyobjc-framework-DVDPlayback-9.1b1.tar.gz
+[2024-05-28 08:07:15] INFO root fetch - processPackages [pyobjc-framework-CoreMIDI]: executing diffoscope
+[2024-05-28 08:07:15] INFO root fetch - processPackages [pyobjc-framework-CoreMIDI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-CoreMIDI-9.1b1.tar.gz tmp/pyobjc-framework-CoreMIDI-9.2.tar.gz --markdown 20240528/p/pyobjc-framework-CoreMIDI/9.1b1-9.2/README.md --exclude *.pyd
+[2024-05-28 08:07:15] INFO root fetch - processPackages [pyobjc-framework-CoreSpotlight]: Downloading https://files.pythonhosted.org/packages/b8/fe/70ab30eabbc22baaa49e3f34f3a03d6b280454a812305a9f292a0b7525c4/pyobjc-framework-CoreSpotlight-9.2.tar.gz
+[2024-05-28 08:07:15] INFO root fetch - processPackages [pyobjc-framework-CoreText]: Downloading https://files.pythonhosted.org/packages/d4/ca/452214e5d14a158c4b594a6de949197489d67c1d23bff5ad253ce9c667dc/pyobjc-framework-CoreText-9.2.tar.gz
+[2024-05-28 08:07:15] INFO root fetch - processPackages [pyobjc-framework-CoreMotion]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-CoreMotion-9.1b1.tar.gz]
+[2024-05-28 08:07:15] INFO root fetch - processPackages [pyobjc-framework-CoreMotion]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-CoreMotion-9.2.tar.gz]
+[2024-05-28 08:07:15] INFO root fetch - processPackages [pyobjc-framework-CoreMotion]: Start processing: pyobjc-framework-DataDetection
+[2024-05-28 08:07:15] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-CoreMotion]: success
+[2024-05-28 08:07:15] INFO root fetch - processPackages [pyobjc-framework-DataDetection]: New version: [9.2] Old Version: [9.1b1]
+[2024-05-28 08:07:15] INFO root fetch - processPackages [pyobjc-framework-CoreSpotlight]: executing diffoscope
+[2024-05-28 08:07:15] INFO root fetch - processPackages [pyobjc-framework-CoreSpotlight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-CoreSpotlight-9.1b1.tar.gz tmp/pyobjc-framework-CoreSpotlight-9.2.tar.gz --markdown 20240528/p/pyobjc-framework-CoreSpotlight/9.1b1-9.2/README.md --exclude *.pyd
+[2024-05-28 08:07:15] INFO root fetch - processPackages [pyobjc-framework-CoreText]: executing diffoscope
+[2024-05-28 08:07:15] INFO root fetch - processPackages [pyobjc-framework-CoreText]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-CoreText-9.1b1.tar.gz tmp/pyobjc-framework-CoreText-9.2.tar.gz --markdown 20240528/p/pyobjc-framework-CoreText/9.1b1-9.2/README.md --exclude *.pyd
+[2024-05-28 08:07:15] INFO root fetch - processPackages [pyobjc-framework-CoreWLAN]: Downloading https://files.pythonhosted.org/packages/66/a5/a00162dff83a80c6c4b6543958f35db6a7fd76ca0374ea3431bc740b029c/pyobjc-framework-CoreWLAN-9.2.tar.gz
+[2024-05-28 08:07:15] INFO root fetch - processPackages [pyobjc-framework-CryptoTokenKit]: Downloading https://files.pythonhosted.org/packages/90/cd/f41fd8eb91910e09164f9f53fcd546987808235e8052e86991f07c8a37ae/pyobjc-framework-CryptoTokenKit-9.2.tar.gz
+[2024-05-28 08:07:15] INFO root fetch - processPackages [pyobjc-framework-DVDPlayback]: Downloading https://files.pythonhosted.org/packages/c0/68/2efa0a05bb8e1f9d4f8e898c301326dca1dc2fc525f0c08a3c9789092ac7/pyobjc-framework-DVDPlayback-9.2.tar.gz
+[2024-05-28 08:07:15] INFO root fetch - processPackages [pyobjc-framework-DataDetection]: Downloading https://files.pythonhosted.org/packages/cc/89/7e70c76f3d22e97fa891a95fbe311e227c80ad09ed42c66093532a994014/pyobjc-framework-DataDetection-9.1b1.tar.gz
+[2024-05-28 08:07:15] INFO root fetch - processPackages [pyobjc-framework-CoreWLAN]: executing diffoscope
+[2024-05-28 08:07:15] INFO root fetch - processPackages [pyobjc-framework-CoreWLAN]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-CoreWLAN-9.1b1.tar.gz tmp/pyobjc-framework-CoreWLAN-9.2.tar.gz --markdown 20240528/p/pyobjc-framework-CoreWLAN/9.1b1-9.2/README.md --exclude *.pyd
+[2024-05-28 08:07:15] INFO root fetch - processPackages [pyobjc-framework-CryptoTokenKit]: executing diffoscope
+[2024-05-28 08:07:15] INFO root fetch - processPackages [pyobjc-framework-CryptoTokenKit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-CryptoTokenKit-9.1b1.tar.gz tmp/pyobjc-framework-CryptoTokenKit-9.2.tar.gz --markdown 20240528/p/pyobjc-framework-CryptoTokenKit/9.1b1-9.2/README.md --exclude *.pyd
+[2024-05-28 08:07:15] INFO root fetch - processPackages [pyobjc-framework-DVDPlayback]: executing diffoscope
+[2024-05-28 08:07:15] INFO root fetch - processPackages [pyobjc-framework-DVDPlayback]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-DVDPlayback-9.1b1.tar.gz tmp/pyobjc-framework-DVDPlayback-9.2.tar.gz --markdown 20240528/p/pyobjc-framework-DVDPlayback/9.1b1-9.2/README.md --exclude *.pyd
+[2024-05-28 08:07:15] INFO root fetch - processPackages [pyobjc-framework-DataDetection]: Downloading https://files.pythonhosted.org/packages/94/40/b4c2195c2cf7594ae8a8d2621a66edd8e65f239bea217ad93a71b0134e08/pyobjc-framework-DataDetection-9.2.tar.gz
+[2024-05-28 08:07:15] INFO root fetch - processPackages [pyobjc-framework-DataDetection]: executing diffoscope
+[2024-05-28 08:07:15] INFO root fetch - processPackages [pyobjc-framework-DataDetection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-DataDetection-9.1b1.tar.gz tmp/pyobjc-framework-DataDetection-9.2.tar.gz --markdown 20240528/p/pyobjc-framework-DataDetection/9.1b1-9.2/README.md --exclude *.pyd
+[2024-05-28 08:07:16] INFO root fetch - processPackages [pyobjc-framework-CoreSpotlight]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-CoreSpotlight-9.1b1.tar.gz]
+[2024-05-28 08:07:16] INFO root fetch - processPackages [pyobjc-framework-CoreSpotlight]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-CoreSpotlight-9.2.tar.gz]
+[2024-05-28 08:07:16] INFO root fetch - processPackages [pyobjc-framework-CoreSpotlight]: Start processing: pyobjc-framework-DeviceCheck
+[2024-05-28 08:07:16] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-CoreSpotlight]: success
+[2024-05-28 08:07:16] INFO root fetch - processPackages [pyobjc-framework-DeviceCheck]: New version: [9.2] Old Version: [9.1b1]
+[2024-05-28 08:07:16] INFO root fetch - processPackages [pyobjc-framework-CoreMIDI]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-CoreMIDI-9.1b1.tar.gz]
+[2024-05-28 08:07:16] INFO root fetch - processPackages [pyobjc-framework-CoreMIDI]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-CoreMIDI-9.2.tar.gz]
+[2024-05-28 08:07:16] INFO root fetch - processPackages [pyobjc-framework-CoreMIDI]: Start processing: pyobjc-framework-DictionaryServices
+[2024-05-28 08:07:16] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-CoreMIDI]: success
+[2024-05-28 08:07:16] INFO root fetch - processPackages [pyobjc-framework-CoreText]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-CoreText-9.1b1.tar.gz]
+[2024-05-28 08:07:16] INFO root fetch - processPackages [pyobjc-framework-CoreText]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-CoreText-9.2.tar.gz]
+[2024-05-28 08:07:16] INFO root fetch - processPackages [pyobjc-framework-CoreText]: Start processing: pyobjc-framework-DiscRecording
+[2024-05-28 08:07:16] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-CoreText]: success
+[2024-05-28 08:07:16] INFO root fetch - processPackages [pyobjc-framework-DeviceCheck]: Downloading https://files.pythonhosted.org/packages/bb/ce/263934c62c9d5dd52fa44f46654ff845b735c263cccf44dc3bb5e47e9048/pyobjc-framework-DeviceCheck-9.1b1.tar.gz
+[2024-05-28 08:07:16] INFO root fetch - processPackages [pyobjc-framework-CryptoTokenKit]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-CryptoTokenKit-9.1b1.tar.gz]
+[2024-05-28 08:07:16] INFO root fetch - processPackages [pyobjc-framework-CryptoTokenKit]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-CryptoTokenKit-9.2.tar.gz]
+[2024-05-28 08:07:16] INFO root fetch - processPackages [pyobjc-framework-CryptoTokenKit]: Start processing: mg-pso-gui
+[2024-05-28 08:07:16] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-CryptoTokenKit]: success
+[2024-05-28 08:07:16] INFO root fetch - processPackages [pyobjc-framework-DictionaryServices]: New version: [9.2] Old Version: [9.1b1]
+[2024-05-28 08:07:16] INFO root fetch - processPackages [mg-pso-gui]: New version: [0.1.96] Old Version: [0.1.95]
+[2024-05-28 08:07:16] INFO root fetch - processPackages [pyobjc-framework-CoreWLAN]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-CoreWLAN-9.1b1.tar.gz]
+[2024-05-28 08:07:16] INFO root fetch - processPackages [pyobjc-framework-DiscRecording]: New version: [9.2] Old Version: [9.1b1]
+[2024-05-28 08:07:16] INFO root fetch - processPackages [pyobjc-framework-CoreWLAN]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-CoreWLAN-9.2.tar.gz]
+[2024-05-28 08:07:16] INFO root fetch - processPackages [pyobjc-framework-CoreWLAN]: Start processing: pyobjc-framework-DiscRecordingUI
+[2024-05-28 08:07:16] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-CoreWLAN]: success
+[2024-05-28 08:07:16] INFO root fetch - processPackages [pyobjc-framework-DVDPlayback]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-DVDPlayback-9.1b1.tar.gz]
+[2024-05-28 08:07:16] INFO root fetch - processPackages [pyobjc-framework-DVDPlayback]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-DVDPlayback-9.2.tar.gz]
+[2024-05-28 08:07:16] INFO root fetch - processPackages [pyobjc-framework-DVDPlayback]: Start processing: pyobjc-framework-DiskArbitration
+[2024-05-28 08:07:16] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-DVDPlayback]: success
+[2024-05-28 08:07:16] INFO root fetch - processPackages [mg-pso-gui]: Downloading https://files.pythonhosted.org/packages/38/8d/93fa9f6f521e215bcedf5f3d350b9d9408625f7d15282c941af8c5d5cb3e/mg-pso-gui-0.1.95.tar.gz
+[2024-05-28 08:07:16] INFO root fetch - processPackages [pyobjc-framework-DiscRecordingUI]: New version: [9.2] Old Version: [9.1b1]
+[2024-05-28 08:07:16] INFO root fetch - processPackages [pyobjc-framework-DictionaryServices]: Downloading https://files.pythonhosted.org/packages/2b/f7/44962953738fada7bb626cd0c28eb3be7301fa9fa1e9fb87a2b87b3ecf3f/pyobjc-framework-DictionaryServices-9.1b1.tar.gz
+[2024-05-28 08:07:16] INFO root fetch - processPackages [pyobjc-framework-DiskArbitration]: New version: [9.2] Old Version: [9.1b1]
+[2024-05-28 08:07:16] INFO root fetch - processPackages [pyobjc-framework-CoreServices]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-CoreServices-9.1b1.tar.gz]
+[2024-05-28 08:07:16] INFO root fetch - processPackages [pyobjc-framework-CoreServices]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-CoreServices-9.2.tar.gz]
+[2024-05-28 08:07:16] INFO root fetch - processPackages [pyobjc-framework-CoreServices]: Start processing: pyobjc-framework-EventKit
+[2024-05-28 08:07:16] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-CoreServices]: success
+[2024-05-28 08:07:16] INFO root fetch - processPackages [pyobjc-framework-DeviceCheck]: Downloading https://files.pythonhosted.org/packages/75/cb/decce277a095f40bebe2a7cdb0d54d0d5bf8ee4b1f5c3baa24b02541d0fd/pyobjc-framework-DeviceCheck-9.2.tar.gz
+[2024-05-28 08:07:16] INFO root fetch - processPackages [pyobjc-framework-DataDetection]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-DataDetection-9.1b1.tar.gz]
+[2024-05-28 08:07:16] INFO root fetch - processPackages [pyobjc-framework-DataDetection]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-DataDetection-9.2.tar.gz]
+[2024-05-28 08:07:16] INFO root fetch - processPackages [pyobjc-framework-DataDetection]: Start processing: pyobjc-framework-ExceptionHandling
+[2024-05-28 08:07:16] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-DataDetection]: success
+[2024-05-28 08:07:16] INFO root fetch - processPackages [pyobjc-framework-DiscRecording]: Downloading https://files.pythonhosted.org/packages/56/18/a398d8a0ce3e0b95a4823ad2129216e6ab5a55068bf2df6924d44bdde6e1/pyobjc-framework-DiscRecording-9.1b1.tar.gz
+[2024-05-28 08:07:16] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-17.0.1.0.1.2-py3-none-any.whl.zip]
+[2024-05-28 08:07:16] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-17.0.1.0.1.3-py3-none-any.whl.zip]
+[2024-05-28 08:07:16] INFO root fetch - main [MainThread]: End processing [odoo-addon-openupgrade-scripts]: success
+[2024-05-28 08:07:16] INFO root fetch - processPackages [pyobjc-framework-DiscRecordingUI]: Downloading https://files.pythonhosted.org/packages/3b/2e/058cd524bdb2b73f242f869f17a7a45c75c52145ab46711eadbb304ba3c2/pyobjc-framework-DiscRecordingUI-9.1b1.tar.gz
+[2024-05-28 08:07:16] INFO root fetch - processPackages [pyobjc-framework-DeviceCheck]: executing diffoscope
+[2024-05-28 08:07:16] INFO root fetch - processPackages [pyobjc-framework-EventKit]: New version: [9.2] Old Version: [9.1b1]
+[2024-05-28 08:07:16] INFO root fetch - processPackages [pyobjc-framework-DeviceCheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-DeviceCheck-9.1b1.tar.gz tmp/pyobjc-framework-DeviceCheck-9.2.tar.gz --markdown 20240528/p/pyobjc-framework-DeviceCheck/9.1b1-9.2/README.md --exclude *.pyd
+[2024-05-28 08:07:17] INFO root fetch - processPackages [pyobjc-framework-ExceptionHandling]: New version: [9.2] Old Version: [9.1b1]
+[2024-05-28 08:07:17] INFO root fetch - processPackages [pyobjc-framework-DiskArbitration]: Downloading https://files.pythonhosted.org/packages/7a/cb/3bc7fb7b4f77e511a7995864d0cb0ff426a2bc27bd1375c6e8533bd1229d/pyobjc-framework-DiskArbitration-9.1b1.tar.gz
+[2024-05-28 08:07:17] INFO root fetch - processPackages [mg-pso-gui]: Downloading https://files.pythonhosted.org/packages/af/2e/e19aa9815ba22371ca292888eb89a550e797e975fff5b887b5611395be6b/mg-pso-gui-0.1.96.tar.gz
+[2024-05-28 08:07:17] INFO root fetch - processPackages [pyobjc-framework-DictionaryServices]: Downloading https://files.pythonhosted.org/packages/35/09/b894668ef623d753c180f6cf03efb8b49e588ecab2723d22d3cb81667337/pyobjc-framework-DictionaryServices-9.2.tar.gz
+[2024-05-28 08:07:17] INFO root fetch - processPackages [pyobjc-framework-EventKit]: Downloading https://files.pythonhosted.org/packages/35/96/8497793b272b8ba88b9a871fdbdae9b251475b510a0c843363ded3882c61/pyobjc-framework-EventKit-9.1b1.tar.gz
+[2024-05-28 08:07:17] INFO root fetch - processPackages [pyobjc-framework-ExceptionHandling]: Downloading https://files.pythonhosted.org/packages/cc/a2/5ce9c4378e86e9ef61a72abb0540b018aa8664b452b52b8664e62751f61c/pyobjc-framework-ExceptionHandling-9.1b1.tar.gz
+[2024-05-28 08:07:17] INFO root fetch - processPackages [pyobjc-framework-DiscRecording]: Downloading https://files.pythonhosted.org/packages/55/ca/ba7ba6ef509dbc6c7ea8dc7b4e79df921cf4b9f75485382c7ea52a99a9e0/pyobjc-framework-DiscRecording-9.2.tar.gz
+[2024-05-28 08:07:17] INFO root fetch - processPackages [pyobjc-framework-DictionaryServices]: executing diffoscope
+[2024-05-28 08:07:17] INFO root fetch - processPackages [pyobjc-framework-DictionaryServices]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-DictionaryServices-9.1b1.tar.gz tmp/pyobjc-framework-DictionaryServices-9.2.tar.gz --markdown 20240528/p/pyobjc-framework-DictionaryServices/9.1b1-9.2/README.md --exclude *.pyd
+[2024-05-28 08:07:17] INFO root fetch - processPackages [pyobjc-framework-DiscRecordingUI]: Downloading https://files.pythonhosted.org/packages/9d/3b/294f7714c04ffb2b7d47378a5735cfe5c0181835348b40a8db44ab485ba0/pyobjc-framework-DiscRecordingUI-9.2.tar.gz
+[2024-05-28 08:07:17] INFO root fetch - processPackages [mg-pso-gui]: executing diffoscope
+[2024-05-28 08:07:17] INFO root fetch - processPackages [mg-pso-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mg-pso-gui-0.1.95.tar.gz tmp/mg-pso-gui-0.1.96.tar.gz --markdown 20240528/m/mg-pso-gui/0.1.95-0.1.96/README.md --exclude *.pyd
+[2024-05-28 08:07:17] INFO root fetch - processPackages [pyobjc-framework-DiskArbitration]: Downloading https://files.pythonhosted.org/packages/3d/57/6037dd1bd8cfaf9848b40868912bba5a123d8ce5abdc773daa050951e96b/pyobjc-framework-DiskArbitration-9.2.tar.gz
+[2024-05-28 08:07:17] INFO root fetch - processPackages [pyobjc-framework-DiscRecordingUI]: executing diffoscope
+[2024-05-28 08:07:17] INFO root fetch - processPackages [pyobjc-framework-DiscRecordingUI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-DiscRecordingUI-9.1b1.tar.gz tmp/pyobjc-framework-DiscRecordingUI-9.2.tar.gz --markdown 20240528/p/pyobjc-framework-DiscRecordingUI/9.1b1-9.2/README.md --exclude *.pyd
+[2024-05-28 08:07:17] INFO root fetch - processPackages [pyobjc-framework-DiscRecording]: executing diffoscope
+[2024-05-28 08:07:17] INFO root fetch - processPackages [pyobjc-framework-DiscRecording]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-DiscRecording-9.1b1.tar.gz tmp/pyobjc-framework-DiscRecording-9.2.tar.gz --markdown 20240528/p/pyobjc-framework-DiscRecording/9.1b1-9.2/README.md --exclude *.pyd
+[2024-05-28 08:07:17] INFO root fetch - processPackages [pyobjc-framework-DiskArbitration]: executing diffoscope
+[2024-05-28 08:07:17] INFO root fetch - processPackages [pyobjc-framework-DiskArbitration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-DiskArbitration-9.1b1.tar.gz tmp/pyobjc-framework-DiskArbitration-9.2.tar.gz --markdown 20240528/p/pyobjc-framework-DiskArbitration/9.1b1-9.2/README.md --exclude *.pyd
+[2024-05-28 08:07:17] INFO root fetch - processPackages [pyobjc-framework-EventKit]: Downloading https://files.pythonhosted.org/packages/e0/84/4a143eb93e7ac960792ec7482384250087b708bfd8d42ef92fbe0d31469b/pyobjc-framework-EventKit-9.2.tar.gz
+[2024-05-28 08:07:17] INFO root fetch - processPackages [pyobjc-framework-ExceptionHandling]: Downloading https://files.pythonhosted.org/packages/d2/79/8736f14a89841dc6e15ad423e769c10938885b7dc78f812ed92463b1fbbf/pyobjc-framework-ExceptionHandling-9.2.tar.gz
+[2024-05-28 08:07:17] INFO root fetch - processPackages [pyobjc-framework-DeviceCheck]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-DeviceCheck-9.1b1.tar.gz]
+[2024-05-28 08:07:17] INFO root fetch - processPackages [pyobjc-framework-DeviceCheck]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-DeviceCheck-9.2.tar.gz]
+[2024-05-28 08:07:17] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-DeviceCheck]: success
+[2024-05-28 08:07:17] INFO root fetch - processPackages [pyobjc-framework-EventKit]: executing diffoscope
+[2024-05-28 08:07:17] INFO root fetch - processPackages [pyobjc-framework-EventKit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-EventKit-9.1b1.tar.gz tmp/pyobjc-framework-EventKit-9.2.tar.gz --markdown 20240528/p/pyobjc-framework-EventKit/9.1b1-9.2/README.md --exclude *.pyd
+[2024-05-28 08:07:17] INFO root fetch - processPackages [pyobjc-framework-ExceptionHandling]: executing diffoscope
+[2024-05-28 08:07:17] INFO root fetch - processPackages [pyobjc-framework-ExceptionHandling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-ExceptionHandling-9.1b1.tar.gz tmp/pyobjc-framework-ExceptionHandling-9.2.tar.gz --markdown 20240528/p/pyobjc-framework-ExceptionHandling/9.1b1-9.2/README.md --exclude *.pyd
+[2024-05-28 08:07:18] INFO root fetch - processPackages [pyobjc-framework-DictionaryServices]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-DictionaryServices-9.1b1.tar.gz]
+[2024-05-28 08:07:18] INFO root fetch - processPackages [pyobjc-framework-DictionaryServices]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-DictionaryServices-9.2.tar.gz]
+[2024-05-28 08:07:18] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-DictionaryServices]: success
+[2024-05-28 08:07:18] INFO root fetch - processPackages [pyobjc-framework-DiscRecordingUI]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-DiscRecordingUI-9.1b1.tar.gz]
+[2024-05-28 08:07:18] INFO root fetch - processPackages [pyobjc-framework-DiscRecordingUI]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-DiscRecordingUI-9.2.tar.gz]
+[2024-05-28 08:07:18] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-DiscRecordingUI]: success
+[2024-05-28 08:07:18] INFO root fetch - processPackages [pyobjc-framework-DiskArbitration]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-DiskArbitration-9.1b1.tar.gz]
+[2024-05-28 08:07:18] INFO root fetch - processPackages [pyobjc-framework-DiskArbitration]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-DiskArbitration-9.2.tar.gz]
+[2024-05-28 08:07:18] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-DiskArbitration]: success
+[2024-05-28 08:07:18] INFO root fetch - processPackages [mg-pso-gui]: Remove: archive file [/home/abi/fetcher/tmp/mg-pso-gui-0.1.95.tar.gz]
+[2024-05-28 08:07:18] INFO root fetch - processPackages [mg-pso-gui]: Remove: archive file [/home/abi/fetcher/tmp/mg-pso-gui-0.1.96.tar.gz]
+[2024-05-28 08:07:18] INFO root fetch - main [MainThread]: End processing [mg-pso-gui]: success
+[2024-05-28 08:07:18] INFO root fetch - processPackages [pyobjc-framework-DiscRecording]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-DiscRecording-9.1b1.tar.gz]
+[2024-05-28 08:07:18] INFO root fetch - processPackages [pyobjc-framework-DiscRecording]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-DiscRecording-9.2.tar.gz]
+[2024-05-28 08:07:18] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-DiscRecording]: success
+[2024-05-28 08:07:18] INFO root fetch - processPackages [pyobjc-framework-ExceptionHandling]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-ExceptionHandling-9.1b1.tar.gz]
+[2024-05-28 08:07:18] INFO root fetch - processPackages [pyobjc-framework-ExceptionHandling]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-ExceptionHandling-9.2.tar.gz]
+[2024-05-28 08:07:18] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-ExceptionHandling]: success
+[2024-05-28 08:07:18] INFO root fetch - processPackages [pyobjc-framework-EventKit]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-EventKit-9.1b1.tar.gz]
+[2024-05-28 08:07:18] INFO root fetch - processPackages [pyobjc-framework-EventKit]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-EventKit-9.2.tar.gz]
+[2024-05-28 08:07:18] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-EventKit]: success
+[2024-05-28 08:07:24] INFO root fetch - processPackages [pyobjc-framework-Cocoa]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-Cocoa-9.1b1.tar.gz]
+[2024-05-28 08:07:24] INFO root fetch - processPackages [pyobjc-framework-Cocoa]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-Cocoa-9.2.tar.gz]
+[2024-05-28 08:07:24] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-Cocoa]: success
+[2024-05-28 08:07:24] INFO root fetch - main [MainThread]: Store serial: [23405946]
