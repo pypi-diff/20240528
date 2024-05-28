@@ -15419,3 +15419,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 12:13:05] INFO root fetch - processPackages [snowflake-cli-labs]: Remove: archive file [/home/abi/fetcher/tmp/snowflake_cli_labs-2.4.0rc0.tar.gz]
 [2024-05-28 12:13:05] INFO root fetch - main [MainThread]: End processing [snowflake-cli-labs]: success
 [2024-05-28 12:13:05] INFO root fetch - main [MainThread]: Store serial: [23409406]
+[2024-05-28 12:15:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23409406]
+[2024-05-28 12:15:14] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-28 12:15:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: LearningNashQLearning
+[2024-05-28 12:15:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: projen
+[2024-05-28 12:15:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: danila-lib
+[2024-05-28 12:15:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: utilsds
+[2024-05-28 12:15:14] WARNING root fetch - processPackages [utilsds]: Skipping, unable to determine old version
+[2024-05-28 12:15:14] INFO root fetch - main [MainThread]: End processing [utilsds] error
+[2024-05-28 12:15:14] INFO root fetch - processPackages [danila-lib]: New version: [1.8.0] Old Version: [1.7.9]
+[2024-05-28 12:15:14] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/07/7a/126bd9f9a2c70c2ac21835dd7135ffc6837ed4b4710b7197e4520ca81dd3/danila-lib-1.7.9.tar.gz
+[2024-05-28 12:15:14] INFO root fetch - processPackages [LearningNashQLearning]: New version: [0.2] Old Version: [0.1]
+[2024-05-28 12:15:15] INFO root fetch - processPackages [projen]: New version: [0.81.9] Old Version: [0.81.8]
+[2024-05-28 12:15:15] INFO root fetch - processPackages [LearningNashQLearning]: Downloading https://files.pythonhosted.org/packages/1f/48/7ff4ba83cc8f2a8063c123e8c29948d49571f5490fe63e3f9b94298d0195/LearningNashQLearning-0.1.tar.gz
+[2024-05-28 12:15:15] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/a4/1e/71c5fe5e0fe91b950d1c1b54ec57fee6ad64f50810fed74f469dfdd21a79/projen-0.81.8.tar.gz
+[2024-05-28 12:15:15] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/d0/f2/12397dbd391a26e5e71d0b9780397ff17a506be716840644dfcc3a792070/danila-lib-1.8.0.tar.gz
+[2024-05-28 12:15:15] INFO root fetch - processPackages [LearningNashQLearning]: Downloading https://files.pythonhosted.org/packages/3c/07/8d6d6d799b7ffebb72a20798ad5e32441302957f17c08ffc797106233ce2/LearningNashQLearning-0.2.tar.gz
+[2024-05-28 12:15:15] INFO root fetch - processPackages [danila-lib]: executing diffoscope
+[2024-05-28 12:15:15] INFO root fetch - processPackages [danila-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danila-lib-1.7.9.tar.gz tmp/danila-lib-1.8.0.tar.gz --markdown 20240528/d/danila-lib/1.7.9-1.8.0/README.md --exclude *.pyd
+[2024-05-28 12:15:15] INFO root fetch - processPackages [LearningNashQLearning]: executing diffoscope
+[2024-05-28 12:15:15] INFO root fetch - processPackages [LearningNashQLearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LearningNashQLearning-0.1.tar.gz tmp/LearningNashQLearning-0.2.tar.gz --markdown 20240528/L/LearningNashQLearning/0.1-0.2/README.md --exclude *.pyd
+[2024-05-28 12:15:15] INFO root fetch - processPackages [LearningNashQLearning]: Remove: archive file [/home/abi/fetcher/tmp/LearningNashQLearning-0.1.tar.gz]
+[2024-05-28 12:15:15] INFO root fetch - processPackages [LearningNashQLearning]: Remove: archive file [/home/abi/fetcher/tmp/LearningNashQLearning-0.2.tar.gz]
+[2024-05-28 12:15:15] INFO root fetch - main [MainThread]: End processing [LearningNashQLearning]: success
+[2024-05-28 12:15:16] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.7.9.tar.gz]
+[2024-05-28 12:15:16] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.8.0.tar.gz]
+[2024-05-28 12:15:16] INFO root fetch - main [MainThread]: End processing [danila-lib]: success
+[2024-05-28 12:15:16] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/a4/bd/42ccbdcec141a68fd1ef11c16c2ec702d07f65b9a004736eba33473e8cdd/projen-0.81.9.tar.gz
+[2024-05-28 12:15:17] INFO root fetch - processPackages [projen]: executing diffoscope
+[2024-05-28 12:15:17] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.81.8.tar.gz tmp/projen-0.81.9.tar.gz --markdown 20240528/p/projen/0.81.8-0.81.9/README.md --exclude *.pyd
+[2024-05-28 12:15:18] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.81.8.tar.gz]
+[2024-05-28 12:15:18] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.81.9.tar.gz]
+[2024-05-28 12:15:18] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2024-05-28 12:15:18] INFO root fetch - main [MainThread]: Store serial: [23409430]
