@@ -12117,3 +12117,101 @@
 [2024-05-28 10:34:12] INFO root fetch - processPackages [KratosMetisApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosMetisApplication-9.5.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-28 10:34:12] INFO root fetch - main [MainThread]: End processing [KratosMetisApplication]: success
 [2024-05-28 10:34:12] INFO root fetch - main [MainThread]: Store serial: [23407976]
+[2024-05-28 10:36:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23407976]
+[2024-05-28 10:36:23] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-28 10:36:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kfish
+[2024-05-28 10:36:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: anydi
+[2024-05-28 10:36:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: windmill-model
+[2024-05-28 10:36:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yangsuite-netconf
+[2024-05-28 10:36:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: KratosMultiphysics-all
+[2024-05-28 10:36:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: KratosOptimizationApplication
+[2024-05-28 10:36:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wiederverwendbar
+[2024-05-28 10:36:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: KratosPoromechanicsApplication
+[2024-05-28 10:36:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zodchy-patterns
+[2024-05-28 10:36:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: certora-cli-alpha-master
+[2024-05-28 10:36:23] INFO root fetch - processPackages [anydi]: New version: [0.26.0a0] Old Version: [0.26.0]
+[2024-05-28 10:36:23] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240528.6.33.83606] Old Version: [20240527.15.4.2254]
+[2024-05-28 10:36:23] INFO root fetch - processPackages [KratosMultiphysics-all]: New version: [9.5.1] Old Version: [9.5]
+[2024-05-28 10:36:23] INFO root fetch - processPackages [zodchy-patterns]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-28 10:36:23] INFO root fetch - processPackages [anydi]: Downloading https://files.pythonhosted.org/packages/50/60/ba7432abacfb33e3f6a95401104b8f6bcbf689601d302cc3510d44d2a4bd/anydi-0.26.0.tar.gz
+[2024-05-28 10:36:23] INFO root fetch - processPackages [kfish]: New version: [99.0.202405280833] Old Version: [99.0.202405262336]
+[2024-05-28 10:36:23] INFO root fetch - processPackages [windmill-model]: New version: [1.0.0.9] Old Version: [1.0.0.8]
+[2024-05-28 10:36:23] INFO root fetch - processPackages [wiederverwendbar]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-28 10:36:23] INFO root fetch - processPackages [yangsuite-netconf]: New version: [1.17.8.post0.dev38] Old Version: [1.17.8.post0.dev14]
+[2024-05-28 10:36:23] INFO root fetch - processPackages [KratosOptimizationApplication]: New version: [9.5.1] Old Version: [9.5]
+[2024-05-28 10:36:24] INFO root fetch - processPackages [KratosPoromechanicsApplication]: New version: [9.5.1] Old Version: [9.5]
+[2024-05-28 10:36:24] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/d3/98/a86e251c7dfda01bdfa562109e2d2511f8bac24d54b315f1e60ab0be3f97/certora-cli-alpha-master-20240527.15.4.2254.tar.gz
+[2024-05-28 10:36:24] INFO root fetch - processPackages [wiederverwendbar]: Downloading https://files.pythonhosted.org/packages/70/81/bc4637ac0fd2a78645af7957a6edbbe3424a901f19d8b02f8b86b85f15a3/wiederverwendbar-0.2.3.tar.gz
+[2024-05-28 10:36:24] INFO root fetch - processPackages [zodchy-patterns]: Downloading https://files.pythonhosted.org/packages/96/97/9e6c3abb84fd971224cf47f2a7163125749d186efd49e79488b91b9bec43/zodchy_patterns-0.3.0.tar.gz
+[2024-05-28 10:36:24] INFO root fetch - processPackages [anydi]: Downloading https://files.pythonhosted.org/packages/15/6f/2aeae85bdd223ddf48bd61b8a8b60f160b83160c85d75f6e4024cfcb3986/anydi-0.26.0a0.tar.gz
+[2024-05-28 10:36:24] INFO root fetch - processPackages [KratosMultiphysics-all]: Downloading https://files.pythonhosted.org/packages/e2/4b/8d6ab86389c74d0196c4751ec41bc700d49913c5c8ea7edcc1e533e87767/KratosMultiphysics_all-9.5-py3-none-any.whl
+[2024-05-28 10:36:24] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/d3/a6/118c3337a5f5b34903b169d959fffd599a623e4b5293649d8456151c30fd/kfish-99.0.202405262336-py3-none-any.whl
+[2024-05-28 10:36:24] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14595193>=10485760
+[2024-05-28 10:36:24] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: eolymp
+[2024-05-28 10:36:24] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-05-28 10:36:24] INFO root fetch - processPackages [windmill-model]: Downloading https://files.pythonhosted.org/packages/ad/b6/5d3a73b3d6d9bb11e8dcad3f6291d87f95fca83b372e0716ae5c48106708/windmill_model-1.0.0.8-py3-none-any.whl
+[2024-05-28 10:36:24] INFO root fetch - processPackages [yangsuite-netconf]: Downloading https://files.pythonhosted.org/packages/5a/11/5aa11b2dcc9e791c0582581b5c467a630fa98da3812520696e34debc9360/yangsuite_netconf-1.17.8.post0.dev14-py3-none-any.whl
+[2024-05-28 10:36:24] INFO root fetch - processPackages [KratosOptimizationApplication]: Downloading https://files.pythonhosted.org/packages/e0/cf/89feb3d8ad39c4024586f03a7413addb63bb1415c2cacd2a684e87d5568b/KratosOptimizationApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-28 10:36:24] INFO root fetch - processPackages [KratosPoromechanicsApplication]: Downloading https://files.pythonhosted.org/packages/2f/7e/0d4888e1e2af6efd74cdde4c764c79544b9e345ef80c06c5b3a89697a131/KratosPoromechanicsApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-28 10:36:24] INFO root fetch - processPackages [anydi]: executing diffoscope
+[2024-05-28 10:36:24] INFO root fetch - processPackages [anydi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anydi-0.26.0.tar.gz tmp/anydi-0.26.0a0.tar.gz --markdown 20240528/a/anydi/0.26.0-0.26.0a0/README.md --exclude *.pyd
+[2024-05-28 10:36:24] INFO root fetch - processPackages [wiederverwendbar]: Downloading https://files.pythonhosted.org/packages/66/fe/f555bced6752efa28d3fc80adb1e6c5e97f1bb6d4d070f3ff6fc24c82173/wiederverwendbar-0.2.4.tar.gz
+[2024-05-28 10:36:24] INFO root fetch - processPackages [eolymp]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-28 10:36:24] INFO root fetch - processPackages [KratosMultiphysics-all]: Downloading https://files.pythonhosted.org/packages/8d/3d/3bfefca0743156688cec89de73108f8d91d8b6139fdf30a47ce4664fd662/KratosMultiphysics_all-9.5.1-py3-none-any.whl
+[2024-05-28 10:36:24] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/1c/58/6435504bfeb94633102a33c4da08bfae0872e426dc78722e328cfcd30313/kfish-99.0.202405280833-py3-none-any.whl
+[2024-05-28 10:36:24] INFO root fetch - processPackages [zodchy-patterns]: Downloading https://files.pythonhosted.org/packages/4d/5c/8e6968249b805440f27a09492e60a77667902d94d669af8cf12f53a10ad0/zodchy_patterns-0.3.1.tar.gz
+[2024-05-28 10:36:24] INFO root fetch - processPackages [windmill-model]: Downloading https://files.pythonhosted.org/packages/d3/d7/f2729e612111312f2d60b6579bece172e85583bc7b10a3ab324844661193/windmill_model-1.0.0.9-py3-none-any.whl
+[2024-05-28 10:36:24] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2024-05-28 10:36:24] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202405262336-py3-none-any.whl.zip tmp/kfish-99.0.202405280833-py3-none-any.whl.zip --markdown 20240528/k/kfish/99.0.202405262336-99.0.202405280833/README.md --exclude *.pyd
+[2024-05-28 10:36:24] INFO root fetch - processPackages [wiederverwendbar]: executing diffoscope
+[2024-05-28 10:36:24] INFO root fetch - processPackages [wiederverwendbar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiederverwendbar-0.2.3.tar.gz tmp/wiederverwendbar-0.2.4.tar.gz --markdown 20240528/w/wiederverwendbar/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-05-28 10:36:24] INFO root fetch - processPackages [KratosMultiphysics-all]: executing diffoscope
+[2024-05-28 10:36:24] INFO root fetch - processPackages [KratosMultiphysics-all]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KratosMultiphysics_all-9.5-py3-none-any.whl.zip tmp/KratosMultiphysics_all-9.5.1-py3-none-any.whl.zip --markdown 20240528/K/KratosMultiphysics-all/9.5-9.5.1/README.md --exclude *.pyd
+[2024-05-28 10:36:24] INFO root fetch - processPackages [eolymp]: Downloading https://files.pythonhosted.org/packages/b4/7e/616d80edbba0ebc4de3d8b9e073268ed513845acc17f3f0c5687e2745d1d/eolymp-0.9.8.tar.gz
+[2024-05-28 10:36:24] INFO root fetch - processPackages [zodchy-patterns]: executing diffoscope
+[2024-05-28 10:36:24] INFO root fetch - processPackages [zodchy-patterns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zodchy_patterns-0.3.0.tar.gz tmp/zodchy_patterns-0.3.1.tar.gz --markdown 20240528/z/zodchy-patterns/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-28 10:36:24] INFO root fetch - processPackages [windmill-model]: executing diffoscope
+[2024-05-28 10:36:24] INFO root fetch - processPackages [windmill-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windmill_model-1.0.0.8-py3-none-any.whl.zip tmp/windmill_model-1.0.0.9-py3-none-any.whl.zip --markdown 20240528/w/windmill-model/1.0.0.8-1.0.0.9/README.md --exclude *.pyd
+[2024-05-28 10:36:24] INFO root fetch - processPackages [KratosOptimizationApplication]: Downloading https://files.pythonhosted.org/packages/31/25/1ecff68cb5c4603ba379b0c2553389b0ded22348a2a37dd8e7839adbf738/KratosOptimizationApplication-9.5.1-cp39-cp39-win_amd64.whl
+[2024-05-28 10:36:25] INFO root fetch - processPackages [anydi]: Remove: archive file [/home/abi/fetcher/tmp/anydi-0.26.0.tar.gz]
+[2024-05-28 10:36:25] INFO root fetch - processPackages [anydi]: Remove: archive file [/home/abi/fetcher/tmp/anydi-0.26.0a0.tar.gz]
+[2024-05-28 10:36:25] INFO root fetch - main [MainThread]: End processing [anydi]: success
+[2024-05-28 10:36:25] INFO root fetch - processPackages [KratosPoromechanicsApplication]: Downloading https://files.pythonhosted.org/packages/f5/7b/563bcf72351667eefa1c071d282ffd685834d269b3f8a91d6dc50f3e6665/KratosPoromechanicsApplication-9.5.1-cp39-cp39-win_amd64.whl
+[2024-05-28 10:36:25] INFO root fetch - processPackages [eolymp]: Downloading https://files.pythonhosted.org/packages/b7/fe/df96d638fe0a51e45220154bf6bc8588f92805e80d6cf2e908d0226bf3c9/eolymp-0.9.9.tar.gz
+[2024-05-28 10:36:25] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202405262336-py3-none-any.whl.zip]
+[2024-05-28 10:36:25] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202405280833-py3-none-any.whl.zip]
+[2024-05-28 10:36:25] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2024-05-28 10:36:25] INFO root fetch - processPackages [KratosOptimizationApplication]: executing diffoscope
+[2024-05-28 10:36:25] INFO root fetch - processPackages [KratosOptimizationApplication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KratosOptimizationApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/KratosOptimizationApplication-9.5.1-cp39-cp39-win_amd64.whl.zip --markdown 20240528/K/KratosOptimizationApplication/9.5-9.5.1/README.md --exclude *.pyd
+[2024-05-28 10:36:25] INFO root fetch - processPackages [eolymp]: executing diffoscope
+[2024-05-28 10:36:25] INFO root fetch - processPackages [eolymp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eolymp-0.9.8.tar.gz tmp/eolymp-0.9.9.tar.gz --markdown 20240528/e/eolymp/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-28 10:36:25] INFO root fetch - processPackages [KratosMultiphysics-all]: Remove: archive file [/home/abi/fetcher/tmp/KratosMultiphysics_all-9.5-py3-none-any.whl.zip]
+[2024-05-28 10:36:25] INFO root fetch - processPackages [KratosMultiphysics-all]: Remove: archive file [/home/abi/fetcher/tmp/KratosMultiphysics_all-9.5.1-py3-none-any.whl.zip]
+[2024-05-28 10:36:25] INFO root fetch - main [MainThread]: End processing [KratosMultiphysics-all]: success
+[2024-05-28 10:36:25] INFO root fetch - processPackages [wiederverwendbar]: Remove: archive file [/home/abi/fetcher/tmp/wiederverwendbar-0.2.3.tar.gz]
+[2024-05-28 10:36:25] INFO root fetch - processPackages [wiederverwendbar]: Remove: archive file [/home/abi/fetcher/tmp/wiederverwendbar-0.2.4.tar.gz]
+[2024-05-28 10:36:25] INFO root fetch - main [MainThread]: End processing [wiederverwendbar]: success
+[2024-05-28 10:36:25] INFO root fetch - processPackages [KratosPoromechanicsApplication]: executing diffoscope
+[2024-05-28 10:36:25] INFO root fetch - processPackages [KratosPoromechanicsApplication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KratosPoromechanicsApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/KratosPoromechanicsApplication-9.5.1-cp39-cp39-win_amd64.whl.zip --markdown 20240528/K/KratosPoromechanicsApplication/9.5-9.5.1/README.md --exclude *.pyd
+[2024-05-28 10:36:25] INFO root fetch - processPackages [zodchy-patterns]: Remove: archive file [/home/abi/fetcher/tmp/zodchy_patterns-0.3.0.tar.gz]
+[2024-05-28 10:36:25] INFO root fetch - processPackages [zodchy-patterns]: Remove: archive file [/home/abi/fetcher/tmp/zodchy_patterns-0.3.1.tar.gz]
+[2024-05-28 10:36:25] INFO root fetch - main [MainThread]: End processing [zodchy-patterns]: success
+[2024-05-28 10:36:25] INFO root fetch - processPackages [windmill-model]: Remove: archive file [/home/abi/fetcher/tmp/windmill_model-1.0.0.8-py3-none-any.whl.zip]
+[2024-05-28 10:36:25] INFO root fetch - processPackages [windmill-model]: Remove: archive file [/home/abi/fetcher/tmp/windmill_model-1.0.0.9-py3-none-any.whl.zip]
+[2024-05-28 10:36:25] INFO root fetch - main [MainThread]: End processing [windmill-model]: success
+[2024-05-28 10:36:26] INFO root fetch - processPackages [yangsuite-netconf]: Downloading https://files.pythonhosted.org/packages/c3/c4/8fabf796659e4d33c93f7df316b463e07342c195578fd0359b017bdfa0c2/yangsuite_netconf-1.17.8.post0.dev38-py3-none-any.whl
+[2024-05-28 10:36:26] INFO root fetch - processPackages [KratosPoromechanicsApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosPoromechanicsApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-28 10:36:26] INFO root fetch - processPackages [KratosPoromechanicsApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosPoromechanicsApplication-9.5.1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-28 10:36:26] INFO root fetch - main [MainThread]: End processing [KratosPoromechanicsApplication]: success
+[2024-05-28 10:36:27] INFO root fetch - processPackages [KratosOptimizationApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosOptimizationApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-28 10:36:27] INFO root fetch - processPackages [KratosOptimizationApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosOptimizationApplication-9.5.1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-28 10:36:27] INFO root fetch - main [MainThread]: End processing [KratosOptimizationApplication]: success
+[2024-05-28 10:36:27] INFO root fetch - processPackages [eolymp]: Remove: archive file [/home/abi/fetcher/tmp/eolymp-0.9.8.tar.gz]
+[2024-05-28 10:36:27] INFO root fetch - processPackages [eolymp]: Remove: archive file [/home/abi/fetcher/tmp/eolymp-0.9.9.tar.gz]
+[2024-05-28 10:36:27] INFO root fetch - main [MainThread]: End processing [eolymp]: success
+[2024-05-28 10:36:30] INFO root fetch - processPackages [yangsuite-netconf]: executing diffoscope
+[2024-05-28 10:36:30] INFO root fetch - processPackages [yangsuite-netconf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yangsuite_netconf-1.17.8.post0.dev14-py3-none-any.whl.zip tmp/yangsuite_netconf-1.17.8.post0.dev38-py3-none-any.whl.zip --markdown 20240528/y/yangsuite-netconf/1.17.8.post0.dev14-1.17.8.post0.dev38/README.md --exclude *.pyd
+[2024-05-28 10:36:34] INFO root fetch - processPackages [yangsuite-netconf]: Remove: archive file [/home/abi/fetcher/tmp/yangsuite_netconf-1.17.8.post0.dev14-py3-none-any.whl.zip]
+[2024-05-28 10:36:34] INFO root fetch - processPackages [yangsuite-netconf]: Remove: archive file [/home/abi/fetcher/tmp/yangsuite_netconf-1.17.8.post0.dev38-py3-none-any.whl.zip]
+[2024-05-28 10:36:34] INFO root fetch - main [MainThread]: End processing [yangsuite-netconf]: success
+[2024-05-28 10:36:34] INFO root fetch - main [MainThread]: Store serial: [23408023]
