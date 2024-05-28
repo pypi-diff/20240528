@@ -22057,3 +22057,114 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 16:06:33] INFO root fetch - processPackages [scippneutron]: Remove: archive file [/home/abi/fetcher/tmp/scippneutron-24.5.0.tar.gz]
 [2024-05-28 16:06:33] INFO root fetch - main [MainThread]: End processing [scippneutron]: success
 [2024-05-28 16:06:33] INFO root fetch - main [MainThread]: Store serial: [23412538]
+[2024-05-28 16:08:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23412538]
+[2024-05-28 16:08:42] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-28 16:08:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: literalai
+[2024-05-28 16:08:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdo-sdk-python
+[2024-05-28 16:08:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openai-cost-logger
+[2024-05-28 16:08:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Donut-LLM-Tools
+[2024-05-28 16:08:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pdnssoc-cli
+[2024-05-28 16:08:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kpler.sdk
+[2024-05-28 16:08:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ultralytics
+[2024-05-28 16:08:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: GenETL
+[2024-05-28 16:08:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: l3c
+[2024-05-28 16:08:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: remotion-lambda
+[2024-05-28 16:08:42] INFO root fetch - processPackages [literalai]: New version: [0.0.603] Old Version: [0.0.602]
+[2024-05-28 16:08:42] INFO root fetch - processPackages [l3c]: New version: [0.1.1.0] Old Version: [0.1.0.5]
+[2024-05-28 16:08:42] INFO root fetch - processPackages [cdo-sdk-python]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-28 16:08:42] INFO root fetch - processPackages [Donut-LLM-Tools]: New version: [24.5.28] Old Version: [24.5.27.3]
+[2024-05-28 16:08:42] INFO root fetch - processPackages [ultralytics]: New version: [8.2.9] Old Version: [8.2.8]
+[2024-05-28 16:08:42] INFO root fetch - processPackages [openai-cost-logger]: New version: [0.5.0] Old Version: [0.4.1]
+[2024-05-28 16:08:42] INFO root fetch - processPackages [l3c]: Downloading https://files.pythonhosted.org/packages/76/db/08ddde7cf30e690256aacaaf3efc8690fc12bd2343452eb59050739e8191/l3c-0.1.0.5.tar.gz
+[2024-05-28 16:08:42] INFO root fetch - processPackages [pdnssoc-cli]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-28 16:08:42] INFO root fetch - processPackages [kpler.sdk]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-05-28 16:08:42] INFO root fetch - processPackages [GenETL]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-28 16:08:42] INFO root fetch - processPackages [literalai]: Downloading https://files.pythonhosted.org/packages/b8/a0/2e8d4f69efbf1643872ec5241e4fae640623053f135b77ceca0f9b4cde99/literalai-0.0.602.tar.gz
+[2024-05-28 16:08:42] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/aa/54/d9c631d5702693a0921bbc1c50cad785f8fa75671cabdd662546a416a6b9/cdo-sdk-python-1.0.98.tar.gz
+[2024-05-28 16:08:42] INFO root fetch - processPackages [Donut-LLM-Tools]: Downloading https://files.pythonhosted.org/packages/4b/fa/08c712f74b8cd3f33a78d7b06390e24242e4d628dc93c9ba1db9882e9b4f/donut_llm_tools-24.5.27.3.tar.gz
+[2024-05-28 16:08:42] INFO root fetch - processPackages [remotion-lambda]: New version: [4.1.0a12] Old Version: [4.0.98]
+[2024-05-28 16:08:42] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/2d/1f/773ce923d52559a9246fe5b3e4d86c67714d941216658acdb23bf9d46212/ultralytics-8.2.8.tar.gz
+[2024-05-28 16:08:43] INFO root fetch - processPackages [openai-cost-logger]: Downloading https://files.pythonhosted.org/packages/e9/a1/7b7acf43840f700a83e72f6f20f2a91b358a5bae5cb2d7d25d394d7d580f/openai-cost-logger-0.4.1.tar.gz
+[2024-05-28 16:08:43] INFO root fetch - processPackages [kpler.sdk]: Downloading https://files.pythonhosted.org/packages/52/20/59fda5bfb511f3217701a4654c39356a259fca3c4ed847e289e136082616/kpler.sdk-1.0.7.tar.gz
+[2024-05-28 16:08:43] INFO root fetch - processPackages [pdnssoc-cli]: Downloading https://files.pythonhosted.org/packages/b2/93/687899b41637b403b17af18ff9760a31722c691707e7f0a7b4e1f659d706/pdnssoc-cli-0.0.3.tar.gz
+[2024-05-28 16:08:43] INFO root fetch - processPackages [GenETL]: Downloading https://files.pythonhosted.org/packages/e2/6f/496861862723e828a219d13d4c040f09baa0298594a5c079e5628ad40299/GenETL-0.0.6.tar.gz
+[2024-05-28 16:08:43] INFO root fetch - processPackages [remotion-lambda]: Downloading https://files.pythonhosted.org/packages/3f/c5/94eff7677b9dca598bdba065311eeb371512d0bb7b2ded018d2bffb1597a/remotion_lambda-4.0.98.tar.gz
+[2024-05-28 16:08:43] INFO root fetch - processPackages [l3c]: Downloading https://files.pythonhosted.org/packages/52/78/5600a9f4eeee68db1a6aaa7a94eff4f3f5c064b8dec0b703c1f30ad5369a/l3c-0.1.1.0.tar.gz
+[2024-05-28 16:08:43] INFO root fetch - processPackages [literalai]: Downloading https://files.pythonhosted.org/packages/48/f3/25c532f5b41dec39e540b58d626ee1848f499e02d8b265bbc29d013b6288/literalai-0.0.603.tar.gz
+[2024-05-28 16:08:43] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/9b/76/7267c3f3ac308bacc9e809ed54663a42556e896ff4e2d73a469a15d3556a/cdo-sdk-python-1.0.99.tar.gz
+[2024-05-28 16:08:43] INFO root fetch - processPackages [Donut-LLM-Tools]: Downloading https://files.pythonhosted.org/packages/94/2b/5c8378d6859cd70af0c2f8fcaa3874646f816845cfb9789d06f5009d2dd2/donut_llm_tools-24.5.28.tar.gz
+[2024-05-28 16:08:43] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/17/6e/89a05ffed4bbaae94368f45323ff75db71965c94c1259457ef61dc551645/ultralytics-8.2.9.tar.gz
+[2024-05-28 16:08:43] INFO root fetch - processPackages [l3c]: executing diffoscope
+[2024-05-28 16:08:43] INFO root fetch - processPackages [l3c]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/l3c-0.1.0.5.tar.gz tmp/l3c-0.1.1.0.tar.gz --markdown 20240528/l/l3c/0.1.0.5-0.1.1.0/README.md --exclude *.pyd
+[2024-05-28 16:08:43] INFO root fetch - processPackages [literalai]: executing diffoscope
+[2024-05-28 16:08:43] INFO root fetch - processPackages [literalai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/literalai-0.0.602.tar.gz tmp/literalai-0.0.603.tar.gz --markdown 20240528/l/literalai/0.0.602-0.0.603/README.md --exclude *.pyd
+[2024-05-28 16:08:43] INFO root fetch - processPackages [cdo-sdk-python]: executing diffoscope
+[2024-05-28 16:08:43] INFO root fetch - processPackages [cdo-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdo-sdk-python-1.0.98.tar.gz tmp/cdo-sdk-python-1.0.99.tar.gz --markdown 20240528/c/cdo-sdk-python/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-28 16:08:43] INFO root fetch - processPackages [Donut-LLM-Tools]: executing diffoscope
+[2024-05-28 16:08:43] INFO root fetch - processPackages [Donut-LLM-Tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/donut_llm_tools-24.5.27.3.tar.gz tmp/donut_llm_tools-24.5.28.tar.gz --markdown 20240528/D/Donut-LLM-Tools/24.5.27.3-24.5.28/README.md --exclude *.pyd
+[2024-05-28 16:08:43] INFO root fetch - processPackages [openai-cost-logger]: Downloading https://files.pythonhosted.org/packages/de/21/6d084c75e96106d683ab3cae3c2b6b610290ded74dfd7846f3943d12c23f/openai-cost-logger-0.5.0.tar.gz
+[2024-05-28 16:08:43] INFO root fetch - processPackages [pdnssoc-cli]: Downloading https://files.pythonhosted.org/packages/2b/3d/90e66494a5c75041dae293316f81aa78f50e565d9f5060e08afd3d3fc75e/pdnssoc_cli-0.0.4.tar.gz
+[2024-05-28 16:08:43] INFO root fetch - processPackages [kpler.sdk]: Downloading https://files.pythonhosted.org/packages/f6/50/27d8cbc4897c825995b73b5f50acd1689a844318d20873c060045cd33c38/kpler.sdk-1.0.8.tar.gz
+[2024-05-28 16:08:43] INFO root fetch - processPackages [ultralytics]: executing diffoscope
+[2024-05-28 16:08:43] INFO root fetch - processPackages [ultralytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultralytics-8.2.8.tar.gz tmp/ultralytics-8.2.9.tar.gz --markdown 20240528/u/ultralytics/8.2.8-8.2.9/README.md --exclude *.pyd
+[2024-05-28 16:08:43] INFO root fetch - processPackages [remotion-lambda]: Downloading https://files.pythonhosted.org/packages/e2/46/7d3e726fcba2427f51b340f14b65270f6df2b6123085c439b9855a0ab1cd/remotion_lambda-4.1.0a12.tar.gz
+[2024-05-28 16:08:43] INFO root fetch - processPackages [GenETL]: Downloading https://files.pythonhosted.org/packages/bd/4a/4c7d3245414c3b26189ab94c59808d408bd66969b299d9007d149c6d78b6/GenETL-0.0.7.tar.gz
+[2024-05-28 16:08:43] INFO root fetch - processPackages [openai-cost-logger]: executing diffoscope
+[2024-05-28 16:08:43] INFO root fetch - processPackages [openai-cost-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai-cost-logger-0.4.1.tar.gz tmp/openai-cost-logger-0.5.0.tar.gz --markdown 20240528/o/openai-cost-logger/0.4.1-0.5.0/README.md --exclude *.pyd
+[2024-05-28 16:08:43] INFO root fetch - processPackages [pdnssoc-cli]: executing diffoscope
+[2024-05-28 16:08:43] INFO root fetch - processPackages [pdnssoc-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdnssoc-cli-0.0.3.tar.gz tmp/pdnssoc_cli-0.0.4.tar.gz --markdown 20240528/p/pdnssoc-cli/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-28 16:08:43] INFO root fetch - processPackages [kpler.sdk]: executing diffoscope
+[2024-05-28 16:08:43] INFO root fetch - processPackages [kpler.sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kpler.sdk-1.0.7.tar.gz tmp/kpler.sdk-1.0.8.tar.gz --markdown 20240528/k/kpler.sdk/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-05-28 16:08:43] INFO root fetch - processPackages [remotion-lambda]: executing diffoscope
+[2024-05-28 16:08:43] INFO root fetch - processPackages [remotion-lambda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotion_lambda-4.0.98.tar.gz tmp/remotion_lambda-4.1.0a12.tar.gz --markdown 20240528/r/remotion-lambda/4.0.98-4.1.0a12/README.md --exclude *.pyd
+[2024-05-28 16:08:43] INFO root fetch - processPackages [GenETL]: executing diffoscope
+[2024-05-28 16:08:43] INFO root fetch - processPackages [GenETL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GenETL-0.0.6.tar.gz tmp/GenETL-0.0.7.tar.gz --markdown 20240528/G/GenETL/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-28 16:08:44] INFO root fetch - processPackages [Donut-LLM-Tools]: Remove: archive file [/home/abi/fetcher/tmp/donut_llm_tools-24.5.27.3.tar.gz]
+[2024-05-28 16:08:44] INFO root fetch - processPackages [Donut-LLM-Tools]: Remove: archive file [/home/abi/fetcher/tmp/donut_llm_tools-24.5.28.tar.gz]
+[2024-05-28 16:08:44] INFO root fetch - processPackages [Donut-LLM-Tools]: Start processing: opthub_runner
+[2024-05-28 16:08:44] INFO root fetch - main [MainThread]: End processing [Donut-LLM-Tools]: success
+[2024-05-28 16:08:44] INFO root fetch - processPackages [opthub_runner]: New version: [1.0.4] Old Version: [1.0.1]
+[2024-05-28 16:08:44] INFO root fetch - processPackages [l3c]: Remove: archive file [/home/abi/fetcher/tmp/l3c-0.1.0.5.tar.gz]
+[2024-05-28 16:08:44] INFO root fetch - processPackages [l3c]: Remove: archive file [/home/abi/fetcher/tmp/l3c-0.1.1.0.tar.gz]
+[2024-05-28 16:08:44] INFO root fetch - processPackages [l3c]: Start processing: ParticleDetection
+[2024-05-28 16:08:44] INFO root fetch - main [MainThread]: End processing [l3c]: success
+[2024-05-28 16:08:44] INFO root fetch - processPackages [opthub_runner]: Downloading https://files.pythonhosted.org/packages/fc/95/5a04349225d00671a6b3605daf0f99ec34446c55a825d873b66eade8b3d9/opthub_runner-1.0.1.tar.gz
+[2024-05-28 16:08:44] INFO root fetch - processPackages [openai-cost-logger]: Remove: archive file [/home/abi/fetcher/tmp/openai-cost-logger-0.4.1.tar.gz]
+[2024-05-28 16:08:44] INFO root fetch - processPackages [openai-cost-logger]: Remove: archive file [/home/abi/fetcher/tmp/openai-cost-logger-0.5.0.tar.gz]
+[2024-05-28 16:08:44] INFO root fetch - main [MainThread]: End processing [openai-cost-logger]: success
+[2024-05-28 16:08:44] INFO root fetch - processPackages [literalai]: Remove: archive file [/home/abi/fetcher/tmp/literalai-0.0.602.tar.gz]
+[2024-05-28 16:08:44] INFO root fetch - processPackages [literalai]: Remove: archive file [/home/abi/fetcher/tmp/literalai-0.0.603.tar.gz]
+[2024-05-28 16:08:44] INFO root fetch - main [MainThread]: End processing [literalai]: success
+[2024-05-28 16:08:44] INFO root fetch - processPackages [ParticleDetection]: New version: [0.4.2.dev6] Old Version: [0.4.2.dev3]
+[2024-05-28 16:08:44] INFO root fetch - processPackages [remotion-lambda]: Remove: archive file [/home/abi/fetcher/tmp/remotion_lambda-4.0.98.tar.gz]
+[2024-05-28 16:08:44] INFO root fetch - processPackages [remotion-lambda]: Remove: archive file [/home/abi/fetcher/tmp/remotion_lambda-4.1.0a12.tar.gz]
+[2024-05-28 16:08:44] INFO root fetch - main [MainThread]: End processing [remotion-lambda]: success
+[2024-05-28 16:08:44] INFO root fetch - processPackages [opthub_runner]: Downloading https://files.pythonhosted.org/packages/51/95/f2bc9776bcf4b15628a7426c223a2539b46a1722db0ee237a22b29706f4c/opthub_runner-1.0.4.tar.gz
+[2024-05-28 16:08:44] INFO root fetch - processPackages [pdnssoc-cli]: Remove: archive file [/home/abi/fetcher/tmp/pdnssoc-cli-0.0.3.tar.gz]
+[2024-05-28 16:08:44] INFO root fetch - processPackages [pdnssoc-cli]: Remove: archive file [/home/abi/fetcher/tmp/pdnssoc_cli-0.0.4.tar.gz]
+[2024-05-28 16:08:44] INFO root fetch - main [MainThread]: End processing [pdnssoc-cli]: success
+[2024-05-28 16:08:44] INFO root fetch - processPackages [opthub_runner]: executing diffoscope
+[2024-05-28 16:08:44] INFO root fetch - processPackages [kpler.sdk]: Remove: archive file [/home/abi/fetcher/tmp/kpler.sdk-1.0.7.tar.gz]
+[2024-05-28 16:08:44] INFO root fetch - processPackages [opthub_runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opthub_runner-1.0.1.tar.gz tmp/opthub_runner-1.0.4.tar.gz --markdown 20240528/o/opthub_runner/1.0.1-1.0.4/README.md --exclude *.pyd
+[2024-05-28 16:08:44] INFO root fetch - processPackages [kpler.sdk]: Remove: archive file [/home/abi/fetcher/tmp/kpler.sdk-1.0.8.tar.gz]
+[2024-05-28 16:08:44] INFO root fetch - main [MainThread]: End processing [kpler.sdk]: success
+[2024-05-28 16:08:44] INFO root fetch - processPackages [ParticleDetection]: Downloading https://files.pythonhosted.org/packages/1d/76/1be171876f4c69278d68a3f3fe16d1e3718a9a1bb40e1080d7f6107ec784/particledetection-0.4.2.dev3.tar.gz
+[2024-05-28 16:08:45] INFO root fetch - processPackages [GenETL]: Remove: archive file [/home/abi/fetcher/tmp/GenETL-0.0.6.tar.gz]
+[2024-05-28 16:08:45] INFO root fetch - processPackages [GenETL]: Remove: archive file [/home/abi/fetcher/tmp/GenETL-0.0.7.tar.gz]
+[2024-05-28 16:08:45] INFO root fetch - main [MainThread]: End processing [GenETL]: success
+[2024-05-28 16:08:45] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.98.tar.gz]
+[2024-05-28 16:08:45] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.99.tar.gz]
+[2024-05-28 16:08:45] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
+[2024-05-28 16:08:45] INFO root fetch - processPackages [ParticleDetection]: Downloading https://files.pythonhosted.org/packages/36/d7/236542d481ec8aee7460c4b01fc92f0dd43d514fbca14ba505944b214bd9/particledetection-0.4.2.dev6-py3-none-any.whl
+[2024-05-28 16:08:45] INFO root fetch - processPackages [ParticleDetection]: executing diffoscope
+[2024-05-28 16:08:45] INFO root fetch - processPackages [ParticleDetection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/particledetection-0.4.2.dev3.tar.gz tmp/particledetection-0.4.2.dev6-py3-none-any.whl.zip --markdown 20240528/P/ParticleDetection/0.4.2.dev3-0.4.2.dev6/README.md --exclude *.pyd
+[2024-05-28 16:08:45] INFO root fetch - processPackages [opthub_runner]: Remove: archive file [/home/abi/fetcher/tmp/opthub_runner-1.0.1.tar.gz]
+[2024-05-28 16:08:45] INFO root fetch - processPackages [opthub_runner]: Remove: archive file [/home/abi/fetcher/tmp/opthub_runner-1.0.4.tar.gz]
+[2024-05-28 16:08:45] INFO root fetch - main [MainThread]: End processing [opthub_runner]: success
+[2024-05-28 16:08:45] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.2.8.tar.gz]
+[2024-05-28 16:08:45] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.2.9.tar.gz]
+[2024-05-28 16:08:45] INFO root fetch - main [MainThread]: End processing [ultralytics]: success
+[2024-05-28 16:08:45] INFO root fetch - processPackages [ParticleDetection]: Remove: archive file [/home/abi/fetcher/tmp/particledetection-0.4.2.dev3.tar.gz]
+[2024-05-28 16:08:45] INFO root fetch - processPackages [ParticleDetection]: Remove: archive file [/home/abi/fetcher/tmp/particledetection-0.4.2.dev6-py3-none-any.whl.zip]
+[2024-05-28 16:08:45] INFO root fetch - main [MainThread]: End processing [ParticleDetection]: success
+[2024-05-28 16:08:45] INFO root fetch - main [MainThread]: Store serial: [23412584]
