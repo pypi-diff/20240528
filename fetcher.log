@@ -23797,3 +23797,54 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 16:53:29] INFO root fetch - processPackages [okta]: Remove: archive file [/home/abi/fetcher/tmp/okta-2.9.7.tar.gz]
 [2024-05-28 16:53:29] INFO root fetch - main [MainThread]: End processing [okta]: success
 [2024-05-28 16:53:29] INFO root fetch - main [MainThread]: Store serial: [23413397]
+[2024-05-28 16:55:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23413397]
+[2024-05-28 16:55:39] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-28 16:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: snapquery
+[2024-05-28 16:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: snowflake-cli-labs
+[2024-05-28 16:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cocnc
+[2024-05-28 16:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: neuro-all
+[2024-05-28 16:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: smt
+[2024-05-28 16:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: drama-agent
+[2024-05-28 16:55:39] INFO root fetch - processPackages [snowflake-cli-labs]: New version: [2.4.0rc0] Old Version: [2.3.1]
+[2024-05-28 16:55:39] INFO root fetch - processPackages [cocnc]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-28 16:55:39] WARNING root fetch - processPackages [drama-agent]: Skipping, unable to determine old version
+[2024-05-28 16:55:39] INFO root fetch - main [MainThread]: End processing [drama-agent] error
+[2024-05-28 16:55:39] INFO root fetch - processPackages [snowflake-cli-labs]: Downloading https://files.pythonhosted.org/packages/36/d0/d1473ec5466c1960b4212def902728a28d13b69ca3b0fb8c19bc7b1dc780/snowflake_cli_labs-2.3.1.tar.gz
+[2024-05-28 16:55:39] INFO root fetch - processPackages [snapquery]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-28 16:55:39] INFO root fetch - processPackages [neuro-all]: New version: [24.5.2] Old Version: [24.5.1]
+[2024-05-28 16:55:39] INFO root fetch - processPackages [smt]: New version: [2.6.1] Old Version: [2.6.0]
+[2024-05-28 16:55:39] INFO root fetch - processPackages [cocnc]: Downloading https://files.pythonhosted.org/packages/8f/53/d222655a3184119ad7235757e60bc9421995dfdb5c684744be497a60ccbe/cocnc-0.1.8.tar.gz
+[2024-05-28 16:55:39] INFO root fetch - processPackages [smt]: Downloading https://files.pythonhosted.org/packages/d4/f2/6293348e92711f3a5334d0edfde6edd12d6fb6cd3ec2d8e31e7d9eec9076/smt-2.6.0.tar.gz
+[2024-05-28 16:55:39] INFO root fetch - processPackages [snapquery]: Downloading https://files.pythonhosted.org/packages/aa/f9/c7382d06e48ed54068d66e5040d5a7aa1598d62ef9012bd9b835184e8fe0/snapquery-0.0.8.tar.gz
+[2024-05-28 16:55:39] INFO root fetch - processPackages [neuro-all]: Downloading https://files.pythonhosted.org/packages/74/93/1e98a5ff616f8f178cdc5a1be108b10388de0c387ffb678d9dea3cb36e6c/neuro_all-24.5.1.tar.gz
+[2024-05-28 16:55:39] INFO root fetch - processPackages [snowflake-cli-labs]: Downloading https://files.pythonhosted.org/packages/34/fb/911241fc81c4dea573bc3e838936e1a455ca62862de7aeb115f21cda63f8/snowflake_cli_labs-2.4.0rc0.tar.gz
+[2024-05-28 16:55:40] INFO root fetch - processPackages [snowflake-cli-labs]: executing diffoscope
+[2024-05-28 16:55:40] INFO root fetch - processPackages [snowflake-cli-labs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowflake_cli_labs-2.3.1.tar.gz tmp/snowflake_cli_labs-2.4.0rc0.tar.gz --markdown 20240528/s/snowflake-cli-labs/2.3.1-2.4.0rc0/README.md --exclude *.pyd
+[2024-05-28 16:55:40] INFO root fetch - processPackages [neuro-all]: Downloading https://files.pythonhosted.org/packages/54/06/8fa3982141f9100a60a1f9aa998b6a6f896b24b2f453173a953a49dedd30/neuro_all-24.5.2.tar.gz
+[2024-05-28 16:55:40] INFO root fetch - processPackages [cocnc]: Downloading https://files.pythonhosted.org/packages/11/0f/d418ca5d8390c074d4d2fd32a3827a7818cd87da671aac1f78d0a1df1d76/cocnc-0.1.9.tar.gz
+[2024-05-28 16:55:40] INFO root fetch - processPackages [smt]: Downloading https://files.pythonhosted.org/packages/38/2b/32c0456004e0afa210f8f9a5d5339cb61a24ac7e382d1da21b9fb5ef8f04/smt-2.6.1.tar.gz
+[2024-05-28 16:55:40] INFO root fetch - processPackages [neuro-all]: executing diffoscope
+[2024-05-28 16:55:40] INFO root fetch - processPackages [neuro-all]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuro_all-24.5.1.tar.gz tmp/neuro_all-24.5.2.tar.gz --markdown 20240528/n/neuro-all/24.5.1-24.5.2/README.md --exclude *.pyd
+[2024-05-28 16:55:40] INFO root fetch - processPackages [cocnc]: executing diffoscope
+[2024-05-28 16:55:40] INFO root fetch - processPackages [cocnc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cocnc-0.1.8.tar.gz tmp/cocnc-0.1.9.tar.gz --markdown 20240528/c/cocnc/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-28 16:55:40] INFO root fetch - processPackages [snapquery]: Downloading https://files.pythonhosted.org/packages/32/0a/5c6a8ea0ad2fbaf3b5901a1388bfcfed360ea32d33c4c013237f0ebe8ae0/snapquery-0.0.9.tar.gz
+[2024-05-28 16:55:40] INFO root fetch - processPackages [smt]: executing diffoscope
+[2024-05-28 16:55:40] INFO root fetch - processPackages [smt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smt-2.6.0.tar.gz tmp/smt-2.6.1.tar.gz --markdown 20240528/s/smt/2.6.0-2.6.1/README.md --exclude *.pyd
+[2024-05-28 16:55:40] INFO root fetch - processPackages [snapquery]: executing diffoscope
+[2024-05-28 16:55:40] INFO root fetch - processPackages [snapquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snapquery-0.0.8.tar.gz tmp/snapquery-0.0.9.tar.gz --markdown 20240528/s/snapquery/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-28 16:55:40] INFO root fetch - processPackages [neuro-all]: Remove: archive file [/home/abi/fetcher/tmp/neuro_all-24.5.1.tar.gz]
+[2024-05-28 16:55:40] INFO root fetch - processPackages [neuro-all]: Remove: archive file [/home/abi/fetcher/tmp/neuro_all-24.5.2.tar.gz]
+[2024-05-28 16:55:40] INFO root fetch - main [MainThread]: End processing [neuro-all]: success
+[2024-05-28 16:55:41] INFO root fetch - processPackages [snapquery]: Remove: archive file [/home/abi/fetcher/tmp/snapquery-0.0.8.tar.gz]
+[2024-05-28 16:55:41] INFO root fetch - processPackages [snapquery]: Remove: archive file [/home/abi/fetcher/tmp/snapquery-0.0.9.tar.gz]
+[2024-05-28 16:55:41] INFO root fetch - main [MainThread]: End processing [snapquery]: success
+[2024-05-28 16:55:41] INFO root fetch - processPackages [cocnc]: Remove: archive file [/home/abi/fetcher/tmp/cocnc-0.1.8.tar.gz]
+[2024-05-28 16:55:41] INFO root fetch - processPackages [cocnc]: Remove: archive file [/home/abi/fetcher/tmp/cocnc-0.1.9.tar.gz]
+[2024-05-28 16:55:41] INFO root fetch - main [MainThread]: End processing [cocnc]: success
+[2024-05-28 16:55:41] INFO root fetch - processPackages [smt]: Remove: archive file [/home/abi/fetcher/tmp/smt-2.6.0.tar.gz]
+[2024-05-28 16:55:41] INFO root fetch - processPackages [smt]: Remove: archive file [/home/abi/fetcher/tmp/smt-2.6.1.tar.gz]
+[2024-05-28 16:55:42] INFO root fetch - main [MainThread]: End processing [smt]: success
+[2024-05-28 16:55:42] INFO root fetch - processPackages [snowflake-cli-labs]: Remove: archive file [/home/abi/fetcher/tmp/snowflake_cli_labs-2.3.1.tar.gz]
+[2024-05-28 16:55:42] INFO root fetch - processPackages [snowflake-cli-labs]: Remove: archive file [/home/abi/fetcher/tmp/snowflake_cli_labs-2.4.0rc0.tar.gz]
+[2024-05-28 16:55:42] INFO root fetch - main [MainThread]: End processing [snowflake-cli-labs]: success
+[2024-05-28 16:55:42] INFO root fetch - main [MainThread]: Store serial: [23413435]
