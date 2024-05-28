@@ -19939,3 +19939,76 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 15:02:28] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.99.tar.gz]
 [2024-05-28 15:02:28] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
 [2024-05-28 15:02:28] INFO root fetch - main [MainThread]: Store serial: [23411525]
+[2024-05-28 15:04:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23411525]
+[2024-05-28 15:04:37] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-28 15:04:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lusid-sdk
+[2024-05-28 15:04:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastsupabased-acl
+[2024-05-28 15:04:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: supertokens-python
+[2024-05-28 15:04:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ETH-GTD-cli
+[2024-05-28 15:04:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: STTT
+[2024-05-28 15:04:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: airbyte-source-s3
+[2024-05-28 15:04:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ETH-GTD-cli
+[2024-05-28 15:04:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ritas
+[2024-05-28 15:04:37] INFO root fetch - processPackages [ETH-GTD-cli]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-28 15:04:37] INFO root fetch - processPackages [ETH-GTD-cli]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-28 15:04:37] INFO root fetch - processPackages [lusid-sdk]: New version: [2.1.99] Old Version: [2.1.98]
+[2024-05-28 15:04:37] INFO root fetch - processPackages [ETH-GTD-cli]: Downloading https://files.pythonhosted.org/packages/bb/0a/50fa1ec5d25c4299fe860bbee1353c0eb7f1f3a83808556d2c92d59af108/eth_gtd_cli-0.0.98.tar.gz
+[2024-05-28 15:04:37] INFO root fetch - processPackages [airbyte-source-s3]: New version: [4.5.9.dev202403082230] Old Version: [4.5.9.dev202403072308]
+[2024-05-28 15:04:37] INFO root fetch - processPackages [STTT]: New version: [1.0.0] Old Version: [0.8]
+[2024-05-28 15:04:37] INFO root fetch - processPackages [fastsupabased-acl]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-28 15:04:37] INFO root fetch - processPackages [ETH-GTD-cli]: Downloading https://files.pythonhosted.org/packages/bb/0a/50fa1ec5d25c4299fe860bbee1353c0eb7f1f3a83808556d2c92d59af108/eth_gtd_cli-0.0.98.tar.gz
+[2024-05-28 15:04:37] INFO root fetch - processPackages [supertokens-python]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-28 15:04:37] INFO root fetch - processPackages [ritas]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-28 15:04:37] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/15/56/0526e0499d9414b698f8c1260f8aac2e2a3209a0dc66949600aff2c28199/lusid_sdk-2.1.98.tar.gz
+[2024-05-28 15:04:38] INFO root fetch - processPackages [STTT]: Downloading https://files.pythonhosted.org/packages/26/aa/54d25df7eaa78a5582568e4b0bac181c91d3a8ca8d8a45e83f1f3c97fa88/STTT-0.8.tar.gz
+[2024-05-28 15:04:38] INFO root fetch - processPackages [ETH-GTD-cli]: Downloading https://files.pythonhosted.org/packages/3a/3a/941df551139bad5139862c5d9037c073bb93892398261de84ccbd2737322/eth_gtd_cli-0.0.99.tar.gz
+[2024-05-28 15:04:38] INFO root fetch - processPackages [airbyte-source-s3]: Downloading https://files.pythonhosted.org/packages/c1/b2/07f3f005110f781adb127fc04a80cc2327787beba4910de71f0ffba521eb/airbyte_source_s3-4.5.9.dev202403072308.tar.gz
+[2024-05-28 15:04:38] INFO root fetch - processPackages [supertokens-python]: Downloading https://files.pythonhosted.org/packages/41/34/31967fb29a967744e011eb91331a2937f19d9882acccbefdef89c41d48ce/supertokens_python-0.9.0.tar.gz
+[2024-05-28 15:04:38] INFO root fetch - processPackages [ETH-GTD-cli]: Downloading https://files.pythonhosted.org/packages/3a/3a/941df551139bad5139862c5d9037c073bb93892398261de84ccbd2737322/eth_gtd_cli-0.0.99.tar.gz
+[2024-05-28 15:04:38] INFO root fetch - processPackages [ritas]: Downloading https://files.pythonhosted.org/packages/cd/06/a7bb39c592c14999c77cadf6493cf5be8070e5c1c64a8e88e8bcb9d152a6/ritas-0.2.0.tar.gz
+[2024-05-28 15:04:38] INFO root fetch - processPackages [fastsupabased-acl]: Downloading https://files.pythonhosted.org/packages/7a/21/4deb6aef9891b6cace275985677bdaf3d90f70eadea47fd0a5bebad9c419/fastsupabased_acl-0.1.0.tar.gz
+[2024-05-28 15:04:38] INFO root fetch - processPackages [ETH-GTD-cli]: executing diffoscope
+[2024-05-28 15:04:38] INFO root fetch - processPackages [ETH-GTD-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eth_gtd_cli-0.0.98.tar.gz tmp/eth_gtd_cli-0.0.99.tar.gz --markdown 20240528/E/ETH-GTD-cli/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-28 15:04:38] INFO root fetch - processPackages [ETH-GTD-cli]: executing diffoscope
+[2024-05-28 15:04:38] INFO root fetch - processPackages [ETH-GTD-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eth_gtd_cli-0.0.98.tar.gz tmp/eth_gtd_cli-0.0.99.tar.gz --markdown 20240528/E/ETH-GTD-cli/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-28 15:04:38] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/2c/d6/b08aeae5c238a1e7a8cd3ba4a93d6c65acd45e317b927d0f06091d65479d/lusid_sdk-2.1.99.tar.gz
+[2024-05-28 15:04:38] INFO root fetch - processPackages [STTT]: Downloading https://files.pythonhosted.org/packages/b9/c4/c7999a8a42fcf5f3d69fb855c1381c357e2ee618618ccf3d4d664d76e52c/sttt-1.0.0.tar.gz
+[2024-05-28 15:04:38] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2024-05-28 15:04:38] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_sdk-2.1.98.tar.gz tmp/lusid_sdk-2.1.99.tar.gz --markdown 20240528/l/lusid-sdk/2.1.98-2.1.99/README.md --exclude *.pyd
+[2024-05-28 15:04:38] INFO root fetch - processPackages [fastsupabased-acl]: Downloading https://files.pythonhosted.org/packages/f6/b4/4c588528a3bc352fa6defbb47208915ed83d17f6b38061f8ff0a632072b0/fastsupabased_acl-0.1.1.tar.gz
+[2024-05-28 15:04:38] INFO root fetch - processPackages [airbyte-source-s3]: Downloading https://files.pythonhosted.org/packages/ba/22/b7c1bf46b6e7927831208ea8ff1f253aa72883bb81d349dff7667ab81eba/airbyte_source_s3-4.5.9.dev202403082230.tar.gz
+[2024-05-28 15:04:38] INFO root fetch - processPackages [supertokens-python]: Downloading https://files.pythonhosted.org/packages/9d/b6/1579872040858340507fd930b8d80cc6f32b03fdf8a1a46b669704ba8615/supertokens_python-0.9.1.tar.gz
+[2024-05-28 15:04:38] INFO root fetch - processPackages [STTT]: executing diffoscope
+[2024-05-28 15:04:38] INFO root fetch - processPackages [STTT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/STTT-0.8.tar.gz tmp/sttt-1.0.0.tar.gz --markdown 20240528/S/STTT/0.8-1.0.0/README.md --exclude *.pyd
+[2024-05-28 15:04:38] INFO root fetch - processPackages [fastsupabased-acl]: executing diffoscope
+[2024-05-28 15:04:38] INFO root fetch - processPackages [fastsupabased-acl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastsupabased_acl-0.1.0.tar.gz tmp/fastsupabased_acl-0.1.1.tar.gz --markdown 20240528/f/fastsupabased-acl/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-28 15:04:38] INFO root fetch - processPackages [airbyte-source-s3]: executing diffoscope
+[2024-05-28 15:04:38] INFO root fetch - processPackages [airbyte-source-s3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_s3-4.5.9.dev202403072308.tar.gz tmp/airbyte_source_s3-4.5.9.dev202403082230.tar.gz --markdown 20240528/a/airbyte-source-s3/4.5.9.dev202403072308-4.5.9.dev202403082230/README.md --exclude *.pyd
+[2024-05-28 15:04:38] INFO root fetch - processPackages [supertokens-python]: executing diffoscope
+[2024-05-28 15:04:38] INFO root fetch - processPackages [supertokens-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supertokens_python-0.9.0.tar.gz tmp/supertokens_python-0.9.1.tar.gz --markdown 20240528/s/supertokens-python/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-28 15:04:38] INFO root fetch - processPackages [ritas]: Downloading https://files.pythonhosted.org/packages/64/33/009c21b80bb442d54fb856a846b6d2bb322ef2c969d283d567571ebb91f6/ritas-0.3.0.tar.gz
+[2024-05-28 15:04:38] INFO root fetch - processPackages [ETH-GTD-cli]: Remove: archive file [/home/abi/fetcher/tmp/eth_gtd_cli-0.0.98.tar.gz]
+[2024-05-28 15:04:38] INFO root fetch - processPackages [ETH-GTD-cli]: Remove: archive file [/home/abi/fetcher/tmp/eth_gtd_cli-0.0.99.tar.gz]
+[2024-05-28 15:04:38] INFO root fetch - main [MainThread]: End processing [ETH-GTD-cli]: success
+[2024-05-28 15:04:39] INFO root fetch - main [MainThread]: End processing [ETH-GTD-cli]: success
+[2024-05-28 15:04:39] INFO root fetch - processPackages [ritas]: executing diffoscope
+[2024-05-28 15:04:39] INFO root fetch - processPackages [ritas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ritas-0.2.0.tar.gz tmp/ritas-0.3.0.tar.gz --markdown 20240528/r/ritas/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-28 15:04:39] INFO root fetch - processPackages [fastsupabased-acl]: Remove: archive file [/home/abi/fetcher/tmp/fastsupabased_acl-0.1.0.tar.gz]
+[2024-05-28 15:04:39] INFO root fetch - processPackages [fastsupabased-acl]: Remove: archive file [/home/abi/fetcher/tmp/fastsupabased_acl-0.1.1.tar.gz]
+[2024-05-28 15:04:39] INFO root fetch - main [MainThread]: End processing [fastsupabased-acl]: success
+[2024-05-28 15:04:39] INFO root fetch - processPackages [STTT]: Remove: archive file [/home/abi/fetcher/tmp/STTT-0.8.tar.gz]
+[2024-05-28 15:04:39] INFO root fetch - processPackages [STTT]: Remove: archive file [/home/abi/fetcher/tmp/sttt-1.0.0.tar.gz]
+[2024-05-28 15:04:39] INFO root fetch - main [MainThread]: End processing [STTT]: success
+[2024-05-28 15:04:39] INFO root fetch - processPackages [airbyte-source-s3]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_s3-4.5.9.dev202403072308.tar.gz]
+[2024-05-28 15:04:39] INFO root fetch - processPackages [airbyte-source-s3]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_s3-4.5.9.dev202403082230.tar.gz]
+[2024-05-28 15:04:39] INFO root fetch - main [MainThread]: End processing [airbyte-source-s3]: success
+[2024-05-28 15:04:39] INFO root fetch - processPackages [ritas]: Remove: archive file [/home/abi/fetcher/tmp/ritas-0.2.0.tar.gz]
+[2024-05-28 15:04:39] INFO root fetch - processPackages [ritas]: Remove: archive file [/home/abi/fetcher/tmp/ritas-0.3.0.tar.gz]
+[2024-05-28 15:04:39] INFO root fetch - main [MainThread]: End processing [ritas]: success
+[2024-05-28 15:04:40] INFO root fetch - processPackages [supertokens-python]: Remove: archive file [/home/abi/fetcher/tmp/supertokens_python-0.9.0.tar.gz]
+[2024-05-28 15:04:40] INFO root fetch - processPackages [supertokens-python]: Remove: archive file [/home/abi/fetcher/tmp/supertokens_python-0.9.1.tar.gz]
+[2024-05-28 15:04:40] INFO root fetch - main [MainThread]: End processing [supertokens-python]: success
+[2024-05-28 15:04:42] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.98.tar.gz]
+[2024-05-28 15:04:42] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.99.tar.gz]
+[2024-05-28 15:04:42] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2024-05-28 15:04:42] INFO root fetch - main [MainThread]: Store serial: [23411551]
