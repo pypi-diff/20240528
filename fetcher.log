@@ -9922,3 +9922,36 @@
 [2024-05-28 09:15:57] INFO root fetch - processPackages [akasha-terminal]: Remove: archive file [/home/abi/fetcher/tmp/akasha-terminal-0.8.9.tar.gz]
 [2024-05-28 09:15:57] INFO root fetch - main [MainThread]: End processing [akasha-terminal]: success
 [2024-05-28 09:15:57] INFO root fetch - main [MainThread]: Store serial: [23406958]
+[2024-05-28 09:18:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23406958]
+[2024-05-28 09:18:06] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-28 09:18:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mg-pso-gui
+[2024-05-28 09:18:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tinybird-cli
+[2024-05-28 09:18:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ms-swift
+[2024-05-28 09:18:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ble-library
+[2024-05-28 09:18:06] INFO root fetch - processPackages [ms-swift]: New version: [2.0.5] Old Version: [2.0.4]
+[2024-05-28 09:18:06] INFO root fetch - processPackages [mg-pso-gui]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-28 09:18:06] INFO root fetch - processPackages [tinybird-cli]: New version: [3.9.1.dev6] Old Version: [3.9.1.dev5]
+[2024-05-28 09:18:06] WARNING root fetch - processPackages [ble-library]: Skipping, unable to determine old version
+[2024-05-28 09:18:06] INFO root fetch - main [MainThread]: End processing [ble-library] error
+[2024-05-28 09:18:06] INFO root fetch - processPackages [mg-pso-gui]: Downloading https://files.pythonhosted.org/packages/df/83/034ff30ffab79111af61b23ddbbacb0dc8d0faee9958bec000f788ee7a76/mg-pso-gui-0.1.98.tar.gz
+[2024-05-28 09:18:06] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/3b/e8/4ec599ef1fbfdc10f1d7dd6844b1ca41c9ef14b41d534259c66feb16357b/tinybird-cli-3.9.1.dev5.tar.gz
+[2024-05-28 09:18:06] INFO root fetch - processPackages [ms-swift]: Downloading https://files.pythonhosted.org/packages/d9/b4/38cc3c94c721fc5e5db3cf0b0e8d11326ef85676236bb844527e26752617/ms-swift-2.0.4.tar.gz
+[2024-05-28 09:18:06] INFO root fetch - processPackages [mg-pso-gui]: Downloading https://files.pythonhosted.org/packages/02/26/25a563653e3f76ef0cdf3b09aef810d638a12dd3cab560f67bf7a0c694e9/mg-pso-gui-0.1.99.tar.gz
+[2024-05-28 09:18:06] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/d8/a1/7103165b8eee9a961fe91767e7be994cc8a17c5b1f12ee6f37dcccb855b7/tinybird-cli-3.9.1.dev6.tar.gz
+[2024-05-28 09:18:06] INFO root fetch - processPackages [ms-swift]: Downloading https://files.pythonhosted.org/packages/e3/76/c641b2b24837a3d6d1044c09ffe45b439f60bf2fdd7d1cf60871ae8a720e/ms-swift-2.0.5.tar.gz
+[2024-05-28 09:18:06] INFO root fetch - processPackages [mg-pso-gui]: executing diffoscope
+[2024-05-28 09:18:06] INFO root fetch - processPackages [mg-pso-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mg-pso-gui-0.1.98.tar.gz tmp/mg-pso-gui-0.1.99.tar.gz --markdown 20240528/m/mg-pso-gui/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-28 09:18:06] INFO root fetch - processPackages [tinybird-cli]: executing diffoscope
+[2024-05-28 09:18:06] INFO root fetch - processPackages [tinybird-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird-cli-3.9.1.dev5.tar.gz tmp/tinybird-cli-3.9.1.dev6.tar.gz --markdown 20240528/t/tinybird-cli/3.9.1.dev5-3.9.1.dev6/README.md --exclude *.pyd
+[2024-05-28 09:18:06] INFO root fetch - processPackages [ms-swift]: executing diffoscope
+[2024-05-28 09:18:06] INFO root fetch - processPackages [ms-swift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms-swift-2.0.4.tar.gz tmp/ms-swift-2.0.5.tar.gz --markdown 20240528/m/ms-swift/2.0.4-2.0.5/README.md --exclude *.pyd
+[2024-05-28 09:18:07] INFO root fetch - processPackages [mg-pso-gui]: Remove: archive file [/home/abi/fetcher/tmp/mg-pso-gui-0.1.98.tar.gz]
+[2024-05-28 09:18:07] INFO root fetch - processPackages [mg-pso-gui]: Remove: archive file [/home/abi/fetcher/tmp/mg-pso-gui-0.1.99.tar.gz]
+[2024-05-28 09:18:07] INFO root fetch - main [MainThread]: End processing [mg-pso-gui]: success
+[2024-05-28 09:18:07] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-3.9.1.dev5.tar.gz]
+[2024-05-28 09:18:07] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-3.9.1.dev6.tar.gz]
+[2024-05-28 09:18:07] INFO root fetch - main [MainThread]: End processing [tinybird-cli]: success
+[2024-05-28 09:18:08] INFO root fetch - processPackages [ms-swift]: Remove: archive file [/home/abi/fetcher/tmp/ms-swift-2.0.4.tar.gz]
+[2024-05-28 09:18:08] INFO root fetch - processPackages [ms-swift]: Remove: archive file [/home/abi/fetcher/tmp/ms-swift-2.0.5.tar.gz]
+[2024-05-28 09:18:08] INFO root fetch - main [MainThread]: End processing [ms-swift]: success
+[2024-05-28 09:18:08] INFO root fetch - main [MainThread]: Store serial: [23406972]
