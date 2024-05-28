@@ -7009,3 +7009,42 @@
 [2024-05-28 07:56:12] INFO root fetch - processPackages [semantic-chunkers]: Remove: archive file [/home/abi/fetcher/tmp/semantic_chunkers-0.0.6.tar.gz]
 [2024-05-28 07:56:12] INFO root fetch - main [MainThread]: End processing [semantic-chunkers]: success
 [2024-05-28 07:56:12] INFO root fetch - main [MainThread]: Store serial: [23405675]
+[2024-05-28 07:58:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23405675]
+[2024-05-28 07:58:20] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-28 07:58:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jira-assistant
+[2024-05-28 07:58:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: azure-mgmt-selfhelp
+[2024-05-28 07:58:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pawnlib
+[2024-05-28 07:58:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stocknotebridgenew
+[2024-05-28 07:58:20] INFO root fetch - processPackages [stocknotebridgenew]: New version: [3.10.6] Old Version: [3.10.5]
+[2024-05-28 07:58:21] INFO root fetch - processPackages [stocknotebridgenew]: Downloading https://files.pythonhosted.org/packages/f1/da/e57e76f52c1cd9fe44d5dcbb544d1a90f1611cf698ad586f219f821f8a80/stocknotebridgenew-3.10.5.tar.gz
+[2024-05-28 07:58:21] INFO root fetch - processPackages [azure-mgmt-selfhelp]: New version: [2.0.0b4] Old Version: [2.0.0b3]
+[2024-05-28 07:58:21] INFO root fetch - processPackages [jira-assistant]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-28 07:58:21] INFO root fetch - processPackages [pawnlib]: New version: [2.0] Old Version: [1.1.8]
+[2024-05-28 07:58:21] INFO root fetch - processPackages [azure-mgmt-selfhelp]: Downloading https://files.pythonhosted.org/packages/ef/69/2b67f9174d03225f0b27b40bf280b5db3f1349be84e8b987a5af56020015/azure-mgmt-selfhelp-2.0.0b3.tar.gz
+[2024-05-28 07:58:21] INFO root fetch - processPackages [jira-assistant]: Downloading https://files.pythonhosted.org/packages/9c/98/d37da86ac10e5ef1ce0d30d3ca9126accc1c2a691997d6f7210c8354f973/jira-assistant-0.1.8.tar.gz
+[2024-05-28 07:58:21] INFO root fetch - processPackages [stocknotebridgenew]: Downloading https://files.pythonhosted.org/packages/a6/00/7a6e38680d45df01c1ebe1b90875a6a5df29720421097703da21743babf9/stocknotebridgenew-3.10.6.tar.gz
+[2024-05-28 07:58:21] INFO root fetch - processPackages [pawnlib]: Downloading https://files.pythonhosted.org/packages/94/46/a3f62337fd73d4349e50160758963fb73b71704119ef6293e3b8e140762a/pawnlib-1.1.8.tar.gz
+[2024-05-28 07:58:21] INFO root fetch - processPackages [stocknotebridgenew]: executing diffoscope
+[2024-05-28 07:58:21] INFO root fetch - processPackages [stocknotebridgenew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stocknotebridgenew-3.10.5.tar.gz tmp/stocknotebridgenew-3.10.6.tar.gz --markdown 20240528/s/stocknotebridgenew/3.10.5-3.10.6/README.md --exclude *.pyd
+[2024-05-28 07:58:21] INFO root fetch - processPackages [jira-assistant]: Downloading https://files.pythonhosted.org/packages/3c/ea/b313c766bdbc39c9ed0039db76677b2f6faee1539f016df2641d39d583e0/jira-assistant-0.1.9.tar.gz
+[2024-05-28 07:58:21] INFO root fetch - processPackages [azure-mgmt-selfhelp]: Downloading https://files.pythonhosted.org/packages/2a/77/15f828c345da975b5ed88ccbc381a4add227725eb803166acd54291426c6/azure-mgmt-selfhelp-2.0.0b4.tar.gz
+[2024-05-28 07:58:21] INFO root fetch - processPackages [jira-assistant]: executing diffoscope
+[2024-05-28 07:58:21] INFO root fetch - processPackages [jira-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jira-assistant-0.1.8.tar.gz tmp/jira-assistant-0.1.9.tar.gz --markdown 20240528/j/jira-assistant/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-28 07:58:21] INFO root fetch - processPackages [azure-mgmt-selfhelp]: executing diffoscope
+[2024-05-28 07:58:21] INFO root fetch - processPackages [azure-mgmt-selfhelp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-selfhelp-2.0.0b3.tar.gz tmp/azure-mgmt-selfhelp-2.0.0b4.tar.gz --markdown 20240528/a/azure-mgmt-selfhelp/2.0.0b3-2.0.0b4/README.md --exclude *.pyd
+[2024-05-28 07:58:21] INFO root fetch - processPackages [pawnlib]: Downloading https://files.pythonhosted.org/packages/f1/ac/0720f8bdc1c673c0320e17dbe059cfe2db27c3ff40358a6877b2000b00e7/pawnlib-2.0.tar.gz
+[2024-05-28 07:58:22] INFO root fetch - processPackages [pawnlib]: executing diffoscope
+[2024-05-28 07:58:22] INFO root fetch - processPackages [pawnlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pawnlib-1.1.8.tar.gz tmp/pawnlib-2.0.tar.gz --markdown 20240528/p/pawnlib/1.1.8-2.0/README.md --exclude *.pyd
+[2024-05-28 07:58:22] INFO root fetch - processPackages [stocknotebridgenew]: Remove: archive file [/home/abi/fetcher/tmp/stocknotebridgenew-3.10.5.tar.gz]
+[2024-05-28 07:58:22] INFO root fetch - processPackages [stocknotebridgenew]: Remove: archive file [/home/abi/fetcher/tmp/stocknotebridgenew-3.10.6.tar.gz]
+[2024-05-28 07:58:22] INFO root fetch - main [MainThread]: End processing [stocknotebridgenew]: success
+[2024-05-28 07:58:22] INFO root fetch - processPackages [jira-assistant]: Remove: archive file [/home/abi/fetcher/tmp/jira-assistant-0.1.8.tar.gz]
+[2024-05-28 07:58:22] INFO root fetch - processPackages [jira-assistant]: Remove: archive file [/home/abi/fetcher/tmp/jira-assistant-0.1.9.tar.gz]
+[2024-05-28 07:58:22] INFO root fetch - main [MainThread]: End processing [jira-assistant]: success
+[2024-05-28 07:58:22] INFO root fetch - processPackages [azure-mgmt-selfhelp]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-selfhelp-2.0.0b3.tar.gz]
+[2024-05-28 07:58:22] INFO root fetch - processPackages [azure-mgmt-selfhelp]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-selfhelp-2.0.0b4.tar.gz]
+[2024-05-28 07:58:22] INFO root fetch - main [MainThread]: End processing [azure-mgmt-selfhelp]: success
+[2024-05-28 07:58:22] INFO root fetch - processPackages [pawnlib]: Remove: archive file [/home/abi/fetcher/tmp/pawnlib-1.1.8.tar.gz]
+[2024-05-28 07:58:22] INFO root fetch - processPackages [pawnlib]: Remove: archive file [/home/abi/fetcher/tmp/pawnlib-2.0.tar.gz]
+[2024-05-28 07:58:22] INFO root fetch - main [MainThread]: End processing [pawnlib]: success
+[2024-05-28 07:58:22] INFO root fetch - main [MainThread]: Store serial: [23405686]
