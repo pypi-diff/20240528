@@ -2809,3 +2809,45 @@
 [2024-05-28 03:18:49] INFO root fetch - processPackages [alphafold3-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/alphafold3_pytorch-0.0.9.tar.gz]
 [2024-05-28 03:18:49] INFO root fetch - main [MainThread]: End processing [alphafold3-pytorch]: success
 [2024-05-28 03:18:49] INFO root fetch - main [MainThread]: Store serial: [23403944]
+[2024-05-28 03:20:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23403944]
+[2024-05-28 03:20:57] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-28 03:20:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vllm-flash-attn
+[2024-05-28 03:20:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langroid
+[2024-05-28 03:20:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SC2Spa
+[2024-05-28 03:20:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tinyticker
+[2024-05-28 03:20:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tinyticker
+[2024-05-28 03:20:57] INFO root fetch - processPackages [SC2Spa]: New version: [1.2.4] Old Version: [1.2.3]
+[2024-05-28 03:20:57] INFO root fetch - processPackages [SC2Spa]: Downloading https://files.pythonhosted.org/packages/79/e9/e83b0ba794493407f327d57a725b301ff0738c5be376afe08ccedf6888a7/SC2Spa-1.2.3.tar.gz
+[2024-05-28 03:20:57] INFO root fetch - processPackages [tinyticker]: New version: [0.8.0] Old Version: [0.7.9]
+[2024-05-28 03:20:57] INFO root fetch - processPackages [vllm-flash-attn]: New version: [2.5.8.post3] Old Version: [2.5.8.post2]
+[2024-05-28 03:20:57] INFO root fetch - processPackages [tinyticker]: New version: [0.8.0] Old Version: [0.7.9]
+[2024-05-28 03:20:57] INFO root fetch - processPackages [langroid]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-28 03:20:57] INFO root fetch - processPackages [tinyticker]: Downloading https://files.pythonhosted.org/packages/02/29/8076e4f65dab87e33babb1d479f171a89ed299227e5516627520cb7957a5/tinyticker-0.7.9.tar.gz
+[2024-05-28 03:20:57] INFO root fetch - processPackages [SC2Spa]: Downloading https://files.pythonhosted.org/packages/37/c7/acb227ac46ed27b0dc995fa2525b0d852c973924187619b67bc820430d08/sc2spa-1.2.4.tar.gz
+[2024-05-28 03:20:57] INFO root fetch - processPackages [tinyticker]: Downloading https://files.pythonhosted.org/packages/02/29/8076e4f65dab87e33babb1d479f171a89ed299227e5516627520cb7957a5/tinyticker-0.7.9.tar.gz
+[2024-05-28 03:20:57] INFO root fetch - processPackages [vllm-flash-attn]: Downloading https://files.pythonhosted.org/packages/fd/90/16d2d13446337d704e4f9baa3c08aecb32a1727c10df32d64764f3a7ee60/vllm_flash_attn-2.5.8.post2-cp39-cp39-manylinux1_x86_64.whl
+[2024-05-28 03:20:57] WARNING root fetch - processPackages [vllm-flash-attn]: Skipping package: exceeds size limit 37092225>=10485760
+[2024-05-28 03:20:57] INFO root fetch - main [MainThread]: End processing [vllm-flash-attn] error
+[2024-05-28 03:20:57] INFO root fetch - processPackages [SC2Spa]: executing diffoscope
+[2024-05-28 03:20:57] INFO root fetch - processPackages [SC2Spa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SC2Spa-1.2.3.tar.gz tmp/sc2spa-1.2.4.tar.gz --markdown 20240528/S/SC2Spa/1.2.3-1.2.4/README.md --exclude *.pyd
+[2024-05-28 03:20:57] INFO root fetch - processPackages [langroid]: Downloading https://files.pythonhosted.org/packages/ab/bb/220d2ce35d659c9c3f621a8e92246d4d25420d75def80d96d19a8abf2b62/langroid-0.1.98.tar.gz
+[2024-05-28 03:20:58] INFO root fetch - processPackages [tinyticker]: Downloading https://files.pythonhosted.org/packages/6f/f3/075e5cc792fce8839caf54d17345b2ab02f99f409a4118bb674b7b9af33b/tinyticker-0.8.0.tar.gz
+[2024-05-28 03:20:58] INFO root fetch - processPackages [tinyticker]: Downloading https://files.pythonhosted.org/packages/6f/f3/075e5cc792fce8839caf54d17345b2ab02f99f409a4118bb674b7b9af33b/tinyticker-0.8.0.tar.gz
+[2024-05-28 03:20:58] INFO root fetch - processPackages [tinyticker]: executing diffoscope
+[2024-05-28 03:20:58] INFO root fetch - processPackages [tinyticker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinyticker-0.7.9.tar.gz tmp/tinyticker-0.8.0.tar.gz --markdown 20240528/t/tinyticker/0.7.9-0.8.0/README.md --exclude *.pyd
+[2024-05-28 03:20:58] INFO root fetch - processPackages [tinyticker]: executing diffoscope
+[2024-05-28 03:20:58] INFO root fetch - processPackages [tinyticker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinyticker-0.7.9.tar.gz tmp/tinyticker-0.8.0.tar.gz --markdown 20240528/t/tinyticker/0.7.9-0.8.0/README.md --exclude *.pyd
+[2024-05-28 03:20:58] INFO root fetch - processPackages [SC2Spa]: Remove: archive file [/home/abi/fetcher/tmp/SC2Spa-1.2.3.tar.gz]
+[2024-05-28 03:20:58] INFO root fetch - processPackages [SC2Spa]: Remove: archive file [/home/abi/fetcher/tmp/sc2spa-1.2.4.tar.gz]
+[2024-05-28 03:20:58] INFO root fetch - main [MainThread]: End processing [SC2Spa]: success
+[2024-05-28 03:20:58] INFO root fetch - processPackages [tinyticker]: Remove: archive file [/home/abi/fetcher/tmp/tinyticker-0.7.9.tar.gz]
+[2024-05-28 03:20:58] INFO root fetch - processPackages [tinyticker]: Remove: archive file [/home/abi/fetcher/tmp/tinyticker-0.8.0.tar.gz]
+[2024-05-28 03:20:58] INFO root fetch - main [MainThread]: End processing [tinyticker]: success
+[2024-05-28 03:20:58] INFO root fetch - main [MainThread]: End processing [tinyticker]: success
+[2024-05-28 03:21:01] INFO root fetch - processPackages [langroid]: Downloading https://files.pythonhosted.org/packages/e0/31/f66ec6ea338a8eb66884a575a589c46c9cda101c179d652dccf9a12f918f/langroid-0.1.99.tar.gz
+[2024-05-28 03:21:01] INFO root fetch - processPackages [langroid]: executing diffoscope
+[2024-05-28 03:21:01] INFO root fetch - processPackages [langroid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langroid-0.1.98.tar.gz tmp/langroid-0.1.99.tar.gz --markdown 20240528/l/langroid/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-28 03:21:01] INFO root fetch - processPackages [langroid]: Remove: archive file [/home/abi/fetcher/tmp/langroid-0.1.98.tar.gz]
+[2024-05-28 03:21:01] INFO root fetch - processPackages [langroid]: Remove: archive file [/home/abi/fetcher/tmp/langroid-0.1.99.tar.gz]
+[2024-05-28 03:21:01] INFO root fetch - main [MainThread]: End processing [langroid]: success
+[2024-05-28 03:21:01] INFO root fetch - main [MainThread]: Store serial: [23403969]
