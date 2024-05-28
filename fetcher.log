@@ -15903,3 +15903,54 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 12:32:50] INFO root fetch - processPackages [pytensor]: Remove: archive file [/home/abi/fetcher/tmp/pytensor-2.9.1.tar.gz]
 [2024-05-28 12:32:50] INFO root fetch - main [MainThread]: End processing [pytensor]: success
 [2024-05-28 12:32:50] INFO root fetch - main [MainThread]: Store serial: [23409611]
+[2024-05-28 12:34:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23409611]
+[2024-05-28 12:34:59] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-28 12:34:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cerebrumscanner
+[2024-05-28 12:34:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-odata
+[2024-05-28 12:34:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: DLMS-SPODES
+[2024-05-28 12:34:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mpt-cli
+[2024-05-28 12:34:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-antimonkey
+[2024-05-28 12:34:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: muttfuzz
+[2024-05-28 12:34:59] INFO root fetch - processPackages [cerebrumscanner]: New version: [0.0.1b5] Old Version: [0.0.1b4]
+[2024-05-28 12:34:59] INFO root fetch - processPackages [nonebot-plugin-antimonkey]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-05-28 12:34:59] INFO root fetch - processPackages [muttfuzz]: New version: [0.7.6] Old Version: [0.7.5]
+[2024-05-28 12:34:59] WARNING root fetch - processPackages [mpt-cli]: Skipping, unable to determine old version
+[2024-05-28 12:34:59] INFO root fetch - main [MainThread]: End processing [mpt-cli] error
+[2024-05-28 12:34:59] INFO root fetch - processPackages [cerebrumscanner]: Downloading https://files.pythonhosted.org/packages/09/0e/aca144d18cb979479365af698800e8f486240a85896ac098e3de2d515c34/cerebrumscanner-0.0.1b4.tar.gz
+[2024-05-28 12:34:59] INFO root fetch - processPackages [DLMS-SPODES]: New version: [0.9.0] Old Version: [0.8.3]
+[2024-05-28 12:34:59] INFO root fetch - processPackages [python-odata]: New version: [0.5.6] Old Version: [0.5.5]
+[2024-05-28 12:34:59] INFO root fetch - processPackages [nonebot-plugin-antimonkey]: Downloading https://files.pythonhosted.org/packages/c5/1a/531870651f9c1ec989df0419022d4674f46f7354dda143543142f7edcaa2/nonebot_plugin_antimonkey-1.0.7.tar.gz
+[2024-05-28 12:34:59] INFO root fetch - processPackages [muttfuzz]: Downloading https://files.pythonhosted.org/packages/be/a2/12777c712187edc9057a8264b28e262683d3fb9d9cb79f329971cd28edab/muttfuzz-0.7.5-py3-none-any.whl
+[2024-05-28 12:34:59] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/97/e2/60be495fca055220080de90e294b2c16ad5a60ea6485cdee969131f05bf4/DLMS_SPODES-0.8.3.tar.gz
+[2024-05-28 12:34:59] INFO root fetch - processPackages [python-odata]: Downloading https://files.pythonhosted.org/packages/81/51/9a89a49a368232c378033dfc77da01b1373259fccb153ee193d25e67a2b5/python_odata-0.5.5.tar.gz
+[2024-05-28 12:35:00] INFO root fetch - processPackages [cerebrumscanner]: Downloading https://files.pythonhosted.org/packages/8a/51/713ae1f07cac55b7edca3b6ac906e419d23cb2067e463cd9a20a38809793/cerebrumscanner-0.0.1b5.tar.gz
+[2024-05-28 12:35:00] INFO root fetch - processPackages [nonebot-plugin-antimonkey]: Downloading https://files.pythonhosted.org/packages/fe/fc/c0d1f7c974d483cac46e81b46fe1431c966cb7e700fbf1a23d439d655d50/nonebot_plugin_antimonkey-1.0.8.tar.gz
+[2024-05-28 12:35:00] INFO root fetch - processPackages [muttfuzz]: Downloading https://files.pythonhosted.org/packages/58/3a/21c52c2ecae994aa6b026bae743c001aa9ebeb1f9751f4fd88bb572eb25a/muttfuzz-0.7.6-py3-none-any.whl
+[2024-05-28 12:35:00] INFO root fetch - processPackages [nonebot-plugin-antimonkey]: executing diffoscope
+[2024-05-28 12:35:00] INFO root fetch - processPackages [nonebot-plugin-antimonkey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_antimonkey-1.0.7.tar.gz tmp/nonebot_plugin_antimonkey-1.0.8.tar.gz --markdown 20240528/n/nonebot-plugin-antimonkey/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-05-28 12:35:00] INFO root fetch - processPackages [cerebrumscanner]: executing diffoscope
+[2024-05-28 12:35:00] INFO root fetch - processPackages [cerebrumscanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cerebrumscanner-0.0.1b4.tar.gz tmp/cerebrumscanner-0.0.1b5.tar.gz --markdown 20240528/c/cerebrumscanner/0.0.1b4-0.0.1b5/README.md --exclude *.pyd
+[2024-05-28 12:35:00] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/78/a8/0e1e9fd1aa9750b28e12462781d408863affaeb92dbdb8c020b6d3078e67/DLMS_SPODES-0.9.0.tar.gz
+[2024-05-28 12:35:00] INFO root fetch - processPackages [muttfuzz]: executing diffoscope
+[2024-05-28 12:35:00] INFO root fetch - processPackages [muttfuzz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muttfuzz-0.7.5-py3-none-any.whl.zip tmp/muttfuzz-0.7.6-py3-none-any.whl.zip --markdown 20240528/m/muttfuzz/0.7.5-0.7.6/README.md --exclude *.pyd
+[2024-05-28 12:35:00] INFO root fetch - processPackages [python-odata]: Downloading https://files.pythonhosted.org/packages/51/3e/6acdc3bd10e2d67986fbff8cf0f2134897a472bdee0216c2d1f3aac18bf5/python_odata-0.5.6.tar.gz
+[2024-05-28 12:35:00] INFO root fetch - processPackages [DLMS-SPODES]: executing diffoscope
+[2024-05-28 12:35:00] INFO root fetch - processPackages [DLMS-SPODES]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES-0.8.3.tar.gz tmp/DLMS_SPODES-0.9.0.tar.gz --markdown 20240528/D/DLMS-SPODES/0.8.3-0.9.0/README.md --exclude *.pyd
+[2024-05-28 12:35:00] INFO root fetch - processPackages [python-odata]: executing diffoscope
+[2024-05-28 12:35:00] INFO root fetch - processPackages [python-odata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_odata-0.5.5.tar.gz tmp/python_odata-0.5.6.tar.gz --markdown 20240528/p/python-odata/0.5.5-0.5.6/README.md --exclude *.pyd
+[2024-05-28 12:35:00] INFO root fetch - processPackages [cerebrumscanner]: Remove: archive file [/home/abi/fetcher/tmp/cerebrumscanner-0.0.1b4.tar.gz]
+[2024-05-28 12:35:00] INFO root fetch - processPackages [cerebrumscanner]: Remove: archive file [/home/abi/fetcher/tmp/cerebrumscanner-0.0.1b5.tar.gz]
+[2024-05-28 12:35:00] INFO root fetch - main [MainThread]: End processing [cerebrumscanner]: success
+[2024-05-28 12:35:00] INFO root fetch - processPackages [muttfuzz]: Remove: archive file [/home/abi/fetcher/tmp/muttfuzz-0.7.5-py3-none-any.whl.zip]
+[2024-05-28 12:35:00] INFO root fetch - processPackages [muttfuzz]: Remove: archive file [/home/abi/fetcher/tmp/muttfuzz-0.7.6-py3-none-any.whl.zip]
+[2024-05-28 12:35:00] INFO root fetch - main [MainThread]: End processing [muttfuzz]: success
+[2024-05-28 12:35:01] INFO root fetch - processPackages [python-odata]: Remove: archive file [/home/abi/fetcher/tmp/python_odata-0.5.5.tar.gz]
+[2024-05-28 12:35:01] INFO root fetch - processPackages [python-odata]: Remove: archive file [/home/abi/fetcher/tmp/python_odata-0.5.6.tar.gz]
+[2024-05-28 12:35:01] INFO root fetch - main [MainThread]: End processing [python-odata]: success
+[2024-05-28 12:35:01] INFO root fetch - processPackages [nonebot-plugin-antimonkey]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_antimonkey-1.0.7.tar.gz]
+[2024-05-28 12:35:01] INFO root fetch - processPackages [nonebot-plugin-antimonkey]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_antimonkey-1.0.8.tar.gz]
+[2024-05-28 12:35:01] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-antimonkey]: success
+[2024-05-28 12:35:01] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.8.3.tar.gz]
+[2024-05-28 12:35:01] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.9.0.tar.gz]
+[2024-05-28 12:35:01] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
+[2024-05-28 12:35:01] INFO root fetch - main [MainThread]: Store serial: [23409641]
