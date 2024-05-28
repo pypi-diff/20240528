@@ -16409,3 +16409,48 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 12:52:35] INFO root fetch - processPackages [kalente]: Remove: archive file [/home/abi/fetcher/tmp/kalente-0.2.0.tar.gz]
 [2024-05-28 12:52:35] INFO root fetch - main [MainThread]: End processing [kalente]: success
 [2024-05-28 12:52:35] INFO root fetch - main [MainThread]: Store serial: [23409828]
+[2024-05-28 12:54:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23409828]
+[2024-05-28 12:54:45] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-28 12:54:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jinaai-api-schemas
+[2024-05-28 12:54:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rtc-tools-interface
+[2024-05-28 12:54:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ess-streaming-data-types
+[2024-05-28 12:54:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mpt-cli
+[2024-05-28 12:54:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pynet-scanner
+[2024-05-28 12:54:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yc-aws-wrapper
+[2024-05-28 12:54:45] INFO root fetch - processPackages [jinaai-api-schemas]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-28 12:54:45] WARNING root fetch - processPackages [mpt-cli]: Skipping, unable to determine old version
+[2024-05-28 12:54:45] INFO root fetch - main [MainThread]: End processing [mpt-cli] error
+[2024-05-28 12:54:45] INFO root fetch - processPackages [ess-streaming-data-types]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-05-28 12:54:45] INFO root fetch - processPackages [jinaai-api-schemas]: Downloading https://files.pythonhosted.org/packages/25/39/f863141710107516bb3ddba4fc7996934fb79d7c7b3f929453a812fa8eab/jinaai_api_schemas-0.0.8.tar.gz
+[2024-05-28 12:54:45] INFO root fetch - processPackages [rtc-tools-interface]: New version: [0.8.0b2] Old Version: [0.8.0b1]
+[2024-05-28 12:54:45] WARNING root fetch - processPackages [pynet-scanner]: Skipping, unable to determine old version
+[2024-05-28 12:54:45] INFO root fetch - main [MainThread]: End processing [pynet-scanner] error
+[2024-05-28 12:54:45] INFO root fetch - processPackages [yc-aws-wrapper]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-28 12:54:45] INFO root fetch - processPackages [ess-streaming-data-types]: Downloading https://files.pythonhosted.org/packages/d6/a3/6fb367f39a60b79ab2a15ab47acee6e8885ba98783122d2c1ea60d05e30c/ess_streaming_data_types-0.9.5.tar.gz
+[2024-05-28 12:54:45] INFO root fetch - processPackages [rtc-tools-interface]: Downloading https://files.pythonhosted.org/packages/49/55/1f205a42ed0785fb5361b12e9573bd66c485eeded70069ed5eeac8efa9ed/rtc-tools-interface-0.8.0b1.tar.gz
+[2024-05-28 12:54:45] INFO root fetch - processPackages [jinaai-api-schemas]: Downloading https://files.pythonhosted.org/packages/61/d2/6821514a6cc42b5b55a3eb2ee495174540c809889a9e0ba57657f8d637c4/jinaai_api_schemas-0.0.9.tar.gz
+[2024-05-28 12:54:45] INFO root fetch - processPackages [ess-streaming-data-types]: Downloading https://files.pythonhosted.org/packages/55/79/6979dd20f7642baba523f950aafa9a808555f5006efaeb5fb16598324b92/ess_streaming_data_types-0.9.6.tar.gz
+[2024-05-28 12:54:45] INFO root fetch - processPackages [yc-aws-wrapper]: Downloading https://files.pythonhosted.org/packages/50/b8/aeb4d685e07775bc8071422c743ff3f5b3c673bc1a931720095651d2d8a5/yc_aws_wrapper-0.0.2.tar.gz
+[2024-05-28 12:54:45] INFO root fetch - processPackages [jinaai-api-schemas]: executing diffoscope
+[2024-05-28 12:54:45] INFO root fetch - processPackages [jinaai-api-schemas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jinaai_api_schemas-0.0.8.tar.gz tmp/jinaai_api_schemas-0.0.9.tar.gz --markdown 20240528/j/jinaai-api-schemas/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-28 12:54:45] INFO root fetch - processPackages [ess-streaming-data-types]: executing diffoscope
+[2024-05-28 12:54:45] INFO root fetch - processPackages [ess-streaming-data-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ess_streaming_data_types-0.9.5.tar.gz tmp/ess_streaming_data_types-0.9.6.tar.gz --markdown 20240528/e/ess-streaming-data-types/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-05-28 12:54:45] INFO root fetch - processPackages [rtc-tools-interface]: Downloading https://files.pythonhosted.org/packages/60/b9/b9f115b4a78c1e2b0e5af89febaaa66fe3b3114a7bc09d7ebed10b1c3cd7/rtc-tools-interface-0.8.0b2.tar.gz
+[2024-05-28 12:54:46] INFO root fetch - processPackages [yc-aws-wrapper]: Downloading https://files.pythonhosted.org/packages/fa/0b/a1661d2d73abd6979932ff8cfbf981091505641d778908be9708c68ecfa4/yc_aws_wrapper-0.0.3.tar.gz
+[2024-05-28 12:54:46] INFO root fetch - processPackages [rtc-tools-interface]: executing diffoscope
+[2024-05-28 12:54:46] INFO root fetch - processPackages [rtc-tools-interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rtc-tools-interface-0.8.0b1.tar.gz tmp/rtc-tools-interface-0.8.0b2.tar.gz --markdown 20240528/r/rtc-tools-interface/0.8.0b1-0.8.0b2/README.md --exclude *.pyd
+[2024-05-28 12:54:46] INFO root fetch - processPackages [yc-aws-wrapper]: executing diffoscope
+[2024-05-28 12:54:46] INFO root fetch - processPackages [yc-aws-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yc_aws_wrapper-0.0.2.tar.gz tmp/yc_aws_wrapper-0.0.3.tar.gz --markdown 20240528/y/yc-aws-wrapper/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-28 12:54:46] INFO root fetch - processPackages [jinaai-api-schemas]: Remove: archive file [/home/abi/fetcher/tmp/jinaai_api_schemas-0.0.8.tar.gz]
+[2024-05-28 12:54:46] INFO root fetch - processPackages [jinaai-api-schemas]: Remove: archive file [/home/abi/fetcher/tmp/jinaai_api_schemas-0.0.9.tar.gz]
+[2024-05-28 12:54:46] INFO root fetch - main [MainThread]: End processing [jinaai-api-schemas]: success
+[2024-05-28 12:54:46] INFO root fetch - processPackages [ess-streaming-data-types]: Remove: archive file [/home/abi/fetcher/tmp/ess_streaming_data_types-0.9.5.tar.gz]
+[2024-05-28 12:54:46] INFO root fetch - processPackages [ess-streaming-data-types]: Remove: archive file [/home/abi/fetcher/tmp/ess_streaming_data_types-0.9.6.tar.gz]
+[2024-05-28 12:54:46] INFO root fetch - main [MainThread]: End processing [ess-streaming-data-types]: success
+[2024-05-28 12:54:46] INFO root fetch - processPackages [rtc-tools-interface]: Remove: archive file [/home/abi/fetcher/tmp/rtc-tools-interface-0.8.0b1.tar.gz]
+[2024-05-28 12:54:46] INFO root fetch - processPackages [rtc-tools-interface]: Remove: archive file [/home/abi/fetcher/tmp/rtc-tools-interface-0.8.0b2.tar.gz]
+[2024-05-28 12:54:46] INFO root fetch - main [MainThread]: End processing [rtc-tools-interface]: success
+[2024-05-28 12:54:46] INFO root fetch - processPackages [yc-aws-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/yc_aws_wrapper-0.0.2.tar.gz]
+[2024-05-28 12:54:46] INFO root fetch - processPackages [yc-aws-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/yc_aws_wrapper-0.0.3.tar.gz]
+[2024-05-28 12:54:46] INFO root fetch - main [MainThread]: End processing [yc-aws-wrapper]: success
+[2024-05-28 12:54:46] INFO root fetch - main [MainThread]: Store serial: [23409847]
