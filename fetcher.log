@@ -3797,3 +3797,42 @@
 [2024-05-28 04:24:18] INFO root fetch - processPackages [pyuptech]: Remove: archive file [/home/abi/fetcher/tmp/pyuptech-0.1.6.4.tar.gz]
 [2024-05-28 04:24:18] INFO root fetch - main [MainThread]: End processing [pyuptech]: success
 [2024-05-28 04:24:18] INFO root fetch - main [MainThread]: Store serial: [23404359]
+[2024-05-28 04:26:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23404359]
+[2024-05-28 04:26:27] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-28 04:26:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: localstack-core
+[2024-05-28 04:26:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyQuantKit
+[2024-05-28 04:26:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iam-actions
+[2024-05-28 04:26:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: naif-eop-high-prec
+[2024-05-28 04:26:27] INFO root fetch - processPackages [naif-eop-high-prec]: New version: [2024.5.27] Old Version: [2024.5.26]
+[2024-05-28 04:26:27] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20240527] Old Version: [1.2.20240526]
+[2024-05-28 04:26:27] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/16/30/31d204fe6aed2af5e564e4ec9acfe2c61b9818e60b83bc8865f63fa6a1e2/naif_eop_high_prec-2024.5.26.tar.gz
+[2024-05-28 04:26:27] INFO root fetch - processPackages [PyQuantKit]: New version: [0.3.0] Old Version: [0.2.2.post6]
+[2024-05-28 04:26:27] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/ac/49/c7dfb26b6705b5e09f09ea45558602cd0439512b813f7f4bb42379a25363/iam_actions-1.2.20240526.tar.gz
+[2024-05-28 04:26:27] INFO root fetch - processPackages [localstack-core]: New version: [3.4.1.dev20240528022512] Old Version: [3.4.1.dev20240527173818]
+[2024-05-28 04:26:27] INFO root fetch - processPackages [PyQuantKit]: Downloading https://files.pythonhosted.org/packages/42/35/0ece8b3196118e635428e04c2a752c72ac6f3b20f2bf107331d4d20fb735/PyQuantKit-0.2.2.post6.tar.gz
+[2024-05-28 04:26:27] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/17/11/c2fc6a15e59f6946461bd2b57e18522429f4e8bec71c7b6ae9757cca61f1/localstack_core-3.4.1.dev20240527173818.tar.gz
+[2024-05-28 04:26:27] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/44/db/7a03165942234b61e2386280bc8ea6685a83c5bda5450085112bdc5db29f/iam_actions-1.2.20240527.tar.gz
+[2024-05-28 04:26:27] INFO root fetch - processPackages [PyQuantKit]: Downloading https://files.pythonhosted.org/packages/99/3a/b20252c475627fc96cd8af7c6444e959a7899e81bb3ff1be3db52976ac2e/pyquantkit-0.3.0.tar.gz
+[2024-05-28 04:26:27] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/69/e2/53caf20f93bc8cbc57fd335a175e2bba24457513bf07628f21836da6ca02/naif_eop_high_prec-2024.5.27.tar.gz
+[2024-05-28 04:26:28] INFO root fetch - processPackages [PyQuantKit]: executing diffoscope
+[2024-05-28 04:26:28] INFO root fetch - processPackages [PyQuantKit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQuantKit-0.2.2.post6.tar.gz tmp/pyquantkit-0.3.0.tar.gz --markdown 20240528/P/PyQuantKit/0.2.2.post6-0.3.0/README.md --exclude *.pyd
+[2024-05-28 04:26:28] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2024-05-28 04:26:28] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20240526.tar.gz tmp/iam_actions-1.2.20240527.tar.gz --markdown 20240528/i/iam-actions/1.2.20240526-1.2.20240527/README.md --exclude *.pyd
+[2024-05-28 04:26:28] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/36/c8/1b145b292664a1a4c418514fe95984a3909223e12e9ebbc2d3680d77a1b2/localstack_core-3.4.1.dev20240528022512.tar.gz
+[2024-05-28 04:26:28] INFO root fetch - processPackages [naif-eop-high-prec]: executing diffoscope
+[2024-05-28 04:26:28] INFO root fetch - processPackages [naif-eop-high-prec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naif_eop_high_prec-2024.5.26.tar.gz tmp/naif_eop_high_prec-2024.5.27.tar.gz --markdown 20240528/n/naif-eop-high-prec/2024.5.26-2024.5.27/README.md --exclude *.pyd
+[2024-05-28 04:26:28] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-05-28 04:26:28] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack_core-3.4.1.dev20240527173818.tar.gz tmp/localstack_core-3.4.1.dev20240528022512.tar.gz --markdown 20240528/l/localstack-core/3.4.1.dev20240527173818-3.4.1.dev20240528022512/README.md --exclude *.pyd
+[2024-05-28 04:26:28] INFO root fetch - processPackages [PyQuantKit]: Remove: archive file [/home/abi/fetcher/tmp/PyQuantKit-0.2.2.post6.tar.gz]
+[2024-05-28 04:26:28] INFO root fetch - processPackages [PyQuantKit]: Remove: archive file [/home/abi/fetcher/tmp/pyquantkit-0.3.0.tar.gz]
+[2024-05-28 04:26:28] INFO root fetch - main [MainThread]: End processing [PyQuantKit]: success
+[2024-05-28 04:26:29] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240526.tar.gz]
+[2024-05-28 04:26:29] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240527.tar.gz]
+[2024-05-28 04:26:29] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2024-05-28 04:26:32] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2024.5.26.tar.gz]
+[2024-05-28 04:26:32] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2024.5.27.tar.gz]
+[2024-05-28 04:26:32] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
+[2024-05-28 04:26:32] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240527173818.tar.gz]
+[2024-05-28 04:26:32] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240528022512.tar.gz]
+[2024-05-28 04:26:32] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-05-28 04:26:32] INFO root fetch - main [MainThread]: Store serial: [23404372]
