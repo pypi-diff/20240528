@@ -19476,3 +19476,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 14:46:14] INFO root fetch - processPackages [catalystwan]: Remove: archive file [/home/abi/fetcher/tmp/catalystwan-0.33.7.dev2.tar.gz]
 [2024-05-28 14:46:14] INFO root fetch - main [MainThread]: End processing [catalystwan]: success
 [2024-05-28 14:46:14] INFO root fetch - main [MainThread]: Store serial: [23411252]
+[2024-05-28 14:48:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23411252]
+[2024-05-28 14:48:23] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-28 14:48:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: popoll-backend
+[2024-05-28 14:48:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datastew
+[2024-05-28 14:48:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dooc
+[2024-05-28 14:48:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: facebook-simple-scraper
+[2024-05-28 14:48:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: metaphor-connectors
+[2024-05-28 14:48:23] INFO root fetch - processPackages [facebook-simple-scraper]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-28 14:48:23] INFO root fetch - processPackages [popoll-backend]: New version: [0.0.58] Old Version: [0.0.57]
+[2024-05-28 14:48:23] INFO root fetch - processPackages [facebook-simple-scraper]: Downloading https://files.pythonhosted.org/packages/da/8c/d0df6d71b258200b846712e6101dfc5247c5c85019b34974513dbc86382f/facebook_simple_scraper-0.1.1.tar.gz
+[2024-05-28 14:48:23] INFO root fetch - processPackages [popoll-backend]: Downloading https://files.pythonhosted.org/packages/96/06/04f6d9dd4ef03b8f574a3dbdfb58f371d34cd6df3caf3e35011694f242ec/popoll_backend-0.0.57.tar.gz
+[2024-05-28 14:48:23] INFO root fetch - processPackages [dooc]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-28 14:48:23] INFO root fetch - processPackages [datastew]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-28 14:48:23] INFO root fetch - processPackages [metaphor-connectors]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-05-28 14:48:23] INFO root fetch - processPackages [datastew]: Downloading https://files.pythonhosted.org/packages/31/b2/82aa06083b038ecee64199933a3a73d6158583fbbe05741d8523cb7bd91a/datastew-0.1.0.tar.gz
+[2024-05-28 14:48:23] INFO root fetch - processPackages [popoll-backend]: Downloading https://files.pythonhosted.org/packages/ae/02/044f0b384e91cdc9ce1245196f2132ef9027bf57b71476f7bef6cb9e7115/popoll_backend-0.0.58.tar.gz
+[2024-05-28 14:48:23] INFO root fetch - processPackages [dooc]: Downloading https://files.pythonhosted.org/packages/dc/b9/42ba1f666c197cfb8a3e9da4bc498049ea1a2a5360978160be64dd990e69/dooc-0.0.1.tar.gz
+[2024-05-28 14:48:23] INFO root fetch - processPackages [metaphor-connectors]: Downloading https://files.pythonhosted.org/packages/92/c2/f775488949e85740917971e97fbd1e7187de61421ac7fbbc9d5485275473/metaphor-connectors-0.9.3.tar.gz
+[2024-05-28 14:48:23] INFO root fetch - processPackages [facebook-simple-scraper]: Downloading https://files.pythonhosted.org/packages/fa/f7/076659916b9338d0ba726714e8ac4cb6deb91466c9071cedf1ac85b0e4e8/facebook_simple_scraper-0.1.2.tar.gz
+[2024-05-28 14:48:23] INFO root fetch - processPackages [popoll-backend]: executing diffoscope
+[2024-05-28 14:48:23] INFO root fetch - processPackages [popoll-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/popoll_backend-0.0.57.tar.gz tmp/popoll_backend-0.0.58.tar.gz --markdown 20240528/p/popoll-backend/0.0.57-0.0.58/README.md --exclude *.pyd
+[2024-05-28 14:48:24] INFO root fetch - processPackages [facebook-simple-scraper]: executing diffoscope
+[2024-05-28 14:48:24] INFO root fetch - processPackages [facebook-simple-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/facebook_simple_scraper-0.1.1.tar.gz tmp/facebook_simple_scraper-0.1.2.tar.gz --markdown 20240528/f/facebook-simple-scraper/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-28 14:48:24] INFO root fetch - processPackages [datastew]: Downloading https://files.pythonhosted.org/packages/19/11/d3c847e0804fc7c2b789e1b5b099967c45e151a4b13ac0711126f5b4e951/datastew-0.1.1.tar.gz
+[2024-05-28 14:48:24] INFO root fetch - processPackages [datastew]: executing diffoscope
+[2024-05-28 14:48:24] INFO root fetch - processPackages [datastew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datastew-0.1.0.tar.gz tmp/datastew-0.1.1.tar.gz --markdown 20240528/d/datastew/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-28 14:48:24] INFO root fetch - processPackages [dooc]: Downloading https://files.pythonhosted.org/packages/39/22/ab489a2776ad7d4a0a31fec64631296a2d9ba3df2adc80a83b237cfcc1f8/dooc-0.0.2.tar.gz
+[2024-05-28 14:48:24] INFO root fetch - processPackages [metaphor-connectors]: Downloading https://files.pythonhosted.org/packages/7e/f3/fd51e0c2498f7340487d8eba1ee24a716e8056cce2a496a20f5da0cc11de/metaphor-connectors-0.9.4.tar.gz
+[2024-05-28 14:48:24] INFO root fetch - processPackages [dooc]: executing diffoscope
+[2024-05-28 14:48:24] INFO root fetch - processPackages [dooc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dooc-0.0.1.tar.gz tmp/dooc-0.0.2.tar.gz --markdown 20240528/d/dooc/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-28 14:48:24] INFO root fetch - processPackages [metaphor-connectors]: executing diffoscope
+[2024-05-28 14:48:24] INFO root fetch - processPackages [metaphor-connectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaphor-connectors-0.9.3.tar.gz tmp/metaphor-connectors-0.9.4.tar.gz --markdown 20240528/m/metaphor-connectors/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-05-28 14:48:24] INFO root fetch - processPackages [facebook-simple-scraper]: Remove: archive file [/home/abi/fetcher/tmp/facebook_simple_scraper-0.1.1.tar.gz]
+[2024-05-28 14:48:24] INFO root fetch - processPackages [facebook-simple-scraper]: Remove: archive file [/home/abi/fetcher/tmp/facebook_simple_scraper-0.1.2.tar.gz]
+[2024-05-28 14:48:24] INFO root fetch - main [MainThread]: End processing [facebook-simple-scraper]: success
+[2024-05-28 14:48:24] INFO root fetch - processPackages [datastew]: Remove: archive file [/home/abi/fetcher/tmp/datastew-0.1.0.tar.gz]
+[2024-05-28 14:48:24] INFO root fetch - processPackages [datastew]: Remove: archive file [/home/abi/fetcher/tmp/datastew-0.1.1.tar.gz]
+[2024-05-28 14:48:24] INFO root fetch - main [MainThread]: End processing [datastew]: success
+[2024-05-28 14:48:24] INFO root fetch - processPackages [popoll-backend]: Remove: archive file [/home/abi/fetcher/tmp/popoll_backend-0.0.57.tar.gz]
+[2024-05-28 14:48:24] INFO root fetch - processPackages [popoll-backend]: Remove: archive file [/home/abi/fetcher/tmp/popoll_backend-0.0.58.tar.gz]
+[2024-05-28 14:48:24] INFO root fetch - main [MainThread]: End processing [popoll-backend]: success
+[2024-05-28 14:48:25] INFO root fetch - processPackages [dooc]: Remove: archive file [/home/abi/fetcher/tmp/dooc-0.0.1.tar.gz]
+[2024-05-28 14:48:25] INFO root fetch - processPackages [dooc]: Remove: archive file [/home/abi/fetcher/tmp/dooc-0.0.2.tar.gz]
+[2024-05-28 14:48:25] INFO root fetch - main [MainThread]: End processing [dooc]: success
+[2024-05-28 14:48:25] INFO root fetch - processPackages [metaphor-connectors]: Remove: archive file [/home/abi/fetcher/tmp/metaphor-connectors-0.9.3.tar.gz]
+[2024-05-28 14:48:25] INFO root fetch - processPackages [metaphor-connectors]: Remove: archive file [/home/abi/fetcher/tmp/metaphor-connectors-0.9.4.tar.gz]
+[2024-05-28 14:48:25] INFO root fetch - main [MainThread]: End processing [metaphor-connectors]: success
+[2024-05-28 14:48:25] INFO root fetch - main [MainThread]: Store serial: [23411271]
