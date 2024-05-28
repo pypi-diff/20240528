@@ -6011,3 +6011,74 @@
 [2024-05-28 07:02:46] ERROR root fetch - processPackages [oci-cli]: Timeout during execution of pkgdiff
 [2024-05-28 07:02:46] INFO root fetch - main [MainThread]: End processing [oci-cli] error
 [2024-05-28 07:02:46] INFO root fetch - main [MainThread]: Store serial: [23405195]
+[2024-05-28 07:04:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23405195]
+[2024-05-28 07:04:55] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-28 07:04:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: asciiscape
+[2024-05-28 07:04:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: AutoRAG
+[2024-05-28 07:04:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nanababa
+[2024-05-28 07:04:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pydistcheck
+[2024-05-28 07:04:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: braintrust-core
+[2024-05-28 07:04:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: megfile
+[2024-05-28 07:04:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gpflib
+[2024-05-28 07:04:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: finter
+[2024-05-28 07:04:55] INFO root fetch - processPackages [asciiscape]: New version: [0.1.6.1] Old Version: [0.1.6]
+[2024-05-28 07:04:55] INFO root fetch - processPackages [finter]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-28 07:04:55] INFO root fetch - processPackages [megfile]: New version: [3.0.4] Old Version: [3.0.3]
+[2024-05-28 07:04:55] INFO root fetch - processPackages [nanababa]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-28 07:04:55] INFO root fetch - processPackages [AutoRAG]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-28 07:04:55] INFO root fetch - processPackages [gpflib]: New version: [1.1.8] Old Version: [1.1.7]
+[2024-05-28 07:04:55] INFO root fetch - processPackages [asciiscape]: Downloading https://files.pythonhosted.org/packages/51/97/3bffb15f6b207846d860854bd41bda8c2cf081ac4bbc49cc64930e679c7a/asciiscape-0.1.6.tar.gz
+[2024-05-28 07:04:55] INFO root fetch - processPackages [braintrust-core]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-28 07:04:55] INFO root fetch - processPackages [nanababa]: Downloading https://files.pythonhosted.org/packages/ec/41/9f8a5e3599935ef5082b881a2a689aec6e65e8ceb6135d49b9989b4864db/nanababa-0.1.2.tar.gz
+[2024-05-28 07:04:55] INFO root fetch - processPackages [pydistcheck]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-05-28 07:04:55] INFO root fetch - processPackages [finter]: Downloading https://files.pythonhosted.org/packages/a5/42/62839a9d04ec1ea057f46ba770914804c9ca13fe76705b86c9503ceb5efd/finter-0.2.8-py3-none-any.whl
+[2024-05-28 07:04:55] INFO root fetch - processPackages [megfile]: Downloading https://files.pythonhosted.org/packages/8d/96/3231582759df0ef6b318ab65cf43c25677a48d158e8e2828093c4aed8a46/megfile-3.0.3-py3-none-any.whl
+[2024-05-28 07:04:55] INFO root fetch - processPackages [AutoRAG]: Downloading https://files.pythonhosted.org/packages/ce/05/41d1c9b90d46bffbf6ea6012ab782f1e6418d24d266682169de2eb2504dc/autorag-0.2.0.tar.gz
+[2024-05-28 07:04:55] INFO root fetch - processPackages [gpflib]: Downloading https://files.pythonhosted.org/packages/4b/d5/38b1c9277b1ebea3f7c7e9094d59b043b805859223c9731c55db6135dce8/gpflib-1.1.7.tar.gz
+[2024-05-28 07:04:55] INFO root fetch - processPackages [braintrust-core]: Downloading https://files.pythonhosted.org/packages/ff/37/978bc9c503a203400e89961c4fe3fad4d2d00ecc963406b52778333a4575/braintrust_core-0.0.8.tar.gz
+[2024-05-28 07:04:55] INFO root fetch - processPackages [pydistcheck]: Downloading https://files.pythonhosted.org/packages/35/98/6a7e1ba1a688d482b08d5b5634e94fddcb643b16a2019e28dce78e0ffb6b/pydistcheck-0.6.0.tar.gz
+[2024-05-28 07:04:55] INFO root fetch - processPackages [asciiscape]: Downloading https://files.pythonhosted.org/packages/a9/4b/73fcd2acda98f2bba2e6a62e196f4f8d9ae506968faa9441980ca054495a/asciiscape-0.1.6.1.tar.gz
+[2024-05-28 07:04:55] INFO root fetch - processPackages [nanababa]: Downloading https://files.pythonhosted.org/packages/82/02/b6d34989baf9d81e5610399a3c50e828106ed5c78d39fc44e58e741d2492/nanababa-0.1.3-py3-none-any.whl
+[2024-05-28 07:04:56] INFO root fetch - processPackages [asciiscape]: executing diffoscope
+[2024-05-28 07:04:56] INFO root fetch - processPackages [asciiscape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asciiscape-0.1.6.tar.gz tmp/asciiscape-0.1.6.1.tar.gz --markdown 20240528/a/asciiscape/0.1.6-0.1.6.1/README.md --exclude *.pyd
+[2024-05-28 07:04:56] INFO root fetch - processPackages [finter]: Downloading https://files.pythonhosted.org/packages/4f/d0/2e1ef5832dd6cbc5f4d24de1b60ad8f90066391220d8d6ebdc279ae3fffd/finter-0.2.9-py3-none-any.whl
+[2024-05-28 07:04:56] INFO root fetch - processPackages [nanababa]: executing diffoscope
+[2024-05-28 07:04:56] INFO root fetch - processPackages [nanababa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanababa-0.1.2.tar.gz tmp/nanababa-0.1.3-py3-none-any.whl.zip --markdown 20240528/n/nanababa/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-28 07:04:56] INFO root fetch - processPackages [megfile]: Downloading https://files.pythonhosted.org/packages/42/67/234478bc56115e56a5154d8747938345ddd9aef67577720819eb04bf77e2/megfile-3.0.4-py3-none-any.whl
+[2024-05-28 07:04:56] WARNING root fetch - processPackages [gpflib]: Skipping package: exceeds size limit 25115236>=10485760
+[2024-05-28 07:04:56] INFO root fetch - main [MainThread]: End processing [gpflib] error
+[2024-05-28 07:04:56] INFO root fetch - processPackages [braintrust-core]: Downloading https://files.pythonhosted.org/packages/6c/ff/62363cc1fd6c0160a7e4906e275dd0782bf057905883983e6bd53dd285e3/braintrust_core-0.0.9.tar.gz
+[2024-05-28 07:04:56] INFO root fetch - processPackages [pydistcheck]: Downloading https://files.pythonhosted.org/packages/17/93/0b12c61a86910f91c85d40a4f90d4b48ef53c183350411baf134a30a637c/pydistcheck-0.7.0.tar.gz
+[2024-05-28 07:04:56] INFO root fetch - processPackages [finter]: executing diffoscope
+[2024-05-28 07:04:56] INFO root fetch - processPackages [finter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finter-0.2.8-py3-none-any.whl.zip tmp/finter-0.2.9-py3-none-any.whl.zip --markdown 20240528/f/finter/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-28 07:04:56] INFO root fetch - processPackages [megfile]: executing diffoscope
+[2024-05-28 07:04:56] INFO root fetch - processPackages [megfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/megfile-3.0.3-py3-none-any.whl.zip tmp/megfile-3.0.4-py3-none-any.whl.zip --markdown 20240528/m/megfile/3.0.3-3.0.4/README.md --exclude *.pyd
+[2024-05-28 07:04:56] INFO root fetch - processPackages [braintrust-core]: executing diffoscope
+[2024-05-28 07:04:56] INFO root fetch - processPackages [braintrust-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/braintrust_core-0.0.8.tar.gz tmp/braintrust_core-0.0.9.tar.gz --markdown 20240528/b/braintrust-core/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-28 07:04:56] INFO root fetch - processPackages [pydistcheck]: executing diffoscope
+[2024-05-28 07:04:56] INFO root fetch - processPackages [pydistcheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydistcheck-0.6.0.tar.gz tmp/pydistcheck-0.7.0.tar.gz --markdown 20240528/p/pydistcheck/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-05-28 07:04:56] INFO root fetch - processPackages [AutoRAG]: Downloading https://files.pythonhosted.org/packages/35/83/8df157c955120121d09da84bab72c04c77bd278ee6586d29f3a4b1103f9a/autorag-0.2.1.tar.gz
+[2024-05-28 07:04:56] INFO root fetch - processPackages [nanababa]: Remove: archive file [/home/abi/fetcher/tmp/nanababa-0.1.2.tar.gz]
+[2024-05-28 07:04:56] INFO root fetch - processPackages [nanababa]: Remove: archive file [/home/abi/fetcher/tmp/nanababa-0.1.3-py3-none-any.whl.zip]
+[2024-05-28 07:04:56] INFO root fetch - main [MainThread]: End processing [nanababa]: success
+[2024-05-28 07:04:56] INFO root fetch - processPackages [asciiscape]: Remove: archive file [/home/abi/fetcher/tmp/asciiscape-0.1.6.tar.gz]
+[2024-05-28 07:04:56] INFO root fetch - processPackages [asciiscape]: Remove: archive file [/home/abi/fetcher/tmp/asciiscape-0.1.6.1.tar.gz]
+[2024-05-28 07:04:56] INFO root fetch - main [MainThread]: End processing [asciiscape]: success
+[2024-05-28 07:04:56] INFO root fetch - processPackages [AutoRAG]: executing diffoscope
+[2024-05-28 07:04:56] INFO root fetch - processPackages [AutoRAG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autorag-0.2.0.tar.gz tmp/autorag-0.2.1.tar.gz --markdown 20240528/A/AutoRAG/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-28 07:04:56] INFO root fetch - processPackages [braintrust-core]: Remove: archive file [/home/abi/fetcher/tmp/braintrust_core-0.0.8.tar.gz]
+[2024-05-28 07:04:56] INFO root fetch - processPackages [braintrust-core]: Remove: archive file [/home/abi/fetcher/tmp/braintrust_core-0.0.9.tar.gz]
+[2024-05-28 07:04:56] INFO root fetch - main [MainThread]: End processing [braintrust-core]: success
+[2024-05-28 07:04:57] INFO root fetch - processPackages [megfile]: Remove: archive file [/home/abi/fetcher/tmp/megfile-3.0.3-py3-none-any.whl.zip]
+[2024-05-28 07:04:57] INFO root fetch - processPackages [megfile]: Remove: archive file [/home/abi/fetcher/tmp/megfile-3.0.4-py3-none-any.whl.zip]
+[2024-05-28 07:04:57] INFO root fetch - main [MainThread]: End processing [megfile]: success
+[2024-05-28 07:04:57] INFO root fetch - processPackages [pydistcheck]: Remove: archive file [/home/abi/fetcher/tmp/pydistcheck-0.6.0.tar.gz]
+[2024-05-28 07:04:57] INFO root fetch - processPackages [pydistcheck]: Remove: archive file [/home/abi/fetcher/tmp/pydistcheck-0.7.0.tar.gz]
+[2024-05-28 07:04:57] INFO root fetch - main [MainThread]: End processing [pydistcheck]: success
+[2024-05-28 07:04:57] INFO root fetch - processPackages [finter]: Remove: archive file [/home/abi/fetcher/tmp/finter-0.2.8-py3-none-any.whl.zip]
+[2024-05-28 07:04:57] INFO root fetch - processPackages [finter]: Remove: archive file [/home/abi/fetcher/tmp/finter-0.2.9-py3-none-any.whl.zip]
+[2024-05-28 07:04:57] INFO root fetch - main [MainThread]: End processing [finter]: success
+[2024-05-28 07:04:59] INFO root fetch - processPackages [AutoRAG]: Remove: archive file [/home/abi/fetcher/tmp/autorag-0.2.0.tar.gz]
+[2024-05-28 07:04:59] INFO root fetch - processPackages [AutoRAG]: Remove: archive file [/home/abi/fetcher/tmp/autorag-0.2.1.tar.gz]
+[2024-05-28 07:04:59] INFO root fetch - main [MainThread]: End processing [AutoRAG]: success
+[2024-05-28 07:04:59] INFO root fetch - main [MainThread]: Store serial: [23405221]
