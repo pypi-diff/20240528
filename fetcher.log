@@ -9236,3 +9236,30 @@
 [2024-05-28 08:43:22] INFO root fetch - processPackages [apex-flow]: Remove: archive file [/home/abi/fetcher/tmp/apex_flow-1.2.3.tar.gz]
 [2024-05-28 08:43:22] INFO root fetch - main [MainThread]: End processing [apex-flow]: success
 [2024-05-28 08:43:22] INFO root fetch - main [MainThread]: Store serial: [23406688]
+[2024-05-28 08:45:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23406688]
+[2024-05-28 08:45:30] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-28 08:47:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23406689]
+[2024-05-28 08:47:36] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-28 08:47:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pipefunc
+[2024-05-28 08:47:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stocknotebridgenew
+[2024-05-28 08:47:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: KeyboardPaster
+[2024-05-28 08:47:36] INFO root fetch - processPackages [stocknotebridgenew]: New version: [4.0.7] Old Version: [4.0.6]
+[2024-05-28 08:47:36] INFO root fetch - processPackages [KeyboardPaster]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-28 08:47:36] INFO root fetch - processPackages [pipefunc]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-28 08:47:36] ERROR root fetch - processPackages [stocknotebridgenew]: Unable to fetch info: No such project/version 'stocknotebridgenew' 4.0.6
+[2024-05-28 08:47:36] INFO root fetch - main [MainThread]: End processing [stocknotebridgenew] error
+[2024-05-28 08:47:36] INFO root fetch - processPackages [KeyboardPaster]: Downloading https://files.pythonhosted.org/packages/11/37/c6391593faca7efd3a20cda2799dad473f0ee1adfb344b6da6a3b6de750f/KeyboardPaster-0.1.5.tar.gz
+[2024-05-28 08:47:36] INFO root fetch - processPackages [pipefunc]: Downloading https://files.pythonhosted.org/packages/dc/02/cad08264252c99297e7606a3d50072402181d2595f9168f47de19f42103c/pipefunc-0.8.0.tar.gz
+[2024-05-28 08:47:36] INFO root fetch - processPackages [KeyboardPaster]: Downloading https://files.pythonhosted.org/packages/83/22/4e1318c530e9ba1e3c4da4c2f23ef198afbaae521ea9f6a33d03a7b3bd63/KeyboardPaster-0.1.6.tar.gz
+[2024-05-28 08:47:36] INFO root fetch - processPackages [pipefunc]: Downloading https://files.pythonhosted.org/packages/d6/d8/c97abd147aa742f65e1eb6988f074ead5449a683baa09e792bf27505efed/pipefunc-0.9.0.tar.gz
+[2024-05-28 08:47:36] INFO root fetch - processPackages [KeyboardPaster]: executing diffoscope
+[2024-05-28 08:47:36] INFO root fetch - processPackages [KeyboardPaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KeyboardPaster-0.1.5.tar.gz tmp/KeyboardPaster-0.1.6.tar.gz --markdown 20240528/K/KeyboardPaster/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-28 08:47:36] INFO root fetch - processPackages [pipefunc]: executing diffoscope
+[2024-05-28 08:47:36] INFO root fetch - processPackages [pipefunc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipefunc-0.8.0.tar.gz tmp/pipefunc-0.9.0.tar.gz --markdown 20240528/p/pipefunc/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-28 08:47:37] INFO root fetch - processPackages [KeyboardPaster]: Remove: archive file [/home/abi/fetcher/tmp/KeyboardPaster-0.1.5.tar.gz]
+[2024-05-28 08:47:37] INFO root fetch - processPackages [KeyboardPaster]: Remove: archive file [/home/abi/fetcher/tmp/KeyboardPaster-0.1.6.tar.gz]
+[2024-05-28 08:47:37] INFO root fetch - main [MainThread]: End processing [KeyboardPaster]: success
+[2024-05-28 08:47:37] INFO root fetch - processPackages [pipefunc]: Remove: archive file [/home/abi/fetcher/tmp/pipefunc-0.8.0.tar.gz]
+[2024-05-28 08:47:37] INFO root fetch - processPackages [pipefunc]: Remove: archive file [/home/abi/fetcher/tmp/pipefunc-0.9.0.tar.gz]
+[2024-05-28 08:47:37] INFO root fetch - main [MainThread]: End processing [pipefunc]: success
+[2024-05-28 08:47:37] INFO root fetch - main [MainThread]: Store serial: [23406700]
