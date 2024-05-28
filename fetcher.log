@@ -12837,3 +12837,54 @@
 [2024-05-28 10:50:45] INFO root fetch - processPackages [pami]: Remove: archive file [/home/abi/fetcher/tmp/pami-2024.5.7.1.tar.gz]
 [2024-05-28 10:50:45] INFO root fetch - main [MainThread]: End processing [pami]: success
 [2024-05-28 10:50:45] INFO root fetch - main [MainThread]: Store serial: [23408346]
+[2024-05-28 10:52:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23408346]
+[2024-05-28 10:52:54] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-28 10:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: synct
+[2024-05-28 10:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hermitage-alchemy
+[2024-05-28 10:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tha
+[2024-05-28 10:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyDicomGrouping-Linux
+[2024-05-28 10:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yandexcloud
+[2024-05-28 10:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: opentf-tools-nightly
+[2024-05-28 10:52:55] INFO root fetch - processPackages [hermitage-alchemy]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-28 10:52:55] INFO root fetch - processPackages [opentf-tools-nightly]: New version: [0.47.0.dev749] Old Version: [0.47.0.dev746]
+[2024-05-28 10:52:55] INFO root fetch - processPackages [tha]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-28 10:52:55] INFO root fetch - processPackages [hermitage-alchemy]: Downloading https://files.pythonhosted.org/packages/08/52/4cb14a5ff6f5ee0143e8c246eb6bc8fcdc434bb6b00c1462dd81b14d4ce9/hermitage_alchemy-0.2.4.tar.gz
+[2024-05-28 10:52:55] WARNING root fetch - processPackages [PyDicomGrouping-Linux]: Skipping, unable to determine old version
+[2024-05-28 10:52:55] INFO root fetch - main [MainThread]: End processing [PyDicomGrouping-Linux] error
+[2024-05-28 10:52:55] INFO root fetch - processPackages [opentf-tools-nightly]: Downloading https://files.pythonhosted.org/packages/ab/26/6173846e873e8c4ed4799f0ace55552f0ad3d81291d7f4a07de718cd469e/opentf_tools_nightly-0.47.0.dev746-py3-none-any.whl
+[2024-05-28 10:52:55] INFO root fetch - processPackages [synct]: New version: [1.6.0] Old Version: [1.5.3]
+[2024-05-28 10:52:55] INFO root fetch - processPackages [tha]: Downloading https://files.pythonhosted.org/packages/1b/00/2538b4c3b5a9a585b4391bc67546a720e78f8e7e64d44ee63eb419527351/tha-0.1.1.tar.gz
+[2024-05-28 10:52:55] INFO root fetch - processPackages [yandexcloud]: New version: [0.99.0] Old Version: [0.98.0]
+[2024-05-28 10:52:55] INFO root fetch - processPackages [opentf-tools-nightly]: Downloading https://files.pythonhosted.org/packages/e8/af/33ae5200073f5cef2783d9bf1435462b397a180500a762ce216e74b6067f/opentf_tools_nightly-0.47.0.dev749-py3-none-any.whl
+[2024-05-28 10:52:55] INFO root fetch - processPackages [synct]: Downloading https://files.pythonhosted.org/packages/e3/69/6f9484b00fc41e9f8b453238cc6343bf5bada8be033bc57fc10c5ae0c65c/synct-1.5.3.tar.gz
+[2024-05-28 10:52:55] INFO root fetch - processPackages [yandexcloud]: Downloading https://files.pythonhosted.org/packages/76/3b/1649bfb2078286e8152c6e1bba2e34340ec1d2135c6ede304fed08ff6f42/yandexcloud-0.98.0.tar.gz
+[2024-05-28 10:52:55] INFO root fetch - processPackages [hermitage-alchemy]: Downloading https://files.pythonhosted.org/packages/42/f4/53a3aea9945776a37c36684a5378a9fddf5924d9a697abc7fe4e4f395f76/hermitage_alchemy-0.2.5.tar.gz
+[2024-05-28 10:52:55] INFO root fetch - processPackages [tha]: Downloading https://files.pythonhosted.org/packages/ca/0c/db7ed9fb0690d9f2686ea20038f342d803289d1c09015582ebfa06014520/tha-0.1.2.tar.gz
+[2024-05-28 10:52:55] INFO root fetch - processPackages [opentf-tools-nightly]: executing diffoscope
+[2024-05-28 10:52:55] INFO root fetch - processPackages [opentf-tools-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentf_tools_nightly-0.47.0.dev746-py3-none-any.whl.zip tmp/opentf_tools_nightly-0.47.0.dev749-py3-none-any.whl.zip --markdown 20240528/o/opentf-tools-nightly/0.47.0.dev746-0.47.0.dev749/README.md --exclude *.pyd
+[2024-05-28 10:52:55] INFO root fetch - processPackages [hermitage-alchemy]: executing diffoscope
+[2024-05-28 10:52:55] INFO root fetch - processPackages [hermitage-alchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hermitage_alchemy-0.2.4.tar.gz tmp/hermitage_alchemy-0.2.5.tar.gz --markdown 20240528/h/hermitage-alchemy/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-28 10:52:55] INFO root fetch - processPackages [tha]: executing diffoscope
+[2024-05-28 10:52:55] INFO root fetch - processPackages [tha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tha-0.1.1.tar.gz tmp/tha-0.1.2.tar.gz --markdown 20240528/t/tha/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-28 10:52:55] INFO root fetch - processPackages [synct]: Downloading https://files.pythonhosted.org/packages/8a/ee/9c6dfbd40642ff8a04c860046657ae8f54c2aca9c8c3304f66180197f049/synct-1.6.0.tar.gz
+[2024-05-28 10:52:55] INFO root fetch - processPackages [synct]: executing diffoscope
+[2024-05-28 10:52:55] INFO root fetch - processPackages [yandexcloud]: Downloading https://files.pythonhosted.org/packages/2f/1f/b188f3c823e00c4f3114cbe85a4db73a89c7317f9bbc6634a6021521a9ab/yandexcloud-0.99.0.tar.gz
+[2024-05-28 10:52:55] INFO root fetch - processPackages [synct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synct-1.5.3.tar.gz tmp/synct-1.6.0.tar.gz --markdown 20240528/s/synct/1.5.3-1.6.0/README.md --exclude *.pyd
+[2024-05-28 10:52:56] INFO root fetch - processPackages [yandexcloud]: executing diffoscope
+[2024-05-28 10:52:56] INFO root fetch - processPackages [yandexcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yandexcloud-0.98.0.tar.gz tmp/yandexcloud-0.99.0.tar.gz --markdown 20240528/y/yandexcloud/0.98.0-0.99.0/README.md --exclude *.pyd
+[2024-05-28 10:52:56] INFO root fetch - processPackages [hermitage-alchemy]: Remove: archive file [/home/abi/fetcher/tmp/hermitage_alchemy-0.2.4.tar.gz]
+[2024-05-28 10:52:56] INFO root fetch - processPackages [hermitage-alchemy]: Remove: archive file [/home/abi/fetcher/tmp/hermitage_alchemy-0.2.5.tar.gz]
+[2024-05-28 10:52:56] INFO root fetch - main [MainThread]: End processing [hermitage-alchemy]: success
+[2024-05-28 10:52:56] INFO root fetch - processPackages [tha]: Remove: archive file [/home/abi/fetcher/tmp/tha-0.1.1.tar.gz]
+[2024-05-28 10:52:56] INFO root fetch - processPackages [tha]: Remove: archive file [/home/abi/fetcher/tmp/tha-0.1.2.tar.gz]
+[2024-05-28 10:52:56] INFO root fetch - main [MainThread]: End processing [tha]: success
+[2024-05-28 10:52:56] INFO root fetch - processPackages [opentf-tools-nightly]: Remove: archive file [/home/abi/fetcher/tmp/opentf_tools_nightly-0.47.0.dev746-py3-none-any.whl.zip]
+[2024-05-28 10:52:56] INFO root fetch - processPackages [opentf-tools-nightly]: Remove: archive file [/home/abi/fetcher/tmp/opentf_tools_nightly-0.47.0.dev749-py3-none-any.whl.zip]
+[2024-05-28 10:52:56] INFO root fetch - main [MainThread]: End processing [opentf-tools-nightly]: success
+[2024-05-28 10:52:56] INFO root fetch - processPackages [synct]: Remove: archive file [/home/abi/fetcher/tmp/synct-1.5.3.tar.gz]
+[2024-05-28 10:52:56] INFO root fetch - processPackages [synct]: Remove: archive file [/home/abi/fetcher/tmp/synct-1.6.0.tar.gz]
+[2024-05-28 10:52:56] INFO root fetch - main [MainThread]: End processing [synct]: success
+[2024-05-28 10:52:58] INFO root fetch - processPackages [yandexcloud]: Remove: archive file [/home/abi/fetcher/tmp/yandexcloud-0.98.0.tar.gz]
+[2024-05-28 10:52:58] INFO root fetch - processPackages [yandexcloud]: Remove: archive file [/home/abi/fetcher/tmp/yandexcloud-0.99.0.tar.gz]
+[2024-05-28 10:52:58] INFO root fetch - main [MainThread]: End processing [yandexcloud]: success
+[2024-05-28 10:52:58] INFO root fetch - main [MainThread]: Store serial: [23408362]
