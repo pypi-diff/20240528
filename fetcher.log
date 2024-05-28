@@ -11275,3 +11275,30 @@
 [2024-05-28 10:13:31] INFO root fetch - processPackages [p-template-generator]: Remove: archive file [/home/abi/fetcher/tmp/p-template-generator-0.1.99.tar.gz]
 [2024-05-28 10:13:31] INFO root fetch - main [MainThread]: End processing [p-template-generator]: success
 [2024-05-28 10:13:31] INFO root fetch - main [MainThread]: Store serial: [23407438]
+[2024-05-28 10:15:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23407438]
+[2024-05-28 10:15:39] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-28 10:15:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eventstreaming
+[2024-05-28 10:15:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-sdwan
+[2024-05-28 10:15:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cyhole
+[2024-05-28 10:15:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: riogisoffline
+[2024-05-28 10:15:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: data-portfolio-library
+[2024-05-28 10:15:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: screen-games
+[2024-05-28 10:15:39] WARNING root fetch - processPackages [pulumi-sdwan]: Skipping, unable to determine old version
+[2024-05-28 10:15:39] INFO root fetch - main [MainThread]: End processing [pulumi-sdwan] error
+[2024-05-28 10:15:40] INFO root fetch - processPackages [riogisoffline]: New version: [0.0.28] Old Version: [0.0.26]
+[2024-05-28 10:15:40] WARNING root fetch - processPackages [cyhole]: Skipping, unable to determine old version
+[2024-05-28 10:15:40] INFO root fetch - main [MainThread]: End processing [cyhole] error
+[2024-05-28 10:15:40] WARNING root fetch - processPackages [screen-games]: Skipping, unable to determine old version
+[2024-05-28 10:15:40] INFO root fetch - main [MainThread]: End processing [screen-games] error
+[2024-05-28 10:15:40] WARNING root fetch - processPackages [eventstreaming]: Skipping, unable to determine old version
+[2024-05-28 10:15:40] INFO root fetch - main [MainThread]: End processing [eventstreaming] error
+[2024-05-28 10:15:40] WARNING root fetch - processPackages [data-portfolio-library]: Skipping, unable to determine old version
+[2024-05-28 10:15:40] INFO root fetch - main [MainThread]: End processing [data-portfolio-library] error
+[2024-05-28 10:15:40] INFO root fetch - processPackages [riogisoffline]: Downloading https://files.pythonhosted.org/packages/98/62/490c0b449cac8a727443807b1870780d844c13871480155c8bbf8f03037c/riogisoffline-0.0.26.tar.gz
+[2024-05-28 10:15:40] INFO root fetch - processPackages [riogisoffline]: Downloading https://files.pythonhosted.org/packages/fa/18/b785634b29a3d0d42071f6dda617e28860c2ea4c2ee78d1dd4caae4705a5/riogisoffline-0.0.28.tar.gz
+[2024-05-28 10:15:40] INFO root fetch - processPackages [riogisoffline]: executing diffoscope
+[2024-05-28 10:15:40] INFO root fetch - processPackages [riogisoffline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/riogisoffline-0.0.26.tar.gz tmp/riogisoffline-0.0.28.tar.gz --markdown 20240528/r/riogisoffline/0.0.26-0.0.28/README.md --exclude *.pyd
+[2024-05-28 10:15:41] INFO root fetch - processPackages [riogisoffline]: Remove: archive file [/home/abi/fetcher/tmp/riogisoffline-0.0.26.tar.gz]
+[2024-05-28 10:15:41] INFO root fetch - processPackages [riogisoffline]: Remove: archive file [/home/abi/fetcher/tmp/riogisoffline-0.0.28.tar.gz]
+[2024-05-28 10:15:41] INFO root fetch - main [MainThread]: End processing [riogisoffline]: success
+[2024-05-28 10:15:41] INFO root fetch - main [MainThread]: Store serial: [23407467]
