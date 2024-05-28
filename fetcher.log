@@ -10722,3 +10722,53 @@
 [2024-05-28 09:49:10] INFO root fetch - processPackages [nftpy]: Remove: archive file [/home/abi/fetcher/tmp/nftpy-1.1.0.tar.gz]
 [2024-05-28 09:49:10] INFO root fetch - main [MainThread]: End processing [nftpy]: success
 [2024-05-28 09:49:10] INFO root fetch - main [MainThread]: Store serial: [23407265]
+[2024-05-28 09:51:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23407265]
+[2024-05-28 09:51:18] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-28 09:51:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: HappyLife
+[2024-05-28 09:51:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yangsuite-filemanager
+[2024-05-28 09:51:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nestipy-peewee
+[2024-05-28 09:51:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vespacli
+[2024-05-28 09:51:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yc-aws-wrapper
+[2024-05-28 09:51:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: umj-framework-py-ex
+[2024-05-28 09:51:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: eodc-faas-openeo
+[2024-05-28 09:51:18] INFO root fetch - processPackages [nestipy-peewee]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-28 09:51:18] WARNING root fetch - processPackages [umj-framework-py-ex]: Skipping, unable to determine old version
+[2024-05-28 09:51:18] INFO root fetch - main [MainThread]: End processing [umj-framework-py-ex] error
+[2024-05-28 09:51:18] WARNING root fetch - processPackages [HappyLife]: Skipping, unable to determine old version
+[2024-05-28 09:51:18] INFO root fetch - main [MainThread]: End processing [HappyLife] error
+[2024-05-28 09:51:18] INFO root fetch - processPackages [yc-aws-wrapper]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-28 09:51:18] INFO root fetch - processPackages [nestipy-peewee]: Downloading https://files.pythonhosted.org/packages/db/91/0f6d23972dec9193e9c1482d64a58ea0c2f895e670f119687e8e2b307209/nestipy_peewee-0.2.0.tar.gz
+[2024-05-28 09:51:18] INFO root fetch - processPackages [vespacli]: New version: [8.346.21] Old Version: [8.340.17]
+[2024-05-28 09:51:18] INFO root fetch - processPackages [yangsuite-filemanager]: New version: [1.9.9.post0.dev5] Old Version: [1.9.9.post0.dev3]
+[2024-05-28 09:51:18] INFO root fetch - processPackages [eodc-faas-openeo]: New version: [2024.5.9] Old Version: [2024.5.8]
+[2024-05-28 09:51:18] INFO root fetch - processPackages [yc-aws-wrapper]: Downloading https://files.pythonhosted.org/packages/d5/34/696af852978e72c7c5048748fd7f07793bc0a93076c87dc7063fb05c9574/yc_aws_wrapper-0.0.1.tar.gz
+[2024-05-28 09:51:18] INFO root fetch - processPackages [vespacli]: Downloading https://files.pythonhosted.org/packages/a1/a0/9686716232ace95f9f02fb46ad6e9d71dbd1d9c26d1a132ccb44fbf23eea/vespacli-8.340.17.tar.gz
+[2024-05-28 09:51:18] INFO root fetch - processPackages [yangsuite-filemanager]: Downloading https://files.pythonhosted.org/packages/02/59/20923f638cef7e457e219cd0a6d5420ea35c08a9a5bbc291e8e3ffe4197a/yangsuite_filemanager-1.9.9.post0.dev3-py3-none-any.whl
+[2024-05-28 09:51:18] INFO root fetch - processPackages [eodc-faas-openeo]: Downloading https://files.pythonhosted.org/packages/ca/be/0cac445d65820cd08e905a2a081f566a22c846175ec54bf2dcb1d760fd54/eodc_faas_openeo-2024.5.8.tar.gz
+[2024-05-28 09:51:18] INFO root fetch - processPackages [nestipy-peewee]: Downloading https://files.pythonhosted.org/packages/67/91/c2d52706a84a597b6973cc7e4f5de2b92acc1d29d1288cd950228eddc907/nestipy_peewee-0.2.1.tar.gz
+[2024-05-28 09:51:19] WARNING root fetch - processPackages [vespacli]: Skipping package: exceeds size limit 49217006>=10485760
+[2024-05-28 09:51:19] INFO root fetch - main [MainThread]: End processing [vespacli] error
+[2024-05-28 09:51:19] INFO root fetch - processPackages [nestipy-peewee]: executing diffoscope
+[2024-05-28 09:51:19] INFO root fetch - processPackages [nestipy-peewee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nestipy_peewee-0.2.0.tar.gz tmp/nestipy_peewee-0.2.1.tar.gz --markdown 20240528/n/nestipy-peewee/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-28 09:51:19] INFO root fetch - processPackages [yc-aws-wrapper]: Downloading https://files.pythonhosted.org/packages/50/b8/aeb4d685e07775bc8071422c743ff3f5b3c673bc1a931720095651d2d8a5/yc_aws_wrapper-0.0.2.tar.gz
+[2024-05-28 09:51:19] INFO root fetch - processPackages [eodc-faas-openeo]: Downloading https://files.pythonhosted.org/packages/70/a2/67861a0850781907e58d3018eb24cc9a315713ff6b39c0d686305dfc2295/eodc_faas_openeo-2024.5.9.tar.gz
+[2024-05-28 09:51:19] INFO root fetch - processPackages [yc-aws-wrapper]: executing diffoscope
+[2024-05-28 09:51:19] INFO root fetch - processPackages [yc-aws-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yc_aws_wrapper-0.0.1.tar.gz tmp/yc_aws_wrapper-0.0.2.tar.gz --markdown 20240528/y/yc-aws-wrapper/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-28 09:51:19] INFO root fetch - processPackages [eodc-faas-openeo]: executing diffoscope
+[2024-05-28 09:51:19] INFO root fetch - processPackages [eodc-faas-openeo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_openeo-2024.5.8.tar.gz tmp/eodc_faas_openeo-2024.5.9.tar.gz --markdown 20240528/e/eodc-faas-openeo/2024.5.8-2024.5.9/README.md --exclude *.pyd
+[2024-05-28 09:51:19] INFO root fetch - processPackages [nestipy-peewee]: Remove: archive file [/home/abi/fetcher/tmp/nestipy_peewee-0.2.0.tar.gz]
+[2024-05-28 09:51:19] INFO root fetch - processPackages [nestipy-peewee]: Remove: archive file [/home/abi/fetcher/tmp/nestipy_peewee-0.2.1.tar.gz]
+[2024-05-28 09:51:19] INFO root fetch - main [MainThread]: End processing [nestipy-peewee]: success
+[2024-05-28 09:51:19] INFO root fetch - processPackages [yangsuite-filemanager]: Downloading https://files.pythonhosted.org/packages/f3/41/ab63495cfa1b1ac2b0eb28be566ddeaaf5393135eecb406ab63dcd463987/yangsuite_filemanager-1.9.9.post0.dev5-py3-none-any.whl
+[2024-05-28 09:51:19] INFO root fetch - processPackages [yc-aws-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/yc_aws_wrapper-0.0.1.tar.gz]
+[2024-05-28 09:51:19] INFO root fetch - processPackages [yc-aws-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/yc_aws_wrapper-0.0.2.tar.gz]
+[2024-05-28 09:51:19] INFO root fetch - main [MainThread]: End processing [yc-aws-wrapper]: success
+[2024-05-28 09:51:19] INFO root fetch - processPackages [eodc-faas-openeo]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_openeo-2024.5.8.tar.gz]
+[2024-05-28 09:51:19] INFO root fetch - processPackages [eodc-faas-openeo]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_openeo-2024.5.9.tar.gz]
+[2024-05-28 09:51:19] INFO root fetch - main [MainThread]: End processing [eodc-faas-openeo]: success
+[2024-05-28 09:51:20] INFO root fetch - processPackages [yangsuite-filemanager]: executing diffoscope
+[2024-05-28 09:51:20] INFO root fetch - processPackages [yangsuite-filemanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yangsuite_filemanager-1.9.9.post0.dev3-py3-none-any.whl.zip tmp/yangsuite_filemanager-1.9.9.post0.dev5-py3-none-any.whl.zip --markdown 20240528/y/yangsuite-filemanager/1.9.9.post0.dev3-1.9.9.post0.dev5/README.md --exclude *.pyd
+[2024-05-28 09:51:24] INFO root fetch - processPackages [yangsuite-filemanager]: Remove: archive file [/home/abi/fetcher/tmp/yangsuite_filemanager-1.9.9.post0.dev3-py3-none-any.whl.zip]
+[2024-05-28 09:51:24] INFO root fetch - processPackages [yangsuite-filemanager]: Remove: archive file [/home/abi/fetcher/tmp/yangsuite_filemanager-1.9.9.post0.dev5-py3-none-any.whl.zip]
+[2024-05-28 09:51:24] INFO root fetch - main [MainThread]: End processing [yangsuite-filemanager]: success
+[2024-05-28 09:51:24] INFO root fetch - main [MainThread]: Store serial: [23407283]
