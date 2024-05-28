@@ -3444,3 +3444,33 @@
 [2024-05-28 03:53:38] INFO root fetch - processPackages [neurosym]: Remove: archive file [/home/abi/fetcher/tmp/neurosym-0.0.9.tar.gz]
 [2024-05-28 03:53:38] INFO root fetch - main [MainThread]: End processing [neurosym]: success
 [2024-05-28 03:53:38] INFO root fetch - main [MainThread]: Store serial: [23404202]
+[2024-05-28 03:55:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23404202]
+[2024-05-28 03:55:46] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-28 03:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nfinance
+[2024-05-28 03:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sql-athame
+[2024-05-28 03:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vlab_prepro
+[2024-05-28 03:55:46] INFO root fetch - processPackages [nfinance]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-05-28 03:55:46] INFO root fetch - processPackages [sql-athame]: New version: [0.4.0a7] Old Version: [0.4.0a6]
+[2024-05-28 03:55:46] INFO root fetch - processPackages [vlab_prepro]: New version: [0.5.0] Old Version: [0.4.1]
+[2024-05-28 03:55:46] INFO root fetch - processPackages [sql-athame]: Downloading https://files.pythonhosted.org/packages/7e/91/7335d083d85bf97f56c4b883463985f3052c0544beb63556eba92a7a6072/sql_athame-0.4.0a6.tar.gz
+[2024-05-28 03:55:46] INFO root fetch - processPackages [nfinance]: Downloading https://files.pythonhosted.org/packages/c1/f9/ef9afaf0aaebcba3d524dc5e5ccd1a2e856754a658bdbe660fbdd1485b5d/nfinance-0.4.3.tar.gz
+[2024-05-28 03:55:46] INFO root fetch - processPackages [vlab_prepro]: Downloading https://files.pythonhosted.org/packages/4d/db/8105ccf4b7734f3aa773db3abc5e259f765db205652c5633d0933145a291/vlab_prepro-0.4.1.tar.gz
+[2024-05-28 03:55:46] INFO root fetch - processPackages [sql-athame]: Downloading https://files.pythonhosted.org/packages/8e/27/deb4fec3e91cd5523c969c87d758bd6d8e4c5be2ecee8e75f90c378a18f6/sql_athame-0.4.0a7.tar.gz
+[2024-05-28 03:55:47] INFO root fetch - processPackages [nfinance]: Downloading https://files.pythonhosted.org/packages/ff/c0/170cf540328a5ce9a6ff5a21f71d05523766fd5d009dd2f64e0905ba93f7/nfinance-0.4.4-py3-none-any.whl
+[2024-05-28 03:55:47] INFO root fetch - processPackages [sql-athame]: executing diffoscope
+[2024-05-28 03:55:47] INFO root fetch - processPackages [sql-athame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sql_athame-0.4.0a6.tar.gz tmp/sql_athame-0.4.0a7.tar.gz --markdown 20240528/s/sql-athame/0.4.0a6-0.4.0a7/README.md --exclude *.pyd
+[2024-05-28 03:55:47] INFO root fetch - processPackages [vlab_prepro]: Downloading https://files.pythonhosted.org/packages/0e/4c/fa4f6b9eda51115ce3391770f87494295e95443e8aee0c75e2fb6462f247/vlab_prepro-0.5.0.tar.gz
+[2024-05-28 03:55:47] INFO root fetch - processPackages [nfinance]: executing diffoscope
+[2024-05-28 03:55:47] INFO root fetch - processPackages [nfinance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nfinance-0.4.3.tar.gz tmp/nfinance-0.4.4-py3-none-any.whl.zip --markdown 20240528/n/nfinance/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-05-28 03:55:47] INFO root fetch - processPackages [vlab_prepro]: executing diffoscope
+[2024-05-28 03:55:47] INFO root fetch - processPackages [vlab_prepro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vlab_prepro-0.4.1.tar.gz tmp/vlab_prepro-0.5.0.tar.gz --markdown 20240528/v/vlab_prepro/0.4.1-0.5.0/README.md --exclude *.pyd
+[2024-05-28 03:55:47] INFO root fetch - processPackages [sql-athame]: Remove: archive file [/home/abi/fetcher/tmp/sql_athame-0.4.0a6.tar.gz]
+[2024-05-28 03:55:47] INFO root fetch - processPackages [sql-athame]: Remove: archive file [/home/abi/fetcher/tmp/sql_athame-0.4.0a7.tar.gz]
+[2024-05-28 03:55:47] INFO root fetch - main [MainThread]: End processing [sql-athame]: success
+[2024-05-28 03:55:47] INFO root fetch - processPackages [nfinance]: Remove: archive file [/home/abi/fetcher/tmp/nfinance-0.4.3.tar.gz]
+[2024-05-28 03:55:47] INFO root fetch - processPackages [nfinance]: Remove: archive file [/home/abi/fetcher/tmp/nfinance-0.4.4-py3-none-any.whl.zip]
+[2024-05-28 03:55:47] INFO root fetch - main [MainThread]: End processing [nfinance]: success
+[2024-05-28 03:55:47] INFO root fetch - processPackages [vlab_prepro]: Remove: archive file [/home/abi/fetcher/tmp/vlab_prepro-0.4.1.tar.gz]
+[2024-05-28 03:55:47] INFO root fetch - processPackages [vlab_prepro]: Remove: archive file [/home/abi/fetcher/tmp/vlab_prepro-0.5.0.tar.gz]
+[2024-05-28 03:55:47] INFO root fetch - main [MainThread]: End processing [vlab_prepro]: success
+[2024-05-28 03:55:47] INFO root fetch - main [MainThread]: Store serial: [23404212]
