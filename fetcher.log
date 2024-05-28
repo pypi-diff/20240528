@@ -6082,3 +6082,56 @@
 [2024-05-28 07:04:59] INFO root fetch - processPackages [AutoRAG]: Remove: archive file [/home/abi/fetcher/tmp/autorag-0.2.1.tar.gz]
 [2024-05-28 07:04:59] INFO root fetch - main [MainThread]: End processing [AutoRAG]: success
 [2024-05-28 07:04:59] INFO root fetch - main [MainThread]: Store serial: [23405221]
+[2024-05-28 07:07:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23405221]
+[2024-05-28 07:07:08] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-28 07:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: duckdb
+[2024-05-28 07:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyminerva
+[2024-05-28 07:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rapid-pe
+[2024-05-28 07:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: QuLab
+[2024-05-28 07:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autoevals
+[2024-05-28 07:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: braintrust
+[2024-05-28 07:07:08] INFO root fetch - processPackages [duckdb]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-28 07:07:08] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.2.dev20240527] Old Version: [0.1.2.dev20240526]
+[2024-05-28 07:07:08] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/02/ea/38008486b0c566aa106448e287fdbca63ae0a017d0a1151f881a08f5bed9/rapid_pe-0.1.2.dev20240526.tar.gz
+[2024-05-28 07:07:08] INFO root fetch - processPackages [QuLab]: New version: [2.0.4] Old Version: [2.0.3]
+[2024-05-28 07:07:08] INFO root fetch - processPackages [autoevals]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-28 07:07:08] INFO root fetch - processPackages [pyminerva]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-28 07:07:08] INFO root fetch - processPackages [braintrust]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-28 07:07:08] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/83/36/ea553454969fa7f356555da1ffcf31acc82172548be77278159002d34514/duckdb-0.9.1.tar.gz
+[2024-05-28 07:07:08] INFO root fetch - processPackages [pyminerva]: Downloading https://files.pythonhosted.org/packages/71/85/01e8f26ee3130cf86f9e4b898bf1c77b6edaa3ff18d78ab72ab3042c1c41/pyminerva-0.0.98.tar.gz
+[2024-05-28 07:07:08] WARNING root fetch - processPackages [duckdb]: Skipping package: exceeds size limit 10640161>=10485760
+[2024-05-28 07:07:08] INFO root fetch - main [MainThread]: End processing [duckdb] error
+[2024-05-28 07:07:08] INFO root fetch - processPackages [QuLab]: Downloading https://files.pythonhosted.org/packages/b5/5c/1dbc20f2eb6d210594b217bd76c193d5e9f660050a0b441797bfa1a3fcc4/qulab-2.0.3.tar.gz
+[2024-05-28 07:07:08] INFO root fetch - processPackages [braintrust]: Downloading https://files.pythonhosted.org/packages/de/c6/30b3eb7e4b1c5983c8ec7e822a7e696104c7a7f1790bed3ef80a987f4941/braintrust-0.0.98.tar.gz
+[2024-05-28 07:07:08] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/0d/d3/b074d8e5393b9bed208db004a5ee6ea10eca31bfa8594f9ccbb905ee5231/rapid_pe-0.1.2.dev20240527.tar.gz
+[2024-05-28 07:07:08] INFO root fetch - processPackages [autoevals]: Downloading https://files.pythonhosted.org/packages/cc/d3/ca37d628641d63f5e930b91263c7a82e8b70b3925b0e900c849dae09e8bf/autoevals-0.0.8.tar.gz
+[2024-05-28 07:07:08] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2024-05-28 07:07:08] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.2.dev20240526.tar.gz tmp/rapid_pe-0.1.2.dev20240527.tar.gz --markdown 20240528/r/rapid-pe/0.1.2.dev20240526-0.1.2.dev20240527/README.md --exclude *.pyd
+[2024-05-28 07:07:08] INFO root fetch - processPackages [pyminerva]: Downloading https://files.pythonhosted.org/packages/30/9b/396cf38441ad3c8ce48c213fff676d95f1f3f4feeb1b7dc8824277fe413e/pyminerva-0.0.99.tar.gz
+[2024-05-28 07:07:08] INFO root fetch - processPackages [QuLab]: Downloading https://files.pythonhosted.org/packages/30/22/889781f920c7cd1045a29a6c9191d85160277d461de2aae1890a2b063a05/qulab-2.0.4.tar.gz
+[2024-05-28 07:07:09] INFO root fetch - processPackages [braintrust]: Downloading https://files.pythonhosted.org/packages/bd/26/72df543bed4a12c9562f49bd7e81c0844d75e2a98f58941a7d24609cfb0a/braintrust-0.0.99.tar.gz
+[2024-05-28 07:07:09] INFO root fetch - processPackages [pyminerva]: executing diffoscope
+[2024-05-28 07:07:09] INFO root fetch - processPackages [pyminerva]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyminerva-0.0.98.tar.gz tmp/pyminerva-0.0.99.tar.gz --markdown 20240528/p/pyminerva/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-28 07:07:09] INFO root fetch - processPackages [QuLab]: executing diffoscope
+[2024-05-28 07:07:09] INFO root fetch - processPackages [QuLab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qulab-2.0.3.tar.gz tmp/qulab-2.0.4.tar.gz --markdown 20240528/Q/QuLab/2.0.3-2.0.4/README.md --exclude *.pyd
+[2024-05-28 07:07:09] INFO root fetch - processPackages [autoevals]: Downloading https://files.pythonhosted.org/packages/94/f4/5493a77764ae8b5abee4f82a39671adcea3888c0fcf9df4bab21893260b8/autoevals-0.0.9.tar.gz
+[2024-05-28 07:07:09] INFO root fetch - processPackages [braintrust]: executing diffoscope
+[2024-05-28 07:07:09] INFO root fetch - processPackages [braintrust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/braintrust-0.0.98.tar.gz tmp/braintrust-0.0.99.tar.gz --markdown 20240528/b/braintrust/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-28 07:07:09] INFO root fetch - processPackages [autoevals]: executing diffoscope
+[2024-05-28 07:07:09] INFO root fetch - processPackages [autoevals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoevals-0.0.8.tar.gz tmp/autoevals-0.0.9.tar.gz --markdown 20240528/a/autoevals/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-28 07:07:09] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.2.dev20240526.tar.gz]
+[2024-05-28 07:07:09] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.2.dev20240527.tar.gz]
+[2024-05-28 07:07:09] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2024-05-28 07:07:09] INFO root fetch - processPackages [pyminerva]: Remove: archive file [/home/abi/fetcher/tmp/pyminerva-0.0.98.tar.gz]
+[2024-05-28 07:07:09] INFO root fetch - processPackages [pyminerva]: Remove: archive file [/home/abi/fetcher/tmp/pyminerva-0.0.99.tar.gz]
+[2024-05-28 07:07:09] INFO root fetch - main [MainThread]: End processing [pyminerva]: success
+[2024-05-28 07:07:09] INFO root fetch - processPackages [braintrust]: Remove: archive file [/home/abi/fetcher/tmp/braintrust-0.0.98.tar.gz]
+[2024-05-28 07:07:09] INFO root fetch - processPackages [braintrust]: Remove: archive file [/home/abi/fetcher/tmp/braintrust-0.0.99.tar.gz]
+[2024-05-28 07:07:09] INFO root fetch - main [MainThread]: End processing [braintrust]: success
+[2024-05-28 07:07:09] INFO root fetch - processPackages [QuLab]: Remove: archive file [/home/abi/fetcher/tmp/qulab-2.0.3.tar.gz]
+[2024-05-28 07:07:09] INFO root fetch - processPackages [QuLab]: Remove: archive file [/home/abi/fetcher/tmp/qulab-2.0.4.tar.gz]
+[2024-05-28 07:07:09] INFO root fetch - main [MainThread]: End processing [QuLab]: success
+[2024-05-28 07:07:09] INFO root fetch - processPackages [autoevals]: Remove: archive file [/home/abi/fetcher/tmp/autoevals-0.0.8.tar.gz]
+[2024-05-28 07:07:09] INFO root fetch - processPackages [autoevals]: Remove: archive file [/home/abi/fetcher/tmp/autoevals-0.0.9.tar.gz]
+[2024-05-28 07:07:09] INFO root fetch - main [MainThread]: End processing [autoevals]: success
+[2024-05-28 07:07:09] INFO root fetch - main [MainThread]: Store serial: [23405277]
