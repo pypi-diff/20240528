@@ -23848,3 +23848,59 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 16:55:42] INFO root fetch - processPackages [snowflake-cli-labs]: Remove: archive file [/home/abi/fetcher/tmp/snowflake_cli_labs-2.4.0rc0.tar.gz]
 [2024-05-28 16:55:42] INFO root fetch - main [MainThread]: End processing [snowflake-cli-labs]: success
 [2024-05-28 16:55:42] INFO root fetch - main [MainThread]: Store serial: [23413435]
+[2024-05-28 16:57:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23413435]
+[2024-05-28 16:57:51] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-28 16:57:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyProfQueue
+[2024-05-28 16:57:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: libreflow.extensions.anpo.texture-proxies
+[2024-05-28 16:57:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mmcb-avt
+[2024-05-28 16:57:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fours
+[2024-05-28 16:57:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: polarityjam
+[2024-05-28 16:57:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dagshub-annotation-converter
+[2024-05-28 16:57:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zerohertzLib
+[2024-05-28 16:57:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eazy-patex
+[2024-05-28 16:57:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xml2db
+[2024-05-28 16:57:51] INFO root fetch - processPackages [PyProfQueue]: New version: [0.2.2a1] Old Version: [0.2.2a0]
+[2024-05-28 16:57:51] WARNING root fetch - processPackages [libreflow.extensions.anpo.texture-proxies]: Skipping, unable to determine old version
+[2024-05-28 16:57:51] INFO root fetch - main [MainThread]: End processing [libreflow.extensions.anpo.texture-proxies] error
+[2024-05-28 16:57:52] INFO root fetch - processPackages [zerohertzLib]: New version: [1.1.0] Old Version: [1.0.9]
+[2024-05-28 16:57:52] INFO root fetch - processPackages [mmcb-avt]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-28 16:57:52] INFO root fetch - processPackages [PyProfQueue]: Downloading https://files.pythonhosted.org/packages/d3/ac/117974eff0199cde09c9c1d804cd8a94195dcb32c9e70e8e49a5847b365c/PyProfQueue-0.2.2a0.tar.gz
+[2024-05-28 16:57:52] WARNING root fetch - processPackages [fours]: Skipping, unable to determine old version
+[2024-05-28 16:57:52] WARNING root fetch - processPackages [dagshub-annotation-converter]: Skipping, unable to determine old version
+[2024-05-28 16:57:52] INFO root fetch - main [MainThread]: End processing [fours] error
+[2024-05-28 16:57:52] INFO root fetch - main [MainThread]: End processing [dagshub-annotation-converter] error
+[2024-05-28 16:57:52] WARNING root fetch - processPackages [eazy-patex]: Skipping, unable to determine old version
+[2024-05-28 16:57:52] INFO root fetch - main [MainThread]: End processing [eazy-patex] error
+[2024-05-28 16:57:52] INFO root fetch - processPackages [polarityjam]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-28 16:57:52] INFO root fetch - processPackages [xml2db]: New version: [0.9.4] Old Version: [0.10.1]
+[2024-05-28 16:57:52] INFO root fetch - processPackages [zerohertzLib]: Downloading https://files.pythonhosted.org/packages/5c/32/93d6579ee43d088fe4dc3c1fb0d775c401bb1436e44a1e90995cfb4b3d43/zerohertzLib-1.0.9.tar.gz
+[2024-05-28 16:57:52] INFO root fetch - processPackages [mmcb-avt]: Downloading https://files.pythonhosted.org/packages/16/d7/4fe3e4094100f03d08fa1f410f596dacfba72723ce69be49b0ea49361226/mmcb-avt-0.0.98.tar.gz
+[2024-05-28 16:57:52] INFO root fetch - processPackages [xml2db]: Downloading https://files.pythonhosted.org/packages/1e/ac/b49e19963ec43ed4c791582c2d83320930f2287691aac89a59183cf699b3/xml2db-0.10.1.tar.gz
+[2024-05-28 16:57:52] INFO root fetch - processPackages [PyProfQueue]: Downloading https://files.pythonhosted.org/packages/c7/15/de89b9fdea8626140f9fdf9f9c90df78916edfff0bb204aad09ead20bf78/PyProfQueue-0.2.2a1.tar.gz
+[2024-05-28 16:57:52] INFO root fetch - processPackages [polarityjam]: Downloading https://files.pythonhosted.org/packages/39/78/8e7a0563b3887bdfc41461c014db000bc2fefef7aba8744fb45fe943acc1/polarityjam-0.2.1.tar.gz
+[2024-05-28 16:57:52] INFO root fetch - processPackages [PyProfQueue]: executing diffoscope
+[2024-05-28 16:57:52] INFO root fetch - processPackages [PyProfQueue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyProfQueue-0.2.2a0.tar.gz tmp/PyProfQueue-0.2.2a1.tar.gz --markdown 20240528/P/PyProfQueue/0.2.2a0-0.2.2a1/README.md --exclude *.pyd
+[2024-05-28 16:57:52] WARNING root fetch - processPackages [polarityjam]: Skipping package: exceeds size limit 42132690>=10485760
+[2024-05-28 16:57:52] INFO root fetch - main [MainThread]: End processing [polarityjam] error
+[2024-05-28 16:57:52] INFO root fetch - processPackages [xml2db]: Downloading https://files.pythonhosted.org/packages/67/63/aa1d0584a1d3ca62afcdd99930a83a192056cd33a6fefc92412b8c4b569c/xml2db-0.9.4.tar.gz
+[2024-05-28 16:57:52] INFO root fetch - processPackages [zerohertzLib]: Downloading https://files.pythonhosted.org/packages/42/ef/73d151d813340e58f9ff0fe100c80775793ff806a723ad2c5c7704017ae9/zerohertzLib-1.1.0.tar.gz
+[2024-05-28 16:57:52] INFO root fetch - processPackages [mmcb-avt]: Downloading https://files.pythonhosted.org/packages/12/64/9e2debedf2e579aa60d1875df6b2347d152959a81be1006b3b93c1c1cf85/mmcb-avt-0.0.99.tar.gz
+[2024-05-28 16:57:52] INFO root fetch - processPackages [mmcb-avt]: executing diffoscope
+[2024-05-28 16:57:52] INFO root fetch - processPackages [mmcb-avt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmcb-avt-0.0.98.tar.gz tmp/mmcb-avt-0.0.99.tar.gz --markdown 20240528/m/mmcb-avt/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-28 16:57:52] INFO root fetch - processPackages [xml2db]: executing diffoscope
+[2024-05-28 16:57:52] INFO root fetch - processPackages [xml2db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xml2db-0.10.1.tar.gz tmp/xml2db-0.9.4.tar.gz --markdown 20240528/x/xml2db/0.10.1-0.9.4/README.md --exclude *.pyd
+[2024-05-28 16:57:52] INFO root fetch - processPackages [zerohertzLib]: executing diffoscope
+[2024-05-28 16:57:52] INFO root fetch - processPackages [zerohertzLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zerohertzLib-1.0.9.tar.gz tmp/zerohertzLib-1.1.0.tar.gz --markdown 20240528/z/zerohertzLib/1.0.9-1.1.0/README.md --exclude *.pyd
+[2024-05-28 16:57:53] INFO root fetch - processPackages [PyProfQueue]: Remove: archive file [/home/abi/fetcher/tmp/PyProfQueue-0.2.2a0.tar.gz]
+[2024-05-28 16:57:53] INFO root fetch - processPackages [PyProfQueue]: Remove: archive file [/home/abi/fetcher/tmp/PyProfQueue-0.2.2a1.tar.gz]
+[2024-05-28 16:57:53] INFO root fetch - main [MainThread]: End processing [PyProfQueue]: success
+[2024-05-28 16:57:53] INFO root fetch - processPackages [xml2db]: Remove: archive file [/home/abi/fetcher/tmp/xml2db-0.10.1.tar.gz]
+[2024-05-28 16:57:53] INFO root fetch - processPackages [xml2db]: Remove: archive file [/home/abi/fetcher/tmp/xml2db-0.9.4.tar.gz]
+[2024-05-28 16:57:53] INFO root fetch - main [MainThread]: End processing [xml2db]: success
+[2024-05-28 16:57:53] INFO root fetch - processPackages [mmcb-avt]: Remove: archive file [/home/abi/fetcher/tmp/mmcb-avt-0.0.98.tar.gz]
+[2024-05-28 16:57:53] INFO root fetch - processPackages [mmcb-avt]: Remove: archive file [/home/abi/fetcher/tmp/mmcb-avt-0.0.99.tar.gz]
+[2024-05-28 16:57:53] INFO root fetch - main [MainThread]: End processing [mmcb-avt]: success
+[2024-05-28 16:57:54] INFO root fetch - processPackages [zerohertzLib]: Remove: archive file [/home/abi/fetcher/tmp/zerohertzLib-1.0.9.tar.gz]
+[2024-05-28 16:57:54] INFO root fetch - processPackages [zerohertzLib]: Remove: archive file [/home/abi/fetcher/tmp/zerohertzLib-1.1.0.tar.gz]
+[2024-05-28 16:57:54] INFO root fetch - main [MainThread]: End processing [zerohertzLib]: success
+[2024-05-28 16:57:54] INFO root fetch - main [MainThread]: Store serial: [23413467]
