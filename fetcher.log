@@ -21348,3 +21348,101 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 15:50:56] INFO root fetch - processPackages [liblet]: Remove: archive file [/home/abi/fetcher/tmp/liblet-1.7.6.tar.gz]
 [2024-05-28 15:50:56] INFO root fetch - main [MainThread]: End processing [liblet]: success
 [2024-05-28 15:50:56] INFO root fetch - main [MainThread]: Store serial: [23412152]
+[2024-05-28 15:53:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23412152]
+[2024-05-28 15:53:05] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-28 15:53:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lintian-codeclimate
+[2024-05-28 15:53:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: OpenGeode-core
+[2024-05-28 15:53:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prvict
+[2024-05-28 15:53:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: labelme-ytu
+[2024-05-28 15:53:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: metastim
+[2024-05-28 15:53:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cognite-neat
+[2024-05-28 15:53:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: metastim-beta
+[2024-05-28 15:53:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: CTK-Desert
+[2024-05-28 15:53:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nebari
+[2024-05-28 15:53:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: celestical
+[2024-05-28 15:53:05] WARNING root fetch - processPackages [prvict]: Skipping, unable to determine old version
+[2024-05-28 15:53:05] INFO root fetch - processPackages [prvict]: Start processing: DynamicForms
+[2024-05-28 15:53:05] INFO root fetch - main [MainThread]: End processing [prvict] error
+[2024-05-28 15:53:05] INFO root fetch - processPackages [CTK-Desert]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-28 15:53:05] INFO root fetch - processPackages [OpenGeode-core]: New version: [9.10.4] Old Version: [14.20.1rc2]
+[2024-05-28 15:53:05] INFO root fetch - processPackages [lintian-codeclimate]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-28 15:53:05] WARNING root fetch - processPackages [metastim]: Skipping, unable to determine old version
+[2024-05-28 15:53:05] INFO root fetch - processPackages [metastim]: Start processing: tabswitcher
+[2024-05-28 15:53:05] INFO root fetch - main [MainThread]: End processing [metastim] error
+[2024-05-28 15:53:05] INFO root fetch - processPackages [celestical]: New version: [0.9.2] Old Version: [0.18.5]
+[2024-05-28 15:53:05] INFO root fetch - processPackages [labelme-ytu]: New version: [5.5.1] Old Version: [5.4.1]
+[2024-05-28 15:53:05] WARNING root fetch - processPackages [metastim-beta]: Skipping, unable to determine old version
+[2024-05-28 15:53:05] INFO root fetch - processPackages [metastim-beta]: Start processing: pywikibot
+[2024-05-28 15:53:05] INFO root fetch - main [MainThread]: End processing [metastim-beta] error
+[2024-05-28 15:53:05] INFO root fetch - processPackages [tabswitcher]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-28 15:53:05] INFO root fetch - processPackages [nebari]: New version: [2024.6.1rc2] Old Version: [2024.6.1rc1]
+[2024-05-28 15:53:05] INFO root fetch - processPackages [cognite-neat]: New version: [0.77.9] Old Version: [0.77.8]
+[2024-05-28 15:53:05] INFO root fetch - processPackages [OpenGeode-core]: Downloading https://files.pythonhosted.org/packages/b9/6c/a790e4141bb6674705a73094362cc2783a5a0f1d555163637be6db856f08/OpenGeode_core-14.20.1rc2-cp39-cp39-win_amd64.whl
+[2024-05-28 15:53:05] INFO root fetch - processPackages [DynamicForms]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-28 15:53:06] INFO root fetch - processPackages [pywikibot]: New version: [9.1.2] Old Version: [9.1.1]
+[2024-05-28 15:53:06] INFO root fetch - processPackages [tabswitcher]: Downloading https://files.pythonhosted.org/packages/cc/8f/7350660dbddc77a5b484346e78974012f302e647117016c279959c2c6f60/tabswitcher-0.1.2.tar.gz
+[2024-05-28 15:53:06] INFO root fetch - processPackages [CTK-Desert]: Downloading https://files.pythonhosted.org/packages/9a/73/c7239044a3b6edf571c3f5feded6aab241cff792f7acd98dd42652e44c95/CTK_Desert-0.0.8.tar.gz
+[2024-05-28 15:53:06] INFO root fetch - processPackages [lintian-codeclimate]: Downloading https://files.pythonhosted.org/packages/1c/e0/54c1d15bd9f8c2f9220593279504bf3428f7a8b3644a0413385eadce4dda/lintian_codeclimate-0.1.1.tar.gz
+[2024-05-28 15:53:06] INFO root fetch - processPackages [celestical]: Downloading https://files.pythonhosted.org/packages/3e/9d/ef60f6b1915faca9f288aaffb90ff9c5ae7a68dd370a00146bece763c2dc/celestical-0.18.5-py3-none-any.whl
+[2024-05-28 15:53:06] WARNING root fetch - processPackages [OpenGeode-core]: Skipping package: exceeds size limit 11743344>=10485760
+[2024-05-28 15:53:06] INFO root fetch - main [MainThread]: End processing [OpenGeode-core] error
+[2024-05-28 15:53:06] INFO root fetch - processPackages [labelme-ytu]: Downloading https://files.pythonhosted.org/packages/0e/50/5ebdb64484498038004ece321860567340e33f01e99d28a8ea19e11c9b36/labelme-ytu-5.4.1.tar.gz
+[2024-05-28 15:53:06] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/bd/9b/564d6bdcb93f7a7978f811ce1050deb0b33681a2c9d5e68ff66ee739cc35/cognite_neat-0.77.8.tar.gz
+[2024-05-28 15:53:06] INFO root fetch - processPackages [nebari]: Downloading https://files.pythonhosted.org/packages/0d/68/1a9515c911821b76f5bf1c6893e61953674277a087c743b9b2e644f1c7c9/nebari-2024.6.1rc1.tar.gz
+[2024-05-28 15:53:06] INFO root fetch - processPackages [DynamicForms]: Downloading https://files.pythonhosted.org/packages/c1/a3/a9391b0a0ba21940c726b8e676f919e072e53da35bfe6fdc30f6cd4976ed/DynamicForms-0.9.8.tar.gz
+[2024-05-28 15:53:06] INFO root fetch - processPackages [pywikibot]: Downloading https://files.pythonhosted.org/packages/fa/cc/b990849852b313fc736c985d1d58aaf7d9548b5b78d196216368ed7b7f4b/pywikibot-9.1.1.tar.gz
+[2024-05-28 15:53:06] INFO root fetch - processPackages [CTK-Desert]: Downloading https://files.pythonhosted.org/packages/6d/b4/d3af97e7bf9ae492dceb1aad8191e260b603096af0a9755ffd707156f69f/CTK_Desert-0.0.9.tar.gz
+[2024-05-28 15:53:06] INFO root fetch - processPackages [lintian-codeclimate]: Downloading https://files.pythonhosted.org/packages/f5/9f/4c33d85127d049b0d65769f7487bc7c3f702b4420e6216d9ac453da010b9/lintian_codeclimate-0.1.2.tar.gz
+[2024-05-28 15:53:06] INFO root fetch - processPackages [lintian-codeclimate]: executing diffoscope
+[2024-05-28 15:53:06] INFO root fetch - processPackages [lintian-codeclimate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lintian_codeclimate-0.1.1.tar.gz tmp/lintian_codeclimate-0.1.2.tar.gz --markdown 20240528/l/lintian-codeclimate/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-28 15:53:06] INFO root fetch - processPackages [nebari]: Downloading https://files.pythonhosted.org/packages/95/6b/97f5836d9a4a8be3dce964479057d631f7259bb0dd59eea2478bbfc3d818/nebari-2024.6.1rc2.tar.gz
+[2024-05-28 15:53:06] INFO root fetch - processPackages [celestical]: Downloading https://files.pythonhosted.org/packages/6a/53/1f6d4d225fde6a9acc4875ce60fa934dc2af21d85e3dcbe4d276484785e6/celestical-0.9.2-py3-none-any.whl
+[2024-05-28 15:53:06] INFO root fetch - processPackages [tabswitcher]: Downloading https://files.pythonhosted.org/packages/e9/00/47dd36af0c0899e74dd8b2d0cb8302915b880ee175213cdb1c5ac982a20a/tabswitcher-0.1.3.tar.gz
+[2024-05-28 15:53:06] INFO root fetch - processPackages [CTK-Desert]: executing diffoscope
+[2024-05-28 15:53:06] INFO root fetch - processPackages [CTK-Desert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CTK_Desert-0.0.8.tar.gz tmp/CTK_Desert-0.0.9.tar.gz --markdown 20240528/C/CTK-Desert/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-28 15:53:06] INFO root fetch - processPackages [DynamicForms]: Downloading https://files.pythonhosted.org/packages/17/92/2562c5f02d4953bc96c46e2b195343702ea6763233eceaed5091889f2ab8/DynamicForms-0.9.9.tar.gz
+[2024-05-28 15:53:06] INFO root fetch - processPackages [pywikibot]: Downloading https://files.pythonhosted.org/packages/5b/27/ea1e8f1e2e0781bfc78b27d87120ecc4da953264e7d7934075eb37ecb798/pywikibot-9.1.2.tar.gz
+[2024-05-28 15:53:06] INFO root fetch - processPackages [celestical]: executing diffoscope
+[2024-05-28 15:53:06] INFO root fetch - processPackages [celestical]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/celestical-0.18.5-py3-none-any.whl.zip tmp/celestical-0.9.2-py3-none-any.whl.zip --markdown 20240528/c/celestical/0.18.5-0.9.2/README.md --exclude *.pyd
+[2024-05-28 15:53:06] INFO root fetch - processPackages [tabswitcher]: executing diffoscope
+[2024-05-28 15:53:06] INFO root fetch - processPackages [tabswitcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tabswitcher-0.1.2.tar.gz tmp/tabswitcher-0.1.3.tar.gz --markdown 20240528/t/tabswitcher/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-28 15:53:06] INFO root fetch - processPackages [nebari]: executing diffoscope
+[2024-05-28 15:53:06] INFO root fetch - processPackages [nebari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nebari-2024.6.1rc1.tar.gz tmp/nebari-2024.6.1rc2.tar.gz --markdown 20240528/n/nebari/2024.6.1rc1-2024.6.1rc2/README.md --exclude *.pyd
+[2024-05-28 15:53:06] INFO root fetch - processPackages [labelme-ytu]: Downloading https://files.pythonhosted.org/packages/2e/85/0061065d8801b0f14c3612e266903123f81c9b20da4d2d1aeabde497f6b3/labelme-ytu-5.5.1.tar.gz
+[2024-05-28 15:53:06] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/21/62/42af084d03b6744a57512c878d0394a5b8cb21e632b8018edb83f262feb3/cognite_neat-0.77.9.tar.gz
+[2024-05-28 15:53:06] INFO root fetch - processPackages [pywikibot]: executing diffoscope
+[2024-05-28 15:53:06] INFO root fetch - processPackages [pywikibot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywikibot-9.1.1.tar.gz tmp/pywikibot-9.1.2.tar.gz --markdown 20240528/p/pywikibot/9.1.1-9.1.2/README.md --exclude *.pyd
+[2024-05-28 15:53:07] INFO root fetch - processPackages [labelme-ytu]: executing diffoscope
+[2024-05-28 15:53:07] INFO root fetch - processPackages [labelme-ytu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labelme-ytu-5.4.1.tar.gz tmp/labelme-ytu-5.5.1.tar.gz --markdown 20240528/l/labelme-ytu/5.4.1-5.5.1/README.md --exclude *.pyd
+[2024-05-28 15:53:07] INFO root fetch - processPackages [lintian-codeclimate]: Remove: archive file [/home/abi/fetcher/tmp/lintian_codeclimate-0.1.1.tar.gz]
+[2024-05-28 15:53:07] INFO root fetch - processPackages [lintian-codeclimate]: Remove: archive file [/home/abi/fetcher/tmp/lintian_codeclimate-0.1.2.tar.gz]
+[2024-05-28 15:53:07] INFO root fetch - main [MainThread]: End processing [lintian-codeclimate]: success
+[2024-05-28 15:53:07] INFO root fetch - processPackages [CTK-Desert]: Remove: archive file [/home/abi/fetcher/tmp/CTK_Desert-0.0.8.tar.gz]
+[2024-05-28 15:53:07] INFO root fetch - processPackages [CTK-Desert]: Remove: archive file [/home/abi/fetcher/tmp/CTK_Desert-0.0.9.tar.gz]
+[2024-05-28 15:53:07] INFO root fetch - main [MainThread]: End processing [CTK-Desert]: success
+[2024-05-28 15:53:07] INFO root fetch - processPackages [tabswitcher]: Remove: archive file [/home/abi/fetcher/tmp/tabswitcher-0.1.2.tar.gz]
+[2024-05-28 15:53:07] INFO root fetch - processPackages [tabswitcher]: Remove: archive file [/home/abi/fetcher/tmp/tabswitcher-0.1.3.tar.gz]
+[2024-05-28 15:53:07] INFO root fetch - main [MainThread]: End processing [tabswitcher]: success
+[2024-05-28 15:53:07] INFO root fetch - processPackages [cognite-neat]: executing diffoscope
+[2024-05-28 15:53:07] INFO root fetch - processPackages [cognite-neat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_neat-0.77.8.tar.gz tmp/cognite_neat-0.77.9.tar.gz --markdown 20240528/c/cognite-neat/0.77.8-0.77.9/README.md --exclude *.pyd
+[2024-05-28 15:53:07] INFO root fetch - processPackages [DynamicForms]: executing diffoscope
+[2024-05-28 15:53:07] INFO root fetch - processPackages [DynamicForms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DynamicForms-0.9.8.tar.gz tmp/DynamicForms-0.9.9.tar.gz --markdown 20240528/D/DynamicForms/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-28 15:53:08] INFO root fetch - processPackages [celestical]: Remove: archive file [/home/abi/fetcher/tmp/celestical-0.18.5-py3-none-any.whl.zip]
+[2024-05-28 15:53:08] INFO root fetch - processPackages [celestical]: Remove: archive file [/home/abi/fetcher/tmp/celestical-0.9.2-py3-none-any.whl.zip]
+[2024-05-28 15:53:08] INFO root fetch - main [MainThread]: End processing [celestical]: success
+[2024-05-28 15:53:08] INFO root fetch - processPackages [labelme-ytu]: Remove: archive file [/home/abi/fetcher/tmp/labelme-ytu-5.4.1.tar.gz]
+[2024-05-28 15:53:08] INFO root fetch - processPackages [labelme-ytu]: Remove: archive file [/home/abi/fetcher/tmp/labelme-ytu-5.5.1.tar.gz]
+[2024-05-28 15:53:08] INFO root fetch - main [MainThread]: End processing [labelme-ytu]: success
+[2024-05-28 15:53:08] INFO root fetch - processPackages [pywikibot]: Remove: archive file [/home/abi/fetcher/tmp/pywikibot-9.1.1.tar.gz]
+[2024-05-28 15:53:08] INFO root fetch - processPackages [pywikibot]: Remove: archive file [/home/abi/fetcher/tmp/pywikibot-9.1.2.tar.gz]
+[2024-05-28 15:53:08] INFO root fetch - main [MainThread]: End processing [pywikibot]: success
+[2024-05-28 15:53:08] INFO root fetch - processPackages [nebari]: Remove: archive file [/home/abi/fetcher/tmp/nebari-2024.6.1rc1.tar.gz]
+[2024-05-28 15:53:08] INFO root fetch - processPackages [nebari]: Remove: archive file [/home/abi/fetcher/tmp/nebari-2024.6.1rc2.tar.gz]
+[2024-05-28 15:53:08] INFO root fetch - main [MainThread]: End processing [nebari]: success
+[2024-05-28 15:53:09] INFO root fetch - processPackages [DynamicForms]: Remove: archive file [/home/abi/fetcher/tmp/DynamicForms-0.9.8.tar.gz]
+[2024-05-28 15:53:09] INFO root fetch - processPackages [DynamicForms]: Remove: archive file [/home/abi/fetcher/tmp/DynamicForms-0.9.9.tar.gz]
+[2024-05-28 15:53:09] INFO root fetch - main [MainThread]: End processing [DynamicForms]: success
+[2024-05-28 15:53:12] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.77.8.tar.gz]
+[2024-05-28 15:53:12] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.77.9.tar.gz]
+[2024-05-28 15:53:12] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
+[2024-05-28 15:53:12] INFO root fetch - main [MainThread]: Store serial: [23412197]
