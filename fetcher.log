@@ -12340,3 +12340,102 @@
 [2024-05-28 10:39:23] INFO root fetch - processPackages [KratosStatisticsApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosStatisticsApplication-9.5.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-28 10:39:23] INFO root fetch - main [MainThread]: End processing [KratosStatisticsApplication]: success
 [2024-05-28 10:39:23] INFO root fetch - main [MainThread]: Store serial: [23408102]
+[2024-05-28 10:41:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23408102]
+[2024-05-28 10:41:37] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-28 10:41:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: polanalyser
+[2024-05-28 10:41:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kuzu
+[2024-05-28 10:41:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: KratosStructuralMechanicsApplication
+[2024-05-28 10:41:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: truenaspy
+[2024-05-28 10:41:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python_dev_utils
+[2024-05-28 10:41:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: deepchecks-llm-client
+[2024-05-28 10:41:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-stock-release-channel
+[2024-05-28 10:41:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: giza-agents
+[2024-05-28 10:41:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PymoNNto
+[2024-05-28 10:41:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: yifengw
+[2024-05-28 10:41:37] INFO root fetch - processPackages [truenaspy]: New version: [0.6.4] Old Version: [0.6.3]
+[2024-05-28 10:41:37] INFO root fetch - processPackages [kuzu]: New version: [0.4.3.dev9] Old Version: [0.4.3.dev8]
+[2024-05-28 10:41:37] INFO root fetch - processPackages [KratosStructuralMechanicsApplication]: New version: [9.5.1] Old Version: [9.5]
+[2024-05-28 10:41:37] INFO root fetch - processPackages [python_dev_utils]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-05-28 10:41:37] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: New version: [16.0.2.9.0] Old Version: [16.0.2.8.0]
+[2024-05-28 10:41:37] INFO root fetch - processPackages [polanalyser]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-05-28 10:41:37] ERROR root fetch - processPackages [yifengw]: Unable to get metadata: No such project 'yifengw'
+[2024-05-28 10:41:37] INFO root fetch - processPackages [yifengw]: Start processing: haver
+[2024-05-28 10:41:37] INFO root fetch - main [MainThread]: End processing [yifengw] error
+[2024-05-28 10:41:37] INFO root fetch - processPackages [truenaspy]: Downloading https://files.pythonhosted.org/packages/b9/51/09b20aac8841a85a04e3d9f50223af52538ce7a766c5c11724fd2e4025b7/truenaspy-0.6.3.tar.gz
+[2024-05-28 10:41:37] INFO root fetch - processPackages [deepchecks-llm-client]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-28 10:41:37] INFO root fetch - processPackages [PymoNNto]: New version: [3.0.3] Old Version: [3.0.2]
+[2024-05-28 10:41:37] INFO root fetch - processPackages [giza-agents]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-05-28 10:41:37] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/8c/65/7162eaa21f2086d35586ac13298c2ee7127cec11827c394a1c4a3a08801e/kuzu-0.4.3.dev8.tar.gz
+[2024-05-28 10:41:37] WARNING root fetch - processPackages [haver]: Skipping, unable to determine old version
+[2024-05-28 10:41:37] INFO root fetch - processPackages [haver]: Start processing: dendrite-python-sdk
+[2024-05-28 10:41:37] INFO root fetch - main [MainThread]: End processing [haver] error
+[2024-05-28 10:41:37] INFO root fetch - processPackages [KratosStructuralMechanicsApplication]: Downloading https://files.pythonhosted.org/packages/89/9f/ab5ac44fcc1f840092fbe1c882f0ae620a21093dc7616d9a30cf1c0b2f19/KratosStructuralMechanicsApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-28 10:41:37] INFO root fetch - processPackages [polanalyser]: Downloading https://files.pythonhosted.org/packages/cc/dc/d8ed93efd587d0c090f5690641e7d554bd9cb000d8e4b2a37e137a4cbd15/polanalyser-2.0.1.tar.gz
+[2024-05-28 10:41:38] INFO root fetch - processPackages [python_dev_utils]: Downloading https://files.pythonhosted.org/packages/9a/2c/914fd3714f59dbd1bda89180c13babf09cb22aaf299f09ba73def2b97c99/python_dev_utils-2.0.0.tar.gz
+[2024-05-28 10:41:38] INFO root fetch - processPackages [dendrite-python-sdk]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-28 10:41:38] INFO root fetch - processPackages [deepchecks-llm-client]: Downloading https://files.pythonhosted.org/packages/14/39/234c667758a9cb3c25191e38640800158e6d318817fee658b57844cdf7ef/deepchecks-llm-client-0.9.1.tar.gz
+[2024-05-28 10:41:38] INFO root fetch - processPackages [PymoNNto]: Downloading https://files.pythonhosted.org/packages/01/27/c5e10566dee4633f2156cc11d682144dd3d8b5ce33f8eeaad885e5a1a6c1/PymoNNto-3.0.2.tar.gz
+[2024-05-28 10:41:38] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: Downloading https://files.pythonhosted.org/packages/52/92/1be60c2efa4c10575b7009ede41d26825460eb5beff77911075273d79984/odoo_addon_stock_release_channel-16.0.2.8.0-py3-none-any.whl
+[2024-05-28 10:41:38] INFO root fetch - processPackages [giza-agents]: Downloading https://files.pythonhosted.org/packages/81/cb/542a715a0fdaa5e4adcaa03a8214cf5866dc823edf81594fafd97ba50827/giza_agents-0.4.1.tar.gz
+[2024-05-28 10:41:38] INFO root fetch - processPackages [truenaspy]: Downloading https://files.pythonhosted.org/packages/1d/d0/279e10cb1bad4ab396f8eaed213b775de40555f1b085247cf44844609074/truenaspy-0.6.4.tar.gz
+[2024-05-28 10:41:38] INFO root fetch - processPackages [dendrite-python-sdk]: Downloading https://files.pythonhosted.org/packages/fc/97/3f6995c05bf7f2c9804d6d457cea71f4541d2de4acc8c9682f440135233a/dendrite_python_sdk-1.0.0.tar.gz
+[2024-05-28 10:41:38] INFO root fetch - processPackages [truenaspy]: executing diffoscope
+[2024-05-28 10:41:38] INFO root fetch - processPackages [truenaspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/truenaspy-0.6.3.tar.gz tmp/truenaspy-0.6.4.tar.gz --markdown 20240528/t/truenaspy/0.6.3-0.6.4/README.md --exclude *.pyd
+[2024-05-28 10:41:38] INFO root fetch - processPackages [python_dev_utils]: Downloading https://files.pythonhosted.org/packages/5e/c5/27fa21782d47c49fe6ac0b5f53050397a2068dd43a5e3fb59148fb026db5/python_dev_utils-2.1.0.tar.gz
+[2024-05-28 10:41:38] INFO root fetch - processPackages [polanalyser]: Downloading https://files.pythonhosted.org/packages/0d/d2/5c19fab2f607a03e92094e96e4374448334f98b470c3481c2d73c645a790/polanalyser-2.0.2.tar.gz
+[2024-05-28 10:41:38] INFO root fetch - processPackages [PymoNNto]: Downloading https://files.pythonhosted.org/packages/49/f6/67e48d2330fef108553a30073ec8dc092e6c7d2310f7b6c5fa345a473c4c/PymoNNto-3.0.3.tar.gz
+[2024-05-28 10:41:38] INFO root fetch - processPackages [deepchecks-llm-client]: Downloading https://files.pythonhosted.org/packages/81/71/7e18c9bc6b679961021ce417620a7f4a4a14775917b1858db37d989bd2fa/deepchecks-llm-client-0.9.2.tar.gz
+[2024-05-28 10:41:38] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/df/58/55a184ddd23fb47a5a837c33035095e3fcffa62119ae3557cf8e8b4f7f0c/kuzu-0.4.3.dev9.tar.gz
+[2024-05-28 10:41:38] INFO root fetch - processPackages [giza-agents]: Downloading https://files.pythonhosted.org/packages/a5/5e/9b188c8f4962fdc720dfb5706dee36d07eb6dd84b05b12e34443490eec15/giza_agents-0.4.2.tar.gz
+[2024-05-28 10:41:38] INFO root fetch - processPackages [python_dev_utils]: executing diffoscope
+[2024-05-28 10:41:38] INFO root fetch - processPackages [python_dev_utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_dev_utils-2.0.0.tar.gz tmp/python_dev_utils-2.1.0.tar.gz --markdown 20240528/p/python_dev_utils/2.0.0-2.1.0/README.md --exclude *.pyd
+[2024-05-28 10:41:38] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: Downloading https://files.pythonhosted.org/packages/72/34/26d64f89ea9154c50e7429fb00f1b20a5649bfdcd36647026241b8137389/odoo_addon_stock_release_channel-16.0.2.9.0-py3-none-any.whl
+[2024-05-28 10:41:38] INFO root fetch - processPackages [polanalyser]: executing diffoscope
+[2024-05-28 10:41:38] INFO root fetch - processPackages [polanalyser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polanalyser-2.0.1.tar.gz tmp/polanalyser-2.0.2.tar.gz --markdown 20240528/p/polanalyser/2.0.1-2.0.2/README.md --exclude *.pyd
+[2024-05-28 10:41:38] INFO root fetch - processPackages [PymoNNto]: executing diffoscope
+[2024-05-28 10:41:38] INFO root fetch - processPackages [PymoNNto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PymoNNto-3.0.2.tar.gz tmp/PymoNNto-3.0.3.tar.gz --markdown 20240528/P/PymoNNto/3.0.2-3.0.3/README.md --exclude *.pyd
+[2024-05-28 10:41:38] INFO root fetch - processPackages [giza-agents]: executing diffoscope
+[2024-05-28 10:41:38] INFO root fetch - processPackages [giza-agents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/giza_agents-0.4.1.tar.gz tmp/giza_agents-0.4.2.tar.gz --markdown 20240528/g/giza-agents/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-05-28 10:41:38] INFO root fetch - processPackages [KratosStructuralMechanicsApplication]: Downloading https://files.pythonhosted.org/packages/a2/8f/1a0e2fb72f3d8882bfe449db5907863fd4777dba461511b4a29d74dd250d/KratosStructuralMechanicsApplication-9.5.1-cp39-cp39-win_amd64.whl
+[2024-05-28 10:41:38] INFO root fetch - processPackages [deepchecks-llm-client]: executing diffoscope
+[2024-05-28 10:41:38] INFO root fetch - processPackages [deepchecks-llm-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepchecks-llm-client-0.9.1.tar.gz tmp/deepchecks-llm-client-0.9.2.tar.gz --markdown 20240528/d/deepchecks-llm-client/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-05-28 10:41:38] INFO root fetch - processPackages [dendrite-python-sdk]: Downloading https://files.pythonhosted.org/packages/c4/c9/231f69d7c1094aac39cbd6bde8f0e7c7b876270b6e5e55d288b11bfe9335/dendrite_python_sdk-1.0.1.tar.gz
+[2024-05-28 10:41:38] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: executing diffoscope
+[2024-05-28 10:41:38] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_release_channel-16.0.2.8.0-py3-none-any.whl.zip tmp/odoo_addon_stock_release_channel-16.0.2.9.0-py3-none-any.whl.zip --markdown 20240528/o/odoo-addon-stock-release-channel/16.0.2.8.0-16.0.2.9.0/README.md --exclude *.pyd
+[2024-05-28 10:41:39] INFO root fetch - processPackages [kuzu]: executing diffoscope
+[2024-05-28 10:41:39] INFO root fetch - processPackages [kuzu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuzu-0.4.3.dev8.tar.gz tmp/kuzu-0.4.3.dev9.tar.gz --markdown 20240528/k/kuzu/0.4.3.dev8-0.4.3.dev9/README.md --exclude *.pyd
+[2024-05-28 10:41:39] INFO root fetch - processPackages [dendrite-python-sdk]: executing diffoscope
+[2024-05-28 10:41:39] INFO root fetch - processPackages [dendrite-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dendrite_python_sdk-1.0.0.tar.gz tmp/dendrite_python_sdk-1.0.1.tar.gz --markdown 20240528/d/dendrite-python-sdk/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-28 10:41:39] INFO root fetch - processPackages [truenaspy]: Remove: archive file [/home/abi/fetcher/tmp/truenaspy-0.6.3.tar.gz]
+[2024-05-28 10:41:39] INFO root fetch - processPackages [truenaspy]: Remove: archive file [/home/abi/fetcher/tmp/truenaspy-0.6.4.tar.gz]
+[2024-05-28 10:41:39] INFO root fetch - main [MainThread]: End processing [truenaspy]: success
+[2024-05-28 10:41:39] INFO root fetch - processPackages [KratosStructuralMechanicsApplication]: executing diffoscope
+[2024-05-28 10:41:39] INFO root fetch - processPackages [KratosStructuralMechanicsApplication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KratosStructuralMechanicsApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/KratosStructuralMechanicsApplication-9.5.1-cp39-cp39-win_amd64.whl.zip --markdown 20240528/K/KratosStructuralMechanicsApplication/9.5-9.5.1/README.md --exclude *.pyd
+[2024-05-28 10:41:39] INFO root fetch - processPackages [giza-agents]: Remove: archive file [/home/abi/fetcher/tmp/giza_agents-0.4.1.tar.gz]
+[2024-05-28 10:41:39] INFO root fetch - processPackages [giza-agents]: Remove: archive file [/home/abi/fetcher/tmp/giza_agents-0.4.2.tar.gz]
+[2024-05-28 10:41:39] INFO root fetch - main [MainThread]: End processing [giza-agents]: success
+[2024-05-28 10:41:39] INFO root fetch - processPackages [polanalyser]: Remove: archive file [/home/abi/fetcher/tmp/polanalyser-2.0.1.tar.gz]
+[2024-05-28 10:41:39] INFO root fetch - processPackages [polanalyser]: Remove: archive file [/home/abi/fetcher/tmp/polanalyser-2.0.2.tar.gz]
+[2024-05-28 10:41:39] INFO root fetch - main [MainThread]: End processing [polanalyser]: success
+[2024-05-28 10:41:39] INFO root fetch - processPackages [deepchecks-llm-client]: Remove: archive file [/home/abi/fetcher/tmp/deepchecks-llm-client-0.9.1.tar.gz]
+[2024-05-28 10:41:39] INFO root fetch - processPackages [deepchecks-llm-client]: Remove: archive file [/home/abi/fetcher/tmp/deepchecks-llm-client-0.9.2.tar.gz]
+[2024-05-28 10:41:39] INFO root fetch - main [MainThread]: End processing [deepchecks-llm-client]: success
+[2024-05-28 10:41:39] INFO root fetch - processPackages [python_dev_utils]: Remove: archive file [/home/abi/fetcher/tmp/python_dev_utils-2.0.0.tar.gz]
+[2024-05-28 10:41:39] INFO root fetch - processPackages [python_dev_utils]: Remove: archive file [/home/abi/fetcher/tmp/python_dev_utils-2.1.0.tar.gz]
+[2024-05-28 10:41:39] INFO root fetch - main [MainThread]: End processing [python_dev_utils]: success
+[2024-05-28 10:41:39] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_release_channel-16.0.2.8.0-py3-none-any.whl.zip]
+[2024-05-28 10:41:39] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_release_channel-16.0.2.9.0-py3-none-any.whl.zip]
+[2024-05-28 10:41:39] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-release-channel]: success
+[2024-05-28 10:41:39] INFO root fetch - processPackages [PymoNNto]: Remove: archive file [/home/abi/fetcher/tmp/PymoNNto-3.0.2.tar.gz]
+[2024-05-28 10:41:39] INFO root fetch - processPackages [PymoNNto]: Remove: archive file [/home/abi/fetcher/tmp/PymoNNto-3.0.3.tar.gz]
+[2024-05-28 10:41:39] INFO root fetch - main [MainThread]: End processing [PymoNNto]: success
+[2024-05-28 10:41:40] INFO root fetch - processPackages [dendrite-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dendrite_python_sdk-1.0.0.tar.gz]
+[2024-05-28 10:41:40] INFO root fetch - processPackages [dendrite-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dendrite_python_sdk-1.0.1.tar.gz]
+[2024-05-28 10:41:40] INFO root fetch - main [MainThread]: End processing [dendrite-python-sdk]: success
+[2024-05-28 10:41:41] INFO root fetch - processPackages [KratosStructuralMechanicsApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosStructuralMechanicsApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-28 10:41:41] INFO root fetch - processPackages [KratosStructuralMechanicsApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosStructuralMechanicsApplication-9.5.1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-28 10:41:41] INFO root fetch - main [MainThread]: End processing [KratosStructuralMechanicsApplication]: success
+[2024-05-28 10:41:45] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.4.3.dev8.tar.gz]
+[2024-05-28 10:41:45] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.4.3.dev9.tar.gz]
+[2024-05-28 10:41:45] INFO root fetch - main [MainThread]: End processing [kuzu]: success
+[2024-05-28 10:41:45] INFO root fetch - main [MainThread]: Store serial: [23408184]
