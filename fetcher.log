@@ -12961,3 +12961,69 @@
 [2024-05-28 10:55:13] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.8.9.tar.gz]
 [2024-05-28 10:55:13] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-05-28 10:55:13] INFO root fetch - main [MainThread]: Store serial: [23408383]
+[2024-05-28 10:57:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23408383]
+[2024-05-28 10:57:22] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-28 10:57:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sunyata
+[2024-05-28 10:57:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chess-transformer
+[2024-05-28 10:57:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo12-addon-vertical-carsharing-emc
+[2024-05-28 10:57:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: codegrade
+[2024-05-28 10:57:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mini-racer
+[2024-05-28 10:57:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: stereotype
+[2024-05-28 10:57:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yandexcloud
+[2024-05-28 10:57:22] INFO root fetch - processPackages [chess-transformer]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-28 10:57:22] INFO root fetch - processPackages [sunyata]: New version: [0.0.47] Old Version: [0.0.46]
+[2024-05-28 10:57:22] INFO root fetch - processPackages [yandexcloud]: New version: [0.99.0] Old Version: [0.98.0]
+[2024-05-28 10:57:22] INFO root fetch - processPackages [chess-transformer]: Downloading https://files.pythonhosted.org/packages/e5/ed/ae961efaa76afdf825f63c085aa15dc4752524b496cff82c921ae918a5b3/chess_transformer-0.1.6.tar.gz
+[2024-05-28 10:57:22] INFO root fetch - processPackages [odoo12-addon-vertical-carsharing-emc]: New version: [12.0.0.0.9] Old Version: [12.0.0.0.8]
+[2024-05-28 10:57:22] INFO root fetch - processPackages [sunyata]: Downloading https://files.pythonhosted.org/packages/26/83/ca4c061d45f814cc5db59752d93499c708ccf468ae17c0bc3c77b5bf521b/sunyata-0.0.46.tar.gz
+[2024-05-28 10:57:22] INFO root fetch - processPackages [stereotype]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-05-28 10:57:22] INFO root fetch - processPackages [mini-racer]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-28 10:57:22] INFO root fetch - processPackages [codegrade]: New version: [16.1.9] Old Version: [16.1.8]
+[2024-05-28 10:57:22] INFO root fetch - processPackages [yandexcloud]: Downloading https://files.pythonhosted.org/packages/76/3b/1649bfb2078286e8152c6e1bba2e34340ec1d2135c6ede304fed08ff6f42/yandexcloud-0.98.0.tar.gz
+[2024-05-28 10:57:22] INFO root fetch - processPackages [odoo12-addon-vertical-carsharing-emc]: Downloading https://files.pythonhosted.org/packages/ac/35/f6a1ead467e526e820c5c4d6107772c22ee7c842430341ff0871a97c8b56/odoo12_addon_vertical_carsharing_emc-12.0.0.0.8-py3-none-any.whl
+[2024-05-28 10:57:22] INFO root fetch - processPackages [codegrade]: Downloading https://files.pythonhosted.org/packages/a2/99/6dd91f125d60162d9298aca4e361d64263b90012dc12a802e2171ac952ee/codegrade-16.1.8.tar.gz
+[2024-05-28 10:57:22] INFO root fetch - processPackages [stereotype]: Downloading https://files.pythonhosted.org/packages/1e/7d/f9c247548322779f336e0cdf894f6a9d73d6e9ea81e7807a1452ee67c93e/stereotype-1.5.0.tar.gz
+[2024-05-28 10:57:22] INFO root fetch - processPackages [sunyata]: Downloading https://files.pythonhosted.org/packages/a5/9f/16bbfe0ba0d7ad9774e0e3088c2414c50aff91cffbbb09121e54f062f7f4/sunyata-0.0.47.tar.gz
+[2024-05-28 10:57:23] INFO root fetch - processPackages [mini-racer]: Downloading https://files.pythonhosted.org/packages/44/3a/c9e66f4c9c692be4658b8237c571eb952a40d38cf7b80b74b273fa902ecf/mini_racer-0.8.1.tar.gz
+[2024-05-28 10:57:23] INFO root fetch - processPackages [chess-transformer]: Downloading https://files.pythonhosted.org/packages/13/af/53bd8ccda8564fb5149bc942395f050d7ad970b465e5d92dbf4a56d00bee/chess_transformer-0.1.7.tar.gz
+[2024-05-28 10:57:23] INFO root fetch - processPackages [yandexcloud]: Downloading https://files.pythonhosted.org/packages/2f/1f/b188f3c823e00c4f3114cbe85a4db73a89c7317f9bbc6634a6021521a9ab/yandexcloud-0.99.0.tar.gz
+[2024-05-28 10:57:23] INFO root fetch - processPackages [sunyata]: executing diffoscope
+[2024-05-28 10:57:23] INFO root fetch - processPackages [sunyata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunyata-0.0.46.tar.gz tmp/sunyata-0.0.47.tar.gz --markdown 20240528/s/sunyata/0.0.46-0.0.47/README.md --exclude *.pyd
+[2024-05-28 10:57:23] INFO root fetch - processPackages [chess-transformer]: executing diffoscope
+[2024-05-28 10:57:23] INFO root fetch - processPackages [chess-transformer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chess_transformer-0.1.6.tar.gz tmp/chess_transformer-0.1.7.tar.gz --markdown 20240528/c/chess-transformer/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-28 10:57:23] INFO root fetch - processPackages [stereotype]: Downloading https://files.pythonhosted.org/packages/f7/dc/1af7983a3f9094d612c6b11b41ae6fb2f2f8e9d7fc058299dd085e4b75c4/stereotype-1.5.1.tar.gz
+[2024-05-28 10:57:23] INFO root fetch - processPackages [codegrade]: Downloading https://files.pythonhosted.org/packages/5c/19/067059110db7547fcfe643055d33ab487be554e0741049ea108c0e330c22/codegrade-16.1.9.tar.gz
+[2024-05-28 10:57:23] INFO root fetch - processPackages [yandexcloud]: executing diffoscope
+[2024-05-28 10:57:23] INFO root fetch - processPackages [yandexcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yandexcloud-0.98.0.tar.gz tmp/yandexcloud-0.99.0.tar.gz --markdown 20240528/y/yandexcloud/0.98.0-0.99.0/README.md --exclude *.pyd
+[2024-05-28 10:57:23] INFO root fetch - processPackages [odoo12-addon-vertical-carsharing-emc]: Downloading https://files.pythonhosted.org/packages/81/f7/33fe6109167a7c7e9f9cb927dc55ddf2a246faafd41ddc9ffe0f99081203/odoo12_addon_vertical_carsharing_emc-12.0.0.0.9-py3-none-any.whl
+[2024-05-28 10:57:23] INFO root fetch - processPackages [mini-racer]: Downloading https://files.pythonhosted.org/packages/23/f1/8a84ac147dd69560bc9c5163e2fc9821bef5e9d55cae3ab387889ec41334/mini_racer-0.9.0.tar.gz
+[2024-05-28 10:57:23] INFO root fetch - processPackages [codegrade]: executing diffoscope
+[2024-05-28 10:57:23] INFO root fetch - processPackages [codegrade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codegrade-16.1.8.tar.gz tmp/codegrade-16.1.9.tar.gz --markdown 20240528/c/codegrade/16.1.8-16.1.9/README.md --exclude *.pyd
+[2024-05-28 10:57:23] INFO root fetch - processPackages [stereotype]: executing diffoscope
+[2024-05-28 10:57:23] INFO root fetch - processPackages [stereotype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stereotype-1.5.0.tar.gz tmp/stereotype-1.5.1.tar.gz --markdown 20240528/s/stereotype/1.5.0-1.5.1/README.md --exclude *.pyd
+[2024-05-28 10:57:23] INFO root fetch - processPackages [odoo12-addon-vertical-carsharing-emc]: executing diffoscope
+[2024-05-28 10:57:23] INFO root fetch - processPackages [odoo12-addon-vertical-carsharing-emc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_vertical_carsharing_emc-12.0.0.0.8-py3-none-any.whl.zip tmp/odoo12_addon_vertical_carsharing_emc-12.0.0.0.9-py3-none-any.whl.zip --markdown 20240528/o/odoo12-addon-vertical-carsharing-emc/12.0.0.0.8-12.0.0.0.9/README.md --exclude *.pyd
+[2024-05-28 10:57:23] INFO root fetch - processPackages [mini-racer]: executing diffoscope
+[2024-05-28 10:57:23] INFO root fetch - processPackages [mini-racer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mini_racer-0.8.1.tar.gz tmp/mini_racer-0.9.0.tar.gz --markdown 20240528/m/mini-racer/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-28 10:57:24] INFO root fetch - processPackages [chess-transformer]: Remove: archive file [/home/abi/fetcher/tmp/chess_transformer-0.1.6.tar.gz]
+[2024-05-28 10:57:24] INFO root fetch - processPackages [chess-transformer]: Remove: archive file [/home/abi/fetcher/tmp/chess_transformer-0.1.7.tar.gz]
+[2024-05-28 10:57:24] INFO root fetch - main [MainThread]: End processing [chess-transformer]: success
+[2024-05-28 10:57:24] INFO root fetch - processPackages [sunyata]: Remove: archive file [/home/abi/fetcher/tmp/sunyata-0.0.46.tar.gz]
+[2024-05-28 10:57:24] INFO root fetch - processPackages [sunyata]: Remove: archive file [/home/abi/fetcher/tmp/sunyata-0.0.47.tar.gz]
+[2024-05-28 10:57:24] INFO root fetch - main [MainThread]: End processing [sunyata]: success
+[2024-05-28 10:57:24] INFO root fetch - processPackages [odoo12-addon-vertical-carsharing-emc]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_vertical_carsharing_emc-12.0.0.0.8-py3-none-any.whl.zip]
+[2024-05-28 10:57:24] INFO root fetch - processPackages [odoo12-addon-vertical-carsharing-emc]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_vertical_carsharing_emc-12.0.0.0.9-py3-none-any.whl.zip]
+[2024-05-28 10:57:24] INFO root fetch - main [MainThread]: End processing [odoo12-addon-vertical-carsharing-emc]: success
+[2024-05-28 10:57:24] INFO root fetch - processPackages [stereotype]: Remove: archive file [/home/abi/fetcher/tmp/stereotype-1.5.0.tar.gz]
+[2024-05-28 10:57:24] INFO root fetch - processPackages [stereotype]: Remove: archive file [/home/abi/fetcher/tmp/stereotype-1.5.1.tar.gz]
+[2024-05-28 10:57:24] INFO root fetch - main [MainThread]: End processing [stereotype]: success
+[2024-05-28 10:57:24] INFO root fetch - processPackages [mini-racer]: Remove: archive file [/home/abi/fetcher/tmp/mini_racer-0.8.1.tar.gz]
+[2024-05-28 10:57:24] INFO root fetch - processPackages [mini-racer]: Remove: archive file [/home/abi/fetcher/tmp/mini_racer-0.9.0.tar.gz]
+[2024-05-28 10:57:24] INFO root fetch - main [MainThread]: End processing [mini-racer]: success
+[2024-05-28 10:57:25] INFO root fetch - processPackages [codegrade]: Remove: archive file [/home/abi/fetcher/tmp/codegrade-16.1.8.tar.gz]
+[2024-05-28 10:57:25] INFO root fetch - processPackages [codegrade]: Remove: archive file [/home/abi/fetcher/tmp/codegrade-16.1.9.tar.gz]
+[2024-05-28 10:57:25] INFO root fetch - main [MainThread]: End processing [codegrade]: success
+[2024-05-28 10:57:26] INFO root fetch - processPackages [yandexcloud]: Remove: archive file [/home/abi/fetcher/tmp/yandexcloud-0.98.0.tar.gz]
+[2024-05-28 10:57:26] INFO root fetch - processPackages [yandexcloud]: Remove: archive file [/home/abi/fetcher/tmp/yandexcloud-0.99.0.tar.gz]
+[2024-05-28 10:57:26] INFO root fetch - main [MainThread]: End processing [yandexcloud]: success
+[2024-05-28 10:57:26] INFO root fetch - main [MainThread]: Store serial: [23408411]
