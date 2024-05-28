@@ -3560,3 +3560,36 @@
 [2024-05-28 04:04:26] INFO root fetch - processPackages [filez4eva]: Remove: archive file [/home/abi/fetcher/tmp/filez4eva-3.0.1.tar.gz]
 [2024-05-28 04:04:26] INFO root fetch - main [MainThread]: End processing [filez4eva]: success
 [2024-05-28 04:04:26] INFO root fetch - main [MainThread]: Store serial: [23404262]
+[2024-05-28 04:06:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23404262]
+[2024-05-28 04:06:34] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-28 04:06:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flet-box-gui
+[2024-05-28 04:06:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ns-search-saved-export
+[2024-05-28 04:06:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arcan
+[2024-05-28 04:06:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: docmesh-core
+[2024-05-28 04:06:34] INFO root fetch - processPackages [ns-search-saved-export]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-28 04:06:34] INFO root fetch - processPackages [ns-search-saved-export]: Downloading https://files.pythonhosted.org/packages/ad/19/6a820f4c3be3a3981cf4a88677aa6b9f48cd806d357f75f0483f8437e1a9/ns_search_saved_export-0.1.6.tar.gz
+[2024-05-28 04:06:34] WARNING root fetch - processPackages [flet-box-gui]: Skipping, unable to determine old version
+[2024-05-28 04:06:34] INFO root fetch - main [MainThread]: End processing [flet-box-gui] error
+[2024-05-28 04:06:34] INFO root fetch - processPackages [arcan]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-28 04:06:34] INFO root fetch - processPackages [docmesh-core]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-28 04:06:35] INFO root fetch - processPackages [arcan]: Downloading https://files.pythonhosted.org/packages/e3/23/ce9b491214267a7a46560fd2ffe007a73514f00d96f593718a8b36408cfa/arcan-0.1.0.tar.gz
+[2024-05-28 04:06:35] INFO root fetch - processPackages [docmesh-core]: Downloading https://files.pythonhosted.org/packages/a3/79/d9bc004bfc279a44ed20456d2291276a0531edffff8ccdb16e8541ea48ca/docmesh_core-0.0.8.tar.gz
+[2024-05-28 04:06:35] INFO root fetch - processPackages [ns-search-saved-export]: Downloading https://files.pythonhosted.org/packages/d7/54/635ffd69f00a091b04cc6b083163b9ff718ff1e22be1fe97ffbfb05e2051/ns_search_saved_export-0.1.7.tar.gz
+[2024-05-28 04:06:35] INFO root fetch - processPackages [ns-search-saved-export]: executing diffoscope
+[2024-05-28 04:06:35] INFO root fetch - processPackages [ns-search-saved-export]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ns_search_saved_export-0.1.6.tar.gz tmp/ns_search_saved_export-0.1.7.tar.gz --markdown 20240528/n/ns-search-saved-export/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-28 04:06:35] INFO root fetch - processPackages [arcan]: Downloading https://files.pythonhosted.org/packages/c7/ca/31062c2126e385d31523fa2bc28f0f52f5f94b945a4ad12bd5f61252825a/arcan-0.1.1.tar.gz
+[2024-05-28 04:06:35] INFO root fetch - processPackages [docmesh-core]: Downloading https://files.pythonhosted.org/packages/d6/89/4e5e06acbd9fd64c128954c7f0f43c0b5423e73d15cb7075e3e4d27c55f4/docmesh_core-0.0.9.tar.gz
+[2024-05-28 04:06:35] INFO root fetch - processPackages [arcan]: executing diffoscope
+[2024-05-28 04:06:35] INFO root fetch - processPackages [arcan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcan-0.1.0.tar.gz tmp/arcan-0.1.1.tar.gz --markdown 20240528/a/arcan/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-28 04:06:35] INFO root fetch - processPackages [docmesh-core]: executing diffoscope
+[2024-05-28 04:06:35] INFO root fetch - processPackages [docmesh-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docmesh_core-0.0.8.tar.gz tmp/docmesh_core-0.0.9.tar.gz --markdown 20240528/d/docmesh-core/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-28 04:06:35] INFO root fetch - processPackages [ns-search-saved-export]: Remove: archive file [/home/abi/fetcher/tmp/ns_search_saved_export-0.1.6.tar.gz]
+[2024-05-28 04:06:35] INFO root fetch - processPackages [ns-search-saved-export]: Remove: archive file [/home/abi/fetcher/tmp/ns_search_saved_export-0.1.7.tar.gz]
+[2024-05-28 04:06:35] INFO root fetch - main [MainThread]: End processing [ns-search-saved-export]: success
+[2024-05-28 04:06:36] INFO root fetch - processPackages [docmesh-core]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_core-0.0.8.tar.gz]
+[2024-05-28 04:06:36] INFO root fetch - processPackages [docmesh-core]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_core-0.0.9.tar.gz]
+[2024-05-28 04:06:36] INFO root fetch - main [MainThread]: End processing [docmesh-core]: success
+[2024-05-28 04:06:36] INFO root fetch - processPackages [arcan]: Remove: archive file [/home/abi/fetcher/tmp/arcan-0.1.0.tar.gz]
+[2024-05-28 04:06:36] INFO root fetch - processPackages [arcan]: Remove: archive file [/home/abi/fetcher/tmp/arcan-0.1.1.tar.gz]
+[2024-05-28 04:06:36] INFO root fetch - main [MainThread]: End processing [arcan]: success
+[2024-05-28 04:06:36] INFO root fetch - main [MainThread]: Store serial: [23404273]
