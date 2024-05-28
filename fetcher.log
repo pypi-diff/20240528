@@ -2170,3 +2170,38 @@
 [2024-05-28 02:31:52] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl_nightly-0.1.5.dev20240528.tar.gz]
 [2024-05-28 02:31:52] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
 [2024-05-28 02:31:52] INFO root fetch - main [MainThread]: Store serial: [23403673]
+[2024-05-28 02:33:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23403673]
+[2024-05-28 02:34:01] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-28 02:36:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23403673]
+[2024-05-28 02:36:06] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-28 02:36:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: x-transformers
+[2024-05-28 02:36:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: perspective-parquet
+[2024-05-28 02:36:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbprint
+[2024-05-28 02:36:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dlq-handlerl-lib
+[2024-05-28 02:36:06] WARNING root fetch - processPackages [dlq-handlerl-lib]: Skipping, unable to determine old version
+[2024-05-28 02:36:06] INFO root fetch - main [MainThread]: End processing [dlq-handlerl-lib] error
+[2024-05-28 02:36:06] INFO root fetch - processPackages [nbprint]: New version: [0.1.9] Old Version: [0.1.7]
+[2024-05-28 02:36:06] INFO root fetch - processPackages [perspective-parquet]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-28 02:36:06] INFO root fetch - processPackages [x-transformers]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-05-28 02:36:07] INFO root fetch - processPackages [perspective-parquet]: Downloading https://files.pythonhosted.org/packages/7b/83/5c81fbf581663acd79ea0c6e09230306faed9ad585c766e499399e20fd9b/perspective_parquet-0.1.1.tar.gz
+[2024-05-28 02:36:07] INFO root fetch - processPackages [nbprint]: Downloading https://files.pythonhosted.org/packages/81/f1/f824deee5e37acfceb3ad9c1f70a91638b131baee29fc07067294e07e999/nbprint-0.1.7.tar.gz
+[2024-05-28 02:36:07] INFO root fetch - processPackages [x-transformers]: Downloading https://files.pythonhosted.org/packages/4c/e4/1f4432d217a1facf7a79aa2e2a08ffdbcf411f13bef9bd9bd3307a99a1af/x-transformers-1.9.1.tar.gz
+[2024-05-28 02:36:07] INFO root fetch - processPackages [nbprint]: Downloading https://files.pythonhosted.org/packages/f6/6a/bba883dc3f63315c52e8cf0ef4b3621705b2499cc5427bf38641c55672ed/nbprint-0.1.9.tar.gz
+[2024-05-28 02:36:07] INFO root fetch - processPackages [x-transformers]: Downloading https://files.pythonhosted.org/packages/ce/c4/a338a8fcfd77c21d7b28960180987b186017522eb0ad53cfdce2ad6c59f5/x-transformers-1.9.2.tar.gz
+[2024-05-28 02:36:07] INFO root fetch - processPackages [nbprint]: executing diffoscope
+[2024-05-28 02:36:07] INFO root fetch - processPackages [nbprint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbprint-0.1.7.tar.gz tmp/nbprint-0.1.9.tar.gz --markdown 20240528/n/nbprint/0.1.7-0.1.9/README.md --exclude *.pyd
+[2024-05-28 02:36:07] INFO root fetch - processPackages [x-transformers]: executing diffoscope
+[2024-05-28 02:36:07] INFO root fetch - processPackages [x-transformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/x-transformers-1.9.1.tar.gz tmp/x-transformers-1.9.2.tar.gz --markdown 20240528/x/x-transformers/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-05-28 02:36:07] INFO root fetch - processPackages [perspective-parquet]: Downloading https://files.pythonhosted.org/packages/72/fd/2c6cb15a5dc041307eb5efe5ed1cec60d141c651d8eb4a1923103ca63e71/perspective_parquet-0.1.2.tar.gz
+[2024-05-28 02:36:08] INFO root fetch - processPackages [perspective-parquet]: executing diffoscope
+[2024-05-28 02:36:08] INFO root fetch - processPackages [perspective-parquet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perspective_parquet-0.1.1.tar.gz tmp/perspective_parquet-0.1.2.tar.gz --markdown 20240528/p/perspective-parquet/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-28 02:36:08] INFO root fetch - processPackages [x-transformers]: Remove: archive file [/home/abi/fetcher/tmp/x-transformers-1.9.1.tar.gz]
+[2024-05-28 02:36:08] INFO root fetch - processPackages [x-transformers]: Remove: archive file [/home/abi/fetcher/tmp/x-transformers-1.9.2.tar.gz]
+[2024-05-28 02:36:08] INFO root fetch - main [MainThread]: End processing [x-transformers]: success
+[2024-05-28 02:36:10] INFO root fetch - processPackages [perspective-parquet]: Remove: archive file [/home/abi/fetcher/tmp/perspective_parquet-0.1.1.tar.gz]
+[2024-05-28 02:36:10] INFO root fetch - processPackages [perspective-parquet]: Remove: archive file [/home/abi/fetcher/tmp/perspective_parquet-0.1.2.tar.gz]
+[2024-05-28 02:36:10] INFO root fetch - main [MainThread]: End processing [perspective-parquet]: success
+[2024-05-28 02:36:54] INFO root fetch - processPackages [nbprint]: Remove: archive file [/home/abi/fetcher/tmp/nbprint-0.1.7.tar.gz]
+[2024-05-28 02:36:54] INFO root fetch - processPackages [nbprint]: Remove: archive file [/home/abi/fetcher/tmp/nbprint-0.1.9.tar.gz]
+[2024-05-28 02:36:54] INFO root fetch - main [MainThread]: End processing [nbprint]: success
+[2024-05-28 02:36:54] INFO root fetch - main [MainThread]: Store serial: [23403689]
