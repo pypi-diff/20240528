@@ -14158,3 +14158,84 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 11:30:00] INFO root fetch - processPackages [jupyterlab-widgets]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_widgets-3.0.9.tar.gz]
 [2024-05-28 11:30:00] INFO root fetch - main [MainThread]: End processing [jupyterlab-widgets]: success
 [2024-05-28 11:30:00] INFO root fetch - main [MainThread]: Store serial: [23408837]
+[2024-05-28 11:32:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23408837]
+[2024-05-28 11:32:09] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-28 11:32:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: felimination
+[2024-05-28 11:32:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cally
+[2024-05-28 11:32:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ovos-skill-speedtest
+[2024-05-28 11:32:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: widgetsnbextension
+[2024-05-28 11:32:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gwml
+[2024-05-28 11:32:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: blue-media
+[2024-05-28 11:32:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: python-moss
+[2024-05-28 11:32:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dlg-paletteGen
+[2024-05-28 11:32:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: saltext.pushover
+[2024-05-28 11:32:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dbrepo
+[2024-05-28 11:32:10] INFO root fetch - processPackages [cally]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-05-28 11:32:10] INFO root fetch - processPackages [blue-media]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-28 11:32:10] INFO root fetch - processPackages [dlg-paletteGen]: New version: [0.3.7] Old Version: [0.3.6]
+[2024-05-28 11:32:10] INFO root fetch - processPackages [felimination]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-28 11:32:10] INFO root fetch - processPackages [widgetsnbextension]: New version: [4.0.9] Old Version: [4.0.8]
+[2024-05-28 11:32:10] WARNING root fetch - processPackages [ovos-skill-speedtest]: Skipping, unable to determine old version
+[2024-05-28 11:32:10] INFO root fetch - main [MainThread]: End processing [ovos-skill-speedtest] error
+[2024-05-28 11:32:10] WARNING root fetch - processPackages [saltext.pushover]: Skipping, unable to determine old version
+[2024-05-28 11:32:10] INFO root fetch - main [MainThread]: End processing [saltext.pushover] error
+[2024-05-28 11:32:10] INFO root fetch - processPackages [dlg-paletteGen]: Downloading https://files.pythonhosted.org/packages/61/b2/d55ac29f9d54355e758c6e2f829b3d3145015c3dbfa9968270db167ec6ad/dlg_palettegen-0.3.6.tar.gz
+[2024-05-28 11:32:10] INFO root fetch - processPackages [python-moss]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-28 11:32:10] INFO root fetch - processPackages [blue-media]: Downloading https://files.pythonhosted.org/packages/1b/de/434c6a69c83c1b4f5cd9d605d013c56b4eb9453f49befdad7e6229ac35ca/blue_media-0.0.2.tar.gz
+[2024-05-28 11:32:10] INFO root fetch - processPackages [dbrepo]: New version: [1.4.4rc0] Old Version: [1.4.3rc3]
+[2024-05-28 11:32:10] INFO root fetch - processPackages [cally]: Downloading https://files.pythonhosted.org/packages/fc/d7/d89a7bfb1d5bd10389d9ff782c20d784288a39fae10ff6eae7e63ecd4775/cally-0.4.2.tar.gz
+[2024-05-28 11:32:10] INFO root fetch - processPackages [widgetsnbextension]: Downloading https://files.pythonhosted.org/packages/7e/2d/94bd231949a19e0bc291361d965bade2db511890e65c2f360ddc61a06e4b/widgetsnbextension-4.0.8.tar.gz
+[2024-05-28 11:32:10] INFO root fetch - processPackages [felimination]: Downloading https://files.pythonhosted.org/packages/46/1a/c067cd7fa4db99b74e4b997def4abb3cc25a22f8e0e8bf68ce01fbc9be30/felimination-0.2.2.tar.gz
+[2024-05-28 11:32:10] INFO root fetch - processPackages [gwml]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-28 11:32:10] INFO root fetch - processPackages [python-moss]: Downloading https://files.pythonhosted.org/packages/f5/8e/1ef850108e3843aa8bfda16905e249cc6ceb8d797f9535a958b685ab18a1/python_moss-0.2.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-28 11:32:10] INFO root fetch - processPackages [dbrepo]: Downloading https://files.pythonhosted.org/packages/16/8f/7a6a5804a6448dff5efc01624463639e4953e535e2ea18998c9e494a6d13/dbrepo-1.4.3rc3.tar.gz
+[2024-05-28 11:32:10] INFO root fetch - processPackages [blue-media]: Downloading https://files.pythonhosted.org/packages/60/6c/319922f9bb9caebf76ed2b43a7a74f08c8cbbc19a31a93346c31500e5d1c/blue_media-0.0.3.tar.gz
+[2024-05-28 11:32:10] INFO root fetch - processPackages [dlg-paletteGen]: Downloading https://files.pythonhosted.org/packages/1f/6e/cc95db215e9e287590703c5df9af95549c9e7efdf7887dd197e66b7341e5/dlg_palettegen-0.3.7.tar.gz
+[2024-05-28 11:32:10] INFO root fetch - processPackages [widgetsnbextension]: Downloading https://files.pythonhosted.org/packages/a1/e4/684abbfeb7a7a2e6a17aa8a5815e954a069edc0f567d912d2d3ffee800a9/widgetsnbextension-4.0.9.tar.gz
+[2024-05-28 11:32:10] INFO root fetch - processPackages [gwml]: Downloading https://files.pythonhosted.org/packages/47/79/35f2aec062d3c81ebab5765160def7b5d50bdbf3087ce2356423b76525c5/gwml-0.1.5-py3-none-any.whl
+[2024-05-28 11:32:10] INFO root fetch - processPackages [cally]: Downloading https://files.pythonhosted.org/packages/d8/87/d51318369b5f40e2469fce45ac27a13d895ae79a00b3862d23aa42e5817c/cally-0.4.3.tar.gz
+[2024-05-28 11:32:10] INFO root fetch - processPackages [blue-media]: executing diffoscope
+[2024-05-28 11:32:10] INFO root fetch - processPackages [blue-media]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blue_media-0.0.2.tar.gz tmp/blue_media-0.0.3.tar.gz --markdown 20240528/b/blue-media/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-28 11:32:10] INFO root fetch - processPackages [dlg-paletteGen]: executing diffoscope
+[2024-05-28 11:32:10] INFO root fetch - processPackages [dlg-paletteGen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlg_palettegen-0.3.6.tar.gz tmp/dlg_palettegen-0.3.7.tar.gz --markdown 20240528/d/dlg-paletteGen/0.3.6-0.3.7/README.md --exclude *.pyd
+[2024-05-28 11:32:10] INFO root fetch - processPackages [felimination]: Downloading https://files.pythonhosted.org/packages/8c/94/2110200e1a8048cec485040329fc2ada5b641e94f1705bf02f2f04234723/felimination-0.2.3.tar.gz
+[2024-05-28 11:32:10] INFO root fetch - processPackages [cally]: executing diffoscope
+[2024-05-28 11:32:10] INFO root fetch - processPackages [cally]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cally-0.4.2.tar.gz tmp/cally-0.4.3.tar.gz --markdown 20240528/c/cally/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-05-28 11:32:10] INFO root fetch - processPackages [widgetsnbextension]: executing diffoscope
+[2024-05-28 11:32:10] INFO root fetch - processPackages [widgetsnbextension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/widgetsnbextension-4.0.8.tar.gz tmp/widgetsnbextension-4.0.9.tar.gz --markdown 20240528/w/widgetsnbextension/4.0.8-4.0.9/README.md --exclude *.pyd
+[2024-05-28 11:32:10] INFO root fetch - processPackages [felimination]: executing diffoscope
+[2024-05-28 11:32:10] INFO root fetch - processPackages [felimination]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/felimination-0.2.2.tar.gz tmp/felimination-0.2.3.tar.gz --markdown 20240528/f/felimination/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-28 11:32:11] INFO root fetch - processPackages [dbrepo]: Downloading https://files.pythonhosted.org/packages/28/26/7ae55ed8d9218d49342dda5d844b30376c8857ae0a3861f1cc2549aaa552/dbrepo-1.4.4rc0.tar.gz
+[2024-05-28 11:32:11] INFO root fetch - processPackages [gwml]: Downloading https://files.pythonhosted.org/packages/4e/2d/c8a43834d7b4dbacf33ff399b8cfafa3e79552414f105c0ffcbb1b85c632/gwml-0.1.6-py3-none-any.whl
+[2024-05-28 11:32:11] INFO root fetch - processPackages [gwml]: executing diffoscope
+[2024-05-28 11:32:11] INFO root fetch - processPackages [gwml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gwml-0.1.5-py3-none-any.whl.zip tmp/gwml-0.1.6-py3-none-any.whl.zip --markdown 20240528/g/gwml/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-28 11:32:11] INFO root fetch - processPackages [blue-media]: Remove: archive file [/home/abi/fetcher/tmp/blue_media-0.0.2.tar.gz]
+[2024-05-28 11:32:11] INFO root fetch - processPackages [blue-media]: Remove: archive file [/home/abi/fetcher/tmp/blue_media-0.0.3.tar.gz]
+[2024-05-28 11:32:11] INFO root fetch - main [MainThread]: End processing [blue-media]: success
+[2024-05-28 11:32:11] INFO root fetch - processPackages [felimination]: Remove: archive file [/home/abi/fetcher/tmp/felimination-0.2.2.tar.gz]
+[2024-05-28 11:32:11] INFO root fetch - processPackages [felimination]: Remove: archive file [/home/abi/fetcher/tmp/felimination-0.2.3.tar.gz]
+[2024-05-28 11:32:11] INFO root fetch - main [MainThread]: End processing [felimination]: success
+[2024-05-28 11:32:11] INFO root fetch - processPackages [dlg-paletteGen]: Remove: archive file [/home/abi/fetcher/tmp/dlg_palettegen-0.3.6.tar.gz]
+[2024-05-28 11:32:11] INFO root fetch - processPackages [dlg-paletteGen]: Remove: archive file [/home/abi/fetcher/tmp/dlg_palettegen-0.3.7.tar.gz]
+[2024-05-28 11:32:11] INFO root fetch - main [MainThread]: End processing [dlg-paletteGen]: success
+[2024-05-28 11:32:11] INFO root fetch - processPackages [dbrepo]: executing diffoscope
+[2024-05-28 11:32:11] INFO root fetch - processPackages [dbrepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbrepo-1.4.3rc3.tar.gz tmp/dbrepo-1.4.4rc0.tar.gz --markdown 20240528/d/dbrepo/1.4.3rc3-1.4.4rc0/README.md --exclude *.pyd
+[2024-05-28 11:32:11] INFO root fetch - processPackages [cally]: Remove: archive file [/home/abi/fetcher/tmp/cally-0.4.2.tar.gz]
+[2024-05-28 11:32:11] INFO root fetch - processPackages [cally]: Remove: archive file [/home/abi/fetcher/tmp/cally-0.4.3.tar.gz]
+[2024-05-28 11:32:11] INFO root fetch - main [MainThread]: End processing [cally]: success
+[2024-05-28 11:32:11] INFO root fetch - processPackages [python-moss]: Downloading https://files.pythonhosted.org/packages/bb/a5/72da86df351c8a2971f5ba781e2e7b6e2256a5c243f64595a127845cc2a9/python_moss-0.2.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-28 11:32:11] INFO root fetch - processPackages [gwml]: Remove: archive file [/home/abi/fetcher/tmp/gwml-0.1.5-py3-none-any.whl.zip]
+[2024-05-28 11:32:11] INFO root fetch - processPackages [gwml]: Remove: archive file [/home/abi/fetcher/tmp/gwml-0.1.6-py3-none-any.whl.zip]
+[2024-05-28 11:32:11] INFO root fetch - main [MainThread]: End processing [gwml]: success
+[2024-05-28 11:32:12] INFO root fetch - processPackages [dbrepo]: Remove: archive file [/home/abi/fetcher/tmp/dbrepo-1.4.3rc3.tar.gz]
+[2024-05-28 11:32:12] INFO root fetch - processPackages [dbrepo]: Remove: archive file [/home/abi/fetcher/tmp/dbrepo-1.4.4rc0.tar.gz]
+[2024-05-28 11:32:12] INFO root fetch - main [MainThread]: End processing [dbrepo]: success
+[2024-05-28 11:32:13] INFO root fetch - processPackages [python-moss]: executing diffoscope
+[2024-05-28 11:32:13] INFO root fetch - processPackages [python-moss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_moss-0.2.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/python_moss-0.2.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240528/p/python-moss/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-28 11:32:49] INFO root fetch - processPackages [widgetsnbextension]: Remove: archive file [/home/abi/fetcher/tmp/widgetsnbextension-4.0.8.tar.gz]
+[2024-05-28 11:32:49] INFO root fetch - processPackages [widgetsnbextension]: Remove: archive file [/home/abi/fetcher/tmp/widgetsnbextension-4.0.9.tar.gz]
+[2024-05-28 11:32:49] INFO root fetch - main [MainThread]: End processing [widgetsnbextension]: success
+[2024-05-28 11:33:08] INFO root fetch - processPackages [python-moss]: Remove: archive file [/home/abi/fetcher/tmp/python_moss-0.2.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-28 11:33:08] INFO root fetch - processPackages [python-moss]: Remove: archive file [/home/abi/fetcher/tmp/python_moss-0.2.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-28 11:33:08] INFO root fetch - main [MainThread]: End processing [python-moss]: success
+[2024-05-28 11:33:08] INFO root fetch - main [MainThread]: Store serial: [23408869]
