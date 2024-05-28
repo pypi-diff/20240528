@@ -4678,3 +4678,54 @@
 [2024-05-28 05:17:18] INFO root fetch - processPackages [keras-cv-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_cv_nightly-0.9.0.dev2024043000.tar.gz]
 [2024-05-28 05:17:18] INFO root fetch - main [MainThread]: End processing [keras-cv-nightly]: success
 [2024-05-28 05:17:18] INFO root fetch - main [MainThread]: Store serial: [23404661]
+[2024-05-28 05:19:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23404661]
+[2024-05-28 05:19:26] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-28 05:19:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yoto-api
+[2024-05-28 05:19:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zyb-db
+[2024-05-28 05:19:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openresty-edge-sdk
+[2024-05-28 05:19:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyregrws
+[2024-05-28 05:19:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lunapi
+[2024-05-28 05:19:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mystmd
+[2024-05-28 05:19:27] INFO root fetch - processPackages [pyregrws]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-28 05:19:27] INFO root fetch - processPackages [mystmd]: New version: [1.2.5] Old Version: [1.2.4]
+[2024-05-28 05:19:27] WARNING root fetch - processPackages [zyb-db]: Skipping, unable to determine old version
+[2024-05-28 05:19:27] INFO root fetch - main [MainThread]: End processing [zyb-db] error
+[2024-05-28 05:19:27] INFO root fetch - processPackages [openresty-edge-sdk]: New version: [1.2.53] Old Version: [1.2.52]
+[2024-05-28 05:19:27] INFO root fetch - processPackages [yoto-api]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-28 05:19:27] INFO root fetch - processPackages [lunapi]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-05-28 05:19:27] INFO root fetch - processPackages [pyregrws]: Downloading https://files.pythonhosted.org/packages/b9/d5/eca794c643576afa8ce4d8d10a081ec33fe4dabd2be5e33bb90ad9fb43bb/pyregrws-0.1.4.tar.gz
+[2024-05-28 05:19:27] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/0c/ce/e8631b9319eccf4ffbaef962e56044d41f29cb3f8c07be1556f741f2569a/yoto_api-1.8.0.tar.gz
+[2024-05-28 05:19:27] INFO root fetch - processPackages [openresty-edge-sdk]: Downloading https://files.pythonhosted.org/packages/96/d1/cc7f4777ba394ccac879990f3b0ff1901ce733e822210deade6d5031322b/openresty-edge-sdk-1.2.52.tar.gz
+[2024-05-28 05:19:27] INFO root fetch - processPackages [mystmd]: Downloading https://files.pythonhosted.org/packages/d6/45/747572412b5c6b582fc0c7a6705d15b575b9413d67ee4d7368832148dc5e/mystmd-1.2.4.tar.gz
+[2024-05-28 05:19:27] INFO root fetch - processPackages [lunapi]: Downloading https://files.pythonhosted.org/packages/06/03/1a50cdc7e4b1ae244d25cbe3deecfb1db91d47914f6d5b1a2ae9a9978b25/lunapi-0.0.9-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-28 05:19:27] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/28/bc/e9d37198654bf82ae9be692dd9ee95b753eb8ca5b6edf44ab69ecca38f17/yoto_api-1.9.0.tar.gz
+[2024-05-28 05:19:27] INFO root fetch - processPackages [pyregrws]: Downloading https://files.pythonhosted.org/packages/1c/cb/0f5d86ff1653d5559bceef352094b7ddfc8af4a29d19480517a9ad94e21b/pyregrws-0.1.5.tar.gz
+[2024-05-28 05:19:27] INFO root fetch - processPackages [openresty-edge-sdk]: Downloading https://files.pythonhosted.org/packages/63/65/ab2c280896bc83962984d93f21c699f1b70e81fa899b5219fac3287c26fd/openresty_edge_sdk-1.2.53.tar.gz
+[2024-05-28 05:19:27] INFO root fetch - processPackages [pyregrws]: executing diffoscope
+[2024-05-28 05:19:27] INFO root fetch - processPackages [pyregrws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyregrws-0.1.4.tar.gz tmp/pyregrws-0.1.5.tar.gz --markdown 20240528/p/pyregrws/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-28 05:19:27] INFO root fetch - processPackages [yoto-api]: executing diffoscope
+[2024-05-28 05:19:27] INFO root fetch - processPackages [yoto-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yoto_api-1.8.0.tar.gz tmp/yoto_api-1.9.0.tar.gz --markdown 20240528/y/yoto-api/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-28 05:19:27] INFO root fetch - processPackages [openresty-edge-sdk]: executing diffoscope
+[2024-05-28 05:19:27] INFO root fetch - processPackages [openresty-edge-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openresty-edge-sdk-1.2.52.tar.gz tmp/openresty_edge_sdk-1.2.53.tar.gz --markdown 20240528/o/openresty-edge-sdk/1.2.52-1.2.53/README.md --exclude *.pyd
+[2024-05-28 05:19:28] INFO root fetch - processPackages [mystmd]: Downloading https://files.pythonhosted.org/packages/15/f2/b668357bca0506bb54ea7c070d88e583ce20749e9c1623b0a4f149eab3c3/mystmd-1.2.5.tar.gz
+[2024-05-28 05:19:28] INFO root fetch - processPackages [pyregrws]: Remove: archive file [/home/abi/fetcher/tmp/pyregrws-0.1.4.tar.gz]
+[2024-05-28 05:19:28] INFO root fetch - processPackages [pyregrws]: Remove: archive file [/home/abi/fetcher/tmp/pyregrws-0.1.5.tar.gz]
+[2024-05-28 05:19:28] INFO root fetch - main [MainThread]: End processing [pyregrws]: success
+[2024-05-28 05:19:28] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.8.0.tar.gz]
+[2024-05-28 05:19:28] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.9.0.tar.gz]
+[2024-05-28 05:19:28] INFO root fetch - main [MainThread]: End processing [yoto-api]: success
+[2024-05-28 05:19:28] INFO root fetch - processPackages [openresty-edge-sdk]: Remove: archive file [/home/abi/fetcher/tmp/openresty-edge-sdk-1.2.52.tar.gz]
+[2024-05-28 05:19:28] INFO root fetch - processPackages [openresty-edge-sdk]: Remove: archive file [/home/abi/fetcher/tmp/openresty_edge_sdk-1.2.53.tar.gz]
+[2024-05-28 05:19:28] INFO root fetch - main [MainThread]: End processing [openresty-edge-sdk]: success
+[2024-05-28 05:19:29] INFO root fetch - processPackages [lunapi]: Downloading https://files.pythonhosted.org/packages/b7/13/0e1ceb3afdedce9664e8d11597c9873b5951341f5f8340f3e0ed49023686/lunapi-0.1.0-pp39-pypy39_pp73-macosx_11_0_arm64.whl
+[2024-05-28 05:19:29] INFO root fetch - processPackages [mystmd]: executing diffoscope
+[2024-05-28 05:19:29] INFO root fetch - processPackages [mystmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mystmd-1.2.4.tar.gz tmp/mystmd-1.2.5.tar.gz --markdown 20240528/m/mystmd/1.2.4-1.2.5/README.md --exclude *.pyd
+[2024-05-28 05:19:31] INFO root fetch - processPackages [lunapi]: executing diffoscope
+[2024-05-28 05:19:31] INFO root fetch - processPackages [lunapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lunapi-0.0.9-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/lunapi-0.1.0-pp39-pypy39_pp73-macosx_11_0_arm64.whl.zip --markdown 20240528/l/lunapi/0.0.9-0.1.0/README.md --exclude *.pyd
+[2024-05-28 05:19:32] INFO root fetch - processPackages [lunapi]: Remove: archive file [/home/abi/fetcher/tmp/lunapi-0.0.9-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-28 05:19:32] INFO root fetch - processPackages [lunapi]: Remove: archive file [/home/abi/fetcher/tmp/lunapi-0.1.0-pp39-pypy39_pp73-macosx_11_0_arm64.whl.zip]
+[2024-05-28 05:19:32] INFO root fetch - main [MainThread]: End processing [lunapi]: success
+[2024-05-28 05:19:37] INFO root fetch - processPackages [mystmd]: Remove: archive file [/home/abi/fetcher/tmp/mystmd-1.2.4.tar.gz]
+[2024-05-28 05:19:37] INFO root fetch - processPackages [mystmd]: Remove: archive file [/home/abi/fetcher/tmp/mystmd-1.2.5.tar.gz]
+[2024-05-28 05:19:37] INFO root fetch - main [MainThread]: End processing [mystmd]: success
+[2024-05-28 05:19:37] INFO root fetch - main [MainThread]: Store serial: [23404681]
