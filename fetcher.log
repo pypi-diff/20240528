@@ -8533,3 +8533,197 @@
 [2024-05-28 08:12:02] INFO root fetch - processPackages [pyobjc-framework-SpriteKit]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-SpriteKit-9.2.tar.gz]
 [2024-05-28 08:12:02] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-SpriteKit]: success
 [2024-05-28 08:12:02] INFO root fetch - main [MainThread]: Store serial: [23406257]
+[2024-05-28 08:14:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23406257]
+[2024-05-28 08:14:12] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2024-05-28 08:14:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyobjc-framework-Symbols
+[2024-05-28 08:14:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyobjc-framework-SyncServices
+[2024-05-28 08:14:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyobjc-framework-SystemConfiguration
+[2024-05-28 08:14:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyobjc-framework-SystemExtensions
+[2024-05-28 08:14:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyobjc-framework-ThreadNetwork
+[2024-05-28 08:14:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyobjc-framework-UniformTypeIdentifiers
+[2024-05-28 08:14:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyobjc-framework-UserNotifications
+[2024-05-28 08:14:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyobjc-framework-UserNotificationsUI
+[2024-05-28 08:14:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyobjc-framework-VideoSubscriberAccount
+[2024-05-28 08:14:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyobjc-framework-VideoToolbox
+[2024-05-28 08:14:12] INFO root fetch - processPackages [pyobjc-framework-ThreadNetwork]: New version: [9.2] Old Version: [9.1b1]
+[2024-05-28 08:14:12] INFO root fetch - processPackages [pyobjc-framework-UserNotifications]: New version: [9.2] Old Version: [9.1b1]
+[2024-05-28 08:14:12] INFO root fetch - processPackages [pyobjc-framework-Symbols]: New version: [10.3] Old Version: [10.2]
+[2024-05-28 08:14:12] INFO root fetch - processPackages [pyobjc-framework-UserNotificationsUI]: New version: [9.2] Old Version: [9.1b1]
+[2024-05-28 08:14:12] INFO root fetch - processPackages [pyobjc-framework-SyncServices]: New version: [9.2] Old Version: [9.1b1]
+[2024-05-28 08:14:12] INFO root fetch - processPackages [pyobjc-framework-UniformTypeIdentifiers]: New version: [9.2] Old Version: [9.1b1]
+[2024-05-28 08:14:12] INFO root fetch - processPackages [pyobjc-framework-VideoSubscriberAccount]: New version: [9.2] Old Version: [9.1b1]
+[2024-05-28 08:14:12] INFO root fetch - processPackages [pyobjc-framework-VideoToolbox]: New version: [9.2] Old Version: [9.1b1]
+[2024-05-28 08:14:12] INFO root fetch - processPackages [pyobjc-framework-SystemExtensions]: New version: [9.2] Old Version: [9.1b1]
+[2024-05-28 08:14:12] INFO root fetch - processPackages [pyobjc-framework-Symbols]: Downloading https://files.pythonhosted.org/packages/59/2a/879f79570a0c6e91d51a0ae5b64b7c3813c7962a9591dd1bfeb37276e51d/pyobjc-framework-Symbols-10.2.tar.gz
+[2024-05-28 08:14:12] INFO root fetch - processPackages [pyobjc-framework-SystemConfiguration]: New version: [9.2] Old Version: [9.1b1]
+[2024-05-28 08:14:12] INFO root fetch - processPackages [pyobjc-framework-ThreadNetwork]: Downloading https://files.pythonhosted.org/packages/8a/87/f51173b86dc9b4a9216574e2519cbc547431755d76d71ffa18f555020136/pyobjc-framework-ThreadNetwork-9.1b1.tar.gz
+[2024-05-28 08:14:12] INFO root fetch - processPackages [pyobjc-framework-UserNotificationsUI]: Downloading https://files.pythonhosted.org/packages/6c/af/d57a7ac86e489c669c99ae5c694306724d9112ee942b6ef65d64eccf9ba4/pyobjc-framework-UserNotificationsUI-9.1b1.tar.gz
+[2024-05-28 08:14:12] INFO root fetch - processPackages [pyobjc-framework-UserNotifications]: Downloading https://files.pythonhosted.org/packages/e6/7a/da0df130ddebdbf241a4b7228e1daee71b8a8d4cc1d11f704f4050c3e5ce/pyobjc-framework-UserNotifications-9.1b1.tar.gz
+[2024-05-28 08:14:12] INFO root fetch - processPackages [pyobjc-framework-SyncServices]: Downloading https://files.pythonhosted.org/packages/b1/79/7219aab8565ec74f5584b1eb748f43c9d790aec0f5985a0be721eba6f2bd/pyobjc-framework-SyncServices-9.1b1.tar.gz
+[2024-05-28 08:14:12] INFO root fetch - processPackages [pyobjc-framework-Symbols]: Downloading https://files.pythonhosted.org/packages/88/58/5bba55dc4821a916fcf3133de758261150abe61442197dabb26a5540f825/pyobjc_framework_Symbols-10.3-py2.py3-none-any.whl
+[2024-05-28 08:14:12] INFO root fetch - processPackages [pyobjc-framework-UniformTypeIdentifiers]: Downloading https://files.pythonhosted.org/packages/3a/b2/23df7ea99f3b49defef1719f745d52eb4cf491f337adc17281c419cfe9dd/pyobjc-framework-UniformTypeIdentifiers-9.1b1.tar.gz
+[2024-05-28 08:14:12] INFO root fetch - processPackages [pyobjc-framework-VideoSubscriberAccount]: Downloading https://files.pythonhosted.org/packages/d5/6a/0d8a1cd3f1a32ec0f8a9e4238d7dbb933a027c22ddff46e8dad1dd82b21f/pyobjc-framework-VideoSubscriberAccount-9.1b1.tar.gz
+[2024-05-28 08:14:12] INFO root fetch - processPackages [pyobjc-framework-SystemExtensions]: Downloading https://files.pythonhosted.org/packages/ac/ef/3956eb31b73d7ce1647fa22cd43643c29b156ad1541b35d77afc4f4e41df/pyobjc-framework-SystemExtensions-9.1b1.tar.gz
+[2024-05-28 08:14:12] INFO root fetch - processPackages [pyobjc-framework-SystemConfiguration]: Downloading https://files.pythonhosted.org/packages/ac/03/299656f3f5942f493410ea40003d5233aa368e8fedbfea2d2d0bbb69435b/pyobjc-framework-SystemConfiguration-9.1b1.tar.gz
+[2024-05-28 08:14:12] INFO root fetch - processPackages [pyobjc-framework-VideoToolbox]: Downloading https://files.pythonhosted.org/packages/c2/11/d55719c180434ae574ef1e219fead7f80e2744ecb13059de43ceb6d9e5cc/pyobjc-framework-VideoToolbox-9.1b1.tar.gz
+[2024-05-28 08:14:12] INFO root fetch - processPackages [pyobjc-framework-Symbols]: executing diffoscope
+[2024-05-28 08:14:12] INFO root fetch - processPackages [pyobjc-framework-Symbols]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-Symbols-10.2.tar.gz tmp/pyobjc_framework_Symbols-10.3-py2.py3-none-any.whl.zip --markdown 20240528/p/pyobjc-framework-Symbols/10.2-10.3/README.md --exclude *.pyd
+[2024-05-28 08:14:12] INFO root fetch - processPackages [pyobjc-framework-UserNotificationsUI]: Downloading https://files.pythonhosted.org/packages/84/8b/5a6fe56a459d4a9fb93a112d40b65613011479162f1a218dbff5cc3ea25a/pyobjc-framework-UserNotificationsUI-9.2.tar.gz
+[2024-05-28 08:14:13] INFO root fetch - processPackages [pyobjc-framework-UserNotifications]: Downloading https://files.pythonhosted.org/packages/f7/fb/22924927c5e7d1496297d90f91811d1da425c31e8bcfac9f02444df0717a/pyobjc-framework-UserNotifications-9.2.tar.gz
+[2024-05-28 08:14:13] INFO root fetch - processPackages [pyobjc-framework-SyncServices]: Downloading https://files.pythonhosted.org/packages/0a/78/cfe5d78e0cf6d8a0672c15dc2501142e050caa53d1b25dfb70488a1ce601/pyobjc-framework-SyncServices-9.2.tar.gz
+[2024-05-28 08:14:13] INFO root fetch - processPackages [pyobjc-framework-VideoSubscriberAccount]: Downloading https://files.pythonhosted.org/packages/8a/70/8c038bc86f384b8c5bdf25348e253d9f2240821c7350117468b326b7bcbf/pyobjc-framework-VideoSubscriberAccount-9.2.tar.gz
+[2024-05-28 08:14:13] INFO root fetch - processPackages [pyobjc-framework-UniformTypeIdentifiers]: Downloading https://files.pythonhosted.org/packages/51/83/c5af99327381c85787d54f8d71573741e658d12e114d6f97cf98af9824b5/pyobjc-framework-UniformTypeIdentifiers-9.2.tar.gz
+[2024-05-28 08:14:13] INFO root fetch - processPackages [pyobjc-framework-SystemExtensions]: Downloading https://files.pythonhosted.org/packages/f3/b3/3768a7415aa04429df7f9254bb772bf05a999d77a8b8916303d6b38a5868/pyobjc-framework-SystemExtensions-9.2.tar.gz
+[2024-05-28 08:14:13] INFO root fetch - processPackages [pyobjc-framework-SystemConfiguration]: Downloading https://files.pythonhosted.org/packages/a1/49/d59fb1cb18bcb901de39faee2244eaedc33162be06bccf5baf5d2945d487/pyobjc-framework-SystemConfiguration-9.2.tar.gz
+[2024-05-28 08:14:13] INFO root fetch - processPackages [pyobjc-framework-UserNotificationsUI]: executing diffoscope
+[2024-05-28 08:14:13] INFO root fetch - processPackages [pyobjc-framework-UserNotificationsUI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-UserNotificationsUI-9.1b1.tar.gz tmp/pyobjc-framework-UserNotificationsUI-9.2.tar.gz --markdown 20240528/p/pyobjc-framework-UserNotificationsUI/9.1b1-9.2/README.md --exclude *.pyd
+[2024-05-28 08:14:13] INFO root fetch - processPackages [pyobjc-framework-UserNotifications]: executing diffoscope
+[2024-05-28 08:14:13] INFO root fetch - processPackages [pyobjc-framework-UserNotifications]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-UserNotifications-9.1b1.tar.gz tmp/pyobjc-framework-UserNotifications-9.2.tar.gz --markdown 20240528/p/pyobjc-framework-UserNotifications/9.1b1-9.2/README.md --exclude *.pyd
+[2024-05-28 08:14:13] INFO root fetch - processPackages [pyobjc-framework-ThreadNetwork]: Downloading https://files.pythonhosted.org/packages/cf/09/1fd70e3917eb0283310a0919aace228d771a2fcecaaa265563f2363cc3b9/pyobjc-framework-ThreadNetwork-9.2.tar.gz
+[2024-05-28 08:14:13] INFO root fetch - processPackages [pyobjc-framework-VideoSubscriberAccount]: executing diffoscope
+[2024-05-28 08:14:13] INFO root fetch - processPackages [pyobjc-framework-VideoSubscriberAccount]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-VideoSubscriberAccount-9.1b1.tar.gz tmp/pyobjc-framework-VideoSubscriberAccount-9.2.tar.gz --markdown 20240528/p/pyobjc-framework-VideoSubscriberAccount/9.1b1-9.2/README.md --exclude *.pyd
+[2024-05-28 08:14:13] INFO root fetch - processPackages [pyobjc-framework-UniformTypeIdentifiers]: executing diffoscope
+[2024-05-28 08:14:13] INFO root fetch - processPackages [pyobjc-framework-UniformTypeIdentifiers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-UniformTypeIdentifiers-9.1b1.tar.gz tmp/pyobjc-framework-UniformTypeIdentifiers-9.2.tar.gz --markdown 20240528/p/pyobjc-framework-UniformTypeIdentifiers/9.1b1-9.2/README.md --exclude *.pyd
+[2024-05-28 08:14:13] INFO root fetch - processPackages [pyobjc-framework-SyncServices]: executing diffoscope
+[2024-05-28 08:14:13] INFO root fetch - processPackages [pyobjc-framework-SyncServices]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-SyncServices-9.1b1.tar.gz tmp/pyobjc-framework-SyncServices-9.2.tar.gz --markdown 20240528/p/pyobjc-framework-SyncServices/9.1b1-9.2/README.md --exclude *.pyd
+[2024-05-28 08:14:13] INFO root fetch - processPackages [pyobjc-framework-SystemConfiguration]: executing diffoscope
+[2024-05-28 08:14:13] INFO root fetch - processPackages [pyobjc-framework-SystemConfiguration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-SystemConfiguration-9.1b1.tar.gz tmp/pyobjc-framework-SystemConfiguration-9.2.tar.gz --markdown 20240528/p/pyobjc-framework-SystemConfiguration/9.1b1-9.2/README.md --exclude *.pyd
+[2024-05-28 08:14:13] INFO root fetch - processPackages [pyobjc-framework-Symbols]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-Symbols-10.2.tar.gz]
+[2024-05-28 08:14:13] INFO root fetch - processPackages [pyobjc-framework-Symbols]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc_framework_Symbols-10.3-py2.py3-none-any.whl.zip]
+[2024-05-28 08:14:13] INFO root fetch - processPackages [pyobjc-framework-Symbols]: Start processing: pyobjc-framework-Virtualization
+[2024-05-28 08:14:13] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-Symbols]: success
+[2024-05-28 08:14:13] INFO root fetch - processPackages [pyobjc-framework-ThreadNetwork]: executing diffoscope
+[2024-05-28 08:14:13] INFO root fetch - processPackages [pyobjc-framework-ThreadNetwork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-ThreadNetwork-9.1b1.tar.gz tmp/pyobjc-framework-ThreadNetwork-9.2.tar.gz --markdown 20240528/p/pyobjc-framework-ThreadNetwork/9.1b1-9.2/README.md --exclude *.pyd
+[2024-05-28 08:14:13] INFO root fetch - processPackages [pyobjc-framework-VideoToolbox]: Downloading https://files.pythonhosted.org/packages/7c/10/ef46c926fc2c7fa05484c605007fc54626c87c715b03d4c3a776436dddd0/pyobjc-framework-VideoToolbox-9.2.tar.gz
+[2024-05-28 08:14:13] INFO root fetch - processPackages [pyobjc-framework-Virtualization]: New version: [9.2] Old Version: [9.1b1]
+[2024-05-28 08:14:13] INFO root fetch - processPackages [pyobjc-framework-SystemExtensions]: executing diffoscope
+[2024-05-28 08:14:13] INFO root fetch - processPackages [pyobjc-framework-SystemExtensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-SystemExtensions-9.1b1.tar.gz tmp/pyobjc-framework-SystemExtensions-9.2.tar.gz --markdown 20240528/p/pyobjc-framework-SystemExtensions/9.1b1-9.2/README.md --exclude *.pyd
+[2024-05-28 08:14:13] INFO root fetch - processPackages [pyobjc-framework-VideoToolbox]: executing diffoscope
+[2024-05-28 08:14:13] INFO root fetch - processPackages [pyobjc-framework-VideoToolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-VideoToolbox-9.1b1.tar.gz tmp/pyobjc-framework-VideoToolbox-9.2.tar.gz --markdown 20240528/p/pyobjc-framework-VideoToolbox/9.1b1-9.2/README.md --exclude *.pyd
+[2024-05-28 08:14:13] INFO root fetch - processPackages [pyobjc-framework-Virtualization]: Downloading https://files.pythonhosted.org/packages/ac/96/6526e13e80883ed21f248856ccbda20dfd96b25a50bcebc997755628adc4/pyobjc-framework-Virtualization-9.1b1.tar.gz
+[2024-05-28 08:14:14] INFO root fetch - processPackages [pyobjc-framework-UserNotificationsUI]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-UserNotificationsUI-9.1b1.tar.gz]
+[2024-05-28 08:14:14] INFO root fetch - processPackages [pyobjc-framework-UserNotificationsUI]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-UserNotificationsUI-9.2.tar.gz]
+[2024-05-28 08:14:14] INFO root fetch - processPackages [pyobjc-framework-UserNotificationsUI]: Start processing: pyobjc-framework-Vision
+[2024-05-28 08:14:14] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-UserNotificationsUI]: success
+[2024-05-28 08:14:14] INFO root fetch - processPackages [pyobjc-framework-Virtualization]: Downloading https://files.pythonhosted.org/packages/7e/58/cb15abb219994bd9b678b48d07193c9b86dfae9525d39f31393e92ad6cd9/pyobjc-framework-Virtualization-9.2.tar.gz
+[2024-05-28 08:14:14] INFO root fetch - processPackages [pyobjc-framework-VideoSubscriberAccount]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-VideoSubscriberAccount-9.1b1.tar.gz]
+[2024-05-28 08:14:14] INFO root fetch - processPackages [pyobjc-framework-VideoSubscriberAccount]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-VideoSubscriberAccount-9.2.tar.gz]
+[2024-05-28 08:14:14] INFO root fetch - processPackages [pyobjc-framework-VideoSubscriberAccount]: Start processing: pyobjc-framework-WebKit
+[2024-05-28 08:14:14] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-VideoSubscriberAccount]: success
+[2024-05-28 08:14:14] INFO root fetch - processPackages [pyobjc-framework-UserNotifications]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-UserNotifications-9.1b1.tar.gz]
+[2024-05-28 08:14:14] INFO root fetch - processPackages [pyobjc-framework-UserNotifications]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-UserNotifications-9.2.tar.gz]
+[2024-05-28 08:14:14] INFO root fetch - processPackages [pyobjc-framework-UserNotifications]: Start processing: pyobjc-framework-iTunesLibrary
+[2024-05-28 08:14:14] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-UserNotifications]: success
+[2024-05-28 08:14:14] INFO root fetch - processPackages [pyobjc-framework-Vision]: New version: [9.2] Old Version: [9.1b1]
+[2024-05-28 08:14:14] INFO root fetch - processPackages [pyobjc-framework-SyncServices]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-SyncServices-9.1b1.tar.gz]
+[2024-05-28 08:14:14] INFO root fetch - processPackages [pyobjc-framework-SyncServices]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-SyncServices-9.2.tar.gz]
+[2024-05-28 08:14:14] INFO root fetch - processPackages [pyobjc-framework-SyncServices]: Start processing: pyobjc-framework-libdispatch
+[2024-05-28 08:14:14] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-SyncServices]: success
+[2024-05-28 08:14:14] INFO root fetch - processPackages [pyobjc-framework-Virtualization]: executing diffoscope
+[2024-05-28 08:14:14] INFO root fetch - processPackages [pyobjc-framework-Virtualization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-Virtualization-9.1b1.tar.gz tmp/pyobjc-framework-Virtualization-9.2.tar.gz --markdown 20240528/p/pyobjc-framework-Virtualization/9.1b1-9.2/README.md --exclude *.pyd
+[2024-05-28 08:14:14] INFO root fetch - processPackages [pyobjc-framework-ThreadNetwork]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-ThreadNetwork-9.1b1.tar.gz]
+[2024-05-28 08:14:14] INFO root fetch - processPackages [pyobjc-framework-ThreadNetwork]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-ThreadNetwork-9.2.tar.gz]
+[2024-05-28 08:14:14] INFO root fetch - processPackages [pyobjc-framework-ThreadNetwork]: Start processing: pyobjc-framework-libxpc
+[2024-05-28 08:14:14] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-ThreadNetwork]: success
+[2024-05-28 08:14:14] INFO root fetch - processPackages [pyobjc-framework-WebKit]: New version: [9.2] Old Version: [9.1b1]
+[2024-05-28 08:14:14] INFO root fetch - processPackages [pyobjc-framework-libxpc]: New version: [9.2] Old Version: [9.1b1]
+[2024-05-28 08:14:14] INFO root fetch - processPackages [pyobjc-framework-iTunesLibrary]: New version: [9.2] Old Version: [9.1b1]
+[2024-05-28 08:14:14] INFO root fetch - processPackages [pyobjc-framework-UniformTypeIdentifiers]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-UniformTypeIdentifiers-9.1b1.tar.gz]
+[2024-05-28 08:14:14] INFO root fetch - processPackages [pyobjc-framework-UniformTypeIdentifiers]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-UniformTypeIdentifiers-9.2.tar.gz]
+[2024-05-28 08:14:14] INFO root fetch - processPackages [pyobjc-framework-UniformTypeIdentifiers]: Start processing: download-center
+[2024-05-28 08:14:14] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-UniformTypeIdentifiers]: success
+[2024-05-28 08:14:14] INFO root fetch - processPackages [download-center]: New version: [5.4.0] Old Version: [5.3.9]
+[2024-05-28 08:14:14] INFO root fetch - processPackages [pyobjc-framework-libdispatch]: New version: [9.2] Old Version: [9.1b1]
+[2024-05-28 08:14:14] INFO root fetch - processPackages [pyobjc-framework-Vision]: Downloading https://files.pythonhosted.org/packages/67/f0/3121612b62c69a4ae71cf6ba485c1c5fcc5c1d0bbfa9840ec31c49bde981/pyobjc-framework-Vision-9.1b1.tar.gz
+[2024-05-28 08:14:14] INFO root fetch - processPackages [pyobjc-framework-SystemExtensions]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-SystemExtensions-9.1b1.tar.gz]
+[2024-05-28 08:14:14] INFO root fetch - processPackages [pyobjc-framework-SystemExtensions]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-SystemExtensions-9.2.tar.gz]
+[2024-05-28 08:14:14] INFO root fetch - processPackages [pyobjc-framework-SystemExtensions]: Start processing: pyg-nightly
+[2024-05-28 08:14:14] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-SystemExtensions]: success
+[2024-05-28 08:14:14] INFO root fetch - processPackages [pyg-nightly]: New version: [2.6.0.dev20240527] Old Version: [2.6.0.dev20240526]
+[2024-05-28 08:14:14] INFO root fetch - processPackages [pyobjc-framework-SystemConfiguration]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-SystemConfiguration-9.1b1.tar.gz]
+[2024-05-28 08:14:14] INFO root fetch - processPackages [pyobjc-framework-SystemConfiguration]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-SystemConfiguration-9.2.tar.gz]
+[2024-05-28 08:14:14] INFO root fetch - processPackages [pyobjc-framework-SystemConfiguration]: Start processing: alibabacloud-antirisk20221128
+[2024-05-28 08:14:14] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-SystemConfiguration]: success
+[2024-05-28 08:14:14] INFO root fetch - processPackages [download-center]: Downloading https://files.pythonhosted.org/packages/95/35/dc76a0559493239431324f1d52542daa2a1b65d71a74ec51eb0214cebe21/download-center-5.3.9.tar.gz
+[2024-05-28 08:14:14] INFO root fetch - processPackages [pyobjc-framework-libxpc]: Downloading https://files.pythonhosted.org/packages/48/e6/ca3f7bcbf3fd17bfe54091bf47cd9c90f19df3fca05fcc82aaa90e1582b4/pyobjc-framework-libxpc-9.1b1.tar.gz
+[2024-05-28 08:14:14] INFO root fetch - processPackages [pyobjc-framework-iTunesLibrary]: Downloading https://files.pythonhosted.org/packages/0b/59/9eb7798e39210cf4ebf9f8a2faff5ab112b3216f2e3fe3366f50a7e78fe0/pyobjc-framework-iTunesLibrary-9.1b1.tar.gz
+[2024-05-28 08:14:14] INFO root fetch - processPackages [pyobjc-framework-WebKit]: Downloading https://files.pythonhosted.org/packages/3e/e9/0b1c4b6df6df7e1363c79d46b0254b66fe36afbf1be8c35501f7f42af6ae/pyobjc-framework-WebKit-9.1b1.tar.gz
+[2024-05-28 08:14:14] INFO root fetch - processPackages [pyobjc-framework-VideoToolbox]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-VideoToolbox-9.1b1.tar.gz]
+[2024-05-28 08:14:14] INFO root fetch - processPackages [pyobjc-framework-VideoToolbox]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-VideoToolbox-9.2.tar.gz]
+[2024-05-28 08:14:14] INFO root fetch - processPackages [pyobjc-framework-VideoToolbox]: Start processing: ovos-core
+[2024-05-28 08:14:14] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-VideoToolbox]: success
+[2024-05-28 08:14:14] INFO root fetch - processPackages [pyobjc-framework-libdispatch]: Downloading https://files.pythonhosted.org/packages/a5/6a/fc5d58dec09c4be1d497d575799d3ea25ff28567c92e2382f4d9c913d500/pyobjc-framework-libdispatch-9.1b1.tar.gz
+[2024-05-28 08:14:14] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/e1/dc/1954c348cd1e924d383fcee48adb6d4bac938c4f1ea87fd6098f501b15d3/pyg_nightly-2.6.0.dev20240526.tar.gz
+[2024-05-28 08:14:14] INFO root fetch - processPackages [ovos-core]: New version: [0.0.8a99] Old Version: [0.0.8a98]
+[2024-05-28 08:14:14] WARNING root fetch - processPackages [alibabacloud-antirisk20221128]: Skipping, unable to determine old version
+[2024-05-28 08:14:14] INFO root fetch - processPackages [alibabacloud-antirisk20221128]: Start processing: ovos-solver-hivemind-plugin
+[2024-05-28 08:14:14] INFO root fetch - main [MainThread]: End processing [alibabacloud-antirisk20221128] error
+[2024-05-28 08:14:14] INFO root fetch - processPackages [ovos-core]: Downloading https://files.pythonhosted.org/packages/43/09/2b998a2fbb4c473f88a1adb0b7d511b133aff775b19c15441b76d479f339/ovos_core-0.0.8a98-py3-none-any.whl
+[2024-05-28 08:14:14] INFO root fetch - processPackages [pyobjc-framework-Vision]: Downloading https://files.pythonhosted.org/packages/07/9b/f5a99e28dd81a717cc7735edd3c1ad45b7e196c449ba84201ab31b82235c/pyobjc-framework-Vision-9.2.tar.gz
+[2024-05-28 08:14:14] INFO root fetch - processPackages [download-center]: Downloading https://files.pythonhosted.org/packages/f8/92/176e760f9a6897b1bcbb7374f9766c1ba741d8647769c485b8bd6849ed73/download-center-5.4.0.tar.gz
+[2024-05-28 08:14:14] WARNING root fetch - processPackages [ovos-core]: Skipping package: exceeds size limit 18555543>=10485760
+[2024-05-28 08:14:14] INFO root fetch - processPackages [ovos-core]: Start processing: peutils
+[2024-05-28 08:14:14] INFO root fetch - main [MainThread]: End processing [ovos-core] error
+[2024-05-28 08:14:15] INFO root fetch - processPackages [pyobjc-framework-Vision]: executing diffoscope
+[2024-05-28 08:14:15] INFO root fetch - processPackages [pyobjc-framework-Vision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-Vision-9.1b1.tar.gz tmp/pyobjc-framework-Vision-9.2.tar.gz --markdown 20240528/p/pyobjc-framework-Vision/9.1b1-9.2/README.md --exclude *.pyd
+[2024-05-28 08:14:15] INFO root fetch - processPackages [download-center]: executing diffoscope
+[2024-05-28 08:14:15] INFO root fetch - processPackages [download-center]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/download-center-5.3.9.tar.gz tmp/download-center-5.4.0.tar.gz --markdown 20240528/d/download-center/5.3.9-5.4.0/README.md --exclude *.pyd
+[2024-05-28 08:14:15] INFO root fetch - processPackages [pyobjc-framework-Virtualization]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-Virtualization-9.1b1.tar.gz]
+[2024-05-28 08:14:15] INFO root fetch - processPackages [pyobjc-framework-Virtualization]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-Virtualization-9.2.tar.gz]
+[2024-05-28 08:14:15] INFO root fetch - processPackages [pyobjc-framework-Virtualization]: Start processing: stocknotebridgenew
+[2024-05-28 08:14:15] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-Virtualization]: success
+[2024-05-28 08:14:15] INFO root fetch - processPackages [pyobjc-framework-iTunesLibrary]: Downloading https://files.pythonhosted.org/packages/66/d5/dc7ae5b6e0cd7d2c0bea99e5ad647e6354dc54e4310692c5e8c3fe863566/pyobjc-framework-iTunesLibrary-9.2.tar.gz
+[2024-05-28 08:14:15] INFO root fetch - processPackages [peutils]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-28 08:14:15] INFO root fetch - processPackages [ovos-solver-hivemind-plugin]: New version: [0.0.0a8] Old Version: [0.0.0a7]
+[2024-05-28 08:14:15] INFO root fetch - processPackages [pyobjc-framework-libdispatch]: Downloading https://files.pythonhosted.org/packages/f1/73/455a8b92d3fc5b47b22e8055b6df19be96b2aa13715676e70a9cb7ed00b2/pyobjc-framework-libdispatch-9.2.tar.gz
+[2024-05-28 08:14:15] WARNING root fetch - processPackages [stocknotebridgenew]: Skipping, unable to determine old version
+[2024-05-28 08:14:15] INFO root fetch - main [MainThread]: End processing [stocknotebridgenew] error
+[2024-05-28 08:14:15] INFO root fetch - processPackages [pyobjc-framework-libxpc]: Downloading https://files.pythonhosted.org/packages/17/ae/e82b137ed19556c0e075a9c61ac316b8476abef6d965f87c0d24cb9fc0ed/pyobjc-framework-libxpc-9.2.tar.gz
+[2024-05-28 08:14:15] INFO root fetch - processPackages [pyobjc-framework-WebKit]: Downloading https://files.pythonhosted.org/packages/87/34/1a04b818bdefc2bf273038a8d83eeebf51301603c2f7df3b892d3533ed23/pyobjc-framework-WebKit-9.2.tar.gz
+[2024-05-28 08:14:15] INFO root fetch - processPackages [pyobjc-framework-iTunesLibrary]: executing diffoscope
+[2024-05-28 08:14:15] INFO root fetch - processPackages [pyobjc-framework-iTunesLibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-iTunesLibrary-9.1b1.tar.gz tmp/pyobjc-framework-iTunesLibrary-9.2.tar.gz --markdown 20240528/p/pyobjc-framework-iTunesLibrary/9.1b1-9.2/README.md --exclude *.pyd
+[2024-05-28 08:14:15] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/74/4f/45e1bea2b838f23a9eea16c08870337cf743f5a0b85aee620adf161c34f9/pyg_nightly-2.6.0.dev20240527.tar.gz
+[2024-05-28 08:14:15] INFO root fetch - processPackages [pyobjc-framework-libdispatch]: executing diffoscope
+[2024-05-28 08:14:15] INFO root fetch - processPackages [pyobjc-framework-libdispatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-libdispatch-9.1b1.tar.gz tmp/pyobjc-framework-libdispatch-9.2.tar.gz --markdown 20240528/p/pyobjc-framework-libdispatch/9.1b1-9.2/README.md --exclude *.pyd
+[2024-05-28 08:14:15] INFO root fetch - processPackages [peutils]: Downloading https://files.pythonhosted.org/packages/86/56/fc38c0e7cb317b1857f035c575fbf769b42801fd4ebbac8e63455b682efc/peutils-0.0.98.tar.gz
+[2024-05-28 08:14:15] INFO root fetch - processPackages [ovos-solver-hivemind-plugin]: Downloading https://files.pythonhosted.org/packages/5d/1e/c0c0fea76faa0818d46e87343ed0560df9a7842deddbf4d8c7362b3c334a/ovos_solver_hivemind_plugin-0.0.0a7-py3-none-any.whl
+[2024-05-28 08:14:15] INFO root fetch - processPackages [pyobjc-framework-libxpc]: executing diffoscope
+[2024-05-28 08:14:15] INFO root fetch - processPackages [pyobjc-framework-libxpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-libxpc-9.1b1.tar.gz tmp/pyobjc-framework-libxpc-9.2.tar.gz --markdown 20240528/p/pyobjc-framework-libxpc/9.1b1-9.2/README.md --exclude *.pyd
+[2024-05-28 08:14:15] INFO root fetch - processPackages [pyobjc-framework-WebKit]: executing diffoscope
+[2024-05-28 08:14:15] INFO root fetch - processPackages [pyobjc-framework-WebKit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-WebKit-9.1b1.tar.gz tmp/pyobjc-framework-WebKit-9.2.tar.gz --markdown 20240528/p/pyobjc-framework-WebKit/9.1b1-9.2/README.md --exclude *.pyd
+[2024-05-28 08:14:15] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2024-05-28 08:14:15] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.6.0.dev20240526.tar.gz tmp/pyg_nightly-2.6.0.dev20240527.tar.gz --markdown 20240528/p/pyg-nightly/2.6.0.dev20240526-2.6.0.dev20240527/README.md --exclude *.pyd
+[2024-05-28 08:14:15] INFO root fetch - processPackages [peutils]: Downloading https://files.pythonhosted.org/packages/ba/fe/8c48c448fd9667ae84b126cee4f1683e818dc74524c954a888b5bc50330a/peutils-0.0.99.tar.gz
+[2024-05-28 08:14:15] INFO root fetch - processPackages [ovos-solver-hivemind-plugin]: Downloading https://files.pythonhosted.org/packages/f7/36/fa134049c8a9853555f50efd52a6939c7ebb5a6a4bf95ba988e902668291/ovos_solver_hivemind_plugin-0.0.0a8-py3-none-any.whl
+[2024-05-28 08:14:15] INFO root fetch - processPackages [peutils]: executing diffoscope
+[2024-05-28 08:14:15] INFO root fetch - processPackages [peutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peutils-0.0.98.tar.gz tmp/peutils-0.0.99.tar.gz --markdown 20240528/p/peutils/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-28 08:14:16] INFO root fetch - processPackages [ovos-solver-hivemind-plugin]: executing diffoscope
+[2024-05-28 08:14:16] INFO root fetch - processPackages [ovos-solver-hivemind-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_solver_hivemind_plugin-0.0.0a7-py3-none-any.whl.zip tmp/ovos_solver_hivemind_plugin-0.0.0a8-py3-none-any.whl.zip --markdown 20240528/o/ovos-solver-hivemind-plugin/0.0.0a7-0.0.0a8/README.md --exclude *.pyd
+[2024-05-28 08:14:16] INFO root fetch - processPackages [download-center]: Remove: archive file [/home/abi/fetcher/tmp/download-center-5.3.9.tar.gz]
+[2024-05-28 08:14:16] INFO root fetch - processPackages [download-center]: Remove: archive file [/home/abi/fetcher/tmp/download-center-5.4.0.tar.gz]
+[2024-05-28 08:14:16] INFO root fetch - main [MainThread]: End processing [download-center]: success
+[2024-05-28 08:14:16] INFO root fetch - processPackages [pyobjc-framework-Vision]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-Vision-9.1b1.tar.gz]
+[2024-05-28 08:14:16] INFO root fetch - processPackages [pyobjc-framework-Vision]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-Vision-9.2.tar.gz]
+[2024-05-28 08:14:16] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-Vision]: success
+[2024-05-28 08:14:16] INFO root fetch - processPackages [pyobjc-framework-libdispatch]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-libdispatch-9.1b1.tar.gz]
+[2024-05-28 08:14:16] INFO root fetch - processPackages [pyobjc-framework-libdispatch]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-libdispatch-9.2.tar.gz]
+[2024-05-28 08:14:16] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-libdispatch]: success
+[2024-05-28 08:14:16] INFO root fetch - processPackages [pyobjc-framework-libxpc]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-libxpc-9.1b1.tar.gz]
+[2024-05-28 08:14:16] INFO root fetch - processPackages [pyobjc-framework-libxpc]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-libxpc-9.2.tar.gz]
+[2024-05-28 08:14:16] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-libxpc]: success
+[2024-05-28 08:14:16] INFO root fetch - processPackages [pyobjc-framework-iTunesLibrary]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-iTunesLibrary-9.1b1.tar.gz]
+[2024-05-28 08:14:16] INFO root fetch - processPackages [pyobjc-framework-iTunesLibrary]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-iTunesLibrary-9.2.tar.gz]
+[2024-05-28 08:14:16] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-iTunesLibrary]: success
+[2024-05-28 08:14:16] INFO root fetch - processPackages [ovos-solver-hivemind-plugin]: Remove: archive file [/home/abi/fetcher/tmp/ovos_solver_hivemind_plugin-0.0.0a7-py3-none-any.whl.zip]
+[2024-05-28 08:14:16] INFO root fetch - processPackages [ovos-solver-hivemind-plugin]: Remove: archive file [/home/abi/fetcher/tmp/ovos_solver_hivemind_plugin-0.0.0a8-py3-none-any.whl.zip]
+[2024-05-28 08:14:16] INFO root fetch - main [MainThread]: End processing [ovos-solver-hivemind-plugin]: success
+[2024-05-28 08:14:16] INFO root fetch - processPackages [peutils]: Remove: archive file [/home/abi/fetcher/tmp/peutils-0.0.98.tar.gz]
+[2024-05-28 08:14:16] INFO root fetch - processPackages [peutils]: Remove: archive file [/home/abi/fetcher/tmp/peutils-0.0.99.tar.gz]
+[2024-05-28 08:14:16] INFO root fetch - main [MainThread]: End processing [peutils]: success
+[2024-05-28 08:14:17] INFO root fetch - processPackages [pyobjc-framework-WebKit]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-WebKit-9.1b1.tar.gz]
+[2024-05-28 08:14:17] INFO root fetch - processPackages [pyobjc-framework-WebKit]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-WebKit-9.2.tar.gz]
+[2024-05-28 08:14:17] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-WebKit]: success
+[2024-05-28 08:14:18] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240526.tar.gz]
+[2024-05-28 08:14:18] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240527.tar.gz]
+[2024-05-28 08:14:18] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2024-05-28 08:14:18] INFO root fetch - main [MainThread]: Store serial: [23406389]
