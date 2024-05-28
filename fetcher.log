@@ -11122,3 +11122,72 @@
 [2024-05-28 10:06:51] INFO root fetch - processPackages [c2cgeoportal-geoportal]: Remove: archive file [/home/abi/fetcher/tmp/c2cgeoportal_geoportal-2.8.1.96-py2.py3-none-any.whl.zip]
 [2024-05-28 10:06:51] INFO root fetch - main [MainThread]: End processing [c2cgeoportal-geoportal]: success
 [2024-05-28 10:06:51] INFO root fetch - main [MainThread]: Store serial: [23407383]
+[2024-05-28 10:08:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23407383]
+[2024-05-28 10:08:59] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-28 10:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: assessment-episode-matcher
+[2024-05-28 10:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dianDataAna
+[2024-05-28 10:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Furious-GUI
+[2024-05-28 10:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: opentf-tools-nightly
+[2024-05-28 10:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-oauth-emailbackend
+[2024-05-28 10:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: umj-framework-py-ex
+[2024-05-28 10:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyglove
+[2024-05-28 10:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pysui
+[2024-05-28 10:09:00] INFO root fetch - processPackages [umj-framework-py-ex]: New version: [1.0.1a6] Old Version: [1.0.1a5]
+[2024-05-28 10:09:00] INFO root fetch - processPackages [django-oauth-emailbackend]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-28 10:09:00] WARNING root fetch - processPackages [dianDataAna]: Skipping, unable to determine old version
+[2024-05-28 10:09:00] INFO root fetch - main [MainThread]: End processing [dianDataAna] error
+[2024-05-28 10:09:00] INFO root fetch - processPackages [umj-framework-py-ex]: Downloading https://files.pythonhosted.org/packages/95/27/221ee4ae12ec97ef9a447f14545c3b08fe2af107243d55afff572e6e283d/umj-framework-py-ex-1.0.1a5.tar.gz
+[2024-05-28 10:09:00] INFO root fetch - processPackages [assessment-episode-matcher]: New version: [0.5.3] Old Version: [0.5.2]
+[2024-05-28 10:09:00] INFO root fetch - processPackages [django-oauth-emailbackend]: Downloading https://files.pythonhosted.org/packages/65/73/1703d3411395c2088ff55879f3aaf89625adad95dbff2fabcf44a58cd45c/django_oauth_emailbackend-0.1.1.tar.gz
+[2024-05-28 10:09:00] INFO root fetch - processPackages [Furious-GUI]: New version: [0.4.6] Old Version: [0.4.5]
+[2024-05-28 10:09:00] INFO root fetch - processPackages [opentf-tools-nightly]: New version: [0.47.0.dev749] Old Version: [0.47.0.dev746]
+[2024-05-28 10:09:00] INFO root fetch - processPackages [pysui]: New version: [0.61.0] Old Version: [0.60.0]
+[2024-05-28 10:09:00] INFO root fetch - processPackages [pyglove]: New version: [0.4.5.dev20240528] Old Version: [0.4.5.dev20240527]
+[2024-05-28 10:09:00] INFO root fetch - processPackages [django-oauth-emailbackend]: Downloading https://files.pythonhosted.org/packages/98/c6/0597c97611a70f81fa28de8cf6b1e191500e78a9b712b14517ec92c8d642/django_oauth_emailbackend-0.1.2.tar.gz
+[2024-05-28 10:09:00] INFO root fetch - processPackages [pysui]: Downloading https://files.pythonhosted.org/packages/be/cb/8343b6b91fdbce1a2297e7d7973515001b7ea389c319eadb339227d2de22/pysui-0.60.0-py3-none-any.whl
+[2024-05-28 10:09:00] INFO root fetch - processPackages [assessment-episode-matcher]: Downloading https://files.pythonhosted.org/packages/a8/8b/80927d3c2485dbe12a80ad42ca396b246af9f1e697b9025f27da14eca373/assessment_episode_matcher-0.5.2.tar.gz
+[2024-05-28 10:09:00] INFO root fetch - processPackages [Furious-GUI]: Downloading https://files.pythonhosted.org/packages/72/64/39f212b24064450bb434a5a0e55b9f1443db3147ec2b7011d25cc8405773/Furious-GUI-0.4.5.tar.gz
+[2024-05-28 10:09:00] INFO root fetch - processPackages [opentf-tools-nightly]: Downloading https://files.pythonhosted.org/packages/ab/26/6173846e873e8c4ed4799f0ace55552f0ad3d81291d7f4a07de718cd469e/opentf_tools_nightly-0.47.0.dev746-py3-none-any.whl
+[2024-05-28 10:09:00] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/f0/5b/63a6598e79c3765c667616a83fec219ec39ab857d6ecf3009232d8a8656e/pyglove-0.4.5.dev20240527.tar.gz
+[2024-05-28 10:09:00] INFO root fetch - processPackages [umj-framework-py-ex]: Downloading https://files.pythonhosted.org/packages/8b/1a/0b1f973d7bf839ef1a1a1c03984cd709c6eac6fc16b95050426d0d3baab0/umj-framework-py-ex-1.0.1a6.tar.gz
+[2024-05-28 10:09:00] INFO root fetch - processPackages [django-oauth-emailbackend]: executing diffoscope
+[2024-05-28 10:09:00] INFO root fetch - processPackages [django-oauth-emailbackend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_oauth_emailbackend-0.1.1.tar.gz tmp/django_oauth_emailbackend-0.1.2.tar.gz --markdown 20240528/d/django-oauth-emailbackend/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-28 10:09:00] INFO root fetch - processPackages [umj-framework-py-ex]: executing diffoscope
+[2024-05-28 10:09:00] INFO root fetch - processPackages [umj-framework-py-ex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/umj-framework-py-ex-1.0.1a5.tar.gz tmp/umj-framework-py-ex-1.0.1a6.tar.gz --markdown 20240528/u/umj-framework-py-ex/1.0.1a5-1.0.1a6/README.md --exclude *.pyd
+[2024-05-28 10:09:00] INFO root fetch - processPackages [opentf-tools-nightly]: Downloading https://files.pythonhosted.org/packages/e8/af/33ae5200073f5cef2783d9bf1435462b397a180500a762ce216e74b6067f/opentf_tools_nightly-0.47.0.dev749-py3-none-any.whl
+[2024-05-28 10:09:00] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/5f/38/f78087f8efa28b4a556a87239182450fc7ddc3fcffc08a872e94b8a21458/pyglove-0.4.5.dev20240528.tar.gz
+[2024-05-28 10:09:00] INFO root fetch - processPackages [pysui]: Downloading https://files.pythonhosted.org/packages/f9/03/d4f30a2907929771e75170aee3af56ccaee438cd147748d7be1e283e8abb/pysui-0.61.0-py3-none-any.whl
+[2024-05-28 10:09:00] INFO root fetch - processPackages [assessment-episode-matcher]: Downloading https://files.pythonhosted.org/packages/7e/1b/c210304a04f853b9f9c04a070fe900b71a08b131905dddf52cb8c6da3210/assessment_episode_matcher-0.5.3.tar.gz
+[2024-05-28 10:09:01] INFO root fetch - processPackages [opentf-tools-nightly]: executing diffoscope
+[2024-05-28 10:09:01] INFO root fetch - processPackages [opentf-tools-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentf_tools_nightly-0.47.0.dev746-py3-none-any.whl.zip tmp/opentf_tools_nightly-0.47.0.dev749-py3-none-any.whl.zip --markdown 20240528/o/opentf-tools-nightly/0.47.0.dev746-0.47.0.dev749/README.md --exclude *.pyd
+[2024-05-28 10:09:01] INFO root fetch - processPackages [assessment-episode-matcher]: executing diffoscope
+[2024-05-28 10:09:01] INFO root fetch - processPackages [assessment-episode-matcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assessment_episode_matcher-0.5.2.tar.gz tmp/assessment_episode_matcher-0.5.3.tar.gz --markdown 20240528/a/assessment-episode-matcher/0.5.2-0.5.3/README.md --exclude *.pyd
+[2024-05-28 10:09:01] INFO root fetch - processPackages [pysui]: executing diffoscope
+[2024-05-28 10:09:01] INFO root fetch - processPackages [pysui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysui-0.60.0-py3-none-any.whl.zip tmp/pysui-0.61.0-py3-none-any.whl.zip --markdown 20240528/p/pysui/0.60.0-0.61.0/README.md --exclude *.pyd
+[2024-05-28 10:09:01] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2024-05-28 10:09:01] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.4.5.dev20240527.tar.gz tmp/pyglove-0.4.5.dev20240528.tar.gz --markdown 20240528/p/pyglove/0.4.5.dev20240527-0.4.5.dev20240528/README.md --exclude *.pyd
+[2024-05-28 10:09:01] INFO root fetch - processPackages [Furious-GUI]: Downloading https://files.pythonhosted.org/packages/27/f2/00dcaedeff8a2f421f2f78ebbe086124a6fbfaa9ea0b258503136643a137/Furious-GUI-0.4.6.tar.gz
+[2024-05-28 10:09:01] INFO root fetch - processPackages [umj-framework-py-ex]: Remove: archive file [/home/abi/fetcher/tmp/umj-framework-py-ex-1.0.1a5.tar.gz]
+[2024-05-28 10:09:01] INFO root fetch - processPackages [umj-framework-py-ex]: Remove: archive file [/home/abi/fetcher/tmp/umj-framework-py-ex-1.0.1a6.tar.gz]
+[2024-05-28 10:09:01] INFO root fetch - main [MainThread]: End processing [umj-framework-py-ex]: success
+[2024-05-28 10:09:01] INFO root fetch - processPackages [django-oauth-emailbackend]: Remove: archive file [/home/abi/fetcher/tmp/django_oauth_emailbackend-0.1.1.tar.gz]
+[2024-05-28 10:09:01] INFO root fetch - processPackages [django-oauth-emailbackend]: Remove: archive file [/home/abi/fetcher/tmp/django_oauth_emailbackend-0.1.2.tar.gz]
+[2024-05-28 10:09:01] INFO root fetch - main [MainThread]: End processing [django-oauth-emailbackend]: success
+[2024-05-28 10:09:01] INFO root fetch - processPackages [opentf-tools-nightly]: Remove: archive file [/home/abi/fetcher/tmp/opentf_tools_nightly-0.47.0.dev746-py3-none-any.whl.zip]
+[2024-05-28 10:09:01] INFO root fetch - processPackages [opentf-tools-nightly]: Remove: archive file [/home/abi/fetcher/tmp/opentf_tools_nightly-0.47.0.dev749-py3-none-any.whl.zip]
+[2024-05-28 10:09:01] INFO root fetch - main [MainThread]: End processing [opentf-tools-nightly]: success
+[2024-05-28 10:09:01] INFO root fetch - processPackages [Furious-GUI]: executing diffoscope
+[2024-05-28 10:09:01] INFO root fetch - processPackages [Furious-GUI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Furious-GUI-0.4.5.tar.gz tmp/Furious-GUI-0.4.6.tar.gz --markdown 20240528/F/Furious-GUI/0.4.5-0.4.6/README.md --exclude *.pyd
+[2024-05-28 10:09:01] INFO root fetch - processPackages [assessment-episode-matcher]: Remove: archive file [/home/abi/fetcher/tmp/assessment_episode_matcher-0.5.2.tar.gz]
+[2024-05-28 10:09:01] INFO root fetch - processPackages [assessment-episode-matcher]: Remove: archive file [/home/abi/fetcher/tmp/assessment_episode_matcher-0.5.3.tar.gz]
+[2024-05-28 10:09:01] INFO root fetch - main [MainThread]: End processing [assessment-episode-matcher]: success
+[2024-05-28 10:09:02] INFO root fetch - processPackages [pysui]: Remove: archive file [/home/abi/fetcher/tmp/pysui-0.60.0-py3-none-any.whl.zip]
+[2024-05-28 10:09:02] INFO root fetch - processPackages [pysui]: Remove: archive file [/home/abi/fetcher/tmp/pysui-0.61.0-py3-none-any.whl.zip]
+[2024-05-28 10:09:02] INFO root fetch - main [MainThread]: End processing [pysui]: success
+[2024-05-28 10:09:02] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240527.tar.gz]
+[2024-05-28 10:09:02] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240528.tar.gz]
+[2024-05-28 10:09:02] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2024-05-28 10:09:04] INFO root fetch - processPackages [Furious-GUI]: Remove: archive file [/home/abi/fetcher/tmp/Furious-GUI-0.4.5.tar.gz]
+[2024-05-28 10:09:04] INFO root fetch - processPackages [Furious-GUI]: Remove: archive file [/home/abi/fetcher/tmp/Furious-GUI-0.4.6.tar.gz]
+[2024-05-28 10:09:04] INFO root fetch - main [MainThread]: End processing [Furious-GUI]: success
+[2024-05-28 10:09:04] INFO root fetch - main [MainThread]: Store serial: [23407406]
