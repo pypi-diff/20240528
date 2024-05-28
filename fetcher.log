@@ -18900,3 +18900,90 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 14:31:25] INFO root fetch - processPackages [matrix-synapse]: Remove: archive file [/home/abi/fetcher/tmp/matrix_synapse-1.99.0rc1.tar.gz]
 [2024-05-28 14:31:25] INFO root fetch - main [MainThread]: End processing [matrix-synapse]: success
 [2024-05-28 14:31:25] INFO root fetch - main [MainThread]: Store serial: [23410972]
+[2024-05-28 14:33:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23410972]
+[2024-05-28 14:33:34] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-28 14:33:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: allcrypt
+[2024-05-28 14:33:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torchxlstm
+[2024-05-28 14:33:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eventstreaming
+[2024-05-28 14:33:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: molgenis-emx2-staging-migrator
+[2024-05-28 14:33:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: p-template-generator
+[2024-05-28 14:33:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdo-sdk-python
+[2024-05-28 14:33:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fdk-rdf-parser
+[2024-05-28 14:33:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: screen-games
+[2024-05-28 14:33:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: inoopa_utils
+[2024-05-28 14:33:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pdocr-rpc
+[2024-05-28 14:33:34] INFO root fetch - processPackages [eventstreaming]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-28 14:33:34] INFO root fetch - processPackages [molgenis-emx2-staging-migrator]: New version: [8.213.11.dev1692184266583] Old Version: [10.50.3]
+[2024-05-28 14:33:34] INFO root fetch - processPackages [screen-games]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-28 14:33:34] INFO root fetch - processPackages [p-template-generator]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-28 14:33:34] INFO root fetch - processPackages [cdo-sdk-python]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-28 14:33:34] INFO root fetch - processPackages [allcrypt]: New version: [1.5.3] Old Version: [1.5.2]
+[2024-05-28 14:33:34] INFO root fetch - processPackages [inoopa_utils]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-05-28 14:33:34] INFO root fetch - processPackages [fdk-rdf-parser]: New version: [2.7.3] Old Version: [2.7.2]
+[2024-05-28 14:33:34] WARNING root fetch - processPackages [torchxlstm]: Skipping, unable to determine old version
+[2024-05-28 14:33:34] INFO root fetch - main [MainThread]: End processing [torchxlstm] error
+[2024-05-28 14:33:34] INFO root fetch - processPackages [pdocr-rpc]: New version: [2024.5.28] Old Version: [2024.5.24]
+[2024-05-28 14:33:34] INFO root fetch - processPackages [allcrypt]: Downloading https://files.pythonhosted.org/packages/d7/e2/45e0723b19c8dfbd53f619802270ae647196c103278e0d55ae79045c6b27/allcrypt-1.5.2.tar.gz
+[2024-05-28 14:33:34] INFO root fetch - processPackages [p-template-generator]: Downloading https://files.pythonhosted.org/packages/5c/a2/02f0b3cf41b76949deb937b95c8970f032447d82aa090fc0b68084fc59df/p-template-generator-0.1.98.tar.gz
+[2024-05-28 14:33:34] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/aa/54/d9c631d5702693a0921bbc1c50cad785f8fa75671cabdd662546a416a6b9/cdo-sdk-python-1.0.98.tar.gz
+[2024-05-28 14:33:34] INFO root fetch - processPackages [molgenis-emx2-staging-migrator]: Downloading https://files.pythonhosted.org/packages/b0/b0/1e14ce53c3afb2c5be40b14526e0adc3bd41ba82c69a76274299e7675b9a/molgenis-emx2-staging-migrator-10.50.3.tar.gz
+[2024-05-28 14:33:34] INFO root fetch - processPackages [eventstreaming]: Downloading https://files.pythonhosted.org/packages/b0/34/7e905d7d7e2159a7c3edad26c1c8c587cfe7af93f7f88f8817e70beb092a/eventstreaming-0.0.1.tar.gz
+[2024-05-28 14:33:34] INFO root fetch - processPackages [screen-games]: Downloading https://files.pythonhosted.org/packages/c3/cd/703f01195ad8d0f398500dd885127a8118840d1eef70f227148921b9f1a7/screen_games-0.0.1.tar.gz
+[2024-05-28 14:33:34] INFO root fetch - processPackages [fdk-rdf-parser]: Downloading https://files.pythonhosted.org/packages/4a/e5/ef67e815f75b97a46c16d7ce473cac80146f810af4361eea528a073af435/fdk_rdf_parser-2.7.2.tar.gz
+[2024-05-28 14:33:34] INFO root fetch - processPackages [pdocr-rpc]: Downloading https://files.pythonhosted.org/packages/d4/26/dd50b5d3f0601b0be3c0bfa9ac4b207f6d36551a485bc0e2725d98b39c97/pdocr_rpc-2024.5.24.tar.gz
+[2024-05-28 14:33:34] INFO root fetch - processPackages [inoopa_utils]: Downloading https://files.pythonhosted.org/packages/a0/24/b911a769e68404b28a043df8fa70dcb1a205d883a5b8eb5551b2e29e769b/inoopa_utils-2.9.8.tar.gz
+[2024-05-28 14:33:34] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/9b/76/7267c3f3ac308bacc9e809ed54663a42556e896ff4e2d73a469a15d3556a/cdo-sdk-python-1.0.99.tar.gz
+[2024-05-28 14:33:34] INFO root fetch - processPackages [allcrypt]: Downloading https://files.pythonhosted.org/packages/d3/03/521a35239de6b25340d2d1c38116fe1a43ed51137ba941cc657e09be8b0f/allcrypt-1.5.3.tar.gz
+[2024-05-28 14:33:34] INFO root fetch - processPackages [molgenis-emx2-staging-migrator]: Downloading https://files.pythonhosted.org/packages/5b/83/40c65a3790a8bef0c1dc624ce1ac3d02f7b7a13c7879a836fae7c2e3df81/molgenis_emx2_staging-migrator-8.213.11.dev1692184266583.tar.gz
+[2024-05-28 14:33:34] INFO root fetch - processPackages [eventstreaming]: Downloading https://files.pythonhosted.org/packages/04/e5/1c8c12620c097f50a4e69c77bad80ddf01d3c08c546d0637df8db3bd9840/eventstreaming-0.0.2.tar.gz
+[2024-05-28 14:33:34] INFO root fetch - processPackages [allcrypt]: executing diffoscope
+[2024-05-28 14:33:34] INFO root fetch - processPackages [allcrypt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/allcrypt-1.5.2.tar.gz tmp/allcrypt-1.5.3.tar.gz --markdown 20240528/a/allcrypt/1.5.2-1.5.3/README.md --exclude *.pyd
+[2024-05-28 14:33:35] INFO root fetch - processPackages [cdo-sdk-python]: executing diffoscope
+[2024-05-28 14:33:35] INFO root fetch - processPackages [cdo-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdo-sdk-python-1.0.98.tar.gz tmp/cdo-sdk-python-1.0.99.tar.gz --markdown 20240528/c/cdo-sdk-python/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-28 14:33:35] INFO root fetch - processPackages [fdk-rdf-parser]: Downloading https://files.pythonhosted.org/packages/0c/56/072f4cc16b4d7abc81fd7ed3910726c1adb7accf5aad9222cfa80e36498b/fdk_rdf_parser-2.7.3.tar.gz
+[2024-05-28 14:33:35] INFO root fetch - processPackages [screen-games]: Downloading https://files.pythonhosted.org/packages/cd/98/6a0f2cdb4e24817aa633fc9a09ed1612b230a5071487e2d6cbbf33b9ea34/screen_games-0.0.2.tar.gz
+[2024-05-28 14:33:35] INFO root fetch - processPackages [molgenis-emx2-staging-migrator]: executing diffoscope
+[2024-05-28 14:33:35] INFO root fetch - processPackages [molgenis-emx2-staging-migrator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molgenis-emx2-staging-migrator-10.50.3.tar.gz tmp/molgenis_emx2_staging-migrator-8.213.11.dev1692184266583.tar.gz --markdown 20240528/m/molgenis-emx2-staging-migrator/10.50.3-8.213.11.dev1692184266583/README.md --exclude *.pyd
+[2024-05-28 14:33:35] INFO root fetch - processPackages [eventstreaming]: executing diffoscope
+[2024-05-28 14:33:35] INFO root fetch - processPackages [eventstreaming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eventstreaming-0.0.1.tar.gz tmp/eventstreaming-0.0.2.tar.gz --markdown 20240528/e/eventstreaming/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-28 14:33:35] INFO root fetch - processPackages [inoopa_utils]: Downloading https://files.pythonhosted.org/packages/d9/a2/9ecd86dc35b14396fac082afed001b7cf3eb323bec68b4986cf3b5194b67/inoopa_utils-2.9.9.tar.gz
+[2024-05-28 14:33:35] INFO root fetch - processPackages [fdk-rdf-parser]: executing diffoscope
+[2024-05-28 14:33:35] INFO root fetch - processPackages [fdk-rdf-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fdk_rdf_parser-2.7.2.tar.gz tmp/fdk_rdf_parser-2.7.3.tar.gz --markdown 20240528/f/fdk-rdf-parser/2.7.2-2.7.3/README.md --exclude *.pyd
+[2024-05-28 14:33:35] INFO root fetch - processPackages [screen-games]: executing diffoscope
+[2024-05-28 14:33:35] INFO root fetch - processPackages [screen-games]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/screen_games-0.0.1.tar.gz tmp/screen_games-0.0.2.tar.gz --markdown 20240528/s/screen-games/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-28 14:33:35] INFO root fetch - processPackages [pdocr-rpc]: Downloading https://files.pythonhosted.org/packages/8e/5e/6b67c05a417eaef18cf443e7662a0ec8b50d503d67748fee606e4e2e5552/pdocr_rpc-2024.5.28.tar.gz
+[2024-05-28 14:33:35] INFO root fetch - processPackages [p-template-generator]: Downloading https://files.pythonhosted.org/packages/f6/11/746908384a91b5aacce7afb9782527293e24c5740c72a201daffb937e988/p-template-generator-0.1.99.tar.gz
+[2024-05-28 14:33:35] INFO root fetch - processPackages [inoopa_utils]: executing diffoscope
+[2024-05-28 14:33:35] INFO root fetch - processPackages [inoopa_utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inoopa_utils-2.9.8.tar.gz tmp/inoopa_utils-2.9.9.tar.gz --markdown 20240528/i/inoopa_utils/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-05-28 14:33:35] INFO root fetch - processPackages [pdocr-rpc]: executing diffoscope
+[2024-05-28 14:33:35] INFO root fetch - processPackages [pdocr-rpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdocr_rpc-2024.5.24.tar.gz tmp/pdocr_rpc-2024.5.28.tar.gz --markdown 20240528/p/pdocr-rpc/2024.5.24-2024.5.28/README.md --exclude *.pyd
+[2024-05-28 14:33:35] INFO root fetch - processPackages [molgenis-emx2-staging-migrator]: Remove: archive file [/home/abi/fetcher/tmp/molgenis-emx2-staging-migrator-10.50.3.tar.gz]
+[2024-05-28 14:33:35] INFO root fetch - processPackages [molgenis-emx2-staging-migrator]: Remove: archive file [/home/abi/fetcher/tmp/molgenis_emx2_staging-migrator-8.213.11.dev1692184266583.tar.gz]
+[2024-05-28 14:33:35] INFO root fetch - main [MainThread]: End processing [molgenis-emx2-staging-migrator]: success
+[2024-05-28 14:33:35] INFO root fetch - processPackages [p-template-generator]: executing diffoscope
+[2024-05-28 14:33:35] INFO root fetch - processPackages [p-template-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p-template-generator-0.1.98.tar.gz tmp/p-template-generator-0.1.99.tar.gz --markdown 20240528/p/p-template-generator/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-28 14:33:35] INFO root fetch - processPackages [allcrypt]: Remove: archive file [/home/abi/fetcher/tmp/allcrypt-1.5.2.tar.gz]
+[2024-05-28 14:33:35] INFO root fetch - processPackages [allcrypt]: Remove: archive file [/home/abi/fetcher/tmp/allcrypt-1.5.3.tar.gz]
+[2024-05-28 14:33:35] INFO root fetch - main [MainThread]: End processing [allcrypt]: success
+[2024-05-28 14:33:35] INFO root fetch - processPackages [eventstreaming]: Remove: archive file [/home/abi/fetcher/tmp/eventstreaming-0.0.1.tar.gz]
+[2024-05-28 14:33:35] INFO root fetch - processPackages [eventstreaming]: Remove: archive file [/home/abi/fetcher/tmp/eventstreaming-0.0.2.tar.gz]
+[2024-05-28 14:33:35] INFO root fetch - main [MainThread]: End processing [eventstreaming]: success
+[2024-05-28 14:33:36] INFO root fetch - processPackages [screen-games]: Remove: archive file [/home/abi/fetcher/tmp/screen_games-0.0.1.tar.gz]
+[2024-05-28 14:33:36] INFO root fetch - processPackages [screen-games]: Remove: archive file [/home/abi/fetcher/tmp/screen_games-0.0.2.tar.gz]
+[2024-05-28 14:33:36] INFO root fetch - main [MainThread]: End processing [screen-games]: success
+[2024-05-28 14:33:36] INFO root fetch - processPackages [inoopa_utils]: Remove: archive file [/home/abi/fetcher/tmp/inoopa_utils-2.9.8.tar.gz]
+[2024-05-28 14:33:36] INFO root fetch - processPackages [inoopa_utils]: Remove: archive file [/home/abi/fetcher/tmp/inoopa_utils-2.9.9.tar.gz]
+[2024-05-28 14:33:36] INFO root fetch - main [MainThread]: End processing [inoopa_utils]: success
+[2024-05-28 14:33:36] INFO root fetch - processPackages [fdk-rdf-parser]: Remove: archive file [/home/abi/fetcher/tmp/fdk_rdf_parser-2.7.2.tar.gz]
+[2024-05-28 14:33:36] INFO root fetch - processPackages [fdk-rdf-parser]: Remove: archive file [/home/abi/fetcher/tmp/fdk_rdf_parser-2.7.3.tar.gz]
+[2024-05-28 14:33:36] INFO root fetch - main [MainThread]: End processing [fdk-rdf-parser]: success
+[2024-05-28 14:33:36] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.98.tar.gz]
+[2024-05-28 14:33:36] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.99.tar.gz]
+[2024-05-28 14:33:36] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
+[2024-05-28 14:33:36] INFO root fetch - processPackages [pdocr-rpc]: Remove: archive file [/home/abi/fetcher/tmp/pdocr_rpc-2024.5.24.tar.gz]
+[2024-05-28 14:33:36] INFO root fetch - processPackages [pdocr-rpc]: Remove: archive file [/home/abi/fetcher/tmp/pdocr_rpc-2024.5.28.tar.gz]
+[2024-05-28 14:33:36] INFO root fetch - main [MainThread]: End processing [pdocr-rpc]: success
+[2024-05-28 14:33:36] INFO root fetch - processPackages [p-template-generator]: Remove: archive file [/home/abi/fetcher/tmp/p-template-generator-0.1.98.tar.gz]
+[2024-05-28 14:33:36] INFO root fetch - processPackages [p-template-generator]: Remove: archive file [/home/abi/fetcher/tmp/p-template-generator-0.1.99.tar.gz]
+[2024-05-28 14:33:36] INFO root fetch - main [MainThread]: End processing [p-template-generator]: success
+[2024-05-28 14:33:36] INFO root fetch - main [MainThread]: Store serial: [23411016]
