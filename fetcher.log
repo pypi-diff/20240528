@@ -17729,3 +17729,56 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 13:44:29] INFO root fetch - processPackages [googleads-housekeeper]: Remove: archive file [/home/abi/fetcher/tmp/googleads-housekeeper-0.1.0.dev9.tar.gz]
 [2024-05-28 13:44:29] INFO root fetch - main [MainThread]: End processing [googleads-housekeeper]: success
 [2024-05-28 13:44:29] INFO root fetch - main [MainThread]: Store serial: [23410431]
+[2024-05-28 13:46:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23410431]
+[2024-05-28 13:46:42] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-28 13:46:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: UnitMatchPy
+[2024-05-28 13:46:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: evo-framework
+[2024-05-28 13:46:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mecord-cli
+[2024-05-28 13:46:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ciscoconfparse2
+[2024-05-28 13:46:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MDRefine
+[2024-05-28 13:46:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: easy-code-to-text
+[2024-05-28 13:46:43] INFO root fetch - processPackages [easy-code-to-text]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-28 13:46:43] INFO root fetch - processPackages [evo-framework]: New version: [2024.5.15] Old Version: [2024.5.14]
+[2024-05-28 13:46:43] INFO root fetch - processPackages [mecord-cli]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-28 13:46:43] INFO root fetch - processPackages [MDRefine]: New version: [0.0.6] Old Version: [0.0.3]
+[2024-05-28 13:46:43] INFO root fetch - processPackages [easy-code-to-text]: Downloading https://files.pythonhosted.org/packages/a3/da/6e763bb6d2ab39d57c0d23d2970fb6100e57a91412430fdee57512b3db22/easy_code_to_text-0.1.1.tar.gz
+[2024-05-28 13:46:43] INFO root fetch - processPackages [evo-framework]: Downloading https://files.pythonhosted.org/packages/53/1a/7a55f9c15bc38778e3200b634085f4d081bcc8a107122a0aa59e71dba976/evo_framework-2024.5.14.tar.gz
+[2024-05-28 13:46:43] INFO root fetch - processPackages [UnitMatchPy]: New version: [1.5rc0] Old Version: [1.5b0]
+[2024-05-28 13:46:43] INFO root fetch - processPackages [ciscoconfparse2]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-28 13:46:43] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/7c/bf/66e6ad83ca0dd75592f8185e3bd1a6f8c9965bb170b7b3b18b4228228ff9/mecord-cli-0.7.8.tar.gz
+[2024-05-28 13:46:43] INFO root fetch - processPackages [MDRefine]: Downloading https://files.pythonhosted.org/packages/a6/c8/94317eebcab8df577a941f51511716e090ff49d93af237e4088df8972fa5/MDRefine-0.0.3.tar.gz
+[2024-05-28 13:46:43] INFO root fetch - processPackages [evo-framework]: Downloading https://files.pythonhosted.org/packages/d3/5d/429689e6d7242fffc6893d6ec9b31136fcb42f6017279c9fc19e501e5c70/evo_framework-2024.5.15.tar.gz
+[2024-05-28 13:46:43] INFO root fetch - processPackages [ciscoconfparse2]: Downloading https://files.pythonhosted.org/packages/26/c5/d7a1bbb15197a52ec641fb3455b2bad160571ef08bbb87f61c8e83e45163/ciscoconfparse2-0.7.8.tar.gz
+[2024-05-28 13:46:43] INFO root fetch - processPackages [easy-code-to-text]: Downloading https://files.pythonhosted.org/packages/65/a3/488c23c10714dbfcd94b7b43a2f26747f8607946eae2085e7d7fb02b2d12/easy_code_to_text-0.1.2.tar.gz
+[2024-05-28 13:46:43] INFO root fetch - processPackages [UnitMatchPy]: Downloading https://files.pythonhosted.org/packages/c1/6b/8ab71d2f32ae0fcd8d5c0cfcf3a6e8e0b806eb4f1b3ff3b58394c0522959/UnitMatchPy-1.5b0.tar.gz
+[2024-05-28 13:46:43] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/70/13/191f5410fea42e233e3d24471a04404a7d4f46b99c28a29c24913449788b/mecord-cli-0.7.9.tar.gz
+[2024-05-28 13:46:43] INFO root fetch - processPackages [easy-code-to-text]: executing diffoscope
+[2024-05-28 13:46:43] INFO root fetch - processPackages [easy-code-to-text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_code_to_text-0.1.1.tar.gz tmp/easy_code_to_text-0.1.2.tar.gz --markdown 20240528/e/easy-code-to-text/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-28 13:46:43] INFO root fetch - processPackages [evo-framework]: executing diffoscope
+[2024-05-28 13:46:43] INFO root fetch - processPackages [evo-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evo_framework-2024.5.14.tar.gz tmp/evo_framework-2024.5.15.tar.gz --markdown 20240528/e/evo-framework/2024.5.14-2024.5.15/README.md --exclude *.pyd
+[2024-05-28 13:46:43] INFO root fetch - processPackages [mecord-cli]: executing diffoscope
+[2024-05-28 13:46:43] INFO root fetch - processPackages [mecord-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecord-cli-0.7.8.tar.gz tmp/mecord-cli-0.7.9.tar.gz --markdown 20240528/m/mecord-cli/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-28 13:46:43] WARNING root fetch - processPackages [ciscoconfparse2]: Skipping package: exceeds size limit 12946892>=10485760
+[2024-05-28 13:46:43] INFO root fetch - main [MainThread]: End processing [ciscoconfparse2] error
+[2024-05-28 13:46:43] INFO root fetch - processPackages [MDRefine]: Downloading https://files.pythonhosted.org/packages/ce/c9/c3f00273b41f307a0cba095f1ec3965ac4e9005f2e303857f09909c5cce8/mdrefine-0.0.6.tar.gz
+[2024-05-28 13:46:43] INFO root fetch - processPackages [MDRefine]: executing diffoscope
+[2024-05-28 13:46:43] INFO root fetch - processPackages [MDRefine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MDRefine-0.0.3.tar.gz tmp/mdrefine-0.0.6.tar.gz --markdown 20240528/M/MDRefine/0.0.3-0.0.6/README.md --exclude *.pyd
+[2024-05-28 13:46:43] INFO root fetch - processPackages [UnitMatchPy]: Downloading https://files.pythonhosted.org/packages/a9/a0/97de1e4300e50f3f72fdf17efd47733c55c86c973ef444206149a898df55/UnitMatchPy-1.5rc0.tar.gz
+[2024-05-28 13:46:43] INFO root fetch - processPackages [UnitMatchPy]: executing diffoscope
+[2024-05-28 13:46:43] INFO root fetch - processPackages [UnitMatchPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UnitMatchPy-1.5b0.tar.gz tmp/UnitMatchPy-1.5rc0.tar.gz --markdown 20240528/U/UnitMatchPy/1.5b0-1.5rc0/README.md --exclude *.pyd
+[2024-05-28 13:46:44] INFO root fetch - processPackages [easy-code-to-text]: Remove: archive file [/home/abi/fetcher/tmp/easy_code_to_text-0.1.1.tar.gz]
+[2024-05-28 13:46:44] INFO root fetch - processPackages [easy-code-to-text]: Remove: archive file [/home/abi/fetcher/tmp/easy_code_to_text-0.1.2.tar.gz]
+[2024-05-28 13:46:44] INFO root fetch - main [MainThread]: End processing [easy-code-to-text]: success
+[2024-05-28 13:46:44] INFO root fetch - processPackages [evo-framework]: Remove: archive file [/home/abi/fetcher/tmp/evo_framework-2024.5.14.tar.gz]
+[2024-05-28 13:46:44] INFO root fetch - processPackages [evo-framework]: Remove: archive file [/home/abi/fetcher/tmp/evo_framework-2024.5.15.tar.gz]
+[2024-05-28 13:46:44] INFO root fetch - main [MainThread]: End processing [evo-framework]: success
+[2024-05-28 13:46:44] INFO root fetch - processPackages [MDRefine]: Remove: archive file [/home/abi/fetcher/tmp/MDRefine-0.0.3.tar.gz]
+[2024-05-28 13:46:44] INFO root fetch - processPackages [MDRefine]: Remove: archive file [/home/abi/fetcher/tmp/mdrefine-0.0.6.tar.gz]
+[2024-05-28 13:46:44] INFO root fetch - main [MainThread]: End processing [MDRefine]: success
+[2024-05-28 13:46:44] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.7.8.tar.gz]
+[2024-05-28 13:46:44] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.7.9.tar.gz]
+[2024-05-28 13:46:44] INFO root fetch - main [MainThread]: End processing [mecord-cli]: success
+[2024-05-28 13:46:45] INFO root fetch - processPackages [UnitMatchPy]: Remove: archive file [/home/abi/fetcher/tmp/UnitMatchPy-1.5b0.tar.gz]
+[2024-05-28 13:46:45] INFO root fetch - processPackages [UnitMatchPy]: Remove: archive file [/home/abi/fetcher/tmp/UnitMatchPy-1.5rc0.tar.gz]
+[2024-05-28 13:46:45] INFO root fetch - main [MainThread]: End processing [UnitMatchPy]: success
+[2024-05-28 13:46:45] INFO root fetch - main [MainThread]: Store serial: [23410448]
