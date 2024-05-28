@@ -4519,3 +4519,63 @@
 [2024-05-28 05:08:20] INFO root fetch - processPackages [pywxdump]: Remove: archive file [/home/abi/fetcher/tmp/pywxdump-3.0.8.tar.gz]
 [2024-05-28 05:08:20] INFO root fetch - main [MainThread]: End processing [pywxdump]: success
 [2024-05-28 05:08:20] INFO root fetch - main [MainThread]: Store serial: [23404610]
+[2024-05-28 05:10:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23404610]
+[2024-05-28 05:10:29] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-28 05:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pywxdump
+[2024-05-28 05:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flask-bootstrap-module-extendeds
+[2024-05-28 05:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: onetomultipleimage
+[2024-05-28 05:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bbot
+[2024-05-28 05:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kanstream
+[2024-05-28 05:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: komo
+[2024-05-28 05:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ns-search-saved-export
+[2024-05-28 05:10:29] INFO root fetch - processPackages [pywxdump]: New version: [3.0.8] Old Version: [3.0.5]
+[2024-05-28 05:10:29] INFO root fetch - processPackages [flask-bootstrap-module-extendeds]: New version: [5.1.5] Old Version: [5.1.4]
+[2024-05-28 05:10:29] WARNING root fetch - processPackages [kanstream]: Skipping, unable to determine old version
+[2024-05-28 05:10:29] INFO root fetch - main [MainThread]: End processing [kanstream] error
+[2024-05-28 05:10:29] INFO root fetch - processPackages [ns-search-saved-export]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-28 05:10:29] INFO root fetch - processPackages [komo]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-28 05:10:29] INFO root fetch - processPackages [pywxdump]: Downloading https://files.pythonhosted.org/packages/5e/a0/04a3b6eff520a9bdce3d17e539b97bb28ab07d7cf194f8bf38506b454fea/pywxdump-3.0.5.tar.gz
+[2024-05-28 05:10:29] INFO root fetch - processPackages [flask-bootstrap-module-extendeds]: Downloading https://files.pythonhosted.org/packages/41/d0/ad54095654d77848f49618715c16f5a52cf6e798880c09125649b82d1d59/flask_bootstrap_module_extendeds-5.1.4.tar.gz
+[2024-05-28 05:10:29] INFO root fetch - processPackages [onetomultipleimage]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-28 05:10:29] INFO root fetch - processPackages [komo]: Downloading https://files.pythonhosted.org/packages/e5/e8/cf20243d164ff9c48e03fd5ff4c7107c6dd965947ee156ca5fb9a7b15e8b/komo-0.2.8.tar.gz
+[2024-05-28 05:10:29] INFO root fetch - processPackages [bbot]: New version: [1.1.8.3354rc0] Old Version: [1.1.8.3350rc0]
+[2024-05-28 05:10:29] INFO root fetch - processPackages [ns-search-saved-export]: Downloading https://files.pythonhosted.org/packages/e3/0b/abe4c402f7c55d5ac106ce3f9c6ba4a59bef935c1456ef6ce84d23f13995/ns_search_saved_export-0.1.8.tar.gz
+[2024-05-28 05:10:29] INFO root fetch - processPackages [onetomultipleimage]: Downloading https://files.pythonhosted.org/packages/16/1b/e40a7797b8a830949c3f88928c3d57b53d139391f2da1001ba1679181d8f/onetomultipleimage-1.0.4.tar.gz
+[2024-05-28 05:10:29] INFO root fetch - processPackages [bbot]: Downloading https://files.pythonhosted.org/packages/3f/b4/7c9f3d52c722acf5ab0e4f8bb969a05887370f377030ba9601f620625bbb/bbot-1.1.8.3350rc0.tar.gz
+[2024-05-28 05:10:29] INFO root fetch - processPackages [komo]: Downloading https://files.pythonhosted.org/packages/f5/f7/2ea58820646d37f896447b9e3d7ec9129d961b11ece4c7fe38608a77a70c/komo-0.2.9.tar.gz
+[2024-05-28 05:10:29] INFO root fetch - processPackages [ns-search-saved-export]: Downloading https://files.pythonhosted.org/packages/88/ab/13fab9083555a2e4a6817a39af7a3df5f266b718635ea3c7371106e762ad/ns_search_saved_export-0.1.9.tar.gz
+[2024-05-28 05:10:29] INFO root fetch - processPackages [komo]: executing diffoscope
+[2024-05-28 05:10:29] INFO root fetch - processPackages [komo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/komo-0.2.8.tar.gz tmp/komo-0.2.9.tar.gz --markdown 20240528/k/komo/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-28 05:10:29] INFO root fetch - processPackages [flask-bootstrap-module-extendeds]: Downloading https://files.pythonhosted.org/packages/45/b4/72fb9136b6db5efe24c56cbcbc34c87c7361fba9776d419899e4f4d66d74/flask_bootstrap_module_extendeds-5.1.5.tar.gz
+[2024-05-28 05:10:29] INFO root fetch - processPackages [pywxdump]: Downloading https://files.pythonhosted.org/packages/0c/2c/b244b3ba6c2cd4dc567d66ab4b6a9bca181dd34007f111e480eb1fb2f28b/pywxdump-3.0.8.tar.gz
+[2024-05-28 05:10:29] INFO root fetch - processPackages [ns-search-saved-export]: executing diffoscope
+[2024-05-28 05:10:29] INFO root fetch - processPackages [ns-search-saved-export]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ns_search_saved_export-0.1.8.tar.gz tmp/ns_search_saved_export-0.1.9.tar.gz --markdown 20240528/n/ns-search-saved-export/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-28 05:10:30] INFO root fetch - processPackages [onetomultipleimage]: Downloading https://files.pythonhosted.org/packages/57/9c/61d0042851c61a1391c5ad772196a4a9944798c64f0ee708b5401183daea/onetomultipleimage-1.0.5.tar.gz
+[2024-05-28 05:10:30] INFO root fetch - processPackages [flask-bootstrap-module-extendeds]: executing diffoscope
+[2024-05-28 05:10:30] INFO root fetch - processPackages [flask-bootstrap-module-extendeds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_bootstrap_module_extendeds-5.1.4.tar.gz tmp/flask_bootstrap_module_extendeds-5.1.5.tar.gz --markdown 20240528/f/flask-bootstrap-module-extendeds/5.1.4-5.1.5/README.md --exclude *.pyd
+[2024-05-28 05:10:30] INFO root fetch - processPackages [onetomultipleimage]: executing diffoscope
+[2024-05-28 05:10:30] INFO root fetch - processPackages [onetomultipleimage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onetomultipleimage-1.0.4.tar.gz tmp/onetomultipleimage-1.0.5.tar.gz --markdown 20240528/o/onetomultipleimage/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-28 05:10:30] INFO root fetch - processPackages [pywxdump]: executing diffoscope
+[2024-05-28 05:10:30] INFO root fetch - processPackages [pywxdump]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywxdump-3.0.5.tar.gz tmp/pywxdump-3.0.8.tar.gz --markdown 20240528/p/pywxdump/3.0.5-3.0.8/README.md --exclude *.pyd
+[2024-05-28 05:10:30] INFO root fetch - processPackages [bbot]: Downloading https://files.pythonhosted.org/packages/ff/c1/bb2febab6c3df245561823b7856c2eb2b1c96bd7a5c79ce80234e2764fae/bbot-1.1.8.3354rc0.tar.gz
+[2024-05-28 05:10:30] INFO root fetch - processPackages [bbot]: executing diffoscope
+[2024-05-28 05:10:30] INFO root fetch - processPackages [bbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbot-1.1.8.3350rc0.tar.gz tmp/bbot-1.1.8.3354rc0.tar.gz --markdown 20240528/b/bbot/1.1.8.3350rc0-1.1.8.3354rc0/README.md --exclude *.pyd
+[2024-05-28 05:10:30] INFO root fetch - processPackages [komo]: Remove: archive file [/home/abi/fetcher/tmp/komo-0.2.8.tar.gz]
+[2024-05-28 05:10:30] INFO root fetch - processPackages [komo]: Remove: archive file [/home/abi/fetcher/tmp/komo-0.2.9.tar.gz]
+[2024-05-28 05:10:30] INFO root fetch - main [MainThread]: End processing [komo]: success
+[2024-05-28 05:10:30] INFO root fetch - processPackages [ns-search-saved-export]: Remove: archive file [/home/abi/fetcher/tmp/ns_search_saved_export-0.1.8.tar.gz]
+[2024-05-28 05:10:30] INFO root fetch - processPackages [ns-search-saved-export]: Remove: archive file [/home/abi/fetcher/tmp/ns_search_saved_export-0.1.9.tar.gz]
+[2024-05-28 05:10:30] INFO root fetch - main [MainThread]: End processing [ns-search-saved-export]: success
+[2024-05-28 05:10:30] INFO root fetch - processPackages [onetomultipleimage]: Remove: archive file [/home/abi/fetcher/tmp/onetomultipleimage-1.0.4.tar.gz]
+[2024-05-28 05:10:30] INFO root fetch - processPackages [onetomultipleimage]: Remove: archive file [/home/abi/fetcher/tmp/onetomultipleimage-1.0.5.tar.gz]
+[2024-05-28 05:10:30] INFO root fetch - main [MainThread]: End processing [onetomultipleimage]: success
+[2024-05-28 05:10:31] INFO root fetch - processPackages [flask-bootstrap-module-extendeds]: Remove: archive file [/home/abi/fetcher/tmp/flask_bootstrap_module_extendeds-5.1.4.tar.gz]
+[2024-05-28 05:10:31] INFO root fetch - processPackages [flask-bootstrap-module-extendeds]: Remove: archive file [/home/abi/fetcher/tmp/flask_bootstrap_module_extendeds-5.1.5.tar.gz]
+[2024-05-28 05:10:31] INFO root fetch - main [MainThread]: End processing [flask-bootstrap-module-extendeds]: success
+[2024-05-28 05:10:32] INFO root fetch - processPackages [bbot]: Remove: archive file [/home/abi/fetcher/tmp/bbot-1.1.8.3350rc0.tar.gz]
+[2024-05-28 05:10:32] INFO root fetch - processPackages [bbot]: Remove: archive file [/home/abi/fetcher/tmp/bbot-1.1.8.3354rc0.tar.gz]
+[2024-05-28 05:10:32] INFO root fetch - main [MainThread]: End processing [bbot]: success
+[2024-05-28 05:10:45] INFO root fetch - processPackages [pywxdump]: Remove: archive file [/home/abi/fetcher/tmp/pywxdump-3.0.5.tar.gz]
+[2024-05-28 05:10:45] INFO root fetch - processPackages [pywxdump]: Remove: archive file [/home/abi/fetcher/tmp/pywxdump-3.0.8.tar.gz]
+[2024-05-28 05:10:45] INFO root fetch - main [MainThread]: End processing [pywxdump]: success
+[2024-05-28 05:10:45] INFO root fetch - main [MainThread]: Store serial: [23404633]
