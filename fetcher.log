@@ -5274,3 +5274,27 @@
 [2024-05-28 05:58:51] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
 [2024-05-28 05:58:51] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
 [2024-05-28 05:58:51] INFO root fetch - main [MainThread]: Store serial: [23404907]
+[2024-05-28 06:00:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23404907]
+[2024-05-28 06:01:00] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-28 06:01:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: FileConversionTool
+[2024-05-28 06:01:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mb-pytorch
+[2024-05-28 06:01:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: espresso-machine
+[2024-05-28 06:01:00] INFO root fetch - processPackages [mb-pytorch]: New version: [1.0.53] Old Version: [1.0.52]
+[2024-05-28 06:01:00] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/b8/e5/e024412333a47b6bf15b084087ace96034155b68f024047c163a4a4c8af4/mb_pytorch-1.0.52.tar.gz
+[2024-05-28 06:01:00] INFO root fetch - processPackages [espresso-machine]: New version: [0.0.120] Old Version: [0.0.119]
+[2024-05-28 06:01:00] WARNING root fetch - processPackages [FileConversionTool]: Skipping, unable to determine old version
+[2024-05-28 06:01:00] INFO root fetch - main [MainThread]: End processing [FileConversionTool] error
+[2024-05-28 06:01:00] INFO root fetch - processPackages [espresso-machine]: Downloading https://files.pythonhosted.org/packages/33/98/8a28ec012582227255341ca491bcc10887ff8ac1083b84110f8f09c0a65c/espresso_machine-0.0.119.tar.gz
+[2024-05-28 06:01:00] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/be/c0/ca8628c99e056cf740c8b3c7989846d5aa08f40440115bfa7a2afdba1874/mb_pytorch-1.0.53.tar.gz
+[2024-05-28 06:01:00] INFO root fetch - processPackages [mb-pytorch]: executing diffoscope
+[2024-05-28 06:01:00] INFO root fetch - processPackages [mb-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pytorch-1.0.52.tar.gz tmp/mb_pytorch-1.0.53.tar.gz --markdown 20240528/m/mb-pytorch/1.0.52-1.0.53/README.md --exclude *.pyd
+[2024-05-28 06:01:01] INFO root fetch - processPackages [mb-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/mb_pytorch-1.0.52.tar.gz]
+[2024-05-28 06:01:01] INFO root fetch - processPackages [mb-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/mb_pytorch-1.0.53.tar.gz]
+[2024-05-28 06:01:01] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
+[2024-05-28 06:01:02] INFO root fetch - processPackages [espresso-machine]: Downloading https://files.pythonhosted.org/packages/be/38/33af1a799ca4634b30a7724f7e04894752912fe459513763a48afb720c5e/espresso_machine-0.0.120.tar.gz
+[2024-05-28 06:01:03] INFO root fetch - processPackages [espresso-machine]: executing diffoscope
+[2024-05-28 06:01:03] INFO root fetch - processPackages [espresso-machine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/espresso_machine-0.0.119.tar.gz tmp/espresso_machine-0.0.120.tar.gz --markdown 20240528/e/espresso-machine/0.0.119-0.0.120/README.md --exclude *.pyd
+[2024-05-28 06:01:04] INFO root fetch - processPackages [espresso-machine]: Remove: archive file [/home/abi/fetcher/tmp/espresso_machine-0.0.119.tar.gz]
+[2024-05-28 06:01:04] INFO root fetch - processPackages [espresso-machine]: Remove: archive file [/home/abi/fetcher/tmp/espresso_machine-0.0.120.tar.gz]
+[2024-05-28 06:01:04] INFO root fetch - main [MainThread]: End processing [espresso-machine]: success
+[2024-05-28 06:01:04] INFO root fetch - main [MainThread]: Store serial: [23404919]
