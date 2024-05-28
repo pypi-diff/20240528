@@ -23955,3 +23955,105 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 17:00:08] INFO root fetch - processPackages [home-assistant-intents]: Remove: archive file [/home/abi/fetcher/tmp/home-assistant-intents-2024.5.28.tar.gz]
 [2024-05-28 17:00:08] INFO root fetch - main [MainThread]: End processing [home-assistant-intents]: success
 [2024-05-28 17:00:08] INFO root fetch - main [MainThread]: Store serial: [23413490]
+[2024-05-28 17:02:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23413490]
+[2024-05-28 17:02:17] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-05-28 17:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apiverve-wordpronunciation
+[2024-05-28 17:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bluepyefe
+[2024-05-28 17:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: apiverve-wordrhymes
+[2024-05-28 17:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lastmile-eval
+[2024-05-28 17:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: apiverve-wordsextractor
+[2024-05-28 17:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PyProfQueue
+[2024-05-28 17:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: apiverve-wordstonumbers
+[2024-05-28 17:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: localstack-core
+[2024-05-28 17:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: apiverve-worldholidays
+[2024-05-28 17:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: louvainsplit
+[2024-05-28 17:02:17] INFO root fetch - processPackages [PyProfQueue]: New version: [0.2.2a2] Old Version: [0.2.2a1]
+[2024-05-28 17:02:17] INFO root fetch - processPackages [localstack-core]: New version: [3.4.1.dev20240528093543] Old Version: [3.4.1.dev20240528022512]
+[2024-05-28 17:02:17] WARNING root fetch - processPackages [apiverve-wordpronunciation]: Skipping, unable to determine old version
+[2024-05-28 17:02:17] INFO root fetch - processPackages [apiverve-wordpronunciation]: Start processing: geotexxx
+[2024-05-28 17:02:17] INFO root fetch - main [MainThread]: End processing [apiverve-wordpronunciation] error
+[2024-05-28 17:02:17] WARNING root fetch - processPackages [apiverve-wordrhymes]: Skipping, unable to determine old version
+[2024-05-28 17:02:17] INFO root fetch - processPackages [apiverve-wordrhymes]: Start processing: monisha
+[2024-05-28 17:02:17] INFO root fetch - main [MainThread]: End processing [apiverve-wordrhymes] error
+[2024-05-28 17:02:17] INFO root fetch - processPackages [bluepyefe]: New version: [2.3.9] Old Version: [2.3.8]
+[2024-05-28 17:02:17] WARNING root fetch - processPackages [apiverve-wordstonumbers]: Skipping, unable to determine old version
+[2024-05-28 17:02:17] INFO root fetch - processPackages [apiverve-wordstonumbers]: Start processing: autotrain-advanced
+[2024-05-28 17:02:17] INFO root fetch - main [MainThread]: End processing [apiverve-wordstonumbers] error
+[2024-05-28 17:02:17] WARNING root fetch - processPackages [apiverve-worldholidays]: Skipping, unable to determine old version
+[2024-05-28 17:02:17] INFO root fetch - processPackages [apiverve-worldholidays]: Start processing: nomad-material-processing
+[2024-05-28 17:02:17] INFO root fetch - main [MainThread]: End processing [apiverve-worldholidays] error
+[2024-05-28 17:02:17] INFO root fetch - processPackages [louvainsplit]: New version: [0.2.0.3] Old Version: [0.2.0.2]
+[2024-05-28 17:02:17] WARNING root fetch - processPackages [apiverve-wordsextractor]: Skipping, unable to determine old version
+[2024-05-28 17:02:17] INFO root fetch - processPackages [PyProfQueue]: Downloading https://files.pythonhosted.org/packages/c7/15/de89b9fdea8626140f9fdf9f9c90df78916edfff0bb204aad09ead20bf78/PyProfQueue-0.2.2a1.tar.gz
+[2024-05-28 17:02:17] INFO root fetch - processPackages [apiverve-wordsextractor]: Start processing: apiverve-worldtime
+[2024-05-28 17:02:17] INFO root fetch - main [MainThread]: End processing [apiverve-wordsextractor] error
+[2024-05-28 17:02:17] INFO root fetch - processPackages [lastmile-eval]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-28 17:02:18] INFO root fetch - processPackages [monisha]: New version: [0.0.77] Old Version: [0.0.76]
+[2024-05-28 17:02:18] INFO root fetch - processPackages [autotrain-advanced]: New version: [0.7.99] Old Version: [0.7.98]
+[2024-05-28 17:02:18] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/36/c8/1b145b292664a1a4c418514fe95984a3909223e12e9ebbc2d3680d77a1b2/localstack_core-3.4.1.dev20240528022512.tar.gz
+[2024-05-28 17:02:18] INFO root fetch - processPackages [geotexxx]: New version: [0.2.0] Old Version: [0.1.6]
+[2024-05-28 17:02:18] INFO root fetch - processPackages [monisha]: Downloading https://files.pythonhosted.org/packages/d3/bc/d5ced26a0c1f3f6a24f0e9a2e22815a6440e1521006d9fea9c851603f518/monisha-0.0.76.tar.gz
+[2024-05-28 17:02:18] INFO root fetch - processPackages [nomad-material-processing]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-28 17:02:18] INFO root fetch - processPackages [bluepyefe]: Downloading https://files.pythonhosted.org/packages/9e/0d/3bd7040c54b44293a4cf36529fa4e8c9c06b73f72bef5416d3c6df1c607a/bluepyefe-2.3.8.tar.gz
+[2024-05-28 17:02:18] WARNING root fetch - processPackages [apiverve-worldtime]: Skipping, unable to determine old version
+[2024-05-28 17:02:18] INFO root fetch - main [MainThread]: End processing [apiverve-worldtime] error
+[2024-05-28 17:02:18] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/ac/00/d85bb6880871f52143666a7c240275c003f62329ad3ab644121e6accb491/autotrain-advanced-0.7.98.tar.gz
+[2024-05-28 17:02:18] INFO root fetch - processPackages [lastmile-eval]: Downloading https://files.pythonhosted.org/packages/46/5f/eaa8c53cc1857a1e835ad32892f28b3fa98a02c5409d7c53012941237304/lastmile_eval-0.0.7.tar.gz
+[2024-05-28 17:02:18] INFO root fetch - processPackages [louvainsplit]: Downloading https://files.pythonhosted.org/packages/4e/c9/eabfef6b52a67f56fc432138514cd552e232502e766badb34cffd75ab2bd/louvainsplit-0.2.0.2.tar.gz
+[2024-05-28 17:02:18] INFO root fetch - processPackages [geotexxx]: Downloading https://files.pythonhosted.org/packages/1f/4b/0fcf2a4d4f7d68aaf2eebe5b15fd29aac6f5a971ed048d6df8a489c74caa/geotexxx-0.1.6.tar.gz
+[2024-05-28 17:02:18] INFO root fetch - processPackages [PyProfQueue]: Downloading https://files.pythonhosted.org/packages/4c/9b/12bfab746c14eda73b48429bf5e390c8b15e274ac052bd4c4de9042843fd/PyProfQueue-0.2.2a2.tar.gz
+[2024-05-28 17:02:18] INFO root fetch - processPackages [nomad-material-processing]: Downloading https://files.pythonhosted.org/packages/eb/85/c4ec28dab23526b803cc8760d79dd894fa55afe27fa02e096db056635d00/nomad-material-processing-0.0.7.tar.gz
+[2024-05-28 17:02:18] INFO root fetch - processPackages [monisha]: Downloading https://files.pythonhosted.org/packages/4c/e9/36beb46b92a948a246fde0509e0f329c6347222fc4d9f18bf9492ca1449c/monisha-0.0.77.tar.gz
+[2024-05-28 17:02:18] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/d8/4c/a57fe5dc80fe1c04db23903261d5d0320d8477c1efc1461f1d2ce5ccc1e4/autotrain-advanced-0.7.99.tar.gz
+[2024-05-28 17:02:18] INFO root fetch - processPackages [bluepyefe]: Downloading https://files.pythonhosted.org/packages/31/11/0a3d4bfd0ec4abcf9868b8d8a6c2e8a7d71c3851bd1edb4d6f6f27e8a78a/bluepyefe-2.3.9.tar.gz
+[2024-05-28 17:02:18] INFO root fetch - processPackages [lastmile-eval]: Downloading https://files.pythonhosted.org/packages/82/d9/5b33fa58ced21ee69c2876303b4babbb7449325885a320341f99edabf464/lastmile_eval-0.0.8.tar.gz
+[2024-05-28 17:02:18] INFO root fetch - processPackages [PyProfQueue]: executing diffoscope
+[2024-05-28 17:02:18] INFO root fetch - processPackages [PyProfQueue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyProfQueue-0.2.2a1.tar.gz tmp/PyProfQueue-0.2.2a2.tar.gz --markdown 20240528/P/PyProfQueue/0.2.2a1-0.2.2a2/README.md --exclude *.pyd
+[2024-05-28 17:02:18] INFO root fetch - processPackages [autotrain-advanced]: executing diffoscope
+[2024-05-28 17:02:18] INFO root fetch - processPackages [autotrain-advanced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotrain-advanced-0.7.98.tar.gz tmp/autotrain-advanced-0.7.99.tar.gz --markdown 20240528/a/autotrain-advanced/0.7.98-0.7.99/README.md --exclude *.pyd
+[2024-05-28 17:02:18] INFO root fetch - processPackages [louvainsplit]: Downloading https://files.pythonhosted.org/packages/ce/d4/bd97236ba5a5896ab7b63a9b3ee5ca5739b49be00cb3cf902a0f24fc1931/louvainsplit-0.2.0.3.tar.gz
+[2024-05-28 17:02:18] INFO root fetch - processPackages [bluepyefe]: executing diffoscope
+[2024-05-28 17:02:18] INFO root fetch - processPackages [bluepyefe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluepyefe-2.3.8.tar.gz tmp/bluepyefe-2.3.9.tar.gz --markdown 20240528/b/bluepyefe/2.3.8-2.3.9/README.md --exclude *.pyd
+[2024-05-28 17:02:18] INFO root fetch - processPackages [monisha]: executing diffoscope
+[2024-05-28 17:02:18] INFO root fetch - processPackages [monisha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monisha-0.0.76.tar.gz tmp/monisha-0.0.77.tar.gz --markdown 20240528/m/monisha/0.0.76-0.0.77/README.md --exclude *.pyd
+[2024-05-28 17:02:18] INFO root fetch - processPackages [lastmile-eval]: executing diffoscope
+[2024-05-28 17:02:18] INFO root fetch - processPackages [lastmile-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lastmile_eval-0.0.7.tar.gz tmp/lastmile_eval-0.0.8.tar.gz --markdown 20240528/l/lastmile-eval/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-28 17:02:18] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/0f/75/7ae74f8c971bb26b65fd82e870d9db8e57505b2bf7bea25e1c656ec57dee/localstack_core-3.4.1.dev20240528093543.tar.gz
+[2024-05-28 17:02:18] INFO root fetch - processPackages [geotexxx]: Downloading https://files.pythonhosted.org/packages/2c/87/74c402752111b4a7c4bcd2a24a1c6b900b59fa4b0cc37eee75d6984fcee4/geotexxx-0.2.0.tar.gz
+[2024-05-28 17:02:18] INFO root fetch - processPackages [louvainsplit]: executing diffoscope
+[2024-05-28 17:02:18] INFO root fetch - processPackages [louvainsplit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/louvainsplit-0.2.0.2.tar.gz tmp/louvainsplit-0.2.0.3.tar.gz --markdown 20240528/l/louvainsplit/0.2.0.2-0.2.0.3/README.md --exclude *.pyd
+[2024-05-28 17:02:18] INFO root fetch - processPackages [nomad-material-processing]: Downloading https://files.pythonhosted.org/packages/4d/56/e0e02e5507b25ab9f0f2cc0f91d9c313950a4064c5272b1e19fab1cf9eef/nomad_material_processing-0.0.8.tar.gz
+[2024-05-28 17:02:19] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-05-28 17:02:19] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack_core-3.4.1.dev20240528022512.tar.gz tmp/localstack_core-3.4.1.dev20240528093543.tar.gz --markdown 20240528/l/localstack-core/3.4.1.dev20240528022512-3.4.1.dev20240528093543/README.md --exclude *.pyd
+[2024-05-28 17:02:19] INFO root fetch - processPackages [geotexxx]: executing diffoscope
+[2024-05-28 17:02:19] INFO root fetch - processPackages [geotexxx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geotexxx-0.1.6.tar.gz tmp/geotexxx-0.2.0.tar.gz --markdown 20240528/g/geotexxx/0.1.6-0.2.0/README.md --exclude *.pyd
+[2024-05-28 17:02:19] INFO root fetch - processPackages [nomad-material-processing]: executing diffoscope
+[2024-05-28 17:02:19] INFO root fetch - processPackages [nomad-material-processing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nomad-material-processing-0.0.7.tar.gz tmp/nomad_material_processing-0.0.8.tar.gz --markdown 20240528/n/nomad-material-processing/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-28 17:02:19] INFO root fetch - processPackages [PyProfQueue]: Remove: archive file [/home/abi/fetcher/tmp/PyProfQueue-0.2.2a1.tar.gz]
+[2024-05-28 17:02:19] INFO root fetch - processPackages [PyProfQueue]: Remove: archive file [/home/abi/fetcher/tmp/PyProfQueue-0.2.2a2.tar.gz]
+[2024-05-28 17:02:19] INFO root fetch - main [MainThread]: End processing [PyProfQueue]: success
+[2024-05-28 17:02:19] INFO root fetch - processPackages [monisha]: Remove: archive file [/home/abi/fetcher/tmp/monisha-0.0.76.tar.gz]
+[2024-05-28 17:02:19] INFO root fetch - processPackages [monisha]: Remove: archive file [/home/abi/fetcher/tmp/monisha-0.0.77.tar.gz]
+[2024-05-28 17:02:19] INFO root fetch - main [MainThread]: End processing [monisha]: success
+[2024-05-28 17:02:19] INFO root fetch - processPackages [bluepyefe]: Remove: archive file [/home/abi/fetcher/tmp/bluepyefe-2.3.8.tar.gz]
+[2024-05-28 17:02:19] INFO root fetch - processPackages [bluepyefe]: Remove: archive file [/home/abi/fetcher/tmp/bluepyefe-2.3.9.tar.gz]
+[2024-05-28 17:02:19] INFO root fetch - main [MainThread]: End processing [bluepyefe]: success
+[2024-05-28 17:02:19] INFO root fetch - processPackages [louvainsplit]: Remove: archive file [/home/abi/fetcher/tmp/louvainsplit-0.2.0.2.tar.gz]
+[2024-05-28 17:02:19] INFO root fetch - processPackages [louvainsplit]: Remove: archive file [/home/abi/fetcher/tmp/louvainsplit-0.2.0.3.tar.gz]
+[2024-05-28 17:02:19] INFO root fetch - main [MainThread]: End processing [louvainsplit]: success
+[2024-05-28 17:02:19] INFO root fetch - processPackages [geotexxx]: Remove: archive file [/home/abi/fetcher/tmp/geotexxx-0.1.6.tar.gz]
+[2024-05-28 17:02:19] INFO root fetch - processPackages [geotexxx]: Remove: archive file [/home/abi/fetcher/tmp/geotexxx-0.2.0.tar.gz]
+[2024-05-28 17:02:19] INFO root fetch - main [MainThread]: End processing [geotexxx]: success
+[2024-05-28 17:02:19] INFO root fetch - processPackages [lastmile-eval]: Remove: archive file [/home/abi/fetcher/tmp/lastmile_eval-0.0.7.tar.gz]
+[2024-05-28 17:02:19] INFO root fetch - processPackages [lastmile-eval]: Remove: archive file [/home/abi/fetcher/tmp/lastmile_eval-0.0.8.tar.gz]
+[2024-05-28 17:02:19] INFO root fetch - main [MainThread]: End processing [lastmile-eval]: success
+[2024-05-28 17:02:19] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.7.98.tar.gz]
+[2024-05-28 17:02:19] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.7.99.tar.gz]
+[2024-05-28 17:02:20] INFO root fetch - main [MainThread]: End processing [autotrain-advanced]: success
+[2024-05-28 17:02:20] INFO root fetch - processPackages [nomad-material-processing]: Remove: archive file [/home/abi/fetcher/tmp/nomad-material-processing-0.0.7.tar.gz]
+[2024-05-28 17:02:20] INFO root fetch - processPackages [nomad-material-processing]: Remove: archive file [/home/abi/fetcher/tmp/nomad_material_processing-0.0.8.tar.gz]
+[2024-05-28 17:02:20] INFO root fetch - main [MainThread]: End processing [nomad-material-processing]: success
+[2024-05-28 17:02:23] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240528022512.tar.gz]
+[2024-05-28 17:02:23] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240528093543.tar.gz]
+[2024-05-28 17:02:23] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-05-28 17:02:23] INFO root fetch - main [MainThread]: Store serial: [23413546]
