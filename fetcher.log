@@ -6806,3 +6806,41 @@
 [2024-05-28 07:38:46] INFO root fetch - processPackages [ralium]: Remove: archive file [/home/abi/fetcher/tmp/ralium-2.0.3.tar.gz]
 [2024-05-28 07:38:46] INFO root fetch - main [MainThread]: End processing [ralium]: success
 [2024-05-28 07:38:46] INFO root fetch - main [MainThread]: Store serial: [23405572]
+[2024-05-28 07:40:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23405572]
+[2024-05-28 07:40:54] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-28 07:40:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jaydebeapi3
+[2024-05-28 07:40:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pymobiledevice3
+[2024-05-28 07:40:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kaizen-cloudcode
+[2024-05-28 07:40:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openmetadata-ingestion
+[2024-05-28 07:40:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: shapeout2
+[2024-05-28 07:40:54] INFO root fetch - processPackages [kaizen-cloudcode]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-28 07:40:54] WARNING root fetch - processPackages [jaydebeapi3]: Skipping, unable to determine old version
+[2024-05-28 07:40:54] INFO root fetch - main [MainThread]: End processing [jaydebeapi3] error
+[2024-05-28 07:40:54] INFO root fetch - processPackages [shapeout2]: New version: [2.9.6] Old Version: [2.9.5]
+[2024-05-28 07:40:54] INFO root fetch - processPackages [openmetadata-ingestion]: New version: [1.4.1.0] Old Version: [1.4.0.1]
+[2024-05-28 07:40:54] INFO root fetch - processPackages [pymobiledevice3]: New version: [4.8.7] Old Version: [4.8.6]
+[2024-05-28 07:40:55] INFO root fetch - processPackages [kaizen-cloudcode]: Downloading https://files.pythonhosted.org/packages/f1/55/f80272be3e1648104bf08d9742ea6432a688a9e6042c034220d53fe3eebe/kaizen_cloudcode-0.1.8.tar.gz
+[2024-05-28 07:40:55] INFO root fetch - processPackages [shapeout2]: Downloading https://files.pythonhosted.org/packages/27/26/7e5e08bc714db215c9103bad6c7528a292dad54c0cd3e56a556dd2fd660a/shapeout2-2.9.5.tar.gz
+[2024-05-28 07:40:55] INFO root fetch - processPackages [pymobiledevice3]: Downloading https://files.pythonhosted.org/packages/78/aa/35624a3296c0f66277f12924458fd778c6f2747cc4fc510738ee25285009/pymobiledevice3-4.8.6.tar.gz
+[2024-05-28 07:40:55] WARNING root fetch - processPackages [pymobiledevice3]: Skipping package: exceeds size limit 31548142>=10485760
+[2024-05-28 07:40:55] INFO root fetch - main [MainThread]: End processing [pymobiledevice3] error
+[2024-05-28 07:40:55] INFO root fetch - processPackages [openmetadata-ingestion]: Downloading https://files.pythonhosted.org/packages/71/43/f24b1783037e77451c654a22e99b8520b27324538f5e353b35aeaf083608/openmetadata-ingestion-1.4.0.1.tar.gz
+[2024-05-28 07:40:55] INFO root fetch - processPackages [kaizen-cloudcode]: Downloading https://files.pythonhosted.org/packages/e4/d9/2c4a647ea9b29da3866ad33e2f70daddb22b06068d121a2e48e92d9a5b18/kaizen_cloudcode-0.1.9.tar.gz
+[2024-05-28 07:40:55] INFO root fetch - processPackages [shapeout2]: Downloading https://files.pythonhosted.org/packages/35/23/3e2b923fd3a130e068a59c3125d5bcfcc7bcf9ff2dfd5df0df3ce914dfa7/shapeout2-2.9.6.tar.gz
+[2024-05-28 07:40:55] INFO root fetch - processPackages [kaizen-cloudcode]: executing diffoscope
+[2024-05-28 07:40:55] INFO root fetch - processPackages [kaizen-cloudcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaizen_cloudcode-0.1.8.tar.gz tmp/kaizen_cloudcode-0.1.9.tar.gz --markdown 20240528/k/kaizen-cloudcode/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-28 07:40:55] INFO root fetch - processPackages [shapeout2]: executing diffoscope
+[2024-05-28 07:40:55] INFO root fetch - processPackages [shapeout2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shapeout2-2.9.5.tar.gz tmp/shapeout2-2.9.6.tar.gz --markdown 20240528/s/shapeout2/2.9.5-2.9.6/README.md --exclude *.pyd
+[2024-05-28 07:40:56] INFO root fetch - processPackages [kaizen-cloudcode]: Remove: archive file [/home/abi/fetcher/tmp/kaizen_cloudcode-0.1.8.tar.gz]
+[2024-05-28 07:40:56] INFO root fetch - processPackages [kaizen-cloudcode]: Remove: archive file [/home/abi/fetcher/tmp/kaizen_cloudcode-0.1.9.tar.gz]
+[2024-05-28 07:40:56] INFO root fetch - main [MainThread]: End processing [kaizen-cloudcode]: success
+[2024-05-28 07:40:56] INFO root fetch - processPackages [openmetadata-ingestion]: Downloading https://files.pythonhosted.org/packages/cd/4a/7c72d23b07e2e47045bf443b4a031b62b207a16e993e6f375614f0b491be/openmetadata-ingestion-1.4.1.0.tar.gz
+[2024-05-28 07:40:56] INFO root fetch - processPackages [openmetadata-ingestion]: executing diffoscope
+[2024-05-28 07:40:56] INFO root fetch - processPackages [openmetadata-ingestion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmetadata-ingestion-1.4.0.1.tar.gz tmp/openmetadata-ingestion-1.4.1.0.tar.gz --markdown 20240528/o/openmetadata-ingestion/1.4.0.1-1.4.1.0/README.md --exclude *.pyd
+[2024-05-28 07:40:57] INFO root fetch - processPackages [shapeout2]: Remove: archive file [/home/abi/fetcher/tmp/shapeout2-2.9.5.tar.gz]
+[2024-05-28 07:40:57] INFO root fetch - processPackages [shapeout2]: Remove: archive file [/home/abi/fetcher/tmp/shapeout2-2.9.6.tar.gz]
+[2024-05-28 07:40:57] INFO root fetch - main [MainThread]: End processing [shapeout2]: success
+[2024-05-28 07:41:03] INFO root fetch - processPackages [openmetadata-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata-ingestion-1.4.0.1.tar.gz]
+[2024-05-28 07:41:03] INFO root fetch - processPackages [openmetadata-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata-ingestion-1.4.1.0.tar.gz]
+[2024-05-28 07:41:03] INFO root fetch - main [MainThread]: End processing [openmetadata-ingestion]: success
+[2024-05-28 07:41:03] INFO root fetch - main [MainThread]: Store serial: [23405587]
