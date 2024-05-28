@@ -5936,3 +5936,18 @@
 [2024-05-28 06:51:08] INFO root fetch - processPackages [laktory]: Remove: archive file [/home/abi/fetcher/tmp/laktory-0.3.0.tar.gz]
 [2024-05-28 06:51:08] INFO root fetch - main [MainThread]: End processing [laktory]: success
 [2024-05-28 06:51:08] INFO root fetch - main [MainThread]: Store serial: [23405159]
+[2024-05-28 06:53:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23405159]
+[2024-05-28 06:53:16] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-28 06:53:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: single-ins
+[2024-05-28 06:53:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-alist
+[2024-05-28 06:53:16] WARNING root fetch - processPackages [single-ins]: Skipping, unable to determine old version
+[2024-05-28 06:53:16] INFO root fetch - main [MainThread]: End processing [single-ins] error
+[2024-05-28 06:53:16] INFO root fetch - processPackages [python-alist]: New version: [0.0.9.9] Old Version: [0.0.9.8.1]
+[2024-05-28 06:53:16] INFO root fetch - processPackages [python-alist]: Downloading https://files.pythonhosted.org/packages/16/4c/767ed3dbd217eb3ea1f030c845f5a098d8e656f2fb4ab63c7fa0eadcf367/python_alist-0.0.9.8.1.tar.gz
+[2024-05-28 06:53:17] INFO root fetch - processPackages [python-alist]: Downloading https://files.pythonhosted.org/packages/a4/c8/c4ceead1bdae1d44cce58995ae016d39c6e4134cefa9b31ef2daf97d4c36/python_alist-0.0.9.9.tar.gz
+[2024-05-28 06:53:17] INFO root fetch - processPackages [python-alist]: executing diffoscope
+[2024-05-28 06:53:17] INFO root fetch - processPackages [python-alist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_alist-0.0.9.8.1.tar.gz tmp/python_alist-0.0.9.9.tar.gz --markdown 20240528/p/python-alist/0.0.9.8.1-0.0.9.9/README.md --exclude *.pyd
+[2024-05-28 06:53:17] INFO root fetch - processPackages [python-alist]: Remove: archive file [/home/abi/fetcher/tmp/python_alist-0.0.9.8.1.tar.gz]
+[2024-05-28 06:53:17] INFO root fetch - processPackages [python-alist]: Remove: archive file [/home/abi/fetcher/tmp/python_alist-0.0.9.9.tar.gz]
+[2024-05-28 06:53:17] INFO root fetch - main [MainThread]: End processing [python-alist]: success
+[2024-05-28 06:53:17] INFO root fetch - main [MainThread]: Store serial: [23405167]
