@@ -9101,3 +9101,27 @@
 [2024-05-28 08:36:50] INFO root fetch - processPackages [ullm]: Remove: archive file [/home/abi/fetcher/tmp/ullm-0.3.0.tar.gz]
 [2024-05-28 08:36:50] INFO root fetch - main [MainThread]: End processing [ullm]: success
 [2024-05-28 08:36:50] INFO root fetch - main [MainThread]: Store serial: [23406639]
+[2024-05-28 08:38:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23406639]
+[2024-05-28 08:38:59] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-28 08:38:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastcrud
+[2024-05-28 08:38:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mia-vgg
+[2024-05-28 08:38:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-village
+[2024-05-28 08:38:59] INFO root fetch - processPackages [mia-vgg]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-28 08:38:59] INFO root fetch - processPackages [mia-vgg]: Downloading https://files.pythonhosted.org/packages/7d/99/89bc26b6fc0c4be64ccf67e364ca9e0df91458fd29d11e2358855b46e97d/mia_vgg-0.0.8.tar.gz
+[2024-05-28 08:38:59] WARNING root fetch - processPackages [django-village]: Skipping, unable to determine old version
+[2024-05-28 08:38:59] INFO root fetch - main [MainThread]: End processing [django-village] error
+[2024-05-28 08:38:59] INFO root fetch - processPackages [fastcrud]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-28 08:38:59] INFO root fetch - processPackages [fastcrud]: Downloading https://files.pythonhosted.org/packages/65/03/d3b58e3d09797960d244fdabca85b359227ca6d0d05233e56f8dbbfe3da9/fastcrud-0.9.0.tar.gz
+[2024-05-28 08:38:59] INFO root fetch - processPackages [mia-vgg]: Downloading https://files.pythonhosted.org/packages/cc/39/4b0634a6c0cfb889300cdd32b0b9e896e244894df317465107e5a88463b0/mia_vgg-0.0.9.tar.gz
+[2024-05-28 08:38:59] INFO root fetch - processPackages [mia-vgg]: executing diffoscope
+[2024-05-28 08:38:59] INFO root fetch - processPackages [mia-vgg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mia_vgg-0.0.8.tar.gz tmp/mia_vgg-0.0.9.tar.gz --markdown 20240528/m/mia-vgg/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-28 08:38:59] INFO root fetch - processPackages [fastcrud]: Downloading https://files.pythonhosted.org/packages/80/99/b99c854973c7d58e5e1d5cd75f589a743aba43155a64950e3f4812a61db8/fastcrud-0.9.1.tar.gz
+[2024-05-28 08:39:00] INFO root fetch - processPackages [mia-vgg]: Remove: archive file [/home/abi/fetcher/tmp/mia_vgg-0.0.8.tar.gz]
+[2024-05-28 08:39:00] INFO root fetch - processPackages [mia-vgg]: Remove: archive file [/home/abi/fetcher/tmp/mia_vgg-0.0.9.tar.gz]
+[2024-05-28 08:39:00] INFO root fetch - main [MainThread]: End processing [mia-vgg]: success
+[2024-05-28 08:39:00] INFO root fetch - processPackages [fastcrud]: executing diffoscope
+[2024-05-28 08:39:00] INFO root fetch - processPackages [fastcrud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastcrud-0.9.0.tar.gz tmp/fastcrud-0.9.1.tar.gz --markdown 20240528/f/fastcrud/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-28 08:39:00] INFO root fetch - processPackages [fastcrud]: Remove: archive file [/home/abi/fetcher/tmp/fastcrud-0.9.0.tar.gz]
+[2024-05-28 08:39:00] INFO root fetch - processPackages [fastcrud]: Remove: archive file [/home/abi/fetcher/tmp/fastcrud-0.9.1.tar.gz]
+[2024-05-28 08:39:00] INFO root fetch - main [MainThread]: End processing [fastcrud]: success
+[2024-05-28 08:39:00] INFO root fetch - main [MainThread]: Store serial: [23406651]
