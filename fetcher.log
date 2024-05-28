@@ -12025,3 +12025,95 @@
 [2024-05-28 10:31:40] INFO root fetch - processPackages [KratosHDF5Application]: Remove: archive file [/home/abi/fetcher/tmp/KratosHDF5Application-9.5.1-cp39-cp39-win_amd64.whl.zip]
 [2024-05-28 10:31:40] INFO root fetch - main [MainThread]: End processing [KratosHDF5Application]: success
 [2024-05-28 10:31:40] INFO root fetch - main [MainThread]: Store serial: [23407909]
+[2024-05-28 10:33:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23407909]
+[2024-05-28 10:33:57] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-28 10:33:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: KratosMedApplication
+[2024-05-28 10:33:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: KratosMeshingApplication
+[2024-05-28 10:33:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: data-manager-library
+[2024-05-28 10:33:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: KratosMeshMovingApplication
+[2024-05-28 10:33:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: KratosMetisApplication
+[2024-05-28 10:33:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: KratosMPMApplication
+[2024-05-28 10:33:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: step-exec-lib
+[2024-05-28 10:33:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: atla
+[2024-05-28 10:33:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: KratosMultiphysics
+[2024-05-28 10:33:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zodchy-fastapi
+[2024-05-28 10:33:57] INFO root fetch - processPackages [KratosMedApplication]: New version: [9.5.1] Old Version: [9.5.0]
+[2024-05-28 10:33:57] INFO root fetch - processPackages [atla]: New version: [0.1.0a6] Old Version: [0.1.0a5]
+[2024-05-28 10:33:57] INFO root fetch - processPackages [step-exec-lib]: New version: [0.2.0] Old Version: [0.1.5]
+[2024-05-28 10:33:57] INFO root fetch - processPackages [KratosMetisApplication]: New version: [9.5.1] Old Version: [9.5]
+[2024-05-28 10:33:57] INFO root fetch - processPackages [KratosMPMApplication]: New version: [9.5.1] Old Version: [9.5]
+[2024-05-28 10:33:57] WARNING root fetch - processPackages [data-manager-library]: Skipping, unable to determine old version
+[2024-05-28 10:33:57] INFO root fetch - processPackages [data-manager-library]: Start processing: tha
+[2024-05-28 10:33:57] INFO root fetch - main [MainThread]: End processing [data-manager-library] error
+[2024-05-28 10:33:57] INFO root fetch - processPackages [zodchy-fastapi]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-05-28 10:33:57] INFO root fetch - processPackages [KratosMeshMovingApplication]: New version: [9.5.1] Old Version: [9.5]
+[2024-05-28 10:33:57] INFO root fetch - processPackages [atla]: Downloading https://files.pythonhosted.org/packages/70/52/ab087b5c2e03336ce2def60658a5a3343ce76499267c228dc9f5d6b1880a/atla-0.1.0a5.tar.gz
+[2024-05-28 10:33:57] INFO root fetch - processPackages [KratosMeshingApplication]: New version: [9.5.1] Old Version: [9.5]
+[2024-05-28 10:33:57] INFO root fetch - processPackages [KratosMedApplication]: Downloading https://files.pythonhosted.org/packages/6f/0d/05d75cb7f19a98e82f6013093f30735b208913ac89595637b1b9d4ad80ec/KratosMedApplication-9.5.0-cp39-cp39-win_amd64.whl
+[2024-05-28 10:33:57] INFO root fetch - processPackages [KratosMultiphysics]: New version: [9.5.1] Old Version: [9.5]
+[2024-05-28 10:33:57] INFO root fetch - processPackages [tha]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-28 10:33:57] INFO root fetch - processPackages [tha]: Downloading https://files.pythonhosted.org/packages/49/b9/fcce02749a260dbc7a82c36a72bcf2a37318d76ff3a8473c19cb291d8bdc/tha-0.1.0.tar.gz
+[2024-05-28 10:33:57] INFO root fetch - processPackages [zodchy-fastapi]: Downloading https://files.pythonhosted.org/packages/90/8e/7daf30dd2e3a438196885960bd2b6bc278dd9e70b03eaebb6b62c3b2c735/zodchy_fastapi-0.3.2.tar.gz
+[2024-05-28 10:33:57] INFO root fetch - processPackages [step-exec-lib]: Downloading https://files.pythonhosted.org/packages/f6/b9/b121bfbf6bd1201bd5643ccaaaf8f5d8e9a9003cecec8cc50b5bc25ede3b/step-exec-lib-0.1.5.tar.gz
+[2024-05-28 10:33:57] INFO root fetch - processPackages [KratosMetisApplication]: Downloading https://files.pythonhosted.org/packages/55/98/7fcef5fdb9d46788a556e2804d5c68a7ce5c58cfdb561e0e21bb6022c3df/KratosMetisApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-28 10:33:57] INFO root fetch - processPackages [KratosMeshingApplication]: Downloading https://files.pythonhosted.org/packages/ca/4d/eca6921951eabb1c970fc2178638e3bb62048032adc81f9eac7ccb6cd564/KratosMeshingApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-28 10:33:57] INFO root fetch - processPackages [KratosMPMApplication]: Downloading https://files.pythonhosted.org/packages/48/74/ee6d0d67364f8b4557827f1007c638bb40f7b828f820ac5cf9c104844d88/KratosMPMApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-28 10:33:57] INFO root fetch - processPackages [KratosMultiphysics]: Downloading https://files.pythonhosted.org/packages/8e/04/2d34da69c22309af756899e849fe111a488272ea3bef787f5fc9e27a390c/KratosMultiphysics-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-28 10:33:57] INFO root fetch - processPackages [KratosMeshMovingApplication]: Downloading https://files.pythonhosted.org/packages/9a/ab/b151d97146c9a8d6bd4c27262c6851603b7f94ef1ff5f996ec579af57b4e/KratosMeshMovingApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-28 10:33:57] INFO root fetch - processPackages [atla]: Downloading https://files.pythonhosted.org/packages/61/d0/62c0d27a3182347efe022ebe088330c4d15f3e0961e48227d15f715fa7b4/atla-0.1.0a6.tar.gz
+[2024-05-28 10:33:57] WARNING root fetch - processPackages [KratosMultiphysics]: Skipping package: exceeds size limit 38537132>=10485760
+[2024-05-28 10:33:57] INFO root fetch - main [MainThread]: End processing [KratosMultiphysics] error
+[2024-05-28 10:33:57] INFO root fetch - processPackages [KratosMedApplication]: Downloading https://files.pythonhosted.org/packages/ea/11/226cf5c21bb02e0a0fe2ef60f4d61c9b821d897150275cec11ea1ed825d6/KratosMedApplication-9.5.1-cp312-cp312-win_amd64.whl
+[2024-05-28 10:33:58] INFO root fetch - processPackages [tha]: Downloading https://files.pythonhosted.org/packages/1b/00/2538b4c3b5a9a585b4391bc67546a720e78f8e7e64d44ee63eb419527351/tha-0.1.1.tar.gz
+[2024-05-28 10:33:58] INFO root fetch - processPackages [atla]: executing diffoscope
+[2024-05-28 10:33:58] INFO root fetch - processPackages [atla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atla-0.1.0a5.tar.gz tmp/atla-0.1.0a6.tar.gz --markdown 20240528/a/atla/0.1.0a5-0.1.0a6/README.md --exclude *.pyd
+[2024-05-28 10:33:58] INFO root fetch - processPackages [KratosMedApplication]: executing diffoscope
+[2024-05-28 10:33:58] INFO root fetch - processPackages [KratosMedApplication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KratosMedApplication-9.5.0-cp39-cp39-win_amd64.whl.zip tmp/KratosMedApplication-9.5.1-cp312-cp312-win_amd64.whl.zip --markdown 20240528/K/KratosMedApplication/9.5.0-9.5.1/README.md --exclude *.pyd
+[2024-05-28 10:33:58] INFO root fetch - processPackages [step-exec-lib]: Downloading https://files.pythonhosted.org/packages/9b/8b/39283079a4c31d668746797a977ae0d4963833cb9ab62f918b559f74a2b1/step_exec_lib-0.2.0.tar.gz
+[2024-05-28 10:33:58] INFO root fetch - processPackages [tha]: executing diffoscope
+[2024-05-28 10:33:58] INFO root fetch - processPackages [tha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tha-0.1.0.tar.gz tmp/tha-0.1.1.tar.gz --markdown 20240528/t/tha/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-28 10:33:58] INFO root fetch - processPackages [zodchy-fastapi]: Downloading https://files.pythonhosted.org/packages/c4/55/d034dc016e6fa2e3b01230b732e3a17e725a0c1f44d8bb76bea748147137/zodchy_fastapi-0.3.3.tar.gz
+[2024-05-28 10:33:58] INFO root fetch - processPackages [step-exec-lib]: executing diffoscope
+[2024-05-28 10:33:58] INFO root fetch - processPackages [step-exec-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/step-exec-lib-0.1.5.tar.gz tmp/step_exec_lib-0.2.0.tar.gz --markdown 20240528/s/step-exec-lib/0.1.5-0.2.0/README.md --exclude *.pyd
+[2024-05-28 10:33:58] INFO root fetch - processPackages [KratosMPMApplication]: Downloading https://files.pythonhosted.org/packages/42/f1/66567c79d8d75ddbbc890ce1e35b24f82a14c20fbb77dd3549dc2b4b2317/KratosMPMApplication-9.5.1-cp39-cp39-win_amd64.whl
+[2024-05-28 10:33:58] INFO root fetch - processPackages [KratosMetisApplication]: Downloading https://files.pythonhosted.org/packages/d4/2d/bf4f8097e245f8a938fbd461e108b7b11c7a7943aae79b3c2c89669fbb88/KratosMetisApplication-9.5.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-28 10:33:58] INFO root fetch - processPackages [zodchy-fastapi]: executing diffoscope
+[2024-05-28 10:33:58] INFO root fetch - processPackages [zodchy-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zodchy_fastapi-0.3.2.tar.gz tmp/zodchy_fastapi-0.3.3.tar.gz --markdown 20240528/z/zodchy-fastapi/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-05-28 10:33:58] INFO root fetch - processPackages [KratosMeshMovingApplication]: Downloading https://files.pythonhosted.org/packages/10/95/ade0f9b4056c3bbd897d375e3d311a4d812afa627495e8ee1acf13b08d9c/KratosMeshMovingApplication-9.5.1-cp39-cp39-win_amd64.whl
+[2024-05-28 10:33:58] INFO root fetch - processPackages [KratosMeshingApplication]: Downloading https://files.pythonhosted.org/packages/92/49/5aed1067df5e18c8cd45b6f086aa55701b8eec5a77cd28319f5b8fbccf70/KratosMeshingApplication-9.5.1-cp39-cp39-win_amd64.whl
+[2024-05-28 10:33:58] INFO root fetch - processPackages [KratosMetisApplication]: executing diffoscope
+[2024-05-28 10:33:58] INFO root fetch - processPackages [KratosMetisApplication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KratosMetisApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/KratosMetisApplication-9.5.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240528/K/KratosMetisApplication/9.5-9.5.1/README.md --exclude *.pyd
+[2024-05-28 10:33:58] INFO root fetch - processPackages [KratosMeshMovingApplication]: executing diffoscope
+[2024-05-28 10:33:58] INFO root fetch - processPackages [KratosMeshMovingApplication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KratosMeshMovingApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/KratosMeshMovingApplication-9.5.1-cp39-cp39-win_amd64.whl.zip --markdown 20240528/K/KratosMeshMovingApplication/9.5-9.5.1/README.md --exclude *.pyd
+[2024-05-28 10:33:58] INFO root fetch - processPackages [KratosMPMApplication]: executing diffoscope
+[2024-05-28 10:33:58] INFO root fetch - processPackages [KratosMPMApplication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KratosMPMApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/KratosMPMApplication-9.5.1-cp39-cp39-win_amd64.whl.zip --markdown 20240528/K/KratosMPMApplication/9.5-9.5.1/README.md --exclude *.pyd
+[2024-05-28 10:33:58] INFO root fetch - processPackages [tha]: Remove: archive file [/home/abi/fetcher/tmp/tha-0.1.0.tar.gz]
+[2024-05-28 10:33:58] INFO root fetch - processPackages [tha]: Remove: archive file [/home/abi/fetcher/tmp/tha-0.1.1.tar.gz]
+[2024-05-28 10:33:58] INFO root fetch - main [MainThread]: End processing [tha]: success
+[2024-05-28 10:33:58] INFO root fetch - processPackages [atla]: Remove: archive file [/home/abi/fetcher/tmp/atla-0.1.0a5.tar.gz]
+[2024-05-28 10:33:58] INFO root fetch - processPackages [step-exec-lib]: Remove: archive file [/home/abi/fetcher/tmp/step-exec-lib-0.1.5.tar.gz]
+[2024-05-28 10:33:58] INFO root fetch - processPackages [step-exec-lib]: Remove: archive file [/home/abi/fetcher/tmp/step_exec_lib-0.2.0.tar.gz]
+[2024-05-28 10:33:58] INFO root fetch - processPackages [atla]: Remove: archive file [/home/abi/fetcher/tmp/atla-0.1.0a6.tar.gz]
+[2024-05-28 10:33:58] INFO root fetch - main [MainThread]: End processing [step-exec-lib]: success
+[2024-05-28 10:33:58] INFO root fetch - main [MainThread]: End processing [atla]: success
+[2024-05-28 10:33:59] INFO root fetch - processPackages [zodchy-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/zodchy_fastapi-0.3.2.tar.gz]
+[2024-05-28 10:33:59] INFO root fetch - processPackages [zodchy-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/zodchy_fastapi-0.3.3.tar.gz]
+[2024-05-28 10:33:59] INFO root fetch - main [MainThread]: End processing [zodchy-fastapi]: success
+[2024-05-28 10:33:59] INFO root fetch - processPackages [KratosMeshingApplication]: executing diffoscope
+[2024-05-28 10:33:59] INFO root fetch - processPackages [KratosMeshingApplication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KratosMeshingApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/KratosMeshingApplication-9.5.1-cp39-cp39-win_amd64.whl.zip --markdown 20240528/K/KratosMeshingApplication/9.5-9.5.1/README.md --exclude *.pyd
+[2024-05-28 10:33:59] INFO root fetch - processPackages [KratosMeshMovingApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosMeshMovingApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-28 10:33:59] INFO root fetch - processPackages [KratosMeshMovingApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosMeshMovingApplication-9.5.1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-28 10:33:59] INFO root fetch - main [MainThread]: End processing [KratosMeshMovingApplication]: success
+[2024-05-28 10:34:00] INFO root fetch - processPackages [KratosMPMApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosMPMApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-28 10:34:00] INFO root fetch - processPackages [KratosMPMApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosMPMApplication-9.5.1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-28 10:34:00] INFO root fetch - main [MainThread]: End processing [KratosMPMApplication]: success
+[2024-05-28 10:34:00] INFO root fetch - processPackages [KratosMeshingApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosMeshingApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-28 10:34:00] INFO root fetch - processPackages [KratosMeshingApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosMeshingApplication-9.5.1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-28 10:34:00] INFO root fetch - main [MainThread]: End processing [KratosMeshingApplication]: success
+[2024-05-28 10:34:01] INFO root fetch - processPackages [KratosMedApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosMedApplication-9.5.0-cp39-cp39-win_amd64.whl.zip]
+[2024-05-28 10:34:01] INFO root fetch - processPackages [KratosMedApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosMedApplication-9.5.1-cp312-cp312-win_amd64.whl.zip]
+[2024-05-28 10:34:01] INFO root fetch - main [MainThread]: End processing [KratosMedApplication]: success
+[2024-05-28 10:34:12] INFO root fetch - processPackages [KratosMetisApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosMetisApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-28 10:34:12] INFO root fetch - processPackages [KratosMetisApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosMetisApplication-9.5.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-28 10:34:12] INFO root fetch - main [MainThread]: End processing [KratosMetisApplication]: success
+[2024-05-28 10:34:12] INFO root fetch - main [MainThread]: Store serial: [23407976]
