@@ -10189,3 +10189,33 @@
 [2024-05-28 09:29:00] INFO root fetch - processPackages [superlinked]: Remove: archive file [/home/abi/fetcher/tmp/superlinked-5.6.0.tar.gz]
 [2024-05-28 09:29:00] INFO root fetch - main [MainThread]: End processing [superlinked]: success
 [2024-05-28 09:29:00] INFO root fetch - main [MainThread]: Store serial: [23407047]
+[2024-05-28 09:31:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23407047]
+[2024-05-28 09:31:09] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-28 09:31:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Yifengw
+[2024-05-28 09:31:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-oauth-emailbackend
+[2024-05-28 09:31:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: HiggsML
+[2024-05-28 09:31:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: umj-framework-py-ex
+[2024-05-28 09:31:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: package-tea-hanyan
+[2024-05-28 09:31:09] WARNING root fetch - processPackages [django-oauth-emailbackend]: Skipping, unable to determine old version
+[2024-05-28 09:31:09] INFO root fetch - main [MainThread]: End processing [django-oauth-emailbackend] error
+[2024-05-28 09:31:09] WARNING root fetch - processPackages [Yifengw]: Skipping, unable to determine old version
+[2024-05-28 09:31:09] INFO root fetch - main [MainThread]: End processing [Yifengw] error
+[2024-05-28 09:31:09] INFO root fetch - processPackages [HiggsML]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-28 09:31:09] WARNING root fetch - processPackages [umj-framework-py-ex]: Skipping, unable to determine old version
+[2024-05-28 09:31:09] INFO root fetch - main [MainThread]: End processing [umj-framework-py-ex] error
+[2024-05-28 09:31:09] INFO root fetch - processPackages [package-tea-hanyan]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-28 09:31:10] INFO root fetch - processPackages [HiggsML]: Downloading https://files.pythonhosted.org/packages/ad/9c/8ae2248ad2c49c2fb1f6ea86dafb41d2a9f21e14aab986431ddd9ad19f11/higgsml-0.0.6.tar.gz
+[2024-05-28 09:31:10] INFO root fetch - processPackages [package-tea-hanyan]: Downloading https://files.pythonhosted.org/packages/14/7b/663c789314a8e6380a8e84535478d18480335e7b36f7e5e76cfea6090601/package_tea_hanyan-1.0.3.tar.gz
+[2024-05-28 09:31:10] INFO root fetch - processPackages [HiggsML]: Downloading https://files.pythonhosted.org/packages/de/a3/6007a3d1ab44acacbbf6aa69e33570b9c7344ab3b8f89ed7d0d75518ceb7/higgsml-0.0.7.tar.gz
+[2024-05-28 09:31:10] INFO root fetch - processPackages [package-tea-hanyan]: Downloading https://files.pythonhosted.org/packages/89/b4/a07d33e070eb4dd2803fb11822120c39dd7b5e9b59c4828da8295aa2dbdf/package_tea_hanyan-1.0.4.tar.gz
+[2024-05-28 09:31:10] INFO root fetch - processPackages [HiggsML]: executing diffoscope
+[2024-05-28 09:31:10] INFO root fetch - processPackages [HiggsML]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/higgsml-0.0.6.tar.gz tmp/higgsml-0.0.7.tar.gz --markdown 20240528/H/HiggsML/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-28 09:31:10] INFO root fetch - processPackages [package-tea-hanyan]: executing diffoscope
+[2024-05-28 09:31:10] INFO root fetch - processPackages [package-tea-hanyan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/package_tea_hanyan-1.0.3.tar.gz tmp/package_tea_hanyan-1.0.4.tar.gz --markdown 20240528/p/package-tea-hanyan/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-28 09:31:11] INFO root fetch - processPackages [HiggsML]: Remove: archive file [/home/abi/fetcher/tmp/higgsml-0.0.6.tar.gz]
+[2024-05-28 09:31:11] INFO root fetch - processPackages [HiggsML]: Remove: archive file [/home/abi/fetcher/tmp/higgsml-0.0.7.tar.gz]
+[2024-05-28 09:31:11] INFO root fetch - main [MainThread]: End processing [HiggsML]: success
+[2024-05-28 09:31:11] INFO root fetch - processPackages [package-tea-hanyan]: Remove: archive file [/home/abi/fetcher/tmp/package_tea_hanyan-1.0.3.tar.gz]
+[2024-05-28 09:31:11] INFO root fetch - processPackages [package-tea-hanyan]: Remove: archive file [/home/abi/fetcher/tmp/package_tea_hanyan-1.0.4.tar.gz]
+[2024-05-28 09:31:11] INFO root fetch - main [MainThread]: End processing [package-tea-hanyan]: success
+[2024-05-28 09:31:11] INFO root fetch - main [MainThread]: Store serial: [23407065]
