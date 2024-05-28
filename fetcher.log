@@ -12618,3 +12618,129 @@
 [2024-05-28 10:46:13] INFO root fetch - processPackages [yangsuite-devices]: Remove: archive file [/home/abi/fetcher/tmp/yangsuite_devices-2.9.9.post0.dev2-py3-none-any.whl.zip]
 [2024-05-28 10:46:13] INFO root fetch - main [MainThread]: End processing [yangsuite-devices]: success
 [2024-05-28 10:46:13] INFO root fetch - main [MainThread]: Store serial: [23408255]
+[2024-05-28 10:48:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23408255]
+[2024-05-28 10:48:28] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-05-28 10:48:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: OpenGeode-core
+[2024-05-28 10:48:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: moapy
+[2024-05-28 10:48:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: data-manager-library
+[2024-05-28 10:48:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tfp-nightly
+[2024-05-28 10:48:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: longdocfactscore
+[2024-05-28 10:48:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: consoleiotools
+[2024-05-28 10:48:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: opentf-toolkit-nightly
+[2024-05-28 10:48:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: quantplay
+[2024-05-28 10:48:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: opentf-toolkit-nightly
+[2024-05-28 10:48:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: latp
+[2024-05-28 10:48:28] INFO root fetch - processPackages [moapy]: New version: [0.1.1] Old Version: [0.0.1]
+[2024-05-28 10:48:28] INFO root fetch - processPackages [latp]: New version: [0.0.3] Old Version: [0.0.1]
+[2024-05-28 10:48:28] INFO root fetch - processPackages [opentf-toolkit-nightly]: New version: [0.55.0.dev968] Old Version: [0.55.0.dev962]
+[2024-05-28 10:48:28] INFO root fetch - processPackages [opentf-toolkit-nightly]: New version: [0.55.0.dev968] Old Version: [0.55.0.dev962]
+[2024-05-28 10:48:28] INFO root fetch - processPackages [quantplay]: New version: [1.5.9] Old Version: [1.5.80]
+[2024-05-28 10:48:28] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2024-05-28 10:48:28] WARNING root fetch - processPackages [data-manager-library]: Skipping, unable to determine old version
+[2024-05-28 10:48:28] INFO root fetch - processPackages [data-manager-library]: Start processing: pancho
+[2024-05-28 10:48:28] INFO root fetch - main [MainThread]: End processing [data-manager-library] error
+[2024-05-28 10:48:28] INFO root fetch - processPackages [longdocfactscore]: New version: [1.0.0] Old Version: [0.0.1]
+[2024-05-28 10:48:28] INFO root fetch - processPackages [consoleiotools]: New version: [4.6.0] Old Version: [4.5.0]
+[2024-05-28 10:48:28] INFO root fetch - processPackages [OpenGeode-core]: New version: [9.10.4] Old Version: [14.20.1rc2]
+[2024-05-28 10:48:28] INFO root fetch - processPackages [latp]: Downloading https://files.pythonhosted.org/packages/b3/9c/ce559dff0f587b065ac56133ffcb0a17fd07b4d5da293080ea51c5868ca8/latp-0.0.1.tar.gz
+[2024-05-28 10:48:28] INFO root fetch - processPackages [opentf-toolkit-nightly]: Downloading https://files.pythonhosted.org/packages/3d/7e/fa4924d260f56dc96bcdc771a654b4d8539360ad8dc044a21b53c07bbec2/opentf_toolkit_nightly-0.55.0.dev962-py3-none-any.whl
+[2024-05-28 10:48:28] INFO root fetch - processPackages [opentf-toolkit-nightly]: Downloading https://files.pythonhosted.org/packages/3d/7e/fa4924d260f56dc96bcdc771a654b4d8539360ad8dc044a21b53c07bbec2/opentf_toolkit_nightly-0.55.0.dev962-py3-none-any.whl
+[2024-05-28 10:48:28] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2024-05-28 10:48:28] INFO root fetch - processPackages [moapy]: Downloading https://files.pythonhosted.org/packages/29/7d/98626a05102ea27809f82a0d42b5bdd59ee11cdd72aba554a064954a4c69/moapy-0.0.1.tar.gz
+[2024-05-28 10:48:28] INFO root fetch - processPackages [pancho]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-28 10:48:28] INFO root fetch - processPackages [OpenGeode-core]: Downloading https://files.pythonhosted.org/packages/b9/6c/a790e4141bb6674705a73094362cc2783a5a0f1d555163637be6db856f08/OpenGeode_core-14.20.1rc2-cp39-cp39-win_amd64.whl
+[2024-05-28 10:48:28] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/89/a3/96bb1b3cd7af8a089001c77f1f704d8cf65d3eeb17763350d5bb27888c3f/quantplay-1.5.80.tar.gz
+[2024-05-28 10:48:28] INFO root fetch - processPackages [longdocfactscore]: Downloading https://files.pythonhosted.org/packages/bc/0b/9b05085ad35a7efe0951d9976a215321d1e44c36cf81c46a62cd6a9779b4/longdocfactscore-0.0.1.tar.gz
+[2024-05-28 10:48:28] INFO root fetch - processPackages [consoleiotools]: Downloading https://files.pythonhosted.org/packages/72/16/59df3a55b3a87991dfa35400563f14bcdbdd82579211b2689481fa6849c1/consoleiotools-4.5.0.tar.gz
+[2024-05-28 10:48:29] INFO root fetch - processPackages [opentf-toolkit-nightly]: Downloading https://files.pythonhosted.org/packages/66/25/7fa1d2c247a8bc49e7eb3f8cb9a127ff230ee1445f7760291f63900c92f9/opentf_toolkit_nightly-0.55.0.dev968-py3-none-any.whl
+[2024-05-28 10:48:29] INFO root fetch - processPackages [latp]: Downloading https://files.pythonhosted.org/packages/15/61/7da60640bd8ede61584b5850300472dde046a35387d365ce2306bc627d73/latp-0.0.3.tar.gz
+[2024-05-28 10:48:29] INFO root fetch - processPackages [opentf-toolkit-nightly]: Downloading https://files.pythonhosted.org/packages/66/25/7fa1d2c247a8bc49e7eb3f8cb9a127ff230ee1445f7760291f63900c92f9/opentf_toolkit_nightly-0.55.0.dev968-py3-none-any.whl
+[2024-05-28 10:48:29] INFO root fetch - processPackages [pancho]: Downloading https://files.pythonhosted.org/packages/a6/f3/0f26f23d564c163c048f990786444107206be56d592dc949f23f7156033a/pancho-1.0.5.tar.gz
+[2024-05-28 10:48:29] WARNING root fetch - processPackages [OpenGeode-core]: Skipping package: exceeds size limit 11743344>=10485760
+[2024-05-28 10:48:29] INFO root fetch - processPackages [OpenGeode-core]: Start processing: cdo-sdk-python
+[2024-05-28 10:48:29] INFO root fetch - main [MainThread]: End processing [OpenGeode-core] error
+[2024-05-28 10:48:29] INFO root fetch - processPackages [moapy]: Downloading https://files.pythonhosted.org/packages/a7/b5/1680b2921181a20542e20a8d0f8a2a483eefccf6e8d7d9efb392b5883ad3/moapy-0.1.1.tar.gz
+[2024-05-28 10:48:29] INFO root fetch - processPackages [opentf-toolkit-nightly]: executing diffoscope
+[2024-05-28 10:48:29] INFO root fetch - processPackages [opentf-toolkit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentf_toolkit_nightly-0.55.0.dev962-py3-none-any.whl.zip tmp/opentf_toolkit_nightly-0.55.0.dev968-py3-none-any.whl.zip --markdown 20240528/o/opentf-toolkit-nightly/0.55.0.dev962-0.55.0.dev968/README.md --exclude *.pyd
+[2024-05-28 10:48:29] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/29/44/bc619a0a4e2ecba52ee7f6eac8f51f600a1d90bb67f88a28638d7d9f9c62/quantplay-1.5.9.tar.gz
+[2024-05-28 10:48:29] INFO root fetch - processPackages [opentf-toolkit-nightly]: executing diffoscope
+[2024-05-28 10:48:29] INFO root fetch - processPackages [opentf-toolkit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentf_toolkit_nightly-0.55.0.dev962-py3-none-any.whl.zip tmp/opentf_toolkit_nightly-0.55.0.dev968-py3-none-any.whl.zip --markdown 20240528/o/opentf-toolkit-nightly/0.55.0.dev962-0.55.0.dev968/README.md --exclude *.pyd
+[2024-05-28 10:48:29] INFO root fetch - processPackages [latp]: executing diffoscope
+[2024-05-28 10:48:29] INFO root fetch - processPackages [latp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latp-0.0.1.tar.gz tmp/latp-0.0.3.tar.gz --markdown 20240528/l/latp/0.0.1-0.0.3/README.md --exclude *.pyd
+[2024-05-28 10:48:29] INFO root fetch - processPackages [moapy]: executing diffoscope
+[2024-05-28 10:48:29] INFO root fetch - processPackages [moapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moapy-0.0.1.tar.gz tmp/moapy-0.1.1.tar.gz --markdown 20240528/m/moapy/0.0.1-0.1.1/README.md --exclude *.pyd
+[2024-05-28 10:48:29] INFO root fetch - processPackages [longdocfactscore]: Downloading https://files.pythonhosted.org/packages/4d/7b/f129c2e65c9d5078edf38a66886ee81ca8bfd2954c967bfc082d73250072/longdocfactscore-1.0.0.tar.gz
+[2024-05-28 10:48:29] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2024-05-28 10:48:29] INFO root fetch - processPackages [cdo-sdk-python]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-28 10:48:29] INFO root fetch - processPackages [consoleiotools]: Downloading https://files.pythonhosted.org/packages/8a/f8/ffafa125b4206ae2a750be72960cf5f1dc2fd27085bb42514ae43af9dedb/consoleiotools-4.6.0.tar.gz
+[2024-05-28 10:48:29] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2024-05-28 10:48:29] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.5.80.tar.gz tmp/quantplay-1.5.9.tar.gz --markdown 20240528/q/quantplay/1.5.80-1.5.9/README.md --exclude *.pyd
+[2024-05-28 10:48:29] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/aa/54/d9c631d5702693a0921bbc1c50cad785f8fa75671cabdd662546a416a6b9/cdo-sdk-python-1.0.98.tar.gz
+[2024-05-28 10:48:29] INFO root fetch - processPackages [pancho]: Downloading https://files.pythonhosted.org/packages/27/39/d8d7ee40760138c3365ff95a63cc519a166fcf0d39de358b0179f29f48c1/pancho-1.0.6.tar.gz
+[2024-05-28 10:48:29] INFO root fetch - processPackages [longdocfactscore]: executing diffoscope
+[2024-05-28 10:48:29] INFO root fetch - processPackages [longdocfactscore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/longdocfactscore-0.0.1.tar.gz tmp/longdocfactscore-1.0.0.tar.gz --markdown 20240528/l/longdocfactscore/0.0.1-1.0.0/README.md --exclude *.pyd
+[2024-05-28 10:48:29] INFO root fetch - processPackages [consoleiotools]: executing diffoscope
+[2024-05-28 10:48:29] INFO root fetch - processPackages [consoleiotools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/consoleiotools-4.5.0.tar.gz tmp/consoleiotools-4.6.0.tar.gz --markdown 20240528/c/consoleiotools/4.5.0-4.6.0/README.md --exclude *.pyd
+[2024-05-28 10:48:29] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/9b/76/7267c3f3ac308bacc9e809ed54663a42556e896ff4e2d73a469a15d3556a/cdo-sdk-python-1.0.99.tar.gz
+[2024-05-28 10:48:29] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2024-05-28 10:48:29] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20240528/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/README.md --exclude *.pyd
+[2024-05-28 10:48:29] INFO root fetch - processPackages [pancho]: executing diffoscope
+[2024-05-28 10:48:29] INFO root fetch - processPackages [pancho]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pancho-1.0.5.tar.gz tmp/pancho-1.0.6.tar.gz --markdown 20240528/p/pancho/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-05-28 10:48:29] INFO root fetch - processPackages [cdo-sdk-python]: executing diffoscope
+[2024-05-28 10:48:29] INFO root fetch - processPackages [cdo-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdo-sdk-python-1.0.98.tar.gz tmp/cdo-sdk-python-1.0.99.tar.gz --markdown 20240528/c/cdo-sdk-python/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-28 10:48:30] INFO root fetch - processPackages [opentf-toolkit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/opentf_toolkit_nightly-0.55.0.dev962-py3-none-any.whl.zip]
+[2024-05-28 10:48:30] INFO root fetch - processPackages [opentf-toolkit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/opentf_toolkit_nightly-0.55.0.dev968-py3-none-any.whl.zip]
+[2024-05-28 10:48:30] INFO root fetch - processPackages [opentf-toolkit-nightly]: Start processing: flake8-async
+[2024-05-28 10:48:30] INFO root fetch - main [MainThread]: End processing [opentf-toolkit-nightly]: success
+[2024-05-28 10:48:30] INFO root fetch - processPackages [moapy]: Remove: archive file [/home/abi/fetcher/tmp/moapy-0.0.1.tar.gz]
+[2024-05-28 10:48:30] INFO root fetch - processPackages [moapy]: Remove: archive file [/home/abi/fetcher/tmp/moapy-0.1.1.tar.gz]
+[2024-05-28 10:48:30] INFO root fetch - processPackages [moapy]: Start processing: tf-nightly-cpu
+[2024-05-28 10:48:30] INFO root fetch - main [MainThread]: End processing [moapy]: success
+[2024-05-28 10:48:30] INFO root fetch - processPackages [flake8-async]: New version: [24.5.5] Old Version: [24.5.4]
+[2024-05-28 10:48:30] INFO root fetch - processPackages [latp]: Remove: archive file [/home/abi/fetcher/tmp/latp-0.0.1.tar.gz]
+[2024-05-28 10:48:30] INFO root fetch - processPackages [latp]: Remove: archive file [/home/abi/fetcher/tmp/latp-0.0.3.tar.gz]
+[2024-05-28 10:48:30] INFO root fetch - processPackages [latp]: Start processing: stream-zip
+[2024-05-28 10:48:30] INFO root fetch - main [MainThread]: End processing [latp]: success
+[2024-05-28 10:48:30] INFO root fetch - processPackages [flake8-async]: Downloading https://files.pythonhosted.org/packages/5d/12/5a9aceaa0cb1361130f242850b87dac72fb5dd0377c408d831234d9851f4/flake8_async-24.5.4.tar.gz
+[2024-05-28 10:48:30] INFO root fetch - main [MainThread]: End processing [opentf-toolkit-nightly]: success
+[2024-05-28 10:48:30] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.17.0.dev20240528] Old Version: [2.17.0.dev20240527]
+[2024-05-28 10:48:30] INFO root fetch - processPackages [stream-zip]: New version: [0.0.9] Old Version: [0.0.81]
+[2024-05-28 10:48:30] INFO root fetch - processPackages [longdocfactscore]: Remove: archive file [/home/abi/fetcher/tmp/longdocfactscore-0.0.1.tar.gz]
+[2024-05-28 10:48:30] INFO root fetch - processPackages [longdocfactscore]: Remove: archive file [/home/abi/fetcher/tmp/longdocfactscore-1.0.0.tar.gz]
+[2024-05-28 10:48:30] INFO root fetch - main [MainThread]: End processing [longdocfactscore]: success
+[2024-05-28 10:48:30] INFO root fetch - processPackages [pancho]: Remove: archive file [/home/abi/fetcher/tmp/pancho-1.0.5.tar.gz]
+[2024-05-28 10:48:30] INFO root fetch - processPackages [pancho]: Remove: archive file [/home/abi/fetcher/tmp/pancho-1.0.6.tar.gz]
+[2024-05-28 10:48:30] INFO root fetch - main [MainThread]: End processing [pancho]: success
+[2024-05-28 10:48:30] INFO root fetch - processPackages [flake8-async]: Downloading https://files.pythonhosted.org/packages/1c/d8/1becd3d8da5cb68b244d5323fdad4f01c50d6daff8ae6dacfc146939ebfe/flake8_async-24.5.5.tar.gz
+[2024-05-28 10:48:30] INFO root fetch - processPackages [consoleiotools]: Remove: archive file [/home/abi/fetcher/tmp/consoleiotools-4.5.0.tar.gz]
+[2024-05-28 10:48:30] INFO root fetch - processPackages [consoleiotools]: Remove: archive file [/home/abi/fetcher/tmp/consoleiotools-4.6.0.tar.gz]
+[2024-05-28 10:48:30] INFO root fetch - main [MainThread]: End processing [consoleiotools]: success
+[2024-05-28 10:48:30] INFO root fetch - processPackages [stream-zip]: Downloading https://files.pythonhosted.org/packages/f0/79/83e1983f1bdf7676f9c11b86d9d310db8e6441b477e1a35e7847e1b4c28d/stream_zip-0.0.81.tar.gz
+[2024-05-28 10:48:30] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/65/c9/52043591d2ad3140278d828ad1900950b1052e3774987a28659ecd121955/tf_nightly_cpu-2.17.0.dev20240527-cp39-cp39-win_amd64.whl
+[2024-05-28 10:48:30] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.80.tar.gz]
+[2024-05-28 10:48:30] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.9.tar.gz]
+[2024-05-28 10:48:30] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2024-05-28 10:48:30] INFO root fetch - processPackages [flake8-async]: executing diffoscope
+[2024-05-28 10:48:30] INFO root fetch - processPackages [flake8-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flake8_async-24.5.4.tar.gz tmp/flake8_async-24.5.5.tar.gz --markdown 20240528/f/flake8-async/24.5.4-24.5.5/README.md --exclude *.pyd
+[2024-05-28 10:48:30] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/4d/96/0e15cbb2c15b3eec311ca418e7c860b403f219cc1460007df33c2a30f0c2/tf_nightly_cpu-2.17.0.dev20240528-cp39-cp39-win_amd64.whl
+[2024-05-28 10:48:31] INFO root fetch - processPackages [stream-zip]: Downloading https://files.pythonhosted.org/packages/0e/94/162b767659b1b6afe9241c47773d921e2b8a0f97f124d374e76c7f1d2b53/stream-zip-0.0.9.tar.gz
+[2024-05-28 10:48:31] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2024-05-28 10:48:31] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.17.0.dev20240527-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.17.0.dev20240528-cp39-cp39-win_amd64.whl.zip --markdown 20240528/t/tf-nightly-cpu/2.17.0.dev20240527-2.17.0.dev20240528/README.md --exclude *.pyd
+[2024-05-28 10:48:31] INFO root fetch - processPackages [stream-zip]: executing diffoscope
+[2024-05-28 10:48:31] INFO root fetch - processPackages [stream-zip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stream_zip-0.0.81.tar.gz tmp/stream-zip-0.0.9.tar.gz --markdown 20240528/s/stream-zip/0.0.81-0.0.9/README.md --exclude *.pyd
+[2024-05-28 10:48:31] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.98.tar.gz]
+[2024-05-28 10:48:31] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.99.tar.gz]
+[2024-05-28 10:48:31] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
+[2024-05-28 10:48:31] INFO root fetch - processPackages [flake8-async]: Remove: archive file [/home/abi/fetcher/tmp/flake8_async-24.5.4.tar.gz]
+[2024-05-28 10:48:31] INFO root fetch - processPackages [flake8-async]: Remove: archive file [/home/abi/fetcher/tmp/flake8_async-24.5.5.tar.gz]
+[2024-05-28 10:48:31] INFO root fetch - main [MainThread]: End processing [flake8-async]: success
+[2024-05-28 10:48:31] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240527-cp39-cp39-win_amd64.whl.zip]
+[2024-05-28 10:48:31] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240528-cp39-cp39-win_amd64.whl.zip]
+[2024-05-28 10:48:31] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2024-05-28 10:48:31] INFO root fetch - processPackages [stream-zip]: Remove: archive file [/home/abi/fetcher/tmp/stream_zip-0.0.81.tar.gz]
+[2024-05-28 10:48:31] INFO root fetch - processPackages [stream-zip]: Remove: archive file [/home/abi/fetcher/tmp/stream-zip-0.0.9.tar.gz]
+[2024-05-28 10:48:31] INFO root fetch - main [MainThread]: End processing [stream-zip]: success
+[2024-05-28 10:48:33] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2024-05-28 10:48:33] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2024-05-28 10:48:33] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2024-05-28 10:48:33] INFO root fetch - main [MainThread]: Store serial: [23408318]
