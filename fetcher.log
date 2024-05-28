@@ -21036,3 +21036,78 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 15:37:37] INFO root fetch - processPackages [govuk-frontend-jinja]: Remove: archive file [/home/abi/fetcher/tmp/govuk_frontend_jinja-3.1.0.tar.gz]
 [2024-05-28 15:37:37] INFO root fetch - main [MainThread]: End processing [govuk-frontend-jinja]: success
 [2024-05-28 15:37:37] INFO root fetch - main [MainThread]: Store serial: [23412018]
+[2024-05-28 15:39:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23412018]
+[2024-05-28 15:39:46] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-28 15:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: civics-cdf-validator
+[2024-05-28 15:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: drf-audit-trail
+[2024-05-28 15:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-event-session
+[2024-05-28 15:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-streamfield
+[2024-05-28 15:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: funcnodes
+[2024-05-28 15:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jax-jynx
+[2024-05-28 15:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: anaplan-api
+[2024-05-28 15:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: oda-wd-client
+[2024-05-28 15:39:46] INFO root fetch - processPackages [drf-audit-trail]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-28 15:39:46] INFO root fetch - processPackages [odoo-addon-event-session]: New version: [16.0.1.4.0.1] Old Version: [16.0.1.4.0]
+[2024-05-28 15:39:46] INFO root fetch - processPackages [civics-cdf-validator]: New version: [1.9.dev1] Old Version: [1.9]
+[2024-05-28 15:39:46] INFO root fetch - processPackages [jax-jynx]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-28 15:39:46] INFO root fetch - processPackages [oda-wd-client]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-28 15:39:46] INFO root fetch - processPackages [drf-audit-trail]: Downloading https://files.pythonhosted.org/packages/58/0a/69d8bfbe6394df3c618e5636e0f1546ce54797a9159c2e1a19b3a4faf11b/drf_audit_trail-0.1.7.tar.gz
+[2024-05-28 15:39:46] INFO root fetch - processPackages [funcnodes]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-28 15:39:46] INFO root fetch - processPackages [django-streamfield]: New version: [2.2.1] Old Version: [2.2.0]
+[2024-05-28 15:39:46] INFO root fetch - processPackages [odoo-addon-event-session]: Downloading https://files.pythonhosted.org/packages/1d/8f/3284d7e462d3f6964491e0886aa7f65c1bf2654e17cfa84633ffad6cebb5/odoo_addon_event_session-16.0.1.4.0-py3-none-any.whl
+[2024-05-28 15:39:46] INFO root fetch - processPackages [civics-cdf-validator]: Downloading https://files.pythonhosted.org/packages/9c/33/4d75823e3c52ecc93964f231d752b79135d74aa9bcca07720045645bfe91/civics_cdf_validator-1.9.tar.gz
+[2024-05-28 15:39:46] INFO root fetch - processPackages [anaplan-api]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-28 15:39:46] INFO root fetch - processPackages [funcnodes]: Downloading https://files.pythonhosted.org/packages/41/e9/f6d85ce69f932d3d49ed6ffd73370a498efcc151703809f4996b1b809ffa/funcnodes-0.2.8.tar.gz
+[2024-05-28 15:39:46] INFO root fetch - processPackages [jax-jynx]: Downloading https://files.pythonhosted.org/packages/23/c4/91a8e09413bc0bf31bc573fa154399f1ad6ed794d0c2c14b7460307bb8dc/jax_jynx-0.1.3.tar.gz
+[2024-05-28 15:39:46] INFO root fetch - processPackages [django-streamfield]: Downloading https://files.pythonhosted.org/packages/e7/ba/eda3eafe0bfd6f9206ecfbef3bd0e855d32fca652c2c1b2d44e65caf6887/django-streamfield-2.2.0.tar.gz
+[2024-05-28 15:39:46] INFO root fetch - processPackages [drf-audit-trail]: Downloading https://files.pythonhosted.org/packages/19/a3/7fcc731515c76b066e11557c7eaf91ba6b2ad14515ea839af7d378891b10/drf_audit_trail-0.1.8.tar.gz
+[2024-05-28 15:39:46] INFO root fetch - processPackages [oda-wd-client]: Downloading https://files.pythonhosted.org/packages/3e/2a/717325617090f1ed236fecf632de84a1f34a42185597fd6739e509c3425d/oda_wd_client-0.2.0.tar.gz
+[2024-05-28 15:39:46] INFO root fetch - processPackages [civics-cdf-validator]: Downloading https://files.pythonhosted.org/packages/49/52/f20d05b43acd0ba782bdb28e82a60591d9ca3edb1c39da7ec86f030521ac/civics_cdf_validator-1.9.dev1.tar.gz
+[2024-05-28 15:39:47] INFO root fetch - processPackages [odoo-addon-event-session]: Downloading https://files.pythonhosted.org/packages/6c/ff/a82e36d38c0f630de0bc5d3d25cfeddb8e2831aa381e509db06dcff49162/odoo_addon_event_session-16.0.1.4.0.1-py3-none-any.whl
+[2024-05-28 15:39:47] INFO root fetch - processPackages [drf-audit-trail]: executing diffoscope
+[2024-05-28 15:39:47] INFO root fetch - processPackages [drf-audit-trail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf_audit_trail-0.1.7.tar.gz tmp/drf_audit_trail-0.1.8.tar.gz --markdown 20240528/d/drf-audit-trail/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-28 15:39:47] INFO root fetch - processPackages [civics-cdf-validator]: executing diffoscope
+[2024-05-28 15:39:47] INFO root fetch - processPackages [civics-cdf-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/civics_cdf_validator-1.9.tar.gz tmp/civics_cdf_validator-1.9.dev1.tar.gz --markdown 20240528/c/civics-cdf-validator/1.9-1.9.dev1/README.md --exclude *.pyd
+[2024-05-28 15:39:47] INFO root fetch - processPackages [anaplan-api]: Downloading https://files.pythonhosted.org/packages/19/58/d84f16439676f7866564cbd227240a8164237d2a0e4357af41ee9069c71d/anaplan-api-0.2.8.tar.gz
+[2024-05-28 15:39:47] INFO root fetch - processPackages [jax-jynx]: Downloading https://files.pythonhosted.org/packages/c0/8f/f31a58d2eff3784dd3c8cc67268b561eb0e63855643494fd07077ca907c3/jax_jynx-0.1.4.tar.gz
+[2024-05-28 15:39:47] INFO root fetch - processPackages [odoo-addon-event-session]: executing diffoscope
+[2024-05-28 15:39:47] INFO root fetch - processPackages [odoo-addon-event-session]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_event_session-16.0.1.4.0-py3-none-any.whl.zip tmp/odoo_addon_event_session-16.0.1.4.0.1-py3-none-any.whl.zip --markdown 20240528/o/odoo-addon-event-session/16.0.1.4.0-16.0.1.4.0.1/README.md --exclude *.pyd
+[2024-05-28 15:39:47] INFO root fetch - processPackages [oda-wd-client]: Downloading https://files.pythonhosted.org/packages/4a/09/b5135e4f7513387a45b138eb1b1033bb36d7890274c71664f9b99a814f82/oda_wd_client-0.2.1.tar.gz
+[2024-05-28 15:39:47] INFO root fetch - processPackages [django-streamfield]: Downloading https://files.pythonhosted.org/packages/2c/29/fdb42d0889f16c369c497cd377128342758eb10a7d5ae7244c182227df8d/django-streamfield-2.2.1.tar.gz
+[2024-05-28 15:39:47] INFO root fetch - processPackages [jax-jynx]: executing diffoscope
+[2024-05-28 15:39:47] INFO root fetch - processPackages [jax-jynx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jax_jynx-0.1.3.tar.gz tmp/jax_jynx-0.1.4.tar.gz --markdown 20240528/j/jax-jynx/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-28 15:39:47] INFO root fetch - processPackages [oda-wd-client]: executing diffoscope
+[2024-05-28 15:39:47] INFO root fetch - processPackages [oda-wd-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oda_wd_client-0.2.0.tar.gz tmp/oda_wd_client-0.2.1.tar.gz --markdown 20240528/o/oda-wd-client/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-28 15:39:47] INFO root fetch - processPackages [anaplan-api]: Downloading https://files.pythonhosted.org/packages/47/4f/86453686ead3ecec8521548b11ce56440208ffaa95e4220d8d7f295ffde3/anaplan-api-0.2.9.tar.gz
+[2024-05-28 15:39:47] INFO root fetch - processPackages [django-streamfield]: executing diffoscope
+[2024-05-28 15:39:47] INFO root fetch - processPackages [django-streamfield]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-streamfield-2.2.0.tar.gz tmp/django-streamfield-2.2.1.tar.gz --markdown 20240528/d/django-streamfield/2.2.0-2.2.1/README.md --exclude *.pyd
+[2024-05-28 15:39:47] INFO root fetch - processPackages [funcnodes]: Downloading https://files.pythonhosted.org/packages/13/3c/de4ac3d4d4a5996bc99f2d808fbb482979d33115bae4a12e7f864cafbe8d/funcnodes-0.2.9.tar.gz
+[2024-05-28 15:39:47] INFO root fetch - processPackages [anaplan-api]: executing diffoscope
+[2024-05-28 15:39:47] INFO root fetch - processPackages [anaplan-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anaplan-api-0.2.8.tar.gz tmp/anaplan-api-0.2.9.tar.gz --markdown 20240528/a/anaplan-api/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-28 15:39:47] INFO root fetch - processPackages [drf-audit-trail]: Remove: archive file [/home/abi/fetcher/tmp/drf_audit_trail-0.1.7.tar.gz]
+[2024-05-28 15:39:47] INFO root fetch - processPackages [drf-audit-trail]: Remove: archive file [/home/abi/fetcher/tmp/drf_audit_trail-0.1.8.tar.gz]
+[2024-05-28 15:39:47] INFO root fetch - main [MainThread]: End processing [drf-audit-trail]: success
+[2024-05-28 15:39:47] INFO root fetch - processPackages [civics-cdf-validator]: Remove: archive file [/home/abi/fetcher/tmp/civics_cdf_validator-1.9.tar.gz]
+[2024-05-28 15:39:47] INFO root fetch - processPackages [civics-cdf-validator]: Remove: archive file [/home/abi/fetcher/tmp/civics_cdf_validator-1.9.dev1.tar.gz]
+[2024-05-28 15:39:47] INFO root fetch - main [MainThread]: End processing [civics-cdf-validator]: success
+[2024-05-28 15:39:47] INFO root fetch - processPackages [funcnodes]: executing diffoscope
+[2024-05-28 15:39:47] INFO root fetch - processPackages [funcnodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcnodes-0.2.8.tar.gz tmp/funcnodes-0.2.9.tar.gz --markdown 20240528/f/funcnodes/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-28 15:39:48] INFO root fetch - processPackages [jax-jynx]: Remove: archive file [/home/abi/fetcher/tmp/jax_jynx-0.1.3.tar.gz]
+[2024-05-28 15:39:48] INFO root fetch - processPackages [jax-jynx]: Remove: archive file [/home/abi/fetcher/tmp/jax_jynx-0.1.4.tar.gz]
+[2024-05-28 15:39:48] INFO root fetch - main [MainThread]: End processing [jax-jynx]: success
+[2024-05-28 15:39:48] INFO root fetch - processPackages [oda-wd-client]: Remove: archive file [/home/abi/fetcher/tmp/oda_wd_client-0.2.0.tar.gz]
+[2024-05-28 15:39:48] INFO root fetch - processPackages [oda-wd-client]: Remove: archive file [/home/abi/fetcher/tmp/oda_wd_client-0.2.1.tar.gz]
+[2024-05-28 15:39:48] INFO root fetch - main [MainThread]: End processing [oda-wd-client]: success
+[2024-05-28 15:39:48] INFO root fetch - processPackages [django-streamfield]: Remove: archive file [/home/abi/fetcher/tmp/django-streamfield-2.2.0.tar.gz]
+[2024-05-28 15:39:48] INFO root fetch - processPackages [django-streamfield]: Remove: archive file [/home/abi/fetcher/tmp/django-streamfield-2.2.1.tar.gz]
+[2024-05-28 15:39:48] INFO root fetch - main [MainThread]: End processing [django-streamfield]: success
+[2024-05-28 15:39:48] INFO root fetch - processPackages [odoo-addon-event-session]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_event_session-16.0.1.4.0-py3-none-any.whl.zip]
+[2024-05-28 15:39:48] INFO root fetch - processPackages [odoo-addon-event-session]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_event_session-16.0.1.4.0.1-py3-none-any.whl.zip]
+[2024-05-28 15:39:48] INFO root fetch - main [MainThread]: End processing [odoo-addon-event-session]: success
+[2024-05-28 15:39:48] INFO root fetch - processPackages [anaplan-api]: Remove: archive file [/home/abi/fetcher/tmp/anaplan-api-0.2.8.tar.gz]
+[2024-05-28 15:39:48] INFO root fetch - processPackages [anaplan-api]: Remove: archive file [/home/abi/fetcher/tmp/anaplan-api-0.2.9.tar.gz]
+[2024-05-28 15:39:48] INFO root fetch - main [MainThread]: End processing [anaplan-api]: success
+[2024-05-28 15:39:48] INFO root fetch - processPackages [funcnodes]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes-0.2.8.tar.gz]
+[2024-05-28 15:39:48] INFO root fetch - processPackages [funcnodes]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes-0.2.9.tar.gz]
+[2024-05-28 15:39:48] INFO root fetch - main [MainThread]: End processing [funcnodes]: success
+[2024-05-28 15:39:48] INFO root fetch - main [MainThread]: Store serial: [23412042]
