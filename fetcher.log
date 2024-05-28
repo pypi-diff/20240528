@@ -5703,3 +5703,54 @@
 [2024-05-28 06:33:45] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.9.tar.gz]
 [2024-05-28 06:33:45] INFO root fetch - main [MainThread]: End processing [pms-encoder]: success
 [2024-05-28 06:33:45] INFO root fetch - main [MainThread]: Store serial: [23405079]
+[2024-05-28 06:35:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23405079]
+[2024-05-28 06:35:54] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-28 06:35:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aspose-barcode-cloud
+[2024-05-28 06:35:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kossou-hillshade-cli
+[2024-05-28 06:35:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ru-text-cleaner
+[2024-05-28 06:35:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: starlette-admin
+[2024-05-28 06:35:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nfinance
+[2024-05-28 06:35:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vxutils
+[2024-05-28 06:35:54] INFO root fetch - processPackages [nfinance]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-05-28 06:35:54] WARNING root fetch - processPackages [kossou-hillshade-cli]: Skipping, unable to determine old version
+[2024-05-28 06:35:54] INFO root fetch - main [MainThread]: End processing [kossou-hillshade-cli] error
+[2024-05-28 06:35:54] INFO root fetch - processPackages [vxutils]: New version: [20240522] Old Version: [20240424]
+[2024-05-28 06:35:54] INFO root fetch - processPackages [nfinance]: Downloading https://files.pythonhosted.org/packages/c1/f9/ef9afaf0aaebcba3d524dc5e5ccd1a2e856754a658bdbe660fbdd1485b5d/nfinance-0.4.3.tar.gz
+[2024-05-28 06:35:54] INFO root fetch - processPackages [aspose-barcode-cloud]: New version: [24.5.0] Old Version: [24.4.0]
+[2024-05-28 06:35:54] INFO root fetch - processPackages [vxutils]: Downloading https://files.pythonhosted.org/packages/36/fa/cac92d1e8471b56ff0bd4832908cba7e36a2274220bd512c50236ffaaa46/vxutils-20240424.tar.gz
+[2024-05-28 06:35:54] INFO root fetch - processPackages [ru-text-cleaner]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-05-28 06:35:54] INFO root fetch - processPackages [starlette-admin]: New version: [0.9.0.dev0] Old Version: [0.9.0]
+[2024-05-28 06:35:54] INFO root fetch - processPackages [aspose-barcode-cloud]: Downloading https://files.pythonhosted.org/packages/e4/d1/da537d927b4ab5ed51a98185a70e943f7a81056afa767712da696e9005a0/aspose_barcode_cloud-24.4.0.tar.gz
+[2024-05-28 06:35:54] INFO root fetch - processPackages [nfinance]: Downloading https://files.pythonhosted.org/packages/ff/c0/170cf540328a5ce9a6ff5a21f71d05523766fd5d009dd2f64e0905ba93f7/nfinance-0.4.4-py3-none-any.whl
+[2024-05-28 06:35:54] INFO root fetch - processPackages [ru-text-cleaner]: Downloading https://files.pythonhosted.org/packages/2b/3c/52dafff791865dd5612b30c2909907990df1b4c4a0625c830c251c9f3fe8/ru_text_cleaner-2.0.1.tar.gz
+[2024-05-28 06:35:54] INFO root fetch - processPackages [starlette-admin]: Downloading https://files.pythonhosted.org/packages/16/be/8526ff7382767cca533fd88cdc1e3483a93a09c7f1ad6604c55422abb18b/starlette_admin-0.9.0.tar.gz
+[2024-05-28 06:35:54] INFO root fetch - processPackages [vxutils]: Downloading https://files.pythonhosted.org/packages/35/be/abb800351da208ed41c2e1e8f9501a0fd843967e9e692e0145e521960b45/vxutils-20240522.tar.gz
+[2024-05-28 06:35:54] INFO root fetch - processPackages [nfinance]: executing diffoscope
+[2024-05-28 06:35:54] INFO root fetch - processPackages [nfinance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nfinance-0.4.3.tar.gz tmp/nfinance-0.4.4-py3-none-any.whl.zip --markdown 20240528/n/nfinance/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-05-28 06:35:54] INFO root fetch - processPackages [vxutils]: executing diffoscope
+[2024-05-28 06:35:54] INFO root fetch - processPackages [vxutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vxutils-20240424.tar.gz tmp/vxutils-20240522.tar.gz --markdown 20240528/v/vxutils/20240424-20240522/README.md --exclude *.pyd
+[2024-05-28 06:35:54] INFO root fetch - processPackages [ru-text-cleaner]: Downloading https://files.pythonhosted.org/packages/25/e8/85a438c3258713afa569e6dda4e7618ce1ad2c4f07fbf51fd8879a6ba8ec/ru_text_cleaner-2.0.2.tar.gz
+[2024-05-28 06:35:54] INFO root fetch - processPackages [aspose-barcode-cloud]: Downloading https://files.pythonhosted.org/packages/48/02/fea08e3d9e3467d754f039f572f8aed86967464da34a598c2e595b28c399/aspose_barcode_cloud-24.5.0.tar.gz
+[2024-05-28 06:35:55] INFO root fetch - processPackages [ru-text-cleaner]: executing diffoscope
+[2024-05-28 06:35:55] INFO root fetch - processPackages [ru-text-cleaner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ru_text_cleaner-2.0.1.tar.gz tmp/ru_text_cleaner-2.0.2.tar.gz --markdown 20240528/r/ru-text-cleaner/2.0.1-2.0.2/README.md --exclude *.pyd
+[2024-05-28 06:35:55] INFO root fetch - processPackages [aspose-barcode-cloud]: executing diffoscope
+[2024-05-28 06:35:55] INFO root fetch - processPackages [aspose-barcode-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aspose_barcode_cloud-24.4.0.tar.gz tmp/aspose_barcode_cloud-24.5.0.tar.gz --markdown 20240528/a/aspose-barcode-cloud/24.4.0-24.5.0/README.md --exclude *.pyd
+[2024-05-28 06:35:55] INFO root fetch - processPackages [starlette-admin]: Downloading https://files.pythonhosted.org/packages/cc/51/3c4517374ede214bd53159b7f53dcc95dc0392867df718801b40c4531317/starlette_admin-0.9.0.dev0.tar.gz
+[2024-05-28 06:35:55] INFO root fetch - processPackages [nfinance]: Remove: archive file [/home/abi/fetcher/tmp/nfinance-0.4.3.tar.gz]
+[2024-05-28 06:35:55] INFO root fetch - processPackages [nfinance]: Remove: archive file [/home/abi/fetcher/tmp/nfinance-0.4.4-py3-none-any.whl.zip]
+[2024-05-28 06:35:55] INFO root fetch - main [MainThread]: End processing [nfinance]: success
+[2024-05-28 06:35:55] INFO root fetch - processPackages [vxutils]: Remove: archive file [/home/abi/fetcher/tmp/vxutils-20240424.tar.gz]
+[2024-05-28 06:35:55] INFO root fetch - processPackages [vxutils]: Remove: archive file [/home/abi/fetcher/tmp/vxutils-20240522.tar.gz]
+[2024-05-28 06:35:55] INFO root fetch - main [MainThread]: End processing [vxutils]: success
+[2024-05-28 06:35:55] INFO root fetch - processPackages [starlette-admin]: executing diffoscope
+[2024-05-28 06:35:55] INFO root fetch - processPackages [starlette-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starlette_admin-0.9.0.tar.gz tmp/starlette_admin-0.9.0.dev0.tar.gz --markdown 20240528/s/starlette-admin/0.9.0-0.9.0.dev0/README.md --exclude *.pyd
+[2024-05-28 06:35:55] INFO root fetch - processPackages [ru-text-cleaner]: Remove: archive file [/home/abi/fetcher/tmp/ru_text_cleaner-2.0.1.tar.gz]
+[2024-05-28 06:35:55] INFO root fetch - processPackages [ru-text-cleaner]: Remove: archive file [/home/abi/fetcher/tmp/ru_text_cleaner-2.0.2.tar.gz]
+[2024-05-28 06:35:55] INFO root fetch - main [MainThread]: End processing [ru-text-cleaner]: success
+[2024-05-28 06:35:56] INFO root fetch - processPackages [aspose-barcode-cloud]: Remove: archive file [/home/abi/fetcher/tmp/aspose_barcode_cloud-24.4.0.tar.gz]
+[2024-05-28 06:35:56] INFO root fetch - processPackages [aspose-barcode-cloud]: Remove: archive file [/home/abi/fetcher/tmp/aspose_barcode_cloud-24.5.0.tar.gz]
+[2024-05-28 06:35:56] INFO root fetch - main [MainThread]: End processing [aspose-barcode-cloud]: success
+[2024-05-28 06:35:56] INFO root fetch - processPackages [starlette-admin]: Remove: archive file [/home/abi/fetcher/tmp/starlette_admin-0.9.0.tar.gz]
+[2024-05-28 06:35:56] INFO root fetch - processPackages [starlette-admin]: Remove: archive file [/home/abi/fetcher/tmp/starlette_admin-0.9.0.dev0.tar.gz]
+[2024-05-28 06:35:56] INFO root fetch - main [MainThread]: End processing [starlette-admin]: success
+[2024-05-28 06:35:56] INFO root fetch - main [MainThread]: Store serial: [23405096]
