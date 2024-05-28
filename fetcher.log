@@ -1971,3 +1971,42 @@
 [2024-05-28 02:18:50] INFO root fetch - processPackages [earningscall]: Remove: archive file [/home/abi/fetcher/tmp/earningscall-0.0.6.tar.gz]
 [2024-05-28 02:18:50] INFO root fetch - main [MainThread]: End processing [earningscall]: success
 [2024-05-28 02:18:50] INFO root fetch - main [MainThread]: Store serial: [23403595]
+[2024-05-28 02:20:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23403595]
+[2024-05-28 02:20:59] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-28 02:20:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-budibase
+[2024-05-28 02:20:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdklabs.cdk-ethereum-node
+[2024-05-28 02:20:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-aurora-globaldatabase
+[2024-05-28 02:20:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: prettypretty
+[2024-05-28 02:20:59] INFO root fetch - processPackages [cdk-budibase]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-28 02:20:59] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2024-05-28 02:20:59] INFO root fetch - processPackages [prettypretty]: New version: [0.8.0] Old Version: [0.2.0]
+[2024-05-28 02:20:59] INFO root fetch - processPackages [cdk-budibase]: Downloading https://files.pythonhosted.org/packages/4f/0a/01c6428b0ea2e78dd2dd9e10aba3ba8252b6cd0992b5a90ea9ba90983551/cdk-budibase-0.0.98.tar.gz
+[2024-05-28 02:20:59] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2024-05-28 02:20:59] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-28 02:20:59] INFO root fetch - processPackages [prettypretty]: Downloading https://files.pythonhosted.org/packages/2a/1a/083960ecccddb928f51f129a4c9b9800790ce0f3b3349ef2f6df3b18e09c/prettypretty-0.2.0.tar.gz
+[2024-05-28 02:20:59] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Downloading https://files.pythonhosted.org/packages/d8/1a/417af84315b2d52f6063ccf2072677259777d28fb73cab91e17879faaa26/cdklabs.cdk-ethereum-node-0.0.98.tar.gz
+[2024-05-28 02:20:59] INFO root fetch - processPackages [cdk-budibase]: Downloading https://files.pythonhosted.org/packages/3d/b1/10d1c8f0601959fd0771f3dc7b94b15e702b81729d74397e80ca3dd66c88/cdk-budibase-0.0.99.tar.gz
+[2024-05-28 02:20:59] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2024-05-28 02:20:59] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Downloading https://files.pythonhosted.org/packages/2d/d8/3fd98f927d9988f7c189f488b1829ac7aa7f855bf93f6030e3bed9af9a97/cdklabs.cdk-ethereum-node-0.0.99.tar.gz
+[2024-05-28 02:20:59] INFO root fetch - processPackages [cdk-budibase]: executing diffoscope
+[2024-05-28 02:20:59] INFO root fetch - processPackages [cdk-budibase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-budibase-0.0.98.tar.gz tmp/cdk-budibase-0.0.99.tar.gz --markdown 20240528/c/cdk-budibase/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-28 02:20:59] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2024-05-28 02:20:59] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20240528/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/README.md --exclude *.pyd
+[2024-05-28 02:20:59] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: executing diffoscope
+[2024-05-28 02:20:59] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-ethereum-node-0.0.98.tar.gz tmp/cdklabs.cdk-ethereum-node-0.0.99.tar.gz --markdown 20240528/c/cdklabs.cdk-ethereum-node/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-28 02:21:00] INFO root fetch - processPackages [prettypretty]: Downloading https://files.pythonhosted.org/packages/7e/75/ffba1cc7c1097437635219cc6205519aeb432c34da17bfa87b5e7f327a8e/prettypretty-0.8.0.tar.gz
+[2024-05-28 02:21:00] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-ethereum-node-0.0.98.tar.gz]
+[2024-05-28 02:21:00] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-ethereum-node-0.0.99.tar.gz]
+[2024-05-28 02:21:00] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-ethereum-node]: success
+[2024-05-28 02:21:00] INFO root fetch - processPackages [cdk-budibase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budibase-0.0.98.tar.gz]
+[2024-05-28 02:21:00] INFO root fetch - processPackages [cdk-budibase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budibase-0.0.99.tar.gz]
+[2024-05-28 02:21:00] INFO root fetch - main [MainThread]: End processing [cdk-budibase]: success
+[2024-05-28 02:21:00] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2024-05-28 02:21:00] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2024-05-28 02:21:00] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2024-05-28 02:21:00] INFO root fetch - processPackages [prettypretty]: executing diffoscope
+[2024-05-28 02:21:00] INFO root fetch - processPackages [prettypretty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prettypretty-0.2.0.tar.gz tmp/prettypretty-0.8.0.tar.gz --markdown 20240528/p/prettypretty/0.2.0-0.8.0/README.md --exclude *.pyd
+[2024-05-28 02:21:01] INFO root fetch - processPackages [prettypretty]: Remove: archive file [/home/abi/fetcher/tmp/prettypretty-0.2.0.tar.gz]
+[2024-05-28 02:21:01] INFO root fetch - processPackages [prettypretty]: Remove: archive file [/home/abi/fetcher/tmp/prettypretty-0.8.0.tar.gz]
+[2024-05-28 02:21:01] INFO root fetch - main [MainThread]: End processing [prettypretty]: success
+[2024-05-28 02:21:01] INFO root fetch - main [MainThread]: Store serial: [23403608]
