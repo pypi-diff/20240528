@@ -6731,3 +6731,45 @@
 [2024-05-28 07:34:26] INFO root fetch - processPackages [ralium]: Remove: archive file [/home/abi/fetcher/tmp/ralium-2.0.2.tar.gz]
 [2024-05-28 07:34:26] INFO root fetch - main [MainThread]: End processing [ralium]: success
 [2024-05-28 07:34:26] INFO root fetch - main [MainThread]: Store serial: [23405533]
+[2024-05-28 07:36:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23405533]
+[2024-05-28 07:36:34] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-28 07:36:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tflite-runtime-nightly
+[2024-05-28 07:36:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: LightGBMModelOptimizer
+[2024-05-28 07:36:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cycleops
+[2024-05-28 07:36:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ridgeplot-py
+[2024-05-28 07:36:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: espresso-machine
+[2024-05-28 07:36:35] INFO root fetch - processPackages [espresso-machine]: New version: [0.0.25] Old Version: [0.0.205]
+[2024-05-28 07:36:35] INFO root fetch - processPackages [tflite-runtime-nightly]: New version: [2.17.0.dev20240526] Old Version: [2.17.0.dev20240525]
+[2024-05-28 07:36:35] INFO root fetch - processPackages [cycleops]: New version: [0.6.3] Old Version: [0.6.2]
+[2024-05-28 07:36:35] WARNING root fetch - processPackages [LightGBMModelOptimizer]: Skipping, unable to determine old version
+[2024-05-28 07:36:35] INFO root fetch - main [MainThread]: End processing [LightGBMModelOptimizer] error
+[2024-05-28 07:36:35] INFO root fetch - processPackages [ridgeplot-py]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-05-28 07:36:35] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/c8/a4/103f5db2d425458f7eba0b1e0b3e3ebee2d28b8a06540992addc461e9b99/tflite_runtime_nightly-2.17.0.dev20240525-cp39-cp39-manylinux_2_34_armv7l.whl
+[2024-05-28 07:36:35] INFO root fetch - processPackages [espresso-machine]: Downloading https://files.pythonhosted.org/packages/2e/42/fb6bf220deaac2bed6c33fde041947c50768233f7fe566220a6d70ee4d79/espresso_machine-0.0.205.tar.gz
+[2024-05-28 07:36:35] INFO root fetch - processPackages [cycleops]: Downloading https://files.pythonhosted.org/packages/dd/54/106e61de57275d005225144eab192306c3aab2525fd6d39141383026ac6d/cycleops-0.6.2.tar.gz
+[2024-05-28 07:36:35] INFO root fetch - processPackages [ridgeplot-py]: Downloading https://files.pythonhosted.org/packages/c2/0f/4461295c651c212fe08eb8741e9898dc6d054fc8bf02c18b471d87281031/ridgeplot_py-0.6.0.tar.gz
+[2024-05-28 07:36:35] INFO root fetch - processPackages [espresso-machine]: Downloading https://files.pythonhosted.org/packages/32/a6/d2226a0d6f1b5f41349ae03f1afa9da39fe31e85131c8b1c6990cc152f5b/espresso_machine-0.0.25.tar.gz
+[2024-05-28 07:36:35] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/79/57/a9d048463bc8ea5671bb2989d7ac1a45110e045cb8149dd2b1ef5763864f/tflite_runtime_nightly-2.17.0.dev20240526-cp39-cp39-manylinux_2_34_armv7l.whl
+[2024-05-28 07:36:35] INFO root fetch - processPackages [cycleops]: Downloading https://files.pythonhosted.org/packages/95/8d/a2bd43e0a5ef3cc0d615a6f464ff017c020bc1ec6e50fe032f95b0eb9ec2/cycleops-0.6.3.tar.gz
+[2024-05-28 07:36:35] INFO root fetch - processPackages [espresso-machine]: executing diffoscope
+[2024-05-28 07:36:35] INFO root fetch - processPackages [espresso-machine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/espresso_machine-0.0.205.tar.gz tmp/espresso_machine-0.0.25.tar.gz --markdown 20240528/e/espresso-machine/0.0.205-0.0.25/README.md --exclude *.pyd
+[2024-05-28 07:36:35] INFO root fetch - processPackages [ridgeplot-py]: Downloading https://files.pythonhosted.org/packages/81/d8/be665acda19e23e46fc7c404fa5134a6cb7b4291904c70dc4192c29688bd/ridgeplot_py-0.6.1.tar.gz
+[2024-05-28 07:36:35] INFO root fetch - processPackages [cycleops]: executing diffoscope
+[2024-05-28 07:36:35] INFO root fetch - processPackages [cycleops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cycleops-0.6.2.tar.gz tmp/cycleops-0.6.3.tar.gz --markdown 20240528/c/cycleops/0.6.2-0.6.3/README.md --exclude *.pyd
+[2024-05-28 07:36:35] INFO root fetch - processPackages [ridgeplot-py]: executing diffoscope
+[2024-05-28 07:36:35] INFO root fetch - processPackages [ridgeplot-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ridgeplot_py-0.6.0.tar.gz tmp/ridgeplot_py-0.6.1.tar.gz --markdown 20240528/r/ridgeplot-py/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-05-28 07:36:36] INFO root fetch - processPackages [tflite-runtime-nightly]: executing diffoscope
+[2024-05-28 07:36:36] INFO root fetch - processPackages [tflite-runtime-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_runtime_nightly-2.17.0.dev20240525-cp39-cp39-manylinux_2_34_armv7l.whl.zip tmp/tflite_runtime_nightly-2.17.0.dev20240526-cp39-cp39-manylinux_2_34_armv7l.whl.zip --markdown 20240528/t/tflite-runtime-nightly/2.17.0.dev20240525-2.17.0.dev20240526/README.md --exclude *.pyd
+[2024-05-28 07:36:36] INFO root fetch - processPackages [espresso-machine]: Remove: archive file [/home/abi/fetcher/tmp/espresso_machine-0.0.205.tar.gz]
+[2024-05-28 07:36:36] INFO root fetch - processPackages [espresso-machine]: Remove: archive file [/home/abi/fetcher/tmp/espresso_machine-0.0.25.tar.gz]
+[2024-05-28 07:36:36] INFO root fetch - main [MainThread]: End processing [espresso-machine]: success
+[2024-05-28 07:36:36] INFO root fetch - processPackages [cycleops]: Remove: archive file [/home/abi/fetcher/tmp/cycleops-0.6.2.tar.gz]
+[2024-05-28 07:36:36] INFO root fetch - processPackages [cycleops]: Remove: archive file [/home/abi/fetcher/tmp/cycleops-0.6.3.tar.gz]
+[2024-05-28 07:36:36] INFO root fetch - main [MainThread]: End processing [cycleops]: success
+[2024-05-28 07:36:36] INFO root fetch - processPackages [ridgeplot-py]: Remove: archive file [/home/abi/fetcher/tmp/ridgeplot_py-0.6.0.tar.gz]
+[2024-05-28 07:36:36] INFO root fetch - processPackages [ridgeplot-py]: Remove: archive file [/home/abi/fetcher/tmp/ridgeplot_py-0.6.1.tar.gz]
+[2024-05-28 07:36:36] INFO root fetch - main [MainThread]: End processing [ridgeplot-py]: success
+[2024-05-28 07:36:36] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.17.0.dev20240525-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
+[2024-05-28 07:36:36] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.17.0.dev20240526-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
+[2024-05-28 07:36:36] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
+[2024-05-28 07:36:36] INFO root fetch - main [MainThread]: Store serial: [23405559]
