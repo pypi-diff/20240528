@@ -16906,3 +16906,49 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 13:14:43] INFO root fetch - processPackages [prompt-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/prompt_toolkit-3.0.9.tar.gz]
 [2024-05-28 13:14:43] INFO root fetch - main [MainThread]: End processing [prompt-toolkit]: success
 [2024-05-28 13:14:43] INFO root fetch - main [MainThread]: Store serial: [23410036]
+[2024-05-28 13:16:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23410036]
+[2024-05-28 13:16:54] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-28 13:16:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: facebook-simple-scraper
+[2024-05-28 13:16:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openshift-python-utilities
+[2024-05-28 13:16:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: projen
+[2024-05-28 13:16:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openshift-python-utilities
+[2024-05-28 13:16:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: utilmy
+[2024-05-28 13:16:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: consoleiotools
+[2024-05-28 13:16:54] INFO root fetch - processPackages [openshift-python-utilities]: New version: [5.0.9] Old Version: [5.0.8]
+[2024-05-28 13:16:54] WARNING root fetch - processPackages [facebook-simple-scraper]: Skipping, unable to determine old version
+[2024-05-28 13:16:54] INFO root fetch - main [MainThread]: End processing [facebook-simple-scraper] error
+[2024-05-28 13:16:54] INFO root fetch - processPackages [openshift-python-utilities]: New version: [5.0.9] Old Version: [5.0.8]
+[2024-05-28 13:16:54] INFO root fetch - processPackages [consoleiotools]: New version: [4.6.1] Old Version: [4.6.0]
+[2024-05-28 13:16:54] INFO root fetch - processPackages [projen]: New version: [0.81.9] Old Version: [0.81.8]
+[2024-05-28 13:16:54] INFO root fetch - processPackages [openshift-python-utilities]: Downloading https://files.pythonhosted.org/packages/a1/84/0ac268323fbbc1a4a48fcfe6455c6dbedf14088e2e9907e1466ec7e5e972/openshift_python_utilities-5.0.8.tar.gz
+[2024-05-28 13:16:54] INFO root fetch - processPackages [openshift-python-utilities]: Downloading https://files.pythonhosted.org/packages/a1/84/0ac268323fbbc1a4a48fcfe6455c6dbedf14088e2e9907e1466ec7e5e972/openshift_python_utilities-5.0.8.tar.gz
+[2024-05-28 13:16:54] INFO root fetch - processPackages [consoleiotools]: Downloading https://files.pythonhosted.org/packages/8a/f8/ffafa125b4206ae2a750be72960cf5f1dc2fd27085bb42514ae43af9dedb/consoleiotools-4.6.0.tar.gz
+[2024-05-28 13:16:54] INFO root fetch - processPackages [utilmy]: New version: [0.1.17168949] Old Version: [0.1.17163911]
+[2024-05-28 13:16:54] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/a4/1e/71c5fe5e0fe91b950d1c1b54ec57fee6ad64f50810fed74f469dfdd21a79/projen-0.81.8.tar.gz
+[2024-05-28 13:16:54] INFO root fetch - processPackages [openshift-python-utilities]: Downloading https://files.pythonhosted.org/packages/3c/95/4138254900b73e3ff11e5c55d9ea9996866a1087a8366f13039f0590e401/openshift_python_utilities-5.0.9.tar.gz
+[2024-05-28 13:16:54] INFO root fetch - processPackages [openshift-python-utilities]: Downloading https://files.pythonhosted.org/packages/3c/95/4138254900b73e3ff11e5c55d9ea9996866a1087a8366f13039f0590e401/openshift_python_utilities-5.0.9.tar.gz
+[2024-05-28 13:16:54] INFO root fetch - processPackages [utilmy]: Downloading https://files.pythonhosted.org/packages/0d/64/7e135997946b4e0ab741d64e11175882ed8140398b70ab0d46b643a9d4a1/utilmy-0.1.17163911.tar.gz
+[2024-05-28 13:16:54] INFO root fetch - processPackages [openshift-python-utilities]: executing diffoscope
+[2024-05-28 13:16:54] INFO root fetch - processPackages [openshift-python-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift_python_utilities-5.0.8.tar.gz tmp/openshift_python_utilities-5.0.9.tar.gz --markdown 20240528/o/openshift-python-utilities/5.0.8-5.0.9/README.md --exclude *.pyd
+[2024-05-28 13:16:54] INFO root fetch - processPackages [openshift-python-utilities]: executing diffoscope
+[2024-05-28 13:16:54] INFO root fetch - processPackages [openshift-python-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift_python_utilities-5.0.8.tar.gz tmp/openshift_python_utilities-5.0.9.tar.gz --markdown 20240528/o/openshift-python-utilities/5.0.8-5.0.9/README.md --exclude *.pyd
+[2024-05-28 13:16:54] INFO root fetch - processPackages [consoleiotools]: Downloading https://files.pythonhosted.org/packages/9d/19/617c41f9f6a24a9b9d05f31537aa31a1cdde7ec26f048e5bd49dfcbac777/consoleiotools-4.6.1.tar.gz
+[2024-05-28 13:16:54] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/a4/bd/42ccbdcec141a68fd1ef11c16c2ec702d07f65b9a004736eba33473e8cdd/projen-0.81.9.tar.gz
+[2024-05-28 13:16:55] INFO root fetch - processPackages [consoleiotools]: executing diffoscope
+[2024-05-28 13:16:55] INFO root fetch - processPackages [consoleiotools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/consoleiotools-4.6.0.tar.gz tmp/consoleiotools-4.6.1.tar.gz --markdown 20240528/c/consoleiotools/4.6.0-4.6.1/README.md --exclude *.pyd
+[2024-05-28 13:16:55] INFO root fetch - processPackages [openshift-python-utilities]: Remove: archive file [/home/abi/fetcher/tmp/openshift_python_utilities-5.0.8.tar.gz]
+[2024-05-28 13:16:55] INFO root fetch - processPackages [openshift-python-utilities]: Remove: archive file [/home/abi/fetcher/tmp/openshift_python_utilities-5.0.9.tar.gz]
+[2024-05-28 13:16:55] INFO root fetch - main [MainThread]: End processing [openshift-python-utilities]: success
+[2024-05-28 13:16:55] INFO root fetch - processPackages [projen]: executing diffoscope
+[2024-05-28 13:16:55] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.81.8.tar.gz tmp/projen-0.81.9.tar.gz --markdown 20240528/p/projen/0.81.8-0.81.9/README.md --exclude *.pyd
+[2024-05-28 13:16:55] INFO root fetch - main [MainThread]: End processing [openshift-python-utilities]: success
+[2024-05-28 13:16:55] INFO root fetch - processPackages [consoleiotools]: Remove: archive file [/home/abi/fetcher/tmp/consoleiotools-4.6.0.tar.gz]
+[2024-05-28 13:16:55] INFO root fetch - processPackages [consoleiotools]: Remove: archive file [/home/abi/fetcher/tmp/consoleiotools-4.6.1.tar.gz]
+[2024-05-28 13:16:55] INFO root fetch - main [MainThread]: End processing [consoleiotools]: success
+[2024-05-28 13:16:55] INFO root fetch - processPackages [utilmy]: Downloading https://files.pythonhosted.org/packages/1c/06/36470ea586b82b178323a8d2f4ff51dfd61b1cf4b1d54b8b3ed9d5aabea3/utilmy-0.1.17168949-py3-none-any.whl
+[2024-05-28 13:16:55] WARNING root fetch - processPackages [utilmy]: Skipping package: exceeds size limit 11428473>=10485760
+[2024-05-28 13:16:55] INFO root fetch - main [MainThread]: End processing [utilmy] error
+[2024-05-28 13:16:56] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.81.8.tar.gz]
+[2024-05-28 13:16:56] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.81.9.tar.gz]
+[2024-05-28 13:16:56] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2024-05-28 13:16:56] INFO root fetch - main [MainThread]: Store serial: [23410051]
