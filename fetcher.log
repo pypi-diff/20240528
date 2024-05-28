@@ -5799,3 +5799,53 @@
 [2024-05-28 06:42:25] INFO root fetch - processPackages [QuasarCode]: Remove: archive file [/home/abi/fetcher/tmp/QuasarCode-0.9.0.tar.gz]
 [2024-05-28 06:42:25] INFO root fetch - main [MainThread]: End processing [QuasarCode]: success
 [2024-05-28 06:42:25] INFO root fetch - main [MainThread]: Store serial: [23405108]
+[2024-05-28 06:44:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23405108]
+[2024-05-28 06:44:33] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-28 06:46:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23405109]
+[2024-05-28 06:46:39] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-28 06:46:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: open-autonomy
+[2024-05-28 06:46:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: open-aea-test-autonomy
+[2024-05-28 06:46:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: espresso-machine
+[2024-05-28 06:46:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: neurocaps
+[2024-05-28 06:46:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: atlassian-modules
+[2024-05-28 06:46:39] INFO root fetch - processPackages [espresso-machine]: New version: [0.0.120] Old Version: [0.0.119]
+[2024-05-28 06:46:39] INFO root fetch - processPackages [neurocaps]: New version: [0.9.3.post2] Old Version: [0.9.3.post1]
+[2024-05-28 06:46:39] INFO root fetch - processPackages [open-aea-test-autonomy]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-28 06:46:39] INFO root fetch - processPackages [open-autonomy]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-28 06:46:39] INFO root fetch - processPackages [atlassian-modules]: New version: [0.4.1] Old Version: [0.4]
+[2024-05-28 06:46:39] INFO root fetch - processPackages [neurocaps]: Downloading https://files.pythonhosted.org/packages/2c/05/276400b8584818bbc05137f577bd5d319129ceaa8918d78e12fafae5e0ec/neurocaps-0.9.3.post1.tar.gz
+[2024-05-28 06:46:39] INFO root fetch - processPackages [espresso-machine]: Downloading https://files.pythonhosted.org/packages/33/98/8a28ec012582227255341ca491bcc10887ff8ac1083b84110f8f09c0a65c/espresso_machine-0.0.119.tar.gz
+[2024-05-28 06:46:39] INFO root fetch - processPackages [open-aea-test-autonomy]: Downloading https://files.pythonhosted.org/packages/a0/6e/9c4d67ce36ee527c11b4a9025747f46b827bb71545592e7f3c4e627c3088/open-aea-test-autonomy-0.9.0.tar.gz
+[2024-05-28 06:46:39] INFO root fetch - processPackages [open-autonomy]: Downloading https://files.pythonhosted.org/packages/26/db/68ff36c112427aa8da36a891a4d5aabb3a68713130bb62425cb8bbdb402e/open-autonomy-0.9.0.tar.gz
+[2024-05-28 06:46:39] INFO root fetch - processPackages [atlassian-modules]: Downloading https://files.pythonhosted.org/packages/8f/13/475ae1f9a91458c57c562f53bcede610fe310cbec0053c4d0cc282953222/atlassian_modules-0.4.tar.gz
+[2024-05-28 06:46:40] INFO root fetch - processPackages [neurocaps]: Downloading https://files.pythonhosted.org/packages/19/57/2c58d7ecd934340778a35923d4de6ebb9f136dd7a5f0a6d435896655db28/neurocaps-0.9.3.post2.tar.gz
+[2024-05-28 06:46:40] INFO root fetch - processPackages [espresso-machine]: Downloading https://files.pythonhosted.org/packages/be/38/33af1a799ca4634b30a7724f7e04894752912fe459513763a48afb720c5e/espresso_machine-0.0.120.tar.gz
+[2024-05-28 06:46:40] INFO root fetch - processPackages [neurocaps]: executing diffoscope
+[2024-05-28 06:46:40] INFO root fetch - processPackages [open-aea-test-autonomy]: Downloading https://files.pythonhosted.org/packages/16/ed/042bfa918bbe47dbe3fb43f396481d4f74ef1a90ac067516913c9fc8c2b7/open-aea-test-autonomy-0.9.1.tar.gz
+[2024-05-28 06:46:40] INFO root fetch - processPackages [neurocaps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neurocaps-0.9.3.post1.tar.gz tmp/neurocaps-0.9.3.post2.tar.gz --markdown 20240528/n/neurocaps/0.9.3.post1-0.9.3.post2/README.md --exclude *.pyd
+[2024-05-28 06:46:40] INFO root fetch - processPackages [open-aea-test-autonomy]: executing diffoscope
+[2024-05-28 06:46:40] INFO root fetch - processPackages [open-aea-test-autonomy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open-aea-test-autonomy-0.9.0.tar.gz tmp/open-aea-test-autonomy-0.9.1.tar.gz --markdown 20240528/o/open-aea-test-autonomy/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-28 06:46:40] INFO root fetch - processPackages [atlassian-modules]: Downloading https://files.pythonhosted.org/packages/b4/cf/cfd8992d92a6e924d6c24a0f378f2326ac9314e80543ba2821c91db5625c/atlassian_modules-0.4.1.tar.gz
+[2024-05-28 06:46:40] INFO root fetch - processPackages [espresso-machine]: executing diffoscope
+[2024-05-28 06:46:40] INFO root fetch - processPackages [espresso-machine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/espresso_machine-0.0.119.tar.gz tmp/espresso_machine-0.0.120.tar.gz --markdown 20240528/e/espresso-machine/0.0.119-0.0.120/README.md --exclude *.pyd
+[2024-05-28 06:46:40] INFO root fetch - processPackages [atlassian-modules]: executing diffoscope
+[2024-05-28 06:46:40] INFO root fetch - processPackages [atlassian-modules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atlassian_modules-0.4.tar.gz tmp/atlassian_modules-0.4.1.tar.gz --markdown 20240528/a/atlassian-modules/0.4-0.4.1/README.md --exclude *.pyd
+[2024-05-28 06:46:40] INFO root fetch - processPackages [neurocaps]: Remove: archive file [/home/abi/fetcher/tmp/neurocaps-0.9.3.post1.tar.gz]
+[2024-05-28 06:46:40] INFO root fetch - processPackages [neurocaps]: Remove: archive file [/home/abi/fetcher/tmp/neurocaps-0.9.3.post2.tar.gz]
+[2024-05-28 06:46:40] INFO root fetch - main [MainThread]: End processing [neurocaps]: success
+[2024-05-28 06:46:40] INFO root fetch - processPackages [open-autonomy]: Downloading https://files.pythonhosted.org/packages/d2/14/e7bb8dec5be3ae2caf12a3a77abe5eb849912ee6ab113bbb753fb27c75bf/open-autonomy-0.9.1.tar.gz
+[2024-05-28 06:46:40] INFO root fetch - processPackages [open-aea-test-autonomy]: Remove: archive file [/home/abi/fetcher/tmp/open-aea-test-autonomy-0.9.0.tar.gz]
+[2024-05-28 06:46:40] INFO root fetch - processPackages [open-aea-test-autonomy]: Remove: archive file [/home/abi/fetcher/tmp/open-aea-test-autonomy-0.9.1.tar.gz]
+[2024-05-28 06:46:40] INFO root fetch - main [MainThread]: End processing [open-aea-test-autonomy]: success
+[2024-05-28 06:46:41] INFO root fetch - processPackages [atlassian-modules]: Remove: archive file [/home/abi/fetcher/tmp/atlassian_modules-0.4.tar.gz]
+[2024-05-28 06:46:41] INFO root fetch - processPackages [atlassian-modules]: Remove: archive file [/home/abi/fetcher/tmp/atlassian_modules-0.4.1.tar.gz]
+[2024-05-28 06:46:41] INFO root fetch - main [MainThread]: End processing [atlassian-modules]: success
+[2024-05-28 06:46:41] INFO root fetch - processPackages [open-autonomy]: executing diffoscope
+[2024-05-28 06:46:41] INFO root fetch - processPackages [open-autonomy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open-autonomy-0.9.0.tar.gz tmp/open-autonomy-0.9.1.tar.gz --markdown 20240528/o/open-autonomy/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-28 06:46:41] INFO root fetch - processPackages [espresso-machine]: Remove: archive file [/home/abi/fetcher/tmp/espresso_machine-0.0.119.tar.gz]
+[2024-05-28 06:46:41] INFO root fetch - processPackages [espresso-machine]: Remove: archive file [/home/abi/fetcher/tmp/espresso_machine-0.0.120.tar.gz]
+[2024-05-28 06:46:41] INFO root fetch - main [MainThread]: End processing [espresso-machine]: success
+[2024-05-28 06:46:46] INFO root fetch - processPackages [open-autonomy]: Remove: archive file [/home/abi/fetcher/tmp/open-autonomy-0.9.0.tar.gz]
+[2024-05-28 06:46:46] INFO root fetch - processPackages [open-autonomy]: Remove: archive file [/home/abi/fetcher/tmp/open-autonomy-0.9.1.tar.gz]
+[2024-05-28 06:46:46] INFO root fetch - main [MainThread]: End processing [open-autonomy]: success
+[2024-05-28 06:46:46] INFO root fetch - main [MainThread]: Store serial: [23405127]
