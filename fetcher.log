@@ -4202,3 +4202,36 @@
 [2024-05-28 04:50:43] INFO root fetch - processPackages [stldim]: Remove: archive file [/home/abi/fetcher/tmp/stldim-0.2.2.tar.gz]
 [2024-05-28 04:50:43] INFO root fetch - main [MainThread]: End processing [stldim]: success
 [2024-05-28 04:50:43] INFO root fetch - main [MainThread]: Store serial: [23404516]
+[2024-05-28 04:52:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23404516]
+[2024-05-28 04:52:52] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-28 04:52:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reb-probability
+[2024-05-28 04:52:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: docmesh-cli
+[2024-05-28 04:52:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: honeyhive
+[2024-05-28 04:52:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sphinx-enos-theme
+[2024-05-28 04:52:52] WARNING root fetch - processPackages [reb-probability]: Skipping, unable to determine old version
+[2024-05-28 04:52:52] INFO root fetch - main [MainThread]: End processing [reb-probability] error
+[2024-05-28 04:52:52] INFO root fetch - processPackages [sphinx-enos-theme]: New version: [0.2.9] Old Version: [0.2.87]
+[2024-05-28 04:52:52] INFO root fetch - processPackages [docmesh-cli]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-28 04:52:52] INFO root fetch - processPackages [honeyhive]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-28 04:52:52] INFO root fetch - processPackages [docmesh-cli]: Downloading https://files.pythonhosted.org/packages/52/01/e0b242a120b46fbd3ea11f242cce6164ceba11c4caaa6c0f51714f6c4a81/docmesh_cli-0.0.8.tar.gz
+[2024-05-28 04:52:52] INFO root fetch - processPackages [sphinx-enos-theme]: Downloading https://files.pythonhosted.org/packages/64/23/1f3ed6fccc946a152da987450c182753241d132787c6b80f824c4ba2194a/sphinx_enos_theme-0.2.87.tar.gz
+[2024-05-28 04:52:52] INFO root fetch - processPackages [honeyhive]: Downloading https://files.pythonhosted.org/packages/df/38/cbb668554e41008faefc2a4213b7c8b456a09d01a65498039c8061820811/honeyhive-0.2.1-py3-none-any.whl
+[2024-05-28 04:52:52] INFO root fetch - processPackages [docmesh-cli]: Downloading https://files.pythonhosted.org/packages/f7/0b/cc22d3fdfad0c1ff514222a92edc6326360d3a28521cf5c8b8dab6d879fb/docmesh_cli-0.0.9.tar.gz
+[2024-05-28 04:52:52] INFO root fetch - processPackages [honeyhive]: Downloading https://files.pythonhosted.org/packages/f4/63/a6193bf843cacda76406990c684b01ec87539b71c8bdde043e6e8e15b659/honeyhive-0.2.2-py2.py3-none-any.whl
+[2024-05-28 04:52:52] INFO root fetch - processPackages [sphinx-enos-theme]: Downloading https://files.pythonhosted.org/packages/cf/26/5cc1b9d871cfd2bf60bdd6594178f1651766e04dfa4731e2d745543aa7e3/sphinx_enos_theme-0.2.9.tar.gz
+[2024-05-28 04:52:52] INFO root fetch - processPackages [docmesh-cli]: executing diffoscope
+[2024-05-28 04:52:52] INFO root fetch - processPackages [docmesh-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docmesh_cli-0.0.8.tar.gz tmp/docmesh_cli-0.0.9.tar.gz --markdown 20240528/d/docmesh-cli/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-28 04:52:52] INFO root fetch - processPackages [honeyhive]: executing diffoscope
+[2024-05-28 04:52:52] INFO root fetch - processPackages [honeyhive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeyhive-0.2.1-py3-none-any.whl.zip tmp/honeyhive-0.2.2-py2.py3-none-any.whl.zip --markdown 20240528/h/honeyhive/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-28 04:52:53] INFO root fetch - processPackages [sphinx-enos-theme]: executing diffoscope
+[2024-05-28 04:52:53] INFO root fetch - processPackages [sphinx-enos-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx_enos_theme-0.2.87.tar.gz tmp/sphinx_enos_theme-0.2.9.tar.gz --markdown 20240528/s/sphinx-enos-theme/0.2.87-0.2.9/README.md --exclude *.pyd
+[2024-05-28 04:52:53] INFO root fetch - processPackages [docmesh-cli]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_cli-0.0.8.tar.gz]
+[2024-05-28 04:52:53] INFO root fetch - processPackages [docmesh-cli]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_cli-0.0.9.tar.gz]
+[2024-05-28 04:52:53] INFO root fetch - main [MainThread]: End processing [docmesh-cli]: success
+[2024-05-28 04:52:53] INFO root fetch - processPackages [sphinx-enos-theme]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_enos_theme-0.2.87.tar.gz]
+[2024-05-28 04:52:53] INFO root fetch - processPackages [sphinx-enos-theme]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_enos_theme-0.2.9.tar.gz]
+[2024-05-28 04:52:53] INFO root fetch - main [MainThread]: End processing [sphinx-enos-theme]: success
+[2024-05-28 04:52:53] INFO root fetch - processPackages [honeyhive]: Remove: archive file [/home/abi/fetcher/tmp/honeyhive-0.2.1-py3-none-any.whl.zip]
+[2024-05-28 04:52:53] INFO root fetch - processPackages [honeyhive]: Remove: archive file [/home/abi/fetcher/tmp/honeyhive-0.2.2-py2.py3-none-any.whl.zip]
+[2024-05-28 04:52:53] INFO root fetch - main [MainThread]: End processing [honeyhive]: success
+[2024-05-28 04:52:53] INFO root fetch - main [MainThread]: Store serial: [23404528]
