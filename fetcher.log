@@ -5120,3 +5120,18 @@
 [2024-05-28 05:48:02] INFO root fetch - processPackages [snowcross]: Remove: archive file [/home/abi/fetcher/tmp/snowcross-0.5.0.tar.gz]
 [2024-05-28 05:48:02] INFO root fetch - main [MainThread]: End processing [snowcross]: success
 [2024-05-28 05:48:02] INFO root fetch - main [MainThread]: Store serial: [23404852]
+[2024-05-28 05:50:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23404852]
+[2024-05-28 05:50:10] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-28 05:50:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: albibong
+[2024-05-28 05:50:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nanababa
+[2024-05-28 05:50:10] INFO root fetch - processPackages [nanababa]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-28 05:50:10] WARNING root fetch - processPackages [albibong]: Skipping, unable to determine old version
+[2024-05-28 05:50:10] INFO root fetch - main [MainThread]: End processing [albibong] error
+[2024-05-28 05:50:11] INFO root fetch - processPackages [nanababa]: Downloading https://files.pythonhosted.org/packages/cd/24/1b96345ddba1fb3adeb41b5903f4de364f0408d2acb70a2ac2e0c29603b9/nanababa-0.1.0-py3-none-any.whl
+[2024-05-28 05:50:11] INFO root fetch - processPackages [nanababa]: Downloading https://files.pythonhosted.org/packages/f7/3d/a4c932ae6262eb430cc0857f311ea158788c70ab8c5aaafd9c93acd4b2f5/nanababa-0.1.1-py3-none-any.whl
+[2024-05-28 05:50:11] INFO root fetch - processPackages [nanababa]: executing diffoscope
+[2024-05-28 05:50:11] INFO root fetch - processPackages [nanababa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanababa-0.1.0-py3-none-any.whl.zip tmp/nanababa-0.1.1-py3-none-any.whl.zip --markdown 20240528/n/nanababa/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-28 05:50:11] INFO root fetch - processPackages [nanababa]: Remove: archive file [/home/abi/fetcher/tmp/nanababa-0.1.0-py3-none-any.whl.zip]
+[2024-05-28 05:50:11] INFO root fetch - processPackages [nanababa]: Remove: archive file [/home/abi/fetcher/tmp/nanababa-0.1.1-py3-none-any.whl.zip]
+[2024-05-28 05:50:11] INFO root fetch - main [MainThread]: End processing [nanababa]: success
+[2024-05-28 05:50:11] INFO root fetch - main [MainThread]: Store serial: [23404864]
