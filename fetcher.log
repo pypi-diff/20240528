@@ -3671,3 +3671,15 @@
 [2024-05-28 04:11:17] INFO root fetch - processPackages [stldim]: Remove: archive file [/home/abi/fetcher/tmp/stldim-0.2.1.tar.gz]
 [2024-05-28 04:11:17] INFO root fetch - main [MainThread]: End processing [stldim]: success
 [2024-05-28 04:11:17] INFO root fetch - main [MainThread]: Store serial: [23404310]
+[2024-05-28 04:13:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23404310]
+[2024-05-28 04:13:25] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-28 04:13:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vanguard-api
+[2024-05-28 04:13:25] INFO root fetch - processPackages [vanguard-api]: New version: [0.1.4] Old Version: [0.1.2]
+[2024-05-28 04:13:26] INFO root fetch - processPackages [vanguard-api]: Downloading https://files.pythonhosted.org/packages/b6/fc/3924f1ccd7c20ca79ea8cadef1d645355db736dab0ba53123259c14f119a/vanguard_api-0.1.2.tar.gz
+[2024-05-28 04:13:26] INFO root fetch - processPackages [vanguard-api]: Downloading https://files.pythonhosted.org/packages/aa/57/6ef9cd45bc7f6c393393380725fd528dbfeb24a5996475e5aaef883f0def/vanguard_api-0.1.4.tar.gz
+[2024-05-28 04:13:26] INFO root fetch - processPackages [vanguard-api]: executing diffoscope
+[2024-05-28 04:13:26] INFO root fetch - processPackages [vanguard-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vanguard_api-0.1.2.tar.gz tmp/vanguard_api-0.1.4.tar.gz --markdown 20240528/v/vanguard-api/0.1.2-0.1.4/README.md --exclude *.pyd
+[2024-05-28 04:13:27] INFO root fetch - processPackages [vanguard-api]: Remove: archive file [/home/abi/fetcher/tmp/vanguard_api-0.1.2.tar.gz]
+[2024-05-28 04:13:27] INFO root fetch - processPackages [vanguard-api]: Remove: archive file [/home/abi/fetcher/tmp/vanguard_api-0.1.4.tar.gz]
+[2024-05-28 04:13:27] INFO root fetch - main [MainThread]: End processing [vanguard-api]: success
+[2024-05-28 04:13:27] INFO root fetch - main [MainThread]: Store serial: [23404318]
