@@ -2010,3 +2010,14 @@
 [2024-05-28 02:21:01] INFO root fetch - processPackages [prettypretty]: Remove: archive file [/home/abi/fetcher/tmp/prettypretty-0.8.0.tar.gz]
 [2024-05-28 02:21:01] INFO root fetch - main [MainThread]: End processing [prettypretty]: success
 [2024-05-28 02:21:01] INFO root fetch - main [MainThread]: Store serial: [23403608]
+[2024-05-28 02:23:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23403608]
+[2024-05-28 02:23:09] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-28 02:23:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mongodatabaseconnnect
+[2024-05-28 02:23:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-cr-constructs
+[2024-05-28 02:23:09] INFO root fetch - processPackages [cdk-cr-constructs]: New version: [2.1.468] Old Version: [2.1.467]
+[2024-05-28 02:23:09] WARNING root fetch - processPackages [mongodatabaseconnnect]: Skipping, unable to determine old version
+[2024-05-28 02:23:09] INFO root fetch - main [MainThread]: End processing [mongodatabaseconnnect] error
+[2024-05-28 02:23:09] INFO root fetch - processPackages [cdk-cr-constructs]: Downloading https://files.pythonhosted.org/packages/1a/05/b883160ecd97346a5e5149f9e83f188f4360112003a0d151494a947cfa68/cdk-cr-constructs-2.1.467.tar.gz
+[2024-05-28 02:23:09] WARNING root fetch - processPackages [cdk-cr-constructs]: Skipping package: exceeds size limit 15123826>=10485760
+[2024-05-28 02:23:09] INFO root fetch - main [MainThread]: End processing [cdk-cr-constructs] error
+[2024-05-28 02:23:09] INFO root fetch - main [MainThread]: Store serial: [23403616]
