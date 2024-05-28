@@ -10793,3 +10793,69 @@
 [2024-05-28 09:53:34] INFO root fetch - processPackages [annet]: Remove: archive file [/home/abi/fetcher/tmp/annet-0.9.tar.gz]
 [2024-05-28 09:53:34] INFO root fetch - main [MainThread]: End processing [annet]: success
 [2024-05-28 09:53:34] INFO root fetch - main [MainThread]: Store serial: [23407290]
+[2024-05-28 09:55:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23407290]
+[2024-05-28 09:55:43] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-28 09:55:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dcnum
+[2024-05-28 09:55:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sjwt
+[2024-05-28 09:55:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kanstream
+[2024-05-28 09:55:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: umj-framework-py-ex
+[2024-05-28 09:55:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: picea
+[2024-05-28 09:55:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cognite-sdk
+[2024-05-28 09:55:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zodchy
+[2024-05-28 09:55:43] INFO root fetch - processPackages [dcnum]: New version: [0.20.1] Old Version: [0.20.0]
+[2024-05-28 09:55:43] INFO root fetch - processPackages [umj-framework-py-ex]: New version: [1.0.1a4] Old Version: [1.0.1a3]
+[2024-05-28 09:55:43] INFO root fetch - processPackages [sjwt]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-05-28 09:55:43] INFO root fetch - processPackages [kanstream]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-05-28 09:55:43] INFO root fetch - processPackages [dcnum]: Downloading https://files.pythonhosted.org/packages/35/da/c94e889e2b54205a6279708e458786770d5711bdc8c2cd874673eaea2455/dcnum-0.20.0.tar.gz
+[2024-05-28 09:55:43] INFO root fetch - processPackages [sjwt]: Downloading https://files.pythonhosted.org/packages/62/2f/8c69bf34cb469192a9b1502ebc8898cc4e5a4e02d64685915e9de4d45579/sjwt-0.3.3.tar.gz
+[2024-05-28 09:55:43] INFO root fetch - processPackages [picea]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-28 09:55:43] INFO root fetch - processPackages [kanstream]: Downloading https://files.pythonhosted.org/packages/20/f7/c67846d92da07d8f87ef5af9b39657f99b401e9b7421f0f01a7eba2c6972/kanstream-2.0.1.tar.gz
+[2024-05-28 09:55:43] INFO root fetch - processPackages [zodchy]: New version: [0.3.0] Old Version: [0.2.4]
+[2024-05-28 09:55:43] INFO root fetch - processPackages [cognite-sdk]: New version: [7.9.0] Old Version: [7.8.9]
+[2024-05-28 09:55:43] INFO root fetch - processPackages [umj-framework-py-ex]: Downloading https://files.pythonhosted.org/packages/e1/86/8892aa9a7bbe89e25fb1e4cdbede34cf24e086eb313f395b084b2bad19e0/umj-framework-py-ex-1.0.1a3.tar.gz
+[2024-05-28 09:55:43] INFO root fetch - processPackages [picea]: Downloading https://files.pythonhosted.org/packages/e5/4d/2405f5f6231c98dc0bfd2b20d86d72de3b757ecd0ebf9e7cb71d2464721e/picea-0.0.8.tar.gz
+[2024-05-28 09:55:43] INFO root fetch - processPackages [zodchy]: Downloading https://files.pythonhosted.org/packages/65/e8/a6d2dc5b0fd2e595dfc532adf5bbff440bc336137f5b628cfa3570a9d851/zodchy-0.2.4.tar.gz
+[2024-05-28 09:55:43] INFO root fetch - processPackages [sjwt]: Downloading https://files.pythonhosted.org/packages/08/7d/7631fc4528c40c1ca21e25747766346d434470dc190ca5a94f21bbd6c069/sjwt-0.3.4.tar.gz
+[2024-05-28 09:55:43] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/3a/da/08548de702dfbea6b1062e8994a1411347778ac52ad6c7db4550cbb42a5a/cognite_sdk-7.8.9.tar.gz
+[2024-05-28 09:55:43] INFO root fetch - processPackages [kanstream]: Downloading https://files.pythonhosted.org/packages/75/a4/9e0996ca7e24b5c97a5349df6dde3c77b10b3b82494ee080edf4ed585caf/kanstream-2.0.2.tar.gz
+[2024-05-28 09:55:43] INFO root fetch - processPackages [dcnum]: Downloading https://files.pythonhosted.org/packages/5a/f2/d0e11c67b3a77279045e885d6816c2f136c082dc97b4dc437add84d9a8d9/dcnum-0.20.1.tar.gz
+[2024-05-28 09:55:43] INFO root fetch - processPackages [sjwt]: executing diffoscope
+[2024-05-28 09:55:43] INFO root fetch - processPackages [sjwt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sjwt-0.3.3.tar.gz tmp/sjwt-0.3.4.tar.gz --markdown 20240528/s/sjwt/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-05-28 09:55:43] INFO root fetch - processPackages [umj-framework-py-ex]: Downloading https://files.pythonhosted.org/packages/47/54/10815d3d0418d87ae277b93324fe02c48bdd1ae5b761336a28d9395fd4ba/umj-framework-py-ex-1.0.1a4.tar.gz
+[2024-05-28 09:55:43] INFO root fetch - processPackages [kanstream]: executing diffoscope
+[2024-05-28 09:55:43] INFO root fetch - processPackages [kanstream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kanstream-2.0.1.tar.gz tmp/kanstream-2.0.2.tar.gz --markdown 20240528/k/kanstream/2.0.1-2.0.2/README.md --exclude *.pyd
+[2024-05-28 09:55:43] INFO root fetch - processPackages [umj-framework-py-ex]: executing diffoscope
+[2024-05-28 09:55:43] INFO root fetch - processPackages [umj-framework-py-ex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/umj-framework-py-ex-1.0.1a3.tar.gz tmp/umj-framework-py-ex-1.0.1a4.tar.gz --markdown 20240528/u/umj-framework-py-ex/1.0.1a3-1.0.1a4/README.md --exclude *.pyd
+[2024-05-28 09:55:43] INFO root fetch - processPackages [zodchy]: Downloading https://files.pythonhosted.org/packages/bc/6f/5e4a30a7d8209d2de523dcc75b001f49625ae52a1de383edc854857dc259/zodchy-0.3.0.tar.gz
+[2024-05-28 09:55:43] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/f3/d0/084198ea74187c00a0e69e824227d6cb1a40491cd4a427cf4a86e43a4f32/cognite_sdk-7.9.0.tar.gz
+[2024-05-28 09:55:43] INFO root fetch - processPackages [picea]: Downloading https://files.pythonhosted.org/packages/59/49/8c2f0a6f8d85f9fe751e4f7e27eef9281443b43b5bc2f5dad2b7aacfae6d/picea-0.0.9.tar.gz
+[2024-05-28 09:55:43] INFO root fetch - processPackages [dcnum]: executing diffoscope
+[2024-05-28 09:55:43] INFO root fetch - processPackages [dcnum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcnum-0.20.0.tar.gz tmp/dcnum-0.20.1.tar.gz --markdown 20240528/d/dcnum/0.20.0-0.20.1/README.md --exclude *.pyd
+[2024-05-28 09:55:44] INFO root fetch - processPackages [zodchy]: executing diffoscope
+[2024-05-28 09:55:44] INFO root fetch - processPackages [zodchy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zodchy-0.2.4.tar.gz tmp/zodchy-0.3.0.tar.gz --markdown 20240528/z/zodchy/0.2.4-0.3.0/README.md --exclude *.pyd
+[2024-05-28 09:55:44] INFO root fetch - processPackages [cognite-sdk]: executing diffoscope
+[2024-05-28 09:55:44] INFO root fetch - processPackages [cognite-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_sdk-7.8.9.tar.gz tmp/cognite_sdk-7.9.0.tar.gz --markdown 20240528/c/cognite-sdk/7.8.9-7.9.0/README.md --exclude *.pyd
+[2024-05-28 09:55:44] INFO root fetch - processPackages [picea]: executing diffoscope
+[2024-05-28 09:55:44] INFO root fetch - processPackages [picea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picea-0.0.8.tar.gz tmp/picea-0.0.9.tar.gz --markdown 20240528/p/picea/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-28 09:55:44] INFO root fetch - processPackages [sjwt]: Remove: archive file [/home/abi/fetcher/tmp/sjwt-0.3.3.tar.gz]
+[2024-05-28 09:55:44] INFO root fetch - processPackages [sjwt]: Remove: archive file [/home/abi/fetcher/tmp/sjwt-0.3.4.tar.gz]
+[2024-05-28 09:55:44] INFO root fetch - main [MainThread]: End processing [sjwt]: success
+[2024-05-28 09:55:44] INFO root fetch - processPackages [kanstream]: Remove: archive file [/home/abi/fetcher/tmp/kanstream-2.0.1.tar.gz]
+[2024-05-28 09:55:44] INFO root fetch - processPackages [kanstream]: Remove: archive file [/home/abi/fetcher/tmp/kanstream-2.0.2.tar.gz]
+[2024-05-28 09:55:44] INFO root fetch - main [MainThread]: End processing [kanstream]: success
+[2024-05-28 09:55:44] INFO root fetch - processPackages [umj-framework-py-ex]: Remove: archive file [/home/abi/fetcher/tmp/umj-framework-py-ex-1.0.1a3.tar.gz]
+[2024-05-28 09:55:44] INFO root fetch - processPackages [umj-framework-py-ex]: Remove: archive file [/home/abi/fetcher/tmp/umj-framework-py-ex-1.0.1a4.tar.gz]
+[2024-05-28 09:55:44] INFO root fetch - main [MainThread]: End processing [umj-framework-py-ex]: success
+[2024-05-28 09:55:44] INFO root fetch - processPackages [zodchy]: Remove: archive file [/home/abi/fetcher/tmp/zodchy-0.2.4.tar.gz]
+[2024-05-28 09:55:44] INFO root fetch - processPackages [zodchy]: Remove: archive file [/home/abi/fetcher/tmp/zodchy-0.3.0.tar.gz]
+[2024-05-28 09:55:44] INFO root fetch - main [MainThread]: End processing [zodchy]: success
+[2024-05-28 09:55:44] INFO root fetch - processPackages [dcnum]: Remove: archive file [/home/abi/fetcher/tmp/dcnum-0.20.0.tar.gz]
+[2024-05-28 09:55:44] INFO root fetch - processPackages [dcnum]: Remove: archive file [/home/abi/fetcher/tmp/dcnum-0.20.1.tar.gz]
+[2024-05-28 09:55:44] INFO root fetch - main [MainThread]: End processing [dcnum]: success
+[2024-05-28 09:55:45] INFO root fetch - processPackages [picea]: Remove: archive file [/home/abi/fetcher/tmp/picea-0.0.8.tar.gz]
+[2024-05-28 09:55:45] INFO root fetch - processPackages [picea]: Remove: archive file [/home/abi/fetcher/tmp/picea-0.0.9.tar.gz]
+[2024-05-28 09:55:45] INFO root fetch - main [MainThread]: End processing [picea]: success
+[2024-05-28 09:55:45] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-7.8.9.tar.gz]
+[2024-05-28 09:55:45] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-7.9.0.tar.gz]
+[2024-05-28 09:55:45] INFO root fetch - main [MainThread]: End processing [cognite-sdk]: success
+[2024-05-28 09:55:45] INFO root fetch - main [MainThread]: Store serial: [23407309]
