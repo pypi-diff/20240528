@@ -14872,3 +14872,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 11:51:04] INFO root fetch - processPackages [fathom-global-client-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fathom_global_client_sdk-0.9.0-py3-none-any.whl.zip]
 [2024-05-28 11:51:04] INFO root fetch - main [MainThread]: End processing [fathom-global-client-sdk]: success
 [2024-05-28 11:51:04] INFO root fetch - main [MainThread]: Store serial: [23409102]
+[2024-05-28 11:53:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23409102]
+[2024-05-28 11:53:12] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-28 11:53:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: azure-ai-vision-face
+[2024-05-28 11:53:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytest-mitmproxy
+[2024-05-28 11:53:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: panoptic
+[2024-05-28 11:53:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openclimatedata
+[2024-05-28 11:53:13] INFO root fetch - processPackages [openclimatedata]: New version: [0.9] Old Version: [0.8]
+[2024-05-28 11:53:13] INFO root fetch - processPackages [openclimatedata]: Downloading https://files.pythonhosted.org/packages/a8/32/ed04455a721bb9faf7a86120fbaaa7223bbaa9a228126bdba076f49d16b1/openclimatedata-0.8.tar.gz
+[2024-05-28 11:53:13] INFO root fetch - processPackages [pytest-mitmproxy]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-28 11:53:13] WARNING root fetch - processPackages [azure-ai-vision-face]: Skipping, unable to determine old version
+[2024-05-28 11:53:13] INFO root fetch - main [MainThread]: End processing [azure-ai-vision-face] error
+[2024-05-28 11:53:13] INFO root fetch - processPackages [panoptic]: New version: [0.3.4rc2] Old Version: [0.3.4rc1]
+[2024-05-28 11:53:13] INFO root fetch - processPackages [openclimatedata]: Downloading https://files.pythonhosted.org/packages/6e/2e/754d2351fe6051693cf51d38540aeac95e485a40509057b06dd00d361dc8/openclimatedata-0.9.tar.gz
+[2024-05-28 11:53:13] INFO root fetch - processPackages [pytest-mitmproxy]: Downloading https://files.pythonhosted.org/packages/db/df/5a6668ef11fd3da98890b6aa32e3932289925368292307b9da896dbceac2/pytest-mitmproxy-1.0.4.tar.gz
+[2024-05-28 11:53:13] INFO root fetch - processPackages [panoptic]: Downloading https://files.pythonhosted.org/packages/49/e6/a3363cc729a86fd3c9ad204515ccb28c9264291f41032dc8bf833f7aa336/panoptic-0.3.4rc1.tar.gz
+[2024-05-28 11:53:13] INFO root fetch - processPackages [openclimatedata]: executing diffoscope
+[2024-05-28 11:53:13] INFO root fetch - processPackages [openclimatedata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openclimatedata-0.8.tar.gz tmp/openclimatedata-0.9.tar.gz --markdown 20240528/o/openclimatedata/0.8-0.9/README.md --exclude *.pyd
+[2024-05-28 11:53:13] INFO root fetch - processPackages [pytest-mitmproxy]: Downloading https://files.pythonhosted.org/packages/3d/a5/dc9cf5e0d2261efe174273b86351a0521395759b07922781022c90961ace/pytest_mitmproxy-1.0.5.tar.gz
+[2024-05-28 11:53:13] INFO root fetch - processPackages [panoptic]: Downloading https://files.pythonhosted.org/packages/93/bb/a66224c6c060d58c52bf79fe03b146cf1965bdbe72376bd7874983e2c1bc/panoptic-0.3.4rc2.tar.gz
+[2024-05-28 11:53:13] INFO root fetch - processPackages [pytest-mitmproxy]: executing diffoscope
+[2024-05-28 11:53:13] INFO root fetch - processPackages [pytest-mitmproxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-mitmproxy-1.0.4.tar.gz tmp/pytest_mitmproxy-1.0.5.tar.gz --markdown 20240528/p/pytest-mitmproxy/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-28 11:53:14] INFO root fetch - processPackages [panoptic]: executing diffoscope
+[2024-05-28 11:53:14] INFO root fetch - processPackages [panoptic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panoptic-0.3.4rc1.tar.gz tmp/panoptic-0.3.4rc2.tar.gz --markdown 20240528/p/panoptic/0.3.4rc1-0.3.4rc2/README.md --exclude *.pyd
+[2024-05-28 11:53:14] INFO root fetch - processPackages [openclimatedata]: Remove: archive file [/home/abi/fetcher/tmp/openclimatedata-0.8.tar.gz]
+[2024-05-28 11:53:14] INFO root fetch - processPackages [openclimatedata]: Remove: archive file [/home/abi/fetcher/tmp/openclimatedata-0.9.tar.gz]
+[2024-05-28 11:53:14] INFO root fetch - main [MainThread]: End processing [openclimatedata]: success
+[2024-05-28 11:53:14] INFO root fetch - processPackages [pytest-mitmproxy]: Remove: archive file [/home/abi/fetcher/tmp/pytest-mitmproxy-1.0.4.tar.gz]
+[2024-05-28 11:53:14] INFO root fetch - processPackages [pytest-mitmproxy]: Remove: archive file [/home/abi/fetcher/tmp/pytest_mitmproxy-1.0.5.tar.gz]
+[2024-05-28 11:53:14] INFO root fetch - main [MainThread]: End processing [pytest-mitmproxy]: success
+[2024-05-28 11:53:22] INFO root fetch - processPackages [panoptic]: Remove: archive file [/home/abi/fetcher/tmp/panoptic-0.3.4rc1.tar.gz]
+[2024-05-28 11:53:22] INFO root fetch - processPackages [panoptic]: Remove: archive file [/home/abi/fetcher/tmp/panoptic-0.3.4rc2.tar.gz]
+[2024-05-28 11:53:22] INFO root fetch - main [MainThread]: End processing [panoptic]: success
+[2024-05-28 11:53:22] INFO root fetch - main [MainThread]: Store serial: [23409116]
