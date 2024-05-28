@@ -22801,3 +22801,53 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 16:24:38] INFO root fetch - processPackages [ultracart-rest-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ultracart_rest_sdk-4.0.99rc0.tar.gz]
 [2024-05-28 16:24:38] INFO root fetch - main [MainThread]: End processing [ultracart-rest-sdk]: success
 [2024-05-28 16:24:38] INFO root fetch - main [MainThread]: Store serial: [23412881]
+[2024-05-28 16:26:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23412881]
+[2024-05-28 16:26:47] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-28 16:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli-alpha-master
+[2024-05-28 16:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nvidia-dali-nightly-cuda120
+[2024-05-28 16:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: parsys-requests-unixsocket
+[2024-05-28 16:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ETH-GTD-cli
+[2024-05-28 16:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rd-lab-nltk
+[2024-05-28 16:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torrey
+[2024-05-28 16:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: phones-local
+[2024-05-28 16:26:48] INFO root fetch - processPackages [ETH-GTD-cli]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-28 16:26:48] WARNING root fetch - processPackages [parsys-requests-unixsocket]: Skipping, unable to determine old version
+[2024-05-28 16:26:48] INFO root fetch - main [MainThread]: End processing [parsys-requests-unixsocket] error
+[2024-05-28 16:26:48] INFO root fetch - processPackages [phones-local]: New version: [0.0.32] Old Version: [0.0.31]
+[2024-05-28 16:26:48] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: New version: [1.39.0.dev20240527] Old Version: [1.39.0.dev20240521]
+[2024-05-28 16:26:48] INFO root fetch - processPackages [torrey]: New version: [3.2.2.dev20240528142616] Old Version: [3.2.2.dev20240518180734]
+[2024-05-28 16:26:48] INFO root fetch - processPackages [ETH-GTD-cli]: Downloading https://files.pythonhosted.org/packages/bb/0a/50fa1ec5d25c4299fe860bbee1353c0eb7f1f3a83808556d2c92d59af108/eth_gtd_cli-0.0.98.tar.gz
+[2024-05-28 16:26:48] INFO root fetch - processPackages [phones-local]: Downloading https://files.pythonhosted.org/packages/7e/73/b41d1d7db96ba607a9fe3b2301f67bb2f2ae2029f31be6d506abdbe7f58a/phones_local-0.0.31.tar.gz
+[2024-05-28 16:26:48] WARNING root fetch - processPackages [rd-lab-nltk]: Skipping, unable to determine old version
+[2024-05-28 16:26:48] INFO root fetch - main [MainThread]: End processing [rd-lab-nltk] error
+[2024-05-28 16:26:48] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240528.8.36.460206] Old Version: [20240528.6.33.83606]
+[2024-05-28 16:26:48] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/0e/46/90b845516518457fa258654a9eee8647f8d75ebdf00a5da499a6bf118e03/nvidia_dali_nightly_cuda120-1.39.0.dev20240521.tar.gz
+[2024-05-28 16:26:48] INFO root fetch - processPackages [ETH-GTD-cli]: Downloading https://files.pythonhosted.org/packages/3a/3a/941df551139bad5139862c5d9037c073bb93892398261de84ccbd2737322/eth_gtd_cli-0.0.99.tar.gz
+[2024-05-28 16:26:48] INFO root fetch - processPackages [torrey]: Downloading https://files.pythonhosted.org/packages/13/b8/28716a5c888c804033c7f2bd2dd4a9016edf24618366e6a0c8918642bd5f/torrey-3.2.2.dev20240518180734.tar.gz
+[2024-05-28 16:26:48] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/68/e0/7674c8dac839e4274b8a5c68ea8a0d4aa9bea9021f32dbbbec81ea799ce4/nvidia_dali_nightly_cuda120-1.39.0.dev20240527.tar.gz
+[2024-05-28 16:26:48] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/a8/e4/dd9fb0b0c8f25aababbce90c6ce4e05d5e485d27cbaae8fbebef7575049c/certora-cli-alpha-master-20240528.6.33.83606.tar.gz
+[2024-05-28 16:26:48] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14595875>=10485760
+[2024-05-28 16:26:48] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-05-28 16:26:48] INFO root fetch - processPackages [phones-local]: Downloading https://files.pythonhosted.org/packages/c7/c4/641c4bf17760d0c103fb63cac2ca34fdff09eaebe2cbc1abe8995b8b0454/phones_local-0.0.32.tar.gz
+[2024-05-28 16:26:48] INFO root fetch - processPackages [ETH-GTD-cli]: executing diffoscope
+[2024-05-28 16:26:48] INFO root fetch - processPackages [ETH-GTD-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eth_gtd_cli-0.0.98.tar.gz tmp/eth_gtd_cli-0.0.99.tar.gz --markdown 20240528/E/ETH-GTD-cli/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-28 16:26:48] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: executing diffoscope
+[2024-05-28 16:26:48] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia_dali_nightly_cuda120-1.39.0.dev20240521.tar.gz tmp/nvidia_dali_nightly_cuda120-1.39.0.dev20240527.tar.gz --markdown 20240528/n/nvidia-dali-nightly-cuda120/1.39.0.dev20240521-1.39.0.dev20240527/README.md --exclude *.pyd
+[2024-05-28 16:26:48] INFO root fetch - processPackages [phones-local]: executing diffoscope
+[2024-05-28 16:26:48] INFO root fetch - processPackages [phones-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phones_local-0.0.31.tar.gz tmp/phones_local-0.0.32.tar.gz --markdown 20240528/p/phones-local/0.0.31-0.0.32/README.md --exclude *.pyd
+[2024-05-28 16:26:48] INFO root fetch - processPackages [torrey]: Downloading https://files.pythonhosted.org/packages/10/ac/4d04792876f711e59da9a085007c0835ed91e559c13bf306a2e1060e8ade/torrey-3.2.2.dev20240528142616.tar.gz
+[2024-05-28 16:26:49] INFO root fetch - processPackages [torrey]: executing diffoscope
+[2024-05-28 16:26:49] INFO root fetch - processPackages [torrey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torrey-3.2.2.dev20240518180734.tar.gz tmp/torrey-3.2.2.dev20240528142616.tar.gz --markdown 20240528/t/torrey/3.2.2.dev20240518180734-3.2.2.dev20240528142616/README.md --exclude *.pyd
+[2024-05-28 16:26:49] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_nightly_cuda120-1.39.0.dev20240521.tar.gz]
+[2024-05-28 16:26:49] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_nightly_cuda120-1.39.0.dev20240527.tar.gz]
+[2024-05-28 16:26:49] INFO root fetch - main [MainThread]: End processing [nvidia-dali-nightly-cuda120]: success
+[2024-05-28 16:26:49] INFO root fetch - processPackages [ETH-GTD-cli]: Remove: archive file [/home/abi/fetcher/tmp/eth_gtd_cli-0.0.98.tar.gz]
+[2024-05-28 16:26:49] INFO root fetch - processPackages [ETH-GTD-cli]: Remove: archive file [/home/abi/fetcher/tmp/eth_gtd_cli-0.0.99.tar.gz]
+[2024-05-28 16:26:49] INFO root fetch - main [MainThread]: End processing [ETH-GTD-cli]: success
+[2024-05-28 16:26:49] INFO root fetch - processPackages [phones-local]: Remove: archive file [/home/abi/fetcher/tmp/phones_local-0.0.31.tar.gz]
+[2024-05-28 16:26:49] INFO root fetch - processPackages [phones-local]: Remove: archive file [/home/abi/fetcher/tmp/phones_local-0.0.32.tar.gz]
+[2024-05-28 16:26:49] INFO root fetch - main [MainThread]: End processing [phones-local]: success
+[2024-05-28 16:26:50] INFO root fetch - processPackages [torrey]: Remove: archive file [/home/abi/fetcher/tmp/torrey-3.2.2.dev20240518180734.tar.gz]
+[2024-05-28 16:26:50] INFO root fetch - processPackages [torrey]: Remove: archive file [/home/abi/fetcher/tmp/torrey-3.2.2.dev20240528142616.tar.gz]
+[2024-05-28 16:26:50] INFO root fetch - main [MainThread]: End processing [torrey]: success
+[2024-05-28 16:26:50] INFO root fetch - main [MainThread]: Store serial: [23412911]
