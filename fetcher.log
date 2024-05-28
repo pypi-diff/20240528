@@ -16299,3 +16299,57 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 12:48:11] INFO root fetch - processPackages [ignos-api-client]: Remove: archive file [/home/abi/fetcher/tmp/ignos_api_client-2024.5.28.9351.tar.gz]
 [2024-05-28 12:48:11] INFO root fetch - main [MainThread]: End processing [ignos-api-client]: success
 [2024-05-28 12:48:11] INFO root fetch - main [MainThread]: Store serial: [23409782]
+[2024-05-28 12:50:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23409782]
+[2024-05-28 12:50:20] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-28 12:50:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datastew
+[2024-05-28 12:50:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datapools
+[2024-05-28 12:50:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: evo-framework
+[2024-05-28 12:50:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dingodb
+[2024-05-28 12:50:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cli-portfolio
+[2024-05-28 12:50:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-payroll
+[2024-05-28 12:50:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ptprssi
+[2024-05-28 12:50:21] INFO root fetch - processPackages [evo-framework]: New version: [22024.5.12] Old Version: [22024.5.11]
+[2024-05-28 12:50:21] INFO root fetch - processPackages [odoo-addon-payroll]: New version: [17.0.1.0.0.8] Old Version: [17.0.1.0.0.7]
+[2024-05-28 12:50:21] WARNING root fetch - processPackages [datastew]: Skipping, unable to determine old version
+[2024-05-28 12:50:21] INFO root fetch - main [MainThread]: End processing [datastew] error
+[2024-05-28 12:50:21] INFO root fetch - processPackages [dingodb]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-28 12:50:21] INFO root fetch - processPackages [odoo-addon-payroll]: Downloading https://files.pythonhosted.org/packages/c5/a8/6942de982ca0c914831eaed2854b0160efecaffbcbed7dd4480231416646/odoo_addon_payroll-17.0.1.0.0.7-py3-none-any.whl
+[2024-05-28 12:50:21] INFO root fetch - processPackages [ptprssi]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-28 12:50:21] WARNING root fetch - processPackages [cli-portfolio]: Skipping, unable to determine old version
+[2024-05-28 12:50:21] INFO root fetch - main [MainThread]: End processing [cli-portfolio] error
+[2024-05-28 12:50:21] INFO root fetch - processPackages [datapools]: New version: [1.0.64] Old Version: [1.0.63]
+[2024-05-28 12:50:21] INFO root fetch - processPackages [evo-framework]: Downloading https://files.pythonhosted.org/packages/95/02/75f0c3c4142fa15696065ebe68aee33a07699948d604bb271e9cfef2568c/evo_framework-22024.5.11.tar.gz
+[2024-05-28 12:50:21] INFO root fetch - processPackages [datapools]: Downloading https://files.pythonhosted.org/packages/b8/f3/85576bd9418f3aeede06981d92f77c6fe2ec9850fa42b5542531691cb516/datapools-1.0.63.tar.gz
+[2024-05-28 12:50:21] INFO root fetch - processPackages [ptprssi]: Downloading https://files.pythonhosted.org/packages/eb/29/d60d5509a239a30a438c1f5f74de0e7d08ae6da84ddfcae188596daae14f/ptprssi-1.0.1.tar.gz
+[2024-05-28 12:50:21] INFO root fetch - processPackages [dingodb]: Downloading https://files.pythonhosted.org/packages/fd/67/a310b9a572631d0e4a94dcdc0dcb431716f7f40b19d3f1a54bf09bda260d/dingodb-0.0.8.tar.gz
+[2024-05-28 12:50:21] INFO root fetch - processPackages [odoo-addon-payroll]: Downloading https://files.pythonhosted.org/packages/f6/59/2d363d42ef03a3907b7bdc40a2a8eaed982d11526b82dfc7bd18daac0697/odoo_addon_payroll-17.0.1.0.0.8-py3-none-any.whl
+[2024-05-28 12:50:21] INFO root fetch - processPackages [evo-framework]: Downloading https://files.pythonhosted.org/packages/d0/45/504f288f13e85adaa1652605b78a8341712c8f4f392a48ca50854ba0f78f/evo_framework-22024.5.12.tar.gz
+[2024-05-28 12:50:21] INFO root fetch - processPackages [odoo-addon-payroll]: executing diffoscope
+[2024-05-28 12:50:21] INFO root fetch - processPackages [odoo-addon-payroll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_payroll-17.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_payroll-17.0.1.0.0.8-py3-none-any.whl.zip --markdown 20240528/o/odoo-addon-payroll/17.0.1.0.0.7-17.0.1.0.0.8/README.md --exclude *.pyd
+[2024-05-28 12:50:21] INFO root fetch - processPackages [evo-framework]: executing diffoscope
+[2024-05-28 12:50:21] INFO root fetch - processPackages [evo-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evo_framework-22024.5.11.tar.gz tmp/evo_framework-22024.5.12.tar.gz --markdown 20240528/e/evo-framework/22024.5.11-22024.5.12/README.md --exclude *.pyd
+[2024-05-28 12:50:21] INFO root fetch - processPackages [datapools]: Downloading https://files.pythonhosted.org/packages/6e/17/ee8ddcfb1e89f82e412babc12bd1de1b50110db90cf2e7b657e0a82c5c78/datapools-1.0.64.tar.gz
+[2024-05-28 12:50:21] INFO root fetch - processPackages [dingodb]: Downloading https://files.pythonhosted.org/packages/06/6f/82ec6e6f7f768612dc9ef020e2dd42524a3971b282fea6b746ddd2f7aef0/dingodb-0.0.9.tar.gz
+[2024-05-28 12:50:21] INFO root fetch - processPackages [ptprssi]: Downloading https://files.pythonhosted.org/packages/22/e5/b5dbf192de16566f6c5e7051553749fadd66a004fe0f06941221170de097/ptprssi-1.0.2.tar.gz
+[2024-05-28 12:50:21] INFO root fetch - processPackages [datapools]: executing diffoscope
+[2024-05-28 12:50:21] INFO root fetch - processPackages [datapools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datapools-1.0.63.tar.gz tmp/datapools-1.0.64.tar.gz --markdown 20240528/d/datapools/1.0.63-1.0.64/README.md --exclude *.pyd
+[2024-05-28 12:50:22] INFO root fetch - processPackages [dingodb]: executing diffoscope
+[2024-05-28 12:50:22] INFO root fetch - processPackages [dingodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dingodb-0.0.8.tar.gz tmp/dingodb-0.0.9.tar.gz --markdown 20240528/d/dingodb/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-28 12:50:22] INFO root fetch - processPackages [ptprssi]: executing diffoscope
+[2024-05-28 12:50:22] INFO root fetch - processPackages [ptprssi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ptprssi-1.0.1.tar.gz tmp/ptprssi-1.0.2.tar.gz --markdown 20240528/p/ptprssi/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-28 12:50:22] INFO root fetch - processPackages [evo-framework]: Remove: archive file [/home/abi/fetcher/tmp/evo_framework-22024.5.11.tar.gz]
+[2024-05-28 12:50:22] INFO root fetch - processPackages [evo-framework]: Remove: archive file [/home/abi/fetcher/tmp/evo_framework-22024.5.12.tar.gz]
+[2024-05-28 12:50:22] INFO root fetch - main [MainThread]: End processing [evo-framework]: success
+[2024-05-28 12:50:22] INFO root fetch - processPackages [datapools]: Remove: archive file [/home/abi/fetcher/tmp/datapools-1.0.63.tar.gz]
+[2024-05-28 12:50:22] INFO root fetch - processPackages [datapools]: Remove: archive file [/home/abi/fetcher/tmp/datapools-1.0.64.tar.gz]
+[2024-05-28 12:50:22] INFO root fetch - main [MainThread]: End processing [datapools]: success
+[2024-05-28 12:50:22] INFO root fetch - processPackages [ptprssi]: Remove: archive file [/home/abi/fetcher/tmp/ptprssi-1.0.1.tar.gz]
+[2024-05-28 12:50:22] INFO root fetch - processPackages [ptprssi]: Remove: archive file [/home/abi/fetcher/tmp/ptprssi-1.0.2.tar.gz]
+[2024-05-28 12:50:22] INFO root fetch - main [MainThread]: End processing [ptprssi]: success
+[2024-05-28 12:50:22] INFO root fetch - processPackages [dingodb]: Remove: archive file [/home/abi/fetcher/tmp/dingodb-0.0.8.tar.gz]
+[2024-05-28 12:50:22] INFO root fetch - processPackages [dingodb]: Remove: archive file [/home/abi/fetcher/tmp/dingodb-0.0.9.tar.gz]
+[2024-05-28 12:50:22] INFO root fetch - main [MainThread]: End processing [dingodb]: success
+[2024-05-28 12:50:22] INFO root fetch - processPackages [odoo-addon-payroll]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_payroll-17.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-05-28 12:50:22] INFO root fetch - processPackages [odoo-addon-payroll]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_payroll-17.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-05-28 12:50:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-payroll]: success
+[2024-05-28 12:50:22] INFO root fetch - main [MainThread]: Store serial: [23409807]
