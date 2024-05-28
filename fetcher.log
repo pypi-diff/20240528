@@ -2788,3 +2788,24 @@
 [2024-05-28 03:16:39] INFO root fetch - processPackages [blueness]: Remove: archive file [/home/abi/fetcher/tmp/blueness-3.9.1.tar.gz]
 [2024-05-28 03:16:39] INFO root fetch - main [MainThread]: End processing [blueness]: success
 [2024-05-28 03:16:39] INFO root fetch - main [MainThread]: Store serial: [23403928]
+[2024-05-28 03:18:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23403928]
+[2024-05-28 03:18:47] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-28 03:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alphafold3-pytorch
+[2024-05-28 03:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: amolkit
+[2024-05-28 03:18:47] INFO root fetch - processPackages [amolkit]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-05-28 03:18:47] INFO root fetch - processPackages [amolkit]: Downloading https://files.pythonhosted.org/packages/59/7d/c6ec8804e6a0e25f095fb437c9683cce165aead088817e09e714468a100a/amolkit-1.0.7.tar.gz
+[2024-05-28 03:18:47] INFO root fetch - processPackages [alphafold3-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-28 03:18:47] INFO root fetch - processPackages [alphafold3-pytorch]: Downloading https://files.pythonhosted.org/packages/e9/e2/142b19b529aba5b96d18902a5f1c99660ab625fa64921af86b97ac678b40/alphafold3_pytorch-0.0.8.tar.gz
+[2024-05-28 03:18:48] INFO root fetch - processPackages [amolkit]: Downloading https://files.pythonhosted.org/packages/88/df/79b9f7d3d34d2a2695246e1301cebb766aee73771475b8dd067ac4f85946/amolkit-1.0.8.tar.gz
+[2024-05-28 03:18:48] INFO root fetch - processPackages [amolkit]: executing diffoscope
+[2024-05-28 03:18:48] INFO root fetch - processPackages [amolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amolkit-1.0.7.tar.gz tmp/amolkit-1.0.8.tar.gz --markdown 20240528/a/amolkit/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-05-28 03:18:48] INFO root fetch - processPackages [alphafold3-pytorch]: Downloading https://files.pythonhosted.org/packages/96/47/97f198b647d508e9e64e32b67c24069f872d2ff29ca39b5d1ef44a81f68b/alphafold3_pytorch-0.0.9.tar.gz
+[2024-05-28 03:18:48] INFO root fetch - processPackages [alphafold3-pytorch]: executing diffoscope
+[2024-05-28 03:18:48] INFO root fetch - processPackages [alphafold3-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphafold3_pytorch-0.0.8.tar.gz tmp/alphafold3_pytorch-0.0.9.tar.gz --markdown 20240528/a/alphafold3-pytorch/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-28 03:18:48] INFO root fetch - processPackages [amolkit]: Remove: archive file [/home/abi/fetcher/tmp/amolkit-1.0.7.tar.gz]
+[2024-05-28 03:18:48] INFO root fetch - processPackages [amolkit]: Remove: archive file [/home/abi/fetcher/tmp/amolkit-1.0.8.tar.gz]
+[2024-05-28 03:18:48] INFO root fetch - main [MainThread]: End processing [amolkit]: success
+[2024-05-28 03:18:49] INFO root fetch - processPackages [alphafold3-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/alphafold3_pytorch-0.0.8.tar.gz]
+[2024-05-28 03:18:49] INFO root fetch - processPackages [alphafold3-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/alphafold3_pytorch-0.0.9.tar.gz]
+[2024-05-28 03:18:49] INFO root fetch - main [MainThread]: End processing [alphafold3-pytorch]: success
+[2024-05-28 03:18:49] INFO root fetch - main [MainThread]: Store serial: [23403944]
