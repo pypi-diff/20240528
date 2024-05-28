@@ -6294,3 +6294,64 @@
 [2024-05-28 07:14:10] INFO root fetch - processPackages [odoo-addon-l10n-it-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_account-16.0.1.1.0.1-py3-none-any.whl.zip]
 [2024-05-28 07:14:10] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-it-account]: success
 [2024-05-28 07:14:10] INFO root fetch - main [MainThread]: Store serial: [23405359]
+[2024-05-28 07:16:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23405359]
+[2024-05-28 07:16:19] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-28 07:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pypdfzipcrack
+[2024-05-28 07:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chili
+[2024-05-28 07:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nanosense
+[2024-05-28 07:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nanosense
+[2024-05-28 07:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: refcount
+[2024-05-28 07:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rstms-testmail
+[2024-05-28 07:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: daalab
+[2024-05-28 07:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: touchwoody
+[2024-05-28 07:16:19] WARNING root fetch - processPackages [pypdfzipcrack]: Skipping, unable to determine old version
+[2024-05-28 07:16:19] INFO root fetch - main [MainThread]: End processing [pypdfzipcrack] error
+[2024-05-28 07:16:19] WARNING root fetch - processPackages [touchwoody]: Skipping, unable to determine old version
+[2024-05-28 07:16:19] INFO root fetch - main [MainThread]: End processing [touchwoody] error
+[2024-05-28 07:16:19] INFO root fetch - processPackages [nanosense]: New version: [0.2.0] Old Version: [0.1.3]
+[2024-05-28 07:16:19] INFO root fetch - processPackages [daalab]: New version: [1.4] Old Version: [1.3]
+[2024-05-28 07:16:19] INFO root fetch - processPackages [nanosense]: New version: [0.2.0] Old Version: [0.1.3]
+[2024-05-28 07:16:19] INFO root fetch - processPackages [refcount]: New version: [1.2.3] Old Version: [1.2.0]
+[2024-05-28 07:16:19] INFO root fetch - processPackages [rstms-testmail]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-28 07:16:19] INFO root fetch - processPackages [chili]: New version: [2.9.0] Old Version: [2.8.4]
+[2024-05-28 07:16:19] INFO root fetch - processPackages [nanosense]: Downloading https://files.pythonhosted.org/packages/65/93/b6208e4d24ec265e67cf65bebab291d2722038b85ca2fb8f5a666d6ff106/nanosense-0.1.3.tar.gz
+[2024-05-28 07:16:19] INFO root fetch - processPackages [daalab]: Downloading https://files.pythonhosted.org/packages/07/fb/c306d62e806f6aaaaa7486862f853bdc73b161fc81473769f4a7ab93c190/daalab-1.3.tar.gz
+[2024-05-28 07:16:19] INFO root fetch - processPackages [nanosense]: Downloading https://files.pythonhosted.org/packages/65/93/b6208e4d24ec265e67cf65bebab291d2722038b85ca2fb8f5a666d6ff106/nanosense-0.1.3.tar.gz
+[2024-05-28 07:16:19] INFO root fetch - processPackages [chili]: Downloading https://files.pythonhosted.org/packages/b1/ae/1d0fb187a4fa5031a22968af93bc76ffb83fc465544fd73740e59bf8240e/chili-2.8.4.tar.gz
+[2024-05-28 07:16:19] INFO root fetch - processPackages [rstms-testmail]: Downloading https://files.pythonhosted.org/packages/d7/cf/074440eeb6377ffce38ca1f0958f4ce49123cfec3aeb7ab2a4b6ba32d84d/rstms_testmail-0.2.3.tar.gz
+[2024-05-28 07:16:19] INFO root fetch - processPackages [refcount]: Downloading https://files.pythonhosted.org/packages/5f/ad/f8210b5db6f98d8607b7c7c726bd0198de46c323fc27b3066ffae0c8653b/refcount-1.2.0.zip
+[2024-05-28 07:16:19] INFO root fetch - processPackages [daalab]: Downloading https://files.pythonhosted.org/packages/37/28/a444ea34d5298bfeb426cd6de01bf0fed653a345568170f7f646cf97296e/daalab-1.4.tar.gz
+[2024-05-28 07:16:19] INFO root fetch - processPackages [daalab]: executing diffoscope
+[2024-05-28 07:16:19] INFO root fetch - processPackages [daalab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daalab-1.3.tar.gz tmp/daalab-1.4.tar.gz --markdown 20240528/d/daalab/1.3-1.4/README.md --exclude *.pyd
+[2024-05-28 07:16:20] INFO root fetch - processPackages [nanosense]: Downloading https://files.pythonhosted.org/packages/2c/ea/3ac0838e2537d97037c7216bed3e9f53c32b2886cacc2ad17fabf431fc1e/nanosense-0.2.0.tar.gz
+[2024-05-28 07:16:20] INFO root fetch - processPackages [nanosense]: Downloading https://files.pythonhosted.org/packages/2c/ea/3ac0838e2537d97037c7216bed3e9f53c32b2886cacc2ad17fabf431fc1e/nanosense-0.2.0.tar.gz
+[2024-05-28 07:16:20] INFO root fetch - processPackages [chili]: Downloading https://files.pythonhosted.org/packages/0f/e7/d8eb7703d81573760a062b5e30d8d0e63283517aa0bde66c985e66fddcdd/chili-2.9.0.tar.gz
+[2024-05-28 07:16:20] INFO root fetch - processPackages [rstms-testmail]: Downloading https://files.pythonhosted.org/packages/a3/4d/bd0a7ad2b76f6dc31fdb4d3e84d140a99d975c38f93423c52c15f1e3a716/rstms_testmail-0.2.4.tar.gz
+[2024-05-28 07:16:20] INFO root fetch - processPackages [refcount]: Downloading https://files.pythonhosted.org/packages/7f/15/cb78db915870094b46bc80557cd4ad748b22e3cc063a639b12b244ee2ba5/refcount-1.2.3.tar.gz
+[2024-05-28 07:16:20] INFO root fetch - processPackages [chili]: executing diffoscope
+[2024-05-28 07:16:20] INFO root fetch - processPackages [chili]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chili-2.8.4.tar.gz tmp/chili-2.9.0.tar.gz --markdown 20240528/c/chili/2.8.4-2.9.0/README.md --exclude *.pyd
+[2024-05-28 07:16:20] INFO root fetch - processPackages [rstms-testmail]: executing diffoscope
+[2024-05-28 07:16:20] INFO root fetch - processPackages [refcount]: executing diffoscope
+[2024-05-28 07:16:20] INFO root fetch - processPackages [rstms-testmail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rstms_testmail-0.2.3.tar.gz tmp/rstms_testmail-0.2.4.tar.gz --markdown 20240528/r/rstms-testmail/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-05-28 07:16:20] INFO root fetch - processPackages [refcount]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/refcount-1.2.0.zip tmp/refcount-1.2.3.tar.gz --markdown 20240528/r/refcount/1.2.0-1.2.3/README.md --exclude *.pyd
+[2024-05-28 07:16:20] INFO root fetch - processPackages [nanosense]: executing diffoscope
+[2024-05-28 07:16:20] INFO root fetch - processPackages [nanosense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanosense-0.1.3.tar.gz tmp/nanosense-0.2.0.tar.gz --markdown 20240528/n/nanosense/0.1.3-0.2.0/README.md --exclude *.pyd
+[2024-05-28 07:16:20] INFO root fetch - processPackages [nanosense]: executing diffoscope
+[2024-05-28 07:16:20] INFO root fetch - processPackages [nanosense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanosense-0.1.3.tar.gz tmp/nanosense-0.2.0.tar.gz --markdown 20240528/n/nanosense/0.1.3-0.2.0/README.md --exclude *.pyd
+[2024-05-28 07:16:20] INFO root fetch - processPackages [daalab]: Remove: archive file [/home/abi/fetcher/tmp/daalab-1.3.tar.gz]
+[2024-05-28 07:16:20] INFO root fetch - processPackages [daalab]: Remove: archive file [/home/abi/fetcher/tmp/daalab-1.4.tar.gz]
+[2024-05-28 07:16:20] INFO root fetch - main [MainThread]: End processing [daalab]: success
+[2024-05-28 07:16:20] INFO root fetch - processPackages [refcount]: Remove: archive file [/home/abi/fetcher/tmp/refcount-1.2.0.zip]
+[2024-05-28 07:16:20] INFO root fetch - processPackages [refcount]: Remove: archive file [/home/abi/fetcher/tmp/refcount-1.2.3.tar.gz]
+[2024-05-28 07:16:20] INFO root fetch - main [MainThread]: End processing [refcount]: success
+[2024-05-28 07:16:20] INFO root fetch - processPackages [rstms-testmail]: Remove: archive file [/home/abi/fetcher/tmp/rstms_testmail-0.2.3.tar.gz]
+[2024-05-28 07:16:20] INFO root fetch - processPackages [rstms-testmail]: Remove: archive file [/home/abi/fetcher/tmp/rstms_testmail-0.2.4.tar.gz]
+[2024-05-28 07:16:20] INFO root fetch - main [MainThread]: End processing [rstms-testmail]: success
+[2024-05-28 07:16:21] INFO root fetch - processPackages [chili]: Remove: archive file [/home/abi/fetcher/tmp/chili-2.8.4.tar.gz]
+[2024-05-28 07:16:21] INFO root fetch - processPackages [chili]: Remove: archive file [/home/abi/fetcher/tmp/chili-2.9.0.tar.gz]
+[2024-05-28 07:16:21] INFO root fetch - main [MainThread]: End processing [chili]: success
+[2024-05-28 07:16:21] INFO root fetch - processPackages [nanosense]: Remove: archive file [/home/abi/fetcher/tmp/nanosense-0.1.3.tar.gz]
+[2024-05-28 07:16:21] INFO root fetch - processPackages [nanosense]: Remove: archive file [/home/abi/fetcher/tmp/nanosense-0.2.0.tar.gz]
+[2024-05-28 07:16:21] INFO root fetch - main [MainThread]: End processing [nanosense]: success
+[2024-05-28 07:16:21] INFO root fetch - main [MainThread]: End processing [nanosense]: success
+[2024-05-28 07:16:21] INFO root fetch - main [MainThread]: Store serial: [23405383]
