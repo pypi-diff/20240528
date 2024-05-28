@@ -9839,3 +9839,51 @@
 [2024-05-28 09:11:37] INFO root fetch - processPackages [hestia-earth-models]: Remove: archive file [/home/abi/fetcher/tmp/hestia-earth-models-0.9.1.tar.gz]
 [2024-05-28 09:11:37] INFO root fetch - main [MainThread]: End processing [hestia-earth-models]: success
 [2024-05-28 09:11:37] INFO root fetch - main [MainThread]: Store serial: [23406929]
+[2024-05-28 09:13:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23406929]
+[2024-05-28 09:13:46] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-28 09:13:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: truefoundry
+[2024-05-28 09:13:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mg-pso-gui
+[2024-05-28 09:13:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: voicebox-tts
+[2024-05-28 09:13:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pixyverse.pixy
+[2024-05-28 09:13:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mia-vgg
+[2024-05-28 09:13:46] INFO root fetch - processPackages [mia-vgg]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-28 09:13:46] INFO root fetch - processPackages [voicebox-tts]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-28 09:13:46] INFO root fetch - processPackages [mia-vgg]: Downloading https://files.pythonhosted.org/packages/7d/99/89bc26b6fc0c4be64ccf67e364ca9e0df91458fd29d11e2358855b46e97d/mia_vgg-0.0.8.tar.gz
+[2024-05-28 09:13:46] INFO root fetch - processPackages [voicebox-tts]: Downloading https://files.pythonhosted.org/packages/64/b4/0f10cab851624b6a6ca1e01e3b3afa6c60cc350c5f403c468b9a21638648/voicebox_tts-0.0.8.tar.gz
+[2024-05-28 09:13:46] INFO root fetch - processPackages [mg-pso-gui]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-28 09:13:46] INFO root fetch - processPackages [pixyverse.pixy]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-28 09:13:46] INFO root fetch - processPackages [truefoundry]: New version: [0.2.3rc1] Old Version: [0.2.2rc4]
+[2024-05-28 09:13:46] INFO root fetch - processPackages [mg-pso-gui]: Downloading https://files.pythonhosted.org/packages/df/83/034ff30ffab79111af61b23ddbbacb0dc8d0faee9958bec000f788ee7a76/mg-pso-gui-0.1.98.tar.gz
+[2024-05-28 09:13:46] INFO root fetch - processPackages [mia-vgg]: Downloading https://files.pythonhosted.org/packages/cc/39/4b0634a6c0cfb889300cdd32b0b9e896e244894df317465107e5a88463b0/mia_vgg-0.0.9.tar.gz
+[2024-05-28 09:13:46] INFO root fetch - processPackages [voicebox-tts]: Downloading https://files.pythonhosted.org/packages/31/82/ca4421774a3411e0353eb3ac44ac3f853eec5ec717a6163001c5a0e881df/voicebox_tts-0.0.9.tar.gz
+[2024-05-28 09:13:46] INFO root fetch - processPackages [truefoundry]: Downloading https://files.pythonhosted.org/packages/6b/bb/8c519381d944c31126b7707211a97c51af06c5e3a6ee4023da053c90b69f/truefoundry-0.2.2rc4.tar.gz
+[2024-05-28 09:13:46] INFO root fetch - processPackages [pixyverse.pixy]: Downloading https://files.pythonhosted.org/packages/d3/7c/7e5ff537b1a097890f17d33d2a479100df0593f54df6080affeb1e5b074e/pixyverse_pixy-0.0.6.tar.gz
+[2024-05-28 09:13:46] INFO root fetch - processPackages [mia-vgg]: executing diffoscope
+[2024-05-28 09:13:46] INFO root fetch - processPackages [mia-vgg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mia_vgg-0.0.8.tar.gz tmp/mia_vgg-0.0.9.tar.gz --markdown 20240528/m/mia-vgg/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-28 09:13:46] INFO root fetch - processPackages [voicebox-tts]: executing diffoscope
+[2024-05-28 09:13:46] INFO root fetch - processPackages [voicebox-tts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voicebox_tts-0.0.8.tar.gz tmp/voicebox_tts-0.0.9.tar.gz --markdown 20240528/v/voicebox-tts/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-28 09:13:46] INFO root fetch - processPackages [mg-pso-gui]: Downloading https://files.pythonhosted.org/packages/02/26/25a563653e3f76ef0cdf3b09aef810d638a12dd3cab560f67bf7a0c694e9/mg-pso-gui-0.1.99.tar.gz
+[2024-05-28 09:13:46] INFO root fetch - processPackages [truefoundry]: Downloading https://files.pythonhosted.org/packages/b2/fd/f81463ca97f0399cf06fee5b361587732ee3ef0c467fbce703320b31bef3/truefoundry-0.2.3rc1.tar.gz
+[2024-05-28 09:13:46] INFO root fetch - processPackages [pixyverse.pixy]: Downloading https://files.pythonhosted.org/packages/f3/d7/06648a00e8f85ee60ac32effec27a936767c18695a12c9db87ffece9f47a/pixyverse_pixy-0.0.7.tar.gz
+[2024-05-28 09:13:46] INFO root fetch - processPackages [mg-pso-gui]: executing diffoscope
+[2024-05-28 09:13:46] INFO root fetch - processPackages [mg-pso-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mg-pso-gui-0.1.98.tar.gz tmp/mg-pso-gui-0.1.99.tar.gz --markdown 20240528/m/mg-pso-gui/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-28 09:13:46] INFO root fetch - processPackages [truefoundry]: executing diffoscope
+[2024-05-28 09:13:46] INFO root fetch - processPackages [truefoundry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/truefoundry-0.2.2rc4.tar.gz tmp/truefoundry-0.2.3rc1.tar.gz --markdown 20240528/t/truefoundry/0.2.2rc4-0.2.3rc1/README.md --exclude *.pyd
+[2024-05-28 09:13:46] INFO root fetch - processPackages [pixyverse.pixy]: executing diffoscope
+[2024-05-28 09:13:46] INFO root fetch - processPackages [pixyverse.pixy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pixyverse_pixy-0.0.6.tar.gz tmp/pixyverse_pixy-0.0.7.tar.gz --markdown 20240528/p/pixyverse.pixy/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-28 09:13:47] INFO root fetch - processPackages [mia-vgg]: Remove: archive file [/home/abi/fetcher/tmp/mia_vgg-0.0.8.tar.gz]
+[2024-05-28 09:13:47] INFO root fetch - processPackages [mia-vgg]: Remove: archive file [/home/abi/fetcher/tmp/mia_vgg-0.0.9.tar.gz]
+[2024-05-28 09:13:47] INFO root fetch - main [MainThread]: End processing [mia-vgg]: success
+[2024-05-28 09:13:47] INFO root fetch - processPackages [voicebox-tts]: Remove: archive file [/home/abi/fetcher/tmp/voicebox_tts-0.0.8.tar.gz]
+[2024-05-28 09:13:47] INFO root fetch - processPackages [voicebox-tts]: Remove: archive file [/home/abi/fetcher/tmp/voicebox_tts-0.0.9.tar.gz]
+[2024-05-28 09:13:47] INFO root fetch - main [MainThread]: End processing [voicebox-tts]: success
+[2024-05-28 09:13:47] INFO root fetch - processPackages [truefoundry]: Remove: archive file [/home/abi/fetcher/tmp/truefoundry-0.2.2rc4.tar.gz]
+[2024-05-28 09:13:47] INFO root fetch - processPackages [truefoundry]: Remove: archive file [/home/abi/fetcher/tmp/truefoundry-0.2.3rc1.tar.gz]
+[2024-05-28 09:13:47] INFO root fetch - main [MainThread]: End processing [truefoundry]: success
+[2024-05-28 09:13:47] INFO root fetch - processPackages [mg-pso-gui]: Remove: archive file [/home/abi/fetcher/tmp/mg-pso-gui-0.1.98.tar.gz]
+[2024-05-28 09:13:47] INFO root fetch - processPackages [mg-pso-gui]: Remove: archive file [/home/abi/fetcher/tmp/mg-pso-gui-0.1.99.tar.gz]
+[2024-05-28 09:13:47] INFO root fetch - main [MainThread]: End processing [mg-pso-gui]: success
+[2024-05-28 09:13:47] INFO root fetch - processPackages [pixyverse.pixy]: Remove: archive file [/home/abi/fetcher/tmp/pixyverse_pixy-0.0.6.tar.gz]
+[2024-05-28 09:13:47] INFO root fetch - processPackages [pixyverse.pixy]: Remove: archive file [/home/abi/fetcher/tmp/pixyverse_pixy-0.0.7.tar.gz]
+[2024-05-28 09:13:47] INFO root fetch - main [MainThread]: End processing [pixyverse.pixy]: success
+[2024-05-28 09:13:47] INFO root fetch - main [MainThread]: Store serial: [23406945]
