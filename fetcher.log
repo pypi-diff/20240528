@@ -14833,3 +14833,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 11:48:53] INFO root fetch - processPackages [pymodaq]: Remove: archive file [/home/abi/fetcher/tmp/pymodaq-4.2.1.tar.gz]
 [2024-05-28 11:48:53] INFO root fetch - main [MainThread]: End processing [pymodaq]: success
 [2024-05-28 11:48:53] INFO root fetch - main [MainThread]: Store serial: [23409092]
+[2024-05-28 11:50:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23409092]
+[2024-05-28 11:51:02] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-28 11:51:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyspextools
+[2024-05-28 11:51:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mia-vgg
+[2024-05-28 11:51:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: org-ds-cdk
+[2024-05-28 11:51:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fathom-global-client-sdk
+[2024-05-28 11:51:02] INFO root fetch - processPackages [mia-vgg]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-28 11:51:02] INFO root fetch - processPackages [org-ds-cdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-28 11:51:02] INFO root fetch - processPackages [mia-vgg]: Downloading https://files.pythonhosted.org/packages/7d/99/89bc26b6fc0c4be64ccf67e364ca9e0df91458fd29d11e2358855b46e97d/mia_vgg-0.0.8.tar.gz
+[2024-05-28 11:51:02] INFO root fetch - processPackages [fathom-global-client-sdk]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-28 11:51:02] INFO root fetch - processPackages [pyspextools]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-05-28 11:51:02] INFO root fetch - processPackages [org-ds-cdk]: Downloading https://files.pythonhosted.org/packages/2b/43/b8f78a3762d50888d594a26b1540958c941d1a620fd0f566e5582ba3431b/org-ds-cdk-0.1.8.tar.gz
+[2024-05-28 11:51:02] INFO root fetch - processPackages [mia-vgg]: Downloading https://files.pythonhosted.org/packages/cc/39/4b0634a6c0cfb889300cdd32b0b9e896e244894df317465107e5a88463b0/mia_vgg-0.0.9.tar.gz
+[2024-05-28 11:51:02] INFO root fetch - processPackages [fathom-global-client-sdk]: Downloading https://files.pythonhosted.org/packages/3e/87/254b80a5d21804852fdc82107b5a9f7514c2c86d4894c2a82e0ef093ce8c/fathom_global_client_sdk-0.8.0-py3-none-any.whl
+[2024-05-28 11:51:02] INFO root fetch - processPackages [pyspextools]: Downloading https://files.pythonhosted.org/packages/7b/e8/4b8b5e116cb7105d858556de56a6ac0ebde0425f9a7ffb3d13af45cba52a/pyspextools-0.6.0.tar.gz
+[2024-05-28 11:51:02] INFO root fetch - processPackages [org-ds-cdk]: Downloading https://files.pythonhosted.org/packages/0b/f7/dd3e29d4391e49d84a513766724c22db6aebe5a065e5c8d1a3930abab8de/org-ds-cdk-0.1.9.tar.gz
+[2024-05-28 11:51:02] INFO root fetch - processPackages [mia-vgg]: executing diffoscope
+[2024-05-28 11:51:02] INFO root fetch - processPackages [mia-vgg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mia_vgg-0.0.8.tar.gz tmp/mia_vgg-0.0.9.tar.gz --markdown 20240528/m/mia-vgg/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-28 11:51:02] INFO root fetch - processPackages [org-ds-cdk]: executing diffoscope
+[2024-05-28 11:51:02] INFO root fetch - processPackages [org-ds-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/org-ds-cdk-0.1.8.tar.gz tmp/org-ds-cdk-0.1.9.tar.gz --markdown 20240528/o/org-ds-cdk/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-28 11:51:03] INFO root fetch - processPackages [pyspextools]: Downloading https://files.pythonhosted.org/packages/81/01/3c04616eef4f055ce116869c0b10c0dec98d5e31e8f5f927e3f7b39c2093/pyspextools-0.6.1.tar.gz
+[2024-05-28 11:51:03] INFO root fetch - processPackages [pyspextools]: executing diffoscope
+[2024-05-28 11:51:03] INFO root fetch - processPackages [pyspextools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyspextools-0.6.0.tar.gz tmp/pyspextools-0.6.1.tar.gz --markdown 20240528/p/pyspextools/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-05-28 11:51:03] INFO root fetch - processPackages [fathom-global-client-sdk]: Downloading https://files.pythonhosted.org/packages/9b/dc/a6edaa4e6459451f519f1c2e11964b81eecb29f68f02b23384b6035605a6/fathom_global_client_sdk-0.9.0-py3-none-any.whl
+[2024-05-28 11:51:03] INFO root fetch - processPackages [fathom-global-client-sdk]: executing diffoscope
+[2024-05-28 11:51:03] INFO root fetch - processPackages [fathom-global-client-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fathom_global_client_sdk-0.8.0-py3-none-any.whl.zip tmp/fathom_global_client_sdk-0.9.0-py3-none-any.whl.zip --markdown 20240528/f/fathom-global-client-sdk/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-28 11:51:03] INFO root fetch - processPackages [org-ds-cdk]: Remove: archive file [/home/abi/fetcher/tmp/org-ds-cdk-0.1.8.tar.gz]
+[2024-05-28 11:51:03] INFO root fetch - processPackages [org-ds-cdk]: Remove: archive file [/home/abi/fetcher/tmp/org-ds-cdk-0.1.9.tar.gz]
+[2024-05-28 11:51:03] INFO root fetch - main [MainThread]: End processing [org-ds-cdk]: success
+[2024-05-28 11:51:03] INFO root fetch - processPackages [mia-vgg]: Remove: archive file [/home/abi/fetcher/tmp/mia_vgg-0.0.8.tar.gz]
+[2024-05-28 11:51:03] INFO root fetch - processPackages [mia-vgg]: Remove: archive file [/home/abi/fetcher/tmp/mia_vgg-0.0.9.tar.gz]
+[2024-05-28 11:51:03] INFO root fetch - main [MainThread]: End processing [mia-vgg]: success
+[2024-05-28 11:51:03] INFO root fetch - processPackages [pyspextools]: Remove: archive file [/home/abi/fetcher/tmp/pyspextools-0.6.0.tar.gz]
+[2024-05-28 11:51:03] INFO root fetch - processPackages [pyspextools]: Remove: archive file [/home/abi/fetcher/tmp/pyspextools-0.6.1.tar.gz]
+[2024-05-28 11:51:03] INFO root fetch - main [MainThread]: End processing [pyspextools]: success
+[2024-05-28 11:51:04] INFO root fetch - processPackages [fathom-global-client-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fathom_global_client_sdk-0.8.0-py3-none-any.whl.zip]
+[2024-05-28 11:51:04] INFO root fetch - processPackages [fathom-global-client-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fathom_global_client_sdk-0.9.0-py3-none-any.whl.zip]
+[2024-05-28 11:51:04] INFO root fetch - main [MainThread]: End processing [fathom-global-client-sdk]: success
+[2024-05-28 11:51:04] INFO root fetch - main [MainThread]: Store serial: [23409102]
