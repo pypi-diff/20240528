@@ -16586,3 +16586,27 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 12:59:10] INFO root fetch - processPackages [gdm-concordia]: Remove: archive file [/home/abi/fetcher/tmp/gdm-concordia-1.5.0.tar.gz]
 [2024-05-28 12:59:10] INFO root fetch - main [MainThread]: End processing [gdm-concordia]: success
 [2024-05-28 12:59:10] INFO root fetch - main [MainThread]: Store serial: [23409900]
+[2024-05-28 13:01:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23409900]
+[2024-05-28 13:01:22] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-28 13:01:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mcptool
+[2024-05-28 13:01:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dcicutils
+[2024-05-28 13:01:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trace-attributes
+[2024-05-28 13:01:22] INFO root fetch - processPackages [dcicutils]: New version: [8.9.0.0b0] Old Version: [8.8.6.1b8]
+[2024-05-28 13:01:22] WARNING root fetch - processPackages [mcptool]: Skipping, unable to determine old version
+[2024-05-28 13:01:22] INFO root fetch - main [MainThread]: End processing [mcptool] error
+[2024-05-28 13:01:22] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/1f/9d/6bc6ec8cb9a509132abc6a2d6ba9badcc617468fe719f3a4ad74592ba472/dcicutils-8.8.6.1b8.tar.gz
+[2024-05-28 13:01:22] INFO root fetch - processPackages [trace-attributes]: New version: [4.0.2] Old Version: [4.0.1]
+[2024-05-28 13:01:22] INFO root fetch - processPackages [trace-attributes]: Downloading https://files.pythonhosted.org/packages/92/37/4c9d7ec231efd5dca81604d953346f540114e50abc252b46be58bab58d66/trace_attributes-4.0.1.tar.gz
+[2024-05-28 13:01:22] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/5b/de/ac87d1c9583f507046be7724343035a3e363814633eea93612ca13f3adba/dcicutils-8.9.0.0b0.tar.gz
+[2024-05-28 13:01:22] INFO root fetch - processPackages [dcicutils]: executing diffoscope
+[2024-05-28 13:01:22] INFO root fetch - processPackages [dcicutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicutils-8.8.6.1b8.tar.gz tmp/dcicutils-8.9.0.0b0.tar.gz --markdown 20240528/d/dcicutils/8.8.6.1b8-8.9.0.0b0/README.md --exclude *.pyd
+[2024-05-28 13:01:22] INFO root fetch - processPackages [trace-attributes]: Downloading https://files.pythonhosted.org/packages/b2/9a/bc5e2db6c1f3ac6e6308ef62d1c354c4d7611c38a0c8eef6a7bcc1ed927a/trace_attributes-4.0.2.tar.gz
+[2024-05-28 13:01:23] INFO root fetch - processPackages [trace-attributes]: executing diffoscope
+[2024-05-28 13:01:23] INFO root fetch - processPackages [trace-attributes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trace_attributes-4.0.1.tar.gz tmp/trace_attributes-4.0.2.tar.gz --markdown 20240528/t/trace-attributes/4.0.1-4.0.2/README.md --exclude *.pyd
+[2024-05-28 13:01:23] INFO root fetch - processPackages [trace-attributes]: Remove: archive file [/home/abi/fetcher/tmp/trace_attributes-4.0.1.tar.gz]
+[2024-05-28 13:01:23] INFO root fetch - processPackages [trace-attributes]: Remove: archive file [/home/abi/fetcher/tmp/trace_attributes-4.0.2.tar.gz]
+[2024-05-28 13:01:23] INFO root fetch - main [MainThread]: End processing [trace-attributes]: success
+[2024-05-28 13:01:23] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.8.6.1b8.tar.gz]
+[2024-05-28 13:01:23] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.9.0.0b0.tar.gz]
+[2024-05-28 13:01:23] INFO root fetch - main [MainThread]: End processing [dcicutils]: success
+[2024-05-28 13:01:23] INFO root fetch - main [MainThread]: Store serial: [23409920]
