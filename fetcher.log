@@ -24108,3 +24108,195 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 17:04:33] INFO root fetch - processPackages [consoleiotools]: Remove: archive file [/home/abi/fetcher/tmp/consoleiotools-4.6.7.tar.gz]
 [2024-05-28 17:04:33] INFO root fetch - main [MainThread]: End processing [consoleiotools]: success
 [2024-05-28 17:04:33] INFO root fetch - main [MainThread]: Store serial: [23413568]
+[2024-05-28 17:06:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23413568]
+[2024-05-28 17:06:41] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2024-05-28 17:06:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: windmill-api
+[2024-05-28 17:06:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wmill
+[2024-05-28 17:06:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wmill-pg
+[2024-05-28 17:06:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: myfans-client
+[2024-05-28 17:06:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py-rattler
+[2024-05-28 17:06:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nomad-material-processing
+[2024-05-28 17:06:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autopep8
+[2024-05-28 17:06:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hardwario-common
+[2024-05-28 17:06:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: clvm-tools-rs
+[2024-05-28 17:06:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-stock-picking-auto-create-lot
+[2024-05-28 17:06:42] INFO root fetch - processPackages [autopep8]: New version: [2.1.1] Old Version: [2.1.0]
+[2024-05-28 17:06:42] INFO root fetch - processPackages [windmill-api]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-05-28 17:06:42] INFO root fetch - processPackages [wmill-pg]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-05-28 17:06:42] INFO root fetch - processPackages [nomad-material-processing]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-28 17:06:42] INFO root fetch - processPackages [wmill]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-05-28 17:06:42] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/a1/22/f7655b5ea090afc59651b874c61bf7bea4694e3fa9720a46058fa34c71ef/wmill_pg-1.98.0.tar.gz
+[2024-05-28 17:06:42] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/bd/de/5d29ca258adee967295dbf926ab306c480527c234336f0725d4c2bc1d718/windmill_api-1.98.0.tar.gz
+[2024-05-28 17:06:42] INFO root fetch - processPackages [myfans-client]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-28 17:06:42] INFO root fetch - processPackages [clvm-tools-rs]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-28 17:06:42] INFO root fetch - processPackages [hardwario-common]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-28 17:06:42] INFO root fetch - processPackages [odoo-addon-stock-picking-auto-create-lot]: New version: [16.0.1.0.1] Old Version: [16.0.1.0.0.9]
+[2024-05-28 17:06:42] INFO root fetch - processPackages [py-rattler]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-05-28 17:06:42] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/6d/91/6b6052c80b8d367e051cc2905d1d921bf9a11f63e27a0f802b5c1277aa20/wmill-1.98.0.tar.gz
+[2024-05-28 17:06:42] INFO root fetch - processPackages [nomad-material-processing]: Downloading https://files.pythonhosted.org/packages/eb/85/c4ec28dab23526b803cc8760d79dd894fa55afe27fa02e096db056635d00/nomad-material-processing-0.0.7.tar.gz
+[2024-05-28 17:06:42] INFO root fetch - processPackages [autopep8]: Downloading https://files.pythonhosted.org/packages/4a/65/d187da76e65c358654a1bcdc4cbeb85767433e1e3eb67c473482301f2416/autopep8-2.1.0.tar.gz
+[2024-05-28 17:06:42] INFO root fetch - processPackages [myfans-client]: Downloading https://files.pythonhosted.org/packages/7b/81/c1e9ff1d05189b4f085d025717a65f65cf36f669801da04e4f8ecb9c36e7/myfans_client-0.0.2.tar.gz
+[2024-05-28 17:06:42] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/26/ac/296bc5f7193d111c826ef99b60bf75fe1605158a73d728a5fad8aa771331/wmill_pg-1.99.0.tar.gz
+[2024-05-28 17:06:42] INFO root fetch - processPackages [clvm-tools-rs]: Downloading https://files.pythonhosted.org/packages/38/80/25c677d096f069dfef39bf142e51981573fc3c10bdd85ab94c4ff86313aa/clvm_tools_rs-0.1.8-cp37-abi3-win_amd64.whl
+[2024-05-28 17:06:42] INFO root fetch - processPackages [odoo-addon-stock-picking-auto-create-lot]: Downloading https://files.pythonhosted.org/packages/c1/28/bc783fe43095766f4867c5e23fe6af2f479fb2ed659c44341e3cb0ca7ba4/odoo_addon_stock_picking_auto_create_lot-16.0.1.0.0.9-py3-none-any.whl
+[2024-05-28 17:06:42] INFO root fetch - processPackages [hardwario-common]: Downloading https://files.pythonhosted.org/packages/2d/8c/47cd7b4d79979e67c61843c3959a302b93f9e616ce5001dfc2b4fbaaa1ab/hardwario_common-1.8.0.tar.gz
+[2024-05-28 17:06:42] INFO root fetch - processPackages [py-rattler]: Downloading https://files.pythonhosted.org/packages/3e/c2/3e2f012bc90fe9eb3849ae50b814137266013a0fa8dd0ce4b6dbe88f1305/py_rattler-0.6.0.tar.gz
+[2024-05-28 17:06:42] INFO root fetch - processPackages [nomad-material-processing]: Downloading https://files.pythonhosted.org/packages/4d/56/e0e02e5507b25ab9f0f2cc0f91d9c313950a4064c5272b1e19fab1cf9eef/nomad_material_processing-0.0.8.tar.gz
+[2024-05-28 17:06:42] INFO root fetch - processPackages [wmill-pg]: executing diffoscope
+[2024-05-28 17:06:42] INFO root fetch - processPackages [wmill-pg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill_pg-1.98.0.tar.gz tmp/wmill_pg-1.99.0.tar.gz --markdown 20240528/w/wmill-pg/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-05-28 17:06:42] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/32/94/9431b41ce6b9c2670fbc125624f7ebc3d186482c80c271e3d7acde511319/windmill_api-1.99.0.tar.gz
+[2024-05-28 17:06:42] INFO root fetch - processPackages [autopep8]: Downloading https://files.pythonhosted.org/packages/a3/66/d3f145d4cb4d240847207a409def85bbb2e11ef43fcfc3ddfcb75110910c/autopep8-2.1.1.tar.gz
+[2024-05-28 17:06:42] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/f1/d1/eb5b4c7d25f969fc3603441c8e90a5a8e00688be43ce0631166287977a65/wmill-1.99.0.tar.gz
+[2024-05-28 17:06:42] INFO root fetch - processPackages [nomad-material-processing]: executing diffoscope
+[2024-05-28 17:06:42] INFO root fetch - processPackages [nomad-material-processing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nomad-material-processing-0.0.7.tar.gz tmp/nomad_material_processing-0.0.8.tar.gz --markdown 20240528/n/nomad-material-processing/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-28 17:06:42] INFO root fetch - processPackages [windmill-api]: executing diffoscope
+[2024-05-28 17:06:42] INFO root fetch - processPackages [windmill-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windmill_api-1.98.0.tar.gz tmp/windmill_api-1.99.0.tar.gz --markdown 20240528/w/windmill-api/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-05-28 17:06:42] INFO root fetch - processPackages [wmill]: executing diffoscope
+[2024-05-28 17:06:42] INFO root fetch - processPackages [wmill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill-1.98.0.tar.gz tmp/wmill-1.99.0.tar.gz --markdown 20240528/w/wmill/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-05-28 17:06:43] INFO root fetch - processPackages [autopep8]: executing diffoscope
+[2024-05-28 17:06:43] INFO root fetch - processPackages [autopep8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopep8-2.1.0.tar.gz tmp/autopep8-2.1.1.tar.gz --markdown 20240528/a/autopep8/2.1.0-2.1.1/README.md --exclude *.pyd
+[2024-05-28 17:06:43] INFO root fetch - processPackages [hardwario-common]: Downloading https://files.pythonhosted.org/packages/cd/6f/93d4dd76b2395742bc148d7539f82e10687e38f7126eff1b45e0d8f36e3f/hardwario_common-1.9.0.tar.gz
+[2024-05-28 17:06:43] INFO root fetch - processPackages [odoo-addon-stock-picking-auto-create-lot]: Downloading https://files.pythonhosted.org/packages/ec/a9/fb3ce41276a2f668dd13d3fe63f0427b8cc0cbe2c959593eb194630047b3/odoo_addon_stock_picking_auto_create_lot-16.0.1.0.1-py3-none-any.whl
+[2024-05-28 17:06:43] INFO root fetch - processPackages [myfans-client]: Downloading https://files.pythonhosted.org/packages/ee/9e/1584cfea3e8a644c5e1184f68c6cf5ee5507898ea8df908e3166a98c7575/myfans_client-0.0.3.tar.gz
+[2024-05-28 17:06:43] INFO root fetch - processPackages [hardwario-common]: executing diffoscope
+[2024-05-28 17:06:43] INFO root fetch - processPackages [hardwario-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hardwario_common-1.8.0.tar.gz tmp/hardwario_common-1.9.0.tar.gz --markdown 20240528/h/hardwario-common/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-28 17:06:43] INFO root fetch - processPackages [odoo-addon-stock-picking-auto-create-lot]: executing diffoscope
+[2024-05-28 17:06:43] INFO root fetch - processPackages [odoo-addon-stock-picking-auto-create-lot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_picking_auto_create_lot-16.0.1.0.0.9-py3-none-any.whl.zip tmp/odoo_addon_stock_picking_auto_create_lot-16.0.1.0.1-py3-none-any.whl.zip --markdown 20240528/o/odoo-addon-stock-picking-auto-create-lot/16.0.1.0.0.9-16.0.1.0.1/README.md --exclude *.pyd
+[2024-05-28 17:06:43] INFO root fetch - processPackages [myfans-client]: executing diffoscope
+[2024-05-28 17:06:43] INFO root fetch - processPackages [myfans-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myfans_client-0.0.2.tar.gz tmp/myfans_client-0.0.3.tar.gz --markdown 20240528/m/myfans-client/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-28 17:06:43] INFO root fetch - processPackages [clvm-tools-rs]: Downloading https://files.pythonhosted.org/packages/73/ba/94a5717bd4b68c38b422a6e11ac1c939ff40489b6339a5bd164750beb150/clvm_tools_rs-0.1.9-cp37-abi3-win_amd64.whl
+[2024-05-28 17:06:43] INFO root fetch - processPackages [py-rattler]: Downloading https://files.pythonhosted.org/packages/8f/3f/a52f4051e0532739b9e83e431541f2c1d29beb3244815a7ea3b28bec38e6/py_rattler-0.6.1.tar.gz
+[2024-05-28 17:06:43] INFO root fetch - processPackages [clvm-tools-rs]: executing diffoscope
+[2024-05-28 17:06:43] INFO root fetch - processPackages [clvm-tools-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clvm_tools_rs-0.1.8-cp37-abi3-win_amd64.whl.zip tmp/clvm_tools_rs-0.1.9-cp37-abi3-win_amd64.whl.zip --markdown 20240528/c/clvm-tools-rs/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-28 17:06:43] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.98.0.tar.gz]
+[2024-05-28 17:06:43] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.99.0.tar.gz]
+[2024-05-28 17:06:43] INFO root fetch - processPackages [wmill-pg]: Start processing: cdklabs.cdk-enterprise-iac
+[2024-05-28 17:06:43] INFO root fetch - main [MainThread]: End processing [wmill-pg]: success
+[2024-05-28 17:06:43] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-28 17:06:43] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Downloading https://files.pythonhosted.org/packages/26/1b/2d98082d5a50de544ac5b0df408479fcedd8e3cbc7361e0cb0e9f362a0af/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz
+[2024-05-28 17:06:43] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.98.0.tar.gz]
+[2024-05-28 17:06:43] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.99.0.tar.gz]
+[2024-05-28 17:06:43] INFO root fetch - processPackages [wmill]: Start processing: consolecmdtools
+[2024-05-28 17:06:43] INFO root fetch - main [MainThread]: End processing [wmill]: success
+[2024-05-28 17:06:43] INFO root fetch - processPackages [py-rattler]: executing diffoscope
+[2024-05-28 17:06:43] INFO root fetch - processPackages [py-rattler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_rattler-0.6.0.tar.gz tmp/py_rattler-0.6.1.tar.gz --markdown 20240528/p/py-rattler/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-05-28 17:06:43] INFO root fetch - processPackages [consolecmdtools]: New version: [6.4.2] Old Version: [6.4.0]
+[2024-05-28 17:06:43] INFO root fetch - processPackages [nomad-material-processing]: Remove: archive file [/home/abi/fetcher/tmp/nomad-material-processing-0.0.7.tar.gz]
+[2024-05-28 17:06:43] INFO root fetch - processPackages [nomad-material-processing]: Remove: archive file [/home/abi/fetcher/tmp/nomad_material_processing-0.0.8.tar.gz]
+[2024-05-28 17:06:43] INFO root fetch - processPackages [nomad-material-processing]: Start processing: addereq
+[2024-05-28 17:06:43] INFO root fetch - main [MainThread]: End processing [nomad-material-processing]: success
+[2024-05-28 17:06:43] INFO root fetch - processPackages [addereq]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-28 17:06:43] INFO root fetch - processPackages [autopep8]: Remove: archive file [/home/abi/fetcher/tmp/autopep8-2.1.0.tar.gz]
+[2024-05-28 17:06:43] INFO root fetch - processPackages [autopep8]: Remove: archive file [/home/abi/fetcher/tmp/autopep8-2.1.1.tar.gz]
+[2024-05-28 17:06:43] INFO root fetch - processPackages [autopep8]: Start processing: datawarehouse-connector
+[2024-05-28 17:06:43] INFO root fetch - main [MainThread]: End processing [autopep8]: success
+[2024-05-28 17:06:44] INFO root fetch - processPackages [hardwario-common]: Remove: archive file [/home/abi/fetcher/tmp/hardwario_common-1.8.0.tar.gz]
+[2024-05-28 17:06:44] INFO root fetch - processPackages [hardwario-common]: Remove: archive file [/home/abi/fetcher/tmp/hardwario_common-1.9.0.tar.gz]
+[2024-05-28 17:06:44] INFO root fetch - processPackages [hardwario-common]: Start processing: odoo14-addon-community-maps
+[2024-05-28 17:06:44] INFO root fetch - main [MainThread]: End processing [hardwario-common]: success
+[2024-05-28 17:06:44] INFO root fetch - processPackages [addereq]: Downloading https://files.pythonhosted.org/packages/93/24/78053903723f9baa01dd5f8b1e7c546718960946bfb1b9c4ea48fc9ee1a6/addereq-1.0.8-cp39-cp39-win_amd64.whl
+[2024-05-28 17:06:44] INFO root fetch - processPackages [consolecmdtools]: Downloading https://files.pythonhosted.org/packages/1f/22/505d8389c22c46c0b61aefcf2c871f41f3c6404e9b88873a3b82fc6b2d9e/consolecmdtools-6.4.0.tar.gz
+[2024-05-28 17:06:44] INFO root fetch - processPackages [datawarehouse-connector]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-28 17:06:44] INFO root fetch - processPackages [odoo14-addon-community-maps]: New version: [14.0.0.2.6] Old Version: [14.0.0.2.5]
+[2024-05-28 17:06:44] INFO root fetch - processPackages [odoo-addon-stock-picking-auto-create-lot]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_auto_create_lot-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2024-05-28 17:06:44] INFO root fetch - processPackages [myfans-client]: Remove: archive file [/home/abi/fetcher/tmp/myfans_client-0.0.2.tar.gz]
+[2024-05-28 17:06:44] INFO root fetch - processPackages [odoo-addon-stock-picking-auto-create-lot]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_auto_create_lot-16.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-28 17:06:44] INFO root fetch - processPackages [myfans-client]: Remove: archive file [/home/abi/fetcher/tmp/myfans_client-0.0.3.tar.gz]
+[2024-05-28 17:06:44] INFO root fetch - processPackages [myfans-client]: Start processing: duplicate-recognition
+[2024-05-28 17:06:44] INFO root fetch - processPackages [odoo-addon-stock-picking-auto-create-lot]: Start processing: fasta-checksum-utils
+[2024-05-28 17:06:44] INFO root fetch - main [MainThread]: End processing [myfans-client]: success
+[2024-05-28 17:06:44] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-picking-auto-create-lot]: success
+[2024-05-28 17:06:44] INFO root fetch - processPackages [clvm-tools-rs]: Remove: archive file [/home/abi/fetcher/tmp/clvm_tools_rs-0.1.8-cp37-abi3-win_amd64.whl.zip]
+[2024-05-28 17:06:44] INFO root fetch - processPackages [clvm-tools-rs]: Remove: archive file [/home/abi/fetcher/tmp/clvm_tools_rs-0.1.9-cp37-abi3-win_amd64.whl.zip]
+[2024-05-28 17:06:44] INFO root fetch - processPackages [clvm-tools-rs]: Start processing: OpenGeode-Geosciences
+[2024-05-28 17:06:44] INFO root fetch - main [MainThread]: End processing [clvm-tools-rs]: success
+[2024-05-28 17:06:44] INFO root fetch - processPackages [duplicate-recognition]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-28 17:06:44] INFO root fetch - processPackages [fasta-checksum-utils]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-05-28 17:06:44] INFO root fetch - processPackages [datawarehouse-connector]: Downloading https://files.pythonhosted.org/packages/e1/45/7d61d0faed84f4bc7fa505abf5ac55cab615f78153dda122638df910929f/datawarehouse_connector-0.1.2.tar.gz
+[2024-05-28 17:06:44] INFO root fetch - processPackages [OpenGeode-Geosciences]: New version: [7.7.0rc1] Old Version: [7.6.4rc1]
+[2024-05-28 17:06:44] INFO root fetch - processPackages [addereq]: Downloading https://files.pythonhosted.org/packages/7f/96/8e62126d96c473962e3fd55a3fedf7022686fc0cf7121d02c4256e0ba8f1/addereq-1.0.9-cp39-cp39-win_amd64.whl
+[2024-05-28 17:06:44] INFO root fetch - processPackages [odoo14-addon-community-maps]: Downloading https://files.pythonhosted.org/packages/ec/9f/7cdbe579cca5d30bbd2ff017dd73ad5fd957741f488857d830c9a92ac1bd/odoo14-addon-community_maps-14.0.0.2.5.tar.gz
+[2024-05-28 17:06:44] INFO root fetch - processPackages [consolecmdtools]: Downloading https://files.pythonhosted.org/packages/42/11/f1b88ad965e90fc1da650ab98a2116210d96e725bbe155ca8000f5a5abc9/consolecmdtools-6.4.2.tar.gz
+[2024-05-28 17:06:44] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Downloading https://files.pythonhosted.org/packages/68/b7/1bc76974269d07601c13aaa5489dbaf5bfced52da0839a380231163281b2/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz
+[2024-05-28 17:06:44] INFO root fetch - processPackages [fasta-checksum-utils]: Downloading https://files.pythonhosted.org/packages/62/0c/000c33f3217f10bb492a40c551bea170c0affbbc2786e31690398fd84cf6/fasta_checksum_utils-0.4.1.tar.gz
+[2024-05-28 17:06:44] INFO root fetch - processPackages [duplicate-recognition]: Downloading https://files.pythonhosted.org/packages/fb/d6/d87a925590a1e5c0f1820b9dbe094ebd65d803bd73538c09efa732959b80/duplicate_recognition-0.0.8-py3-none-any.whl
+[2024-05-28 17:06:44] INFO root fetch - processPackages [addereq]: executing diffoscope
+[2024-05-28 17:06:44] INFO root fetch - processPackages [addereq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/addereq-1.0.8-cp39-cp39-win_amd64.whl.zip tmp/addereq-1.0.9-cp39-cp39-win_amd64.whl.zip --markdown 20240528/a/addereq/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-28 17:06:44] INFO root fetch - processPackages [OpenGeode-Geosciences]: Downloading https://files.pythonhosted.org/packages/4b/c9/3e217bf5035940bf7e2cad0d79f565e3169035a33125e5b9b0fd510ca631/OpenGeode_Geosciences-7.6.4rc1-cp39-cp39-win_amd64.whl
+[2024-05-28 17:06:44] INFO root fetch - processPackages [datawarehouse-connector]: Downloading https://files.pythonhosted.org/packages/d3/9c/1b902ac9b9293a838459efd7a352470761822d03603f317f9ba24fb0733b/datawarehouse_connector-0.1.3.tar.gz
+[2024-05-28 17:06:44] INFO root fetch - processPackages [consolecmdtools]: executing diffoscope
+[2024-05-28 17:06:44] INFO root fetch - processPackages [consolecmdtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/consolecmdtools-6.4.0.tar.gz tmp/consolecmdtools-6.4.2.tar.gz --markdown 20240528/c/consolecmdtools/6.4.0-6.4.2/README.md --exclude *.pyd
+[2024-05-28 17:06:44] INFO root fetch - processPackages [odoo14-addon-community-maps]: Downloading https://files.pythonhosted.org/packages/0a/f5/62c6a1064c71ab193c52d059e30da9d62f34ac368abb885e7b20a5cdb9ff/odoo14-addon-community_maps-14.0.0.2.6.tar.gz
+[2024-05-28 17:06:44] INFO root fetch - processPackages [datawarehouse-connector]: executing diffoscope
+[2024-05-28 17:06:44] INFO root fetch - processPackages [datawarehouse-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datawarehouse_connector-0.1.2.tar.gz tmp/datawarehouse_connector-0.1.3.tar.gz --markdown 20240528/d/datawarehouse-connector/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-28 17:06:44] INFO root fetch - processPackages [fasta-checksum-utils]: Downloading https://files.pythonhosted.org/packages/f1/62/4ce7fbe24a7f8b578fb3f5a2757c61ff86f62c2fbc4494db99fe8b5a84a0/fasta_checksum_utils-0.4.2.tar.gz
+[2024-05-28 17:06:44] INFO root fetch - processPackages [duplicate-recognition]: Downloading https://files.pythonhosted.org/packages/92/96/42328702a6946afefe418d259b77a23f23c7dfe6c484cd0744b949f6054a/duplicate_recognition-0.0.9-py3-none-any.whl
+[2024-05-28 17:06:45] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: executing diffoscope
+[2024-05-28 17:06:45] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz tmp/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz --markdown 20240528/c/cdklabs.cdk-enterprise-iac/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-28 17:06:45] INFO root fetch - processPackages [odoo14-addon-community-maps]: executing diffoscope
+[2024-05-28 17:06:45] INFO root fetch - processPackages [odoo14-addon-community-maps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14-addon-community_maps-14.0.0.2.5.tar.gz tmp/odoo14-addon-community_maps-14.0.0.2.6.tar.gz --markdown 20240528/o/odoo14-addon-community-maps/14.0.0.2.5-14.0.0.2.6/README.md --exclude *.pyd
+[2024-05-28 17:06:45] INFO root fetch - processPackages [OpenGeode-Geosciences]: Downloading https://files.pythonhosted.org/packages/70/ed/7f8cbbb4a3b689475b59a4dfea731849a99f97ef5fd97d5a2e20458daa75/OpenGeode_Geosciences-7.7.0rc1-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-28 17:06:45] INFO root fetch - processPackages [duplicate-recognition]: executing diffoscope
+[2024-05-28 17:06:45] INFO root fetch - processPackages [duplicate-recognition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duplicate_recognition-0.0.8-py3-none-any.whl.zip tmp/duplicate_recognition-0.0.9-py3-none-any.whl.zip --markdown 20240528/d/duplicate-recognition/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-28 17:06:45] INFO root fetch - processPackages [fasta-checksum-utils]: executing diffoscope
+[2024-05-28 17:06:45] INFO root fetch - processPackages [fasta-checksum-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fasta_checksum_utils-0.4.1.tar.gz tmp/fasta_checksum_utils-0.4.2.tar.gz --markdown 20240528/f/fasta-checksum-utils/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-05-28 17:06:45] INFO root fetch - processPackages [OpenGeode-Geosciences]: executing diffoscope
+[2024-05-28 17:06:45] INFO root fetch - processPackages [OpenGeode-Geosciences]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenGeode_Geosciences-7.6.4rc1-cp39-cp39-win_amd64.whl.zip tmp/OpenGeode_Geosciences-7.7.0rc1-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20240528/O/OpenGeode-Geosciences/7.6.4rc1-7.7.0rc1/README.md --exclude *.pyd
+[2024-05-28 17:06:45] INFO root fetch - processPackages [addereq]: Remove: archive file [/home/abi/fetcher/tmp/addereq-1.0.8-cp39-cp39-win_amd64.whl.zip]
+[2024-05-28 17:06:45] INFO root fetch - processPackages [addereq]: Remove: archive file [/home/abi/fetcher/tmp/addereq-1.0.9-cp39-cp39-win_amd64.whl.zip]
+[2024-05-28 17:06:45] INFO root fetch - processPackages [addereq]: Start processing: metallicious
+[2024-05-28 17:06:45] INFO root fetch - main [MainThread]: End processing [addereq]: success
+[2024-05-28 17:06:45] INFO root fetch - processPackages [metallicious]: New version: [0.2.29] Old Version: [0.2.28]
+[2024-05-28 17:06:45] INFO root fetch - processPackages [consolecmdtools]: Remove: archive file [/home/abi/fetcher/tmp/consolecmdtools-6.4.0.tar.gz]
+[2024-05-28 17:06:45] INFO root fetch - processPackages [consolecmdtools]: Remove: archive file [/home/abi/fetcher/tmp/consolecmdtools-6.4.2.tar.gz]
+[2024-05-28 17:06:45] INFO root fetch - processPackages [consolecmdtools]: Start processing: cellworld-game
+[2024-05-28 17:06:45] INFO root fetch - main [MainThread]: End processing [consolecmdtools]: success
+[2024-05-28 17:06:45] INFO root fetch - processPackages [metallicious]: Downloading https://files.pythonhosted.org/packages/b0/39/0b70167c1be93da1d66eeecc1c85b85973ce4c1b17ed6cc54219e6ca4dbd/metallicious-0.2.28-py3-none-any.whl
+[2024-05-28 17:06:45] INFO root fetch - processPackages [datawarehouse-connector]: Remove: archive file [/home/abi/fetcher/tmp/datawarehouse_connector-0.1.2.tar.gz]
+[2024-05-28 17:06:45] INFO root fetch - processPackages [datawarehouse-connector]: Remove: archive file [/home/abi/fetcher/tmp/datawarehouse_connector-0.1.3.tar.gz]
+[2024-05-28 17:06:45] INFO root fetch - processPackages [datawarehouse-connector]: Start processing: BarteSDK
+[2024-05-28 17:06:45] INFO root fetch - main [MainThread]: End processing [datawarehouse-connector]: success
+[2024-05-28 17:06:45] INFO root fetch - processPackages [cellworld-game]: New version: [0.0.92] Old Version: [0.0.76]
+[2024-05-28 17:06:45] INFO root fetch - processPackages [duplicate-recognition]: Remove: archive file [/home/abi/fetcher/tmp/duplicate_recognition-0.0.8-py3-none-any.whl.zip]
+[2024-05-28 17:06:45] INFO root fetch - processPackages [duplicate-recognition]: Remove: archive file [/home/abi/fetcher/tmp/duplicate_recognition-0.0.9-py3-none-any.whl.zip]
+[2024-05-28 17:06:45] INFO root fetch - main [MainThread]: End processing [duplicate-recognition]: success
+[2024-05-28 17:06:45] INFO root fetch - processPackages [BarteSDK]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-28 17:06:46] INFO root fetch - processPackages [cellworld-game]: Downloading https://files.pythonhosted.org/packages/0d/3b/5e7dd07cad414fc31810d46e3444e4bfa3ba4a0401c0c56af488cb57a3f2/cellworld_game-0.0.76.tar.gz
+[2024-05-28 17:06:46] INFO root fetch - processPackages [BarteSDK]: Downloading https://files.pythonhosted.org/packages/1c/24/f265a111f10a855a327643e87273d1f3ba56190ad02e0175f3b5b6319e4c/bartesdk-0.1.8.tar.gz
+[2024-05-28 17:06:46] INFO root fetch - processPackages [odoo14-addon-community-maps]: Remove: archive file [/home/abi/fetcher/tmp/odoo14-addon-community_maps-14.0.0.2.5.tar.gz]
+[2024-05-28 17:06:46] INFO root fetch - processPackages [odoo14-addon-community-maps]: Remove: archive file [/home/abi/fetcher/tmp/odoo14-addon-community_maps-14.0.0.2.6.tar.gz]
+[2024-05-28 17:06:46] INFO root fetch - main [MainThread]: End processing [odoo14-addon-community-maps]: success
+[2024-05-28 17:06:46] INFO root fetch - processPackages [fasta-checksum-utils]: Remove: archive file [/home/abi/fetcher/tmp/fasta_checksum_utils-0.4.1.tar.gz]
+[2024-05-28 17:06:46] INFO root fetch - processPackages [fasta-checksum-utils]: Remove: archive file [/home/abi/fetcher/tmp/fasta_checksum_utils-0.4.2.tar.gz]
+[2024-05-28 17:06:46] INFO root fetch - main [MainThread]: End processing [fasta-checksum-utils]: success
+[2024-05-28 17:06:46] INFO root fetch - processPackages [metallicious]: Downloading https://files.pythonhosted.org/packages/19/35/e4a6eed6c7c41d0d044ac1e20c26c56f731264f1144ffa937c0a20e0452d/metallicious-0.2.29-py3-none-any.whl
+[2024-05-28 17:06:46] INFO root fetch - processPackages [OpenGeode-Geosciences]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_Geosciences-7.6.4rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-28 17:06:46] INFO root fetch - processPackages [OpenGeode-Geosciences]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_Geosciences-7.7.0rc1-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-05-28 17:06:46] INFO root fetch - main [MainThread]: End processing [OpenGeode-Geosciences]: success
+[2024-05-28 17:06:46] INFO root fetch - processPackages [cellworld-game]: Downloading https://files.pythonhosted.org/packages/a9/2e/c109efead9f58b6b8179c498d0fa9c53961b7502f34215a73c8b45eb4961/cellworld_game-0.0.92.tar.gz
+[2024-05-28 17:06:46] INFO root fetch - processPackages [BarteSDK]: Downloading https://files.pythonhosted.org/packages/15/ee/a85c9e9d9f84f12e1c3ab4801827286e3ad5588e1683d13c5130caaa29f2/bartesdk-0.1.9.tar.gz
+[2024-05-28 17:06:46] INFO root fetch - processPackages [BarteSDK]: executing diffoscope
+[2024-05-28 17:06:46] INFO root fetch - processPackages [BarteSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bartesdk-0.1.8.tar.gz tmp/bartesdk-0.1.9.tar.gz --markdown 20240528/B/BarteSDK/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-28 17:06:46] INFO root fetch - processPackages [cellworld-game]: executing diffoscope
+[2024-05-28 17:06:46] INFO root fetch - processPackages [cellworld-game]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellworld_game-0.0.76.tar.gz tmp/cellworld_game-0.0.92.tar.gz --markdown 20240528/c/cellworld-game/0.0.76-0.0.92/README.md --exclude *.pyd
+[2024-05-28 17:06:46] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz]
+[2024-05-28 17:06:46] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz]
+[2024-05-28 17:06:46] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-enterprise-iac]: success
+[2024-05-28 17:06:46] INFO root fetch - processPackages [metallicious]: executing diffoscope
+[2024-05-28 17:06:46] INFO root fetch - processPackages [metallicious]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metallicious-0.2.28-py3-none-any.whl.zip tmp/metallicious-0.2.29-py3-none-any.whl.zip --markdown 20240528/m/metallicious/0.2.28-0.2.29/README.md --exclude *.pyd
+[2024-05-28 17:06:47] INFO root fetch - processPackages [BarteSDK]: Remove: archive file [/home/abi/fetcher/tmp/bartesdk-0.1.8.tar.gz]
+[2024-05-28 17:06:47] INFO root fetch - processPackages [BarteSDK]: Remove: archive file [/home/abi/fetcher/tmp/bartesdk-0.1.9.tar.gz]
+[2024-05-28 17:06:47] INFO root fetch - main [MainThread]: End processing [BarteSDK]: success
+[2024-05-28 17:06:47] INFO root fetch - processPackages [cellworld-game]: Remove: archive file [/home/abi/fetcher/tmp/cellworld_game-0.0.76.tar.gz]
+[2024-05-28 17:06:47] INFO root fetch - processPackages [cellworld-game]: Remove: archive file [/home/abi/fetcher/tmp/cellworld_game-0.0.92.tar.gz]
+[2024-05-28 17:06:47] INFO root fetch - main [MainThread]: End processing [cellworld-game]: success
+[2024-05-28 17:06:47] INFO root fetch - processPackages [py-rattler]: Remove: archive file [/home/abi/fetcher/tmp/py_rattler-0.6.0.tar.gz]
+[2024-05-28 17:06:47] INFO root fetch - processPackages [py-rattler]: Remove: archive file [/home/abi/fetcher/tmp/py_rattler-0.6.1.tar.gz]
+[2024-05-28 17:06:47] INFO root fetch - main [MainThread]: End processing [py-rattler]: success
+[2024-05-28 17:06:48] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.98.0.tar.gz]
+[2024-05-28 17:06:48] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
+[2024-05-28 17:06:48] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
+[2024-05-28 17:06:49] INFO root fetch - processPackages [metallicious]: Remove: archive file [/home/abi/fetcher/tmp/metallicious-0.2.28-py3-none-any.whl.zip]
+[2024-05-28 17:06:49] INFO root fetch - processPackages [metallicious]: Remove: archive file [/home/abi/fetcher/tmp/metallicious-0.2.29-py3-none-any.whl.zip]
+[2024-05-28 17:06:49] INFO root fetch - main [MainThread]: End processing [metallicious]: success
+[2024-05-28 17:06:49] INFO root fetch - main [MainThread]: Store serial: [23413648]
