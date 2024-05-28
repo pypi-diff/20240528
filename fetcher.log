@@ -3219,3 +3219,51 @@
 [2024-05-28 03:40:32] INFO root fetch - processPackages [stldim]: Remove: archive file [/home/abi/fetcher/tmp/stldim-0.2.0.tar.gz]
 [2024-05-28 03:40:32] INFO root fetch - main [MainThread]: End processing [stldim]: success
 [2024-05-28 03:40:32] INFO root fetch - main [MainThread]: Store serial: [23404121]
+[2024-05-28 03:42:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23404121]
+[2024-05-28 03:42:40] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-28 03:42:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: articraft
+[2024-05-28 03:42:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fms-robot-plugin
+[2024-05-28 03:42:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: slackattack
+[2024-05-28 03:42:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pr-pilot-cli
+[2024-05-28 03:42:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: seqlogic
+[2024-05-28 03:42:40] INFO root fetch - processPackages [slackattack]: New version: [1.1.8] Old Version: [1.0.8]
+[2024-05-28 03:42:40] INFO root fetch - processPackages [fms-robot-plugin]: New version: [0.3.0rc4] Old Version: [0.3.0rc3]
+[2024-05-28 03:42:40] INFO root fetch - processPackages [pr-pilot-cli]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-05-28 03:42:40] INFO root fetch - processPackages [articraft]: New version: [2.8.1] Old Version: [2.7.1]
+[2024-05-28 03:42:40] INFO root fetch - processPackages [seqlogic]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-28 03:42:40] INFO root fetch - processPackages [fms-robot-plugin]: Downloading https://files.pythonhosted.org/packages/3f/ad/b8793e069217ccad2551c6124125d5c90a8b2f62998caef02e95c7880d76/fms_robot_plugin-0.3.0rc3.tar.gz
+[2024-05-28 03:42:40] INFO root fetch - processPackages [pr-pilot-cli]: Downloading https://files.pythonhosted.org/packages/4e/91/2fed7b85d36c63efc5083805a218f25a91c824ad753f4338bb90b1c2d28e/pr_pilot_cli-1.1.0.tar.gz
+[2024-05-28 03:42:40] INFO root fetch - processPackages [articraft]: Downloading https://files.pythonhosted.org/packages/6a/3b/cbab94b8835457bd1786297e78e64fc690fbaeb4a418d88fba9a51ed9290/articraft-2.7.1.tar.gz
+[2024-05-28 03:42:40] INFO root fetch - processPackages [slackattack]: Downloading https://files.pythonhosted.org/packages/77/45/33028df165d208d12e1f5a3c42b30e189455b28b0161518d44150c0f9f2c/slackattack-1.0.8.tar.gz
+[2024-05-28 03:42:40] INFO root fetch - processPackages [fms-robot-plugin]: Downloading https://files.pythonhosted.org/packages/1f/75/dc6156b665aaea1619cc7eaee8321ff3a179c86a4f5917af84488103de7b/fms_robot_plugin-0.3.0rc4.tar.gz
+[2024-05-28 03:42:40] INFO root fetch - processPackages [seqlogic]: Downloading https://files.pythonhosted.org/packages/e2/99/5a2cd8d28bd206f783d1b8ac196cba1add1ea847e3f549082248d2ff8dfc/seqlogic-0.2.0.tar.gz
+[2024-05-28 03:42:40] INFO root fetch - processPackages [articraft]: Downloading https://files.pythonhosted.org/packages/4a/46/9314517d0294029f4bace17ae91b3647f7d6378c6995452eebcd6b7d01c6/articraft-2.8.1.tar.gz
+[2024-05-28 03:42:40] INFO root fetch - processPackages [pr-pilot-cli]: Downloading https://files.pythonhosted.org/packages/34/c2/c18879dc9af7aa56c2b1b0048f70345f9d49a537bcec139b3d21b0a62fe0/pr_pilot_cli-1.2.0.tar.gz
+[2024-05-28 03:42:40] INFO root fetch - processPackages [fms-robot-plugin]: executing diffoscope
+[2024-05-28 03:42:40] INFO root fetch - processPackages [fms-robot-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fms_robot_plugin-0.3.0rc3.tar.gz tmp/fms_robot_plugin-0.3.0rc4.tar.gz --markdown 20240528/f/fms-robot-plugin/0.3.0rc3-0.3.0rc4/README.md --exclude *.pyd
+[2024-05-28 03:42:41] INFO root fetch - processPackages [articraft]: executing diffoscope
+[2024-05-28 03:42:41] INFO root fetch - processPackages [articraft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/articraft-2.7.1.tar.gz tmp/articraft-2.8.1.tar.gz --markdown 20240528/a/articraft/2.7.1-2.8.1/README.md --exclude *.pyd
+[2024-05-28 03:42:41] INFO root fetch - processPackages [slackattack]: Downloading https://files.pythonhosted.org/packages/01/a3/9e6135a4203b0ed29436259851f5674bde2ea1c4f280e3f3f446369a88ab/slackattack-1.1.8.tar.gz
+[2024-05-28 03:42:41] INFO root fetch - processPackages [pr-pilot-cli]: executing diffoscope
+[2024-05-28 03:42:41] INFO root fetch - processPackages [pr-pilot-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pr_pilot_cli-1.1.0.tar.gz tmp/pr_pilot_cli-1.2.0.tar.gz --markdown 20240528/p/pr-pilot-cli/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-05-28 03:42:41] INFO root fetch - processPackages [slackattack]: executing diffoscope
+[2024-05-28 03:42:41] INFO root fetch - processPackages [slackattack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slackattack-1.0.8.tar.gz tmp/slackattack-1.1.8.tar.gz --markdown 20240528/s/slackattack/1.0.8-1.1.8/README.md --exclude *.pyd
+[2024-05-28 03:42:41] INFO root fetch - processPackages [seqlogic]: Downloading https://files.pythonhosted.org/packages/91/97/76864f61162900c31b5832186c5c8771ea9821433bc824e0f0c0f7363bb7/seqlogic-0.3.0.tar.gz
+[2024-05-28 03:42:41] INFO root fetch - processPackages [seqlogic]: executing diffoscope
+[2024-05-28 03:42:41] INFO root fetch - processPackages [seqlogic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqlogic-0.2.0.tar.gz tmp/seqlogic-0.3.0.tar.gz --markdown 20240528/s/seqlogic/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-28 03:42:41] INFO root fetch - processPackages [fms-robot-plugin]: Remove: archive file [/home/abi/fetcher/tmp/fms_robot_plugin-0.3.0rc3.tar.gz]
+[2024-05-28 03:42:41] INFO root fetch - processPackages [fms-robot-plugin]: Remove: archive file [/home/abi/fetcher/tmp/fms_robot_plugin-0.3.0rc4.tar.gz]
+[2024-05-28 03:42:41] INFO root fetch - main [MainThread]: End processing [fms-robot-plugin]: success
+[2024-05-28 03:42:41] INFO root fetch - processPackages [articraft]: Remove: archive file [/home/abi/fetcher/tmp/articraft-2.7.1.tar.gz]
+[2024-05-28 03:42:41] INFO root fetch - processPackages [articraft]: Remove: archive file [/home/abi/fetcher/tmp/articraft-2.8.1.tar.gz]
+[2024-05-28 03:42:41] INFO root fetch - main [MainThread]: End processing [articraft]: success
+[2024-05-28 03:42:41] INFO root fetch - processPackages [slackattack]: Remove: archive file [/home/abi/fetcher/tmp/slackattack-1.0.8.tar.gz]
+[2024-05-28 03:42:41] INFO root fetch - processPackages [slackattack]: Remove: archive file [/home/abi/fetcher/tmp/slackattack-1.1.8.tar.gz]
+[2024-05-28 03:42:41] INFO root fetch - main [MainThread]: End processing [slackattack]: success
+[2024-05-28 03:42:41] INFO root fetch - processPackages [pr-pilot-cli]: Remove: archive file [/home/abi/fetcher/tmp/pr_pilot_cli-1.1.0.tar.gz]
+[2024-05-28 03:42:41] INFO root fetch - processPackages [pr-pilot-cli]: Remove: archive file [/home/abi/fetcher/tmp/pr_pilot_cli-1.2.0.tar.gz]
+[2024-05-28 03:42:41] INFO root fetch - main [MainThread]: End processing [pr-pilot-cli]: success
+[2024-05-28 03:42:42] INFO root fetch - processPackages [seqlogic]: Remove: archive file [/home/abi/fetcher/tmp/seqlogic-0.2.0.tar.gz]
+[2024-05-28 03:42:42] INFO root fetch - processPackages [seqlogic]: Remove: archive file [/home/abi/fetcher/tmp/seqlogic-0.3.0.tar.gz]
+[2024-05-28 03:42:42] INFO root fetch - main [MainThread]: End processing [seqlogic]: success
+[2024-05-28 03:42:42] INFO root fetch - main [MainThread]: Store serial: [23404136]
