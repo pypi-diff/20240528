@@ -21309,3 +21309,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 15:48:46] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.1.98.tar.gz]
 [2024-05-28 15:48:46] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
 [2024-05-28 15:48:46] INFO root fetch - main [MainThread]: Store serial: [23412127]
+[2024-05-28 15:50:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23412127]
+[2024-05-28 15:50:55] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-28 15:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: roboto-ingestion-utils
+[2024-05-28 15:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: liblet
+[2024-05-28 15:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gpe-lib
+[2024-05-28 15:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: grain-zip-deployer
+[2024-05-28 15:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: platzky
+[2024-05-28 15:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dailywill
+[2024-05-28 15:50:55] INFO root fetch - processPackages [gpe-lib]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-28 15:50:55] INFO root fetch - processPackages [platzky]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-05-28 15:50:55] INFO root fetch - processPackages [liblet]: New version: [1.7.6] Old Version: [1.7.5]
+[2024-05-28 15:50:55] WARNING root fetch - processPackages [roboto-ingestion-utils]: Skipping, unable to determine old version
+[2024-05-28 15:50:55] INFO root fetch - main [MainThread]: End processing [roboto-ingestion-utils] error
+[2024-05-28 15:50:55] INFO root fetch - processPackages [gpe-lib]: Downloading https://files.pythonhosted.org/packages/e5/5b/c074e0c2efbe7f4c4b132d0df420910d8a7b079dd35c4c4f1fa988850ad8/gpe_lib-0.0.2-py3-none-any.whl
+[2024-05-28 15:50:55] ERROR root fetch - processPackages [dailywill]: Unable to get metadata: No such project 'dailywill'
+[2024-05-28 15:50:55] INFO root fetch - main [MainThread]: End processing [dailywill] error
+[2024-05-28 15:50:55] INFO root fetch - processPackages [platzky]: Downloading https://files.pythonhosted.org/packages/66/bb/b50329daa0778563ba3408610f6ef8f23a970a1865bb6095b8286db7313f/platzky-0.1.9.tar.gz
+[2024-05-28 15:50:55] WARNING root fetch - processPackages [grain-zip-deployer]: Skipping, unable to determine old version
+[2024-05-28 15:50:55] INFO root fetch - main [MainThread]: End processing [grain-zip-deployer] error
+[2024-05-28 15:50:55] INFO root fetch - processPackages [liblet]: Downloading https://files.pythonhosted.org/packages/2b/07/8cc6b02d114ce9f6935fbc52beb5d05b082214cbd1c9ba784b68ae631e95/liblet-1.7.5.tar.gz
+[2024-05-28 15:50:55] INFO root fetch - processPackages [gpe-lib]: Downloading https://files.pythonhosted.org/packages/95/4a/1d5724d9193edd62ee0ada7de4234043f918f1f1182b3a34e9558f648e8b/gpe_lib-0.0.3-py3-none-any.whl
+[2024-05-28 15:50:55] INFO root fetch - processPackages [platzky]: Downloading https://files.pythonhosted.org/packages/b3/87/dcb7053bbc841444d31c05130879b13435a2fa99e64bc7c55948af9e63b4/platzky-0.2.0.tar.gz
+[2024-05-28 15:50:55] INFO root fetch - processPackages [gpe-lib]: executing diffoscope
+[2024-05-28 15:50:55] INFO root fetch - processPackages [gpe-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpe_lib-0.0.2-py3-none-any.whl.zip tmp/gpe_lib-0.0.3-py3-none-any.whl.zip --markdown 20240528/g/gpe-lib/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-28 15:50:55] INFO root fetch - processPackages [platzky]: executing diffoscope
+[2024-05-28 15:50:55] INFO root fetch - processPackages [platzky]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/platzky-0.1.9.tar.gz tmp/platzky-0.2.0.tar.gz --markdown 20240528/p/platzky/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-05-28 15:50:55] INFO root fetch - processPackages [liblet]: Downloading https://files.pythonhosted.org/packages/3d/b8/e0861f6f2223f05cba0e9bf29a87c857150709f81e8f8590cba6eaed1ac9/liblet-1.7.6.tar.gz
+[2024-05-28 15:50:56] INFO root fetch - processPackages [liblet]: executing diffoscope
+[2024-05-28 15:50:56] INFO root fetch - processPackages [liblet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liblet-1.7.5.tar.gz tmp/liblet-1.7.6.tar.gz --markdown 20240528/l/liblet/1.7.5-1.7.6/README.md --exclude *.pyd
+[2024-05-28 15:50:56] INFO root fetch - processPackages [gpe-lib]: Remove: archive file [/home/abi/fetcher/tmp/gpe_lib-0.0.2-py3-none-any.whl.zip]
+[2024-05-28 15:50:56] INFO root fetch - processPackages [gpe-lib]: Remove: archive file [/home/abi/fetcher/tmp/gpe_lib-0.0.3-py3-none-any.whl.zip]
+[2024-05-28 15:50:56] INFO root fetch - main [MainThread]: End processing [gpe-lib]: success
+[2024-05-28 15:50:56] INFO root fetch - processPackages [platzky]: Remove: archive file [/home/abi/fetcher/tmp/platzky-0.1.9.tar.gz]
+[2024-05-28 15:50:56] INFO root fetch - processPackages [platzky]: Remove: archive file [/home/abi/fetcher/tmp/platzky-0.2.0.tar.gz]
+[2024-05-28 15:50:56] INFO root fetch - main [MainThread]: End processing [platzky]: success
+[2024-05-28 15:50:56] INFO root fetch - processPackages [liblet]: Remove: archive file [/home/abi/fetcher/tmp/liblet-1.7.5.tar.gz]
+[2024-05-28 15:50:56] INFO root fetch - processPackages [liblet]: Remove: archive file [/home/abi/fetcher/tmp/liblet-1.7.6.tar.gz]
+[2024-05-28 15:50:56] INFO root fetch - main [MainThread]: End processing [liblet]: success
+[2024-05-28 15:50:56] INFO root fetch - main [MainThread]: Store serial: [23412152]
