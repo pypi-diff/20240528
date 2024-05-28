@@ -12526,3 +12526,95 @@
 [2024-05-28 10:43:57] INFO root fetch - processPackages [validio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/validio_sdk-0.9.0.tar.gz]
 [2024-05-28 10:43:57] INFO root fetch - main [MainThread]: End processing [validio-sdk]: success
 [2024-05-28 10:43:57] INFO root fetch - main [MainThread]: Store serial: [23408215]
+[2024-05-28 10:46:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23408215]
+[2024-05-28 10:46:07] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-28 10:46:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dlg-paletteGen
+[2024-05-28 10:46:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nimbletl
+[2024-05-28 10:46:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yangsuite-devices
+[2024-05-28 10:46:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fb-tools
+[2024-05-28 10:46:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chess-transformer
+[2024-05-28 10:46:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: akasha-terminal
+[2024-05-28 10:46:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: amulet-leveldb
+[2024-05-28 10:46:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: AWSXenos
+[2024-05-28 10:46:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: micrOSDevToolKit
+[2024-05-28 10:46:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: frformat
+[2024-05-28 10:46:07] INFO root fetch - processPackages [nimbletl]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-28 10:46:07] INFO root fetch - processPackages [chess-transformer]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-28 10:46:07] INFO root fetch - processPackages [akasha-terminal]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-28 10:46:07] INFO root fetch - processPackages [yangsuite-devices]: New version: [2.9.9.post0.dev2] Old Version: [2.9.9]
+[2024-05-28 10:46:07] INFO root fetch - processPackages [dlg-paletteGen]: New version: [0.3.7] Old Version: [0.3.6]
+[2024-05-28 10:46:07] INFO root fetch - processPackages [AWSXenos]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-28 10:46:07] INFO root fetch - processPackages [micrOSDevToolKit]: New version: [2.1.3] Old Version: [2.0.6]
+[2024-05-28 10:46:07] INFO root fetch - processPackages [fb-tools]: New version: [2.5.3] Old Version: [2.5.2]
+[2024-05-28 10:46:07] INFO root fetch - processPackages [frformat]: New version: [0.3.0] Old Version: [0.2.2]
+[2024-05-28 10:46:07] INFO root fetch - processPackages [amulet-leveldb]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-28 10:46:07] INFO root fetch - processPackages [nimbletl]: Downloading https://files.pythonhosted.org/packages/53/95/5cb9affc6bb6a7658eb0a6deceed2abc34de41e86b8cae30ffb27bde0e5b/nimbletl-0.1.1.tar.gz
+[2024-05-28 10:46:07] INFO root fetch - processPackages [chess-transformer]: Downloading https://files.pythonhosted.org/packages/d4/43/902e8468de390d798f1df6dbc5d13ab9fbf9e796a79928c1bc690748c963/chess_transformer-0.1.5.tar.gz
+[2024-05-28 10:46:07] INFO root fetch - processPackages [akasha-terminal]: Downloading https://files.pythonhosted.org/packages/44/ba/ad1af60540b73410a76351edea1ffacfe2c1e951eed2d58a4031be3ad8fc/akasha-terminal-0.8.8.tar.gz
+[2024-05-28 10:46:07] INFO root fetch - processPackages [yangsuite-devices]: Downloading https://files.pythonhosted.org/packages/1f/36/2f5b5c079aac0b49b82974e8f81d36c30a2c8979940a1f79e149b5073aeb/yangsuite_devices-2.9.9-py3-none-any.whl
+[2024-05-28 10:46:07] INFO root fetch - processPackages [AWSXenos]: Downloading https://files.pythonhosted.org/packages/6b/86/8270898b799374b9a7d295f80b9a40fa916c08dadc9c9de0a293ce8bb78d/awsxenos-0.3.0.tar.gz
+[2024-05-28 10:46:07] INFO root fetch - processPackages [dlg-paletteGen]: Downloading https://files.pythonhosted.org/packages/61/b2/d55ac29f9d54355e758c6e2f829b3d3145015c3dbfa9968270db167ec6ad/dlg_palettegen-0.3.6.tar.gz
+[2024-05-28 10:46:07] INFO root fetch - processPackages [fb-tools]: Downloading https://files.pythonhosted.org/packages/fe/02/82b09b7485d20e0ec72a8048c49cde75fb41f37f5823d53d42fd2a1c55cc/fb_tools-2.5.2.tar.gz
+[2024-05-28 10:46:07] INFO root fetch - processPackages [amulet-leveldb]: Downloading https://files.pythonhosted.org/packages/54/b2/afa47bcfa2ec866bdca7bba3d60252c0956f0959db01a770e15339daf0c1/amulet_leveldb-1.0.1.tar.gz
+[2024-05-28 10:46:07] INFO root fetch - processPackages [frformat]: Downloading https://files.pythonhosted.org/packages/e1/fa/d9b5233474c12cee27a6caa6650d9805c327a9d502b021a0ee3b2e18300e/frformat-0.2.2.tar.gz
+[2024-05-28 10:46:07] INFO root fetch - processPackages [micrOSDevToolKit]: Downloading https://files.pythonhosted.org/packages/48/31/bf31c7792c314fdaf50b2200efa2dc0ee79054b4ec3b4bf3f5d6e4862723/micrOSDevToolKit-2.0.6.tar.gz
+[2024-05-28 10:46:07] INFO root fetch - processPackages [akasha-terminal]: Downloading https://files.pythonhosted.org/packages/22/cd/bc4da2cd3d8a9b0bdd6542c2a920f376fc7abf8fa3d60f48b60bd6f3f13e/akasha-terminal-0.8.9.tar.gz
+[2024-05-28 10:46:07] INFO root fetch - processPackages [nimbletl]: Downloading https://files.pythonhosted.org/packages/9b/5b/8b09ca2d7eacd69ffd0b68bafd248333cf37bc506f19919d03b026d9f603/nimbletl-0.1.2.tar.gz
+[2024-05-28 10:46:07] WARNING root fetch - processPackages [micrOSDevToolKit]: Skipping package: exceeds size limit 16915893>=10485760
+[2024-05-28 10:46:07] INFO root fetch - processPackages [micrOSDevToolKit]: Start processing: mr-torch-utils
+[2024-05-28 10:46:07] INFO root fetch - main [MainThread]: End processing [micrOSDevToolKit] error
+[2024-05-28 10:46:07] INFO root fetch - processPackages [chess-transformer]: Downloading https://files.pythonhosted.org/packages/e5/ed/ae961efaa76afdf825f63c085aa15dc4752524b496cff82c921ae918a5b3/chess_transformer-0.1.6.tar.gz
+[2024-05-28 10:46:08] INFO root fetch - processPackages [nimbletl]: executing diffoscope
+[2024-05-28 10:46:08] INFO root fetch - processPackages [nimbletl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nimbletl-0.1.1.tar.gz tmp/nimbletl-0.1.2.tar.gz --markdown 20240528/n/nimbletl/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-28 10:46:08] INFO root fetch - processPackages [akasha-terminal]: executing diffoscope
+[2024-05-28 10:46:08] INFO root fetch - processPackages [akasha-terminal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akasha-terminal-0.8.8.tar.gz tmp/akasha-terminal-0.8.9.tar.gz --markdown 20240528/a/akasha-terminal/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-28 10:46:08] INFO root fetch - processPackages [AWSXenos]: Downloading https://files.pythonhosted.org/packages/7f/34/7b6f4c0ee1619b95bd8e8ab562ecf737b71d7efe0f167694ae2a2ab6e72e/awsxenos-0.4.0.tar.gz
+[2024-05-28 10:46:08] INFO root fetch - processPackages [dlg-paletteGen]: Downloading https://files.pythonhosted.org/packages/1f/6e/cc95db215e9e287590703c5df9af95549c9e7efdf7887dd197e66b7341e5/dlg_palettegen-0.3.7.tar.gz
+[2024-05-28 10:46:08] INFO root fetch - processPackages [fb-tools]: Downloading https://files.pythonhosted.org/packages/e9/36/a0a56cf3737d78fa9a0205f06ac044f2ceecd5fd2566ef47b79e89718a81/fb_tools-2.5.3.tar.gz
+[2024-05-28 10:46:08] WARNING root fetch - processPackages [mr-torch-utils]: Skipping, unable to determine old version
+[2024-05-28 10:46:08] INFO root fetch - main [MainThread]: End processing [mr-torch-utils] error
+[2024-05-28 10:46:08] INFO root fetch - processPackages [chess-transformer]: executing diffoscope
+[2024-05-28 10:46:08] INFO root fetch - processPackages [chess-transformer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chess_transformer-0.1.5.tar.gz tmp/chess_transformer-0.1.6.tar.gz --markdown 20240528/c/chess-transformer/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-28 10:46:08] INFO root fetch - processPackages [dlg-paletteGen]: executing diffoscope
+[2024-05-28 10:46:08] INFO root fetch - processPackages [dlg-paletteGen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlg_palettegen-0.3.6.tar.gz tmp/dlg_palettegen-0.3.7.tar.gz --markdown 20240528/d/dlg-paletteGen/0.3.6-0.3.7/README.md --exclude *.pyd
+[2024-05-28 10:46:08] INFO root fetch - processPackages [fb-tools]: executing diffoscope
+[2024-05-28 10:46:08] INFO root fetch - processPackages [fb-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fb_tools-2.5.2.tar.gz tmp/fb_tools-2.5.3.tar.gz --markdown 20240528/f/fb-tools/2.5.2-2.5.3/README.md --exclude *.pyd
+[2024-05-28 10:46:08] INFO root fetch - processPackages [AWSXenos]: executing diffoscope
+[2024-05-28 10:46:08] INFO root fetch - processPackages [AWSXenos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awsxenos-0.3.0.tar.gz tmp/awsxenos-0.4.0.tar.gz --markdown 20240528/A/AWSXenos/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-28 10:46:08] INFO root fetch - processPackages [frformat]: Downloading https://files.pythonhosted.org/packages/71/35/b4dae36c57d5d17cda8ce75ba9100b3d98ccf942cab4dc2e0f511db312b2/frformat-0.3.0.tar.gz
+[2024-05-28 10:46:08] INFO root fetch - processPackages [amulet-leveldb]: Downloading https://files.pythonhosted.org/packages/8a/69/03882a4a7ed933d1f0c622d93a5b2eef2fa51c4bf8ca1ec84d43b88eb113/amulet_leveldb-1.0.2.tar.gz
+[2024-05-28 10:46:08] INFO root fetch - processPackages [yangsuite-devices]: Downloading https://files.pythonhosted.org/packages/81/fa/9112897bf35ee7c91ab844b322504f52ad267b2a6f9d937fe70f83f8bf84/yangsuite_devices-2.9.9.post0.dev2-py3-none-any.whl
+[2024-05-28 10:46:08] INFO root fetch - processPackages [frformat]: executing diffoscope
+[2024-05-28 10:46:08] INFO root fetch - processPackages [frformat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frformat-0.2.2.tar.gz tmp/frformat-0.3.0.tar.gz --markdown 20240528/f/frformat/0.2.2-0.3.0/README.md --exclude *.pyd
+[2024-05-28 10:46:08] INFO root fetch - processPackages [nimbletl]: Remove: archive file [/home/abi/fetcher/tmp/nimbletl-0.1.1.tar.gz]
+[2024-05-28 10:46:08] INFO root fetch - processPackages [nimbletl]: Remove: archive file [/home/abi/fetcher/tmp/nimbletl-0.1.2.tar.gz]
+[2024-05-28 10:46:08] INFO root fetch - main [MainThread]: End processing [nimbletl]: success
+[2024-05-28 10:46:08] INFO root fetch - processPackages [amulet-leveldb]: executing diffoscope
+[2024-05-28 10:46:08] INFO root fetch - processPackages [amulet-leveldb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amulet_leveldb-1.0.1.tar.gz tmp/amulet_leveldb-1.0.2.tar.gz --markdown 20240528/a/amulet-leveldb/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-28 10:46:08] INFO root fetch - processPackages [akasha-terminal]: Remove: archive file [/home/abi/fetcher/tmp/akasha-terminal-0.8.8.tar.gz]
+[2024-05-28 10:46:08] INFO root fetch - processPackages [akasha-terminal]: Remove: archive file [/home/abi/fetcher/tmp/akasha-terminal-0.8.9.tar.gz]
+[2024-05-28 10:46:08] INFO root fetch - main [MainThread]: End processing [akasha-terminal]: success
+[2024-05-28 10:46:08] INFO root fetch - processPackages [chess-transformer]: Remove: archive file [/home/abi/fetcher/tmp/chess_transformer-0.1.5.tar.gz]
+[2024-05-28 10:46:08] INFO root fetch - processPackages [chess-transformer]: Remove: archive file [/home/abi/fetcher/tmp/chess_transformer-0.1.6.tar.gz]
+[2024-05-28 10:46:08] INFO root fetch - main [MainThread]: End processing [chess-transformer]: success
+[2024-05-28 10:46:09] INFO root fetch - processPackages [dlg-paletteGen]: Remove: archive file [/home/abi/fetcher/tmp/dlg_palettegen-0.3.6.tar.gz]
+[2024-05-28 10:46:09] INFO root fetch - processPackages [dlg-paletteGen]: Remove: archive file [/home/abi/fetcher/tmp/dlg_palettegen-0.3.7.tar.gz]
+[2024-05-28 10:46:09] INFO root fetch - main [MainThread]: End processing [dlg-paletteGen]: success
+[2024-05-28 10:46:09] INFO root fetch - processPackages [AWSXenos]: Remove: archive file [/home/abi/fetcher/tmp/awsxenos-0.3.0.tar.gz]
+[2024-05-28 10:46:09] INFO root fetch - processPackages [AWSXenos]: Remove: archive file [/home/abi/fetcher/tmp/awsxenos-0.4.0.tar.gz]
+[2024-05-28 10:46:09] INFO root fetch - main [MainThread]: End processing [AWSXenos]: success
+[2024-05-28 10:46:09] INFO root fetch - processPackages [fb-tools]: Remove: archive file [/home/abi/fetcher/tmp/fb_tools-2.5.2.tar.gz]
+[2024-05-28 10:46:09] INFO root fetch - processPackages [fb-tools]: Remove: archive file [/home/abi/fetcher/tmp/fb_tools-2.5.3.tar.gz]
+[2024-05-28 10:46:09] INFO root fetch - main [MainThread]: End processing [fb-tools]: success
+[2024-05-28 10:46:09] INFO root fetch - processPackages [yangsuite-devices]: executing diffoscope
+[2024-05-28 10:46:09] INFO root fetch - processPackages [yangsuite-devices]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yangsuite_devices-2.9.9-py3-none-any.whl.zip tmp/yangsuite_devices-2.9.9.post0.dev2-py3-none-any.whl.zip --markdown 20240528/y/yangsuite-devices/2.9.9-2.9.9.post0.dev2/README.md --exclude *.pyd
+[2024-05-28 10:46:09] INFO root fetch - processPackages [frformat]: Remove: archive file [/home/abi/fetcher/tmp/frformat-0.2.2.tar.gz]
+[2024-05-28 10:46:09] INFO root fetch - processPackages [frformat]: Remove: archive file [/home/abi/fetcher/tmp/frformat-0.3.0.tar.gz]
+[2024-05-28 10:46:09] INFO root fetch - main [MainThread]: End processing [frformat]: success
+[2024-05-28 10:46:11] INFO root fetch - processPackages [amulet-leveldb]: Remove: archive file [/home/abi/fetcher/tmp/amulet_leveldb-1.0.1.tar.gz]
+[2024-05-28 10:46:11] INFO root fetch - processPackages [amulet-leveldb]: Remove: archive file [/home/abi/fetcher/tmp/amulet_leveldb-1.0.2.tar.gz]
+[2024-05-28 10:46:11] INFO root fetch - main [MainThread]: End processing [amulet-leveldb]: success
+[2024-05-28 10:46:13] INFO root fetch - processPackages [yangsuite-devices]: Remove: archive file [/home/abi/fetcher/tmp/yangsuite_devices-2.9.9-py3-none-any.whl.zip]
+[2024-05-28 10:46:13] INFO root fetch - processPackages [yangsuite-devices]: Remove: archive file [/home/abi/fetcher/tmp/yangsuite_devices-2.9.9.post0.dev2-py3-none-any.whl.zip]
+[2024-05-28 10:46:13] INFO root fetch - main [MainThread]: End processing [yangsuite-devices]: success
+[2024-05-28 10:46:13] INFO root fetch - main [MainThread]: Store serial: [23408255]
