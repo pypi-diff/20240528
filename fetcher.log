@@ -5649,3 +5649,15 @@
 [2024-05-28 06:27:16] INFO root fetch - processPackages [gable]: Remove: archive file [/home/abi/fetcher/tmp/gable-0.9.0a3.tar.gz]
 [2024-05-28 06:27:16] INFO root fetch - main [MainThread]: End processing [gable]: success
 [2024-05-28 06:27:16] INFO root fetch - main [MainThread]: Store serial: [23405060]
+[2024-05-28 06:29:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23405060]
+[2024-05-28 06:29:24] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-28 06:29:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-core-xe-batch-21
+[2024-05-28 06:29:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kossou-hillshade-cli
+[2024-05-28 06:29:24] INFO root fetch - processPackages [bigdl-core-xe-batch-21]: New version: [2.5.0b20240527] Old Version: [2.5.0b20200526]
+[2024-05-28 06:29:24] WARNING root fetch - processPackages [kossou-hillshade-cli]: Skipping, unable to determine old version
+[2024-05-28 06:29:24] INFO root fetch - main [MainThread]: End processing [kossou-hillshade-cli] error
+[2024-05-28 06:29:24] INFO root fetch - processPackages [bigdl-core-xe-batch-21]: Downloading https://files.pythonhosted.org/packages/e3/7d/420052025e9a497e13ab99f73c3e8195821186836006d15d558ec779993f/bigdl_core_xe_batch_21-2.5.0b20200526-cp311-cp311-win_amd64.whl
+[2024-05-28 06:29:26] INFO root fetch - processPackages [bigdl-core-xe-batch-21]: Downloading https://files.pythonhosted.org/packages/b6/41/6778b6eba3ad6ee8fcba88b497342b92a8bf5fff362bfd6acc429936e5bb/bigdl_core_xe_batch_21-2.5.0b20240527-cp311-cp311-manylinux2010_x86_64.whl
+[2024-05-28 06:29:26] WARNING root fetch - processPackages [bigdl-core-xe-batch-21]: Skipping package: exceeds size limit 71251938>=10485760
+[2024-05-28 06:29:26] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-batch-21] error
+[2024-05-28 06:29:26] INFO root fetch - main [MainThread]: Store serial: [23405067]
