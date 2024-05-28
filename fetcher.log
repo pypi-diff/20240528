@@ -3773,3 +3773,27 @@
 [2024-05-28 04:22:09] INFO root fetch - processPackages [parc]: Remove: archive file [/home/abi/fetcher/tmp/parc-0.40.tar.gz]
 [2024-05-28 04:22:09] INFO root fetch - main [MainThread]: End processing [parc]: success
 [2024-05-28 04:22:09] INFO root fetch - main [MainThread]: Store serial: [23404351]
+[2024-05-28 04:24:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23404351]
+[2024-05-28 04:24:17] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-28 04:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: types-docker
+[2024-05-28 04:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyrapid
+[2024-05-28 04:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyuptech
+[2024-05-28 04:24:17] INFO root fetch - processPackages [types-docker]: New version: [7.0.0.20240527] Old Version: [7.0.0.20240524]
+[2024-05-28 04:24:17] WARNING root fetch - processPackages [pyrapid]: Skipping, unable to determine old version
+[2024-05-28 04:24:17] INFO root fetch - main [MainThread]: End processing [pyrapid] error
+[2024-05-28 04:24:17] INFO root fetch - processPackages [pyuptech]: New version: [0.1.6.4] Old Version: [0.1.6.3]
+[2024-05-28 04:24:17] INFO root fetch - processPackages [types-docker]: Downloading https://files.pythonhosted.org/packages/9f/dc/dbdb325bff1d538904d5b72339a7740f2b91ba8d8d3748c3b2cacde54fe9/types-docker-7.0.0.20240524.tar.gz
+[2024-05-28 04:24:17] INFO root fetch - processPackages [pyuptech]: Downloading https://files.pythonhosted.org/packages/80/e2/59550ee86218f07052f14e28ccf06933c6cc0697a213667251eebcfe1095/pyuptech-0.1.6.3.tar.gz
+[2024-05-28 04:24:17] INFO root fetch - processPackages [types-docker]: Downloading https://files.pythonhosted.org/packages/b5/78/42af8510dad35f63295ebacccbb0fcec36ef5b015641235501a7de080756/types-docker-7.0.0.20240527.tar.gz
+[2024-05-28 04:24:17] INFO root fetch - processPackages [types-docker]: executing diffoscope
+[2024-05-28 04:24:17] INFO root fetch - processPackages [types-docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-docker-7.0.0.20240524.tar.gz tmp/types-docker-7.0.0.20240527.tar.gz --markdown 20240528/t/types-docker/7.0.0.20240524-7.0.0.20240527/README.md --exclude *.pyd
+[2024-05-28 04:24:18] INFO root fetch - processPackages [pyuptech]: Downloading https://files.pythonhosted.org/packages/28/86/0ff503e5ff9d51d932b31902d79a08cb19d9699ad7ecdf0f0a43d4ac3a97/pyuptech-0.1.6.4.tar.gz
+[2024-05-28 04:24:18] INFO root fetch - processPackages [pyuptech]: executing diffoscope
+[2024-05-28 04:24:18] INFO root fetch - processPackages [pyuptech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyuptech-0.1.6.3.tar.gz tmp/pyuptech-0.1.6.4.tar.gz --markdown 20240528/p/pyuptech/0.1.6.3-0.1.6.4/README.md --exclude *.pyd
+[2024-05-28 04:24:18] INFO root fetch - processPackages [types-docker]: Remove: archive file [/home/abi/fetcher/tmp/types-docker-7.0.0.20240524.tar.gz]
+[2024-05-28 04:24:18] INFO root fetch - processPackages [types-docker]: Remove: archive file [/home/abi/fetcher/tmp/types-docker-7.0.0.20240527.tar.gz]
+[2024-05-28 04:24:18] INFO root fetch - main [MainThread]: End processing [types-docker]: success
+[2024-05-28 04:24:18] INFO root fetch - processPackages [pyuptech]: Remove: archive file [/home/abi/fetcher/tmp/pyuptech-0.1.6.3.tar.gz]
+[2024-05-28 04:24:18] INFO root fetch - processPackages [pyuptech]: Remove: archive file [/home/abi/fetcher/tmp/pyuptech-0.1.6.4.tar.gz]
+[2024-05-28 04:24:18] INFO root fetch - main [MainThread]: End processing [pyuptech]: success
+[2024-05-28 04:24:18] INFO root fetch - main [MainThread]: Store serial: [23404359]
