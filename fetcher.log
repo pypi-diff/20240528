@@ -15708,3 +15708,45 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 12:26:11] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.7.9.tar.gz]
 [2024-05-28 12:26:11] INFO root fetch - main [MainThread]: End processing [mecord-cli]: success
 [2024-05-28 12:26:11] INFO root fetch - main [MainThread]: Store serial: [23409538]
+[2024-05-28 12:28:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23409538]
+[2024-05-28 12:28:20] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-28 12:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gwml
+[2024-05-28 12:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: keycare
+[2024-05-28 12:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: followthemoney
+[2024-05-28 12:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nix-gpt-client
+[2024-05-28 12:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py-async-grpc-prometheus
+[2024-05-28 12:28:20] INFO root fetch - processPackages [gwml]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-28 12:28:20] INFO root fetch - processPackages [keycare]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-28 12:28:20] INFO root fetch - processPackages [gwml]: Downloading https://files.pythonhosted.org/packages/47/79/35f2aec062d3c81ebab5765160def7b5d50bdbf3087ce2356423b76525c5/gwml-0.1.5-py3-none-any.whl
+[2024-05-28 12:28:20] INFO root fetch - processPackages [followthemoney]: New version: [3.6.1] Old Version: [3.6.0]
+[2024-05-28 12:28:20] WARNING root fetch - processPackages [py-async-grpc-prometheus]: Skipping, unable to determine old version
+[2024-05-28 12:28:20] INFO root fetch - main [MainThread]: End processing [py-async-grpc-prometheus] error
+[2024-05-28 12:28:20] INFO root fetch - processPackages [nix-gpt-client]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-28 12:28:20] INFO root fetch - processPackages [keycare]: Downloading https://files.pythonhosted.org/packages/32/e6/94b41b7b806b53268425a58f4dceb6400150b2eb9252b183d7d68828dd04/keycare-0.0.8.tar.gz
+[2024-05-28 12:28:20] INFO root fetch - processPackages [gwml]: Downloading https://files.pythonhosted.org/packages/4e/2d/c8a43834d7b4dbacf33ff399b8cfafa3e79552414f105c0ffcbb1b85c632/gwml-0.1.6-py3-none-any.whl
+[2024-05-28 12:28:20] INFO root fetch - processPackages [followthemoney]: Downloading https://files.pythonhosted.org/packages/0f/1f/45cbc30940c802f19f0d07067cc22ba1424766398742f9877030da12904c/followthemoney-3.6.0.tar.gz
+[2024-05-28 12:28:21] INFO root fetch - processPackages [gwml]: executing diffoscope
+[2024-05-28 12:28:21] INFO root fetch - processPackages [gwml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gwml-0.1.5-py3-none-any.whl.zip tmp/gwml-0.1.6-py3-none-any.whl.zip --markdown 20240528/g/gwml/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-28 12:28:21] INFO root fetch - processPackages [nix-gpt-client]: Downloading https://files.pythonhosted.org/packages/9e/00/6a49c2c442f7cac59bfa2c0d821bbb84f4a8b32dad619acaa9e661a85f9e/nix_gpt_client-0.1.4.tar.gz
+[2024-05-28 12:28:21] INFO root fetch - processPackages [keycare]: Downloading https://files.pythonhosted.org/packages/47/09/4841e2b6ba4ed7bde792f17ad6d218ae1e65306eb22a340cdf003a96e0b3/keycare-0.0.9.tar.gz
+[2024-05-28 12:28:21] INFO root fetch - processPackages [keycare]: executing diffoscope
+[2024-05-28 12:28:21] INFO root fetch - processPackages [keycare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keycare-0.0.8.tar.gz tmp/keycare-0.0.9.tar.gz --markdown 20240528/k/keycare/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-28 12:28:21] INFO root fetch - processPackages [followthemoney]: Downloading https://files.pythonhosted.org/packages/6f/19/6eddfd68138ddb2f7809791e418278927d2f0ed434ff8a5f756e8bad0f3c/followthemoney-3.6.1.tar.gz
+[2024-05-28 12:28:21] INFO root fetch - processPackages [nix-gpt-client]: Downloading https://files.pythonhosted.org/packages/be/e5/e9652793e177ac57f467a9c74f92637ae8064ac347b891fac852ebfb1331/nix_gpt_client-0.1.5.tar.gz
+[2024-05-28 12:28:21] INFO root fetch - processPackages [followthemoney]: executing diffoscope
+[2024-05-28 12:28:21] INFO root fetch - processPackages [followthemoney]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/followthemoney-3.6.0.tar.gz tmp/followthemoney-3.6.1.tar.gz --markdown 20240528/f/followthemoney/3.6.0-3.6.1/README.md --exclude *.pyd
+[2024-05-28 12:28:21] INFO root fetch - processPackages [nix-gpt-client]: executing diffoscope
+[2024-05-28 12:28:21] INFO root fetch - processPackages [nix-gpt-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nix_gpt_client-0.1.4.tar.gz tmp/nix_gpt_client-0.1.5.tar.gz --markdown 20240528/n/nix-gpt-client/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-28 12:28:21] INFO root fetch - processPackages [gwml]: Remove: archive file [/home/abi/fetcher/tmp/gwml-0.1.5-py3-none-any.whl.zip]
+[2024-05-28 12:28:21] INFO root fetch - processPackages [gwml]: Remove: archive file [/home/abi/fetcher/tmp/gwml-0.1.6-py3-none-any.whl.zip]
+[2024-05-28 12:28:21] INFO root fetch - main [MainThread]: End processing [gwml]: success
+[2024-05-28 12:28:21] INFO root fetch - processPackages [keycare]: Remove: archive file [/home/abi/fetcher/tmp/keycare-0.0.8.tar.gz]
+[2024-05-28 12:28:21] INFO root fetch - processPackages [keycare]: Remove: archive file [/home/abi/fetcher/tmp/keycare-0.0.9.tar.gz]
+[2024-05-28 12:28:21] INFO root fetch - main [MainThread]: End processing [keycare]: success
+[2024-05-28 12:28:22] INFO root fetch - processPackages [nix-gpt-client]: Remove: archive file [/home/abi/fetcher/tmp/nix_gpt_client-0.1.4.tar.gz]
+[2024-05-28 12:28:22] INFO root fetch - processPackages [nix-gpt-client]: Remove: archive file [/home/abi/fetcher/tmp/nix_gpt_client-0.1.5.tar.gz]
+[2024-05-28 12:28:22] INFO root fetch - main [MainThread]: End processing [nix-gpt-client]: success
+[2024-05-28 12:28:22] INFO root fetch - processPackages [followthemoney]: Remove: archive file [/home/abi/fetcher/tmp/followthemoney-3.6.0.tar.gz]
+[2024-05-28 12:28:22] INFO root fetch - processPackages [followthemoney]: Remove: archive file [/home/abi/fetcher/tmp/followthemoney-3.6.1.tar.gz]
+[2024-05-28 12:28:22] INFO root fetch - main [MainThread]: End processing [followthemoney]: success
+[2024-05-28 12:28:22] INFO root fetch - main [MainThread]: Store serial: [23409553]
