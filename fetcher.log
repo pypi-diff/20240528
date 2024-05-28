@@ -5978,3 +5978,18 @@
 [2024-05-28 06:55:28] INFO root fetch - processPackages [amaze-benchmarker]: Remove: archive file [/home/abi/fetcher/tmp/amaze_benchmarker-1.0rc0.post2.tar.gz]
 [2024-05-28 06:55:28] INFO root fetch - main [MainThread]: End processing [amaze-benchmarker]: success
 [2024-05-28 06:55:28] INFO root fetch - main [MainThread]: Store serial: [23405183]
+[2024-05-28 06:57:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23405183]
+[2024-05-28 06:57:36] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-28 06:57:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: castle-ai
+[2024-05-28 06:57:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aokitools
+[2024-05-28 06:57:36] INFO root fetch - processPackages [castle-ai]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-28 06:57:36] INFO root fetch - processPackages [castle-ai]: Downloading https://files.pythonhosted.org/packages/43/a0/ebd33b4291a0e3d44dabe2779171733b078f69e26bb89c254f8261f73d59/castle_ai-0.0.4.tar.gz
+[2024-05-28 06:57:36] WARNING root fetch - processPackages [aokitools]: Skipping, unable to determine old version
+[2024-05-28 06:57:36] INFO root fetch - main [MainThread]: End processing [aokitools] error
+[2024-05-28 06:57:37] INFO root fetch - processPackages [castle-ai]: Downloading https://files.pythonhosted.org/packages/b5/f3/e1c6f6b37b542b9592f7727f1d7f0631e790e8236d5bf4bff76546b70e45/castle_ai-0.0.5.tar.gz
+[2024-05-28 06:57:37] INFO root fetch - processPackages [castle-ai]: executing diffoscope
+[2024-05-28 06:57:37] INFO root fetch - processPackages [castle-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/castle_ai-0.0.4.tar.gz tmp/castle_ai-0.0.5.tar.gz --markdown 20240528/c/castle-ai/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-28 06:57:38] INFO root fetch - processPackages [castle-ai]: Remove: archive file [/home/abi/fetcher/tmp/castle_ai-0.0.4.tar.gz]
+[2024-05-28 06:57:38] INFO root fetch - processPackages [castle-ai]: Remove: archive file [/home/abi/fetcher/tmp/castle_ai-0.0.5.tar.gz]
+[2024-05-28 06:57:38] INFO root fetch - main [MainThread]: End processing [castle-ai]: success
+[2024-05-28 06:57:38] INFO root fetch - main [MainThread]: Store serial: [23405189]
