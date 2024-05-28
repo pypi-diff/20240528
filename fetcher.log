@@ -9559,3 +9559,39 @@
 [2024-05-28 09:00:41] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/openshift_cluster_management_python_wrapper-1.0.99.tar.gz]
 [2024-05-28 09:00:41] INFO root fetch - main [MainThread]: End processing [openshift-cluster-management-python-wrapper]: success
 [2024-05-28 09:00:41] INFO root fetch - main [MainThread]: Store serial: [23406819]
+[2024-05-28 09:02:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23406819]
+[2024-05-28 09:02:50] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-28 09:02:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: texteller
+[2024-05-28 09:02:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: abstract-pandas
+[2024-05-28 09:02:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: seqio-nightly
+[2024-05-28 09:02:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mia-vgg
+[2024-05-28 09:02:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pythongeneral
+[2024-05-28 09:02:50] INFO root fetch - processPackages [mia-vgg]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-28 09:02:50] INFO root fetch - processPackages [abstract-pandas]: New version: [0.0.0.99] Old Version: [0.0.0.98]
+[2024-05-28 09:02:50] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2024-05-28 09:02:50] WARNING root fetch - processPackages [pythongeneral]: Skipping, unable to determine old version
+[2024-05-28 09:02:50] INFO root fetch - main [MainThread]: End processing [pythongeneral] error
+[2024-05-28 09:02:50] INFO root fetch - processPackages [mia-vgg]: Downloading https://files.pythonhosted.org/packages/7d/99/89bc26b6fc0c4be64ccf67e364ca9e0df91458fd29d11e2358855b46e97d/mia_vgg-0.0.8.tar.gz
+[2024-05-28 09:02:50] WARNING root fetch - processPackages [texteller]: Skipping, unable to determine old version
+[2024-05-28 09:02:50] INFO root fetch - main [MainThread]: End processing [texteller] error
+[2024-05-28 09:02:50] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/ce/0f/d5bd2aeb0ef8c0b2c92b58e797db9d84598679100668576784ae5df2e597/abstract_pandas-0.0.0.98.tar.gz
+[2024-05-28 09:02:50] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2024-05-28 09:02:50] INFO root fetch - processPackages [mia-vgg]: Downloading https://files.pythonhosted.org/packages/cc/39/4b0634a6c0cfb889300cdd32b0b9e896e244894df317465107e5a88463b0/mia_vgg-0.0.9.tar.gz
+[2024-05-28 09:02:50] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/2c/23/9dc652d6df8f0a64ec4383a43356e32d7799977e95638e172f70bd530d0e/abstract_pandas-0.0.0.99.tar.gz
+[2024-05-28 09:02:50] INFO root fetch - processPackages [mia-vgg]: executing diffoscope
+[2024-05-28 09:02:50] INFO root fetch - processPackages [mia-vgg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mia_vgg-0.0.8.tar.gz tmp/mia_vgg-0.0.9.tar.gz --markdown 20240528/m/mia-vgg/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-28 09:02:50] INFO root fetch - processPackages [abstract-pandas]: executing diffoscope
+[2024-05-28 09:02:50] INFO root fetch - processPackages [abstract-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_pandas-0.0.0.98.tar.gz tmp/abstract_pandas-0.0.0.99.tar.gz --markdown 20240528/a/abstract-pandas/0.0.0.98-0.0.0.99/README.md --exclude *.pyd
+[2024-05-28 09:02:50] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2024-05-28 09:02:50] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2024-05-28 09:02:50] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20240528/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/README.md --exclude *.pyd
+[2024-05-28 09:02:51] INFO root fetch - processPackages [mia-vgg]: Remove: archive file [/home/abi/fetcher/tmp/mia_vgg-0.0.8.tar.gz]
+[2024-05-28 09:02:51] INFO root fetch - processPackages [mia-vgg]: Remove: archive file [/home/abi/fetcher/tmp/mia_vgg-0.0.9.tar.gz]
+[2024-05-28 09:02:51] INFO root fetch - main [MainThread]: End processing [mia-vgg]: success
+[2024-05-28 09:02:51] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.98.tar.gz]
+[2024-05-28 09:02:51] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.99.tar.gz]
+[2024-05-28 09:02:51] INFO root fetch - main [MainThread]: End processing [abstract-pandas]: success
+[2024-05-28 09:02:51] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2024-05-28 09:02:51] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2024-05-28 09:02:51] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2024-05-28 09:02:51] INFO root fetch - main [MainThread]: Store serial: [23406844]
