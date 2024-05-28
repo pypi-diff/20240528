@@ -21180,3 +21180,84 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 15:42:00] INFO root fetch - processPackages [jupyterlab-unfold]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_unfold-0.3.1.tar.gz]
 [2024-05-28 15:42:00] INFO root fetch - main [MainThread]: End processing [jupyterlab-unfold]: success
 [2024-05-28 15:42:00] INFO root fetch - main [MainThread]: Store serial: [23412067]
+[2024-05-28 15:44:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23412067]
+[2024-05-28 15:44:08] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-28 15:44:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ArcDLNexus
+[2024-05-28 15:44:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: five-1
+[2024-05-28 15:44:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aeslibrary
+[2024-05-28 15:44:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chellow
+[2024-05-28 15:44:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sentineltoolbox
+[2024-05-28 15:44:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: data-engineering-pulumi-components
+[2024-05-28 15:44:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gpe-lib
+[2024-05-28 15:44:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dendrite-python-sdk
+[2024-05-28 15:44:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: VijayTestPythonPackage2024
+[2024-05-28 15:44:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: prvict
+[2024-05-28 15:44:09] INFO root fetch - processPackages [gpe-lib]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-28 15:44:09] INFO root fetch - processPackages [dendrite-python-sdk]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-28 15:44:09] WARNING root fetch - processPackages [aeslibrary]: Skipping, unable to determine old version
+[2024-05-28 15:44:09] INFO root fetch - processPackages [aeslibrary]: Start processing: elody
+[2024-05-28 15:44:09] INFO root fetch - main [MainThread]: End processing [aeslibrary] error
+[2024-05-28 15:44:09] WARNING root fetch - processPackages [five-1]: Skipping, unable to determine old version
+[2024-05-28 15:44:09] INFO root fetch - processPackages [five-1]: Start processing: misc-python-utils
+[2024-05-28 15:44:09] INFO root fetch - main [MainThread]: End processing [five-1] error
+[2024-05-28 15:44:09] WARNING root fetch - processPackages [prvict]: Skipping, unable to determine old version
+[2024-05-28 15:44:09] INFO root fetch - main [MainThread]: End processing [prvict] error
+[2024-05-28 15:44:09] INFO root fetch - processPackages [dendrite-python-sdk]: Downloading https://files.pythonhosted.org/packages/fc/97/3f6995c05bf7f2c9804d6d457cea71f4541d2de4acc8c9682f440135233a/dendrite_python_sdk-1.0.0.tar.gz
+[2024-05-28 15:44:09] INFO root fetch - processPackages [sentineltoolbox]: New version: [0.0.1.1] Old Version: [0.0.1]
+[2024-05-28 15:44:09] INFO root fetch - processPackages [data-engineering-pulumi-components]: New version: [0.4.1.dev7] Old Version: [0.4.1.dev67]
+[2024-05-28 15:44:09] WARNING root fetch - processPackages [VijayTestPythonPackage2024]: Skipping, unable to determine old version
+[2024-05-28 15:44:09] WARNING root fetch - processPackages [ArcDLNexus]: Skipping, unable to determine old version
+[2024-05-28 15:44:09] INFO root fetch - main [MainThread]: End processing [VijayTestPythonPackage2024] error
+[2024-05-28 15:44:09] INFO root fetch - main [MainThread]: End processing [ArcDLNexus] error
+[2024-05-28 15:44:09] INFO root fetch - processPackages [chellow]: New version: [2827] Old Version: [2826]
+[2024-05-28 15:44:09] INFO root fetch - processPackages [gpe-lib]: Downloading https://files.pythonhosted.org/packages/e7/9a/629ff614e7fc9b8b3e57e0100c47a44b216d4520c46084a936b41c4fdf68/gpe_lib-0.0.1.tar.gz
+[2024-05-28 15:44:09] INFO root fetch - processPackages [elody]: New version: [0.0.9] Old Version: [0.0.83]
+[2024-05-28 15:44:09] INFO root fetch - processPackages [misc-python-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-28 15:44:09] INFO root fetch - processPackages [data-engineering-pulumi-components]: Downloading https://files.pythonhosted.org/packages/ba/0a/faaf3af104bfcac53f2a3ffeb2c89303ce0701842b5c8f741e411c07853f/data_engineering_pulumi_components-0.4.1.dev67.tar.gz
+[2024-05-28 15:44:09] INFO root fetch - processPackages [sentineltoolbox]: Downloading https://files.pythonhosted.org/packages/c7/71/06c24953c1a96becf0a994fd3e90376b32619c678c1ad267b94d50c187a8/sentineltoolbox-0.0.1-py3-none-any.whl
+[2024-05-28 15:44:09] INFO root fetch - processPackages [chellow]: Downloading https://files.pythonhosted.org/packages/53/7f/0c0b4c6862d01d54d05680973dafeac8063cadbc1558cc789060e11e064a/chellow-2826.tar.gz
+[2024-05-28 15:44:09] INFO root fetch - processPackages [dendrite-python-sdk]: Downloading https://files.pythonhosted.org/packages/c4/c9/231f69d7c1094aac39cbd6bde8f0e7c7b876270b6e5e55d288b11bfe9335/dendrite_python_sdk-1.0.1.tar.gz
+[2024-05-28 15:44:09] INFO root fetch - processPackages [elody]: Downloading https://files.pythonhosted.org/packages/61/c6/d28af2bc3ce64d967e416b57940d39fe351aac3527945795547e49a8c583/elody-0.0.83.tar.gz
+[2024-05-28 15:44:09] INFO root fetch - processPackages [misc-python-utils]: Downloading https://files.pythonhosted.org/packages/4b/bd/ea88605154e7091f2a3191908b2ffddeda0817e17ffc29758cfc7731ceaf/misc_python_utils-0.1.8.tar.gz
+[2024-05-28 15:44:09] INFO root fetch - processPackages [gpe-lib]: Downloading https://files.pythonhosted.org/packages/e5/5b/c074e0c2efbe7f4c4b132d0df420910d8a7b079dd35c4c4f1fa988850ad8/gpe_lib-0.0.2-py3-none-any.whl
+[2024-05-28 15:44:09] INFO root fetch - processPackages [dendrite-python-sdk]: executing diffoscope
+[2024-05-28 15:44:09] INFO root fetch - processPackages [dendrite-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dendrite_python_sdk-1.0.0.tar.gz tmp/dendrite_python_sdk-1.0.1.tar.gz --markdown 20240528/d/dendrite-python-sdk/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-28 15:44:09] INFO root fetch - processPackages [sentineltoolbox]: Downloading https://files.pythonhosted.org/packages/b0/4c/ee14e93d89296a751d3b4ecf52c5c607e451478cf8fe496470f2da511390/sentineltoolbox-0.0.1.1-py3-none-any.whl
+[2024-05-28 15:44:09] INFO root fetch - processPackages [gpe-lib]: executing diffoscope
+[2024-05-28 15:44:09] INFO root fetch - processPackages [gpe-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpe_lib-0.0.1.tar.gz tmp/gpe_lib-0.0.2-py3-none-any.whl.zip --markdown 20240528/g/gpe-lib/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-28 15:44:10] INFO root fetch - processPackages [sentineltoolbox]: executing diffoscope
+[2024-05-28 15:44:10] INFO root fetch - processPackages [sentineltoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentineltoolbox-0.0.1-py3-none-any.whl.zip tmp/sentineltoolbox-0.0.1.1-py3-none-any.whl.zip --markdown 20240528/s/sentineltoolbox/0.0.1-0.0.1.1/README.md --exclude *.pyd
+[2024-05-28 15:44:10] INFO root fetch - processPackages [chellow]: Downloading https://files.pythonhosted.org/packages/bc/64/ec72bd83957d5f6ad5cfc5f2b156b41dad4c98bee657040bbb6b98ac80b6/chellow-2827.tar.gz
+[2024-05-28 15:44:10] INFO root fetch - processPackages [data-engineering-pulumi-components]: Downloading https://files.pythonhosted.org/packages/e8/ee/a6dfcd17c8a1f4bed3781cf6f66ac1b46a52fee1c1505bb2365d662ae762/data-engineering-pulumi-components-0.4.1.dev7.tar.gz
+[2024-05-28 15:44:10] INFO root fetch - processPackages [misc-python-utils]: Downloading https://files.pythonhosted.org/packages/57/f1/4625809fcb39f4081b4224a6763539efee7a380db502a5dede93b1c12c2e/misc_python_utils-0.1.9.tar.gz
+[2024-05-28 15:44:10] INFO root fetch - processPackages [chellow]: executing diffoscope
+[2024-05-28 15:44:10] INFO root fetch - processPackages [elody]: Downloading https://files.pythonhosted.org/packages/99/6f/f71f54ed05b6deb367f13a4a8fb4bbcc9f25633144ffc11127b732f02e92/elody-0.0.9.tar.gz
+[2024-05-28 15:44:10] INFO root fetch - processPackages [chellow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chellow-2826.tar.gz tmp/chellow-2827.tar.gz --markdown 20240528/c/chellow/2826-2827/README.md --exclude *.pyd
+[2024-05-28 15:44:10] INFO root fetch - processPackages [misc-python-utils]: executing diffoscope
+[2024-05-28 15:44:10] INFO root fetch - processPackages [misc-python-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/misc_python_utils-0.1.8.tar.gz tmp/misc_python_utils-0.1.9.tar.gz --markdown 20240528/m/misc-python-utils/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-28 15:44:10] INFO root fetch - processPackages [elody]: executing diffoscope
+[2024-05-28 15:44:10] INFO root fetch - processPackages [elody]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elody-0.0.83.tar.gz tmp/elody-0.0.9.tar.gz --markdown 20240528/e/elody/0.0.83-0.0.9/README.md --exclude *.pyd
+[2024-05-28 15:44:10] INFO root fetch - processPackages [gpe-lib]: Remove: archive file [/home/abi/fetcher/tmp/gpe_lib-0.0.1.tar.gz]
+[2024-05-28 15:44:10] INFO root fetch - processPackages [gpe-lib]: Remove: archive file [/home/abi/fetcher/tmp/gpe_lib-0.0.2-py3-none-any.whl.zip]
+[2024-05-28 15:44:10] INFO root fetch - main [MainThread]: End processing [gpe-lib]: success
+[2024-05-28 15:44:10] INFO root fetch - processPackages [dendrite-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dendrite_python_sdk-1.0.0.tar.gz]
+[2024-05-28 15:44:10] INFO root fetch - processPackages [dendrite-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dendrite_python_sdk-1.0.1.tar.gz]
+[2024-05-28 15:44:10] INFO root fetch - main [MainThread]: End processing [dendrite-python-sdk]: success
+[2024-05-28 15:44:10] INFO root fetch - processPackages [sentineltoolbox]: Remove: archive file [/home/abi/fetcher/tmp/sentineltoolbox-0.0.1-py3-none-any.whl.zip]
+[2024-05-28 15:44:10] INFO root fetch - processPackages [sentineltoolbox]: Remove: archive file [/home/abi/fetcher/tmp/sentineltoolbox-0.0.1.1-py3-none-any.whl.zip]
+[2024-05-28 15:44:10] INFO root fetch - main [MainThread]: End processing [sentineltoolbox]: success
+[2024-05-28 15:44:10] INFO root fetch - processPackages [misc-python-utils]: Remove: archive file [/home/abi/fetcher/tmp/misc_python_utils-0.1.8.tar.gz]
+[2024-05-28 15:44:10] INFO root fetch - processPackages [misc-python-utils]: Remove: archive file [/home/abi/fetcher/tmp/misc_python_utils-0.1.9.tar.gz]
+[2024-05-28 15:44:10] INFO root fetch - main [MainThread]: End processing [misc-python-utils]: success
+[2024-05-28 15:44:11] INFO root fetch - processPackages [elody]: Remove: archive file [/home/abi/fetcher/tmp/elody-0.0.83.tar.gz]
+[2024-05-28 15:44:11] INFO root fetch - processPackages [elody]: Remove: archive file [/home/abi/fetcher/tmp/elody-0.0.9.tar.gz]
+[2024-05-28 15:44:11] INFO root fetch - main [MainThread]: End processing [elody]: success
+[2024-05-28 15:44:11] INFO root fetch - processPackages [data-engineering-pulumi-components]: executing diffoscope
+[2024-05-28 15:44:11] INFO root fetch - processPackages [data-engineering-pulumi-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_engineering_pulumi_components-0.4.1.dev67.tar.gz tmp/data-engineering-pulumi-components-0.4.1.dev7.tar.gz --markdown 20240528/d/data-engineering-pulumi-components/0.4.1.dev67-0.4.1.dev7/README.md --exclude *.pyd
+[2024-05-28 15:44:12] INFO root fetch - processPackages [chellow]: Remove: archive file [/home/abi/fetcher/tmp/chellow-2826.tar.gz]
+[2024-05-28 15:44:12] INFO root fetch - processPackages [chellow]: Remove: archive file [/home/abi/fetcher/tmp/chellow-2827.tar.gz]
+[2024-05-28 15:44:12] INFO root fetch - main [MainThread]: End processing [chellow]: success
+[2024-05-28 15:44:12] INFO root fetch - processPackages [data-engineering-pulumi-components]: Remove: archive file [/home/abi/fetcher/tmp/data_engineering_pulumi_components-0.4.1.dev67.tar.gz]
+[2024-05-28 15:44:12] INFO root fetch - processPackages [data-engineering-pulumi-components]: Remove: archive file [/home/abi/fetcher/tmp/data-engineering-pulumi-components-0.4.1.dev7.tar.gz]
+[2024-05-28 15:44:12] INFO root fetch - main [MainThread]: End processing [data-engineering-pulumi-components]: success
+[2024-05-28 15:44:12] INFO root fetch - main [MainThread]: Store serial: [23412104]
