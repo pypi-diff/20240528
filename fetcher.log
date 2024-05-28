@@ -21593,3 +21593,170 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 15:57:42] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-workflow-sdk-preview-0.1.996.tar.gz]
 [2024-05-28 15:57:42] INFO root fetch - main [MainThread]: End processing [lusid-workflow-sdk-preview]: success
 [2024-05-28 15:57:42] INFO root fetch - main [MainThread]: Store serial: [23412299]
+[2024-05-28 15:59:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23412299]
+[2024-05-28 15:59:51] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2024-05-28 15:59:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dragonfly-energy
+[2024-05-28 15:59:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crispr-millipede
+[2024-05-28 15:59:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyneople
+[2024-05-28 15:59:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openlineage-airflow
+[2024-05-28 15:59:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yeref
+[2024-05-28 15:59:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: DLMS-SPODES-client
+[2024-05-28 15:59:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: airbyte-source-google-search-console
+[2024-05-28 15:59:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openlineage-dagster
+[2024-05-28 15:59:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: openlineage-dbt
+[2024-05-28 15:59:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: openlineage-integration-common
+[2024-05-28 15:59:51] INFO root fetch - processPackages [DLMS-SPODES-client]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-28 15:59:51] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-28 15:59:51] INFO root fetch - processPackages [pyneople]: New version: [0.4.0] Old Version: [0.3.9]
+[2024-05-28 15:59:51] INFO root fetch - processPackages [DLMS-SPODES-client]: Downloading https://files.pythonhosted.org/packages/28/f9/a71d203b558a8f4dfca3e0b587dcffd1d25bdeb22215d058afbd23fe5938/DLMS_SPODES_client-0.8.8.tar.gz
+[2024-05-28 15:59:51] INFO root fetch - processPackages [airbyte-source-google-search-console]: New version: [1.4.3] Old Version: [1.4.2]
+[2024-05-28 15:59:51] INFO root fetch - processPackages [crispr-millipede]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-28 15:59:51] INFO root fetch - processPackages [openlineage-airflow]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-28 15:59:51] INFO root fetch - processPackages [openlineage-dagster]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-28 15:59:51] INFO root fetch - processPackages [openlineage-dbt]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-28 15:59:51] INFO root fetch - processPackages [openlineage-integration-common]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-28 15:59:51] INFO root fetch - processPackages [dragonfly-energy]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-28 15:59:52] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-28 15:59:52] INFO root fetch - processPackages [pyneople]: Downloading https://files.pythonhosted.org/packages/ba/39/56b0a143b318bb7d533a591880c956e95a38a22da23877704e33aee301a5/pyneople-0.3.9.tar.gz
+[2024-05-28 15:59:52] INFO root fetch - processPackages [crispr-millipede]: Downloading https://files.pythonhosted.org/packages/d2/62/556b1762ede971ce05ca3afa45c3b0967c051c4a909a5f4dcdad0e080b1c/crispr_millipede-0.1.8.tar.gz
+[2024-05-28 15:59:52] INFO root fetch - processPackages [openlineage-dagster]: Downloading https://files.pythonhosted.org/packages/de/44/54a8bc6472c867791dbc5f5dc94285edd81c8ea685640141fed0c0cb6385/openlineage-dagster-1.9.0.tar.gz
+[2024-05-28 15:59:52] INFO root fetch - processPackages [DLMS-SPODES-client]: Downloading https://files.pythonhosted.org/packages/7d/4f/472aa1bb34fcd9b88d1e6b5a48a4b6785f2c83c28e2f5d199233c734da4a/DLMS_SPODES_client-0.8.9.tar.gz
+[2024-05-28 15:59:52] INFO root fetch - processPackages [airbyte-source-google-search-console]: Downloading https://files.pythonhosted.org/packages/64/d5/be339f8cf54818691616a1051933891218d164f526407909185be05d35f5/airbyte_source_google_search_console-1.4.2.tar.gz
+[2024-05-28 15:59:52] INFO root fetch - processPackages [openlineage-airflow]: Downloading https://files.pythonhosted.org/packages/ba/bf/b987f396e0030d26381b274cb563fa0a8e9f08eec133d655f63d60f59838/openlineage-airflow-1.9.0.tar.gz
+[2024-05-28 15:59:52] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/20/4e/115840f938ee254b23bd515351ba786228441464717f8557431f914e75f4/dragonfly-energy-1.9.8.tar.gz
+[2024-05-28 15:59:52] INFO root fetch - processPackages [openlineage-integration-common]: Downloading https://files.pythonhosted.org/packages/a7/0a/f88d91344b6cb71bca65d29211f80b978d9e02857c7cfce55d7a197ddb43/openlineage-integration-common-1.9.0.tar.gz
+[2024-05-28 15:59:52] INFO root fetch - processPackages [openlineage-dbt]: Downloading https://files.pythonhosted.org/packages/a2/fe/6c2fa3a9ed8edda2c46800731a5b8fa14df7f523c91a613e09f69658b6bc/openlineage-dbt-1.9.0.tar.gz
+[2024-05-28 15:59:52] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-28 15:59:52] INFO root fetch - processPackages [DLMS-SPODES-client]: executing diffoscope
+[2024-05-28 15:59:52] INFO root fetch - processPackages [DLMS-SPODES-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES_client-0.8.8.tar.gz tmp/DLMS_SPODES_client-0.8.9.tar.gz --markdown 20240528/D/DLMS-SPODES-client/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-28 15:59:52] INFO root fetch - processPackages [crispr-millipede]: Downloading https://files.pythonhosted.org/packages/cd/53/f1403004afff1119d4b0ac2858ea4d7211ec675a89b774f61f8394ecade0/crispr_millipede-0.1.9.tar.gz
+[2024-05-28 15:59:52] INFO root fetch - processPackages [pyneople]: Downloading https://files.pythonhosted.org/packages/c2/d7/a8688d5dd8412cc3244c4eec89f32d9520942d9de5aba085e509d8096f8f/pyneople-0.4.0.tar.gz
+[2024-05-28 15:59:52] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-28 15:59:52] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240528/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-28 15:59:52] INFO root fetch - processPackages [airbyte-source-google-search-console]: Downloading https://files.pythonhosted.org/packages/b2/9a/877fcaaf588dda344d17d0365d9369b767c34c59f85f3b0b81b95e15f672/airbyte_source_google_search_console-1.4.3.tar.gz
+[2024-05-28 15:59:52] INFO root fetch - processPackages [openlineage-dagster]: Downloading https://files.pythonhosted.org/packages/4a/59/332d57e6dc56dc962a7fab17917e415d4930dadbb83a98baf28ddf95cebe/openlineage-dagster-1.9.1.tar.gz
+[2024-05-28 15:59:52] INFO root fetch - processPackages [openlineage-airflow]: Downloading https://files.pythonhosted.org/packages/34/2f/6bbf7e764501f09dbb370481a2fd6e4bbf4406f3b39f3bb66f1c707cd899/openlineage-airflow-1.9.1.tar.gz
+[2024-05-28 15:59:52] INFO root fetch - processPackages [crispr-millipede]: executing diffoscope
+[2024-05-28 15:59:52] INFO root fetch - processPackages [crispr-millipede]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crispr_millipede-0.1.8.tar.gz tmp/crispr_millipede-0.1.9.tar.gz --markdown 20240528/c/crispr-millipede/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-28 15:59:52] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/09/b6/c12f13159c5beb3b855a32f792faef162ad37358d2e0d3311cbd68a969db/dragonfly-energy-1.9.9.tar.gz
+[2024-05-28 15:59:52] INFO root fetch - processPackages [pyneople]: executing diffoscope
+[2024-05-28 15:59:52] INFO root fetch - processPackages [pyneople]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyneople-0.3.9.tar.gz tmp/pyneople-0.4.0.tar.gz --markdown 20240528/p/pyneople/0.3.9-0.4.0/README.md --exclude *.pyd
+[2024-05-28 15:59:52] INFO root fetch - processPackages [openlineage-dbt]: Downloading https://files.pythonhosted.org/packages/3e/4e/80aae9754694e7ea98b5d8200b44cb394e7ea08c8f2eb1f65d5066bbba37/openlineage-dbt-1.9.1.tar.gz
+[2024-05-28 15:59:52] INFO root fetch - processPackages [airbyte-source-google-search-console]: executing diffoscope
+[2024-05-28 15:59:52] INFO root fetch - processPackages [airbyte-source-google-search-console]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_google_search_console-1.4.2.tar.gz tmp/airbyte_source_google_search_console-1.4.3.tar.gz --markdown 20240528/a/airbyte-source-google-search-console/1.4.2-1.4.3/README.md --exclude *.pyd
+[2024-05-28 15:59:52] INFO root fetch - processPackages [openlineage-integration-common]: Downloading https://files.pythonhosted.org/packages/82/5e/4221d7b9a0df4176c88356825e0b4196d97a93b3ea2de9c7af54b4e7af70/openlineage-integration-common-1.9.1.tar.gz
+[2024-05-28 15:59:52] INFO root fetch - processPackages [openlineage-dagster]: executing diffoscope
+[2024-05-28 15:59:52] INFO root fetch - processPackages [openlineage-dagster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlineage-dagster-1.9.0.tar.gz tmp/openlineage-dagster-1.9.1.tar.gz --markdown 20240528/o/openlineage-dagster/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-28 15:59:52] INFO root fetch - processPackages [openlineage-airflow]: executing diffoscope
+[2024-05-28 15:59:52] INFO root fetch - processPackages [openlineage-airflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlineage-airflow-1.9.0.tar.gz tmp/openlineage-airflow-1.9.1.tar.gz --markdown 20240528/o/openlineage-airflow/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-28 15:59:52] INFO root fetch - processPackages [openlineage-integration-common]: executing diffoscope
+[2024-05-28 15:59:52] INFO root fetch - processPackages [openlineage-integration-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlineage-integration-common-1.9.0.tar.gz tmp/openlineage-integration-common-1.9.1.tar.gz --markdown 20240528/o/openlineage-integration-common/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-28 15:59:52] INFO root fetch - processPackages [openlineage-dbt]: executing diffoscope
+[2024-05-28 15:59:52] INFO root fetch - processPackages [openlineage-dbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlineage-dbt-1.9.0.tar.gz tmp/openlineage-dbt-1.9.1.tar.gz --markdown 20240528/o/openlineage-dbt/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-28 15:59:53] INFO root fetch - processPackages [dragonfly-energy]: executing diffoscope
+[2024-05-28 15:59:53] INFO root fetch - processPackages [dragonfly-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-energy-1.9.8.tar.gz tmp/dragonfly-energy-1.9.9.tar.gz --markdown 20240528/d/dragonfly-energy/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-05-28 15:59:53] INFO root fetch - processPackages [DLMS-SPODES-client]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES_client-0.8.8.tar.gz]
+[2024-05-28 15:59:53] INFO root fetch - processPackages [DLMS-SPODES-client]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES_client-0.8.9.tar.gz]
+[2024-05-28 15:59:53] INFO root fetch - processPackages [DLMS-SPODES-client]: Start processing: openlineage-python
+[2024-05-28 15:59:53] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES-client]: success
+[2024-05-28 15:59:53] INFO root fetch - processPackages [crispr-millipede]: Remove: archive file [/home/abi/fetcher/tmp/crispr_millipede-0.1.8.tar.gz]
+[2024-05-28 15:59:53] INFO root fetch - processPackages [crispr-millipede]: Remove: archive file [/home/abi/fetcher/tmp/crispr_millipede-0.1.9.tar.gz]
+[2024-05-28 15:59:53] INFO root fetch - processPackages [crispr-millipede]: Start processing: openlineage-sql
+[2024-05-28 15:59:53] INFO root fetch - main [MainThread]: End processing [crispr-millipede]: success
+[2024-05-28 15:59:53] INFO root fetch - processPackages [openlineage-python]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-28 15:59:53] INFO root fetch - processPackages [airbyte-source-google-search-console]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_google_search_console-1.4.2.tar.gz]
+[2024-05-28 15:59:53] INFO root fetch - processPackages [airbyte-source-google-search-console]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_google_search_console-1.4.3.tar.gz]
+[2024-05-28 15:59:53] INFO root fetch - processPackages [airbyte-source-google-search-console]: Start processing: research-task
+[2024-05-28 15:59:53] INFO root fetch - main [MainThread]: End processing [airbyte-source-google-search-console]: success
+[2024-05-28 15:59:53] INFO root fetch - processPackages [pyneople]: Remove: archive file [/home/abi/fetcher/tmp/pyneople-0.3.9.tar.gz]
+[2024-05-28 15:59:53] INFO root fetch - processPackages [pyneople]: Remove: archive file [/home/abi/fetcher/tmp/pyneople-0.4.0.tar.gz]
+[2024-05-28 15:59:53] INFO root fetch - processPackages [pyneople]: Start processing: yuuz12-sdk
+[2024-05-28 15:59:53] INFO root fetch - main [MainThread]: End processing [pyneople]: success
+[2024-05-28 15:59:53] INFO root fetch - processPackages [openlineage-sql]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-28 15:59:53] INFO root fetch - processPackages [research-task]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-28 15:59:53] INFO root fetch - processPackages [yuuz12-sdk]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-28 15:59:53] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-28 15:59:53] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-28 15:59:53] INFO root fetch - processPackages [yeref]: Start processing: nlpx
+[2024-05-28 15:59:53] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-28 15:59:53] INFO root fetch - processPackages [nlpx]: New version: [1.2.3] Old Version: [1.2.2]
+[2024-05-28 15:59:53] INFO root fetch - processPackages [openlineage-python]: Downloading https://files.pythonhosted.org/packages/09/c5/dd9ceac67933ecdd5c0acc48a146bfe2e03fc7070af4f2f2c2904d14458a/openlineage_python-1.9.0.tar.gz
+[2024-05-28 15:59:53] INFO root fetch - processPackages [openlineage-dagster]: Remove: archive file [/home/abi/fetcher/tmp/openlineage-dagster-1.9.0.tar.gz]
+[2024-05-28 15:59:53] INFO root fetch - processPackages [openlineage-dagster]: Remove: archive file [/home/abi/fetcher/tmp/openlineage-dagster-1.9.1.tar.gz]
+[2024-05-28 15:59:53] INFO root fetch - processPackages [openlineage-dagster]: Start processing: prvict
+[2024-05-28 15:59:53] INFO root fetch - main [MainThread]: End processing [openlineage-dagster]: success
+[2024-05-28 15:59:53] INFO root fetch - processPackages [research-task]: Downloading https://files.pythonhosted.org/packages/24/bc/240633e87da5aac51d5107586cc9befbe6b8e1d5bdc97719ec1a474c6bc4/research-task-0.1.1.tar.gz
+[2024-05-28 15:59:53] INFO root fetch - processPackages [openlineage-airflow]: Remove: archive file [/home/abi/fetcher/tmp/openlineage-airflow-1.9.0.tar.gz]
+[2024-05-28 15:59:53] INFO root fetch - processPackages [openlineage-airflow]: Remove: archive file [/home/abi/fetcher/tmp/openlineage-airflow-1.9.1.tar.gz]
+[2024-05-28 15:59:53] INFO root fetch - processPackages [openlineage-airflow]: Start processing: zndraw
+[2024-05-28 15:59:53] INFO root fetch - main [MainThread]: End processing [openlineage-airflow]: success
+[2024-05-28 15:59:53] INFO root fetch - processPackages [openlineage-dbt]: Remove: archive file [/home/abi/fetcher/tmp/openlineage-dbt-1.9.0.tar.gz]
+[2024-05-28 15:59:53] INFO root fetch - processPackages [openlineage-dbt]: Remove: archive file [/home/abi/fetcher/tmp/openlineage-dbt-1.9.1.tar.gz]
+[2024-05-28 15:59:53] INFO root fetch - processPackages [openlineage-dbt]: Start processing: django-aparnik
+[2024-05-28 15:59:53] INFO root fetch - main [MainThread]: End processing [openlineage-dbt]: success
+[2024-05-28 15:59:53] INFO root fetch - processPackages [prvict]: New version: [0.7.4] Old Version: [0.7.3]
+[2024-05-28 15:59:53] INFO root fetch - processPackages [openlineage-integration-common]: Remove: archive file [/home/abi/fetcher/tmp/openlineage-integration-common-1.9.0.tar.gz]
+[2024-05-28 15:59:53] INFO root fetch - processPackages [openlineage-integration-common]: Remove: archive file [/home/abi/fetcher/tmp/openlineage-integration-common-1.9.1.tar.gz]
+[2024-05-28 15:59:53] INFO root fetch - processPackages [openlineage-integration-common]: Start processing: vllm-tgis-adapter
+[2024-05-28 15:59:53] INFO root fetch - main [MainThread]: End processing [openlineage-integration-common]: success
+[2024-05-28 15:59:54] INFO root fetch - processPackages [nlpx]: Downloading https://files.pythonhosted.org/packages/33/7f/e130e39617cb352ce4e8495f4aee0c185f34b45d85bbc53c987b18b166cd/nlpx-1.2.2.tar.gz
+[2024-05-28 15:59:54] INFO root fetch - processPackages [openlineage-sql]: Downloading https://files.pythonhosted.org/packages/8d/0d/bcb13783610d90c4ea7d1cf5184ae5e378458030126aa94084f6db08eedf/openlineage_sql-1.9.0.tar.gz
+[2024-05-28 15:59:54] INFO root fetch - processPackages [yuuz12-sdk]: Downloading https://files.pythonhosted.org/packages/aa/01/4400c50fcbc1d51ad9a7b20fb6bc3e62d99ae8fc9e611620d8dd8bc39ccc/yuuz12_sdk-0.1.0.tar.gz
+[2024-05-28 15:59:54] INFO root fetch - processPackages [dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-energy-1.9.8.tar.gz]
+[2024-05-28 15:59:54] INFO root fetch - processPackages [dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-energy-1.9.9.tar.gz]
+[2024-05-28 15:59:54] INFO root fetch - processPackages [dragonfly-energy]: Start processing: cloudlift
+[2024-05-28 15:59:54] INFO root fetch - main [MainThread]: End processing [dragonfly-energy]: success
+[2024-05-28 15:59:54] INFO root fetch - processPackages [zndraw]: New version: [0.4.0a0] Old Version: [0.3.0a0]
+[2024-05-28 15:59:54] WARNING root fetch - processPackages [django-aparnik]: Skipping, unable to determine old version
+[2024-05-28 15:59:54] INFO root fetch - main [MainThread]: End processing [django-aparnik] error
+[2024-05-28 15:59:54] WARNING root fetch - processPackages [vllm-tgis-adapter]: Skipping, unable to determine old version
+[2024-05-28 15:59:54] INFO root fetch - main [MainThread]: End processing [vllm-tgis-adapter] error
+[2024-05-28 15:59:54] INFO root fetch - processPackages [cloudlift]: New version: [2.0.6] Old Version: [2.0.5]
+[2024-05-28 15:59:54] INFO root fetch - processPackages [research-task]: Downloading https://files.pythonhosted.org/packages/2e/d7/06186a46c7ae20353bceb27104e24f05cffddaad7729d08de3336a6bbd61/research-task-0.1.2.tar.gz
+[2024-05-28 15:59:54] INFO root fetch - processPackages [prvict]: Downloading https://files.pythonhosted.org/packages/02/51/5a84b2259db3ba3971f8f1150eb9667c631afb1c6efac7660dc70f893009/prvict-0.7.3.tar.gz
+[2024-05-28 15:59:54] INFO root fetch - processPackages [openlineage-python]: Downloading https://files.pythonhosted.org/packages/0d/50/2bc9ecb4a575359e59df3edf249fd9cd19c63e2091b659b385c1eff9694d/openlineage_python-1.9.1.tar.gz
+[2024-05-28 15:59:54] INFO root fetch - processPackages [zndraw]: Downloading https://files.pythonhosted.org/packages/78/65/673d011645d76df32cf210ff016567707916774cba50015e68f5461aaa10/zndraw-0.3.0a0.tar.gz
+[2024-05-28 15:59:54] INFO root fetch - processPackages [research-task]: executing diffoscope
+[2024-05-28 15:59:54] INFO root fetch - processPackages [research-task]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/research-task-0.1.1.tar.gz tmp/research-task-0.1.2.tar.gz --markdown 20240528/r/research-task/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-28 15:59:54] INFO root fetch - processPackages [yuuz12-sdk]: Downloading https://files.pythonhosted.org/packages/b8/1e/ee1528dbb4ed6be2b4bf68fdf2de48a8652ee2af301d08e13d1c5c1346c1/yuuz12_sdk-0.1.1.tar.gz
+[2024-05-28 15:59:54] INFO root fetch - processPackages [nlpx]: Downloading https://files.pythonhosted.org/packages/0e/0c/aeafb6f1728bedd11f3bd06eb9e12c88bce4b14b1056a2bf93977e654730/nlpx-1.2.3.tar.gz
+[2024-05-28 15:59:54] INFO root fetch - processPackages [cloudlift]: Downloading https://files.pythonhosted.org/packages/ed/25/72e3f224cb9a238f9379e6d6b423a27bbabb32e466dc6878a869b25ff2bc/cloudlift-2.0.5.tar.gz
+[2024-05-28 15:59:54] INFO root fetch - processPackages [openlineage-python]: executing diffoscope
+[2024-05-28 15:59:54] INFO root fetch - processPackages [openlineage-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlineage_python-1.9.0.tar.gz tmp/openlineage_python-1.9.1.tar.gz --markdown 20240528/o/openlineage-python/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-28 15:59:54] INFO root fetch - processPackages [yuuz12-sdk]: executing diffoscope
+[2024-05-28 15:59:54] INFO root fetch - processPackages [yuuz12-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yuuz12_sdk-0.1.0.tar.gz tmp/yuuz12_sdk-0.1.1.tar.gz --markdown 20240528/y/yuuz12-sdk/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-28 15:59:54] INFO root fetch - processPackages [openlineage-sql]: Downloading https://files.pythonhosted.org/packages/b9/98/e948df30955be5eea0c301fe222356def6949c684c4c4b81445c43542ea7/openlineage_sql-1.9.1.tar.gz
+[2024-05-28 15:59:54] INFO root fetch - processPackages [nlpx]: executing diffoscope
+[2024-05-28 15:59:54] INFO root fetch - processPackages [nlpx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlpx-1.2.2.tar.gz tmp/nlpx-1.2.3.tar.gz --markdown 20240528/n/nlpx/1.2.2-1.2.3/README.md --exclude *.pyd
+[2024-05-28 15:59:54] INFO root fetch - processPackages [prvict]: Downloading https://files.pythonhosted.org/packages/dc/cc/7c42c5939484a93669951edcd219e14bba37b1d28a9d0daff4f93e09ad7a/prvict-0.7.4.tar.gz
+[2024-05-28 15:59:54] INFO root fetch - processPackages [openlineage-sql]: executing diffoscope
+[2024-05-28 15:59:54] INFO root fetch - processPackages [openlineage-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlineage_sql-1.9.0.tar.gz tmp/openlineage_sql-1.9.1.tar.gz --markdown 20240528/o/openlineage-sql/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-28 15:59:54] INFO root fetch - processPackages [prvict]: executing diffoscope
+[2024-05-28 15:59:54] INFO root fetch - processPackages [prvict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prvict-0.7.3.tar.gz tmp/prvict-0.7.4.tar.gz --markdown 20240528/p/prvict/0.7.3-0.7.4/README.md --exclude *.pyd
+[2024-05-28 15:59:54] INFO root fetch - processPackages [cloudlift]: Downloading https://files.pythonhosted.org/packages/8f/04/1aed4e0a405577aaa01c43b54986cd57196daadcb65b87144fc807b6440c/cloudlift-2.0.6.tar.gz
+[2024-05-28 15:59:55] INFO root fetch - processPackages [research-task]: Remove: archive file [/home/abi/fetcher/tmp/research-task-0.1.1.tar.gz]
+[2024-05-28 15:59:55] INFO root fetch - processPackages [research-task]: Remove: archive file [/home/abi/fetcher/tmp/research-task-0.1.2.tar.gz]
+[2024-05-28 15:59:55] INFO root fetch - main [MainThread]: End processing [research-task]: success
+[2024-05-28 15:59:55] INFO root fetch - processPackages [cloudlift]: executing diffoscope
+[2024-05-28 15:59:55] INFO root fetch - processPackages [cloudlift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudlift-2.0.5.tar.gz tmp/cloudlift-2.0.6.tar.gz --markdown 20240528/c/cloudlift/2.0.5-2.0.6/README.md --exclude *.pyd
+[2024-05-28 15:59:55] INFO root fetch - processPackages [yuuz12-sdk]: Remove: archive file [/home/abi/fetcher/tmp/yuuz12_sdk-0.1.0.tar.gz]
+[2024-05-28 15:59:55] INFO root fetch - processPackages [yuuz12-sdk]: Remove: archive file [/home/abi/fetcher/tmp/yuuz12_sdk-0.1.1.tar.gz]
+[2024-05-28 15:59:55] INFO root fetch - main [MainThread]: End processing [yuuz12-sdk]: success
+[2024-05-28 15:59:55] INFO root fetch - processPackages [nlpx]: Remove: archive file [/home/abi/fetcher/tmp/nlpx-1.2.2.tar.gz]
+[2024-05-28 15:59:55] INFO root fetch - processPackages [nlpx]: Remove: archive file [/home/abi/fetcher/tmp/nlpx-1.2.3.tar.gz]
+[2024-05-28 15:59:55] INFO root fetch - main [MainThread]: End processing [nlpx]: success
+[2024-05-28 15:59:55] INFO root fetch - processPackages [openlineage-python]: Remove: archive file [/home/abi/fetcher/tmp/openlineage_python-1.9.0.tar.gz]
+[2024-05-28 15:59:55] INFO root fetch - processPackages [openlineage-python]: Remove: archive file [/home/abi/fetcher/tmp/openlineage_python-1.9.1.tar.gz]
+[2024-05-28 15:59:55] INFO root fetch - main [MainThread]: End processing [openlineage-python]: success
+[2024-05-28 15:59:55] INFO root fetch - processPackages [prvict]: Remove: archive file [/home/abi/fetcher/tmp/prvict-0.7.3.tar.gz]
+[2024-05-28 15:59:55] INFO root fetch - processPackages [prvict]: Remove: archive file [/home/abi/fetcher/tmp/prvict-0.7.4.tar.gz]
+[2024-05-28 15:59:55] INFO root fetch - main [MainThread]: End processing [prvict]: success
+[2024-05-28 15:59:55] INFO root fetch - processPackages [openlineage-sql]: Remove: archive file [/home/abi/fetcher/tmp/openlineage_sql-1.9.0.tar.gz]
+[2024-05-28 15:59:55] INFO root fetch - processPackages [openlineage-sql]: Remove: archive file [/home/abi/fetcher/tmp/openlineage_sql-1.9.1.tar.gz]
+[2024-05-28 15:59:55] INFO root fetch - main [MainThread]: End processing [openlineage-sql]: success
+[2024-05-28 15:59:55] WARNING root fetch - processPackages [zndraw]: Skipping package: exceeds size limit 17326257>=10485760
+[2024-05-28 15:59:55] INFO root fetch - main [MainThread]: End processing [zndraw] error
+[2024-05-28 15:59:55] INFO root fetch - processPackages [cloudlift]: Remove: archive file [/home/abi/fetcher/tmp/cloudlift-2.0.5.tar.gz]
+[2024-05-28 15:59:55] INFO root fetch - processPackages [cloudlift]: Remove: archive file [/home/abi/fetcher/tmp/cloudlift-2.0.6.tar.gz]
+[2024-05-28 15:59:55] INFO root fetch - main [MainThread]: End processing [cloudlift]: success
+[2024-05-28 15:59:55] INFO root fetch - main [MainThread]: Store serial: [23412362]
