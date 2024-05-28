@@ -16454,3 +16454,87 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 12:54:46] INFO root fetch - processPackages [yc-aws-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/yc_aws_wrapper-0.0.3.tar.gz]
 [2024-05-28 12:54:46] INFO root fetch - main [MainThread]: End processing [yc-aws-wrapper]: success
 [2024-05-28 12:54:46] INFO root fetch - main [MainThread]: Store serial: [23409847]
+[2024-05-28 12:56:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23409847]
+[2024-05-28 12:56:56] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-28 12:56:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: behaverse
+[2024-05-28 12:56:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tidal-algorithmic-mixes
+[2024-05-28 12:56:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: streamlit-islands
+[2024-05-28 12:56:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nuance
+[2024-05-28 12:56:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: swh.journal
+[2024-05-28 12:56:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cerebrumscanner
+[2024-05-28 12:56:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: portrait
+[2024-05-28 12:56:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ofscraper
+[2024-05-28 12:56:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: erp-apis-temp
+[2024-05-28 12:56:56] INFO root fetch - processPackages [tidal-algorithmic-mixes]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-28 12:56:56] INFO root fetch - processPackages [nuance]: New version: [0.7.0] Old Version: [0.6.1]
+[2024-05-28 12:56:56] INFO root fetch - processPackages [streamlit-islands]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-28 12:56:56] INFO root fetch - processPackages [erp-apis-temp]: New version: [1.0.18] Old Version: [1.0.17]
+[2024-05-28 12:56:56] INFO root fetch - processPackages [cerebrumscanner]: New version: [0.0.1b5] Old Version: [0.0.1b4]
+[2024-05-28 12:56:56] INFO root fetch - processPackages [ofscraper]: New version: [3.9.8] Old Version: [3.9.7]
+[2024-05-28 12:56:56] INFO root fetch - processPackages [portrait]: New version: [0.0.5b0] Old Version: [0.0.4b0]
+[2024-05-28 12:56:56] INFO root fetch - processPackages [behaverse]: New version: [0.0.6.dev2] Old Version: [0.0.6.dev1]
+[2024-05-28 12:56:56] INFO root fetch - processPackages [tidal-algorithmic-mixes]: Downloading https://files.pythonhosted.org/packages/dd/c1/eb8961af3b7c4b5acc31ed4d9d54a7800717ab96e30f6681fa24cc41b0aa/tidal_algorithmic_mixes-0.1.0.tar.gz
+[2024-05-28 12:56:56] INFO root fetch - processPackages [swh.journal]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-05-28 12:56:56] INFO root fetch - processPackages [nuance]: Downloading https://files.pythonhosted.org/packages/bf/c6/8ebb4765d60bf47914bb48596b56fab42e8e394acd08c7d7a74cf33c73c4/nuance-0.6.1.tar.gz
+[2024-05-28 12:56:56] INFO root fetch - processPackages [erp-apis-temp]: Downloading https://files.pythonhosted.org/packages/c7/08/dadaf0bf3fb61ff21f81efeab956de2991d2f1ca37a81e0cf7d6f6321d02/erp_apis_temp-1.0.17-py3-none-any.whl
+[2024-05-28 12:56:56] INFO root fetch - processPackages [streamlit-islands]: Downloading https://files.pythonhosted.org/packages/a9/16/300005be338338914204b854205f3f02cfd3261b50abdad1fb5257faf24a/streamlit-islands-0.0.6.tar.gz
+[2024-05-28 12:56:56] INFO root fetch - processPackages [cerebrumscanner]: Downloading https://files.pythonhosted.org/packages/09/0e/aca144d18cb979479365af698800e8f486240a85896ac098e3de2d515c34/cerebrumscanner-0.0.1b4.tar.gz
+[2024-05-28 12:56:57] INFO root fetch - processPackages [portrait]: Downloading https://files.pythonhosted.org/packages/a7/cd/d5a04f94ebcf33d1866946c85d0dc427c3a40cd5f915fb40671db61bdff3/portrait-0.0.4b0.tar.gz
+[2024-05-28 12:56:57] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/b4/d3/4eb23c7e5506667ed2162ea817fb7dd974fde0ec0da1cb0544567176c380/ofscraper-3.9.7.tar.gz
+[2024-05-28 12:56:57] INFO root fetch - processPackages [behaverse]: Downloading https://files.pythonhosted.org/packages/d2/27/bf2dd5913692cf308b231862c0d3c487f0e7b9fa6f58534971d3dc3e6b15/behaverse-0.0.6.dev1.tar.gz
+[2024-05-28 12:56:57] INFO root fetch - processPackages [swh.journal]: Downloading https://files.pythonhosted.org/packages/70/ea/b9cf6a0ab0aae7b0af002d34528207660e04e1c8ee4e7dc423b643187460/swh.journal-1.5.0.tar.gz
+[2024-05-28 12:56:57] INFO root fetch - processPackages [cerebrumscanner]: Downloading https://files.pythonhosted.org/packages/8a/51/713ae1f07cac55b7edca3b6ac906e419d23cb2067e463cd9a20a38809793/cerebrumscanner-0.0.1b5.tar.gz
+[2024-05-28 12:56:57] INFO root fetch - processPackages [streamlit-islands]: Downloading https://files.pythonhosted.org/packages/f0/cd/46a83cabcb42101cc6006271d5feab6f815827239ab5a3f1b48397bf7c9b/streamlit-islands-0.0.7.tar.gz
+[2024-05-28 12:56:57] INFO root fetch - processPackages [tidal-algorithmic-mixes]: Downloading https://files.pythonhosted.org/packages/73/74/6076586d3fb511716f642918e303af12cbe47282d1881bbc893b7abd6f94/tidal_algorithmic_mixes-0.1.1.tar.gz
+[2024-05-28 12:56:57] INFO root fetch - processPackages [nuance]: Downloading https://files.pythonhosted.org/packages/6d/f0/498780fcb0ce2099f4756a4e3f1338b2ba237c3015e91a528f3eb7bf14c9/nuance-0.7.0.tar.gz
+[2024-05-28 12:56:57] INFO root fetch - processPackages [erp-apis-temp]: Downloading https://files.pythonhosted.org/packages/c7/cc/020acb3eeca8886ce8249ae8a9bb61fc58b9f1288ca8c663eb7317245357/erp_apis_temp-1.0.18-py3-none-any.whl
+[2024-05-28 12:56:57] INFO root fetch - processPackages [cerebrumscanner]: executing diffoscope
+[2024-05-28 12:56:57] INFO root fetch - processPackages [cerebrumscanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cerebrumscanner-0.0.1b4.tar.gz tmp/cerebrumscanner-0.0.1b5.tar.gz --markdown 20240528/c/cerebrumscanner/0.0.1b4-0.0.1b5/README.md --exclude *.pyd
+[2024-05-28 12:56:57] INFO root fetch - processPackages [streamlit-islands]: executing diffoscope
+[2024-05-28 12:56:57] INFO root fetch - processPackages [streamlit-islands]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-islands-0.0.6.tar.gz tmp/streamlit-islands-0.0.7.tar.gz --markdown 20240528/s/streamlit-islands/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-28 12:56:57] INFO root fetch - processPackages [portrait]: Downloading https://files.pythonhosted.org/packages/f5/b2/39d6db866fe022df38c304e7eb89ce3fe8cdfaa094400929ccd2aec0ec70/portrait-0.0.5b0.tar.gz
+[2024-05-28 12:56:57] INFO root fetch - processPackages [erp-apis-temp]: executing diffoscope
+[2024-05-28 12:56:57] INFO root fetch - processPackages [erp-apis-temp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erp_apis_temp-1.0.17-py3-none-any.whl.zip tmp/erp_apis_temp-1.0.18-py3-none-any.whl.zip --markdown 20240528/e/erp-apis-temp/1.0.17-1.0.18/README.md --exclude *.pyd
+[2024-05-28 12:56:57] INFO root fetch - processPackages [tidal-algorithmic-mixes]: executing diffoscope
+[2024-05-28 12:56:57] INFO root fetch - processPackages [tidal-algorithmic-mixes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tidal_algorithmic_mixes-0.1.0.tar.gz tmp/tidal_algorithmic_mixes-0.1.1.tar.gz --markdown 20240528/t/tidal-algorithmic-mixes/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-28 12:56:57] INFO root fetch - processPackages [behaverse]: Downloading https://files.pythonhosted.org/packages/65/5c/56c97060cc17fe762cb6a40e2250e698b299896e55707a25f4d75082ffca/behaverse-0.0.6.dev2.tar.gz
+[2024-05-28 12:56:57] INFO root fetch - processPackages [swh.journal]: Downloading https://files.pythonhosted.org/packages/c0/84/ab4689d5d781be17891066ff5ba66c038cc0360557cb9a80c8fd7b39e278/swh_journal-1.5.1.tar.gz
+[2024-05-28 12:56:57] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/f7/40/e5e745935d4b9d1b0beffcda8c7474b1ce4f988a5c49457f9e735da3f015/ofscraper-3.9.8.tar.gz
+[2024-05-28 12:56:57] INFO root fetch - processPackages [nuance]: executing diffoscope
+[2024-05-28 12:56:57] INFO root fetch - processPackages [nuance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nuance-0.6.1.tar.gz tmp/nuance-0.7.0.tar.gz --markdown 20240528/n/nuance/0.6.1-0.7.0/README.md --exclude *.pyd
+[2024-05-28 12:56:57] INFO root fetch - processPackages [behaverse]: executing diffoscope
+[2024-05-28 12:56:57] INFO root fetch - processPackages [behaverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/behaverse-0.0.6.dev1.tar.gz tmp/behaverse-0.0.6.dev2.tar.gz --markdown 20240528/b/behaverse/0.0.6.dev1-0.0.6.dev2/README.md --exclude *.pyd
+[2024-05-28 12:56:57] INFO root fetch - processPackages [portrait]: executing diffoscope
+[2024-05-28 12:56:57] INFO root fetch - processPackages [portrait]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/portrait-0.0.4b0.tar.gz tmp/portrait-0.0.5b0.tar.gz --markdown 20240528/p/portrait/0.0.4b0-0.0.5b0/README.md --exclude *.pyd
+[2024-05-28 12:56:57] INFO root fetch - processPackages [swh.journal]: executing diffoscope
+[2024-05-28 12:56:57] INFO root fetch - processPackages [swh.journal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swh.journal-1.5.0.tar.gz tmp/swh_journal-1.5.1.tar.gz --markdown 20240528/s/swh.journal/1.5.0-1.5.1/README.md --exclude *.pyd
+[2024-05-28 12:56:57] INFO root fetch - processPackages [ofscraper]: executing diffoscope
+[2024-05-28 12:56:57] INFO root fetch - processPackages [ofscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofscraper-3.9.7.tar.gz tmp/ofscraper-3.9.8.tar.gz --markdown 20240528/o/ofscraper/3.9.7-3.9.8/README.md --exclude *.pyd
+[2024-05-28 12:56:58] INFO root fetch - processPackages [cerebrumscanner]: Remove: archive file [/home/abi/fetcher/tmp/cerebrumscanner-0.0.1b4.tar.gz]
+[2024-05-28 12:56:58] INFO root fetch - processPackages [cerebrumscanner]: Remove: archive file [/home/abi/fetcher/tmp/cerebrumscanner-0.0.1b5.tar.gz]
+[2024-05-28 12:56:58] INFO root fetch - main [MainThread]: End processing [cerebrumscanner]: success
+[2024-05-28 12:56:58] INFO root fetch - processPackages [streamlit-islands]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-islands-0.0.6.tar.gz]
+[2024-05-28 12:56:58] INFO root fetch - processPackages [streamlit-islands]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-islands-0.0.7.tar.gz]
+[2024-05-28 12:56:58] INFO root fetch - main [MainThread]: End processing [streamlit-islands]: success
+[2024-05-28 12:56:58] INFO root fetch - processPackages [erp-apis-temp]: Remove: archive file [/home/abi/fetcher/tmp/erp_apis_temp-1.0.17-py3-none-any.whl.zip]
+[2024-05-28 12:56:58] INFO root fetch - processPackages [erp-apis-temp]: Remove: archive file [/home/abi/fetcher/tmp/erp_apis_temp-1.0.18-py3-none-any.whl.zip]
+[2024-05-28 12:56:58] INFO root fetch - main [MainThread]: End processing [erp-apis-temp]: success
+[2024-05-28 12:56:58] INFO root fetch - processPackages [tidal-algorithmic-mixes]: Remove: archive file [/home/abi/fetcher/tmp/tidal_algorithmic_mixes-0.1.0.tar.gz]
+[2024-05-28 12:56:58] INFO root fetch - processPackages [tidal-algorithmic-mixes]: Remove: archive file [/home/abi/fetcher/tmp/tidal_algorithmic_mixes-0.1.1.tar.gz]
+[2024-05-28 12:56:58] INFO root fetch - main [MainThread]: End processing [tidal-algorithmic-mixes]: success
+[2024-05-28 12:56:58] INFO root fetch - processPackages [nuance]: Remove: archive file [/home/abi/fetcher/tmp/nuance-0.6.1.tar.gz]
+[2024-05-28 12:56:58] INFO root fetch - processPackages [nuance]: Remove: archive file [/home/abi/fetcher/tmp/nuance-0.7.0.tar.gz]
+[2024-05-28 12:56:58] INFO root fetch - main [MainThread]: End processing [nuance]: success
+[2024-05-28 12:56:58] INFO root fetch - processPackages [behaverse]: Remove: archive file [/home/abi/fetcher/tmp/behaverse-0.0.6.dev1.tar.gz]
+[2024-05-28 12:56:58] INFO root fetch - processPackages [behaverse]: Remove: archive file [/home/abi/fetcher/tmp/behaverse-0.0.6.dev2.tar.gz]
+[2024-05-28 12:56:58] INFO root fetch - main [MainThread]: End processing [behaverse]: success
+[2024-05-28 12:56:58] INFO root fetch - processPackages [portrait]: Remove: archive file [/home/abi/fetcher/tmp/portrait-0.0.4b0.tar.gz]
+[2024-05-28 12:56:58] INFO root fetch - processPackages [portrait]: Remove: archive file [/home/abi/fetcher/tmp/portrait-0.0.5b0.tar.gz]
+[2024-05-28 12:56:58] INFO root fetch - main [MainThread]: End processing [portrait]: success
+[2024-05-28 12:56:58] INFO root fetch - processPackages [swh.journal]: Remove: archive file [/home/abi/fetcher/tmp/swh.journal-1.5.0.tar.gz]
+[2024-05-28 12:56:58] INFO root fetch - processPackages [swh.journal]: Remove: archive file [/home/abi/fetcher/tmp/swh_journal-1.5.1.tar.gz]
+[2024-05-28 12:56:58] INFO root fetch - main [MainThread]: End processing [swh.journal]: success
+[2024-05-28 12:56:59] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-3.9.7.tar.gz]
+[2024-05-28 12:56:59] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-3.9.8.tar.gz]
+[2024-05-28 12:56:59] INFO root fetch - main [MainThread]: End processing [ofscraper]: success
+[2024-05-28 12:56:59] INFO root fetch - main [MainThread]: Store serial: [23409876]
