@@ -3716,3 +3716,33 @@
 [2024-05-28 04:17:46] INFO root fetch - processPackages [komo]: Remove: archive file [/home/abi/fetcher/tmp/komo-0.2.9.tar.gz]
 [2024-05-28 04:17:46] INFO root fetch - main [MainThread]: End processing [komo]: success
 [2024-05-28 04:17:46] INFO root fetch - main [MainThread]: Store serial: [23404327]
+[2024-05-28 04:19:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23404327]
+[2024-05-28 04:19:55] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-28 04:19:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ipyslides
+[2024-05-28 04:19:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mrd-python
+[2024-05-28 04:19:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hysteria2
+[2024-05-28 04:19:55] INFO root fetch - processPackages [ipyslides]: New version: [3.9.4] Old Version: [3.9.3]
+[2024-05-28 04:19:55] INFO root fetch - processPackages [mrd-python]: New version: [2.0.0rc4] Old Version: [2.0.0rc3]
+[2024-05-28 04:19:55] INFO root fetch - processPackages [hysteria2]: New version: [2.4.4] Old Version: [2.4.3]
+[2024-05-28 04:19:55] INFO root fetch - processPackages [ipyslides]: Downloading https://files.pythonhosted.org/packages/23/38/559acd99c0a4d733ca59ea906eedceb3aac28c1ae6fd38730e8523a0624f/ipyslides-3.9.3.tar.gz
+[2024-05-28 04:19:55] INFO root fetch - processPackages [mrd-python]: Downloading https://files.pythonhosted.org/packages/d7/4a/1fd89a7561cc7f557a10ab0cbb502714ff8105cc51b3ad751b0223b5ef89/mrd_python-2.0.0rc3.tar.gz
+[2024-05-28 04:19:55] INFO root fetch - processPackages [hysteria2]: Downloading https://files.pythonhosted.org/packages/bb/9e/5eea08f8f003f4ab892dc202d5631cc99f97f679aab0e150766553992219/hysteria2-2.4.3.tar.gz
+[2024-05-28 04:19:55] INFO root fetch - processPackages [ipyslides]: Downloading https://files.pythonhosted.org/packages/d2/63/3c16b0cb87d84fbc85015a77a843c710e5a7c72a75060208b17382034e96/ipyslides-3.9.4.tar.gz
+[2024-05-28 04:19:55] INFO root fetch - processPackages [ipyslides]: executing diffoscope
+[2024-05-28 04:19:55] INFO root fetch - processPackages [ipyslides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipyslides-3.9.3.tar.gz tmp/ipyslides-3.9.4.tar.gz --markdown 20240528/i/ipyslides/3.9.3-3.9.4/README.md --exclude *.pyd
+[2024-05-28 04:19:55] INFO root fetch - processPackages [mrd-python]: Downloading https://files.pythonhosted.org/packages/48/e6/a73eb68179a11586532727d3c65b34010ed499d2a8a190983025caee3b4d/mrd_python-2.0.0rc4.tar.gz
+[2024-05-28 04:19:55] INFO root fetch - processPackages [mrd-python]: executing diffoscope
+[2024-05-28 04:19:55] INFO root fetch - processPackages [mrd-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrd_python-2.0.0rc3.tar.gz tmp/mrd_python-2.0.0rc4.tar.gz --markdown 20240528/m/mrd-python/2.0.0rc3-2.0.0rc4/README.md --exclude *.pyd
+[2024-05-28 04:19:56] INFO root fetch - processPackages [hysteria2]: Downloading https://files.pythonhosted.org/packages/f0/f5/fd9f41d7df4e330963d1f32787bf43386012ec761de349068776b981dfe7/hysteria2-2.4.4.tar.gz
+[2024-05-28 04:19:56] INFO root fetch - processPackages [hysteria2]: executing diffoscope
+[2024-05-28 04:19:56] INFO root fetch - processPackages [hysteria2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hysteria2-2.4.3.tar.gz tmp/hysteria2-2.4.4.tar.gz --markdown 20240528/h/hysteria2/2.4.3-2.4.4/README.md --exclude *.pyd
+[2024-05-28 04:19:56] INFO root fetch - processPackages [ipyslides]: Remove: archive file [/home/abi/fetcher/tmp/ipyslides-3.9.3.tar.gz]
+[2024-05-28 04:19:56] INFO root fetch - processPackages [ipyslides]: Remove: archive file [/home/abi/fetcher/tmp/ipyslides-3.9.4.tar.gz]
+[2024-05-28 04:19:56] INFO root fetch - main [MainThread]: End processing [ipyslides]: success
+[2024-05-28 04:19:56] INFO root fetch - processPackages [mrd-python]: Remove: archive file [/home/abi/fetcher/tmp/mrd_python-2.0.0rc3.tar.gz]
+[2024-05-28 04:19:56] INFO root fetch - processPackages [mrd-python]: Remove: archive file [/home/abi/fetcher/tmp/mrd_python-2.0.0rc4.tar.gz]
+[2024-05-28 04:19:56] INFO root fetch - main [MainThread]: End processing [mrd-python]: success
+[2024-05-28 04:19:58] INFO root fetch - processPackages [hysteria2]: Remove: archive file [/home/abi/fetcher/tmp/hysteria2-2.4.3.tar.gz]
+[2024-05-28 04:19:58] INFO root fetch - processPackages [hysteria2]: Remove: archive file [/home/abi/fetcher/tmp/hysteria2-2.4.4.tar.gz]
+[2024-05-28 04:19:58] INFO root fetch - main [MainThread]: End processing [hysteria2]: success
+[2024-05-28 04:19:58] INFO root fetch - main [MainThread]: Store serial: [23404335]
