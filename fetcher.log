@@ -19815,3 +19815,85 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 14:58:01] INFO root fetch - processPackages [edx-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/edx-enterprise-4.9.5.tar.gz]
 [2024-05-28 14:58:01] INFO root fetch - main [MainThread]: End processing [edx-enterprise]: success
 [2024-05-28 14:58:01] INFO root fetch - main [MainThread]: Store serial: [23411466]
+[2024-05-28 15:00:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23411466]
+[2024-05-28 15:00:11] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-28 15:00:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ETH-GTD-cli
+[2024-05-28 15:00:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: si-pph-aes
+[2024-05-28 15:00:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jmpy4
+[2024-05-28 15:00:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oarepo-global-search
+[2024-05-28 15:00:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xklb
+[2024-05-28 15:00:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pt2-gpe
+[2024-05-28 15:00:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cas-tools
+[2024-05-28 15:00:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: datastew
+[2024-05-28 15:00:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: isvirtual
+[2024-05-28 15:00:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdo-sdk-python
+[2024-05-28 15:00:11] INFO root fetch - processPackages [datastew]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-28 15:00:11] INFO root fetch - processPackages [cdo-sdk-python]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-28 15:00:11] ERROR root fetch - processPackages [si-pph-aes]: Unable to get metadata: No such project 'si-pph-aes'
+[2024-05-28 15:00:11] INFO root fetch - processPackages [si-pph-aes]: Start processing: ETH-GTD-cli
+[2024-05-28 15:00:11] INFO root fetch - main [MainThread]: End processing [si-pph-aes] error
+[2024-05-28 15:00:11] INFO root fetch - processPackages [datastew]: Downloading https://files.pythonhosted.org/packages/31/b2/82aa06083b038ecee64199933a3a73d6158583fbbe05741d8523cb7bd91a/datastew-0.1.0.tar.gz
+[2024-05-28 15:00:11] INFO root fetch - processPackages [cas-tools]: New version: [0.0.1.dev9] Old Version: [0.0.1.dev8]
+[2024-05-28 15:00:11] INFO root fetch - processPackages [isvirtual]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-05-28 15:00:11] WARNING root fetch - processPackages [jmpy4]: Skipping, unable to determine old version
+[2024-05-28 15:00:11] INFO root fetch - main [MainThread]: End processing [jmpy4] error
+[2024-05-28 15:00:11] INFO root fetch - processPackages [oarepo-global-search]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-28 15:00:11] ERROR root fetch - processPackages [pt2-gpe]: Unable to get metadata: No such project 'pt2-gpe'
+[2024-05-28 15:00:11] INFO root fetch - processPackages [ETH-GTD-cli]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-28 15:00:11] INFO root fetch - main [MainThread]: End processing [pt2-gpe] error
+[2024-05-28 15:00:11] INFO root fetch - processPackages [ETH-GTD-cli]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-28 15:00:11] INFO root fetch - processPackages [xklb]: New version: [2.8.9] Old Version: [2.8.7]
+[2024-05-28 15:00:11] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/aa/54/d9c631d5702693a0921bbc1c50cad785f8fa75671cabdd662546a416a6b9/cdo-sdk-python-1.0.98.tar.gz
+[2024-05-28 15:00:11] INFO root fetch - processPackages [ETH-GTD-cli]: Downloading https://files.pythonhosted.org/packages/bb/0a/50fa1ec5d25c4299fe860bbee1353c0eb7f1f3a83808556d2c92d59af108/eth_gtd_cli-0.0.98.tar.gz
+[2024-05-28 15:00:11] INFO root fetch - processPackages [ETH-GTD-cli]: Downloading https://files.pythonhosted.org/packages/bb/0a/50fa1ec5d25c4299fe860bbee1353c0eb7f1f3a83808556d2c92d59af108/eth_gtd_cli-0.0.98.tar.gz
+[2024-05-28 15:00:11] INFO root fetch - processPackages [isvirtual]: Downloading https://files.pythonhosted.org/packages/7e/54/919711dadc3a7c6843c60f58dea444bcd2952a57ba8856b9af90324aeb4d/isvirtual-1.1.0.tar.gz
+[2024-05-28 15:00:11] INFO root fetch - processPackages [datastew]: Downloading https://files.pythonhosted.org/packages/19/11/d3c847e0804fc7c2b789e1b5b099967c45e151a4b13ac0711126f5b4e951/datastew-0.1.1.tar.gz
+[2024-05-28 15:00:11] INFO root fetch - processPackages [oarepo-global-search]: Downloading https://files.pythonhosted.org/packages/93/1a/f6c5fabdbce170ffb2334f73ee3f00c884c8f5f9fbbb9abd9d75e7899562/oarepo_global_search-1.0.8.tar.gz
+[2024-05-28 15:00:11] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/9b/76/7267c3f3ac308bacc9e809ed54663a42556e896ff4e2d73a469a15d3556a/cdo-sdk-python-1.0.99.tar.gz
+[2024-05-28 15:00:11] INFO root fetch - processPackages [cas-tools]: Downloading https://files.pythonhosted.org/packages/b9/5e/39f97fb29d99b0ef2f2ffcffe6cab596041f77151661c1a2ce8808c686da/cas-tools-0.0.1.dev8.tar.gz
+[2024-05-28 15:00:11] INFO root fetch - processPackages [isvirtual]: Downloading https://files.pythonhosted.org/packages/96/46/dff4950ad9672f5efe063c27851637ba23848b8a27587e217311709f2b98/isvirtual-1.2.0.tar.gz
+[2024-05-28 15:00:11] INFO root fetch - processPackages [datastew]: executing diffoscope
+[2024-05-28 15:00:11] INFO root fetch - processPackages [datastew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datastew-0.1.0.tar.gz tmp/datastew-0.1.1.tar.gz --markdown 20240528/d/datastew/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-28 15:00:11] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/d0/4c/dd8350e7201f303ad86c28ba6e4c3856a9aebf36175bf2091b4f223b9c8c/xklb-2.8.7.tar.gz
+[2024-05-28 15:00:11] INFO root fetch - processPackages [cdo-sdk-python]: executing diffoscope
+[2024-05-28 15:00:11] INFO root fetch - processPackages [cdo-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdo-sdk-python-1.0.98.tar.gz tmp/cdo-sdk-python-1.0.99.tar.gz --markdown 20240528/c/cdo-sdk-python/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-28 15:00:11] INFO root fetch - processPackages [ETH-GTD-cli]: Downloading https://files.pythonhosted.org/packages/3a/3a/941df551139bad5139862c5d9037c073bb93892398261de84ccbd2737322/eth_gtd_cli-0.0.99.tar.gz
+[2024-05-28 15:00:11] INFO root fetch - processPackages [ETH-GTD-cli]: Downloading https://files.pythonhosted.org/packages/3a/3a/941df551139bad5139862c5d9037c073bb93892398261de84ccbd2737322/eth_gtd_cli-0.0.99.tar.gz
+[2024-05-28 15:00:11] INFO root fetch - processPackages [isvirtual]: executing diffoscope
+[2024-05-28 15:00:11] INFO root fetch - processPackages [isvirtual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isvirtual-1.1.0.tar.gz tmp/isvirtual-1.2.0.tar.gz --markdown 20240528/i/isvirtual/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-05-28 15:00:12] INFO root fetch - processPackages [ETH-GTD-cli]: executing diffoscope
+[2024-05-28 15:00:12] INFO root fetch - processPackages [ETH-GTD-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eth_gtd_cli-0.0.98.tar.gz tmp/eth_gtd_cli-0.0.99.tar.gz --markdown 20240528/E/ETH-GTD-cli/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-28 15:00:12] INFO root fetch - processPackages [ETH-GTD-cli]: executing diffoscope
+[2024-05-28 15:00:12] INFO root fetch - processPackages [ETH-GTD-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eth_gtd_cli-0.0.98.tar.gz tmp/eth_gtd_cli-0.0.99.tar.gz --markdown 20240528/E/ETH-GTD-cli/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-28 15:00:12] INFO root fetch - processPackages [oarepo-global-search]: Downloading https://files.pythonhosted.org/packages/7c/ba/7a09ad7214d2bde0b0e9ec5159c14c1b2d9588143a324c0270838f334f87/oarepo_global_search-1.0.9.tar.gz
+[2024-05-28 15:00:12] INFO root fetch - processPackages [oarepo-global-search]: executing diffoscope
+[2024-05-28 15:00:12] INFO root fetch - processPackages [oarepo-global-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo_global_search-1.0.8.tar.gz tmp/oarepo_global_search-1.0.9.tar.gz --markdown 20240528/o/oarepo-global-search/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-28 15:00:12] INFO root fetch - processPackages [cas-tools]: Downloading https://files.pythonhosted.org/packages/28/ec/5317b3525f1d8446524985a0eafd9be6ebd8d7ada90d82fef5a5830a585f/cas-tools-0.0.1.dev9.tar.gz
+[2024-05-28 15:00:12] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/79/9c/400b6a77dca189a0e6b267e0a874e85e6bc388a14703931b845294411c06/xklb-2.8.9.tar.gz
+[2024-05-28 15:00:12] INFO root fetch - processPackages [cas-tools]: executing diffoscope
+[2024-05-28 15:00:12] INFO root fetch - processPackages [cas-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cas-tools-0.0.1.dev8.tar.gz tmp/cas-tools-0.0.1.dev9.tar.gz --markdown 20240528/c/cas-tools/0.0.1.dev8-0.0.1.dev9/README.md --exclude *.pyd
+[2024-05-28 15:00:12] INFO root fetch - processPackages [datastew]: Remove: archive file [/home/abi/fetcher/tmp/datastew-0.1.0.tar.gz]
+[2024-05-28 15:00:12] INFO root fetch - processPackages [datastew]: Remove: archive file [/home/abi/fetcher/tmp/datastew-0.1.1.tar.gz]
+[2024-05-28 15:00:12] INFO root fetch - main [MainThread]: End processing [datastew]: success
+[2024-05-28 15:00:12] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2024-05-28 15:00:12] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-2.8.7.tar.gz tmp/xklb-2.8.9.tar.gz --markdown 20240528/x/xklb/2.8.7-2.8.9/README.md --exclude *.pyd
+[2024-05-28 15:00:12] INFO root fetch - processPackages [isvirtual]: Remove: archive file [/home/abi/fetcher/tmp/isvirtual-1.1.0.tar.gz]
+[2024-05-28 15:00:12] INFO root fetch - processPackages [isvirtual]: Remove: archive file [/home/abi/fetcher/tmp/isvirtual-1.2.0.tar.gz]
+[2024-05-28 15:00:12] INFO root fetch - main [MainThread]: End processing [isvirtual]: success
+[2024-05-28 15:00:12] INFO root fetch - processPackages [ETH-GTD-cli]: Remove: archive file [/home/abi/fetcher/tmp/eth_gtd_cli-0.0.98.tar.gz]
+[2024-05-28 15:00:12] INFO root fetch - processPackages [ETH-GTD-cli]: Remove: archive file [/home/abi/fetcher/tmp/eth_gtd_cli-0.0.99.tar.gz]
+[2024-05-28 15:00:12] INFO root fetch - main [MainThread]: End processing [ETH-GTD-cli]: success
+[2024-05-28 15:00:12] INFO root fetch - main [MainThread]: End processing [ETH-GTD-cli]: success
+[2024-05-28 15:00:12] INFO root fetch - processPackages [oarepo-global-search]: Remove: archive file [/home/abi/fetcher/tmp/oarepo_global_search-1.0.8.tar.gz]
+[2024-05-28 15:00:12] INFO root fetch - processPackages [oarepo-global-search]: Remove: archive file [/home/abi/fetcher/tmp/oarepo_global_search-1.0.9.tar.gz]
+[2024-05-28 15:00:12] INFO root fetch - main [MainThread]: End processing [oarepo-global-search]: success
+[2024-05-28 15:00:13] INFO root fetch - processPackages [cas-tools]: Remove: archive file [/home/abi/fetcher/tmp/cas-tools-0.0.1.dev8.tar.gz]
+[2024-05-28 15:00:13] INFO root fetch - processPackages [cas-tools]: Remove: archive file [/home/abi/fetcher/tmp/cas-tools-0.0.1.dev9.tar.gz]
+[2024-05-28 15:00:13] INFO root fetch - main [MainThread]: End processing [cas-tools]: success
+[2024-05-28 15:00:13] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.98.tar.gz]
+[2024-05-28 15:00:13] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.99.tar.gz]
+[2024-05-28 15:00:13] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
+[2024-05-28 15:00:13] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.8.7.tar.gz]
+[2024-05-28 15:00:13] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.8.9.tar.gz]
+[2024-05-28 15:00:13] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2024-05-28 15:00:13] INFO root fetch - main [MainThread]: Store serial: [23411509]
