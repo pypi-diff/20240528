@@ -6976,3 +6976,24 @@
 [2024-05-28 07:51:52] WARNING root fetch - processPackages [featuremap]: Skipping, unable to determine old version
 [2024-05-28 07:51:52] INFO root fetch - main [MainThread]: End processing [featuremap] error
 [2024-05-28 07:51:52] INFO root fetch - main [MainThread]: Store serial: [23405666]
+[2024-05-28 07:53:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23405666]
+[2024-05-28 07:54:01] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-28 07:54:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: anydi
+[2024-05-28 07:54:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: byma
+[2024-05-28 07:54:01] INFO root fetch - processPackages [byma]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-28 07:54:01] INFO root fetch - processPackages [byma]: Downloading https://files.pythonhosted.org/packages/53/a5/18e78e213e198c8dedb720f44954ba8aa1d9170029695764602ed41781a4/byma-0.1.6.tar.gz
+[2024-05-28 07:54:01] INFO root fetch - processPackages [anydi]: New version: [0.26.0a0] Old Version: [0.26.0]
+[2024-05-28 07:54:01] INFO root fetch - processPackages [anydi]: Downloading https://files.pythonhosted.org/packages/50/60/ba7432abacfb33e3f6a95401104b8f6bcbf689601d302cc3510d44d2a4bd/anydi-0.26.0.tar.gz
+[2024-05-28 07:54:01] INFO root fetch - processPackages [byma]: Downloading https://files.pythonhosted.org/packages/df/79/f61c28d46ac30a053313d7ad28929db3cb20c1baf54aec48be95296ae9ce/byma-0.1.7.tar.gz
+[2024-05-28 07:54:01] INFO root fetch - processPackages [byma]: executing diffoscope
+[2024-05-28 07:54:01] INFO root fetch - processPackages [byma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/byma-0.1.6.tar.gz tmp/byma-0.1.7.tar.gz --markdown 20240528/b/byma/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-28 07:54:01] INFO root fetch - processPackages [anydi]: Downloading https://files.pythonhosted.org/packages/15/6f/2aeae85bdd223ddf48bd61b8a8b60f160b83160c85d75f6e4024cfcb3986/anydi-0.26.0a0.tar.gz
+[2024-05-28 07:54:02] INFO root fetch - processPackages [anydi]: executing diffoscope
+[2024-05-28 07:54:02] INFO root fetch - processPackages [anydi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anydi-0.26.0.tar.gz tmp/anydi-0.26.0a0.tar.gz --markdown 20240528/a/anydi/0.26.0-0.26.0a0/README.md --exclude *.pyd
+[2024-05-28 07:54:02] INFO root fetch - processPackages [byma]: Remove: archive file [/home/abi/fetcher/tmp/byma-0.1.6.tar.gz]
+[2024-05-28 07:54:02] INFO root fetch - processPackages [byma]: Remove: archive file [/home/abi/fetcher/tmp/byma-0.1.7.tar.gz]
+[2024-05-28 07:54:02] INFO root fetch - main [MainThread]: End processing [byma]: success
+[2024-05-28 07:54:02] INFO root fetch - processPackages [anydi]: Remove: archive file [/home/abi/fetcher/tmp/anydi-0.26.0.tar.gz]
+[2024-05-28 07:54:02] INFO root fetch - processPackages [anydi]: Remove: archive file [/home/abi/fetcher/tmp/anydi-0.26.0a0.tar.gz]
+[2024-05-28 07:54:02] INFO root fetch - main [MainThread]: End processing [anydi]: success
+[2024-05-28 07:54:02] INFO root fetch - main [MainThread]: Store serial: [23405672]
