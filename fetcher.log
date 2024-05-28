@@ -23375,3 +23375,50 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 16:42:21] INFO root fetch - processPackages [credsweeper]: Remove: archive file [/home/abi/fetcher/tmp/credsweeper-1.7.0.tar.gz]
 [2024-05-28 16:42:21] INFO root fetch - main [MainThread]: End processing [credsweeper]: success
 [2024-05-28 16:42:21] INFO root fetch - main [MainThread]: Store serial: [23413243]
+[2024-05-28 16:44:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23413243]
+[2024-05-28 16:44:30] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-28 16:44:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apiverve-whoislookup
+[2024-05-28 16:44:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pie-modules
+[2024-05-28 16:44:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: numerous
+[2024-05-28 16:44:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyoload
+[2024-05-28 16:44:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: AdroitFisherman
+[2024-05-28 16:44:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: neuro-extras
+[2024-05-28 16:44:30] WARNING root fetch - processPackages [apiverve-whoislookup]: Skipping, unable to determine old version
+[2024-05-28 16:44:30] INFO root fetch - main [MainThread]: End processing [apiverve-whoislookup] error
+[2024-05-28 16:44:30] INFO root fetch - processPackages [pyoload]: New version: [1.1.0] Old Version: [1.0.2]
+[2024-05-28 16:44:30] INFO root fetch - processPackages [AdroitFisherman]: New version: [0.0.29] Old Version: [0.0.28]
+[2024-05-28 16:44:30] INFO root fetch - processPackages [numerous]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-28 16:44:30] INFO root fetch - processPackages [pie-modules]: New version: [0.9.0] Old Version: [0.8.4]
+[2024-05-28 16:44:30] INFO root fetch - processPackages [neuro-extras]: New version: [24.5.1] Old Version: [24.5.0]
+[2024-05-28 16:44:30] INFO root fetch - processPackages [pyoload]: Downloading https://files.pythonhosted.org/packages/e4/35/62082a886ab599e1bd42bd9c2f1c9f95b02e070b38c1e0d9922a12e141d2/pyoload-1.0.2.tar.gz
+[2024-05-28 16:44:30] INFO root fetch - processPackages [AdroitFisherman]: Downloading https://files.pythonhosted.org/packages/19/64/636f97e832d8e497b2d244b956ebfb0970b5c230e6044e5e45f544a64fc4/AdroitFisherman-0.0.28.tar.gz
+[2024-05-28 16:44:30] INFO root fetch - processPackages [numerous]: Downloading https://files.pythonhosted.org/packages/72/6e/7590609a9a4e19f0159a065d2984e75b26f47ea9bad7bfdac8274b8936c9/numerous-0.3.1.tar.gz
+[2024-05-28 16:44:30] INFO root fetch - processPackages [pie-modules]: Downloading https://files.pythonhosted.org/packages/2a/19/6900cdaaa7e31cf7a2f3060b87c372d93c43aec50553d1ac2f185093929e/pie_modules-0.8.4.tar.gz
+[2024-05-28 16:44:31] WARNING root fetch - processPackages [numerous]: Skipping package: exceeds size limit 63950678>=10485760
+[2024-05-28 16:44:31] INFO root fetch - main [MainThread]: End processing [numerous] error
+[2024-05-28 16:44:31] INFO root fetch - processPackages [pyoload]: Downloading https://files.pythonhosted.org/packages/98/43/d78405eb409c1f4f72108d9ac7f1ed2dc1f93a48c366a5726711fb5fd781/pyoload-1.1.0.tar.gz
+[2024-05-28 16:44:31] INFO root fetch - processPackages [AdroitFisherman]: Downloading https://files.pythonhosted.org/packages/32/49/a41f0df5967db6d401e9b9cb42adc300b5f3434cba1e4645a6cfdcbb3f6f/AdroitFisherman-0.0.29.tar.gz
+[2024-05-28 16:44:31] INFO root fetch - processPackages [neuro-extras]: Downloading https://files.pythonhosted.org/packages/5f/40/a2d966dad7c7d7a3638aa5961c524ad740572d02c6e51626901792c31119/neuro-extras-24.5.0.tar.gz
+[2024-05-28 16:44:31] INFO root fetch - processPackages [pyoload]: executing diffoscope
+[2024-05-28 16:44:31] INFO root fetch - processPackages [pyoload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyoload-1.0.2.tar.gz tmp/pyoload-1.1.0.tar.gz --markdown 20240528/p/pyoload/1.0.2-1.1.0/README.md --exclude *.pyd
+[2024-05-28 16:44:31] INFO root fetch - processPackages [AdroitFisherman]: executing diffoscope
+[2024-05-28 16:44:31] INFO root fetch - processPackages [AdroitFisherman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AdroitFisherman-0.0.28.tar.gz tmp/AdroitFisherman-0.0.29.tar.gz --markdown 20240528/A/AdroitFisherman/0.0.28-0.0.29/README.md --exclude *.pyd
+[2024-05-28 16:44:31] INFO root fetch - processPackages [pie-modules]: Downloading https://files.pythonhosted.org/packages/02/04/64c4c2706781e0786c7185c3c116e9e1ea188b50d94470a151b02e87c039/pie_modules-0.9.0.tar.gz
+[2024-05-28 16:44:31] INFO root fetch - processPackages [neuro-extras]: Downloading https://files.pythonhosted.org/packages/39/2c/d592a48c0e35fa73859361f1add02726b933a8ad1f3718dee87317398561/neuro-extras-24.5.1.tar.gz
+[2024-05-28 16:44:31] INFO root fetch - processPackages [neuro-extras]: executing diffoscope
+[2024-05-28 16:44:31] INFO root fetch - processPackages [neuro-extras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuro-extras-24.5.0.tar.gz tmp/neuro-extras-24.5.1.tar.gz --markdown 20240528/n/neuro-extras/24.5.0-24.5.1/README.md --exclude *.pyd
+[2024-05-28 16:44:31] INFO root fetch - processPackages [pyoload]: Remove: archive file [/home/abi/fetcher/tmp/pyoload-1.0.2.tar.gz]
+[2024-05-28 16:44:31] INFO root fetch - processPackages [pyoload]: Remove: archive file [/home/abi/fetcher/tmp/pyoload-1.1.0.tar.gz]
+[2024-05-28 16:44:31] INFO root fetch - main [MainThread]: End processing [pyoload]: success
+[2024-05-28 16:44:31] INFO root fetch - processPackages [AdroitFisherman]: Remove: archive file [/home/abi/fetcher/tmp/AdroitFisherman-0.0.28.tar.gz]
+[2024-05-28 16:44:31] INFO root fetch - processPackages [AdroitFisherman]: Remove: archive file [/home/abi/fetcher/tmp/AdroitFisherman-0.0.29.tar.gz]
+[2024-05-28 16:44:31] INFO root fetch - main [MainThread]: End processing [AdroitFisherman]: success
+[2024-05-28 16:44:32] INFO root fetch - processPackages [neuro-extras]: Remove: archive file [/home/abi/fetcher/tmp/neuro-extras-24.5.0.tar.gz]
+[2024-05-28 16:44:32] INFO root fetch - processPackages [neuro-extras]: Remove: archive file [/home/abi/fetcher/tmp/neuro-extras-24.5.1.tar.gz]
+[2024-05-28 16:44:32] INFO root fetch - main [MainThread]: End processing [neuro-extras]: success
+[2024-05-28 16:44:32] INFO root fetch - processPackages [pie-modules]: executing diffoscope
+[2024-05-28 16:44:32] INFO root fetch - processPackages [pie-modules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pie_modules-0.8.4.tar.gz tmp/pie_modules-0.9.0.tar.gz --markdown 20240528/p/pie-modules/0.8.4-0.9.0/README.md --exclude *.pyd
+[2024-05-28 16:44:33] INFO root fetch - processPackages [pie-modules]: Remove: archive file [/home/abi/fetcher/tmp/pie_modules-0.8.4.tar.gz]
+[2024-05-28 16:44:33] INFO root fetch - processPackages [pie-modules]: Remove: archive file [/home/abi/fetcher/tmp/pie_modules-0.9.0.tar.gz]
+[2024-05-28 16:44:33] INFO root fetch - main [MainThread]: End processing [pie-modules]: success
+[2024-05-28 16:44:33] INFO root fetch - main [MainThread]: Store serial: [23413262]
