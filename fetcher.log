@@ -5051,3 +5051,15 @@
 [2024-05-28 05:41:32] INFO root fetch - processPackages [odoo-addon-account-credit-control]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_credit_control-16.0.2.0.0.2-py3-none-any.whl.zip]
 [2024-05-28 05:41:32] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-credit-control]: success
 [2024-05-28 05:41:32] INFO root fetch - main [MainThread]: Store serial: [23404819]
+[2024-05-28 05:43:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23404819]
+[2024-05-28 05:43:41] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-28 05:43:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: signate
+[2024-05-28 05:43:41] INFO root fetch - processPackages [signate]: New version: [9.9.10] Old Version: [0.9.9]
+[2024-05-28 05:43:41] INFO root fetch - processPackages [signate]: Downloading https://files.pythonhosted.org/packages/9e/7e/7056d1fd9b213b6c46470846c4dd283e8ad55ee14233cec0f9af5cba434d/signate-0.9.9.tar.gz
+[2024-05-28 05:43:42] INFO root fetch - processPackages [signate]: Downloading https://files.pythonhosted.org/packages/0c/4d/478ef43c31d60223d0ba144adb39978aeae39997a9b608c3c51cbae98154/signate-9.9.10.tar.gz
+[2024-05-28 05:43:42] INFO root fetch - processPackages [signate]: executing diffoscope
+[2024-05-28 05:43:42] INFO root fetch - processPackages [signate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/signate-0.9.9.tar.gz tmp/signate-9.9.10.tar.gz --markdown 20240528/s/signate/0.9.9-9.9.10/README.md --exclude *.pyd
+[2024-05-28 05:43:42] INFO root fetch - processPackages [signate]: Remove: archive file [/home/abi/fetcher/tmp/signate-0.9.9.tar.gz]
+[2024-05-28 05:43:42] INFO root fetch - processPackages [signate]: Remove: archive file [/home/abi/fetcher/tmp/signate-9.9.10.tar.gz]
+[2024-05-28 05:43:42] INFO root fetch - main [MainThread]: End processing [signate]: success
+[2024-05-28 05:43:42] INFO root fetch - main [MainThread]: Store serial: [23404823]
