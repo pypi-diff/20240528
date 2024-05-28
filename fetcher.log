@@ -2354,3 +2354,15 @@
 [2024-05-28 02:48:02] INFO root fetch - processPackages [python-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/python_gitlab-4.6.0.tar.gz]
 [2024-05-28 02:48:02] INFO root fetch - main [MainThread]: End processing [python-gitlab]: success
 [2024-05-28 02:48:02] INFO root fetch - main [MainThread]: Store serial: [23403773]
+[2024-05-28 02:50:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23403773]
+[2024-05-28 02:50:10] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-28 02:50:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: package-auto-assembler
+[2024-05-28 02:50:10] INFO root fetch - processPackages [package-auto-assembler]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-28 02:50:10] INFO root fetch - processPackages [package-auto-assembler]: Downloading https://files.pythonhosted.org/packages/1b/15/8367ee5d8d10715e7772c135e5bdd18b6de463b82a6caedc47878c8acc12/package_auto_assembler-0.1.4.tar.gz
+[2024-05-28 02:50:11] INFO root fetch - processPackages [package-auto-assembler]: Downloading https://files.pythonhosted.org/packages/5d/fa/1eebe4ced67c42f9d2afeb320522cd8cc225ed48b74389f84e35b8be1805/package_auto_assembler-0.1.5.tar.gz
+[2024-05-28 02:50:11] INFO root fetch - processPackages [package-auto-assembler]: executing diffoscope
+[2024-05-28 02:50:11] INFO root fetch - processPackages [package-auto-assembler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/package_auto_assembler-0.1.4.tar.gz tmp/package_auto_assembler-0.1.5.tar.gz --markdown 20240528/p/package-auto-assembler/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-28 02:50:11] INFO root fetch - processPackages [package-auto-assembler]: Remove: archive file [/home/abi/fetcher/tmp/package_auto_assembler-0.1.4.tar.gz]
+[2024-05-28 02:50:11] INFO root fetch - processPackages [package-auto-assembler]: Remove: archive file [/home/abi/fetcher/tmp/package_auto_assembler-0.1.5.tar.gz]
+[2024-05-28 02:50:11] INFO root fetch - main [MainThread]: End processing [package-auto-assembler]: success
+[2024-05-28 02:50:11] INFO root fetch - main [MainThread]: Store serial: [23403778]
