@@ -2205,3 +2205,30 @@
 [2024-05-28 02:36:54] INFO root fetch - processPackages [nbprint]: Remove: archive file [/home/abi/fetcher/tmp/nbprint-0.1.9.tar.gz]
 [2024-05-28 02:36:54] INFO root fetch - main [MainThread]: End processing [nbprint]: success
 [2024-05-28 02:36:54] INFO root fetch - main [MainThread]: Store serial: [23403689]
+[2024-05-28 02:38:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23403689]
+[2024-05-28 02:39:03] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-28 02:39:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pr-pilot-cli
+[2024-05-28 02:39:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-kubernetes-the-hard-way
+[2024-05-28 02:39:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bmlx-components
+[2024-05-28 02:39:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flask-bootstrap-module-extendeds
+[2024-05-28 02:39:03] WARNING root fetch - processPackages [flask-bootstrap-module-extendeds]: Skipping, unable to determine old version
+[2024-05-28 02:39:03] INFO root fetch - main [MainThread]: End processing [flask-bootstrap-module-extendeds] error
+[2024-05-28 02:39:03] INFO root fetch - processPackages [pr-pilot-cli]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-28 02:39:03] INFO root fetch - processPackages [pr-pilot-cli]: Downloading https://files.pythonhosted.org/packages/50/00/d78b02e057b01306df6c43f4b8122957f9f4e3b6f7506e5515938aa317e8/pr_pilot_cli-1.0.3.tar.gz
+[2024-05-28 02:39:03] WARNING root fetch - processPackages [bmlx-components]: Skipping, unable to determine old version
+[2024-05-28 02:39:03] INFO root fetch - main [MainThread]: End processing [bmlx-components] error
+[2024-05-28 02:39:03] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: New version: [0.0.29a1716835373] Old Version: [0.0.28a1716765099]
+[2024-05-28 02:39:03] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/4e/73/90337a0dbdacd36ae753601d7d0884c2ee31b43350a814df364f00d39135/pulumi_kubernetes_the_hard_way-0.0.28a1716765099.tar.gz
+[2024-05-28 02:39:04] INFO root fetch - processPackages [pr-pilot-cli]: Downloading https://files.pythonhosted.org/packages/c0/22/fe3745c4e5de2591b12851e518fedc1b7eb397bdda2bf6ce1cbf2b11b539/pr_pilot_cli-1.0.4.tar.gz
+[2024-05-28 02:39:04] INFO root fetch - processPackages [pr-pilot-cli]: executing diffoscope
+[2024-05-28 02:39:04] INFO root fetch - processPackages [pr-pilot-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pr_pilot_cli-1.0.3.tar.gz tmp/pr_pilot_cli-1.0.4.tar.gz --markdown 20240528/p/pr-pilot-cli/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-28 02:39:04] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/d5/e0/f3123a89fd68e237cb539a7e886de193837fe910a7638236d73499f07567/pulumi_kubernetes_the_hard_way-0.0.29a1716835373.tar.gz
+[2024-05-28 02:39:04] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: executing diffoscope
+[2024-05-28 02:39:04] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_the_hard_way-0.0.28a1716765099.tar.gz tmp/pulumi_kubernetes_the_hard_way-0.0.29a1716835373.tar.gz --markdown 20240528/p/pulumi-kubernetes-the-hard-way/0.0.28a1716765099-0.0.29a1716835373/README.md --exclude *.pyd
+[2024-05-28 02:39:04] INFO root fetch - processPackages [pr-pilot-cli]: Remove: archive file [/home/abi/fetcher/tmp/pr_pilot_cli-1.0.3.tar.gz]
+[2024-05-28 02:39:04] INFO root fetch - processPackages [pr-pilot-cli]: Remove: archive file [/home/abi/fetcher/tmp/pr_pilot_cli-1.0.4.tar.gz]
+[2024-05-28 02:39:04] INFO root fetch - main [MainThread]: End processing [pr-pilot-cli]: success
+[2024-05-28 02:39:05] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.28a1716765099.tar.gz]
+[2024-05-28 02:39:05] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.29a1716835373.tar.gz]
+[2024-05-28 02:39:05] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
+[2024-05-28 02:39:05] INFO root fetch - main [MainThread]: Store serial: [23403703]
