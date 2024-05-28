@@ -2725,3 +2725,36 @@
 [2024-05-28 03:12:16] INFO root fetch - processPackages [rickslab-gpu-utils]: Remove: archive file [/home/abi/fetcher/tmp/rickslab_gpu_utils-3.9.0rc1-py3-none-any.whl.zip]
 [2024-05-28 03:12:16] INFO root fetch - main [MainThread]: End processing [rickslab-gpu-utils]: success
 [2024-05-28 03:12:16] INFO root fetch - main [MainThread]: Store serial: [23403904]
+[2024-05-28 03:14:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23403904]
+[2024-05-28 03:14:25] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-28 03:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigtree
+[2024-05-28 03:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: guolei-py3-database
+[2024-05-28 03:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torchao-nightly
+[2024-05-28 03:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: notebooks-and-scripts
+[2024-05-28 03:14:25] WARNING root fetch - processPackages [guolei-py3-database]: Skipping, unable to determine old version
+[2024-05-28 03:14:25] INFO root fetch - main [MainThread]: End processing [guolei-py3-database] error
+[2024-05-28 03:14:25] INFO root fetch - processPackages [notebooks-and-scripts]: New version: [4.471.1] Old Version: [4.468.1]
+[2024-05-28 03:14:25] INFO root fetch - processPackages [torchao-nightly]: New version: [2024.5.28] Old Version: [2024.5.27]
+[2024-05-28 03:14:25] INFO root fetch - processPackages [bigtree]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-05-28 03:14:26] INFO root fetch - processPackages [bigtree]: Downloading https://files.pythonhosted.org/packages/a3/06/d26933e315119b44cb2b7cfcfde9085578c4bfefd8991b2f226ab875ec4e/bigtree-0.9.4.tar.gz
+[2024-05-28 03:14:26] INFO root fetch - processPackages [notebooks-and-scripts]: Downloading https://files.pythonhosted.org/packages/d6/a5/a8ad54497bd9d4c51fdd3b73a9557c12ba9e30524833de6f500c21d60a8f/notebooks_and_scripts-4.468.1.tar.gz
+[2024-05-28 03:14:26] INFO root fetch - processPackages [torchao-nightly]: Downloading https://files.pythonhosted.org/packages/e4/61/6d9e8003b2ba78548d7ea261535b43db008a8db86a97f7ad42c624cc0b8b/torchao_nightly-2024.5.27-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-28 03:14:26] INFO root fetch - processPackages [notebooks-and-scripts]: Downloading https://files.pythonhosted.org/packages/e3/e7/eb17cff79945f0064b7232e3a74e14ff38b205bacb9247bfe94d3c75375d/notebooks_and_scripts-4.471.1.tar.gz
+[2024-05-28 03:14:26] INFO root fetch - processPackages [notebooks-and-scripts]: executing diffoscope
+[2024-05-28 03:14:26] INFO root fetch - processPackages [notebooks-and-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notebooks_and_scripts-4.468.1.tar.gz tmp/notebooks_and_scripts-4.471.1.tar.gz --markdown 20240528/n/notebooks-and-scripts/4.468.1-4.471.1/README.md --exclude *.pyd
+[2024-05-28 03:14:26] INFO root fetch - processPackages [bigtree]: Downloading https://files.pythonhosted.org/packages/42/d0/c77ad03638442b693d9b328a1e8e77de023a7abc5505af29220b8a68a592/bigtree-0.9.5.tar.gz
+[2024-05-28 03:14:26] INFO root fetch - processPackages [bigtree]: executing diffoscope
+[2024-05-28 03:14:26] INFO root fetch - processPackages [bigtree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigtree-0.9.4.tar.gz tmp/bigtree-0.9.5.tar.gz --markdown 20240528/b/bigtree/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-05-28 03:14:26] INFO root fetch - processPackages [torchao-nightly]: Downloading https://files.pythonhosted.org/packages/23/e8/e3b15237f5b2d196b247ec05530f78f6922ca25c661588bba2b26ff0260c/torchao_nightly-2024.5.28-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-28 03:14:27] INFO root fetch - processPackages [notebooks-and-scripts]: Remove: archive file [/home/abi/fetcher/tmp/notebooks_and_scripts-4.468.1.tar.gz]
+[2024-05-28 03:14:27] INFO root fetch - processPackages [notebooks-and-scripts]: Remove: archive file [/home/abi/fetcher/tmp/notebooks_and_scripts-4.471.1.tar.gz]
+[2024-05-28 03:14:27] INFO root fetch - main [MainThread]: End processing [notebooks-and-scripts]: success
+[2024-05-28 03:14:27] INFO root fetch - processPackages [torchao-nightly]: executing diffoscope
+[2024-05-28 03:14:27] INFO root fetch - processPackages [torchao-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchao_nightly-2024.5.27-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/torchao_nightly-2024.5.28-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240528/t/torchao-nightly/2024.5.27-2024.5.28/README.md --exclude *.pyd
+[2024-05-28 03:14:27] INFO root fetch - processPackages [bigtree]: Remove: archive file [/home/abi/fetcher/tmp/bigtree-0.9.4.tar.gz]
+[2024-05-28 03:14:27] INFO root fetch - processPackages [bigtree]: Remove: archive file [/home/abi/fetcher/tmp/bigtree-0.9.5.tar.gz]
+[2024-05-28 03:14:27] INFO root fetch - main [MainThread]: End processing [bigtree]: success
+[2024-05-28 03:14:29] INFO root fetch - processPackages [torchao-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchao_nightly-2024.5.27-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-28 03:14:29] INFO root fetch - processPackages [torchao-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchao_nightly-2024.5.28-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-28 03:14:29] INFO root fetch - main [MainThread]: End processing [torchao-nightly]: success
+[2024-05-28 03:14:29] INFO root fetch - main [MainThread]: Store serial: [23403918]
