@@ -15750,3 +15750,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 12:28:22] INFO root fetch - processPackages [followthemoney]: Remove: archive file [/home/abi/fetcher/tmp/followthemoney-3.6.1.tar.gz]
 [2024-05-28 12:28:22] INFO root fetch - main [MainThread]: End processing [followthemoney]: success
 [2024-05-28 12:28:22] INFO root fetch - main [MainThread]: Store serial: [23409553]
+[2024-05-28 12:30:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23409553]
+[2024-05-28 12:30:31] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-28 12:30:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-superapp
+[2024-05-28 12:30:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-import-export-celery
+[2024-05-28 12:30:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: erp-apis-temp
+[2024-05-28 12:30:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aws-syndicate
+[2024-05-28 12:30:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ptinsearcher
+[2024-05-28 12:30:31] INFO root fetch - processPackages [erp-apis-temp]: New version: [1.0.17] Old Version: [1.0.16]
+[2024-05-28 12:30:31] INFO root fetch - processPackages [django-superapp]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-05-28 12:30:31] INFO root fetch - processPackages [erp-apis-temp]: Downloading https://files.pythonhosted.org/packages/70/35/22a0fda8c70ac6a71bc02c68cbd90c39622a343d013d60dad1285418a58f/erp_apis_temp-1.0.16-py3-none-any.whl
+[2024-05-28 12:30:31] INFO root fetch - processPackages [django-import-export-celery]: New version: [1.7.1] Old Version: [1.6]
+[2024-05-28 12:30:31] INFO root fetch - processPackages [django-superapp]: Downloading https://files.pythonhosted.org/packages/32/82/fa62a4d8dab5569de6a0cab0326179203236b9eca491db2b22162010acef/django_superapp-1.0.7.tar.gz
+[2024-05-28 12:30:31] INFO root fetch - processPackages [aws-syndicate]: New version: [1.9.6] Old Version: [1.9.4]
+[2024-05-28 12:30:31] INFO root fetch - processPackages [ptinsearcher]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-28 12:30:31] INFO root fetch - processPackages [django-import-export-celery]: Downloading https://files.pythonhosted.org/packages/26/77/62ab64a86d84838d2cd99d8dc91358dc1af8e9a4e4114bf0b9a499435157/django-import-export-celery-1.6.tar.gz
+[2024-05-28 12:30:31] INFO root fetch - processPackages [aws-syndicate]: Downloading https://files.pythonhosted.org/packages/47/2d/b452b8d2bc7ff03dd23fab7779b84d1142cb85cb630d2ea027a04dc64b08/aws-syndicate-1.9.4.tar.gz
+[2024-05-28 12:30:31] INFO root fetch - processPackages [django-superapp]: Downloading https://files.pythonhosted.org/packages/d6/22/0fcaec0be6a24af1312923700aed62fb239b85dafeb0120a1cadf06536da/django_superapp-1.0.8.tar.gz
+[2024-05-28 12:30:31] INFO root fetch - processPackages [ptinsearcher]: Downloading https://files.pythonhosted.org/packages/2e/db/617b5e19e4c2c1d850312c94b48f16b73a0861d6c42f27e0876704bcdf8e/ptinsearcher-1.0.8.tar.gz
+[2024-05-28 12:30:31] INFO root fetch - processPackages [erp-apis-temp]: Downloading https://files.pythonhosted.org/packages/c7/08/dadaf0bf3fb61ff21f81efeab956de2991d2f1ca37a81e0cf7d6f6321d02/erp_apis_temp-1.0.17-py3-none-any.whl
+[2024-05-28 12:30:31] INFO root fetch - processPackages [django-superapp]: executing diffoscope
+[2024-05-28 12:30:31] INFO root fetch - processPackages [django-superapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_superapp-1.0.7.tar.gz tmp/django_superapp-1.0.8.tar.gz --markdown 20240528/d/django-superapp/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-05-28 12:30:31] INFO root fetch - processPackages [erp-apis-temp]: executing diffoscope
+[2024-05-28 12:30:31] INFO root fetch - processPackages [erp-apis-temp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erp_apis_temp-1.0.16-py3-none-any.whl.zip tmp/erp_apis_temp-1.0.17-py3-none-any.whl.zip --markdown 20240528/e/erp-apis-temp/1.0.16-1.0.17/README.md --exclude *.pyd
+[2024-05-28 12:30:31] INFO root fetch - processPackages [django-import-export-celery]: Downloading https://files.pythonhosted.org/packages/48/98/6b723cd93c75a569912a98d22ba258c7a4aae1e0244925a29a45f5516917/django_import_export_celery-1.7.1.tar.gz
+[2024-05-28 12:30:31] INFO root fetch - processPackages [aws-syndicate]: Downloading https://files.pythonhosted.org/packages/43/b1/5d83585a6e4711dd87d8f7d1a02ac5df4ce206eb737176699dd88db6d2c4/aws-syndicate-1.9.6.tar.gz
+[2024-05-28 12:30:32] INFO root fetch - processPackages [django-import-export-celery]: executing diffoscope
+[2024-05-28 12:30:32] INFO root fetch - processPackages [django-import-export-celery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-import-export-celery-1.6.tar.gz tmp/django_import_export_celery-1.7.1.tar.gz --markdown 20240528/d/django-import-export-celery/1.6-1.7.1/README.md --exclude *.pyd
+[2024-05-28 12:30:32] INFO root fetch - processPackages [aws-syndicate]: executing diffoscope
+[2024-05-28 12:30:32] INFO root fetch - processPackages [aws-syndicate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-syndicate-1.9.4.tar.gz tmp/aws-syndicate-1.9.6.tar.gz --markdown 20240528/a/aws-syndicate/1.9.4-1.9.6/README.md --exclude *.pyd
+[2024-05-28 12:30:32] INFO root fetch - processPackages [django-superapp]: Remove: archive file [/home/abi/fetcher/tmp/django_superapp-1.0.7.tar.gz]
+[2024-05-28 12:30:32] INFO root fetch - processPackages [django-superapp]: Remove: archive file [/home/abi/fetcher/tmp/django_superapp-1.0.8.tar.gz]
+[2024-05-28 12:30:32] INFO root fetch - main [MainThread]: End processing [django-superapp]: success
+[2024-05-28 12:30:32] INFO root fetch - processPackages [erp-apis-temp]: Remove: archive file [/home/abi/fetcher/tmp/erp_apis_temp-1.0.16-py3-none-any.whl.zip]
+[2024-05-28 12:30:32] INFO root fetch - processPackages [erp-apis-temp]: Remove: archive file [/home/abi/fetcher/tmp/erp_apis_temp-1.0.17-py3-none-any.whl.zip]
+[2024-05-28 12:30:32] INFO root fetch - main [MainThread]: End processing [erp-apis-temp]: success
+[2024-05-28 12:30:32] INFO root fetch - processPackages [django-import-export-celery]: Remove: archive file [/home/abi/fetcher/tmp/django-import-export-celery-1.6.tar.gz]
+[2024-05-28 12:30:32] INFO root fetch - processPackages [django-import-export-celery]: Remove: archive file [/home/abi/fetcher/tmp/django_import_export_celery-1.7.1.tar.gz]
+[2024-05-28 12:30:32] INFO root fetch - main [MainThread]: End processing [django-import-export-celery]: success
+[2024-05-28 12:30:32] INFO root fetch - processPackages [ptinsearcher]: Downloading https://files.pythonhosted.org/packages/99/8f/ab51a0bfbaccf339a2d68df9da3538e62297eb2cd42d3856e03bda2471a0/ptinsearcher-1.0.9-py3-none-any.whl
+[2024-05-28 12:30:33] INFO root fetch - processPackages [aws-syndicate]: Remove: archive file [/home/abi/fetcher/tmp/aws-syndicate-1.9.4.tar.gz]
+[2024-05-28 12:30:33] INFO root fetch - processPackages [aws-syndicate]: Remove: archive file [/home/abi/fetcher/tmp/aws-syndicate-1.9.6.tar.gz]
+[2024-05-28 12:30:33] INFO root fetch - main [MainThread]: End processing [aws-syndicate]: success
+[2024-05-28 12:30:33] INFO root fetch - processPackages [ptinsearcher]: executing diffoscope
+[2024-05-28 12:30:33] INFO root fetch - processPackages [ptinsearcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ptinsearcher-1.0.8.tar.gz tmp/ptinsearcher-1.0.9-py3-none-any.whl.zip --markdown 20240528/p/ptinsearcher/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-28 12:30:36] INFO root fetch - processPackages [ptinsearcher]: Remove: archive file [/home/abi/fetcher/tmp/ptinsearcher-1.0.8.tar.gz]
+[2024-05-28 12:30:36] INFO root fetch - processPackages [ptinsearcher]: Remove: archive file [/home/abi/fetcher/tmp/ptinsearcher-1.0.9-py3-none-any.whl.zip]
+[2024-05-28 12:30:36] INFO root fetch - main [MainThread]: End processing [ptinsearcher]: success
+[2024-05-28 12:30:36] INFO root fetch - main [MainThread]: Store serial: [23409567]
