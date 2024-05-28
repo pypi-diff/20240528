@@ -11242,3 +11242,36 @@
 [2024-05-28 10:11:16] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
 [2024-05-28 10:11:16] INFO root fetch - main [MainThread]: End processing [akshare]: success
 [2024-05-28 10:11:16] INFO root fetch - main [MainThread]: Store serial: [23407422]
+[2024-05-28 10:13:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23407422]
+[2024-05-28 10:13:24] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-28 10:13:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: snowddl
+[2024-05-28 10:13:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: p-template-generator
+[2024-05-28 10:13:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: umj-framework-py-ex
+[2024-05-28 10:13:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jam.py-v5-test
+[2024-05-28 10:13:24] INFO root fetch - processPackages [umj-framework-py-ex]: New version: [1.0.1a7] Old Version: [1.0.1a6]
+[2024-05-28 10:13:24] INFO root fetch - processPackages [snowddl]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-28 10:13:24] INFO root fetch - processPackages [snowddl]: Downloading https://files.pythonhosted.org/packages/de/fb/cfd61d54e05e02fe6de2cc9e2c72dd3a952770c7781bfa63593b47647600/snowddl-0.9.8.tar.gz
+[2024-05-28 10:13:24] INFO root fetch - processPackages [umj-framework-py-ex]: Downloading https://files.pythonhosted.org/packages/8b/1a/0b1f973d7bf839ef1a1a1c03984cd709c6eac6fc16b95050426d0d3baab0/umj-framework-py-ex-1.0.1a6.tar.gz
+[2024-05-28 10:13:24] WARNING root fetch - processPackages [jam.py-v5-test]: Skipping, unable to determine old version
+[2024-05-28 10:13:24] INFO root fetch - main [MainThread]: End processing [jam.py-v5-test] error
+[2024-05-28 10:13:24] INFO root fetch - processPackages [p-template-generator]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-28 10:13:25] INFO root fetch - processPackages [snowddl]: Downloading https://files.pythonhosted.org/packages/30/b1/743904be3436bae396d5a7d758a63419ad2a611878e2b644c34e43e5266b/snowddl-0.9.9.tar.gz
+[2024-05-28 10:13:25] INFO root fetch - processPackages [p-template-generator]: Downloading https://files.pythonhosted.org/packages/5c/a2/02f0b3cf41b76949deb937b95c8970f032447d82aa090fc0b68084fc59df/p-template-generator-0.1.98.tar.gz
+[2024-05-28 10:13:25] INFO root fetch - processPackages [snowddl]: executing diffoscope
+[2024-05-28 10:13:25] INFO root fetch - processPackages [snowddl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowddl-0.9.8.tar.gz tmp/snowddl-0.9.9.tar.gz --markdown 20240528/s/snowddl/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-28 10:13:25] INFO root fetch - processPackages [umj-framework-py-ex]: Downloading https://files.pythonhosted.org/packages/db/46/20198574d98c623e88e0e7a18bb9df9e7da7afa836fc985edf0b7c19c1a8/umj-framework-py-ex-1.0.1a7.tar.gz
+[2024-05-28 10:13:25] INFO root fetch - processPackages [umj-framework-py-ex]: executing diffoscope
+[2024-05-28 10:13:25] INFO root fetch - processPackages [umj-framework-py-ex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/umj-framework-py-ex-1.0.1a6.tar.gz tmp/umj-framework-py-ex-1.0.1a7.tar.gz --markdown 20240528/u/umj-framework-py-ex/1.0.1a6-1.0.1a7/README.md --exclude *.pyd
+[2024-05-28 10:13:25] INFO root fetch - processPackages [umj-framework-py-ex]: Remove: archive file [/home/abi/fetcher/tmp/umj-framework-py-ex-1.0.1a6.tar.gz]
+[2024-05-28 10:13:25] INFO root fetch - processPackages [umj-framework-py-ex]: Remove: archive file [/home/abi/fetcher/tmp/umj-framework-py-ex-1.0.1a7.tar.gz]
+[2024-05-28 10:13:25] INFO root fetch - main [MainThread]: End processing [umj-framework-py-ex]: success
+[2024-05-28 10:13:26] INFO root fetch - processPackages [snowddl]: Remove: archive file [/home/abi/fetcher/tmp/snowddl-0.9.8.tar.gz]
+[2024-05-28 10:13:26] INFO root fetch - processPackages [snowddl]: Remove: archive file [/home/abi/fetcher/tmp/snowddl-0.9.9.tar.gz]
+[2024-05-28 10:13:26] INFO root fetch - main [MainThread]: End processing [snowddl]: success
+[2024-05-28 10:13:26] INFO root fetch - processPackages [p-template-generator]: Downloading https://files.pythonhosted.org/packages/f6/11/746908384a91b5aacce7afb9782527293e24c5740c72a201daffb937e988/p-template-generator-0.1.99.tar.gz
+[2024-05-28 10:13:29] INFO root fetch - processPackages [p-template-generator]: executing diffoscope
+[2024-05-28 10:13:29] INFO root fetch - processPackages [p-template-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p-template-generator-0.1.98.tar.gz tmp/p-template-generator-0.1.99.tar.gz --markdown 20240528/p/p-template-generator/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-28 10:13:31] INFO root fetch - processPackages [p-template-generator]: Remove: archive file [/home/abi/fetcher/tmp/p-template-generator-0.1.98.tar.gz]
+[2024-05-28 10:13:31] INFO root fetch - processPackages [p-template-generator]: Remove: archive file [/home/abi/fetcher/tmp/p-template-generator-0.1.99.tar.gz]
+[2024-05-28 10:13:31] INFO root fetch - main [MainThread]: End processing [p-template-generator]: success
+[2024-05-28 10:13:31] INFO root fetch - main [MainThread]: Store serial: [23407438]
