@@ -17615,3 +17615,60 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 13:40:00] INFO root fetch - processPackages [flywheel-sdk]: Remove: archive file [/home/abi/fetcher/tmp/flywheel_sdk-9.0.3-py2.py3-none-any.whl.zip]
 [2024-05-28 13:40:00] INFO root fetch - main [MainThread]: End processing [flywheel-sdk]: success
 [2024-05-28 13:40:00] INFO root fetch - main [MainThread]: Store serial: [23410393]
+[2024-05-28 13:42:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23410393]
+[2024-05-28 13:42:12] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-28 13:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Rangekeeper
+[2024-05-28 13:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: evo-framework
+[2024-05-28 13:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: muffin-sentry
+[2024-05-28 13:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: foxesscloud
+[2024-05-28 13:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: easy-code-to-text
+[2024-05-28 13:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: utilsds
+[2024-05-28 13:42:12] INFO root fetch - processPackages [muffin-sentry]: New version: [1.8.1] Old Version: [1.8.0]
+[2024-05-28 13:42:12] INFO root fetch - processPackages [foxesscloud]: New version: [2.2.8] Old Version: [2.2.7]
+[2024-05-28 13:42:12] INFO root fetch - processPackages [utilsds]: New version: [0.3] Old Version: [0.2]
+[2024-05-28 13:42:12] INFO root fetch - processPackages [foxesscloud]: Downloading https://files.pythonhosted.org/packages/62/0f/169536806b87c4f7821467b30a3f1f5ecafde7054dec0660d66eacbee54c/foxesscloud-2.2.7.tar.gz
+[2024-05-28 13:42:12] INFO root fetch - processPackages [utilsds]: Downloading https://files.pythonhosted.org/packages/c9/be/de8fd6e8227ccfc91d9cf58b0be6fadef705f7ea38076daee0f83f832a8c/utilsds-0.2.tar.gz
+[2024-05-28 13:42:12] INFO root fetch - processPackages [evo-framework]: New version: [2024.5.15] Old Version: [2024.5.14]
+[2024-05-28 13:42:12] INFO root fetch - processPackages [Rangekeeper]: New version: [0.6.5a0] Old Version: [0.6.4a0]
+[2024-05-28 13:42:12] INFO root fetch - processPackages [easy-code-to-text]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-28 13:42:13] INFO root fetch - processPackages [muffin-sentry]: Downloading https://files.pythonhosted.org/packages/36/67/a96dff344be2d83261f9828c19aed5da724eef5b2f69a1883bdfbf51fa51/muffin_sentry-1.8.0.tar.gz
+[2024-05-28 13:42:13] INFO root fetch - processPackages [evo-framework]: Downloading https://files.pythonhosted.org/packages/53/1a/7a55f9c15bc38778e3200b634085f4d081bcc8a107122a0aa59e71dba976/evo_framework-2024.5.14.tar.gz
+[2024-05-28 13:42:13] INFO root fetch - processPackages [Rangekeeper]: Downloading https://files.pythonhosted.org/packages/5d/df/92698edc62f31e618470bf758342d059b111b683f088604215b368b3f245/rangekeeper-0.6.4a0.tar.gz
+[2024-05-28 13:42:13] INFO root fetch - processPackages [foxesscloud]: Downloading https://files.pythonhosted.org/packages/b2/ee/813e00e8ca2f150384ac4cf4f4ce55929d3b9a019d568b084d6f2dd8c1cb/foxesscloud-2.2.8.tar.gz
+[2024-05-28 13:42:13] INFO root fetch - processPackages [easy-code-to-text]: Downloading https://files.pythonhosted.org/packages/a3/da/6e763bb6d2ab39d57c0d23d2970fb6100e57a91412430fdee57512b3db22/easy_code_to_text-0.1.1.tar.gz
+[2024-05-28 13:42:13] INFO root fetch - processPackages [utilsds]: Downloading https://files.pythonhosted.org/packages/97/dc/4e20402f6355f59b143e6a9cd1fa030d8ea121e04cb12d653a9e58fb6be8/utilsds-0.3.tar.gz
+[2024-05-28 13:42:13] INFO root fetch - processPackages [muffin-sentry]: Downloading https://files.pythonhosted.org/packages/22/ca/4f6f19854138fbbec431576917ea16e29f9a55fe329fca6c5cf528861f5d/muffin_sentry-1.8.1.tar.gz
+[2024-05-28 13:42:13] INFO root fetch - processPackages [foxesscloud]: executing diffoscope
+[2024-05-28 13:42:13] INFO root fetch - processPackages [foxesscloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foxesscloud-2.2.7.tar.gz tmp/foxesscloud-2.2.8.tar.gz --markdown 20240528/f/foxesscloud/2.2.7-2.2.8/README.md --exclude *.pyd
+[2024-05-28 13:42:13] INFO root fetch - processPackages [utilsds]: executing diffoscope
+[2024-05-28 13:42:13] INFO root fetch - processPackages [utilsds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utilsds-0.2.tar.gz tmp/utilsds-0.3.tar.gz --markdown 20240528/u/utilsds/0.2-0.3/README.md --exclude *.pyd
+[2024-05-28 13:42:13] INFO root fetch - processPackages [muffin-sentry]: executing diffoscope
+[2024-05-28 13:42:13] INFO root fetch - processPackages [muffin-sentry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muffin_sentry-1.8.0.tar.gz tmp/muffin_sentry-1.8.1.tar.gz --markdown 20240528/m/muffin-sentry/1.8.0-1.8.1/README.md --exclude *.pyd
+[2024-05-28 13:42:13] INFO root fetch - processPackages [evo-framework]: Downloading https://files.pythonhosted.org/packages/d3/5d/429689e6d7242fffc6893d6ec9b31136fcb42f6017279c9fc19e501e5c70/evo_framework-2024.5.15.tar.gz
+[2024-05-28 13:42:13] INFO root fetch - processPackages [Rangekeeper]: Downloading https://files.pythonhosted.org/packages/0f/11/a397c6a0cd83d3186f693844d334284c2ca313ee7493c0290629828509ea/rangekeeper-0.6.5a0.tar.gz
+[2024-05-28 13:42:13] INFO root fetch - processPackages [easy-code-to-text]: Downloading https://files.pythonhosted.org/packages/65/a3/488c23c10714dbfcd94b7b43a2f26747f8607946eae2085e7d7fb02b2d12/easy_code_to_text-0.1.2.tar.gz
+[2024-05-28 13:42:13] INFO root fetch - processPackages [evo-framework]: executing diffoscope
+[2024-05-28 13:42:13] INFO root fetch - processPackages [evo-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evo_framework-2024.5.14.tar.gz tmp/evo_framework-2024.5.15.tar.gz --markdown 20240528/e/evo-framework/2024.5.14-2024.5.15/README.md --exclude *.pyd
+[2024-05-28 13:42:13] INFO root fetch - processPackages [Rangekeeper]: executing diffoscope
+[2024-05-28 13:42:13] INFO root fetch - processPackages [Rangekeeper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rangekeeper-0.6.4a0.tar.gz tmp/rangekeeper-0.6.5a0.tar.gz --markdown 20240528/R/Rangekeeper/0.6.4a0-0.6.5a0/README.md --exclude *.pyd
+[2024-05-28 13:42:13] INFO root fetch - processPackages [easy-code-to-text]: executing diffoscope
+[2024-05-28 13:42:13] INFO root fetch - processPackages [easy-code-to-text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_code_to_text-0.1.1.tar.gz tmp/easy_code_to_text-0.1.2.tar.gz --markdown 20240528/e/easy-code-to-text/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-28 13:42:14] INFO root fetch - processPackages [easy-code-to-text]: Remove: archive file [/home/abi/fetcher/tmp/easy_code_to_text-0.1.1.tar.gz]
+[2024-05-28 13:42:14] INFO root fetch - processPackages [easy-code-to-text]: Remove: archive file [/home/abi/fetcher/tmp/easy_code_to_text-0.1.2.tar.gz]
+[2024-05-28 13:42:14] INFO root fetch - main [MainThread]: End processing [easy-code-to-text]: success
+[2024-05-28 13:42:14] INFO root fetch - processPackages [utilsds]: Remove: archive file [/home/abi/fetcher/tmp/utilsds-0.2.tar.gz]
+[2024-05-28 13:42:14] INFO root fetch - processPackages [utilsds]: Remove: archive file [/home/abi/fetcher/tmp/utilsds-0.3.tar.gz]
+[2024-05-28 13:42:14] INFO root fetch - main [MainThread]: End processing [utilsds]: success
+[2024-05-28 13:42:14] INFO root fetch - processPackages [evo-framework]: Remove: archive file [/home/abi/fetcher/tmp/evo_framework-2024.5.14.tar.gz]
+[2024-05-28 13:42:14] INFO root fetch - processPackages [evo-framework]: Remove: archive file [/home/abi/fetcher/tmp/evo_framework-2024.5.15.tar.gz]
+[2024-05-28 13:42:14] INFO root fetch - main [MainThread]: End processing [evo-framework]: success
+[2024-05-28 13:42:14] INFO root fetch - processPackages [foxesscloud]: Remove: archive file [/home/abi/fetcher/tmp/foxesscloud-2.2.7.tar.gz]
+[2024-05-28 13:42:14] INFO root fetch - processPackages [foxesscloud]: Remove: archive file [/home/abi/fetcher/tmp/foxesscloud-2.2.8.tar.gz]
+[2024-05-28 13:42:14] INFO root fetch - main [MainThread]: End processing [foxesscloud]: success
+[2024-05-28 13:42:14] INFO root fetch - processPackages [muffin-sentry]: Remove: archive file [/home/abi/fetcher/tmp/muffin_sentry-1.8.0.tar.gz]
+[2024-05-28 13:42:14] INFO root fetch - processPackages [muffin-sentry]: Remove: archive file [/home/abi/fetcher/tmp/muffin_sentry-1.8.1.tar.gz]
+[2024-05-28 13:42:14] INFO root fetch - main [MainThread]: End processing [muffin-sentry]: success
+[2024-05-28 13:42:14] INFO root fetch - processPackages [Rangekeeper]: Remove: archive file [/home/abi/fetcher/tmp/rangekeeper-0.6.4a0.tar.gz]
+[2024-05-28 13:42:14] INFO root fetch - processPackages [Rangekeeper]: Remove: archive file [/home/abi/fetcher/tmp/rangekeeper-0.6.5a0.tar.gz]
+[2024-05-28 13:42:14] INFO root fetch - main [MainThread]: End processing [Rangekeeper]: success
+[2024-05-28 13:42:14] INFO root fetch - main [MainThread]: Store serial: [23410414]
