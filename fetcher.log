@@ -20893,3 +20893,98 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 15:33:14] ERROR root fetch - processPackages [netron]: Timeout during execution of pkgdiff
 [2024-05-28 15:33:14] INFO root fetch - main [MainThread]: End processing [netron] error
 [2024-05-28 15:33:14] INFO root fetch - main [MainThread]: Store serial: [23411931]
+[2024-05-28 15:35:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23411931]
+[2024-05-28 15:35:23] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-28 15:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quickQrLib
+[2024-05-28 15:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: psybee
+[2024-05-28 15:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: athigeo
+[2024-05-28 15:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: facebook-simple-scraper
+[2024-05-28 15:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yuuz12-sdk
+[2024-05-28 15:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rerun-sdk
+[2024-05-28 15:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mocca2
+[2024-05-28 15:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bbot
+[2024-05-28 15:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sp-variant
+[2024-05-28 15:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: slurminade
+[2024-05-28 15:35:23] INFO root fetch - processPackages [facebook-simple-scraper]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-28 15:35:23] INFO root fetch - processPackages [mocca2]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-28 15:35:23] WARNING root fetch - processPackages [yuuz12-sdk]: Skipping, unable to determine old version
+[2024-05-28 15:35:23] INFO root fetch - processPackages [yuuz12-sdk]: Start processing: django-audit-events
+[2024-05-28 15:35:23] INFO root fetch - main [MainThread]: End processing [yuuz12-sdk] error
+[2024-05-28 15:35:23] INFO root fetch - processPackages [rerun-sdk]: New version: [0.9.1rc4] Old Version: [0.9.1rc3]
+[2024-05-28 15:35:23] INFO root fetch - processPackages [bbot]: New version: [1.1.8.3356rc0] Old Version: [1.1.8.3354rc0]
+[2024-05-28 15:35:23] WARNING root fetch - processPackages [psybee]: Skipping, unable to determine old version
+[2024-05-28 15:35:23] INFO root fetch - processPackages [psybee]: Start processing: bencode2
+[2024-05-28 15:35:23] INFO root fetch - main [MainThread]: End processing [psybee] error
+[2024-05-28 15:35:23] INFO root fetch - processPackages [quickQrLib]: New version: [0.2.3] Old Version: [0.2.27]
+[2024-05-28 15:35:23] INFO root fetch - processPackages [athigeo]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-28 15:35:23] INFO root fetch - processPackages [sp-variant]: New version: [3.5.1] Old Version: [3.5.0]
+[2024-05-28 15:35:23] INFO root fetch - processPackages [bencode2]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-28 15:35:23] INFO root fetch - processPackages [facebook-simple-scraper]: Downloading https://files.pythonhosted.org/packages/3c/68/e972aa400b9f0d2b1f1f9cebbfea780096095fcc8cd4967ba98df84cc7e9/facebook_simple_scraper-0.1.4.tar.gz
+[2024-05-28 15:35:23] INFO root fetch - processPackages [slurminade]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-28 15:35:23] INFO root fetch - processPackages [django-audit-events]: New version: [0.3.2] Old Version: [0.3.1.dev0]
+[2024-05-28 15:35:23] INFO root fetch - processPackages [bbot]: Downloading https://files.pythonhosted.org/packages/ff/c1/bb2febab6c3df245561823b7856c2eb2b1c96bd7a5c79ce80234e2764fae/bbot-1.1.8.3354rc0.tar.gz
+[2024-05-28 15:35:23] INFO root fetch - processPackages [bencode2]: Downloading https://files.pythonhosted.org/packages/23/f4/a28e8c52b18fc023e1b81784bbf2d9b9a8238d10dbf675853b69f64f6f8d/bencode2-0.0.8.tar.gz
+[2024-05-28 15:35:23] INFO root fetch - processPackages [mocca2]: Downloading https://files.pythonhosted.org/packages/62/d1/adf17b2824575fcfb3c0cad2623bd4755f68d2927be9565cbffdc5830826/mocca2-0.1.6.tar.gz
+[2024-05-28 15:35:23] INFO root fetch - processPackages [rerun-sdk]: Downloading https://files.pythonhosted.org/packages/d1/e1/b91b14b05fd2b89460faeff3f73002a52c230fe72d4ba52093856793107e/rerun_sdk-0.9.1rc3-cp38-abi3-win_amd64.whl
+[2024-05-28 15:35:23] INFO root fetch - processPackages [quickQrLib]: Downloading https://files.pythonhosted.org/packages/aa/1b/2a719c7fa3eade1d7de05b9c8c076e1f6e215710a48798c16a0bb769e7dc/quickQrLib-0.2.27.tar.gz
+[2024-05-28 15:35:23] INFO root fetch - processPackages [athigeo]: Downloading https://files.pythonhosted.org/packages/14/77/e9085a21ec356ac8a79de8ef83830d4dc8e690715dcd386387d600812cdb/athigeo-0.0.4.tar.gz
+[2024-05-28 15:35:23] INFO root fetch - processPackages [sp-variant]: Downloading https://files.pythonhosted.org/packages/5d/78/748726ee6963d1536e40bf1537bf48489b299d9f511da3518b222e9a4ecd/sp_variant-3.5.0.tar.gz
+[2024-05-28 15:35:23] INFO root fetch - processPackages [django-audit-events]: Downloading https://files.pythonhosted.org/packages/82/76/723a47a0b5e14322f60a269006414d93e83c283e4ab99957663bf0a14374/django-audit-events-0.3.1.dev0.tar.gz
+[2024-05-28 15:35:23] INFO root fetch - processPackages [slurminade]: Downloading https://files.pythonhosted.org/packages/ab/79/934bb10b01a8f1cbca5c11b720da5294723685159f3d4f71c8b950dbb46c/slurminade-1.1.0.tar.gz
+[2024-05-28 15:35:23] INFO root fetch - processPackages [facebook-simple-scraper]: Downloading https://files.pythonhosted.org/packages/83/b7/01534ae081616ad8c01345603bc06c7777ea4b6d478b6583016d4b157277/facebook_simple_scraper-0.1.5.tar.gz
+[2024-05-28 15:35:24] INFO root fetch - processPackages [bencode2]: Downloading https://files.pythonhosted.org/packages/0f/06/7fedfc22787eec56cd4d7da016a9d7a7aa43a4ab7e1a41b7443bdc8bf981/bencode2-0.0.9.tar.gz
+[2024-05-28 15:35:24] INFO root fetch - processPackages [bbot]: Downloading https://files.pythonhosted.org/packages/10/9b/e4a0681a45a431fd28cd7c83c2d2e4e05aecad56e2f27c90262b233ee68e/bbot-1.1.8.3356rc0.tar.gz
+[2024-05-28 15:35:24] INFO root fetch - processPackages [facebook-simple-scraper]: executing diffoscope
+[2024-05-28 15:35:24] INFO root fetch - processPackages [facebook-simple-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/facebook_simple_scraper-0.1.4.tar.gz tmp/facebook_simple_scraper-0.1.5.tar.gz --markdown 20240528/f/facebook-simple-scraper/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-28 15:35:24] INFO root fetch - processPackages [quickQrLib]: Downloading https://files.pythonhosted.org/packages/4f/c6/28a93422f844fe15ea2064ce15e198d6c57ca5f83a0af9d5eaf24bc0d8e3/quickQrLib-0.2.3.tar.gz
+[2024-05-28 15:35:24] INFO root fetch - processPackages [bencode2]: executing diffoscope
+[2024-05-28 15:35:24] INFO root fetch - processPackages [bencode2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bencode2-0.0.8.tar.gz tmp/bencode2-0.0.9.tar.gz --markdown 20240528/b/bencode2/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-28 15:35:24] INFO root fetch - processPackages [athigeo]: Downloading https://files.pythonhosted.org/packages/f7/a2/777b77bc89f23378a797faa2396ffbfa7889c1180d3fc4eaf54b201f0b3f/athigeo-0.0.5.tar.gz
+[2024-05-28 15:35:24] INFO root fetch - processPackages [sp-variant]: Downloading https://files.pythonhosted.org/packages/2f/5c/911e30391741d4635cf32fbe56cb70b526a38f7b89f7ca0fef8578aeb3d1/sp_variant-3.5.1.tar.gz
+[2024-05-28 15:35:24] INFO root fetch - processPackages [mocca2]: Downloading https://files.pythonhosted.org/packages/e9/6b/ae0f4814d06e1a6a4efd7c0be5cfac6fc30c30b7476b9f30534216c13701/mocca2-0.1.7.tar.gz
+[2024-05-28 15:35:24] INFO root fetch - processPackages [django-audit-events]: Downloading https://files.pythonhosted.org/packages/1b/f9/c1b835d000f9d03436caeccca3b07b394282349c7e48214c66f8c6eef169/django-audit-events-0.3.2.tar.gz
+[2024-05-28 15:35:24] INFO root fetch - processPackages [quickQrLib]: executing diffoscope
+[2024-05-28 15:35:24] INFO root fetch - processPackages [quickQrLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickQrLib-0.2.27.tar.gz tmp/quickQrLib-0.2.3.tar.gz --markdown 20240528/q/quickQrLib/0.2.27-0.2.3/README.md --exclude *.pyd
+[2024-05-28 15:35:24] INFO root fetch - processPackages [athigeo]: executing diffoscope
+[2024-05-28 15:35:24] INFO root fetch - processPackages [athigeo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/athigeo-0.0.4.tar.gz tmp/athigeo-0.0.5.tar.gz --markdown 20240528/a/athigeo/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-28 15:35:24] INFO root fetch - processPackages [slurminade]: Downloading https://files.pythonhosted.org/packages/e3/ed/f55eb26e897733050a5c72b1e9b2bb746930175743f92063912c9b314828/slurminade-1.1.1.tar.gz
+[2024-05-28 15:35:24] INFO root fetch - processPackages [sp-variant]: executing diffoscope
+[2024-05-28 15:35:24] INFO root fetch - processPackages [sp-variant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sp_variant-3.5.0.tar.gz tmp/sp_variant-3.5.1.tar.gz --markdown 20240528/s/sp-variant/3.5.0-3.5.1/README.md --exclude *.pyd
+[2024-05-28 15:35:24] INFO root fetch - processPackages [mocca2]: executing diffoscope
+[2024-05-28 15:35:24] INFO root fetch - processPackages [mocca2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mocca2-0.1.6.tar.gz tmp/mocca2-0.1.7.tar.gz --markdown 20240528/m/mocca2/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-28 15:35:24] INFO root fetch - processPackages [bbot]: executing diffoscope
+[2024-05-28 15:35:24] INFO root fetch - processPackages [bbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbot-1.1.8.3354rc0.tar.gz tmp/bbot-1.1.8.3356rc0.tar.gz --markdown 20240528/b/bbot/1.1.8.3354rc0-1.1.8.3356rc0/README.md --exclude *.pyd
+[2024-05-28 15:35:24] INFO root fetch - processPackages [django-audit-events]: executing diffoscope
+[2024-05-28 15:35:24] INFO root fetch - processPackages [django-audit-events]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-audit-events-0.3.1.dev0.tar.gz tmp/django-audit-events-0.3.2.tar.gz --markdown 20240528/d/django-audit-events/0.3.1.dev0-0.3.2/README.md --exclude *.pyd
+[2024-05-28 15:35:24] INFO root fetch - processPackages [slurminade]: executing diffoscope
+[2024-05-28 15:35:24] INFO root fetch - processPackages [slurminade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slurminade-1.1.0.tar.gz tmp/slurminade-1.1.1.tar.gz --markdown 20240528/s/slurminade/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-28 15:35:24] INFO root fetch - processPackages [facebook-simple-scraper]: Remove: archive file [/home/abi/fetcher/tmp/facebook_simple_scraper-0.1.4.tar.gz]
+[2024-05-28 15:35:24] INFO root fetch - processPackages [facebook-simple-scraper]: Remove: archive file [/home/abi/fetcher/tmp/facebook_simple_scraper-0.1.5.tar.gz]
+[2024-05-28 15:35:25] INFO root fetch - main [MainThread]: End processing [facebook-simple-scraper]: success
+[2024-05-28 15:35:25] INFO root fetch - processPackages [bencode2]: Remove: archive file [/home/abi/fetcher/tmp/bencode2-0.0.8.tar.gz]
+[2024-05-28 15:35:25] INFO root fetch - processPackages [bencode2]: Remove: archive file [/home/abi/fetcher/tmp/bencode2-0.0.9.tar.gz]
+[2024-05-28 15:35:25] INFO root fetch - main [MainThread]: End processing [bencode2]: success
+[2024-05-28 15:35:25] INFO root fetch - processPackages [athigeo]: Remove: archive file [/home/abi/fetcher/tmp/athigeo-0.0.4.tar.gz]
+[2024-05-28 15:35:25] INFO root fetch - processPackages [athigeo]: Remove: archive file [/home/abi/fetcher/tmp/athigeo-0.0.5.tar.gz]
+[2024-05-28 15:35:25] INFO root fetch - main [MainThread]: End processing [athigeo]: success
+[2024-05-28 15:35:25] INFO root fetch - processPackages [quickQrLib]: Remove: archive file [/home/abi/fetcher/tmp/quickQrLib-0.2.27.tar.gz]
+[2024-05-28 15:35:25] INFO root fetch - processPackages [quickQrLib]: Remove: archive file [/home/abi/fetcher/tmp/quickQrLib-0.2.3.tar.gz]
+[2024-05-28 15:35:25] INFO root fetch - main [MainThread]: End processing [quickQrLib]: success
+[2024-05-28 15:35:25] INFO root fetch - processPackages [django-audit-events]: Remove: archive file [/home/abi/fetcher/tmp/django-audit-events-0.3.1.dev0.tar.gz]
+[2024-05-28 15:35:25] INFO root fetch - processPackages [django-audit-events]: Remove: archive file [/home/abi/fetcher/tmp/django-audit-events-0.3.2.tar.gz]
+[2024-05-28 15:35:25] INFO root fetch - main [MainThread]: End processing [django-audit-events]: success
+[2024-05-28 15:35:25] INFO root fetch - processPackages [sp-variant]: Remove: archive file [/home/abi/fetcher/tmp/sp_variant-3.5.0.tar.gz]
+[2024-05-28 15:35:25] INFO root fetch - processPackages [sp-variant]: Remove: archive file [/home/abi/fetcher/tmp/sp_variant-3.5.1.tar.gz]
+[2024-05-28 15:35:25] INFO root fetch - main [MainThread]: End processing [sp-variant]: success
+[2024-05-28 15:35:25] INFO root fetch - processPackages [mocca2]: Remove: archive file [/home/abi/fetcher/tmp/mocca2-0.1.6.tar.gz]
+[2024-05-28 15:35:25] INFO root fetch - processPackages [mocca2]: Remove: archive file [/home/abi/fetcher/tmp/mocca2-0.1.7.tar.gz]
+[2024-05-28 15:35:25] INFO root fetch - main [MainThread]: End processing [mocca2]: success
+[2024-05-28 15:35:25] INFO root fetch - processPackages [slurminade]: Remove: archive file [/home/abi/fetcher/tmp/slurminade-1.1.0.tar.gz]
+[2024-05-28 15:35:25] INFO root fetch - processPackages [slurminade]: Remove: archive file [/home/abi/fetcher/tmp/slurminade-1.1.1.tar.gz]
+[2024-05-28 15:35:25] INFO root fetch - main [MainThread]: End processing [slurminade]: success
+[2024-05-28 15:35:25] WARNING root fetch - processPackages [rerun-sdk]: Skipping package: exceeds size limit 23779013>=10485760
+[2024-05-28 15:35:25] INFO root fetch - main [MainThread]: End processing [rerun-sdk] error
+[2024-05-28 15:35:26] INFO root fetch - processPackages [bbot]: Remove: archive file [/home/abi/fetcher/tmp/bbot-1.1.8.3354rc0.tar.gz]
+[2024-05-28 15:35:26] INFO root fetch - processPackages [bbot]: Remove: archive file [/home/abi/fetcher/tmp/bbot-1.1.8.3356rc0.tar.gz]
+[2024-05-28 15:35:26] INFO root fetch - main [MainThread]: End processing [bbot]: success
+[2024-05-28 15:35:26] INFO root fetch - main [MainThread]: Store serial: [23411991]
