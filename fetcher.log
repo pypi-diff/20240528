@@ -1794,3 +1794,36 @@
 [2024-05-28 02:10:10] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
 [2024-05-28 02:10:10] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
 [2024-05-28 02:10:10] INFO root fetch - main [MainThread]: Store serial: [23403535]
+[2024-05-28 02:12:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23403535]
+[2024-05-28 02:12:19] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-28 02:12:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jaanca-utils-os
+[2024-05-28 02:12:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flask-bootstrap-extendedes
+[2024-05-28 02:12:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mct-quantizers-nightly
+[2024-05-28 02:12:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-events-notify
+[2024-05-28 02:12:19] INFO root fetch - processPackages [jaanca-utils-os]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-28 02:12:19] INFO root fetch - processPackages [mct-quantizers-nightly]: New version: [1.5.0.20240527.post1114] Old Version: [1.5.0.20240526.post1158]
+[2024-05-28 02:12:19] INFO root fetch - processPackages [jaanca-utils-os]: Downloading https://files.pythonhosted.org/packages/7c/25/5a5372b2225560bb9d8dca8d942a1aad6f6cbfd66b8886972a1acf937e09/jaanca_utils_os-0.1.4.tar.gz
+[2024-05-28 02:12:19] WARNING root fetch - processPackages [flask-bootstrap-extendedes]: Skipping, unable to determine old version
+[2024-05-28 02:12:19] INFO root fetch - main [MainThread]: End processing [flask-bootstrap-extendedes] error
+[2024-05-28 02:12:19] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/63/e0/659ee6f84173066ecc4f2f482c89e289ef8a5ad25995c03555e9d7912be4/mct-quantizers-nightly-1.5.0.20240526.post1158.tar.gz
+[2024-05-28 02:12:19] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-05-28 02:12:19] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b7/7d/50ca1bff3db85ede28826faf2d11bb449770cac87fe89483636e0fe57d94/cdk-events-notify-2.2.98.tar.gz
+[2024-05-28 02:12:19] INFO root fetch - processPackages [jaanca-utils-os]: Downloading https://files.pythonhosted.org/packages/45/58/ae3f002ecb62af1f530f5c2a7e29955d415b09f1232a62b2c97da4de5281/jaanca_utils_os-0.1.5.tar.gz
+[2024-05-28 02:12:19] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/d4/be/59d098d91acb173ff13bc99e25e579e20ba7eb1dfc469f2f2295786c012a/mct-quantizers-nightly-1.5.0.20240527.post1114.tar.gz
+[2024-05-28 02:12:19] INFO root fetch - processPackages [jaanca-utils-os]: executing diffoscope
+[2024-05-28 02:12:19] INFO root fetch - processPackages [jaanca-utils-os]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaanca_utils_os-0.1.4.tar.gz tmp/jaanca_utils_os-0.1.5.tar.gz --markdown 20240528/j/jaanca-utils-os/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-28 02:12:19] INFO root fetch - processPackages [mct-quantizers-nightly]: executing diffoscope
+[2024-05-28 02:12:19] INFO root fetch - processPackages [mct-quantizers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-quantizers-nightly-1.5.0.20240526.post1158.tar.gz tmp/mct-quantizers-nightly-1.5.0.20240527.post1114.tar.gz --markdown 20240528/m/mct-quantizers-nightly/1.5.0.20240526.post1158-1.5.0.20240527.post1114/README.md --exclude *.pyd
+[2024-05-28 02:12:20] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/56/4a/9c2a145913d7a35ac252cb2bddabca89cdc95c802a8e342f192100f709be/cdk-events-notify-2.2.99.tar.gz
+[2024-05-28 02:12:20] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2024-05-28 02:12:20] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.2.98.tar.gz tmp/cdk-events-notify-2.2.99.tar.gz --markdown 20240528/c/cdk-events-notify/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-05-28 02:12:20] INFO root fetch - processPackages [jaanca-utils-os]: Remove: archive file [/home/abi/fetcher/tmp/jaanca_utils_os-0.1.4.tar.gz]
+[2024-05-28 02:12:20] INFO root fetch - processPackages [jaanca-utils-os]: Remove: archive file [/home/abi/fetcher/tmp/jaanca_utils_os-0.1.5.tar.gz]
+[2024-05-28 02:12:20] INFO root fetch - main [MainThread]: End processing [jaanca-utils-os]: success
+[2024-05-28 02:12:20] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.5.0.20240526.post1158.tar.gz]
+[2024-05-28 02:12:20] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.5.0.20240527.post1114.tar.gz]
+[2024-05-28 02:12:20] INFO root fetch - main [MainThread]: End processing [mct-quantizers-nightly]: success
+[2024-05-28 02:12:20] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.98.tar.gz]
+[2024-05-28 02:12:20] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.99.tar.gz]
+[2024-05-28 02:12:20] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2024-05-28 02:12:20] INFO root fetch - main [MainThread]: Store serial: [23403551]
