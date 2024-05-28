@@ -23578,3 +23578,81 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 16:49:03] INFO root fetch - processPackages [nef-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/nef_pipelines-0.1.73.tar.gz]
 [2024-05-28 16:49:03] INFO root fetch - main [MainThread]: End processing [nef-pipelines]: success
 [2024-05-28 16:49:03] INFO root fetch - main [MainThread]: Store serial: [23413323]
+[2024-05-28 16:51:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23413323]
+[2024-05-28 16:51:12] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-28 16:51:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lavague-drivers-selenium
+[2024-05-28 16:51:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lavague-core
+[2024-05-28 16:51:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zerohertzLib
+[2024-05-28 16:51:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: web-ui-helper
+[2024-05-28 16:51:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-plus-one
+[2024-05-28 16:51:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: abstract-shapes
+[2024-05-28 16:51:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zut
+[2024-05-28 16:51:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mailengine-sdk
+[2024-05-28 16:51:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: timelined_array
+[2024-05-28 16:51:12] INFO root fetch - processPackages [nonebot-plugin-plus-one]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-28 16:51:12] INFO root fetch - processPackages [timelined_array]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-28 16:51:12] INFO root fetch - processPackages [web-ui-helper]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-28 16:51:12] INFO root fetch - processPackages [lavague-core]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-28 16:51:12] INFO root fetch - processPackages [lavague-drivers-selenium]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-28 16:51:12] INFO root fetch - processPackages [nonebot-plugin-plus-one]: Downloading https://files.pythonhosted.org/packages/53/14/9f3478ee9846e67f0964e2c29409ddcb5ed119b54ea0992e17f5d0f1c816/nonebot_plugin_plus_one-0.1.7.tar.gz
+[2024-05-28 16:51:12] INFO root fetch - processPackages [zerohertzLib]: New version: [1.1.0] Old Version: [1.0.9]
+[2024-05-28 16:51:12] INFO root fetch - processPackages [timelined_array]: Downloading https://files.pythonhosted.org/packages/a5/95/fe0e59d2f533e38a6067076aa1a5d550b5e149497b4415c3ffdb01e3c6da/timelined_array-0.0.5.tar.gz
+[2024-05-28 16:51:12] INFO root fetch - processPackages [web-ui-helper]: Downloading https://files.pythonhosted.org/packages/70/26/195d21bc6888bd753d2ec483ef08d0491bc80ffe87ccb6cfb44f550950bc/web-ui-helper-1.0.2.tar.gz
+[2024-05-28 16:51:12] WARNING root fetch - processPackages [mailengine-sdk]: Skipping, unable to determine old version
+[2024-05-28 16:51:12] INFO root fetch - main [MainThread]: End processing [mailengine-sdk] error
+[2024-05-28 16:51:12] INFO root fetch - processPackages [zut]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-05-28 16:51:12] INFO root fetch - processPackages [abstract-shapes]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-28 16:51:12] INFO root fetch - processPackages [lavague-core]: Downloading https://files.pythonhosted.org/packages/e4/40/743a6abd535d3a25db893175a9cd0ebee75c115b3a2c4ef9f48a1e9d4d44/lavague_core-0.1.8.tar.gz
+[2024-05-28 16:51:12] INFO root fetch - processPackages [lavague-drivers-selenium]: Downloading https://files.pythonhosted.org/packages/f9/d5/5562816afeed2b3c92b93af6a81d9f01044654bd1cbff3605866552f54a1/lavague_drivers_selenium-0.1.4.tar.gz
+[2024-05-28 16:51:12] INFO root fetch - processPackages [nonebot-plugin-plus-one]: Downloading https://files.pythonhosted.org/packages/14/2a/4e5020497b3ff837b74d3d0735cbaa28adea375f4f83facbb29079f0f5f6/nonebot_plugin_plus_one-0.1.8.tar.gz
+[2024-05-28 16:51:12] INFO root fetch - processPackages [zerohertzLib]: Downloading https://files.pythonhosted.org/packages/5c/32/93d6579ee43d088fe4dc3c1fb0d775c401bb1436e44a1e90995cfb4b3d43/zerohertzLib-1.0.9.tar.gz
+[2024-05-28 16:51:12] INFO root fetch - processPackages [web-ui-helper]: Downloading https://files.pythonhosted.org/packages/1f/c8/38480624bf604917088ea0e5aef3e4fa27207321ecc535bb420ac1161961/web-ui-helper-1.0.3.tar.gz
+[2024-05-28 16:51:12] INFO root fetch - processPackages [zut]: Downloading https://files.pythonhosted.org/packages/72/6f/73586f3705156e7dabca6f1a9c6bff287456bfb9afb14758ee30f0831302/zut-0.9.2-py3-none-any.whl
+[2024-05-28 16:51:12] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/1f/5e/6dd8d718cacb908774fef75d6eaafe4a98ba9860e59da0d73dfb0524e8f2/abstract_shapes-0.0.0.8.tar.gz
+[2024-05-28 16:51:12] INFO root fetch - processPackages [timelined_array]: Downloading https://files.pythonhosted.org/packages/d0/44/350734906054742529403964c935d0e4461e6c277f3ec4135118d2355b50/timelined_array-0.0.6.tar.gz
+[2024-05-28 16:51:12] INFO root fetch - processPackages [nonebot-plugin-plus-one]: executing diffoscope
+[2024-05-28 16:51:12] INFO root fetch - processPackages [nonebot-plugin-plus-one]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_plus_one-0.1.7.tar.gz tmp/nonebot_plugin_plus_one-0.1.8.tar.gz --markdown 20240528/n/nonebot-plugin-plus-one/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-28 16:51:12] INFO root fetch - processPackages [web-ui-helper]: executing diffoscope
+[2024-05-28 16:51:12] INFO root fetch - processPackages [web-ui-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web-ui-helper-1.0.2.tar.gz tmp/web-ui-helper-1.0.3.tar.gz --markdown 20240528/w/web-ui-helper/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-28 16:51:12] INFO root fetch - processPackages [timelined_array]: executing diffoscope
+[2024-05-28 16:51:12] INFO root fetch - processPackages [timelined_array]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timelined_array-0.0.5.tar.gz tmp/timelined_array-0.0.6.tar.gz --markdown 20240528/t/timelined_array/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-28 16:51:12] INFO root fetch - processPackages [lavague-drivers-selenium]: Downloading https://files.pythonhosted.org/packages/fa/54/b0646c70b5172543dfeb82a25007327371c0c1ea6a7ac8dd47e36d17f6a7/lavague_drivers_selenium-0.1.5.tar.gz
+[2024-05-28 16:51:12] INFO root fetch - processPackages [lavague-core]: Downloading https://files.pythonhosted.org/packages/78/6c/0343c53ee821f987b0eb0d3977739465b8818124f5e82f0de318c60022a6/lavague_core-0.1.9.tar.gz
+[2024-05-28 16:51:12] INFO root fetch - processPackages [zut]: Downloading https://files.pythonhosted.org/packages/93/b9/66012a2fb184afbe4e8e451db6f1b511c72157e958a9046354d1c155cf2b/zut-0.9.3-py3-none-any.whl
+[2024-05-28 16:51:13] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/07/c5/eb5d4fb9695416d17a00e6da932d2ec3c55e5cfcb38bc4d09a9d7b69a31d/abstract_shapes-0.0.0.9.tar.gz
+[2024-05-28 16:51:13] INFO root fetch - processPackages [lavague-drivers-selenium]: executing diffoscope
+[2024-05-28 16:51:13] INFO root fetch - processPackages [lavague-drivers-selenium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lavague_drivers_selenium-0.1.4.tar.gz tmp/lavague_drivers_selenium-0.1.5.tar.gz --markdown 20240528/l/lavague-drivers-selenium/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-28 16:51:13] INFO root fetch - processPackages [lavague-core]: executing diffoscope
+[2024-05-28 16:51:13] INFO root fetch - processPackages [lavague-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lavague_core-0.1.8.tar.gz tmp/lavague_core-0.1.9.tar.gz --markdown 20240528/l/lavague-core/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-28 16:51:13] INFO root fetch - processPackages [zut]: executing diffoscope
+[2024-05-28 16:51:13] INFO root fetch - processPackages [zut]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zut-0.9.2-py3-none-any.whl.zip tmp/zut-0.9.3-py3-none-any.whl.zip --markdown 20240528/z/zut/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-05-28 16:51:13] INFO root fetch - processPackages [abstract-shapes]: executing diffoscope
+[2024-05-28 16:51:13] INFO root fetch - processPackages [abstract-shapes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_shapes-0.0.0.8.tar.gz tmp/abstract_shapes-0.0.0.9.tar.gz --markdown 20240528/a/abstract-shapes/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-28 16:51:13] INFO root fetch - processPackages [web-ui-helper]: Remove: archive file [/home/abi/fetcher/tmp/web-ui-helper-1.0.2.tar.gz]
+[2024-05-28 16:51:13] INFO root fetch - processPackages [web-ui-helper]: Remove: archive file [/home/abi/fetcher/tmp/web-ui-helper-1.0.3.tar.gz]
+[2024-05-28 16:51:13] INFO root fetch - main [MainThread]: End processing [web-ui-helper]: success
+[2024-05-28 16:51:13] INFO root fetch - processPackages [nonebot-plugin-plus-one]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_plus_one-0.1.7.tar.gz]
+[2024-05-28 16:51:13] INFO root fetch - processPackages [nonebot-plugin-plus-one]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_plus_one-0.1.8.tar.gz]
+[2024-05-28 16:51:13] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-plus-one]: success
+[2024-05-28 16:51:13] INFO root fetch - processPackages [zerohertzLib]: Downloading https://files.pythonhosted.org/packages/42/ef/73d151d813340e58f9ff0fe100c80775793ff806a723ad2c5c7704017ae9/zerohertzLib-1.1.0.tar.gz
+[2024-05-28 16:51:13] INFO root fetch - processPackages [timelined_array]: Remove: archive file [/home/abi/fetcher/tmp/timelined_array-0.0.5.tar.gz]
+[2024-05-28 16:51:13] INFO root fetch - processPackages [timelined_array]: Remove: archive file [/home/abi/fetcher/tmp/timelined_array-0.0.6.tar.gz]
+[2024-05-28 16:51:13] INFO root fetch - main [MainThread]: End processing [timelined_array]: success
+[2024-05-28 16:51:13] INFO root fetch - processPackages [lavague-drivers-selenium]: Remove: archive file [/home/abi/fetcher/tmp/lavague_drivers_selenium-0.1.4.tar.gz]
+[2024-05-28 16:51:13] INFO root fetch - processPackages [lavague-drivers-selenium]: Remove: archive file [/home/abi/fetcher/tmp/lavague_drivers_selenium-0.1.5.tar.gz]
+[2024-05-28 16:51:13] INFO root fetch - main [MainThread]: End processing [lavague-drivers-selenium]: success
+[2024-05-28 16:51:13] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.8.tar.gz]
+[2024-05-28 16:51:13] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.9.tar.gz]
+[2024-05-28 16:51:13] INFO root fetch - main [MainThread]: End processing [abstract-shapes]: success
+[2024-05-28 16:51:13] INFO root fetch - processPackages [lavague-core]: Remove: archive file [/home/abi/fetcher/tmp/lavague_core-0.1.8.tar.gz]
+[2024-05-28 16:51:13] INFO root fetch - processPackages [lavague-core]: Remove: archive file [/home/abi/fetcher/tmp/lavague_core-0.1.9.tar.gz]
+[2024-05-28 16:51:13] INFO root fetch - main [MainThread]: End processing [lavague-core]: success
+[2024-05-28 16:51:13] INFO root fetch - processPackages [zerohertzLib]: executing diffoscope
+[2024-05-28 16:51:13] INFO root fetch - processPackages [zerohertzLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zerohertzLib-1.0.9.tar.gz tmp/zerohertzLib-1.1.0.tar.gz --markdown 20240528/z/zerohertzLib/1.0.9-1.1.0/README.md --exclude *.pyd
+[2024-05-28 16:51:13] INFO root fetch - processPackages [zut]: Remove: archive file [/home/abi/fetcher/tmp/zut-0.9.2-py3-none-any.whl.zip]
+[2024-05-28 16:51:13] INFO root fetch - processPackages [zut]: Remove: archive file [/home/abi/fetcher/tmp/zut-0.9.3-py3-none-any.whl.zip]
+[2024-05-28 16:51:13] INFO root fetch - main [MainThread]: End processing [zut]: success
+[2024-05-28 16:51:15] INFO root fetch - processPackages [zerohertzLib]: Remove: archive file [/home/abi/fetcher/tmp/zerohertzLib-1.0.9.tar.gz]
+[2024-05-28 16:51:15] INFO root fetch - processPackages [zerohertzLib]: Remove: archive file [/home/abi/fetcher/tmp/zerohertzLib-1.1.0.tar.gz]
+[2024-05-28 16:51:15] INFO root fetch - main [MainThread]: End processing [zerohertzLib]: success
+[2024-05-28 16:51:15] INFO root fetch - main [MainThread]: Store serial: [23413348]
