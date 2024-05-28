@@ -3836,3 +3836,36 @@
 [2024-05-28 04:26:32] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240528022512.tar.gz]
 [2024-05-28 04:26:32] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2024-05-28 04:26:32] INFO root fetch - main [MainThread]: Store serial: [23404372]
+[2024-05-28 04:28:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23404372]
+[2024-05-28 04:28:47] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-28 04:28:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyrapid
+[2024-05-28 04:28:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-ccc20200701
+[2024-05-28 04:28:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: OGRePy
+[2024-05-28 04:28:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: evo-framework
+[2024-05-28 04:28:47] WARNING root fetch - processPackages [evo-framework]: Skipping, unable to determine old version
+[2024-05-28 04:28:47] INFO root fetch - processPackages [pyrapid]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-28 04:28:47] INFO root fetch - main [MainThread]: End processing [evo-framework] error
+[2024-05-28 04:28:47] INFO root fetch - processPackages [alibabacloud-ccc20200701]: New version: [2.7.0] Old Version: [2.4.1]
+[2024-05-28 04:28:47] INFO root fetch - processPackages [OGRePy]: New version: [1.0.0] Old Version: [0.1.0]
+[2024-05-28 04:28:47] INFO root fetch - processPackages [pyrapid]: Downloading https://files.pythonhosted.org/packages/56/0e/5861c3ee78652bf95f51e3228b1f80b66f76449cd734ebfcbf43d6bc65d8/pyrapid-0.0.1.tar.gz
+[2024-05-28 04:28:48] INFO root fetch - processPackages [alibabacloud-ccc20200701]: Downloading https://files.pythonhosted.org/packages/74/f3/4a27ffb49ff6106c1e90417aba0122ab5b2e7cbd09d5792aad2455cda0db/alibabacloud_ccc20200701-2.4.1.tar.gz
+[2024-05-28 04:28:48] INFO root fetch - processPackages [OGRePy]: Downloading https://files.pythonhosted.org/packages/49/de/de5fb5abff0489447b46a398b1083f066f65efc418957263335748e6f14d/OGRePy-0.1.0.tar.gz
+[2024-05-28 04:28:48] INFO root fetch - processPackages [pyrapid]: Downloading https://files.pythonhosted.org/packages/81/ed/e4b683124e8d719c0d88db6f18d2554329fc16ad43a41248b7ec88587a6e/pyrapid-0.0.2.tar.gz
+[2024-05-28 04:28:48] INFO root fetch - processPackages [OGRePy]: Downloading https://files.pythonhosted.org/packages/32/56/c898367e74402dad314253a393fff631b3f7b1d90844f66d348f8060931a/ogrepy-1.0.0.tar.gz
+[2024-05-28 04:28:48] INFO root fetch - processPackages [pyrapid]: executing diffoscope
+[2024-05-28 04:28:48] INFO root fetch - processPackages [pyrapid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrapid-0.0.1.tar.gz tmp/pyrapid-0.0.2.tar.gz --markdown 20240528/p/pyrapid/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-28 04:28:48] INFO root fetch - processPackages [alibabacloud-ccc20200701]: Downloading https://files.pythonhosted.org/packages/d0/25/a7584571fb4acbdaac5a90572964a34eb31d1acc949e36c93c2bcc253d3c/alibabacloud_ccc20200701-2.7.0.tar.gz
+[2024-05-28 04:28:48] INFO root fetch - processPackages [alibabacloud-ccc20200701]: executing diffoscope
+[2024-05-28 04:28:48] INFO root fetch - processPackages [alibabacloud-ccc20200701]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ccc20200701-2.4.1.tar.gz tmp/alibabacloud_ccc20200701-2.7.0.tar.gz --markdown 20240528/a/alibabacloud-ccc20200701/2.4.1-2.7.0/README.md --exclude *.pyd
+[2024-05-28 04:28:48] INFO root fetch - processPackages [OGRePy]: executing diffoscope
+[2024-05-28 04:28:48] INFO root fetch - processPackages [OGRePy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OGRePy-0.1.0.tar.gz tmp/ogrepy-1.0.0.tar.gz --markdown 20240528/O/OGRePy/0.1.0-1.0.0/README.md --exclude *.pyd
+[2024-05-28 04:28:48] INFO root fetch - processPackages [pyrapid]: Remove: archive file [/home/abi/fetcher/tmp/pyrapid-0.0.1.tar.gz]
+[2024-05-28 04:28:48] INFO root fetch - processPackages [pyrapid]: Remove: archive file [/home/abi/fetcher/tmp/pyrapid-0.0.2.tar.gz]
+[2024-05-28 04:28:48] INFO root fetch - main [MainThread]: End processing [pyrapid]: success
+[2024-05-28 04:28:49] INFO root fetch - processPackages [OGRePy]: Remove: archive file [/home/abi/fetcher/tmp/OGRePy-0.1.0.tar.gz]
+[2024-05-28 04:28:49] INFO root fetch - processPackages [OGRePy]: Remove: archive file [/home/abi/fetcher/tmp/ogrepy-1.0.0.tar.gz]
+[2024-05-28 04:28:49] INFO root fetch - main [MainThread]: End processing [OGRePy]: success
+[2024-05-28 04:28:50] INFO root fetch - processPackages [alibabacloud-ccc20200701]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ccc20200701-2.4.1.tar.gz]
+[2024-05-28 04:28:50] INFO root fetch - processPackages [alibabacloud-ccc20200701]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ccc20200701-2.7.0.tar.gz]
+[2024-05-28 04:28:50] INFO root fetch - main [MainThread]: End processing [alibabacloud-ccc20200701]: success
+[2024-05-28 04:28:50] INFO root fetch - main [MainThread]: Store serial: [23404384]
