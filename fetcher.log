@@ -16802,3 +16802,58 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 13:10:15] INFO root fetch - processPackages [grafana-foundation-sdk]: Remove: archive file [/home/abi/fetcher/tmp/grafana_foundation_sdk-1716894257!11.0.0.tar.gz]
 [2024-05-28 13:10:15] INFO root fetch - main [MainThread]: End processing [grafana-foundation-sdk]: success
 [2024-05-28 13:10:15] INFO root fetch - main [MainThread]: Store serial: [23410003]
+[2024-05-28 13:12:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23410003]
+[2024-05-28 13:12:26] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-28 13:12:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: grafana-foundation-sdk
+[2024-05-28 13:12:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cycode
+[2024-05-28 13:12:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mosstool
+[2024-05-28 13:12:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: clients-core
+[2024-05-28 13:12:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: grafana-foundation-sdk
+[2024-05-28 13:12:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pypas-cli
+[2024-05-28 13:12:26] INFO root fetch - processPackages [grafana-foundation-sdk]: New version: [1716894270!10.4.0] Old Version: [1716894257!11.0.0]
+[2024-05-28 13:12:26] INFO root fetch - processPackages [grafana-foundation-sdk]: New version: [1716894270!10.4.0] Old Version: [1716894257!11.0.0]
+[2024-05-28 13:12:26] INFO root fetch - processPackages [cycode]: New version: [1.9.6.dev3] Old Version: [1.9.6.dev2]
+[2024-05-28 13:12:26] INFO root fetch - processPackages [mosstool]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-28 13:12:26] INFO root fetch - processPackages [pypas-cli]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-28 13:12:26] INFO root fetch - processPackages [grafana-foundation-sdk]: Downloading https://files.pythonhosted.org/packages/fd/4f/a9d5cc9e9268d63dcd270e36031447b50901844023b062ee98522b301efa/grafana_foundation_sdk-1716894257!11.0.0.tar.gz
+[2024-05-28 13:12:26] INFO root fetch - processPackages [clients-core]: New version: [2.4.0] Old Version: [2.3.1]
+[2024-05-28 13:12:26] INFO root fetch - processPackages [grafana-foundation-sdk]: Downloading https://files.pythonhosted.org/packages/fd/4f/a9d5cc9e9268d63dcd270e36031447b50901844023b062ee98522b301efa/grafana_foundation_sdk-1716894257!11.0.0.tar.gz
+[2024-05-28 13:12:26] INFO root fetch - processPackages [cycode]: Downloading https://files.pythonhosted.org/packages/50/7e/fbe6d931a27756e37698bd0d7229e679e4ba94312af9380f58c968cbc258/cycode-1.9.6.dev2.tar.gz
+[2024-05-28 13:12:26] INFO root fetch - processPackages [mosstool]: Downloading https://files.pythonhosted.org/packages/0e/e1/67fc3c5df3fc2f59a385cb102fba7edcfbf0a02cabff1325cfbd245bbb70/mosstool-0.2.0.tar.gz
+[2024-05-28 13:12:26] INFO root fetch - processPackages [pypas-cli]: Downloading https://files.pythonhosted.org/packages/3f/85/316e6acdb86911feee444109de03abffbb1d0278b470e38be73c2df0cb82/pypas_cli-0.0.3.tar.gz
+[2024-05-28 13:12:26] INFO root fetch - processPackages [clients-core]: Downloading https://files.pythonhosted.org/packages/45/15/49f7041327a81dcfea72162eb33fdda2f8ab2687225c8bab96504c247477/clients_core-2.3.1-py3-none-any.whl
+[2024-05-28 13:12:26] INFO root fetch - processPackages [cycode]: Downloading https://files.pythonhosted.org/packages/aa/52/917dba61b8b775495751f90059bf87bb43092b02ea041fcbc5623ef71db3/cycode-1.9.6.dev3.tar.gz
+[2024-05-28 13:12:26] INFO root fetch - processPackages [grafana-foundation-sdk]: Downloading https://files.pythonhosted.org/packages/f7/fc/1d6409852323006b9f46d41b6e4d56c67b0a1334c3cbc32ccf13cac2b904/grafana_foundation_sdk-1716894270!10.4.0.tar.gz
+[2024-05-28 13:12:26] INFO root fetch - processPackages [grafana-foundation-sdk]: Downloading https://files.pythonhosted.org/packages/f7/fc/1d6409852323006b9f46d41b6e4d56c67b0a1334c3cbc32ccf13cac2b904/grafana_foundation_sdk-1716894270!10.4.0.tar.gz
+[2024-05-28 13:12:26] INFO root fetch - processPackages [cycode]: executing diffoscope
+[2024-05-28 13:12:26] INFO root fetch - processPackages [cycode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cycode-1.9.6.dev2.tar.gz tmp/cycode-1.9.6.dev3.tar.gz --markdown 20240528/c/cycode/1.9.6.dev2-1.9.6.dev3/README.md --exclude *.pyd
+[2024-05-28 13:12:26] INFO root fetch - processPackages [grafana-foundation-sdk]: executing diffoscope
+[2024-05-28 13:12:26] INFO root fetch - processPackages [grafana-foundation-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grafana_foundation_sdk-1716894257!11.0.0.tar.gz tmp/grafana_foundation_sdk-1716894270!10.4.0.tar.gz --markdown 20240528/g/grafana-foundation-sdk/1716894257!11.0.0-1716894270!10.4.0/README.md --exclude *.pyd
+[2024-05-28 13:12:26] INFO root fetch - processPackages [grafana-foundation-sdk]: executing diffoscope
+[2024-05-28 13:12:26] INFO root fetch - processPackages [grafana-foundation-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grafana_foundation_sdk-1716894257!11.0.0.tar.gz tmp/grafana_foundation_sdk-1716894270!10.4.0.tar.gz --markdown 20240528/g/grafana-foundation-sdk/1716894257!11.0.0-1716894270!10.4.0/README.md --exclude *.pyd
+[2024-05-28 13:12:26] INFO root fetch - processPackages [pypas-cli]: Downloading https://files.pythonhosted.org/packages/36/74/835d4efe8de29d6c90d7955d3883be36d757bfff609fe05391fe6f449511/pypas_cli-0.0.4.tar.gz
+[2024-05-28 13:12:26] INFO root fetch - processPackages [clients-core]: Downloading https://files.pythonhosted.org/packages/83/70/3899bb5220e1a4ee65b7c7b480a3325e8cfb6aa19ee4b93e17a3f23a64b8/clients_core-2.4.0-py3-none-any.whl
+[2024-05-28 13:12:26] INFO root fetch - processPackages [mosstool]: Downloading https://files.pythonhosted.org/packages/e7/1d/0da25307d3d3902a1b51192e0fcb234d3d4e790526c3163a34ca8c815746/mosstool-0.2.1.tar.gz
+[2024-05-28 13:12:27] INFO root fetch - processPackages [clients-core]: executing diffoscope
+[2024-05-28 13:12:27] INFO root fetch - processPackages [clients-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clients_core-2.3.1-py3-none-any.whl.zip tmp/clients_core-2.4.0-py3-none-any.whl.zip --markdown 20240528/c/clients-core/2.3.1-2.4.0/README.md --exclude *.pyd
+[2024-05-28 13:12:27] INFO root fetch - processPackages [pypas-cli]: executing diffoscope
+[2024-05-28 13:12:27] INFO root fetch - processPackages [pypas-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypas_cli-0.0.3.tar.gz tmp/pypas_cli-0.0.4.tar.gz --markdown 20240528/p/pypas-cli/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-28 13:12:27] INFO root fetch - processPackages [mosstool]: executing diffoscope
+[2024-05-28 13:12:27] INFO root fetch - processPackages [mosstool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mosstool-0.2.0.tar.gz tmp/mosstool-0.2.1.tar.gz --markdown 20240528/m/mosstool/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-28 13:12:27] INFO root fetch - processPackages [cycode]: Remove: archive file [/home/abi/fetcher/tmp/cycode-1.9.6.dev2.tar.gz]
+[2024-05-28 13:12:27] INFO root fetch - processPackages [cycode]: Remove: archive file [/home/abi/fetcher/tmp/cycode-1.9.6.dev3.tar.gz]
+[2024-05-28 13:12:27] INFO root fetch - main [MainThread]: End processing [cycode]: success
+[2024-05-28 13:12:27] INFO root fetch - processPackages [pypas-cli]: Remove: archive file [/home/abi/fetcher/tmp/pypas_cli-0.0.3.tar.gz]
+[2024-05-28 13:12:27] INFO root fetch - processPackages [pypas-cli]: Remove: archive file [/home/abi/fetcher/tmp/pypas_cli-0.0.4.tar.gz]
+[2024-05-28 13:12:27] INFO root fetch - main [MainThread]: End processing [pypas-cli]: success
+[2024-05-28 13:12:27] INFO root fetch - processPackages [mosstool]: Remove: archive file [/home/abi/fetcher/tmp/mosstool-0.2.0.tar.gz]
+[2024-05-28 13:12:27] INFO root fetch - processPackages [mosstool]: Remove: archive file [/home/abi/fetcher/tmp/mosstool-0.2.1.tar.gz]
+[2024-05-28 13:12:27] INFO root fetch - main [MainThread]: End processing [mosstool]: success
+[2024-05-28 13:12:28] INFO root fetch - processPackages [clients-core]: Remove: archive file [/home/abi/fetcher/tmp/clients_core-2.3.1-py3-none-any.whl.zip]
+[2024-05-28 13:12:28] INFO root fetch - processPackages [clients-core]: Remove: archive file [/home/abi/fetcher/tmp/clients_core-2.4.0-py3-none-any.whl.zip]
+[2024-05-28 13:12:28] INFO root fetch - main [MainThread]: End processing [clients-core]: success
+[2024-05-28 13:12:28] INFO root fetch - processPackages [grafana-foundation-sdk]: Remove: archive file [/home/abi/fetcher/tmp/grafana_foundation_sdk-1716894257!11.0.0.tar.gz]
+[2024-05-28 13:12:28] INFO root fetch - processPackages [grafana-foundation-sdk]: Remove: archive file [/home/abi/fetcher/tmp/grafana_foundation_sdk-1716894270!10.4.0.tar.gz]
+[2024-05-28 13:12:28] INFO root fetch - main [MainThread]: End processing [grafana-foundation-sdk]: success
+[2024-05-28 13:12:28] INFO root fetch - main [MainThread]: End processing [grafana-foundation-sdk]: success
+[2024-05-28 13:12:28] INFO root fetch - main [MainThread]: Store serial: [23410020]
