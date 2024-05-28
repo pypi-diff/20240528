@@ -17782,3 +17782,14 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 13:46:45] INFO root fetch - processPackages [UnitMatchPy]: Remove: archive file [/home/abi/fetcher/tmp/UnitMatchPy-1.5rc0.tar.gz]
 [2024-05-28 13:46:45] INFO root fetch - main [MainThread]: End processing [UnitMatchPy]: success
 [2024-05-28 13:46:45] INFO root fetch - main [MainThread]: Store serial: [23410448]
+[2024-05-28 13:48:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23410448]
+[2024-05-28 13:48:58] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-28 13:48:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ciscoconfparse2
+[2024-05-28 13:48:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: relations-grpc-clients-python-kessel-project
+[2024-05-28 13:48:58] INFO root fetch - processPackages [ciscoconfparse2]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-28 13:48:58] INFO root fetch - processPackages [ciscoconfparse2]: Downloading https://files.pythonhosted.org/packages/26/c5/d7a1bbb15197a52ec641fb3455b2bad160571ef08bbb87f61c8e83e45163/ciscoconfparse2-0.7.8.tar.gz
+[2024-05-28 13:48:58] WARNING root fetch - processPackages [relations-grpc-clients-python-kessel-project]: Skipping, unable to determine old version
+[2024-05-28 13:48:58] INFO root fetch - main [MainThread]: End processing [relations-grpc-clients-python-kessel-project] error
+[2024-05-28 13:48:58] WARNING root fetch - processPackages [ciscoconfparse2]: Skipping package: exceeds size limit 12946892>=10485760
+[2024-05-28 13:48:58] INFO root fetch - main [MainThread]: End processing [ciscoconfparse2] error
+[2024-05-28 13:48:58] INFO root fetch - main [MainThread]: Store serial: [23410456]
