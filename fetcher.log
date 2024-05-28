@@ -13455,3 +13455,59 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 11:08:24] INFO root fetch - processPackages [dynareadout]: Remove: archive file [/home/abi/fetcher/tmp/dynareadout-24.5-pp39-pypy39_pp73-macosx_10_9_x86_64.whl.zip]
 [2024-05-28 11:08:24] INFO root fetch - main [MainThread]: End processing [dynareadout]: success
 [2024-05-28 11:08:24] INFO root fetch - main [MainThread]: Store serial: [23408563]
+[2024-05-28 11:10:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23408563]
+[2024-05-28 11:10:32] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-28 11:10:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sqlglot-doris
+[2024-05-28 11:10:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chess-transformer
+[2024-05-28 11:10:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: onchainpay-sdk-test
+[2024-05-28 11:10:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Audire
+[2024-05-28 11:10:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ascat
+[2024-05-28 11:10:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: conan
+[2024-05-28 11:10:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: conan-server
+[2024-05-28 11:10:32] INFO root fetch - processPackages [chess-transformer]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-28 11:10:32] INFO root fetch - processPackages [conan]: New version: [2.3.1] Old Version: [2.3.0]
+[2024-05-28 11:10:32] INFO root fetch - processPackages [sqlglot-doris]: New version: [1.1.9.5] Old Version: [1.1.9.4]
+[2024-05-28 11:10:32] ERROR root fetch - processPackages [onchainpay-sdk-test]: Unable to get metadata: No such project 'onchainpay-sdk-test'
+[2024-05-28 11:10:32] INFO root fetch - main [MainThread]: End processing [onchainpay-sdk-test] error
+[2024-05-28 11:10:32] INFO root fetch - processPackages [chess-transformer]: Downloading https://files.pythonhosted.org/packages/13/af/53bd8ccda8564fb5149bc942395f050d7ad970b465e5d92dbf4a56d00bee/chess_transformer-0.1.7.tar.gz
+[2024-05-28 11:10:32] INFO root fetch - processPackages [Audire]: New version: [1.1.0] Old Version: [1.0.1b1]
+[2024-05-28 11:10:32] INFO root fetch - processPackages [ascat]: New version: [2.4.1] Old Version: [2.4.0]
+[2024-05-28 11:10:32] INFO root fetch - processPackages [conan-server]: New version: [2.3.2] Old Version: [2.3.1]
+[2024-05-28 11:10:33] INFO root fetch - processPackages [sqlglot-doris]: Downloading https://files.pythonhosted.org/packages/9b/ff/3285fbacd8ea31644b3e7b01bdabd94df128fcae3e179f890f2e0085669b/sqlglot-doris-1.1.9.4.tar.gz
+[2024-05-28 11:10:33] INFO root fetch - processPackages [conan]: Downloading https://files.pythonhosted.org/packages/ab/48/d46bf77472bf6e7b0d93b50b1f6c9b19ee7b6ca966251c8d16eaa8f5dd47/conan-2.3.0.tar.gz
+[2024-05-28 11:10:33] WARNING root fetch - processPackages [sqlglot-doris]: Skipping package: exceeds size limit 19213682>=10485760
+[2024-05-28 11:10:33] INFO root fetch - main [MainThread]: End processing [sqlglot-doris] error
+[2024-05-28 11:10:33] INFO root fetch - processPackages [ascat]: Downloading https://files.pythonhosted.org/packages/8f/d7/23990823db69e209e15f5bc473ca1bac23dc3b79bacbdb97dfd86ce3292d/ascat-2.4.0.tar.gz
+[2024-05-28 11:10:33] INFO root fetch - processPackages [Audire]: Downloading https://files.pythonhosted.org/packages/f7/a5/8ac05aa8b882ada09f2ca81842c2745564c2a383fd8766de754a29e14186/audire-1.0.1b1.tar.gz
+[2024-05-28 11:10:33] INFO root fetch - processPackages [conan-server]: Downloading https://files.pythonhosted.org/packages/55/81/280e4c612b3527ce7328653d71ba8b79086e624d1ed225c8a05b5555d70a/conan-server-2.3.1.tar.gz
+[2024-05-28 11:10:33] INFO root fetch - processPackages [chess-transformer]: Downloading https://files.pythonhosted.org/packages/17/9a/4eaffd0a6a3b549dde852c3725d047241701c2bfbd76111bc2bccccb0658/chess_transformer-0.1.8.tar.gz
+[2024-05-28 11:10:33] INFO root fetch - processPackages [chess-transformer]: executing diffoscope
+[2024-05-28 11:10:33] INFO root fetch - processPackages [chess-transformer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chess_transformer-0.1.7.tar.gz tmp/chess_transformer-0.1.8.tar.gz --markdown 20240528/c/chess-transformer/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-28 11:10:33] INFO root fetch - processPackages [Audire]: Downloading https://files.pythonhosted.org/packages/d3/62/2daea75cbc6fc0e785a6a00639a31bab35fa046f3d2ada871e24cab01c43/audire-1.1.0.tar.gz
+[2024-05-28 11:10:33] INFO root fetch - processPackages [conan]: Downloading https://files.pythonhosted.org/packages/58/f4/37505c9c503d9efcadeb9e8ccf11915a4e0409e08c31ce8e211fd4bc308c/conan-2.3.1.tar.gz
+[2024-05-28 11:10:33] INFO root fetch - processPackages [conan-server]: Downloading https://files.pythonhosted.org/packages/56/59/3e43f0a277f3b9735028ac797392ac4c3581a8ea8dddd50e70ac3a656620/conan-server-2.3.2.tar.gz
+[2024-05-28 11:10:33] INFO root fetch - processPackages [Audire]: executing diffoscope
+[2024-05-28 11:10:33] INFO root fetch - processPackages [Audire]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audire-1.0.1b1.tar.gz tmp/audire-1.1.0.tar.gz --markdown 20240528/A/Audire/1.0.1b1-1.1.0/README.md --exclude *.pyd
+[2024-05-28 11:10:33] INFO root fetch - processPackages [conan]: executing diffoscope
+[2024-05-28 11:10:33] INFO root fetch - processPackages [conan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conan-2.3.0.tar.gz tmp/conan-2.3.1.tar.gz --markdown 20240528/c/conan/2.3.0-2.3.1/README.md --exclude *.pyd
+[2024-05-28 11:10:33] INFO root fetch - processPackages [ascat]: Downloading https://files.pythonhosted.org/packages/ba/a4/9cc25bb0932c84a6211dec7733bc2d412e4c593627b989611533020b086e/ascat-2.4.1.tar.gz
+[2024-05-28 11:10:33] INFO root fetch - processPackages [conan-server]: executing diffoscope
+[2024-05-28 11:10:33] INFO root fetch - processPackages [conan-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conan-server-2.3.1.tar.gz tmp/conan-server-2.3.2.tar.gz --markdown 20240528/c/conan-server/2.3.1-2.3.2/README.md --exclude *.pyd
+[2024-05-28 11:10:33] INFO root fetch - processPackages [chess-transformer]: Remove: archive file [/home/abi/fetcher/tmp/chess_transformer-0.1.7.tar.gz]
+[2024-05-28 11:10:33] INFO root fetch - processPackages [chess-transformer]: Remove: archive file [/home/abi/fetcher/tmp/chess_transformer-0.1.8.tar.gz]
+[2024-05-28 11:10:33] INFO root fetch - main [MainThread]: End processing [chess-transformer]: success
+[2024-05-28 11:10:34] INFO root fetch - processPackages [Audire]: Remove: archive file [/home/abi/fetcher/tmp/audire-1.0.1b1.tar.gz]
+[2024-05-28 11:10:34] INFO root fetch - processPackages [Audire]: Remove: archive file [/home/abi/fetcher/tmp/audire-1.1.0.tar.gz]
+[2024-05-28 11:10:34] INFO root fetch - main [MainThread]: End processing [Audire]: success
+[2024-05-28 11:10:34] INFO root fetch - processPackages [ascat]: executing diffoscope
+[2024-05-28 11:10:34] INFO root fetch - processPackages [ascat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ascat-2.4.0.tar.gz tmp/ascat-2.4.1.tar.gz --markdown 20240528/a/ascat/2.4.0-2.4.1/README.md --exclude *.pyd
+[2024-05-28 11:10:35] INFO root fetch - processPackages [conan]: Remove: archive file [/home/abi/fetcher/tmp/conan-2.3.0.tar.gz]
+[2024-05-28 11:10:35] INFO root fetch - processPackages [conan]: Remove: archive file [/home/abi/fetcher/tmp/conan-2.3.1.tar.gz]
+[2024-05-28 11:10:35] INFO root fetch - main [MainThread]: End processing [conan]: success
+[2024-05-28 11:10:35] INFO root fetch - processPackages [conan-server]: Remove: archive file [/home/abi/fetcher/tmp/conan-server-2.3.1.tar.gz]
+[2024-05-28 11:10:35] INFO root fetch - processPackages [conan-server]: Remove: archive file [/home/abi/fetcher/tmp/conan-server-2.3.2.tar.gz]
+[2024-05-28 11:10:35] INFO root fetch - main [MainThread]: End processing [conan-server]: success
+[2024-05-28 11:10:36] INFO root fetch - processPackages [ascat]: Remove: archive file [/home/abi/fetcher/tmp/ascat-2.4.0.tar.gz]
+[2024-05-28 11:10:36] INFO root fetch - processPackages [ascat]: Remove: archive file [/home/abi/fetcher/tmp/ascat-2.4.1.tar.gz]
+[2024-05-28 11:10:36] INFO root fetch - main [MainThread]: End processing [ascat]: success
+[2024-05-28 11:10:36] INFO root fetch - main [MainThread]: Store serial: [23408588]
