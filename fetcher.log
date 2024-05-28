@@ -16715,3 +16715,45 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 13:05:48] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.7.99.tar.gz]
 [2024-05-28 13:05:48] INFO root fetch - main [MainThread]: End processing [autotrain-advanced]: success
 [2024-05-28 13:05:48] INFO root fetch - main [MainThread]: Store serial: [23409971]
+[2024-05-28 13:07:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23409971]
+[2024-05-28 13:07:59] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-28 13:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: streamlit-p5
+[2024-05-28 13:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gammarers.aws-secure-flow-log-bucket
+[2024-05-28 13:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mcptool
+[2024-05-28 13:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: LearningNashQLearning
+[2024-05-28 13:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: grafana-foundation-sdk
+[2024-05-28 13:07:59] INFO root fetch - processPackages [LearningNashQLearning]: New version: [0.2] Old Version: [0.1]
+[2024-05-28 13:07:59] WARNING root fetch - processPackages [mcptool]: Skipping, unable to determine old version
+[2024-05-28 13:07:59] INFO root fetch - main [MainThread]: End processing [mcptool] error
+[2024-05-28 13:07:59] INFO root fetch - processPackages [LearningNashQLearning]: Downloading https://files.pythonhosted.org/packages/1f/48/7ff4ba83cc8f2a8063c123e8c29948d49571f5490fe63e3f9b94298d0195/LearningNashQLearning-0.1.tar.gz
+[2024-05-28 13:07:59] INFO root fetch - processPackages [gammarers.aws-secure-flow-log-bucket]: New version: [1.5.0] Old Version: [1.4.4]
+[2024-05-28 13:07:59] INFO root fetch - processPackages [streamlit-p5]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-28 13:07:59] INFO root fetch - processPackages [grafana-foundation-sdk]: New version: [1716894257!11.0.0] Old Version: [1716541850!10.1.0]
+[2024-05-28 13:08:00] INFO root fetch - processPackages [streamlit-p5]: Downloading https://files.pythonhosted.org/packages/42/de/4a3e3316e4cc1fad499a787f9db561a70182f9d80aa623d92ade46a90b2c/streamlit_p5-0.0.3.tar.gz
+[2024-05-28 13:08:00] INFO root fetch - processPackages [gammarers.aws-secure-flow-log-bucket]: Downloading https://files.pythonhosted.org/packages/62/66/57253c9b5c0995efc34c62b89b77766e7326c14e5893bfcc02ee41d8e6a0/gammarers.aws-secure-flow-log-bucket-1.4.4.tar.gz
+[2024-05-28 13:08:00] INFO root fetch - processPackages [LearningNashQLearning]: Downloading https://files.pythonhosted.org/packages/3c/07/8d6d6d799b7ffebb72a20798ad5e32441302957f17c08ffc797106233ce2/LearningNashQLearning-0.2.tar.gz
+[2024-05-28 13:08:00] INFO root fetch - processPackages [grafana-foundation-sdk]: Downloading https://files.pythonhosted.org/packages/10/43/e4c234afcb417ff967cab1333960920401b6e73620922a6730808890190c/grafana_foundation_sdk-1716541850!10.1.0.tar.gz
+[2024-05-28 13:08:00] INFO root fetch - processPackages [LearningNashQLearning]: executing diffoscope
+[2024-05-28 13:08:00] INFO root fetch - processPackages [LearningNashQLearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LearningNashQLearning-0.1.tar.gz tmp/LearningNashQLearning-0.2.tar.gz --markdown 20240528/L/LearningNashQLearning/0.1-0.2/README.md --exclude *.pyd
+[2024-05-28 13:08:00] INFO root fetch - processPackages [gammarers.aws-secure-flow-log-bucket]: Downloading https://files.pythonhosted.org/packages/c0/d0/cb906bfb9e44b98c18ac8216ff9b332cb4fa548195cd433203a392baed3d/gammarers.aws-secure-flow-log-bucket-1.5.0.tar.gz
+[2024-05-28 13:08:00] INFO root fetch - processPackages [streamlit-p5]: Downloading https://files.pythonhosted.org/packages/38/8c/32f6ac529752c76d3afa282caf07a3e8bbbeffbb4d196041de9ebdc2118f/streamlit_p5-0.0.4.tar.gz
+[2024-05-28 13:08:00] INFO root fetch - processPackages [grafana-foundation-sdk]: Downloading https://files.pythonhosted.org/packages/fd/4f/a9d5cc9e9268d63dcd270e36031447b50901844023b062ee98522b301efa/grafana_foundation_sdk-1716894257!11.0.0.tar.gz
+[2024-05-28 13:08:00] INFO root fetch - processPackages [streamlit-p5]: executing diffoscope
+[2024-05-28 13:08:00] INFO root fetch - processPackages [streamlit-p5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_p5-0.0.3.tar.gz tmp/streamlit_p5-0.0.4.tar.gz --markdown 20240528/s/streamlit-p5/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-28 13:08:00] INFO root fetch - processPackages [gammarers.aws-secure-flow-log-bucket]: executing diffoscope
+[2024-05-28 13:08:00] INFO root fetch - processPackages [gammarers.aws-secure-flow-log-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarers.aws-secure-flow-log-bucket-1.4.4.tar.gz tmp/gammarers.aws-secure-flow-log-bucket-1.5.0.tar.gz --markdown 20240528/g/gammarers.aws-secure-flow-log-bucket/1.4.4-1.5.0/README.md --exclude *.pyd
+[2024-05-28 13:08:00] INFO root fetch - processPackages [LearningNashQLearning]: Remove: archive file [/home/abi/fetcher/tmp/LearningNashQLearning-0.1.tar.gz]
+[2024-05-28 13:08:00] INFO root fetch - processPackages [grafana-foundation-sdk]: executing diffoscope
+[2024-05-28 13:08:00] INFO root fetch - processPackages [grafana-foundation-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grafana_foundation_sdk-1716541850!10.1.0.tar.gz tmp/grafana_foundation_sdk-1716894257!11.0.0.tar.gz --markdown 20240528/g/grafana-foundation-sdk/1716541850!10.1.0-1716894257!11.0.0/README.md --exclude *.pyd
+[2024-05-28 13:08:00] INFO root fetch - processPackages [LearningNashQLearning]: Remove: archive file [/home/abi/fetcher/tmp/LearningNashQLearning-0.2.tar.gz]
+[2024-05-28 13:08:00] INFO root fetch - main [MainThread]: End processing [LearningNashQLearning]: success
+[2024-05-28 13:08:01] INFO root fetch - processPackages [gammarers.aws-secure-flow-log-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarers.aws-secure-flow-log-bucket-1.4.4.tar.gz]
+[2024-05-28 13:08:01] INFO root fetch - processPackages [gammarers.aws-secure-flow-log-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarers.aws-secure-flow-log-bucket-1.5.0.tar.gz]
+[2024-05-28 13:08:01] INFO root fetch - main [MainThread]: End processing [gammarers.aws-secure-flow-log-bucket]: success
+[2024-05-28 13:08:01] INFO root fetch - processPackages [streamlit-p5]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_p5-0.0.3.tar.gz]
+[2024-05-28 13:08:01] INFO root fetch - processPackages [streamlit-p5]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_p5-0.0.4.tar.gz]
+[2024-05-28 13:08:01] INFO root fetch - main [MainThread]: End processing [streamlit-p5]: success
+[2024-05-28 13:08:02] INFO root fetch - processPackages [grafana-foundation-sdk]: Remove: archive file [/home/abi/fetcher/tmp/grafana_foundation_sdk-1716541850!10.1.0.tar.gz]
+[2024-05-28 13:08:02] INFO root fetch - processPackages [grafana-foundation-sdk]: Remove: archive file [/home/abi/fetcher/tmp/grafana_foundation_sdk-1716894257!11.0.0.tar.gz]
+[2024-05-28 13:08:02] INFO root fetch - main [MainThread]: End processing [grafana-foundation-sdk]: success
+[2024-05-28 13:08:02] INFO root fetch - main [MainThread]: Store serial: [23409987]
