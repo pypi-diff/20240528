@@ -2414,3 +2414,51 @@
 [2024-05-28 02:52:39] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
 [2024-05-28 02:52:39] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2024-05-28 02:52:39] INFO root fetch - main [MainThread]: Store serial: [23403790]
+[2024-05-28 02:54:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23403790]
+[2024-05-28 02:54:47] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-28 02:54:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sql-athame
+[2024-05-28 02:54:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: types-aioboto3-lite
+[2024-05-28 02:54:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: earendil_mail
+[2024-05-28 02:54:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-emrserverless-with-delta-lake
+[2024-05-28 02:54:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: esphome
+[2024-05-28 02:54:47] INFO root fetch - processPackages [sql-athame]: New version: [0.4.0a6] Old Version: [0.4.0a5]
+[2024-05-28 02:54:48] INFO root fetch - processPackages [earendil_mail]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-28 02:54:48] INFO root fetch - processPackages [sql-athame]: Downloading https://files.pythonhosted.org/packages/a3/6b/bbd873944ef12f9072e94103e276b4f8e1d2d31d5f45b2363fefe7e8c73c/sql_athame-0.4.0a5.tar.gz
+[2024-05-28 02:54:48] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-28 02:54:48] INFO root fetch - processPackages [types-aioboto3-lite]: New version: [9.6.0.post2] Old Version: [9.6.0.post1]
+[2024-05-28 02:54:48] INFO root fetch - processPackages [esphome]: New version: [2024.5.4] Old Version: [2024.5.3]
+[2024-05-28 02:54:48] INFO root fetch - processPackages [earendil_mail]: Downloading https://files.pythonhosted.org/packages/42/bf/1c4007f0b5256daeff52233dea7f7335ce269ef7cb49f3d0b7995efba4e3/earendil_mail-0.1.0.tar.gz
+[2024-05-28 02:54:48] INFO root fetch - processPackages [sql-athame]: Downloading https://files.pythonhosted.org/packages/7e/91/7335d083d85bf97f56c4b883463985f3052c0544beb63556eba92a7a6072/sql_athame-0.4.0a6.tar.gz
+[2024-05-28 02:54:48] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/ca/c8/c8aec8668c8ae715e0e15ea3ea2e2e326fea6b5d0258b79e2b876aefa521/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz
+[2024-05-28 02:54:48] INFO root fetch - processPackages [esphome]: Downloading https://files.pythonhosted.org/packages/42/6a/2640e014f09d04fba3846049292f40c3cbf50641829ec2bd562422838b7c/esphome-2024.5.3.tar.gz
+[2024-05-28 02:54:48] INFO root fetch - processPackages [types-aioboto3-lite]: Downloading https://files.pythonhosted.org/packages/4b/65/6d702a82fd929543487f4207d22f94d4caf0ce62dcc29fed2c2fcbce553b/types-aioboto3-lite-9.6.0.post1.tar.gz
+[2024-05-28 02:54:48] INFO root fetch - processPackages [sql-athame]: executing diffoscope
+[2024-05-28 02:54:48] INFO root fetch - processPackages [sql-athame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sql_athame-0.4.0a5.tar.gz tmp/sql_athame-0.4.0a6.tar.gz --markdown 20240528/s/sql-athame/0.4.0a5-0.4.0a6/README.md --exclude *.pyd
+[2024-05-28 02:54:48] INFO root fetch - processPackages [earendil_mail]: Downloading https://files.pythonhosted.org/packages/54/15/eb83b850196e8c37d4326eae0bec91efe66d65eef6f2240894a8daf8e8e8/earendil_mail-0.2.0.tar.gz
+[2024-05-28 02:54:48] INFO root fetch - processPackages [earendil_mail]: executing diffoscope
+[2024-05-28 02:54:48] INFO root fetch - processPackages [earendil_mail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/earendil_mail-0.1.0.tar.gz tmp/earendil_mail-0.2.0.tar.gz --markdown 20240528/e/earendil_mail/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-28 02:54:48] INFO root fetch - processPackages [esphome]: Downloading https://files.pythonhosted.org/packages/8a/b9/1e3a9b49749594221de595d16c06b0a658e3fc7a8cb17b5cc7e605915ec3/esphome-2024.5.4.tar.gz
+[2024-05-28 02:54:48] INFO root fetch - processPackages [types-aioboto3-lite]: Downloading https://files.pythonhosted.org/packages/dd/3e/91469bf32915012bae21e70385886a3da0df18bff09ced07e027f50c4ec9/types-aioboto3-lite-9.6.0.post2.tar.gz
+[2024-05-28 02:54:48] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/7f/24/30b3ba3f3be3fa0cda5f66dcfce20bb782a7327b2635d12d6f66d6acf91f/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz
+[2024-05-28 02:54:48] INFO root fetch - processPackages [sql-athame]: Remove: archive file [/home/abi/fetcher/tmp/sql_athame-0.4.0a5.tar.gz]
+[2024-05-28 02:54:48] INFO root fetch - processPackages [sql-athame]: Remove: archive file [/home/abi/fetcher/tmp/sql_athame-0.4.0a6.tar.gz]
+[2024-05-28 02:54:48] INFO root fetch - main [MainThread]: End processing [sql-athame]: success
+[2024-05-28 02:54:49] INFO root fetch - processPackages [types-aioboto3-lite]: executing diffoscope
+[2024-05-28 02:54:49] INFO root fetch - processPackages [types-aioboto3-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aioboto3-lite-9.6.0.post1.tar.gz tmp/types-aioboto3-lite-9.6.0.post2.tar.gz --markdown 20240528/t/types-aioboto3-lite/9.6.0.post1-9.6.0.post2/README.md --exclude *.pyd
+[2024-05-28 02:54:49] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: executing diffoscope
+[2024-05-28 02:54:49] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz --markdown 20240528/c/cdk-emrserverless-with-delta-lake/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-28 02:54:49] INFO root fetch - processPackages [esphome]: executing diffoscope
+[2024-05-28 02:54:49] INFO root fetch - processPackages [esphome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esphome-2024.5.3.tar.gz tmp/esphome-2024.5.4.tar.gz --markdown 20240528/e/esphome/2024.5.3-2024.5.4/README.md --exclude *.pyd
+[2024-05-28 02:54:49] INFO root fetch - processPackages [earendil_mail]: Remove: archive file [/home/abi/fetcher/tmp/earendil_mail-0.1.0.tar.gz]
+[2024-05-28 02:54:49] INFO root fetch - processPackages [earendil_mail]: Remove: archive file [/home/abi/fetcher/tmp/earendil_mail-0.2.0.tar.gz]
+[2024-05-28 02:54:49] INFO root fetch - main [MainThread]: End processing [earendil_mail]: success
+[2024-05-28 02:54:49] INFO root fetch - processPackages [types-aioboto3-lite]: Remove: archive file [/home/abi/fetcher/tmp/types-aioboto3-lite-9.6.0.post1.tar.gz]
+[2024-05-28 02:54:49] INFO root fetch - processPackages [types-aioboto3-lite]: Remove: archive file [/home/abi/fetcher/tmp/types-aioboto3-lite-9.6.0.post2.tar.gz]
+[2024-05-28 02:54:49] INFO root fetch - main [MainThread]: End processing [types-aioboto3-lite]: success
+[2024-05-28 02:54:50] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz]
+[2024-05-28 02:54:50] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz]
+[2024-05-28 02:54:50] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
+[2024-05-28 02:55:01] INFO root fetch - processPackages [esphome]: Remove: archive file [/home/abi/fetcher/tmp/esphome-2024.5.3.tar.gz]
+[2024-05-28 02:55:01] INFO root fetch - processPackages [esphome]: Remove: archive file [/home/abi/fetcher/tmp/esphome-2024.5.4.tar.gz]
+[2024-05-28 02:55:01] INFO root fetch - main [MainThread]: End processing [esphome]: success
+[2024-05-28 02:55:01] INFO root fetch - main [MainThread]: Store serial: [23403806]
