@@ -2851,3 +2851,27 @@
 [2024-05-28 03:21:01] INFO root fetch - processPackages [langroid]: Remove: archive file [/home/abi/fetcher/tmp/langroid-0.1.99.tar.gz]
 [2024-05-28 03:21:01] INFO root fetch - main [MainThread]: End processing [langroid]: success
 [2024-05-28 03:21:01] INFO root fetch - main [MainThread]: Store serial: [23403969]
+[2024-05-28 03:23:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23403969]
+[2024-05-28 03:23:10] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-28 03:23:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-wordpress
+[2024-05-28 03:23:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flask-openapi3-swagger
+[2024-05-28 03:23:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: opencf-core
+[2024-05-28 03:23:10] ERROR root fetch - processPackages [flask-openapi3-swagger]: Unable to get metadata: No such project 'flask-openapi3-swagger'
+[2024-05-28 03:23:10] INFO root fetch - main [MainThread]: End processing [flask-openapi3-swagger] error
+[2024-05-28 03:23:10] INFO root fetch - processPackages [opencf-core]: New version: [0.3.1a1] Old Version: [0.3.1a0]
+[2024-05-28 03:23:10] INFO root fetch - processPackages [cdk-wordpress]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-28 03:23:10] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/95/5a/46730445b7c8db7cad33c0b319cbd75004ba42b6cbe2f00628d2191c5516/cdk-wordpress-0.0.98.tar.gz
+[2024-05-28 03:23:10] INFO root fetch - processPackages [opencf-core]: Downloading https://files.pythonhosted.org/packages/c6/09/5d466801d5626ec7fb637162f545cb6e3455d146bdfabf6bda874ddeacae/opencf_core-0.3.1a0.tar.gz
+[2024-05-28 03:23:10] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/f5/33/8bc435266e926cea52eb7df452e54c2c0657beef07580a86eae44236d88b/cdk-wordpress-0.0.99.tar.gz
+[2024-05-28 03:23:10] INFO root fetch - processPackages [opencf-core]: Downloading https://files.pythonhosted.org/packages/cd/38/2ee1960eb955e3e159237478dd075cd203434d94862c4a3ef21c88ea48b2/opencf_core-0.3.1a1.tar.gz
+[2024-05-28 03:23:11] INFO root fetch - processPackages [cdk-wordpress]: executing diffoscope
+[2024-05-28 03:23:11] INFO root fetch - processPackages [cdk-wordpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-wordpress-0.0.98.tar.gz tmp/cdk-wordpress-0.0.99.tar.gz --markdown 20240528/c/cdk-wordpress/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-28 03:23:11] INFO root fetch - processPackages [opencf-core]: executing diffoscope
+[2024-05-28 03:23:11] INFO root fetch - processPackages [opencf-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opencf_core-0.3.1a0.tar.gz tmp/opencf_core-0.3.1a1.tar.gz --markdown 20240528/o/opencf-core/0.3.1a0-0.3.1a1/README.md --exclude *.pyd
+[2024-05-28 03:23:11] INFO root fetch - processPackages [opencf-core]: Remove: archive file [/home/abi/fetcher/tmp/opencf_core-0.3.1a0.tar.gz]
+[2024-05-28 03:23:11] INFO root fetch - processPackages [opencf-core]: Remove: archive file [/home/abi/fetcher/tmp/opencf_core-0.3.1a1.tar.gz]
+[2024-05-28 03:23:11] INFO root fetch - main [MainThread]: End processing [opencf-core]: success
+[2024-05-28 03:23:11] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.98.tar.gz]
+[2024-05-28 03:23:11] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.99.tar.gz]
+[2024-05-28 03:23:11] INFO root fetch - main [MainThread]: End processing [cdk-wordpress]: success
+[2024-05-28 03:23:11] INFO root fetch - main [MainThread]: Store serial: [23403978]
