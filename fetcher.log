@@ -17672,3 +17672,60 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 13:42:14] INFO root fetch - processPackages [Rangekeeper]: Remove: archive file [/home/abi/fetcher/tmp/rangekeeper-0.6.5a0.tar.gz]
 [2024-05-28 13:42:14] INFO root fetch - main [MainThread]: End processing [Rangekeeper]: success
 [2024-05-28 13:42:14] INFO root fetch - main [MainThread]: Store serial: [23410414]
+[2024-05-28 13:44:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23410414]
+[2024-05-28 13:44:27] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-28 13:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: parepy-toolbox
+[2024-05-28 13:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: googleads-housekeeper
+[2024-05-28 13:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: epub-simplifier
+[2024-05-28 13:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-ticketbai
+[2024-05-28 13:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ETH-GTD-cli
+[2024-05-28 13:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: matplobblib
+[2024-05-28 13:44:27] INFO root fetch - processPackages [matplobblib]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-28 13:44:27] INFO root fetch - processPackages [django-ticketbai]: New version: [1.5] Old Version: [1.4]
+[2024-05-28 13:44:27] INFO root fetch - processPackages [ETH-GTD-cli]: New version: [0.0.97] Old Version: [0.0.96]
+[2024-05-28 13:44:27] INFO root fetch - processPackages [parepy-toolbox]: New version: [0.0.1] Old Version: [0.0.0]
+[2024-05-28 13:44:27] INFO root fetch - processPackages [django-ticketbai]: Downloading https://files.pythonhosted.org/packages/86/22/79a4ecaa14129b9ce11100001e001ebf8e4b0ac3058220778d59b8443b53/django_ticketbai-1.4.tar.gz
+[2024-05-28 13:44:27] INFO root fetch - processPackages [epub-simplifier]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-28 13:44:27] INFO root fetch - processPackages [googleads-housekeeper]: New version: [0.1.0.dev9] Old Version: [0.1.0.dev8]
+[2024-05-28 13:44:27] INFO root fetch - processPackages [ETH-GTD-cli]: Downloading https://files.pythonhosted.org/packages/a3/55/473570729f387ae4e2d8fad2d20418f3542b194fdf994bc22fff49ed0de7/eth_gtd_cli-0.0.96.tar.gz
+[2024-05-28 13:44:28] INFO root fetch - processPackages [matplobblib]: Downloading https://files.pythonhosted.org/packages/4c/fd/57d7fd8a0a36e02791f7a80767372bf6631b005396c3bb31c8b9d418a5e8/matplobblib-0.1.1-py3-none-any.whl
+[2024-05-28 13:44:28] INFO root fetch - processPackages [parepy-toolbox]: Downloading https://files.pythonhosted.org/packages/9d/08/2964e78c5871d2ce494775a39c05dc14503593a0e3b7a1a5354ce2ede8fa/parepy_toolbox-0.0.0.tar.gz
+[2024-05-28 13:44:28] INFO root fetch - processPackages [googleads-housekeeper]: Downloading https://files.pythonhosted.org/packages/72/75/8fec6c94f8d851b937e5569bbf946bf3b932c1414c694ef2ab9e72efc3e6/googleads-housekeeper-0.1.0.dev8.tar.gz
+[2024-05-28 13:44:28] INFO root fetch - processPackages [epub-simplifier]: Downloading https://files.pythonhosted.org/packages/60/ed/edb9cfe1395fa661f592c8d3a59e772346c7e743919db4b5259cd2ad88a7/epub-simplifier-0.0.4.tar.gz
+[2024-05-28 13:44:28] INFO root fetch - processPackages [django-ticketbai]: Downloading https://files.pythonhosted.org/packages/2b/00/c32ca280c53c43dbc99819da9a977495e49343d1e1a74277ec658046ea3c/django_ticketbai-1.5.tar.gz
+[2024-05-28 13:44:28] INFO root fetch - processPackages [django-ticketbai]: executing diffoscope
+[2024-05-28 13:44:28] INFO root fetch - processPackages [django-ticketbai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_ticketbai-1.4.tar.gz tmp/django_ticketbai-1.5.tar.gz --markdown 20240528/d/django-ticketbai/1.4-1.5/README.md --exclude *.pyd
+[2024-05-28 13:44:28] INFO root fetch - processPackages [matplobblib]: Downloading https://files.pythonhosted.org/packages/01/b3/cb6b01251320cb0663730c806ec20d9e94f8db88301893a5190ee66f0afc/matplobblib-0.1.2.tar.gz
+[2024-05-28 13:44:28] INFO root fetch - processPackages [ETH-GTD-cli]: Downloading https://files.pythonhosted.org/packages/03/07/98ab597abb551dbd464dfb12bbe7c58a09337b9c7e7b97a31b209f971483/eth_gtd_cli-0.0.97.tar.gz
+[2024-05-28 13:44:28] INFO root fetch - processPackages [googleads-housekeeper]: Downloading https://files.pythonhosted.org/packages/fc/3a/7d5847390fa1978f5fa9c787415a49920ac7254fec7f7d0c0b6830542f94/googleads-housekeeper-0.1.0.dev9.tar.gz
+[2024-05-28 13:44:28] INFO root fetch - processPackages [epub-simplifier]: Downloading https://files.pythonhosted.org/packages/77/e8/b93e34e44eec9ee8a4e5298455b0c9a4facbc2ffe4c5b3bbea7771c63954/epub_simplifier-0.0.5.tar.gz
+[2024-05-28 13:44:28] INFO root fetch - processPackages [parepy-toolbox]: Downloading https://files.pythonhosted.org/packages/2f/63/27b00890e5d135039b89af092a921d74b07b9ff866e8e57afdfd9b8edce3/parepy_toolbox-0.0.1.tar.gz
+[2024-05-28 13:44:28] INFO root fetch - processPackages [matplobblib]: executing diffoscope
+[2024-05-28 13:44:28] INFO root fetch - processPackages [matplobblib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matplobblib-0.1.1-py3-none-any.whl.zip tmp/matplobblib-0.1.2.tar.gz --markdown 20240528/m/matplobblib/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-28 13:44:28] INFO root fetch - processPackages [epub-simplifier]: executing diffoscope
+[2024-05-28 13:44:28] INFO root fetch - processPackages [epub-simplifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epub-simplifier-0.0.4.tar.gz tmp/epub_simplifier-0.0.5.tar.gz --markdown 20240528/e/epub-simplifier/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-28 13:44:28] INFO root fetch - processPackages [googleads-housekeeper]: executing diffoscope
+[2024-05-28 13:44:28] INFO root fetch - processPackages [googleads-housekeeper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/googleads-housekeeper-0.1.0.dev8.tar.gz tmp/googleads-housekeeper-0.1.0.dev9.tar.gz --markdown 20240528/g/googleads-housekeeper/0.1.0.dev8-0.1.0.dev9/README.md --exclude *.pyd
+[2024-05-28 13:44:28] INFO root fetch - processPackages [parepy-toolbox]: executing diffoscope
+[2024-05-28 13:44:28] INFO root fetch - processPackages [parepy-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parepy_toolbox-0.0.0.tar.gz tmp/parepy_toolbox-0.0.1.tar.gz --markdown 20240528/p/parepy-toolbox/0.0.0-0.0.1/README.md --exclude *.pyd
+[2024-05-28 13:44:28] INFO root fetch - processPackages [ETH-GTD-cli]: executing diffoscope
+[2024-05-28 13:44:28] INFO root fetch - processPackages [ETH-GTD-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eth_gtd_cli-0.0.96.tar.gz tmp/eth_gtd_cli-0.0.97.tar.gz --markdown 20240528/E/ETH-GTD-cli/0.0.96-0.0.97/README.md --exclude *.pyd
+[2024-05-28 13:44:29] INFO root fetch - processPackages [django-ticketbai]: Remove: archive file [/home/abi/fetcher/tmp/django_ticketbai-1.4.tar.gz]
+[2024-05-28 13:44:29] INFO root fetch - processPackages [django-ticketbai]: Remove: archive file [/home/abi/fetcher/tmp/django_ticketbai-1.5.tar.gz]
+[2024-05-28 13:44:29] INFO root fetch - main [MainThread]: End processing [django-ticketbai]: success
+[2024-05-28 13:44:29] INFO root fetch - processPackages [parepy-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/parepy_toolbox-0.0.0.tar.gz]
+[2024-05-28 13:44:29] INFO root fetch - processPackages [parepy-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/parepy_toolbox-0.0.1.tar.gz]
+[2024-05-28 13:44:29] INFO root fetch - main [MainThread]: End processing [parepy-toolbox]: success
+[2024-05-28 13:44:29] INFO root fetch - processPackages [matplobblib]: Remove: archive file [/home/abi/fetcher/tmp/matplobblib-0.1.1-py3-none-any.whl.zip]
+[2024-05-28 13:44:29] INFO root fetch - processPackages [matplobblib]: Remove: archive file [/home/abi/fetcher/tmp/matplobblib-0.1.2.tar.gz]
+[2024-05-28 13:44:29] INFO root fetch - main [MainThread]: End processing [matplobblib]: success
+[2024-05-28 13:44:29] INFO root fetch - processPackages [epub-simplifier]: Remove: archive file [/home/abi/fetcher/tmp/epub-simplifier-0.0.4.tar.gz]
+[2024-05-28 13:44:29] INFO root fetch - processPackages [epub-simplifier]: Remove: archive file [/home/abi/fetcher/tmp/epub_simplifier-0.0.5.tar.gz]
+[2024-05-28 13:44:29] INFO root fetch - main [MainThread]: End processing [epub-simplifier]: success
+[2024-05-28 13:44:29] INFO root fetch - processPackages [ETH-GTD-cli]: Remove: archive file [/home/abi/fetcher/tmp/eth_gtd_cli-0.0.96.tar.gz]
+[2024-05-28 13:44:29] INFO root fetch - processPackages [ETH-GTD-cli]: Remove: archive file [/home/abi/fetcher/tmp/eth_gtd_cli-0.0.97.tar.gz]
+[2024-05-28 13:44:29] INFO root fetch - main [MainThread]: End processing [ETH-GTD-cli]: success
+[2024-05-28 13:44:29] INFO root fetch - processPackages [googleads-housekeeper]: Remove: archive file [/home/abi/fetcher/tmp/googleads-housekeeper-0.1.0.dev8.tar.gz]
+[2024-05-28 13:44:29] INFO root fetch - processPackages [googleads-housekeeper]: Remove: archive file [/home/abi/fetcher/tmp/googleads-housekeeper-0.1.0.dev9.tar.gz]
+[2024-05-28 13:44:29] INFO root fetch - main [MainThread]: End processing [googleads-housekeeper]: success
+[2024-05-28 13:44:29] INFO root fetch - main [MainThread]: Store serial: [23410431]
