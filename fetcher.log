@@ -15375,3 +15375,47 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 12:10:53] INFO root fetch - processPackages [unicorn-binance-local-depth-cache]: Remove: archive file [/home/abi/fetcher/tmp/unicorn_binance_local_depth_cache-2.1.0.tar.gz]
 [2024-05-28 12:10:53] INFO root fetch - main [MainThread]: End processing [unicorn-binance-local-depth-cache]: success
 [2024-05-28 12:10:53] INFO root fetch - main [MainThread]: Store serial: [23409391]
+[2024-05-28 12:12:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23409391]
+[2024-05-28 12:13:02] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-28 12:13:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: snowflake-cli-labs
+[2024-05-28 12:13:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ptconvert
+[2024-05-28 12:13:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fmu-dataio
+[2024-05-28 12:13:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ziptimezone
+[2024-05-28 12:13:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ul-api-utils
+[2024-05-28 12:13:02] INFO root fetch - processPackages [ziptimezone]: New version: [1.1.4] Old Version: [1.1.2]
+[2024-05-28 12:13:02] INFO root fetch - processPackages [ul-api-utils]: New version: [7.9.7] Old Version: [7.9.6]
+[2024-05-28 12:13:02] INFO root fetch - processPackages [snowflake-cli-labs]: New version: [2.4.0rc0] Old Version: [2.3.1]
+[2024-05-28 12:13:02] INFO root fetch - processPackages [ptconvert]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-28 12:13:02] INFO root fetch - processPackages [fmu-dataio]: New version: [2.2.0b4] Old Version: [2.2.0b3]
+[2024-05-28 12:13:02] INFO root fetch - processPackages [ziptimezone]: Downloading https://files.pythonhosted.org/packages/10/a7/32dea1caa6bf8a55be6b0aa3546e8b37a358edb2262c8b115efcb9c7f04e/ziptimezone-1.1.2.tar.gz
+[2024-05-28 12:13:02] INFO root fetch - processPackages [ul-api-utils]: Downloading https://files.pythonhosted.org/packages/20/cb/18f5c35ecf95a42ac53501b019c346475569596b1f49218042569a8384f4/ul-api-utils-7.9.6.tar.gz
+[2024-05-28 12:13:03] INFO root fetch - processPackages [snowflake-cli-labs]: Downloading https://files.pythonhosted.org/packages/36/d0/d1473ec5466c1960b4212def902728a28d13b69ca3b0fb8c19bc7b1dc780/snowflake_cli_labs-2.3.1.tar.gz
+[2024-05-28 12:13:03] INFO root fetch - processPackages [ptconvert]: Downloading https://files.pythonhosted.org/packages/94/8f/871618c4b12a85d249a87be75b396bbbf20156b43f293c0a9b3c56d88cfc/ptconvert-0.0.1.tar.gz
+[2024-05-28 12:13:03] INFO root fetch - processPackages [ziptimezone]: Downloading https://files.pythonhosted.org/packages/58/a4/3d6208f1af57880d13efc27b9f98e17c7fcda791761ae5294c4999d95b81/ziptimezone-1.1.4.tar.gz
+[2024-05-28 12:13:03] INFO root fetch - processPackages [fmu-dataio]: Downloading https://files.pythonhosted.org/packages/bf/2e/107d3800181814eac749e555ea49567584616722aff2adaa19d466eaa77b/fmu_dataio-2.2.0b3.tar.gz
+[2024-05-28 12:13:03] INFO root fetch - processPackages [ziptimezone]: executing diffoscope
+[2024-05-28 12:13:03] INFO root fetch - processPackages [ziptimezone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ziptimezone-1.1.2.tar.gz tmp/ziptimezone-1.1.4.tar.gz --markdown 20240528/z/ziptimezone/1.1.2-1.1.4/README.md --exclude *.pyd
+[2024-05-28 12:13:03] INFO root fetch - processPackages [ul-api-utils]: Downloading https://files.pythonhosted.org/packages/c4/89/09d71c590f3070768b33dab7fafb43e7d1a0a57404f93d79a54515b6d7d4/ul-api-utils-7.9.7.tar.gz
+[2024-05-28 12:13:03] INFO root fetch - processPackages [ptconvert]: Downloading https://files.pythonhosted.org/packages/f6/e4/43188aed19f24cae26dc0292697c0b800d71580108e1c8e9be892aaed689/ptconvert-0.0.2.tar.gz
+[2024-05-28 12:13:03] INFO root fetch - processPackages [ul-api-utils]: executing diffoscope
+[2024-05-28 12:13:03] INFO root fetch - processPackages [ul-api-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ul-api-utils-7.9.6.tar.gz tmp/ul-api-utils-7.9.7.tar.gz --markdown 20240528/u/ul-api-utils/7.9.6-7.9.7/README.md --exclude *.pyd
+[2024-05-28 12:13:03] INFO root fetch - processPackages [snowflake-cli-labs]: Downloading https://files.pythonhosted.org/packages/34/fb/911241fc81c4dea573bc3e838936e1a455ca62862de7aeb115f21cda63f8/snowflake_cli_labs-2.4.0rc0.tar.gz
+[2024-05-28 12:13:03] INFO root fetch - processPackages [ptconvert]: executing diffoscope
+[2024-05-28 12:13:03] INFO root fetch - processPackages [ptconvert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ptconvert-0.0.1.tar.gz tmp/ptconvert-0.0.2.tar.gz --markdown 20240528/p/ptconvert/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-28 12:13:03] INFO root fetch - processPackages [snowflake-cli-labs]: executing diffoscope
+[2024-05-28 12:13:03] INFO root fetch - processPackages [snowflake-cli-labs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowflake_cli_labs-2.3.1.tar.gz tmp/snowflake_cli_labs-2.4.0rc0.tar.gz --markdown 20240528/s/snowflake-cli-labs/2.3.1-2.4.0rc0/README.md --exclude *.pyd
+[2024-05-28 12:13:03] INFO root fetch - processPackages [ziptimezone]: Remove: archive file [/home/abi/fetcher/tmp/ziptimezone-1.1.2.tar.gz]
+[2024-05-28 12:13:03] INFO root fetch - processPackages [ziptimezone]: Remove: archive file [/home/abi/fetcher/tmp/ziptimezone-1.1.4.tar.gz]
+[2024-05-28 12:13:03] INFO root fetch - main [MainThread]: End processing [ziptimezone]: success
+[2024-05-28 12:13:04] INFO root fetch - processPackages [ptconvert]: Remove: archive file [/home/abi/fetcher/tmp/ptconvert-0.0.1.tar.gz]
+[2024-05-28 12:13:04] INFO root fetch - processPackages [ptconvert]: Remove: archive file [/home/abi/fetcher/tmp/ptconvert-0.0.2.tar.gz]
+[2024-05-28 12:13:04] INFO root fetch - main [MainThread]: End processing [ptconvert]: success
+[2024-05-28 12:13:04] WARNING root fetch - processPackages [fmu-dataio]: Skipping package: exceeds size limit 14379929>=10485760
+[2024-05-28 12:13:04] INFO root fetch - main [MainThread]: End processing [fmu-dataio] error
+[2024-05-28 12:13:04] INFO root fetch - processPackages [ul-api-utils]: Remove: archive file [/home/abi/fetcher/tmp/ul-api-utils-7.9.6.tar.gz]
+[2024-05-28 12:13:04] INFO root fetch - processPackages [ul-api-utils]: Remove: archive file [/home/abi/fetcher/tmp/ul-api-utils-7.9.7.tar.gz]
+[2024-05-28 12:13:04] INFO root fetch - main [MainThread]: End processing [ul-api-utils]: success
+[2024-05-28 12:13:05] INFO root fetch - processPackages [snowflake-cli-labs]: Remove: archive file [/home/abi/fetcher/tmp/snowflake_cli_labs-2.3.1.tar.gz]
+[2024-05-28 12:13:05] INFO root fetch - processPackages [snowflake-cli-labs]: Remove: archive file [/home/abi/fetcher/tmp/snowflake_cli_labs-2.4.0rc0.tar.gz]
+[2024-05-28 12:13:05] INFO root fetch - main [MainThread]: End processing [snowflake-cli-labs]: success
+[2024-05-28 12:13:05] INFO root fetch - main [MainThread]: Store serial: [23409406]
