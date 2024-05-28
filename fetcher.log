@@ -4468,3 +4468,54 @@
 [2024-05-28 05:05:53] INFO root fetch - processPackages [zepben.protobuf]: Remove: archive file [/home/abi/fetcher/tmp/zepben.protobuf-0.9.0b3-py3-none-any.whl.zip]
 [2024-05-28 05:05:53] INFO root fetch - main [MainThread]: End processing [zepben.protobuf]: success
 [2024-05-28 05:05:53] INFO root fetch - main [MainThread]: Store serial: [23404599]
+[2024-05-28 05:07:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23404599]
+[2024-05-28 05:08:01] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-28 05:08:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: meteva-base
+[2024-05-28 05:08:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qiskit-pqcee-provider
+[2024-05-28 05:08:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: increase-recursionlimit
+[2024-05-28 05:08:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: robotpy-cppheaderparser
+[2024-05-28 05:08:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pywxdump
+[2024-05-28 05:08:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flask-bootstrap-module-extendeds
+[2024-05-28 05:08:01] INFO root fetch - processPackages [flask-bootstrap-module-extendeds]: New version: [5.1.4] Old Version: [5.1.3]
+[2024-05-28 05:08:01] INFO root fetch - processPackages [meteva-base]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-28 05:08:01] INFO root fetch - processPackages [qiskit-pqcee-provider]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-28 05:08:01] INFO root fetch - processPackages [flask-bootstrap-module-extendeds]: Downloading https://files.pythonhosted.org/packages/a9/0e/84da34502e180a31cddf0f98c96c4454556c16df8deb021e7e86219c7710/flask_bootstrap_module_extendeds-5.1.3.tar.gz
+[2024-05-28 05:08:01] INFO root fetch - processPackages [meteva-base]: Downloading https://files.pythonhosted.org/packages/30/22/b55542552ee244cbd58622e3852cfb5293c661a9e93a04a9307cf3a8c810/meteva_base-0.2.2-py3-none-any.whl
+[2024-05-28 05:08:01] WARNING root fetch - processPackages [increase-recursionlimit]: Skipping, unable to determine old version
+[2024-05-28 05:08:01] INFO root fetch - main [MainThread]: End processing [increase-recursionlimit] error
+[2024-05-28 05:08:01] INFO root fetch - processPackages [qiskit-pqcee-provider]: Downloading https://files.pythonhosted.org/packages/4c/37/94f8d77321a662c4faad9ec381611d498947f60187c9c95474e9314cf26c/qiskit_pqcee_provider-0.1.2-py2.py3-none-any.whl
+[2024-05-28 05:08:01] INFO root fetch - processPackages [robotpy-cppheaderparser]: New version: [5.1.2] Old Version: [5.1.1]
+[2024-05-28 05:08:01] INFO root fetch - processPackages [pywxdump]: New version: [3.0.8] Old Version: [3.0.5]
+[2024-05-28 05:08:01] INFO root fetch - processPackages [qiskit-pqcee-provider]: Downloading https://files.pythonhosted.org/packages/1b/a0/31f5470987151a7f9557e0f359f3ff20c7249798ff127d29f7c2a0c9aa90/qiskit_pqcee_provider-0.1.3-py2.py3-none-any.whl
+[2024-05-28 05:08:01] INFO root fetch - processPackages [robotpy-cppheaderparser]: Downloading https://files.pythonhosted.org/packages/fb/0f/7f8b1c883263dd533d3b709fe2b794fedb32f8184422b19c4d5ecb35a9c8/robotpy-cppheaderparser-5.1.1.tar.gz
+[2024-05-28 05:08:02] INFO root fetch - processPackages [flask-bootstrap-module-extendeds]: Downloading https://files.pythonhosted.org/packages/41/d0/ad54095654d77848f49618715c16f5a52cf6e798880c09125649b82d1d59/flask_bootstrap_module_extendeds-5.1.4.tar.gz
+[2024-05-28 05:08:02] INFO root fetch - processPackages [pywxdump]: Downloading https://files.pythonhosted.org/packages/5e/a0/04a3b6eff520a9bdce3d17e539b97bb28ab07d7cf194f8bf38506b454fea/pywxdump-3.0.5.tar.gz
+[2024-05-28 05:08:02] INFO root fetch - processPackages [qiskit-pqcee-provider]: executing diffoscope
+[2024-05-28 05:08:02] INFO root fetch - processPackages [qiskit-pqcee-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit_pqcee_provider-0.1.2-py2.py3-none-any.whl.zip tmp/qiskit_pqcee_provider-0.1.3-py2.py3-none-any.whl.zip --markdown 20240528/q/qiskit-pqcee-provider/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-28 05:08:02] INFO root fetch - processPackages [flask-bootstrap-module-extendeds]: executing diffoscope
+[2024-05-28 05:08:02] INFO root fetch - processPackages [flask-bootstrap-module-extendeds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_bootstrap_module_extendeds-5.1.3.tar.gz tmp/flask_bootstrap_module_extendeds-5.1.4.tar.gz --markdown 20240528/f/flask-bootstrap-module-extendeds/5.1.3-5.1.4/README.md --exclude *.pyd
+[2024-05-28 05:08:02] INFO root fetch - processPackages [meteva-base]: Downloading https://files.pythonhosted.org/packages/6e/47/1b6d1ba4b49b406f370a8954668f67b5e6e31779a59e42ecf77a06ea9292/meteva_base-0.2.3-py3-none-any.whl
+[2024-05-28 05:08:02] INFO root fetch - processPackages [robotpy-cppheaderparser]: Downloading https://files.pythonhosted.org/packages/e0/da/ac49b10bd57976931729d26b75ac8d7b20f4975aa1100e34cf307146f894/robotpy-cppheaderparser-5.1.2.tar.gz
+[2024-05-28 05:08:02] INFO root fetch - processPackages [robotpy-cppheaderparser]: executing diffoscope
+[2024-05-28 05:08:02] INFO root fetch - processPackages [robotpy-cppheaderparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotpy-cppheaderparser-5.1.1.tar.gz tmp/robotpy-cppheaderparser-5.1.2.tar.gz --markdown 20240528/r/robotpy-cppheaderparser/5.1.1-5.1.2/README.md --exclude *.pyd
+[2024-05-28 05:08:02] INFO root fetch - processPackages [meteva-base]: executing diffoscope
+[2024-05-28 05:08:02] INFO root fetch - processPackages [meteva-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meteva_base-0.2.2-py3-none-any.whl.zip tmp/meteva_base-0.2.3-py3-none-any.whl.zip --markdown 20240528/m/meteva-base/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-28 05:08:02] INFO root fetch - processPackages [qiskit-pqcee-provider]: Remove: archive file [/home/abi/fetcher/tmp/qiskit_pqcee_provider-0.1.2-py2.py3-none-any.whl.zip]
+[2024-05-28 05:08:02] INFO root fetch - processPackages [qiskit-pqcee-provider]: Remove: archive file [/home/abi/fetcher/tmp/qiskit_pqcee_provider-0.1.3-py2.py3-none-any.whl.zip]
+[2024-05-28 05:08:02] INFO root fetch - main [MainThread]: End processing [qiskit-pqcee-provider]: success
+[2024-05-28 05:08:02] INFO root fetch - processPackages [flask-bootstrap-module-extendeds]: Remove: archive file [/home/abi/fetcher/tmp/flask_bootstrap_module_extendeds-5.1.3.tar.gz]
+[2024-05-28 05:08:02] INFO root fetch - processPackages [flask-bootstrap-module-extendeds]: Remove: archive file [/home/abi/fetcher/tmp/flask_bootstrap_module_extendeds-5.1.4.tar.gz]
+[2024-05-28 05:08:02] INFO root fetch - main [MainThread]: End processing [flask-bootstrap-module-extendeds]: success
+[2024-05-28 05:08:03] INFO root fetch - processPackages [robotpy-cppheaderparser]: Remove: archive file [/home/abi/fetcher/tmp/robotpy-cppheaderparser-5.1.1.tar.gz]
+[2024-05-28 05:08:03] INFO root fetch - processPackages [robotpy-cppheaderparser]: Remove: archive file [/home/abi/fetcher/tmp/robotpy-cppheaderparser-5.1.2.tar.gz]
+[2024-05-28 05:08:03] INFO root fetch - main [MainThread]: End processing [robotpy-cppheaderparser]: success
+[2024-05-28 05:08:03] INFO root fetch - processPackages [meteva-base]: Remove: archive file [/home/abi/fetcher/tmp/meteva_base-0.2.2-py3-none-any.whl.zip]
+[2024-05-28 05:08:03] INFO root fetch - processPackages [meteva-base]: Remove: archive file [/home/abi/fetcher/tmp/meteva_base-0.2.3-py3-none-any.whl.zip]
+[2024-05-28 05:08:03] INFO root fetch - main [MainThread]: End processing [meteva-base]: success
+[2024-05-28 05:08:04] INFO root fetch - processPackages [pywxdump]: Downloading https://files.pythonhosted.org/packages/0c/2c/b244b3ba6c2cd4dc567d66ab4b6a9bca181dd34007f111e480eb1fb2f28b/pywxdump-3.0.8.tar.gz
+[2024-05-28 05:08:05] INFO root fetch - processPackages [pywxdump]: executing diffoscope
+[2024-05-28 05:08:05] INFO root fetch - processPackages [pywxdump]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywxdump-3.0.5.tar.gz tmp/pywxdump-3.0.8.tar.gz --markdown 20240528/p/pywxdump/3.0.5-3.0.8/README.md --exclude *.pyd
+[2024-05-28 05:08:20] INFO root fetch - processPackages [pywxdump]: Remove: archive file [/home/abi/fetcher/tmp/pywxdump-3.0.5.tar.gz]
+[2024-05-28 05:08:20] INFO root fetch - processPackages [pywxdump]: Remove: archive file [/home/abi/fetcher/tmp/pywxdump-3.0.8.tar.gz]
+[2024-05-28 05:08:20] INFO root fetch - main [MainThread]: End processing [pywxdump]: success
+[2024-05-28 05:08:20] INFO root fetch - main [MainThread]: Store serial: [23404610]
