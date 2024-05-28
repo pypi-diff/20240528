@@ -22851,3 +22851,102 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 16:26:50] INFO root fetch - processPackages [torrey]: Remove: archive file [/home/abi/fetcher/tmp/torrey-3.2.2.dev20240528142616.tar.gz]
 [2024-05-28 16:26:50] INFO root fetch - main [MainThread]: End processing [torrey]: success
 [2024-05-28 16:26:50] INFO root fetch - main [MainThread]: Store serial: [23412911]
+[2024-05-28 16:28:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23412911]
+[2024-05-28 16:28:59] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-05-28 16:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: assisted-service-client
+[2024-05-28 16:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: consoleiotools
+[2024-05-28 16:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pymasterstorage
+[2024-05-28 16:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: protai
+[2024-05-28 16:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jutge-joapuiib
+[2024-05-28 16:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: defendercom
+[2024-05-28 16:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gisco-geodata
+[2024-05-28 16:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: duckframe
+[2024-05-28 16:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: relations-grpc-clients-python-kessel-project
+[2024-05-28 16:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: webportal-utils
+[2024-05-28 16:28:59] WARNING root fetch - processPackages [relations-grpc-clients-python-kessel-project]: Skipping, unable to determine old version
+[2024-05-28 16:28:59] INFO root fetch - processPackages [relations-grpc-clients-python-kessel-project]: Start processing: eliasliu
+[2024-05-28 16:28:59] INFO root fetch - main [MainThread]: End processing [relations-grpc-clients-python-kessel-project] error
+[2024-05-28 16:29:00] INFO root fetch - processPackages [eliasliu]: New version: [0.1.62] Old Version: [0.1.61]
+[2024-05-28 16:29:00] WARNING root fetch - processPackages [defendercom]: Skipping, unable to determine old version
+[2024-05-28 16:29:00] INFO root fetch - processPackages [defendercom]: Start processing: pydflow
+[2024-05-28 16:29:00] INFO root fetch - main [MainThread]: End processing [defendercom] error
+[2024-05-28 16:29:00] INFO root fetch - processPackages [protai]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-05-28 16:29:00] INFO root fetch - processPackages [webportal-utils]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-28 16:29:00] WARNING root fetch - processPackages [duckframe]: Skipping, unable to determine old version
+[2024-05-28 16:29:00] INFO root fetch - processPackages [duckframe]: Start processing: git-viewer
+[2024-05-28 16:29:00] INFO root fetch - main [MainThread]: End processing [duckframe] error
+[2024-05-28 16:29:00] WARNING root fetch - processPackages [pymasterstorage]: Skipping, unable to determine old version
+[2024-05-28 16:29:00] INFO root fetch - processPackages [pymasterstorage]: Start processing: domolibrary
+[2024-05-28 16:29:00] INFO root fetch - main [MainThread]: End processing [pymasterstorage] error
+[2024-05-28 16:29:00] INFO root fetch - processPackages [jutge-joapuiib]: New version: [1.0.9] Old Version: [1.0.7]
+[2024-05-28 16:29:00] INFO root fetch - processPackages [consoleiotools]: New version: [4.6.4] Old Version: [4.6.2]
+[2024-05-28 16:29:00] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2024-05-28 16:29:00] WARNING root fetch - processPackages [gisco-geodata]: Skipping, unable to determine old version
+[2024-05-28 16:29:00] INFO root fetch - main [MainThread]: End processing [gisco-geodata] error
+[2024-05-28 16:29:00] INFO root fetch - processPackages [eliasliu]: Downloading https://files.pythonhosted.org/packages/5c/a8/051b3a6afe9b9dbc5e56b9250242759929349f2e716b606edf14a4b24593/eliasliu-0.1.61.tar.gz
+[2024-05-28 16:29:00] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/a5/ee/a5837c5427b0689f863021f5d65c42ff9d4ae267905a751492653198b2dc/assisted_service_client-2.9.0.post8-py3-none-any.whl
+[2024-05-28 16:29:00] INFO root fetch - processPackages [git-viewer]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-05-28 16:29:00] INFO root fetch - processPackages [pydflow]: New version: [1.8.9] Old Version: [1.8.8]
+[2024-05-28 16:29:00] INFO root fetch - processPackages [domolibrary]: New version: [4.0.9] Old Version: [4.0.8]
+[2024-05-28 16:29:00] INFO root fetch - processPackages [protai]: Downloading https://files.pythonhosted.org/packages/a3/84/59472cbbd925905c8a0242496e6dc43a3f72c8ceb930726934ee264eef2c/protai-0.7.0.tar.gz
+[2024-05-28 16:29:00] INFO root fetch - processPackages [jutge-joapuiib]: Downloading https://files.pythonhosted.org/packages/20/bc/c8ef0762fe81cf6ae74bcad18e49dcaa5d7b9ee39df4d7ab6b955798a027/jutge-joapuiib-1.0.7.tar.gz
+[2024-05-28 16:29:00] INFO root fetch - processPackages [webportal-utils]: Downloading https://files.pythonhosted.org/packages/66/fa/9bd0f7384ee1f07846df5c45902ba8265f8726882a02df0c6fb4bcf1fc92/webportal_utils-0.1.2-py3-none-any.whl
+[2024-05-28 16:29:00] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/8d/22/584c02b6b9a49c26a40cc22b7f10af25724fe70df5357e5a527c2c36729a/pydflow-1.8.8.tar.gz
+[2024-05-28 16:29:00] INFO root fetch - processPackages [consoleiotools]: Downloading https://files.pythonhosted.org/packages/52/27/46184ab97eae76b2f3f4c3b9cd18a849f6200d6417e8add164b12b7d60fd/consoleiotools-4.6.2.tar.gz
+[2024-05-28 16:29:00] INFO root fetch - processPackages [git-viewer]: Downloading https://files.pythonhosted.org/packages/d2/39/367931b3c32ec2d2b9a8be49634844aeafec1c539fcac42498251a37e9bd/git-viewer-1.8.1.tar.gz
+[2024-05-28 16:29:00] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/f6/90/2599b3c134ea21c06d22f83dd1dfac6801d974b9aa0958f008fb332e5b4d/assisted_service_client-2.9.0.post9-py3-none-any.whl
+[2024-05-28 16:29:00] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/95/f3/6c9c1bcece92c131f243b06ce2ea786b42aac014c102edd4142844b5d688/domolibrary-4.0.8.tar.gz
+[2024-05-28 16:29:00] INFO root fetch - processPackages [eliasliu]: Downloading https://files.pythonhosted.org/packages/48/10/233ac4d16a3bf1425df9e67cd1ae8fb753fc68028a7d8f9dad218c9f1b06/eliasliu-0.1.62.tar.gz
+[2024-05-28 16:29:00] INFO root fetch - processPackages [protai]: Downloading https://files.pythonhosted.org/packages/98/40/1ad36d41a103a2b5c6a601b05703f3a5df5163e4f8d7f971fcc6acd72d6c/protai-0.7.1.tar.gz
+[2024-05-28 16:29:00] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/b8/ee/62435e12ce818ae5c15b7256f01e225eb1dd5e3d49e3bde8e913944b4caa/pydflow-1.8.9.tar.gz
+[2024-05-28 16:29:00] INFO root fetch - processPackages [jutge-joapuiib]: Downloading https://files.pythonhosted.org/packages/70/cf/c4be59f0442f335e0caf7fec109ae2d949e1697a597a2899daa10101dfd2/jutge_joapuiib-1.0.9.tar.gz
+[2024-05-28 16:29:00] INFO root fetch - processPackages [webportal-utils]: Downloading https://files.pythonhosted.org/packages/62/1f/8cbb2f9843e5d8e766b05992a4b9e7ca4c41163a2a054c4922d80c61feae/webportal_utils-0.1.3-py3-none-any.whl
+[2024-05-28 16:29:00] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2024-05-28 16:29:00] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20240528/a/assisted-service-client/2.9.0.post8-2.9.0.post9/README.md --exclude *.pyd
+[2024-05-28 16:29:00] INFO root fetch - processPackages [eliasliu]: executing diffoscope
+[2024-05-28 16:29:00] INFO root fetch - processPackages [eliasliu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eliasliu-0.1.61.tar.gz tmp/eliasliu-0.1.62.tar.gz --markdown 20240528/e/eliasliu/0.1.61-0.1.62/README.md --exclude *.pyd
+[2024-05-28 16:29:00] INFO root fetch - processPackages [protai]: executing diffoscope
+[2024-05-28 16:29:00] INFO root fetch - processPackages [protai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protai-0.7.0.tar.gz tmp/protai-0.7.1.tar.gz --markdown 20240528/p/protai/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-05-28 16:29:00] INFO root fetch - processPackages [consoleiotools]: Downloading https://files.pythonhosted.org/packages/00/a7/4fb542e3606ea0f643662c9e03913e75247cd59787a5d43005d6d5d674ee/consoleiotools-4.6.4.tar.gz
+[2024-05-28 16:29:00] INFO root fetch - processPackages [jutge-joapuiib]: executing diffoscope
+[2024-05-28 16:29:00] INFO root fetch - processPackages [jutge-joapuiib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jutge-joapuiib-1.0.7.tar.gz tmp/jutge_joapuiib-1.0.9.tar.gz --markdown 20240528/j/jutge-joapuiib/1.0.7-1.0.9/README.md --exclude *.pyd
+[2024-05-28 16:29:00] INFO root fetch - processPackages [pydflow]: executing diffoscope
+[2024-05-28 16:29:00] INFO root fetch - processPackages [pydflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydflow-1.8.8.tar.gz tmp/pydflow-1.8.9.tar.gz --markdown 20240528/p/pydflow/1.8.8-1.8.9/README.md --exclude *.pyd
+[2024-05-28 16:29:00] INFO root fetch - processPackages [webportal-utils]: executing diffoscope
+[2024-05-28 16:29:00] INFO root fetch - processPackages [webportal-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webportal_utils-0.1.2-py3-none-any.whl.zip tmp/webportal_utils-0.1.3-py3-none-any.whl.zip --markdown 20240528/w/webportal-utils/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-28 16:29:00] INFO root fetch - processPackages [git-viewer]: Downloading https://files.pythonhosted.org/packages/42/27/f521b2790d1536ad690f0a5a134b82c1fd55b4d211d2626841c09030476d/git-viewer-1.9.0.tar.gz
+[2024-05-28 16:29:00] INFO root fetch - processPackages [consoleiotools]: executing diffoscope
+[2024-05-28 16:29:00] INFO root fetch - processPackages [consoleiotools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/consoleiotools-4.6.2.tar.gz tmp/consoleiotools-4.6.4.tar.gz --markdown 20240528/c/consoleiotools/4.6.2-4.6.4/README.md --exclude *.pyd
+[2024-05-28 16:29:01] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/20/04/03f981a99262a7143a6a063a2e2f6e7ef8f7e8783b38fbaac09ad11e2cdd/domolibrary-4.0.9.tar.gz
+[2024-05-28 16:29:01] INFO root fetch - processPackages [git-viewer]: executing diffoscope
+[2024-05-28 16:29:01] INFO root fetch - processPackages [git-viewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git-viewer-1.8.1.tar.gz tmp/git-viewer-1.9.0.tar.gz --markdown 20240528/g/git-viewer/1.8.1-1.9.0/README.md --exclude *.pyd
+[2024-05-28 16:29:01] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2024-05-28 16:29:01] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-4.0.8.tar.gz tmp/domolibrary-4.0.9.tar.gz --markdown 20240528/d/domolibrary/4.0.8-4.0.9/README.md --exclude *.pyd
+[2024-05-28 16:29:01] INFO root fetch - processPackages [protai]: Remove: archive file [/home/abi/fetcher/tmp/protai-0.7.0.tar.gz]
+[2024-05-28 16:29:01] INFO root fetch - processPackages [protai]: Remove: archive file [/home/abi/fetcher/tmp/protai-0.7.1.tar.gz]
+[2024-05-28 16:29:01] INFO root fetch - main [MainThread]: End processing [protai]: success
+[2024-05-28 16:29:01] INFO root fetch - processPackages [webportal-utils]: Remove: archive file [/home/abi/fetcher/tmp/webportal_utils-0.1.2-py3-none-any.whl.zip]
+[2024-05-28 16:29:01] INFO root fetch - processPackages [webportal-utils]: Remove: archive file [/home/abi/fetcher/tmp/webportal_utils-0.1.3-py3-none-any.whl.zip]
+[2024-05-28 16:29:01] INFO root fetch - main [MainThread]: End processing [webportal-utils]: success
+[2024-05-28 16:29:01] INFO root fetch - processPackages [eliasliu]: Remove: archive file [/home/abi/fetcher/tmp/eliasliu-0.1.61.tar.gz]
+[2024-05-28 16:29:01] INFO root fetch - processPackages [eliasliu]: Remove: archive file [/home/abi/fetcher/tmp/eliasliu-0.1.62.tar.gz]
+[2024-05-28 16:29:01] INFO root fetch - main [MainThread]: End processing [eliasliu]: success
+[2024-05-28 16:29:01] INFO root fetch - processPackages [consoleiotools]: Remove: archive file [/home/abi/fetcher/tmp/consoleiotools-4.6.2.tar.gz]
+[2024-05-28 16:29:01] INFO root fetch - processPackages [consoleiotools]: Remove: archive file [/home/abi/fetcher/tmp/consoleiotools-4.6.4.tar.gz]
+[2024-05-28 16:29:01] INFO root fetch - main [MainThread]: End processing [consoleiotools]: success
+[2024-05-28 16:29:02] INFO root fetch - processPackages [jutge-joapuiib]: Remove: archive file [/home/abi/fetcher/tmp/jutge-joapuiib-1.0.7.tar.gz]
+[2024-05-28 16:29:02] INFO root fetch - processPackages [jutge-joapuiib]: Remove: archive file [/home/abi/fetcher/tmp/jutge_joapuiib-1.0.9.tar.gz]
+[2024-05-28 16:29:02] INFO root fetch - main [MainThread]: End processing [jutge-joapuiib]: success
+[2024-05-28 16:29:02] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.8.8.tar.gz]
+[2024-05-28 16:29:02] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.8.9.tar.gz]
+[2024-05-28 16:29:02] INFO root fetch - main [MainThread]: End processing [pydflow]: success
+[2024-05-28 16:29:02] INFO root fetch - processPackages [git-viewer]: Remove: archive file [/home/abi/fetcher/tmp/git-viewer-1.8.1.tar.gz]
+[2024-05-28 16:29:02] INFO root fetch - processPackages [git-viewer]: Remove: archive file [/home/abi/fetcher/tmp/git-viewer-1.9.0.tar.gz]
+[2024-05-28 16:29:02] INFO root fetch - main [MainThread]: End processing [git-viewer]: success
+[2024-05-28 16:29:02] INFO root fetch - processPackages [domolibrary]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary-4.0.8.tar.gz]
+[2024-05-28 16:29:02] INFO root fetch - processPackages [domolibrary]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary-4.0.9.tar.gz]
+[2024-05-28 16:29:02] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2024-05-28 16:29:02] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip]
+[2024-05-28 16:29:02] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
+[2024-05-28 16:29:02] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2024-05-28 16:29:02] INFO root fetch - main [MainThread]: Store serial: [23412960]
