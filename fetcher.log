@@ -3411,3 +3411,36 @@
 [2024-05-28 03:51:28] INFO root fetch - processPackages [rubin-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/rubin_scheduler-1.2.0.tar.gz]
 [2024-05-28 03:51:28] INFO root fetch - main [MainThread]: End processing [rubin-scheduler]: success
 [2024-05-28 03:51:28] INFO root fetch - main [MainThread]: Store serial: [23404189]
+[2024-05-28 03:53:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23404189]
+[2024-05-28 03:53:36] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-28 03:53:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ns-search-saved-export
+[2024-05-28 03:53:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: neurosym
+[2024-05-28 03:53:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: haniwers
+[2024-05-28 03:53:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: latqcdtools
+[2024-05-28 03:53:36] INFO root fetch - processPackages [haniwers]: New version: [0.15.0] Old Version: [0.14.4]
+[2024-05-28 03:53:36] WARNING root fetch - processPackages [latqcdtools]: Skipping, unable to determine old version
+[2024-05-28 03:53:36] INFO root fetch - main [MainThread]: End processing [latqcdtools] error
+[2024-05-28 03:53:36] INFO root fetch - processPackages [ns-search-saved-export]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-28 03:53:37] INFO root fetch - processPackages [haniwers]: Downloading https://files.pythonhosted.org/packages/9a/29/01eddfd095a9d9cb22015535bba6f13838add0423e06cae881f081aefbc3/haniwers-0.14.4.tar.gz
+[2024-05-28 03:53:37] INFO root fetch - processPackages [ns-search-saved-export]: Downloading https://files.pythonhosted.org/packages/10/39/ba7247e1d18965eecc30a19a84fe0c1966ea2188873a6a730760bf7ec205/ns_search_saved_export-0.1.5.tar.gz
+[2024-05-28 03:53:37] INFO root fetch - processPackages [neurosym]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-28 03:53:37] INFO root fetch - processPackages [neurosym]: Downloading https://files.pythonhosted.org/packages/66/87/42efcd2dada44045cddbcc64177bfa822d2cd1915ad9f075c81d65cdd137/neurosym-0.0.8.tar.gz
+[2024-05-28 03:53:37] INFO root fetch - processPackages [haniwers]: Downloading https://files.pythonhosted.org/packages/f0/8c/e413138e7774f7d0962d7c28f0a6e37ea421c8f8fd71773270cf4109f06c/haniwers-0.15.0.tar.gz
+[2024-05-28 03:53:37] INFO root fetch - processPackages [ns-search-saved-export]: Downloading https://files.pythonhosted.org/packages/ad/19/6a820f4c3be3a3981cf4a88677aa6b9f48cd806d357f75f0483f8437e1a9/ns_search_saved_export-0.1.6.tar.gz
+[2024-05-28 03:53:37] INFO root fetch - processPackages [ns-search-saved-export]: executing diffoscope
+[2024-05-28 03:53:37] INFO root fetch - processPackages [ns-search-saved-export]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ns_search_saved_export-0.1.5.tar.gz tmp/ns_search_saved_export-0.1.6.tar.gz --markdown 20240528/n/ns-search-saved-export/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-28 03:53:37] INFO root fetch - processPackages [haniwers]: executing diffoscope
+[2024-05-28 03:53:37] INFO root fetch - processPackages [haniwers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haniwers-0.14.4.tar.gz tmp/haniwers-0.15.0.tar.gz --markdown 20240528/h/haniwers/0.14.4-0.15.0/README.md --exclude *.pyd
+[2024-05-28 03:53:37] INFO root fetch - processPackages [neurosym]: Downloading https://files.pythonhosted.org/packages/b3/d9/0fd09f28366b6afe07c9b07022c327cfcb05f4c54ad12dc10fcb86d94884/neurosym-0.0.9.tar.gz
+[2024-05-28 03:53:37] INFO root fetch - processPackages [neurosym]: executing diffoscope
+[2024-05-28 03:53:37] INFO root fetch - processPackages [neurosym]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neurosym-0.0.8.tar.gz tmp/neurosym-0.0.9.tar.gz --markdown 20240528/n/neurosym/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-28 03:53:38] INFO root fetch - processPackages [ns-search-saved-export]: Remove: archive file [/home/abi/fetcher/tmp/ns_search_saved_export-0.1.5.tar.gz]
+[2024-05-28 03:53:38] INFO root fetch - processPackages [ns-search-saved-export]: Remove: archive file [/home/abi/fetcher/tmp/ns_search_saved_export-0.1.6.tar.gz]
+[2024-05-28 03:53:38] INFO root fetch - main [MainThread]: End processing [ns-search-saved-export]: success
+[2024-05-28 03:53:38] INFO root fetch - processPackages [haniwers]: Remove: archive file [/home/abi/fetcher/tmp/haniwers-0.14.4.tar.gz]
+[2024-05-28 03:53:38] INFO root fetch - processPackages [haniwers]: Remove: archive file [/home/abi/fetcher/tmp/haniwers-0.15.0.tar.gz]
+[2024-05-28 03:53:38] INFO root fetch - main [MainThread]: End processing [haniwers]: success
+[2024-05-28 03:53:38] INFO root fetch - processPackages [neurosym]: Remove: archive file [/home/abi/fetcher/tmp/neurosym-0.0.8.tar.gz]
+[2024-05-28 03:53:38] INFO root fetch - processPackages [neurosym]: Remove: archive file [/home/abi/fetcher/tmp/neurosym-0.0.9.tar.gz]
+[2024-05-28 03:53:38] INFO root fetch - main [MainThread]: End processing [neurosym]: success
+[2024-05-28 03:53:38] INFO root fetch - main [MainThread]: Store serial: [23404202]
