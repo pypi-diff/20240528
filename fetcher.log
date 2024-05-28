@@ -2247,3 +2247,44 @@
 [2024-05-28 02:41:27] INFO root fetch - processPackages [qulacs]: Remove: archive file [/home/abi/fetcher/tmp/qulacs-0.6.4.1.tar.gz]
 [2024-05-28 02:41:27] INFO root fetch - main [MainThread]: End processing [qulacs]: success
 [2024-05-28 02:41:27] INFO root fetch - main [MainThread]: Store serial: [23403712]
+[2024-05-28 02:43:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23403712]
+[2024-05-28 02:43:35] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-28 02:45:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23403720]
+[2024-05-28 02:45:40] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-28 02:45:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tfds-nightly
+[2024-05-28 02:45:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: esper
+[2024-05-28 02:45:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyxllib
+[2024-05-28 02:45:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: record3d
+[2024-05-28 02:45:41] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.4.dev202405270044] Old Version: [4.9.4.dev202405260044]
+[2024-05-28 02:45:41] INFO root fetch - processPackages [esper]: New version: [3.3] Old Version: [3.2]
+[2024-05-28 02:45:41] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/09/6c/c38ffa947b04302b023dbf700d00782c6d1ec3386282fd272fd25af301d8/tfds-nightly-4.9.4.dev202405260044.tar.gz
+[2024-05-28 02:45:41] INFO root fetch - processPackages [record3d]: New version: [1.4] Old Version: [1.3.1.post2]
+[2024-05-28 02:45:41] INFO root fetch - processPackages [pyxllib]: New version: [0.3.96] Old Version: [0.3.95]
+[2024-05-28 02:45:41] INFO root fetch - processPackages [esper]: Downloading https://files.pythonhosted.org/packages/8e/f5/324caec41965090033ca6d304f2f3008408b5baf4075a5d83c59b24bd023/esper-3.2.tar.gz
+[2024-05-28 02:45:41] INFO root fetch - processPackages [record3d]: Downloading https://files.pythonhosted.org/packages/5d/13/a728f163e7639d14615d6d09f3f24181ef7a59bd690f7af28356b26cfe3a/record3d-1.3.1-2.tar.gz
+[2024-05-28 02:45:41] INFO root fetch - processPackages [pyxllib]: Downloading https://files.pythonhosted.org/packages/e7/3c/17e7db64b3f76320bbf38868555e1b764c703a512c991724477530a4d563/pyxllib-0.3.95.tar.gz
+[2024-05-28 02:45:41] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/53/1b/0db1ea986da7e0e488f1a5a5c6168e6f5cfa4b0c7a3c3678cac2fd185597/tfds-nightly-4.9.4.dev202405270044.tar.gz
+[2024-05-28 02:45:41] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2024-05-28 02:45:41] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.4.dev202405260044.tar.gz tmp/tfds-nightly-4.9.4.dev202405270044.tar.gz --markdown 20240528/t/tfds-nightly/4.9.4.dev202405260044-4.9.4.dev202405270044/README.md --exclude *.pyd
+[2024-05-28 02:45:41] INFO root fetch - processPackages [record3d]: Downloading https://files.pythonhosted.org/packages/9a/39/8c1c3a3ea934ebf6d5e5e134e312dc54cdc3b95cf5ba2fecc1a052b17161/record3d-1.4-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-28 02:45:41] INFO root fetch - processPackages [esper]: Downloading https://files.pythonhosted.org/packages/08/92/097b8777fd6596a6cefc4d2d0e14c2d0c905c2bf0da24b9814347a004820/esper-3.3.tar.gz
+[2024-05-28 02:45:41] INFO root fetch - processPackages [pyxllib]: Downloading https://files.pythonhosted.org/packages/28/6c/845f9d401f8fc52b82d4e4d79b9fc6d67497c441d4a1b3ac886e243aea4e/pyxllib-0.3.96.tar.gz
+[2024-05-28 02:45:42] INFO root fetch - processPackages [esper]: executing diffoscope
+[2024-05-28 02:45:42] INFO root fetch - processPackages [esper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esper-3.2.tar.gz tmp/esper-3.3.tar.gz --markdown 20240528/e/esper/3.2-3.3/README.md --exclude *.pyd
+[2024-05-28 02:45:42] INFO root fetch - processPackages [record3d]: executing diffoscope
+[2024-05-28 02:45:42] INFO root fetch - processPackages [record3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/record3d-1.3.1-2.tar.gz tmp/record3d-1.4-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240528/r/record3d/1.3.1.post2-1.4/README.md --exclude *.pyd
+[2024-05-28 02:45:42] INFO root fetch - processPackages [pyxllib]: executing diffoscope
+[2024-05-28 02:45:42] INFO root fetch - processPackages [pyxllib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxllib-0.3.95.tar.gz tmp/pyxllib-0.3.96.tar.gz --markdown 20240528/p/pyxllib/0.3.95-0.3.96/README.md --exclude *.pyd
+[2024-05-28 02:45:42] INFO root fetch - processPackages [esper]: Remove: archive file [/home/abi/fetcher/tmp/esper-3.2.tar.gz]
+[2024-05-28 02:45:42] INFO root fetch - processPackages [esper]: Remove: archive file [/home/abi/fetcher/tmp/esper-3.3.tar.gz]
+[2024-05-28 02:45:42] INFO root fetch - main [MainThread]: End processing [esper]: success
+[2024-05-28 02:45:42] INFO root fetch - processPackages [record3d]: Remove: archive file [/home/abi/fetcher/tmp/record3d-1.3.1-2.tar.gz]
+[2024-05-28 02:45:42] INFO root fetch - processPackages [record3d]: Remove: archive file [/home/abi/fetcher/tmp/record3d-1.4-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-28 02:45:42] INFO root fetch - main [MainThread]: End processing [record3d]: success
+[2024-05-28 02:45:43] INFO root fetch - processPackages [pyxllib]: Remove: archive file [/home/abi/fetcher/tmp/pyxllib-0.3.95.tar.gz]
+[2024-05-28 02:45:43] INFO root fetch - processPackages [pyxllib]: Remove: archive file [/home/abi/fetcher/tmp/pyxllib-0.3.96.tar.gz]
+[2024-05-28 02:45:43] INFO root fetch - main [MainThread]: End processing [pyxllib]: success
+[2024-05-28 02:45:50] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202405260044.tar.gz]
+[2024-05-28 02:45:50] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202405270044.tar.gz]
+[2024-05-28 02:45:50] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2024-05-28 02:45:50] INFO root fetch - main [MainThread]: Store serial: [23403732]
