@@ -14635,3 +14635,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 11:42:17] INFO root fetch - processPackages [smol_k8s_lab]: Remove: archive file [/home/abi/fetcher/tmp/smol_k8s_lab-5.3.0.tar.gz]
 [2024-05-28 11:42:17] INFO root fetch - main [MainThread]: End processing [smol_k8s_lab]: success
 [2024-05-28 11:42:17] INFO root fetch - main [MainThread]: Store serial: [23409018]
+[2024-05-28 11:44:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23409018]
+[2024-05-28 11:44:27] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-28 11:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ansible
+[2024-05-28 11:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mia-vgg
+[2024-05-28 11:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: udata-metrics
+[2024-05-28 11:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: HABSlib
+[2024-05-28 11:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: udata-metrics
+[2024-05-28 11:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ptlibs
+[2024-05-28 11:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: onchainpay-api
+[2024-05-28 11:44:27] INFO root fetch - processPackages [mia-vgg]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-28 11:44:27] INFO root fetch - processPackages [ansible]: New version: [9.6.0] Old Version: [9.5.1]
+[2024-05-28 11:44:27] WARNING root fetch - processPackages [onchainpay-api]: Skipping, unable to determine old version
+[2024-05-28 11:44:27] INFO root fetch - main [MainThread]: End processing [onchainpay-api] error
+[2024-05-28 11:44:27] INFO root fetch - processPackages [mia-vgg]: Downloading https://files.pythonhosted.org/packages/7d/99/89bc26b6fc0c4be64ccf67e364ca9e0df91458fd29d11e2358855b46e97d/mia_vgg-0.0.8.tar.gz
+[2024-05-28 11:44:27] INFO root fetch - processPackages [ptlibs]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-05-28 11:44:27] INFO root fetch - processPackages [udata-metrics]: New version: [2.0.4.dev188] Old Version: [2.0.3.dev27]
+[2024-05-28 11:44:27] INFO root fetch - processPackages [udata-metrics]: New version: [2.0.4.dev188] Old Version: [2.0.3.dev27]
+[2024-05-28 11:44:27] WARNING root fetch - processPackages [HABSlib]: Skipping, unable to determine old version
+[2024-05-28 11:44:27] INFO root fetch - main [MainThread]: End processing [HABSlib] error
+[2024-05-28 11:44:27] INFO root fetch - processPackages [ansible]: Downloading https://files.pythonhosted.org/packages/dd/d6/728e1423af98ee08f05a341792abb053b73c30a5a978fc3e0777a87037a4/ansible-9.5.1.tar.gz
+[2024-05-28 11:44:27] WARNING root fetch - processPackages [ansible]: Skipping package: exceeds size limit 38784671>=10485760
+[2024-05-28 11:44:27] INFO root fetch - main [MainThread]: End processing [ansible] error
+[2024-05-28 11:44:27] INFO root fetch - processPackages [ptlibs]: Downloading https://files.pythonhosted.org/packages/ed/67/618323faafcbca60b796ac461e538a7cb78cecc0cfe8baa7dbd3e6ce78d3/ptlibs-1.0.7.tar.gz
+[2024-05-28 11:44:27] INFO root fetch - processPackages [mia-vgg]: Downloading https://files.pythonhosted.org/packages/cc/39/4b0634a6c0cfb889300cdd32b0b9e896e244894df317465107e5a88463b0/mia_vgg-0.0.9.tar.gz
+[2024-05-28 11:44:27] INFO root fetch - processPackages [udata-metrics]: Downloading https://files.pythonhosted.org/packages/69/17/9fb73e9c7ecb0e0b950c525b089a49994d29cb473c24c26f1617740f25a3/udata_metrics-2.0.3.dev27-py2.py3-none-any.whl
+[2024-05-28 11:44:27] INFO root fetch - processPackages [udata-metrics]: Downloading https://files.pythonhosted.org/packages/69/17/9fb73e9c7ecb0e0b950c525b089a49994d29cb473c24c26f1617740f25a3/udata_metrics-2.0.3.dev27-py2.py3-none-any.whl
+[2024-05-28 11:44:28] INFO root fetch - processPackages [mia-vgg]: executing diffoscope
+[2024-05-28 11:44:28] INFO root fetch - processPackages [mia-vgg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mia_vgg-0.0.8.tar.gz tmp/mia_vgg-0.0.9.tar.gz --markdown 20240528/m/mia-vgg/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-28 11:44:28] INFO root fetch - processPackages [ptlibs]: Downloading https://files.pythonhosted.org/packages/32/78/36eefd5adcd14963f4ca1e6dc3e4b38ba2eb670943e4d61e0c7c005e7a11/ptlibs-1.0.8.tar.gz
+[2024-05-28 11:44:28] INFO root fetch - processPackages [udata-metrics]: Downloading https://files.pythonhosted.org/packages/8a/b3/bfa561b90be2c0fb01c9b458e2903c5ace2357330b9a8991c7dc4e9964d1/udata_metrics-2.0.4.dev188-py2.py3-none-any.whl
+[2024-05-28 11:44:28] INFO root fetch - processPackages [udata-metrics]: Downloading https://files.pythonhosted.org/packages/8a/b3/bfa561b90be2c0fb01c9b458e2903c5ace2357330b9a8991c7dc4e9964d1/udata_metrics-2.0.4.dev188-py2.py3-none-any.whl
+[2024-05-28 11:44:28] INFO root fetch - processPackages [ptlibs]: executing diffoscope
+[2024-05-28 11:44:28] INFO root fetch - processPackages [ptlibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ptlibs-1.0.7.tar.gz tmp/ptlibs-1.0.8.tar.gz --markdown 20240528/p/ptlibs/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-05-28 11:44:28] INFO root fetch - processPackages [udata-metrics]: executing diffoscope
+[2024-05-28 11:44:28] INFO root fetch - processPackages [udata-metrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udata_metrics-2.0.3.dev27-py2.py3-none-any.whl.zip tmp/udata_metrics-2.0.4.dev188-py2.py3-none-any.whl.zip --markdown 20240528/u/udata-metrics/2.0.3.dev27-2.0.4.dev188/README.md --exclude *.pyd
+[2024-05-28 11:44:28] INFO root fetch - processPackages [udata-metrics]: executing diffoscope
+[2024-05-28 11:44:28] INFO root fetch - processPackages [udata-metrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udata_metrics-2.0.3.dev27-py2.py3-none-any.whl.zip tmp/udata_metrics-2.0.4.dev188-py2.py3-none-any.whl.zip --markdown 20240528/u/udata-metrics/2.0.3.dev27-2.0.4.dev188/README.md --exclude *.pyd
+[2024-05-28 11:44:28] INFO root fetch - processPackages [mia-vgg]: Remove: archive file [/home/abi/fetcher/tmp/mia_vgg-0.0.8.tar.gz]
+[2024-05-28 11:44:28] INFO root fetch - processPackages [mia-vgg]: Remove: archive file [/home/abi/fetcher/tmp/mia_vgg-0.0.9.tar.gz]
+[2024-05-28 11:44:28] INFO root fetch - main [MainThread]: End processing [mia-vgg]: success
+[2024-05-28 11:44:28] INFO root fetch - processPackages [udata-metrics]: Remove: archive file [/home/abi/fetcher/tmp/udata_metrics-2.0.3.dev27-py2.py3-none-any.whl.zip]
+[2024-05-28 11:44:28] INFO root fetch - processPackages [udata-metrics]: Remove: archive file [/home/abi/fetcher/tmp/udata_metrics-2.0.4.dev188-py2.py3-none-any.whl.zip]
+[2024-05-28 11:44:28] INFO root fetch - main [MainThread]: End processing [udata-metrics]: success
+[2024-05-28 11:44:29] INFO root fetch - processPackages [ptlibs]: Remove: archive file [/home/abi/fetcher/tmp/ptlibs-1.0.7.tar.gz]
+[2024-05-28 11:44:29] INFO root fetch - processPackages [ptlibs]: Remove: archive file [/home/abi/fetcher/tmp/ptlibs-1.0.8.tar.gz]
+[2024-05-28 11:44:29] INFO root fetch - main [MainThread]: End processing [ptlibs]: success
+[2024-05-28 11:44:29] INFO root fetch - main [MainThread]: End processing [udata-metrics]: success
+[2024-05-28 11:44:29] INFO root fetch - main [MainThread]: Store serial: [23409040]
