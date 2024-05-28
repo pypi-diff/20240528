@@ -8790,3 +8790,27 @@
 [2024-05-28 08:18:45] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module-20240528.tar.gz]
 [2024-05-28 08:18:45] INFO root fetch - main [MainThread]: End processing [fake-bpy-module]: success
 [2024-05-28 08:18:45] INFO root fetch - main [MainThread]: Store serial: [23406513]
+[2024-05-28 08:20:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23406513]
+[2024-05-28 08:21:00] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-28 08:21:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: data-and-reporting-sdk
+[2024-05-28 08:21:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyluba
+[2024-05-28 08:21:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alita-tools
+[2024-05-28 08:21:00] WARNING root fetch - processPackages [data-and-reporting-sdk]: Skipping, unable to determine old version
+[2024-05-28 08:21:00] INFO root fetch - main [MainThread]: End processing [data-and-reporting-sdk] error
+[2024-05-28 08:21:00] INFO root fetch - processPackages [pyluba]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-28 08:21:00] INFO root fetch - processPackages [alita-tools]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-28 08:21:01] INFO root fetch - processPackages [pyluba]: Downloading https://files.pythonhosted.org/packages/52/99/e29e1d5ada99bf72806e253adb260c8ac9718c47fdfc9c9a26d99fcc0d52/pyluba-0.0.8.tar.gz
+[2024-05-28 08:21:01] INFO root fetch - processPackages [alita-tools]: Downloading https://files.pythonhosted.org/packages/11/7e/f89b7d2fb29b664d4a1b772c0a8757857534dc4981d9d9547b1410352f8b/alita_tools-0.0.8.tar.gz
+[2024-05-28 08:21:01] INFO root fetch - processPackages [pyluba]: Downloading https://files.pythonhosted.org/packages/84/ab/a79a516adda0073565ebbe893c1269969eb2e11db4ea3957e1d76e1ebf9e/pyluba-0.0.9.tar.gz
+[2024-05-28 08:21:01] INFO root fetch - processPackages [alita-tools]: Downloading https://files.pythonhosted.org/packages/b2/e0/efa7908f0bf622856778acf50ffea9fd834a7e4b47167ee967dc96ba217d/alita_tools-0.0.9.tar.gz
+[2024-05-28 08:21:01] INFO root fetch - processPackages [pyluba]: executing diffoscope
+[2024-05-28 08:21:01] INFO root fetch - processPackages [pyluba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyluba-0.0.8.tar.gz tmp/pyluba-0.0.9.tar.gz --markdown 20240528/p/pyluba/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-28 08:21:01] INFO root fetch - processPackages [alita-tools]: executing diffoscope
+[2024-05-28 08:21:01] INFO root fetch - processPackages [alita-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alita_tools-0.0.8.tar.gz tmp/alita_tools-0.0.9.tar.gz --markdown 20240528/a/alita-tools/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-28 08:21:02] INFO root fetch - processPackages [alita-tools]: Remove: archive file [/home/abi/fetcher/tmp/alita_tools-0.0.8.tar.gz]
+[2024-05-28 08:21:02] INFO root fetch - processPackages [alita-tools]: Remove: archive file [/home/abi/fetcher/tmp/alita_tools-0.0.9.tar.gz]
+[2024-05-28 08:21:02] INFO root fetch - main [MainThread]: End processing [alita-tools]: success
+[2024-05-28 08:21:02] INFO root fetch - processPackages [pyluba]: Remove: archive file [/home/abi/fetcher/tmp/pyluba-0.0.8.tar.gz]
+[2024-05-28 08:21:02] INFO root fetch - processPackages [pyluba]: Remove: archive file [/home/abi/fetcher/tmp/pyluba-0.0.9.tar.gz]
+[2024-05-28 08:21:02] INFO root fetch - main [MainThread]: End processing [pyluba]: success
+[2024-05-28 08:21:02] INFO root fetch - main [MainThread]: Store serial: [23406521]
