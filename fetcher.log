@@ -4160,3 +4160,45 @@
 [2024-05-28 04:48:32] INFO root fetch - processPackages [roundup]: Remove: archive file [/home/abi/fetcher/tmp/roundup-2.4.0b1.tar.gz]
 [2024-05-28 04:48:32] INFO root fetch - main [MainThread]: End processing [roundup]: success
 [2024-05-28 04:48:32] INFO root fetch - main [MainThread]: Store serial: [23404500]
+[2024-05-28 04:50:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23404500]
+[2024-05-28 04:50:41] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-28 04:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: solar-registry
+[2024-05-28 04:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mat3ra-utils
+[2024-05-28 04:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Calulator
+[2024-05-28 04:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-plus-one
+[2024-05-28 04:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stldim
+[2024-05-28 04:50:41] INFO root fetch - processPackages [nonebot-plugin-plus-one]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-28 04:50:41] INFO root fetch - processPackages [stldim]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-28 04:50:41] INFO root fetch - processPackages [solar-registry]: New version: [0.3.0] Old Version: [0.2.9]
+[2024-05-28 04:50:41] INFO root fetch - processPackages [nonebot-plugin-plus-one]: Downloading https://files.pythonhosted.org/packages/31/63/27b4d6b2aee7f35886c66062b4f945a428a9dce2b210e45e1a73ae670854/nonebot_plugin_plus_one-0.1.5.tar.gz
+[2024-05-28 04:50:41] INFO root fetch - processPackages [mat3ra-utils]: New version: [2024.5.28.post0] Old Version: [2024.5.2.post0]
+[2024-05-28 04:50:41] WARNING root fetch - processPackages [Calulator]: Skipping, unable to determine old version
+[2024-05-28 04:50:41] INFO root fetch - main [MainThread]: End processing [Calulator] error
+[2024-05-28 04:50:41] INFO root fetch - processPackages [stldim]: Downloading https://files.pythonhosted.org/packages/e4/f3/115d7d3ca9c65f6c14f63542285331ba518bb0326443a9dfba1f68cf44d8/stldim-0.2.1.tar.gz
+[2024-05-28 04:50:41] INFO root fetch - processPackages [solar-registry]: Downloading https://files.pythonhosted.org/packages/cd/40/34eee216b08c5fa01cbb36635892aad7693c83fa5e87387b29ae05c737f0/solar_registry-0.2.9.tar.gz
+[2024-05-28 04:50:42] INFO root fetch - processPackages [nonebot-plugin-plus-one]: Downloading https://files.pythonhosted.org/packages/1d/aa/f30cea8b584d6006159dacc7d4a3bb10fe8adc8de5836dbe2d0edec07178/nonebot_plugin_plus_one-0.1.6.tar.gz
+[2024-05-28 04:50:42] INFO root fetch - processPackages [mat3ra-utils]: Downloading https://files.pythonhosted.org/packages/64/3a/218831f837f5b10447e5c84f006aa4988352333e64433c59a566f40c3246/mat3ra_utils-2024.5.2.post0.tar.gz
+[2024-05-28 04:50:42] INFO root fetch - processPackages [nonebot-plugin-plus-one]: executing diffoscope
+[2024-05-28 04:50:42] INFO root fetch - processPackages [nonebot-plugin-plus-one]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_plus_one-0.1.5.tar.gz tmp/nonebot_plugin_plus_one-0.1.6.tar.gz --markdown 20240528/n/nonebot-plugin-plus-one/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-28 04:50:42] INFO root fetch - processPackages [solar-registry]: Downloading https://files.pythonhosted.org/packages/38/51/7146b4c2ff1d4ef9f707d24769266178c335b46aa60b63e3e2b157758dc7/solar_registry-0.3.0.tar.gz
+[2024-05-28 04:50:42] INFO root fetch - processPackages [mat3ra-utils]: Downloading https://files.pythonhosted.org/packages/ef/d4/7ef144dc027cbf83a3bf1654fbeeb4e60fd05d851e1d35babd1e81c53a83/mat3ra_utils-2024.5.28.post0.tar.gz
+[2024-05-28 04:50:42] INFO root fetch - processPackages [solar-registry]: executing diffoscope
+[2024-05-28 04:50:42] INFO root fetch - processPackages [solar-registry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solar_registry-0.2.9.tar.gz tmp/solar_registry-0.3.0.tar.gz --markdown 20240528/s/solar-registry/0.2.9-0.3.0/README.md --exclude *.pyd
+[2024-05-28 04:50:42] INFO root fetch - processPackages [stldim]: Downloading https://files.pythonhosted.org/packages/d1/10/5c285e615ad60a34b14959100264d6843fa418e1f28e4da118df07494bba/stldim-0.2.2.tar.gz
+[2024-05-28 04:50:42] INFO root fetch - processPackages [mat3ra-utils]: executing diffoscope
+[2024-05-28 04:50:42] INFO root fetch - processPackages [mat3ra-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mat3ra_utils-2024.5.2.post0.tar.gz tmp/mat3ra_utils-2024.5.28.post0.tar.gz --markdown 20240528/m/mat3ra-utils/2024.5.2.post0-2024.5.28.post0/README.md --exclude *.pyd
+[2024-05-28 04:50:42] INFO root fetch - processPackages [nonebot-plugin-plus-one]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_plus_one-0.1.5.tar.gz]
+[2024-05-28 04:50:42] INFO root fetch - processPackages [nonebot-plugin-plus-one]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_plus_one-0.1.6.tar.gz]
+[2024-05-28 04:50:42] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-plus-one]: success
+[2024-05-28 04:50:42] INFO root fetch - processPackages [stldim]: executing diffoscope
+[2024-05-28 04:50:42] INFO root fetch - processPackages [stldim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stldim-0.2.1.tar.gz tmp/stldim-0.2.2.tar.gz --markdown 20240528/s/stldim/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-28 04:50:43] INFO root fetch - processPackages [solar-registry]: Remove: archive file [/home/abi/fetcher/tmp/solar_registry-0.2.9.tar.gz]
+[2024-05-28 04:50:43] INFO root fetch - processPackages [solar-registry]: Remove: archive file [/home/abi/fetcher/tmp/solar_registry-0.3.0.tar.gz]
+[2024-05-28 04:50:43] INFO root fetch - main [MainThread]: End processing [solar-registry]: success
+[2024-05-28 04:50:43] INFO root fetch - processPackages [mat3ra-utils]: Remove: archive file [/home/abi/fetcher/tmp/mat3ra_utils-2024.5.2.post0.tar.gz]
+[2024-05-28 04:50:43] INFO root fetch - processPackages [mat3ra-utils]: Remove: archive file [/home/abi/fetcher/tmp/mat3ra_utils-2024.5.28.post0.tar.gz]
+[2024-05-28 04:50:43] INFO root fetch - main [MainThread]: End processing [mat3ra-utils]: success
+[2024-05-28 04:50:43] INFO root fetch - processPackages [stldim]: Remove: archive file [/home/abi/fetcher/tmp/stldim-0.2.1.tar.gz]
+[2024-05-28 04:50:43] INFO root fetch - processPackages [stldim]: Remove: archive file [/home/abi/fetcher/tmp/stldim-0.2.2.tar.gz]
+[2024-05-28 04:50:43] INFO root fetch - main [MainThread]: End processing [stldim]: success
+[2024-05-28 04:50:43] INFO root fetch - main [MainThread]: Store serial: [23404516]
