@@ -19578,3 +19578,78 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 14:51:09] INFO root fetch - processPackages [nostr-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nostr_sdk-0.9.1-cp39-cp39-win_amd64.whl.zip]
 [2024-05-28 14:51:09] INFO root fetch - main [MainThread]: End processing [nostr-sdk]: success
 [2024-05-28 14:51:09] INFO root fetch - main [MainThread]: Store serial: [23411323]
+[2024-05-28 14:53:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23411323]
+[2024-05-28 14:53:33] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-28 14:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: okx-sdk
+[2024-05-28 14:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: facebook-simple-scraper
+[2024-05-28 14:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-jbank
+[2024-05-28 14:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: artesian-sdk
+[2024-05-28 14:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sparkorm
+[2024-05-28 14:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: evo-framework
+[2024-05-28 14:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: manual-tls
+[2024-05-28 14:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xrpld-netgen
+[2024-05-28 14:53:33] INFO root fetch - processPackages [facebook-simple-scraper]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-28 14:53:33] INFO root fetch - processPackages [evo-framework]: New version: [2024.5.21] Old Version: [2024.5.20]
+[2024-05-28 14:53:33] INFO root fetch - processPackages [django-jbank]: New version: [4.4.9] Old Version: [4.4.8]
+[2024-05-28 14:53:33] INFO root fetch - processPackages [facebook-simple-scraper]: Downloading https://files.pythonhosted.org/packages/fa/f7/076659916b9338d0ba726714e8ac4cb6deb91466c9071cedf1ac85b0e4e8/facebook_simple_scraper-0.1.2.tar.gz
+[2024-05-28 14:53:33] INFO root fetch - processPackages [evo-framework]: Downloading https://files.pythonhosted.org/packages/ed/32/b044a4ad8d2d38077255a0c4aed1edcab910829b0fc17f318c8e95461afd/evo_framework-2024.5.20.tar.gz
+[2024-05-28 14:53:33] INFO root fetch - processPackages [django-jbank]: Downloading https://files.pythonhosted.org/packages/90/99/4e00f407ba997f25dc8ea0707fbb61de11ffd0d6e2ca223c52ba98b30661/django-jbank-4.4.8.tar.gz
+[2024-05-28 14:53:33] INFO root fetch - processPackages [manual-tls]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-28 14:53:33] INFO root fetch - processPackages [sparkorm]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-05-28 14:53:33] INFO root fetch - processPackages [okx-sdk]: New version: [1.3.6] Old Version: [1.3.5]
+[2024-05-28 14:53:33] INFO root fetch - processPackages [artesian-sdk]: New version: [4.0.0] Old Version: [3.1.4.dev2]
+[2024-05-28 14:53:33] INFO root fetch - processPackages [xrpld-netgen]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-28 14:53:34] INFO root fetch - processPackages [okx-sdk]: Downloading https://files.pythonhosted.org/packages/2e/54/84e145ccb505c0709f3fa31f2c0144b6c31d7fc0a0df4478d501ccc87a47/okx-sdk-1.3.5.tar.gz
+[2024-05-28 14:53:34] INFO root fetch - processPackages [sparkorm]: Downloading https://files.pythonhosted.org/packages/fe/dd/922027cc37932ca2729c068121f32b889c97bd872d7bbed66a89095246bf/sparkorm-1.2.8-py3-none-any.whl
+[2024-05-28 14:53:34] INFO root fetch - processPackages [manual-tls]: Downloading https://files.pythonhosted.org/packages/06/bf/b3d20aec79f3cf5961a7234f9f5af1314a2a9dba190b7fe282551f99bc31/manual_tls-0.0.2.tar.gz
+[2024-05-28 14:53:34] INFO root fetch - processPackages [django-jbank]: Downloading https://files.pythonhosted.org/packages/e0/a1/d943b79a270c5e2a206943fcac96c50db1052f1a20400b100a5eb6090a08/django-jbank-4.4.9.tar.gz
+[2024-05-28 14:53:34] INFO root fetch - processPackages [artesian-sdk]: Downloading https://files.pythonhosted.org/packages/79/64/9b5916d07fc1bc95ec564e8986010ba00b6831dfe2b71b7d71da9df16c20/artesian_sdk-3.1.4.dev2.tar.gz
+[2024-05-28 14:53:34] INFO root fetch - processPackages [xrpld-netgen]: Downloading https://files.pythonhosted.org/packages/09/50/d6a001646ac586b3d8bfd43f9e5aecb69ee7717cadadb9dabbb5e15ab0dc/xrpld_netgen-1.8.0.tar.gz
+[2024-05-28 14:53:34] INFO root fetch - processPackages [facebook-simple-scraper]: Downloading https://files.pythonhosted.org/packages/a4/b9/276aa877750678f297fda48c1f7f9266669cf3e024f86d379e90c5df9112/facebook_simple_scraper-0.1.3.tar.gz
+[2024-05-28 14:53:34] INFO root fetch - processPackages [evo-framework]: Downloading https://files.pythonhosted.org/packages/5f/59/5503f2b0c642341d6735da1dca0914aee2d8fd1ab805d4b8a2c494e4232d/evo_framework-2024.5.21.tar.gz
+[2024-05-28 14:53:34] INFO root fetch - processPackages [facebook-simple-scraper]: executing diffoscope
+[2024-05-28 14:53:34] INFO root fetch - processPackages [facebook-simple-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/facebook_simple_scraper-0.1.2.tar.gz tmp/facebook_simple_scraper-0.1.3.tar.gz --markdown 20240528/f/facebook-simple-scraper/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-28 14:53:34] INFO root fetch - processPackages [django-jbank]: executing diffoscope
+[2024-05-28 14:53:34] INFO root fetch - processPackages [django-jbank]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-jbank-4.4.8.tar.gz tmp/django-jbank-4.4.9.tar.gz --markdown 20240528/d/django-jbank/4.4.8-4.4.9/README.md --exclude *.pyd
+[2024-05-28 14:53:34] INFO root fetch - processPackages [evo-framework]: executing diffoscope
+[2024-05-28 14:53:34] INFO root fetch - processPackages [evo-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evo_framework-2024.5.20.tar.gz tmp/evo_framework-2024.5.21.tar.gz --markdown 20240528/e/evo-framework/2024.5.20-2024.5.21/README.md --exclude *.pyd
+[2024-05-28 14:53:34] INFO root fetch - processPackages [okx-sdk]: Downloading https://files.pythonhosted.org/packages/a1/87/afe3e4ca65e72470a7e1ef33b9ee9c3939ce51af7dad030ab9e9ff6f1307/okx-sdk-1.3.6.tar.gz
+[2024-05-28 14:53:34] INFO root fetch - processPackages [sparkorm]: Downloading https://files.pythonhosted.org/packages/cf/6c/6b165701047ab9fcb3b6a0ba36a47c4ff375eaebea6b03919fc632eb77bd/sparkorm-1.2.9-py3-none-any.whl
+[2024-05-28 14:53:34] INFO root fetch - processPackages [manual-tls]: Downloading https://files.pythonhosted.org/packages/4b/90/894bdd90a881dad5d89ddaf398f75b2f79e5a0c0764547b44f684d28f74e/manual_tls-0.0.3.tar.gz
+[2024-05-28 14:53:34] INFO root fetch - processPackages [okx-sdk]: executing diffoscope
+[2024-05-28 14:53:34] INFO root fetch - processPackages [okx-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/okx-sdk-1.3.5.tar.gz tmp/okx-sdk-1.3.6.tar.gz --markdown 20240528/o/okx-sdk/1.3.5-1.3.6/README.md --exclude *.pyd
+[2024-05-28 14:53:34] INFO root fetch - processPackages [artesian-sdk]: Downloading https://files.pythonhosted.org/packages/a8/18/36a93f1999d1cfc8b240a58ef218c9a32d25f02049b506bdea7d507fc11e/artesian_sdk-4.0.0.tar.gz
+[2024-05-28 14:53:34] INFO root fetch - processPackages [sparkorm]: executing diffoscope
+[2024-05-28 14:53:34] INFO root fetch - processPackages [sparkorm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparkorm-1.2.8-py3-none-any.whl.zip tmp/sparkorm-1.2.9-py3-none-any.whl.zip --markdown 20240528/s/sparkorm/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-05-28 14:53:34] INFO root fetch - processPackages [manual-tls]: executing diffoscope
+[2024-05-28 14:53:34] INFO root fetch - processPackages [manual-tls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manual_tls-0.0.2.tar.gz tmp/manual_tls-0.0.3.tar.gz --markdown 20240528/m/manual-tls/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-28 14:53:34] INFO root fetch - processPackages [xrpld-netgen]: Downloading https://files.pythonhosted.org/packages/c0/c8/e94661f027d5aa127f13ec42bdaac82ed44929fd7306cf429b42cb3ab14a/xrpld_netgen-1.9.0.tar.gz
+[2024-05-28 14:53:34] INFO root fetch - processPackages [artesian-sdk]: executing diffoscope
+[2024-05-28 14:53:34] INFO root fetch - processPackages [artesian-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/artesian_sdk-3.1.4.dev2.tar.gz tmp/artesian_sdk-4.0.0.tar.gz --markdown 20240528/a/artesian-sdk/3.1.4.dev2-4.0.0/README.md --exclude *.pyd
+[2024-05-28 14:53:34] INFO root fetch - processPackages [xrpld-netgen]: executing diffoscope
+[2024-05-28 14:53:34] INFO root fetch - processPackages [xrpld-netgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xrpld_netgen-1.8.0.tar.gz tmp/xrpld_netgen-1.9.0.tar.gz --markdown 20240528/x/xrpld-netgen/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-28 14:53:35] INFO root fetch - processPackages [facebook-simple-scraper]: Remove: archive file [/home/abi/fetcher/tmp/facebook_simple_scraper-0.1.2.tar.gz]
+[2024-05-28 14:53:35] INFO root fetch - processPackages [facebook-simple-scraper]: Remove: archive file [/home/abi/fetcher/tmp/facebook_simple_scraper-0.1.3.tar.gz]
+[2024-05-28 14:53:35] INFO root fetch - main [MainThread]: End processing [facebook-simple-scraper]: success
+[2024-05-28 14:53:35] INFO root fetch - processPackages [sparkorm]: Remove: archive file [/home/abi/fetcher/tmp/sparkorm-1.2.8-py3-none-any.whl.zip]
+[2024-05-28 14:53:35] INFO root fetch - processPackages [sparkorm]: Remove: archive file [/home/abi/fetcher/tmp/sparkorm-1.2.9-py3-none-any.whl.zip]
+[2024-05-28 14:53:35] INFO root fetch - main [MainThread]: End processing [sparkorm]: success
+[2024-05-28 14:53:35] INFO root fetch - processPackages [okx-sdk]: Remove: archive file [/home/abi/fetcher/tmp/okx-sdk-1.3.5.tar.gz]
+[2024-05-28 14:53:35] INFO root fetch - processPackages [okx-sdk]: Remove: archive file [/home/abi/fetcher/tmp/okx-sdk-1.3.6.tar.gz]
+[2024-05-28 14:53:35] INFO root fetch - main [MainThread]: End processing [okx-sdk]: success
+[2024-05-28 14:53:35] INFO root fetch - processPackages [manual-tls]: Remove: archive file [/home/abi/fetcher/tmp/manual_tls-0.0.2.tar.gz]
+[2024-05-28 14:53:35] INFO root fetch - processPackages [manual-tls]: Remove: archive file [/home/abi/fetcher/tmp/manual_tls-0.0.3.tar.gz]
+[2024-05-28 14:53:35] INFO root fetch - main [MainThread]: End processing [manual-tls]: success
+[2024-05-28 14:53:35] INFO root fetch - processPackages [evo-framework]: Remove: archive file [/home/abi/fetcher/tmp/evo_framework-2024.5.20.tar.gz]
+[2024-05-28 14:53:35] INFO root fetch - processPackages [evo-framework]: Remove: archive file [/home/abi/fetcher/tmp/evo_framework-2024.5.21.tar.gz]
+[2024-05-28 14:53:35] INFO root fetch - main [MainThread]: End processing [evo-framework]: success
+[2024-05-28 14:53:35] INFO root fetch - processPackages [xrpld-netgen]: Remove: archive file [/home/abi/fetcher/tmp/xrpld_netgen-1.8.0.tar.gz]
+[2024-05-28 14:53:35] INFO root fetch - processPackages [xrpld-netgen]: Remove: archive file [/home/abi/fetcher/tmp/xrpld_netgen-1.9.0.tar.gz]
+[2024-05-28 14:53:35] INFO root fetch - main [MainThread]: End processing [xrpld-netgen]: success
+[2024-05-28 14:53:35] INFO root fetch - processPackages [django-jbank]: Remove: archive file [/home/abi/fetcher/tmp/django-jbank-4.4.8.tar.gz]
+[2024-05-28 14:53:35] INFO root fetch - processPackages [django-jbank]: Remove: archive file [/home/abi/fetcher/tmp/django-jbank-4.4.9.tar.gz]
+[2024-05-28 14:53:35] INFO root fetch - main [MainThread]: End processing [django-jbank]: success
+[2024-05-28 14:53:35] INFO root fetch - processPackages [artesian-sdk]: Remove: archive file [/home/abi/fetcher/tmp/artesian_sdk-3.1.4.dev2.tar.gz]
+[2024-05-28 14:53:35] INFO root fetch - processPackages [artesian-sdk]: Remove: archive file [/home/abi/fetcher/tmp/artesian_sdk-4.0.0.tar.gz]
+[2024-05-28 14:53:35] INFO root fetch - main [MainThread]: End processing [artesian-sdk]: success
+[2024-05-28 14:53:35] INFO root fetch - main [MainThread]: Store serial: [23411404]
