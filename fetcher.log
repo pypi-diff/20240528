@@ -9433,3 +9433,48 @@
 [2024-05-28 08:54:11] INFO root fetch - processPackages [peewee-async]: Remove: archive file [/home/abi/fetcher/tmp/peewee_async-0.9.1.tar.gz]
 [2024-05-28 08:54:11] INFO root fetch - main [MainThread]: End processing [peewee-async]: success
 [2024-05-28 08:54:11] INFO root fetch - main [MainThread]: Store serial: [23406774]
+[2024-05-28 08:56:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23406774]
+[2024-05-28 08:56:19] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-28 08:56:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fameio
+[2024-05-28 08:56:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: emotion-analysis
+[2024-05-28 08:56:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-sale-channel
+[2024-05-28 08:56:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stocknotebridgenew
+[2024-05-28 08:56:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: inline-snapshot
+[2024-05-28 08:56:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nimbletl
+[2024-05-28 08:56:19] WARNING root fetch - processPackages [nimbletl]: Skipping, unable to determine old version
+[2024-05-28 08:56:19] INFO root fetch - main [MainThread]: End processing [nimbletl] error
+[2024-05-28 08:56:19] WARNING root fetch - processPackages [stocknotebridgenew]: Skipping, unable to determine old version
+[2024-05-28 08:56:19] INFO root fetch - main [MainThread]: End processing [stocknotebridgenew] error
+[2024-05-28 08:56:19] INFO root fetch - processPackages [emotion-analysis]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-28 08:56:19] INFO root fetch - processPackages [fameio]: New version: [2.2.0] Old Version: [2.1.0]
+[2024-05-28 08:56:19] INFO root fetch - processPackages [odoo-addon-sale-channel]: New version: [16.0.0.2.0.2] Old Version: [16.0.0.2.0.1]
+[2024-05-28 08:56:19] INFO root fetch - processPackages [emotion-analysis]: Downloading https://files.pythonhosted.org/packages/34/c0/9dac12c6a8f357e0e0d440bf98020d5d020b08198c7e6941e2137f4cb0ad/emotion_analysis-0.1.1.tar.gz
+[2024-05-28 08:56:19] INFO root fetch - processPackages [fameio]: Downloading https://files.pythonhosted.org/packages/c5/b3/81a3860820948c11fc360033e34c0b3f03e82a54e030565641ffcf685892/fameio-2.1.0.tar.gz
+[2024-05-28 08:56:19] INFO root fetch - processPackages [inline-snapshot]: New version: [0.9.0] Old Version: [0.8.2]
+[2024-05-28 08:56:20] INFO root fetch - processPackages [odoo-addon-sale-channel]: Downloading https://files.pythonhosted.org/packages/ce/65/e3577702daae3184fb0414a53d9476404a6f29a84f3f212f0f77c3912135/odoo_addon_sale_channel-16.0.0.2.0.1-py3-none-any.whl
+[2024-05-28 08:56:20] INFO root fetch - processPackages [inline-snapshot]: Downloading https://files.pythonhosted.org/packages/3a/36/2833c3ee269571344f119f5fa5504c835d1a679d300bdbe81b9b59ce6377/inline_snapshot-0.8.2.tar.gz
+[2024-05-28 08:56:20] INFO root fetch - processPackages [fameio]: Downloading https://files.pythonhosted.org/packages/fb/ee/ac7cf9be79527333bf2a6f7d88bf9a758c86af32836d7e118b0b095d1722/fameio-2.2.0.tar.gz
+[2024-05-28 08:56:20] INFO root fetch - processPackages [emotion-analysis]: Downloading https://files.pythonhosted.org/packages/82/88/392caab2231c31017e44fd4f9ff4baca91c232bf1b8200d84fa9d5f1e578/emotion_analysis-0.1.2.tar.gz
+[2024-05-28 08:56:20] INFO root fetch - processPackages [fameio]: executing diffoscope
+[2024-05-28 08:56:20] INFO root fetch - processPackages [fameio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fameio-2.1.0.tar.gz tmp/fameio-2.2.0.tar.gz --markdown 20240528/f/fameio/2.1.0-2.2.0/README.md --exclude *.pyd
+[2024-05-28 08:56:20] INFO root fetch - processPackages [emotion-analysis]: executing diffoscope
+[2024-05-28 08:56:20] INFO root fetch - processPackages [emotion-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emotion_analysis-0.1.1.tar.gz tmp/emotion_analysis-0.1.2.tar.gz --markdown 20240528/e/emotion-analysis/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-28 08:56:20] INFO root fetch - processPackages [odoo-addon-sale-channel]: Downloading https://files.pythonhosted.org/packages/33/c8/3bafe080fb17238ff46fd055fd006cdd3cd839e81eb7960220e6940bf0c9/odoo_addon_sale_channel-16.0.0.2.0.2-py3-none-any.whl
+[2024-05-28 08:56:20] INFO root fetch - processPackages [inline-snapshot]: Downloading https://files.pythonhosted.org/packages/52/de/5cdde68682e2ed1453a071038a72ed83f8f41595d3fbd8f144a326c7242e/inline_snapshot-0.9.0.tar.gz
+[2024-05-28 08:56:20] INFO root fetch - processPackages [odoo-addon-sale-channel]: executing diffoscope
+[2024-05-28 08:56:20] INFO root fetch - processPackages [odoo-addon-sale-channel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_channel-16.0.0.2.0.1-py3-none-any.whl.zip tmp/odoo_addon_sale_channel-16.0.0.2.0.2-py3-none-any.whl.zip --markdown 20240528/o/odoo-addon-sale-channel/16.0.0.2.0.1-16.0.0.2.0.2/README.md --exclude *.pyd
+[2024-05-28 08:56:20] INFO root fetch - processPackages [inline-snapshot]: executing diffoscope
+[2024-05-28 08:56:20] INFO root fetch - processPackages [inline-snapshot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inline_snapshot-0.8.2.tar.gz tmp/inline_snapshot-0.9.0.tar.gz --markdown 20240528/i/inline-snapshot/0.8.2-0.9.0/README.md --exclude *.pyd
+[2024-05-28 08:56:20] INFO root fetch - processPackages [emotion-analysis]: Remove: archive file [/home/abi/fetcher/tmp/emotion_analysis-0.1.1.tar.gz]
+[2024-05-28 08:56:20] INFO root fetch - processPackages [emotion-analysis]: Remove: archive file [/home/abi/fetcher/tmp/emotion_analysis-0.1.2.tar.gz]
+[2024-05-28 08:56:20] INFO root fetch - main [MainThread]: End processing [emotion-analysis]: success
+[2024-05-28 08:56:21] INFO root fetch - processPackages [fameio]: Remove: archive file [/home/abi/fetcher/tmp/fameio-2.1.0.tar.gz]
+[2024-05-28 08:56:21] INFO root fetch - processPackages [fameio]: Remove: archive file [/home/abi/fetcher/tmp/fameio-2.2.0.tar.gz]
+[2024-05-28 08:56:21] INFO root fetch - main [MainThread]: End processing [fameio]: success
+[2024-05-28 08:56:21] INFO root fetch - processPackages [odoo-addon-sale-channel]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_channel-16.0.0.2.0.1-py3-none-any.whl.zip]
+[2024-05-28 08:56:21] INFO root fetch - processPackages [odoo-addon-sale-channel]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_channel-16.0.0.2.0.2-py3-none-any.whl.zip]
+[2024-05-28 08:56:21] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-channel]: success
+[2024-05-28 08:56:21] INFO root fetch - processPackages [inline-snapshot]: Remove: archive file [/home/abi/fetcher/tmp/inline_snapshot-0.8.2.tar.gz]
+[2024-05-28 08:56:21] INFO root fetch - processPackages [inline-snapshot]: Remove: archive file [/home/abi/fetcher/tmp/inline_snapshot-0.9.0.tar.gz]
+[2024-05-28 08:56:21] INFO root fetch - main [MainThread]: End processing [inline-snapshot]: success
+[2024-05-28 08:56:21] INFO root fetch - main [MainThread]: Store serial: [23406791]
