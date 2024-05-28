@@ -5661,3 +5661,24 @@
 [2024-05-28 06:29:26] WARNING root fetch - processPackages [bigdl-core-xe-batch-21]: Skipping package: exceeds size limit 71251938>=10485760
 [2024-05-28 06:29:26] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-batch-21] error
 [2024-05-28 06:29:26] INFO root fetch - main [MainThread]: Store serial: [23405067]
+[2024-05-28 06:31:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23405067]
+[2024-05-28 06:31:34] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-28 06:31:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: daalab
+[2024-05-28 06:31:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gammarers.aws-secure-log-bucket
+[2024-05-28 06:31:34] INFO root fetch - processPackages [daalab]: New version: [1.4] Old Version: [1.3]
+[2024-05-28 06:31:35] INFO root fetch - processPackages [gammarers.aws-secure-log-bucket]: New version: [1.7.0] Old Version: [1.6.6]
+[2024-05-28 06:31:35] INFO root fetch - processPackages [daalab]: Downloading https://files.pythonhosted.org/packages/07/fb/c306d62e806f6aaaaa7486862f853bdc73b161fc81473769f4a7ab93c190/daalab-1.3.tar.gz
+[2024-05-28 06:31:35] INFO root fetch - processPackages [gammarers.aws-secure-log-bucket]: Downloading https://files.pythonhosted.org/packages/b9/65/68cfdd58e277e033eb4202673c8cdcc6f2452fb2521168a4e31a163b028a/gammarers.aws-secure-log-bucket-1.6.6.tar.gz
+[2024-05-28 06:31:35] INFO root fetch - processPackages [daalab]: Downloading https://files.pythonhosted.org/packages/37/28/a444ea34d5298bfeb426cd6de01bf0fed653a345568170f7f646cf97296e/daalab-1.4.tar.gz
+[2024-05-28 06:31:35] INFO root fetch - processPackages [gammarers.aws-secure-log-bucket]: Downloading https://files.pythonhosted.org/packages/6f/5d/daea012ed627951adcf2a7972246d45d7d6af6fad7dfae357afa1eb49f67/gammarers.aws-secure-log-bucket-1.7.0.tar.gz
+[2024-05-28 06:31:35] INFO root fetch - processPackages [daalab]: executing diffoscope
+[2024-05-28 06:31:35] INFO root fetch - processPackages [daalab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daalab-1.3.tar.gz tmp/daalab-1.4.tar.gz --markdown 20240528/d/daalab/1.3-1.4/README.md --exclude *.pyd
+[2024-05-28 06:31:35] INFO root fetch - processPackages [gammarers.aws-secure-log-bucket]: executing diffoscope
+[2024-05-28 06:31:35] INFO root fetch - processPackages [gammarers.aws-secure-log-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarers.aws-secure-log-bucket-1.6.6.tar.gz tmp/gammarers.aws-secure-log-bucket-1.7.0.tar.gz --markdown 20240528/g/gammarers.aws-secure-log-bucket/1.6.6-1.7.0/README.md --exclude *.pyd
+[2024-05-28 06:31:36] INFO root fetch - processPackages [daalab]: Remove: archive file [/home/abi/fetcher/tmp/daalab-1.3.tar.gz]
+[2024-05-28 06:31:36] INFO root fetch - processPackages [daalab]: Remove: archive file [/home/abi/fetcher/tmp/daalab-1.4.tar.gz]
+[2024-05-28 06:31:36] INFO root fetch - main [MainThread]: End processing [daalab]: success
+[2024-05-28 06:31:36] INFO root fetch - processPackages [gammarers.aws-secure-log-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarers.aws-secure-log-bucket-1.6.6.tar.gz]
+[2024-05-28 06:31:36] INFO root fetch - processPackages [gammarers.aws-secure-log-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarers.aws-secure-log-bucket-1.7.0.tar.gz]
+[2024-05-28 06:31:36] INFO root fetch - main [MainThread]: End processing [gammarers.aws-secure-log-bucket]: success
+[2024-05-28 06:31:36] INFO root fetch - main [MainThread]: Store serial: [23405073]
