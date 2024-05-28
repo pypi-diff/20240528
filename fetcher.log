@@ -5090,3 +5090,33 @@
 [2024-05-28 05:45:52] INFO root fetch - processPackages [transstellar-antd]: Remove: archive file [/home/abi/fetcher/tmp/transstellar_antd-0.9.0.tar.gz]
 [2024-05-28 05:45:52] INFO root fetch - main [MainThread]: End processing [transstellar-antd]: success
 [2024-05-28 05:45:52] INFO root fetch - main [MainThread]: Store serial: [23404840]
+[2024-05-28 05:47:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23404840]
+[2024-05-28 05:48:00] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-28 05:48:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pms-encoder
+[2024-05-28 05:48:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: octoflow
+[2024-05-28 05:48:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: snowcross
+[2024-05-28 05:48:00] INFO root fetch - processPackages [pms-encoder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-28 05:48:00] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/80/f1/88f2f54188c15bf6cca5ba7a3a347b8d1c83b15a626f541acf3dde5aa63d/pms_encoder-0.0.8.tar.gz
+[2024-05-28 05:48:00] INFO root fetch - processPackages [snowcross]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-05-28 05:48:00] INFO root fetch - processPackages [octoflow]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-28 05:48:01] INFO root fetch - processPackages [octoflow]: Downloading https://files.pythonhosted.org/packages/73/7c/b4f1c87ef0712662f18e84aa755e03e279cf39a0ed4d6b5f6bf487732535/octoflow-0.1.1.tar.gz
+[2024-05-28 05:48:01] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/93/31/8bb081756db42925fab6507b6e0f497d6bf45acd407ff38cb00f2aaec54c/pms_encoder-0.0.9.tar.gz
+[2024-05-28 05:48:01] INFO root fetch - processPackages [snowcross]: Downloading https://files.pythonhosted.org/packages/01/e7/d239798f4b2c791eb2bc7fbcb9befd5b6f4135aadfcb245716b072889b51/snowcross-0.4.0.tar.gz
+[2024-05-28 05:48:01] INFO root fetch - processPackages [pms-encoder]: executing diffoscope
+[2024-05-28 05:48:01] INFO root fetch - processPackages [pms-encoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pms_encoder-0.0.8.tar.gz tmp/pms_encoder-0.0.9.tar.gz --markdown 20240528/p/pms-encoder/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-28 05:48:01] INFO root fetch - processPackages [octoflow]: Downloading https://files.pythonhosted.org/packages/66/e1/afd30c22af1562a0c5c92be6b3eb966ee3e0de7ab68fafa395590d216db8/octoflow-0.1.2.tar.gz
+[2024-05-28 05:48:01] INFO root fetch - processPackages [snowcross]: Downloading https://files.pythonhosted.org/packages/00/bb/f9ef6dac9312c9b95a50d8ed480f296ad221433bb442c1084693f7278c14/snowcross-0.5.0.tar.gz
+[2024-05-28 05:48:01] INFO root fetch - processPackages [octoflow]: executing diffoscope
+[2024-05-28 05:48:01] INFO root fetch - processPackages [octoflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/octoflow-0.1.1.tar.gz tmp/octoflow-0.1.2.tar.gz --markdown 20240528/o/octoflow/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-28 05:48:01] INFO root fetch - processPackages [snowcross]: executing diffoscope
+[2024-05-28 05:48:01] INFO root fetch - processPackages [snowcross]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowcross-0.4.0.tar.gz tmp/snowcross-0.5.0.tar.gz --markdown 20240528/s/snowcross/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-05-28 05:48:01] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.8.tar.gz]
+[2024-05-28 05:48:01] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.9.tar.gz]
+[2024-05-28 05:48:01] INFO root fetch - main [MainThread]: End processing [pms-encoder]: success
+[2024-05-28 05:48:02] INFO root fetch - processPackages [octoflow]: Remove: archive file [/home/abi/fetcher/tmp/octoflow-0.1.1.tar.gz]
+[2024-05-28 05:48:02] INFO root fetch - processPackages [octoflow]: Remove: archive file [/home/abi/fetcher/tmp/octoflow-0.1.2.tar.gz]
+[2024-05-28 05:48:02] INFO root fetch - main [MainThread]: End processing [octoflow]: success
+[2024-05-28 05:48:02] INFO root fetch - processPackages [snowcross]: Remove: archive file [/home/abi/fetcher/tmp/snowcross-0.4.0.tar.gz]
+[2024-05-28 05:48:02] INFO root fetch - processPackages [snowcross]: Remove: archive file [/home/abi/fetcher/tmp/snowcross-0.5.0.tar.gz]
+[2024-05-28 05:48:02] INFO root fetch - main [MainThread]: End processing [snowcross]: success
+[2024-05-28 05:48:02] INFO root fetch - main [MainThread]: Store serial: [23404852]
