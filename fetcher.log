@@ -20581,3 +20581,151 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 15:23:36] INFO root fetch - processPackages [ocf-datapipes]: Remove: archive file [/home/abi/fetcher/tmp/ocf_datapipes-3.3.9.tar.gz]
 [2024-05-28 15:23:36] INFO root fetch - main [MainThread]: End processing [ocf-datapipes]: success
 [2024-05-28 15:23:36] INFO root fetch - main [MainThread]: Store serial: [23411824]
+[2024-05-28 15:25:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23411824]
+[2024-05-28 15:25:45] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2024-05-28 15:25:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bec-ipython-client
+[2024-05-28 15:25:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bec-lib
+[2024-05-28 15:25:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bec-server
+[2024-05-28 15:25:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytest-bec-e2e
+[2024-05-28 15:25:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: projen
+[2024-05-28 15:25:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: geo-inference
+[2024-05-28 15:25:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: drf-audit-trail
+[2024-05-28 15:25:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ipymario
+[2024-05-28 15:25:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nonebot-plugin-antimonkey
+[2024-05-28 15:25:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lightquakevisualizer
+[2024-05-28 15:25:45] INFO root fetch - processPackages [bec-ipython-client]: New version: [2.9.6] Old Version: [2.9.5]
+[2024-05-28 15:25:46] INFO root fetch - processPackages [drf-audit-trail]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-28 15:25:46] INFO root fetch - processPackages [projen]: New version: [0.82.0] Old Version: [0.81.9]
+[2024-05-28 15:25:46] INFO root fetch - processPackages [pytest-bec-e2e]: New version: [2.9.6] Old Version: [2.9.5]
+[2024-05-28 15:25:46] INFO root fetch - processPackages [bec-ipython-client]: Downloading https://files.pythonhosted.org/packages/42/2a/dcf7efb78da250ad0ac30ed1bb83ea66d2277294db43860c65b3d4015fd9/bec_ipython_client-2.9.5.tar.gz
+[2024-05-28 15:25:46] INFO root fetch - processPackages [geo-inference]: New version: [2.0.4] Old Version: [2.0.3]
+[2024-05-28 15:25:46] INFO root fetch - processPackages [nonebot-plugin-antimonkey]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-28 15:25:46] INFO root fetch - processPackages [ipymario]: New version: [0.1.0] Old Version: [0.0.0]
+[2024-05-28 15:25:46] INFO root fetch - processPackages [lightquakevisualizer]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-28 15:25:46] INFO root fetch - processPackages [drf-audit-trail]: Downloading https://files.pythonhosted.org/packages/09/28/f3abcbac4f9a879e58646d086438f1459d120031bfeb23dcc77be2fe0d65/drf_audit_trail-0.1.5.tar.gz
+[2024-05-28 15:25:46] INFO root fetch - processPackages [bec-server]: New version: [2.9.6] Old Version: [2.9.5]
+[2024-05-28 15:25:46] INFO root fetch - processPackages [bec-lib]: New version: [2.9.6] Old Version: [2.9.5]
+[2024-05-28 15:25:46] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/a4/bd/42ccbdcec141a68fd1ef11c16c2ec702d07f65b9a004736eba33473e8cdd/projen-0.81.9.tar.gz
+[2024-05-28 15:25:46] INFO root fetch - processPackages [pytest-bec-e2e]: Downloading https://files.pythonhosted.org/packages/32/25/26221a302c5d813470abbed9e469573445b2d6223cb10d5e831a1c2edcbc/pytest_bec_e2e-2.9.5.tar.gz
+[2024-05-28 15:25:46] INFO root fetch - processPackages [geo-inference]: Downloading https://files.pythonhosted.org/packages/1c/dc/feabb5ab3e1741b7db2c0596aa67bb78d9d30f519de27d314ab39ae56a8f/geo_inference-2.0.3.tar.gz
+[2024-05-28 15:25:46] INFO root fetch - processPackages [bec-ipython-client]: Downloading https://files.pythonhosted.org/packages/13/80/aec73bca57d40003e967ae6f6ee26ab8daed9452221ca1f19dc73ff620dd/bec_ipython_client-2.9.6.tar.gz
+[2024-05-28 15:25:46] INFO root fetch - processPackages [bec-lib]: Downloading https://files.pythonhosted.org/packages/1c/28/ac66835e54a2a219bb2fcab250ebe5175556448adfd9731171c446d39b8a/bec_lib-2.9.5.tar.gz
+[2024-05-28 15:25:46] INFO root fetch - processPackages [nonebot-plugin-antimonkey]: Downloading https://files.pythonhosted.org/packages/6e/ce/f724e047fadd262499b7f82fcffd18556d6da09b603e563b738dc7fbab90/nonebot_plugin_antimonkey-1.1.0.tar.gz
+[2024-05-28 15:25:46] INFO root fetch - processPackages [ipymario]: Downloading https://files.pythonhosted.org/packages/5f/9e/1e54461da4b729a168eea308e6589244ac6d3522631ed2a777ef63cbb282/ipymario-0.0.0.tar.gz
+[2024-05-28 15:25:46] INFO root fetch - processPackages [lightquakevisualizer]: Downloading https://files.pythonhosted.org/packages/bd/34/846d4a3eeee0273906d0e28b181aee2d3c8d5c3d19b36cf09df0133ffe03/lightquakevisualizer-0.0.3.tar.gz
+[2024-05-28 15:25:46] INFO root fetch - processPackages [bec-server]: Downloading https://files.pythonhosted.org/packages/5c/a6/47395050d9ef43b8ac69afbd19752c840a326d130902d672b143eb1b2011/bec_server-2.9.5.tar.gz
+[2024-05-28 15:25:46] INFO root fetch - processPackages [drf-audit-trail]: Downloading https://files.pythonhosted.org/packages/3c/96/b9259d4aa2ca4bd37988edcf78283011547ec6f65cdda017fb5f2bace81d/drf_audit_trail-0.1.6.tar.gz
+[2024-05-28 15:25:46] INFO root fetch - processPackages [bec-ipython-client]: executing diffoscope
+[2024-05-28 15:25:46] INFO root fetch - processPackages [bec-ipython-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_ipython_client-2.9.5.tar.gz tmp/bec_ipython_client-2.9.6.tar.gz --markdown 20240528/b/bec-ipython-client/2.9.5-2.9.6/README.md --exclude *.pyd
+[2024-05-28 15:25:46] INFO root fetch - processPackages [pytest-bec-e2e]: Downloading https://files.pythonhosted.org/packages/52/58/6a01c0215232031def0ac36fe0432d3a9980bab8829664847cd95bfcd44e/pytest_bec_e2e-2.9.6.tar.gz
+[2024-05-28 15:25:46] INFO root fetch - processPackages [drf-audit-trail]: executing diffoscope
+[2024-05-28 15:25:46] INFO root fetch - processPackages [drf-audit-trail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf_audit_trail-0.1.5.tar.gz tmp/drf_audit_trail-0.1.6.tar.gz --markdown 20240528/d/drf-audit-trail/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-28 15:25:46] INFO root fetch - processPackages [geo-inference]: Downloading https://files.pythonhosted.org/packages/53/54/b0c260f59bf4ae1622b46a9cdf7befc3e128b4d311b47a53b237a77c0f5a/geo_inference-2.0.4.tar.gz
+[2024-05-28 15:25:46] INFO root fetch - processPackages [pytest-bec-e2e]: executing diffoscope
+[2024-05-28 15:25:46] INFO root fetch - processPackages [pytest-bec-e2e]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_bec_e2e-2.9.5.tar.gz tmp/pytest_bec_e2e-2.9.6.tar.gz --markdown 20240528/p/pytest-bec-e2e/2.9.5-2.9.6/README.md --exclude *.pyd
+[2024-05-28 15:25:46] INFO root fetch - processPackages [bec-lib]: Downloading https://files.pythonhosted.org/packages/4d/a2/f0700429367390986fd99050f855b29188048689afabf13076cd77bb4598/bec_lib-2.9.6.tar.gz
+[2024-05-28 15:25:46] INFO root fetch - processPackages [ipymario]: Downloading https://files.pythonhosted.org/packages/45/3e/8b6f662d06816af2cc2a43025d4d87a3e22908906c9664dfa5188793f97b/ipymario-0.1.0.tar.gz
+[2024-05-28 15:25:46] INFO root fetch - processPackages [lightquakevisualizer]: Downloading https://files.pythonhosted.org/packages/0c/53/88416ae5ae82ef87565499a1ce5184d8fab065e5a05dd9fd5ee7d99f44b9/lightquakevisualizer-0.0.4.tar.gz
+[2024-05-28 15:25:46] INFO root fetch - processPackages [nonebot-plugin-antimonkey]: Downloading https://files.pythonhosted.org/packages/c2/7f/308ea917f0a485f828fe6c991a4b9bbe8b4e4dce187a6344d87b8b0dc163/nonebot_plugin_antimonkey-1.1.1.tar.gz
+[2024-05-28 15:25:46] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/44/c7/4acb6ff5547e1efaf5f51bf28b040a270053a0c665e1b45cc43ebb888a97/projen-0.82.0.tar.gz
+[2024-05-28 15:25:46] INFO root fetch - processPackages [geo-inference]: executing diffoscope
+[2024-05-28 15:25:46] INFO root fetch - processPackages [geo-inference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geo_inference-2.0.3.tar.gz tmp/geo_inference-2.0.4.tar.gz --markdown 20240528/g/geo-inference/2.0.3-2.0.4/README.md --exclude *.pyd
+[2024-05-28 15:25:46] INFO root fetch - processPackages [bec-server]: Downloading https://files.pythonhosted.org/packages/33/b7/3b469dec2efe5a33d7abfab6b9c31025e32485e7a9d400424e12cd0fd084/bec_server-2.9.6.tar.gz
+[2024-05-28 15:25:47] INFO root fetch - processPackages [ipymario]: executing diffoscope
+[2024-05-28 15:25:47] INFO root fetch - processPackages [ipymario]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipymario-0.0.0.tar.gz tmp/ipymario-0.1.0.tar.gz --markdown 20240528/i/ipymario/0.0.0-0.1.0/README.md --exclude *.pyd
+[2024-05-28 15:25:47] INFO root fetch - processPackages [lightquakevisualizer]: executing diffoscope
+[2024-05-28 15:25:47] INFO root fetch - processPackages [lightquakevisualizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightquakevisualizer-0.0.3.tar.gz tmp/lightquakevisualizer-0.0.4.tar.gz --markdown 20240528/l/lightquakevisualizer/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-28 15:25:47] INFO root fetch - processPackages [bec-lib]: executing diffoscope
+[2024-05-28 15:25:47] INFO root fetch - processPackages [bec-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_lib-2.9.5.tar.gz tmp/bec_lib-2.9.6.tar.gz --markdown 20240528/b/bec-lib/2.9.5-2.9.6/README.md --exclude *.pyd
+[2024-05-28 15:25:47] INFO root fetch - processPackages [nonebot-plugin-antimonkey]: executing diffoscope
+[2024-05-28 15:25:47] INFO root fetch - processPackages [nonebot-plugin-antimonkey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_antimonkey-1.1.0.tar.gz tmp/nonebot_plugin_antimonkey-1.1.1.tar.gz --markdown 20240528/n/nonebot-plugin-antimonkey/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-28 15:25:47] INFO root fetch - processPackages [bec-server]: executing diffoscope
+[2024-05-28 15:25:47] INFO root fetch - processPackages [bec-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_server-2.9.5.tar.gz tmp/bec_server-2.9.6.tar.gz --markdown 20240528/b/bec-server/2.9.5-2.9.6/README.md --exclude *.pyd
+[2024-05-28 15:25:47] INFO root fetch - processPackages [projen]: executing diffoscope
+[2024-05-28 15:25:47] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.81.9.tar.gz tmp/projen-0.82.0.tar.gz --markdown 20240528/p/projen/0.81.9-0.82.0/README.md --exclude *.pyd
+[2024-05-28 15:25:47] INFO root fetch - processPackages [bec-ipython-client]: Remove: archive file [/home/abi/fetcher/tmp/bec_ipython_client-2.9.5.tar.gz]
+[2024-05-28 15:25:47] INFO root fetch - processPackages [bec-ipython-client]: Remove: archive file [/home/abi/fetcher/tmp/bec_ipython_client-2.9.6.tar.gz]
+[2024-05-28 15:25:47] INFO root fetch - processPackages [bec-ipython-client]: Start processing: udata-front
+[2024-05-28 15:25:47] INFO root fetch - main [MainThread]: End processing [bec-ipython-client]: success
+[2024-05-28 15:25:47] INFO root fetch - processPackages [udata-front]: New version: [4.0.3.dev20249] Old Version: [4.0.3.dev20224]
+[2024-05-28 15:25:47] INFO root fetch - processPackages [pytest-bec-e2e]: Remove: archive file [/home/abi/fetcher/tmp/pytest_bec_e2e-2.9.5.tar.gz]
+[2024-05-28 15:25:47] INFO root fetch - processPackages [pytest-bec-e2e]: Remove: archive file [/home/abi/fetcher/tmp/pytest_bec_e2e-2.9.6.tar.gz]
+[2024-05-28 15:25:47] INFO root fetch - processPackages [pytest-bec-e2e]: Start processing: aws-codeseeder
+[2024-05-28 15:25:47] INFO root fetch - main [MainThread]: End processing [pytest-bec-e2e]: success
+[2024-05-28 15:25:47] INFO root fetch - processPackages [drf-audit-trail]: Remove: archive file [/home/abi/fetcher/tmp/drf_audit_trail-0.1.5.tar.gz]
+[2024-05-28 15:25:47] INFO root fetch - processPackages [drf-audit-trail]: Remove: archive file [/home/abi/fetcher/tmp/drf_audit_trail-0.1.6.tar.gz]
+[2024-05-28 15:25:47] INFO root fetch - processPackages [drf-audit-trail]: Start processing: drf-audit-trail
+[2024-05-28 15:25:47] INFO root fetch - main [MainThread]: End processing [drf-audit-trail]: success
+[2024-05-28 15:25:47] INFO root fetch - processPackages [drf-audit-trail]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-28 15:25:47] INFO root fetch - processPackages [aws-codeseeder]: New version: [1.0.0rc0] Old Version: [1.0.0]
+[2024-05-28 15:25:47] INFO root fetch - processPackages [ipymario]: Remove: archive file [/home/abi/fetcher/tmp/ipymario-0.0.0.tar.gz]
+[2024-05-28 15:25:47] INFO root fetch - processPackages [ipymario]: Remove: archive file [/home/abi/fetcher/tmp/ipymario-0.1.0.tar.gz]
+[2024-05-28 15:25:47] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/af/4e/aca2401a5ff71f7c880b653bc1e0442333f8a362f94e9fbff732211e9f28/udata_front-4.0.3.dev20224-py2.py3-none-any.whl
+[2024-05-28 15:25:47] INFO root fetch - processPackages [ipymario]: Start processing: poppy-core
+[2024-05-28 15:25:47] INFO root fetch - main [MainThread]: End processing [ipymario]: success
+[2024-05-28 15:25:47] WARNING root fetch - processPackages [udata-front]: Skipping package: exceeds size limit 10488384>=10485760
+[2024-05-28 15:25:47] INFO root fetch - processPackages [udata-front]: Start processing: shmessy
+[2024-05-28 15:25:47] INFO root fetch - main [MainThread]: End processing [udata-front] error
+[2024-05-28 15:25:47] INFO root fetch - processPackages [drf-audit-trail]: Downloading https://files.pythonhosted.org/packages/58/0a/69d8bfbe6394df3c618e5636e0f1546ce54797a9159c2e1a19b3a4faf11b/drf_audit_trail-0.1.7.tar.gz
+[2024-05-28 15:25:47] INFO root fetch - processPackages [nonebot-plugin-antimonkey]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_antimonkey-1.1.0.tar.gz]
+[2024-05-28 15:25:47] INFO root fetch - processPackages [nonebot-plugin-antimonkey]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_antimonkey-1.1.1.tar.gz]
+[2024-05-28 15:25:47] INFO root fetch - processPackages [nonebot-plugin-antimonkey]: Start processing: datasphere
+[2024-05-28 15:25:47] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-antimonkey]: success
+[2024-05-28 15:25:47] INFO root fetch - processPackages [aws-codeseeder]: Downloading https://files.pythonhosted.org/packages/2a/21/a9c642ef7b4751f27d81cdc5656cd9207009930af2bfd4e6e4e8443ac747/aws_codeseeder-1.0.0-py3-none-any.whl
+[2024-05-28 15:25:47] INFO root fetch - processPackages [lightquakevisualizer]: Remove: archive file [/home/abi/fetcher/tmp/lightquakevisualizer-0.0.3.tar.gz]
+[2024-05-28 15:25:47] INFO root fetch - processPackages [lightquakevisualizer]: Remove: archive file [/home/abi/fetcher/tmp/lightquakevisualizer-0.0.4.tar.gz]
+[2024-05-28 15:25:47] INFO root fetch - processPackages [lightquakevisualizer]: Start processing: udata-front
+[2024-05-28 15:25:47] INFO root fetch - main [MainThread]: End processing [lightquakevisualizer]: success
+[2024-05-28 15:25:47] INFO root fetch - processPackages [geo-inference]: Remove: archive file [/home/abi/fetcher/tmp/geo_inference-2.0.3.tar.gz]
+[2024-05-28 15:25:47] INFO root fetch - processPackages [geo-inference]: Remove: archive file [/home/abi/fetcher/tmp/geo_inference-2.0.4.tar.gz]
+[2024-05-28 15:25:47] INFO root fetch - main [MainThread]: End processing [geo-inference]: success
+[2024-05-28 15:25:47] INFO root fetch - processPackages [poppy-core]: New version: [0.11.5] Old Version: [0.11.4]
+[2024-05-28 15:25:48] INFO root fetch - processPackages [udata-front]: New version: [4.0.4.dev20316] Old Version: [4.0.3.dev20249]
+[2024-05-28 15:25:48] INFO root fetch - processPackages [shmessy]: New version: [1.3.7] Old Version: [1.3.6]
+[2024-05-28 15:25:48] INFO root fetch - processPackages [datasphere]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-05-28 15:25:48] INFO root fetch - processPackages [poppy-core]: Downloading https://files.pythonhosted.org/packages/71/69/0277ec3184dd3e35114d5ffd9fc9d0c7e4ac856a495b78faa964265c4edb/poppy-core-0.11.4.tar.gz
+[2024-05-28 15:25:48] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/0e/f9/0d355b49f84d032fa5919dc06abe9b310ebdfba449bf1f0207215af8e4a7/udata_front-4.0.3.dev20249-py2.py3-none-any.whl
+[2024-05-28 15:25:48] INFO root fetch - processPackages [drf-audit-trail]: Downloading https://files.pythonhosted.org/packages/19/a3/7fcc731515c76b066e11557c7eaf91ba6b2ad14515ea839af7d378891b10/drf_audit_trail-0.1.8.tar.gz
+[2024-05-28 15:25:48] INFO root fetch - processPackages [bec-server]: Remove: archive file [/home/abi/fetcher/tmp/bec_server-2.9.5.tar.gz]
+[2024-05-28 15:25:48] INFO root fetch - processPackages [bec-server]: Remove: archive file [/home/abi/fetcher/tmp/bec_server-2.9.6.tar.gz]
+[2024-05-28 15:25:48] INFO root fetch - main [MainThread]: End processing [bec-server]: success
+[2024-05-28 15:25:48] INFO root fetch - processPackages [bec-lib]: Remove: archive file [/home/abi/fetcher/tmp/bec_lib-2.9.5.tar.gz]
+[2024-05-28 15:25:48] INFO root fetch - processPackages [bec-lib]: Remove: archive file [/home/abi/fetcher/tmp/bec_lib-2.9.6.tar.gz]
+[2024-05-28 15:25:48] INFO root fetch - main [MainThread]: End processing [bec-lib]: success
+[2024-05-28 15:25:48] INFO root fetch - processPackages [shmessy]: Downloading https://files.pythonhosted.org/packages/61/5d/83328a71155ec01bc2a5b8506a89b8560d25215f0811babf259ec0f71b2f/shmessy-1.3.6.tar.gz
+[2024-05-28 15:25:48] INFO root fetch - processPackages [datasphere]: Downloading https://files.pythonhosted.org/packages/10/a5/3c02f1b5901d00d9b92a1e58721fb39141d020b316c017a0a94715074edc/datasphere-0.7.1.tar.gz
+[2024-05-28 15:25:48] INFO root fetch - processPackages [aws-codeseeder]: Downloading https://files.pythonhosted.org/packages/6b/8b/0885bdf2baaef27a6c66571ad136e1bc1626aa09105906f7e492492b1182/aws_codeseeder-1.0.0rc0-py3-none-any.whl
+[2024-05-28 15:25:48] WARNING root fetch - processPackages [udata-front]: Skipping package: exceeds size limit 10490520>=10485760
+[2024-05-28 15:25:48] INFO root fetch - main [MainThread]: End processing [udata-front] error
+[2024-05-28 15:25:48] INFO root fetch - processPackages [drf-audit-trail]: executing diffoscope
+[2024-05-28 15:25:48] INFO root fetch - processPackages [drf-audit-trail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf_audit_trail-0.1.7.tar.gz tmp/drf_audit_trail-0.1.8.tar.gz --markdown 20240528/d/drf-audit-trail/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-28 15:25:48] INFO root fetch - processPackages [aws-codeseeder]: executing diffoscope
+[2024-05-28 15:25:48] INFO root fetch - processPackages [aws-codeseeder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_codeseeder-1.0.0-py3-none-any.whl.zip tmp/aws_codeseeder-1.0.0rc0-py3-none-any.whl.zip --markdown 20240528/a/aws-codeseeder/1.0.0-1.0.0rc0/README.md --exclude *.pyd
+[2024-05-28 15:25:48] INFO root fetch - processPackages [poppy-core]: Downloading https://files.pythonhosted.org/packages/c9/af/ed615a99b0ad54a6ff8b76ac3aeb85a415107bb30b26c4a5f4f227d620d5/poppy_core-0.11.5.tar.gz
+[2024-05-28 15:25:48] INFO root fetch - processPackages [datasphere]: Downloading https://files.pythonhosted.org/packages/1f/f8/48c88d75a10b9ee032794c721a129538ac50004ab632675fdd404b380137/datasphere-0.7.2.tar.gz
+[2024-05-28 15:25:48] INFO root fetch - processPackages [shmessy]: Downloading https://files.pythonhosted.org/packages/ce/e4/7a758a858a8d8331ff77ff5d496ae41ba66b9ca222e48b2b00737bc39a29/shmessy-1.3.7.tar.gz
+[2024-05-28 15:25:48] INFO root fetch - processPackages [poppy-core]: executing diffoscope
+[2024-05-28 15:25:48] INFO root fetch - processPackages [poppy-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poppy-core-0.11.4.tar.gz tmp/poppy_core-0.11.5.tar.gz --markdown 20240528/p/poppy-core/0.11.4-0.11.5/README.md --exclude *.pyd
+[2024-05-28 15:25:48] INFO root fetch - processPackages [shmessy]: executing diffoscope
+[2024-05-28 15:25:48] INFO root fetch - processPackages [shmessy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shmessy-1.3.6.tar.gz tmp/shmessy-1.3.7.tar.gz --markdown 20240528/s/shmessy/1.3.6-1.3.7/README.md --exclude *.pyd
+[2024-05-28 15:25:48] INFO root fetch - processPackages [datasphere]: executing diffoscope
+[2024-05-28 15:25:48] INFO root fetch - processPackages [datasphere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasphere-0.7.1.tar.gz tmp/datasphere-0.7.2.tar.gz --markdown 20240528/d/datasphere/0.7.1-0.7.2/README.md --exclude *.pyd
+[2024-05-28 15:25:49] INFO root fetch - processPackages [drf-audit-trail]: Remove: archive file [/home/abi/fetcher/tmp/drf_audit_trail-0.1.7.tar.gz]
+[2024-05-28 15:25:49] INFO root fetch - processPackages [drf-audit-trail]: Remove: archive file [/home/abi/fetcher/tmp/drf_audit_trail-0.1.8.tar.gz]
+[2024-05-28 15:25:49] INFO root fetch - main [MainThread]: End processing [drf-audit-trail]: success
+[2024-05-28 15:25:49] INFO root fetch - processPackages [aws-codeseeder]: Remove: archive file [/home/abi/fetcher/tmp/aws_codeseeder-1.0.0-py3-none-any.whl.zip]
+[2024-05-28 15:25:49] INFO root fetch - processPackages [aws-codeseeder]: Remove: archive file [/home/abi/fetcher/tmp/aws_codeseeder-1.0.0rc0-py3-none-any.whl.zip]
+[2024-05-28 15:25:49] INFO root fetch - main [MainThread]: End processing [aws-codeseeder]: success
+[2024-05-28 15:25:49] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.81.9.tar.gz]
+[2024-05-28 15:25:49] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.82.0.tar.gz]
+[2024-05-28 15:25:49] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2024-05-28 15:25:49] INFO root fetch - processPackages [shmessy]: Remove: archive file [/home/abi/fetcher/tmp/shmessy-1.3.6.tar.gz]
+[2024-05-28 15:25:49] INFO root fetch - processPackages [shmessy]: Remove: archive file [/home/abi/fetcher/tmp/shmessy-1.3.7.tar.gz]
+[2024-05-28 15:25:49] INFO root fetch - main [MainThread]: End processing [shmessy]: success
+[2024-05-28 15:25:49] INFO root fetch - processPackages [poppy-core]: Remove: archive file [/home/abi/fetcher/tmp/poppy-core-0.11.4.tar.gz]
+[2024-05-28 15:25:49] INFO root fetch - processPackages [poppy-core]: Remove: archive file [/home/abi/fetcher/tmp/poppy_core-0.11.5.tar.gz]
+[2024-05-28 15:25:49] INFO root fetch - main [MainThread]: End processing [poppy-core]: success
+[2024-05-28 15:25:52] INFO root fetch - processPackages [datasphere]: Remove: archive file [/home/abi/fetcher/tmp/datasphere-0.7.1.tar.gz]
+[2024-05-28 15:25:52] INFO root fetch - processPackages [datasphere]: Remove: archive file [/home/abi/fetcher/tmp/datasphere-0.7.2.tar.gz]
+[2024-05-28 15:25:52] INFO root fetch - main [MainThread]: End processing [datasphere]: success
+[2024-05-28 15:25:52] INFO root fetch - main [MainThread]: Store serial: [23411873]
