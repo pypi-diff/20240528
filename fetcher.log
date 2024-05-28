@@ -7087,3 +7087,42 @@
 [2024-05-28 08:00:33] INFO root fetch - processPackages [pytuflow]: Remove: archive file [/home/abi/fetcher/tmp/pytuflow-0.0.9.tar.gz]
 [2024-05-28 08:00:33] INFO root fetch - main [MainThread]: End processing [pytuflow]: success
 [2024-05-28 08:00:33] INFO root fetch - main [MainThread]: Store serial: [23405697]
+[2024-05-28 08:02:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23405697]
+[2024-05-28 08:02:42] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-28 08:02:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apex-flow
+[2024-05-28 08:02:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bbot
+[2024-05-28 08:02:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Fr1997v011
+[2024-05-28 08:02:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyminerva
+[2024-05-28 08:02:42] INFO root fetch - processPackages [pyminerva]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-28 08:02:42] INFO root fetch - processPackages [bbot]: New version: [1.1.8.3354rc0] Old Version: [1.1.8.3350rc0]
+[2024-05-28 08:02:42] INFO root fetch - processPackages [Fr1997v011]: New version: [1.6.5] Old Version: [1.6.3]
+[2024-05-28 08:02:42] INFO root fetch - processPackages [pyminerva]: Downloading https://files.pythonhosted.org/packages/71/85/01e8f26ee3130cf86f9e4b898bf1c77b6edaa3ff18d78ab72ab3042c1c41/pyminerva-0.0.98.tar.gz
+[2024-05-28 08:02:42] INFO root fetch - processPackages [apex-flow]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-05-28 08:02:42] INFO root fetch - processPackages [bbot]: Downloading https://files.pythonhosted.org/packages/3f/b4/7c9f3d52c722acf5ab0e4f8bb969a05887370f377030ba9601f620625bbb/bbot-1.1.8.3350rc0.tar.gz
+[2024-05-28 08:02:42] INFO root fetch - processPackages [Fr1997v011]: Downloading https://files.pythonhosted.org/packages/46/82/8bf316ed1b6a26467979548625b5a498cd20517adedd8b229fe4087697af/Fr1997v011-1.6.3.tar.gz
+[2024-05-28 08:02:42] INFO root fetch - processPackages [apex-flow]: Downloading https://files.pythonhosted.org/packages/aa/e7/1013c5892a29632c90418cfc8bd36d6a9e4ee7b50da7f497018ab88e07b1/apex_flow-1.2.1.tar.gz
+[2024-05-28 08:02:42] INFO root fetch - processPackages [pyminerva]: Downloading https://files.pythonhosted.org/packages/30/9b/396cf38441ad3c8ce48c213fff676d95f1f3f4feeb1b7dc8824277fe413e/pyminerva-0.0.99.tar.gz
+[2024-05-28 08:02:43] INFO root fetch - processPackages [bbot]: Downloading https://files.pythonhosted.org/packages/ff/c1/bb2febab6c3df245561823b7856c2eb2b1c96bd7a5c79ce80234e2764fae/bbot-1.1.8.3354rc0.tar.gz
+[2024-05-28 08:02:43] INFO root fetch - processPackages [Fr1997v011]: Downloading https://files.pythonhosted.org/packages/45/9d/98782dfe772a9954222301761c1e0601152f6e9f3e78370e580b11ac452b/Fr1997v011-1.6.5.tar.gz
+[2024-05-28 08:02:43] INFO root fetch - processPackages [pyminerva]: executing diffoscope
+[2024-05-28 08:02:43] INFO root fetch - processPackages [pyminerva]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyminerva-0.0.98.tar.gz tmp/pyminerva-0.0.99.tar.gz --markdown 20240528/p/pyminerva/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-28 08:02:43] INFO root fetch - processPackages [apex-flow]: Downloading https://files.pythonhosted.org/packages/e8/6d/2c7d1ddb7c7378566595dc3b5ebf8c2ac45d6e98f05fe3dea27a83c03931/apex_flow-1.2.2.tar.gz
+[2024-05-28 08:02:43] INFO root fetch - processPackages [Fr1997v011]: executing diffoscope
+[2024-05-28 08:02:43] INFO root fetch - processPackages [Fr1997v011]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Fr1997v011-1.6.3.tar.gz tmp/Fr1997v011-1.6.5.tar.gz --markdown 20240528/F/Fr1997v011/1.6.3-1.6.5/README.md --exclude *.pyd
+[2024-05-28 08:02:43] INFO root fetch - processPackages [apex-flow]: executing diffoscope
+[2024-05-28 08:02:43] INFO root fetch - processPackages [apex-flow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apex_flow-1.2.1.tar.gz tmp/apex_flow-1.2.2.tar.gz --markdown 20240528/a/apex-flow/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-05-28 08:02:43] INFO root fetch - processPackages [bbot]: executing diffoscope
+[2024-05-28 08:02:43] INFO root fetch - processPackages [bbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbot-1.1.8.3350rc0.tar.gz tmp/bbot-1.1.8.3354rc0.tar.gz --markdown 20240528/b/bbot/1.1.8.3350rc0-1.1.8.3354rc0/README.md --exclude *.pyd
+[2024-05-28 08:02:43] INFO root fetch - processPackages [pyminerva]: Remove: archive file [/home/abi/fetcher/tmp/pyminerva-0.0.98.tar.gz]
+[2024-05-28 08:02:43] INFO root fetch - processPackages [pyminerva]: Remove: archive file [/home/abi/fetcher/tmp/pyminerva-0.0.99.tar.gz]
+[2024-05-28 08:02:43] INFO root fetch - main [MainThread]: End processing [pyminerva]: success
+[2024-05-28 08:02:43] INFO root fetch - processPackages [Fr1997v011]: Remove: archive file [/home/abi/fetcher/tmp/Fr1997v011-1.6.3.tar.gz]
+[2024-05-28 08:02:43] INFO root fetch - processPackages [Fr1997v011]: Remove: archive file [/home/abi/fetcher/tmp/Fr1997v011-1.6.5.tar.gz]
+[2024-05-28 08:02:43] INFO root fetch - main [MainThread]: End processing [Fr1997v011]: success
+[2024-05-28 08:02:44] INFO root fetch - processPackages [apex-flow]: Remove: archive file [/home/abi/fetcher/tmp/apex_flow-1.2.1.tar.gz]
+[2024-05-28 08:02:44] INFO root fetch - processPackages [apex-flow]: Remove: archive file [/home/abi/fetcher/tmp/apex_flow-1.2.2.tar.gz]
+[2024-05-28 08:02:44] INFO root fetch - main [MainThread]: End processing [apex-flow]: success
+[2024-05-28 08:02:45] INFO root fetch - processPackages [bbot]: Remove: archive file [/home/abi/fetcher/tmp/bbot-1.1.8.3350rc0.tar.gz]
+[2024-05-28 08:02:45] INFO root fetch - processPackages [bbot]: Remove: archive file [/home/abi/fetcher/tmp/bbot-1.1.8.3354rc0.tar.gz]
+[2024-05-28 08:02:45] INFO root fetch - main [MainThread]: End processing [bbot]: success
+[2024-05-28 08:02:45] INFO root fetch - main [MainThread]: Store serial: [23405711]
