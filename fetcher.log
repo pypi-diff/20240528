@@ -16205,3 +16205,97 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 12:45:58] INFO root fetch - processPackages [matrix-nio]: Remove: archive file [/home/abi/fetcher/tmp/matrix-nio-0.9.0.tar.gz]
 [2024-05-28 12:45:58] INFO root fetch - main [MainThread]: End processing [matrix-nio]: success
 [2024-05-28 12:45:58] INFO root fetch - main [MainThread]: Store serial: [23409747]
+[2024-05-28 12:48:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23409747]
+[2024-05-28 12:48:07] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-28 12:48:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cerebrumscanner
+[2024-05-28 12:48:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-async-grpc-prometheus
+[2024-05-28 12:48:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyluba
+[2024-05-28 12:48:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-payroll
+[2024-05-28 12:48:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: brainglobe-heatmap
+[2024-05-28 12:48:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PyDicomGrouping-Linux
+[2024-05-28 12:48:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ptnmap
+[2024-05-28 12:48:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mcptool
+[2024-05-28 12:48:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: chiral-client
+[2024-05-28 12:48:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cycode
+[2024-05-28 12:48:08] WARNING root fetch - processPackages [py-async-grpc-prometheus]: Skipping, unable to determine old version
+[2024-05-28 12:48:08] INFO root fetch - processPackages [py-async-grpc-prometheus]: Start processing: jinjamator
+[2024-05-28 12:48:08] INFO root fetch - main [MainThread]: End processing [py-async-grpc-prometheus] error
+[2024-05-28 12:48:08] INFO root fetch - processPackages [pyluba]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-28 12:48:08] INFO root fetch - processPackages [cerebrumscanner]: New version: [0.0.1b5] Old Version: [0.0.1b4]
+[2024-05-28 12:48:08] INFO root fetch - processPackages [PyDicomGrouping-Linux]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-28 12:48:08] WARNING root fetch - processPackages [mcptool]: Skipping, unable to determine old version
+[2024-05-28 12:48:08] INFO root fetch - processPackages [mcptool]: Start processing: ignos-api-client
+[2024-05-28 12:48:08] INFO root fetch - main [MainThread]: End processing [mcptool] error
+[2024-05-28 12:48:08] INFO root fetch - processPackages [odoo-addon-payroll]: New version: [17.0.1.0.0.8] Old Version: [17.0.1.0.0.7]
+[2024-05-28 12:48:08] INFO root fetch - processPackages [pyluba]: Downloading https://files.pythonhosted.org/packages/52/99/e29e1d5ada99bf72806e253adb260c8ac9718c47fdfc9c9a26d99fcc0d52/pyluba-0.0.8.tar.gz
+[2024-05-28 12:48:08] INFO root fetch - processPackages [brainglobe-heatmap]: New version: [0.5.3] Old Version: [0.5.2]
+[2024-05-28 12:48:08] INFO root fetch - processPackages [ptnmap]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-28 12:48:08] INFO root fetch - processPackages [chiral-client]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-28 12:48:08] INFO root fetch - processPackages [cerebrumscanner]: Downloading https://files.pythonhosted.org/packages/09/0e/aca144d18cb979479365af698800e8f486240a85896ac098e3de2d515c34/cerebrumscanner-0.0.1b4.tar.gz
+[2024-05-28 12:48:08] INFO root fetch - processPackages [cycode]: New version: [1.9.6.dev3] Old Version: [1.9.6.dev2]
+[2024-05-28 12:48:08] INFO root fetch - processPackages [ignos-api-client]: New version: [2024.5.28.9351] Old Version: [2024.3.12.8830]
+[2024-05-28 12:48:08] INFO root fetch - processPackages [jinjamator]: New version: [0.9.99] Old Version: [0.9.98.1]
+[2024-05-28 12:48:08] INFO root fetch - processPackages [PyDicomGrouping-Linux]: Downloading https://files.pythonhosted.org/packages/16/ed/f4e1cc0bd742d45be5dd0b2ae71783842f1c19ed4c4b6a88f4697da9f2c1/PyDicomGrouping_Linux-0.1.1.tar.gz
+[2024-05-28 12:48:08] INFO root fetch - processPackages [brainglobe-heatmap]: Downloading https://files.pythonhosted.org/packages/ce/1a/656028f0c0da45beed6e43b66ef285dd1d2d340c031a84da6a87be59c4dc/brainglobe-heatmap-0.5.2.tar.gz
+[2024-05-28 12:48:08] INFO root fetch - processPackages [odoo-addon-payroll]: Downloading https://files.pythonhosted.org/packages/c5/a8/6942de982ca0c914831eaed2854b0160efecaffbcbed7dd4480231416646/odoo_addon_payroll-17.0.1.0.0.7-py3-none-any.whl
+[2024-05-28 12:48:08] WARNING root fetch - processPackages [PyDicomGrouping-Linux]: Skipping package: exceeds size limit 37169633>=10485760
+[2024-05-28 12:48:08] INFO root fetch - processPackages [PyDicomGrouping-Linux]: Start processing: datastew
+[2024-05-28 12:48:08] INFO root fetch - main [MainThread]: End processing [PyDicomGrouping-Linux] error
+[2024-05-28 12:48:08] INFO root fetch - processPackages [pyluba]: Downloading https://files.pythonhosted.org/packages/84/ab/a79a516adda0073565ebbe893c1269969eb2e11db4ea3957e1d76e1ebf9e/pyluba-0.0.9.tar.gz
+[2024-05-28 12:48:08] INFO root fetch - processPackages [cerebrumscanner]: Downloading https://files.pythonhosted.org/packages/8a/51/713ae1f07cac55b7edca3b6ac906e419d23cb2067e463cd9a20a38809793/cerebrumscanner-0.0.1b5.tar.gz
+[2024-05-28 12:48:08] INFO root fetch - processPackages [ptnmap]: Downloading https://files.pythonhosted.org/packages/66/2f/14f82ec5981643ef9dfa437973e05801cc7d50add8a773e616bfef69726e/ptnmap-0.0.2.tar.gz
+[2024-05-28 12:48:08] INFO root fetch - processPackages [chiral-client]: Downloading https://files.pythonhosted.org/packages/f3/f8/8a92ff35fc3b758691dbaf36234d9c10ae0ba4f47a942fef193c7ee2d4e2/chiral-client-0.3.0.tar.gz
+[2024-05-28 12:48:08] INFO root fetch - processPackages [ignos-api-client]: Downloading https://files.pythonhosted.org/packages/6e/3e/8bca57c255dc4ac413ecde1c43fcc70ba15bb048964e16049b5e80cf0fb3/ignos-api-client-2024.3.12.8830.tar.gz
+[2024-05-28 12:48:08] INFO root fetch - processPackages [cycode]: Downloading https://files.pythonhosted.org/packages/50/7e/fbe6d931a27756e37698bd0d7229e679e4ba94312af9380f58c968cbc258/cycode-1.9.6.dev2.tar.gz
+[2024-05-28 12:48:08] INFO root fetch - processPackages [jinjamator]: Downloading https://files.pythonhosted.org/packages/9a/bc/ddc0330ae074b016205f78854cbbeb0732de43c0cc09be04bc09a6165708/jinjamator-0.9.98.1-py3-none-any.whl
+[2024-05-28 12:48:08] INFO root fetch - processPackages [cerebrumscanner]: executing diffoscope
+[2024-05-28 12:48:08] INFO root fetch - processPackages [cerebrumscanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cerebrumscanner-0.0.1b4.tar.gz tmp/cerebrumscanner-0.0.1b5.tar.gz --markdown 20240528/c/cerebrumscanner/0.0.1b4-0.0.1b5/README.md --exclude *.pyd
+[2024-05-28 12:48:08] WARNING root fetch - processPackages [jinjamator]: Skipping package: exceeds size limit 10813923>=10485760
+[2024-05-28 12:48:08] INFO root fetch - main [MainThread]: End processing [jinjamator] error
+[2024-05-28 12:48:08] INFO root fetch - processPackages [pyluba]: executing diffoscope
+[2024-05-28 12:48:08] INFO root fetch - processPackages [pyluba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyluba-0.0.8.tar.gz tmp/pyluba-0.0.9.tar.gz --markdown 20240528/p/pyluba/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-28 12:48:08] WARNING root fetch - processPackages [datastew]: Skipping, unable to determine old version
+[2024-05-28 12:48:08] INFO root fetch - main [MainThread]: End processing [datastew] error
+[2024-05-28 12:48:08] INFO root fetch - processPackages [brainglobe-heatmap]: Downloading https://files.pythonhosted.org/packages/94/c9/50b9fc6403c3e00ce9c074fecb257563c8539d02caad330cf63b1eaebe05/brainglobe_heatmap-0.5.3.tar.gz
+[2024-05-28 12:48:08] INFO root fetch - processPackages [ptnmap]: Downloading https://files.pythonhosted.org/packages/2f/e8/1ce10cbc573ac65f65a5183d70a8da20fcaf9adf79dc2e197d0d75cc02d1/ptnmap-0.0.3.tar.gz
+[2024-05-28 12:48:08] INFO root fetch - processPackages [ignos-api-client]: Downloading https://files.pythonhosted.org/packages/2c/6e/eb315657cca746302a155cae3754bb6e86c3170c7fa7801ae39e6fabdff0/ignos_api_client-2024.5.28.9351.tar.gz
+[2024-05-28 12:48:08] INFO root fetch - processPackages [chiral-client]: Downloading https://files.pythonhosted.org/packages/7c/93/7555a010533b096e592b731c8ea6a14f02aa327eeeb5bd27a8d4c2891bd3/chiral_client-0.3.1-py3-none-any.whl
+[2024-05-28 12:48:08] INFO root fetch - processPackages [odoo-addon-payroll]: Downloading https://files.pythonhosted.org/packages/f6/59/2d363d42ef03a3907b7bdc40a2a8eaed982d11526b82dfc7bd18daac0697/odoo_addon_payroll-17.0.1.0.0.8-py3-none-any.whl
+[2024-05-28 12:48:08] INFO root fetch - processPackages [brainglobe-heatmap]: executing diffoscope
+[2024-05-28 12:48:08] INFO root fetch - processPackages [brainglobe-heatmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brainglobe-heatmap-0.5.2.tar.gz tmp/brainglobe_heatmap-0.5.3.tar.gz --markdown 20240528/b/brainglobe-heatmap/0.5.2-0.5.3/README.md --exclude *.pyd
+[2024-05-28 12:48:08] INFO root fetch - processPackages [cycode]: Downloading https://files.pythonhosted.org/packages/aa/52/917dba61b8b775495751f90059bf87bb43092b02ea041fcbc5623ef71db3/cycode-1.9.6.dev3.tar.gz
+[2024-05-28 12:48:09] INFO root fetch - processPackages [ptnmap]: executing diffoscope
+[2024-05-28 12:48:09] INFO root fetch - processPackages [ptnmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ptnmap-0.0.2.tar.gz tmp/ptnmap-0.0.3.tar.gz --markdown 20240528/p/ptnmap/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-28 12:48:09] INFO root fetch - processPackages [chiral-client]: executing diffoscope
+[2024-05-28 12:48:09] INFO root fetch - processPackages [chiral-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chiral-client-0.3.0.tar.gz tmp/chiral_client-0.3.1-py3-none-any.whl.zip --markdown 20240528/c/chiral-client/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-28 12:48:09] INFO root fetch - processPackages [odoo-addon-payroll]: executing diffoscope
+[2024-05-28 12:48:09] INFO root fetch - processPackages [odoo-addon-payroll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_payroll-17.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_payroll-17.0.1.0.0.8-py3-none-any.whl.zip --markdown 20240528/o/odoo-addon-payroll/17.0.1.0.0.7-17.0.1.0.0.8/README.md --exclude *.pyd
+[2024-05-28 12:48:09] INFO root fetch - processPackages [cycode]: executing diffoscope
+[2024-05-28 12:48:09] INFO root fetch - processPackages [cycode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cycode-1.9.6.dev2.tar.gz tmp/cycode-1.9.6.dev3.tar.gz --markdown 20240528/c/cycode/1.9.6.dev2-1.9.6.dev3/README.md --exclude *.pyd
+[2024-05-28 12:48:09] INFO root fetch - processPackages [cerebrumscanner]: Remove: archive file [/home/abi/fetcher/tmp/cerebrumscanner-0.0.1b4.tar.gz]
+[2024-05-28 12:48:09] INFO root fetch - processPackages [cerebrumscanner]: Remove: archive file [/home/abi/fetcher/tmp/cerebrumscanner-0.0.1b5.tar.gz]
+[2024-05-28 12:48:09] INFO root fetch - main [MainThread]: End processing [cerebrumscanner]: success
+[2024-05-28 12:48:09] INFO root fetch - processPackages [ignos-api-client]: executing diffoscope
+[2024-05-28 12:48:09] INFO root fetch - processPackages [ignos-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ignos-api-client-2024.3.12.8830.tar.gz tmp/ignos_api_client-2024.5.28.9351.tar.gz --markdown 20240528/i/ignos-api-client/2024.3.12.8830-2024.5.28.9351/README.md --exclude *.pyd
+[2024-05-28 12:48:09] INFO root fetch - processPackages [pyluba]: Remove: archive file [/home/abi/fetcher/tmp/pyluba-0.0.8.tar.gz]
+[2024-05-28 12:48:09] INFO root fetch - processPackages [pyluba]: Remove: archive file [/home/abi/fetcher/tmp/pyluba-0.0.9.tar.gz]
+[2024-05-28 12:48:09] INFO root fetch - main [MainThread]: End processing [pyluba]: success
+[2024-05-28 12:48:09] INFO root fetch - processPackages [chiral-client]: Remove: archive file [/home/abi/fetcher/tmp/chiral-client-0.3.0.tar.gz]
+[2024-05-28 12:48:09] INFO root fetch - processPackages [chiral-client]: Remove: archive file [/home/abi/fetcher/tmp/chiral_client-0.3.1-py3-none-any.whl.zip]
+[2024-05-28 12:48:09] INFO root fetch - main [MainThread]: End processing [chiral-client]: success
+[2024-05-28 12:48:09] INFO root fetch - processPackages [brainglobe-heatmap]: Remove: archive file [/home/abi/fetcher/tmp/brainglobe-heatmap-0.5.2.tar.gz]
+[2024-05-28 12:48:09] INFO root fetch - processPackages [brainglobe-heatmap]: Remove: archive file [/home/abi/fetcher/tmp/brainglobe_heatmap-0.5.3.tar.gz]
+[2024-05-28 12:48:09] INFO root fetch - main [MainThread]: End processing [brainglobe-heatmap]: success
+[2024-05-28 12:48:09] INFO root fetch - processPackages [ptnmap]: Remove: archive file [/home/abi/fetcher/tmp/ptnmap-0.0.2.tar.gz]
+[2024-05-28 12:48:09] INFO root fetch - processPackages [ptnmap]: Remove: archive file [/home/abi/fetcher/tmp/ptnmap-0.0.3.tar.gz]
+[2024-05-28 12:48:09] INFO root fetch - main [MainThread]: End processing [ptnmap]: success
+[2024-05-28 12:48:10] INFO root fetch - processPackages [cycode]: Remove: archive file [/home/abi/fetcher/tmp/cycode-1.9.6.dev2.tar.gz]
+[2024-05-28 12:48:10] INFO root fetch - processPackages [cycode]: Remove: archive file [/home/abi/fetcher/tmp/cycode-1.9.6.dev3.tar.gz]
+[2024-05-28 12:48:10] INFO root fetch - main [MainThread]: End processing [cycode]: success
+[2024-05-28 12:48:10] INFO root fetch - processPackages [odoo-addon-payroll]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_payroll-17.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-05-28 12:48:10] INFO root fetch - processPackages [odoo-addon-payroll]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_payroll-17.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-05-28 12:48:10] INFO root fetch - main [MainThread]: End processing [odoo-addon-payroll]: success
+[2024-05-28 12:48:11] INFO root fetch - processPackages [ignos-api-client]: Remove: archive file [/home/abi/fetcher/tmp/ignos-api-client-2024.3.12.8830.tar.gz]
+[2024-05-28 12:48:11] INFO root fetch - processPackages [ignos-api-client]: Remove: archive file [/home/abi/fetcher/tmp/ignos_api_client-2024.5.28.9351.tar.gz]
+[2024-05-28 12:48:11] INFO root fetch - main [MainThread]: End processing [ignos-api-client]: success
+[2024-05-28 12:48:11] INFO root fetch - main [MainThread]: Store serial: [23409782]
