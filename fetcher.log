@@ -14465,3 +14465,173 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 11:40:03] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-4.0.1.post548-py3-none-any.whl.zip]
 [2024-05-28 11:40:03] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
 [2024-05-28 11:40:03] INFO root fetch - main [MainThread]: Store serial: [23408969]
+[2024-05-28 11:42:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23408969]
+[2024-05-28 11:42:12] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2024-05-28 11:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nucliadb
+[2024-05-28 11:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nucliadb-dataset
+[2024-05-28 11:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nucliadb-models
+[2024-05-28 11:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: finazon-grpc-python
+[2024-05-28 11:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nucliadb-protos
+[2024-05-28 11:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nucliadb-sdk
+[2024-05-28 11:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zarth-utils
+[2024-05-28 11:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nucliadb-telemetry
+[2024-05-28 11:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nucliadb-utils
+[2024-05-28 11:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-account-banking-mandate-sale-contact
+[2024-05-28 11:42:12] INFO root fetch - processPackages [nucliadb]: New version: [4.0.1.post550] Old Version: [4.0.1.post548]
+[2024-05-28 11:42:12] INFO root fetch - processPackages [finazon-grpc-python]: New version: [1.1.6] Old Version: [1.1.3]
+[2024-05-28 11:42:12] INFO root fetch - processPackages [nucliadb-dataset]: New version: [4.0.1.post548] Old Version: [4.0.1.post547]
+[2024-05-28 11:42:12] INFO root fetch - processPackages [nucliadb-telemetry]: New version: [4.0.1.post548] Old Version: [4.0.1.post547]
+[2024-05-28 11:42:12] INFO root fetch - processPackages [nucliadb-sdk]: New version: [4.0.1.post548] Old Version: [4.0.1.post547]
+[2024-05-28 11:42:12] INFO root fetch - processPackages [nucliadb-utils]: New version: [4.0.1.post548] Old Version: [4.0.1.post547]
+[2024-05-28 11:42:12] INFO root fetch - processPackages [nucliadb-protos]: New version: [4.0.1.post548] Old Version: [4.0.1.post547]
+[2024-05-28 11:42:12] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/de/ab/6bad5457345fadb70542c6b4c5cf6ca0c2a9242827b1aa0d0b4bd7dddfbd/nucliadb-4.0.1.post548-py3-none-any.whl
+[2024-05-28 11:42:12] INFO root fetch - processPackages [zarth-utils]: New version: [1.2] Old Version: [1.1]
+[2024-05-28 11:42:12] INFO root fetch - processPackages [odoo-addon-account-banking-mandate-sale-contact]: New version: [17.0.1.0.0.3] Old Version: [16.0.1.0.1.3]
+[2024-05-28 11:42:12] INFO root fetch - processPackages [nucliadb-models]: New version: [4.0.1.post550] Old Version: [4.0.1.post548]
+[2024-05-28 11:42:12] INFO root fetch - processPackages [finazon-grpc-python]: Downloading https://files.pythonhosted.org/packages/96/f6/ecd9a3f3ccbf6c974ed49818e42b148854d8f2a4c60b4dec0a9f9fbcb1a5/finazon_grpc_python-1.1.3.tar.gz
+[2024-05-28 11:42:12] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/bd/fa/1d8c1c1ba93ce90ac104439e446b5e3b32bd0ad5efc6c140fd9ed5d6ec53/nucliadb_dataset-4.0.1.post547-py3-none-any.whl
+[2024-05-28 11:42:12] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/10/62/abd815ec994113e16f1b5042888e2cdaafbccdcda6adff1668858aeeeeed/nucliadb_telemetry-4.0.1.post547-py3-none-any.whl
+[2024-05-28 11:42:12] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/09/93/adf3f0d028bdca1965dab4b5b005be8516a0485cd7966f7b35386c36d17d/nucliadb_protos-4.0.1.post547-py3-none-any.whl
+[2024-05-28 11:42:12] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/6e/ea/1249b657854e290086093587c1c6df8888328b10ef84de952be79f71fe8a/nucliadb_sdk-4.0.1.post547-py3-none-any.whl
+[2024-05-28 11:42:12] INFO root fetch - processPackages [odoo-addon-account-banking-mandate-sale-contact]: Downloading https://files.pythonhosted.org/packages/22/b8/fa60beead4396c57151c27b8c75e774ccbbcdd30eeaa5ee6448a987df71b/odoo_addon_account_banking_mandate_sale_contact-16.0.1.0.1.3-py3-none-any.whl
+[2024-05-28 11:42:12] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/0b/52/ec8d74b05b812da108ae25709227578f9a36858adbf5088f2a54a240e6cf/nucliadb_utils-4.0.1.post547-py3-none-any.whl
+[2024-05-28 11:42:12] INFO root fetch - processPackages [zarth-utils]: Downloading https://files.pythonhosted.org/packages/9c/80/5bbffac9219e967b714bc5adf3d86638bb59eda886b469673a8dfe830723/zarth_utils-1.1.tar.gz
+[2024-05-28 11:42:12] INFO root fetch - processPackages [finazon-grpc-python]: Downloading https://files.pythonhosted.org/packages/8b/03/418cae74d2dc2c340721bc4249555fe79dcc439ffd3697f43cd619cbd487/finazon_grpc_python-1.1.6.tar.gz
+[2024-05-28 11:42:12] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/98/97/9c17763ae6845c8c00fbb032cb79029c268a41e617c2369185bbcd44b71f/nucliadb_models-4.0.1.post548-py3-none-any.whl
+[2024-05-28 11:42:13] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/d6/34/69c9febfbea348340a0f2ad7b16cb5a84d39d48acd7f353578ac05bd6db5/nucliadb_sdk-4.0.1.post548-py3-none-any.whl
+[2024-05-28 11:42:13] INFO root fetch - processPackages [finazon-grpc-python]: executing diffoscope
+[2024-05-28 11:42:13] INFO root fetch - processPackages [finazon-grpc-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finazon_grpc_python-1.1.3.tar.gz tmp/finazon_grpc_python-1.1.6.tar.gz --markdown 20240528/f/finazon-grpc-python/1.1.3-1.1.6/README.md --exclude *.pyd
+[2024-05-28 11:42:13] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/49/ce/3f49f35342746c841bc7df768d3220c4ab848e23c986ec7509100909521f/nucliadb_dataset-4.0.1.post548-py3-none-any.whl
+[2024-05-28 11:42:13] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/32/41/e9886ca2996b961b9f1544c93a44cc000e5e0814c43fed87451998674474/nucliadb-4.0.1.post550-py3-none-any.whl
+[2024-05-28 11:42:13] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/b9/a0/7eda8ae74293caafcea6ccc00f0d481aabd85e56b19cc84fb44aa8092a48/nucliadb_protos-4.0.1.post548-py3-none-any.whl
+[2024-05-28 11:42:13] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/a3/c3/79e08bad7d8197c9ccfe545bfdc1de5857d003f2ab84b5ed7c6a178040e5/nucliadb_telemetry-4.0.1.post548-py3-none-any.whl
+[2024-05-28 11:42:13] INFO root fetch - processPackages [odoo-addon-account-banking-mandate-sale-contact]: Downloading https://files.pythonhosted.org/packages/1c/d4/6370c68932024165e75f9ce3909a6dc301990a08746ef1bc45afa65432f2/odoo_addon_account_banking_mandate_sale_contact-17.0.1.0.0.3-py3-none-any.whl
+[2024-05-28 11:42:13] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2024-05-28 11:42:13] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-4.0.1.post547-py3-none-any.whl.zip tmp/nucliadb_sdk-4.0.1.post548-py3-none-any.whl.zip --markdown 20240528/n/nucliadb-sdk/4.0.1.post547-4.0.1.post548/README.md --exclude *.pyd
+[2024-05-28 11:42:13] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2024-05-28 11:42:13] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-4.0.1.post547-py3-none-any.whl.zip tmp/nucliadb_dataset-4.0.1.post548-py3-none-any.whl.zip --markdown 20240528/n/nucliadb-dataset/4.0.1.post547-4.0.1.post548/README.md --exclude *.pyd
+[2024-05-28 11:42:13] INFO root fetch - processPackages [zarth-utils]: Downloading https://files.pythonhosted.org/packages/08/a4/82902ac1863a4e6a14f7d81fcea4351bf6fe53aa3dba39584b984484a8c1/zarth_utils-1.2.tar.gz
+[2024-05-28 11:42:13] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2024-05-28 11:42:13] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-4.0.1.post547-py3-none-any.whl.zip tmp/nucliadb_protos-4.0.1.post548-py3-none-any.whl.zip --markdown 20240528/n/nucliadb-protos/4.0.1.post547-4.0.1.post548/README.md --exclude *.pyd
+[2024-05-28 11:42:13] INFO root fetch - processPackages [nucliadb-telemetry]: executing diffoscope
+[2024-05-28 11:42:13] INFO root fetch - processPackages [nucliadb-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_telemetry-4.0.1.post547-py3-none-any.whl.zip tmp/nucliadb_telemetry-4.0.1.post548-py3-none-any.whl.zip --markdown 20240528/n/nucliadb-telemetry/4.0.1.post547-4.0.1.post548/README.md --exclude *.pyd
+[2024-05-28 11:42:13] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2024-05-28 11:42:13] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-4.0.1.post548-py3-none-any.whl.zip tmp/nucliadb-4.0.1.post550-py3-none-any.whl.zip --markdown 20240528/n/nucliadb/4.0.1.post548-4.0.1.post550/README.md --exclude *.pyd
+[2024-05-28 11:42:13] INFO root fetch - processPackages [odoo-addon-account-banking-mandate-sale-contact]: executing diffoscope
+[2024-05-28 11:42:13] INFO root fetch - processPackages [odoo-addon-account-banking-mandate-sale-contact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_banking_mandate_sale_contact-16.0.1.0.1.3-py3-none-any.whl.zip tmp/odoo_addon_account_banking_mandate_sale_contact-17.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240528/o/odoo-addon-account-banking-mandate-sale-contact/16.0.1.0.1.3-17.0.1.0.0.3/README.md --exclude *.pyd
+[2024-05-28 11:42:13] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/51/c0/6042b6b27773d734faf28e194aa0118011ae75e94d95acb492169f5d2e18/nucliadb_utils-4.0.1.post548-py3-none-any.whl
+[2024-05-28 11:42:13] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/9b/3f/eab7294b1a96a8299163fccc6bdce27c5f9097aa6029d82e5c6adccbcffa/nucliadb_models-4.0.1.post550-py3-none-any.whl
+[2024-05-28 11:42:13] INFO root fetch - processPackages [zarth-utils]: executing diffoscope
+[2024-05-28 11:42:13] INFO root fetch - processPackages [zarth-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zarth_utils-1.1.tar.gz tmp/zarth_utils-1.2.tar.gz --markdown 20240528/z/zarth-utils/1.1-1.2/README.md --exclude *.pyd
+[2024-05-28 11:42:13] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2024-05-28 11:42:13] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-4.0.1.post547-py3-none-any.whl.zip tmp/nucliadb_utils-4.0.1.post548-py3-none-any.whl.zip --markdown 20240528/n/nucliadb-utils/4.0.1.post547-4.0.1.post548/README.md --exclude *.pyd
+[2024-05-28 11:42:13] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2024-05-28 11:42:13] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-4.0.1.post548-py3-none-any.whl.zip tmp/nucliadb_models-4.0.1.post550-py3-none-any.whl.zip --markdown 20240528/n/nucliadb-models/4.0.1.post548-4.0.1.post550/README.md --exclude *.pyd
+[2024-05-28 11:42:14] INFO root fetch - processPackages [finazon-grpc-python]: Remove: archive file [/home/abi/fetcher/tmp/finazon_grpc_python-1.1.3.tar.gz]
+[2024-05-28 11:42:14] INFO root fetch - processPackages [finazon-grpc-python]: Remove: archive file [/home/abi/fetcher/tmp/finazon_grpc_python-1.1.6.tar.gz]
+[2024-05-28 11:42:14] INFO root fetch - processPackages [finazon-grpc-python]: Start processing: transstellar
+[2024-05-28 11:42:14] INFO root fetch - main [MainThread]: End processing [finazon-grpc-python]: success
+[2024-05-28 11:42:14] INFO root fetch - processPackages [transstellar]: New version: [2.4.2] Old Version: [2.4.1]
+[2024-05-28 11:42:14] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-4.0.1.post547-py3-none-any.whl.zip]
+[2024-05-28 11:42:14] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-4.0.1.post548-py3-none-any.whl.zip]
+[2024-05-28 11:42:14] INFO root fetch - processPackages [nucliadb-sdk]: Start processing: imspy-connector
+[2024-05-28 11:42:14] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2024-05-28 11:42:14] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-4.0.1.post547-py3-none-any.whl.zip]
+[2024-05-28 11:42:14] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-4.0.1.post548-py3-none-any.whl.zip]
+[2024-05-28 11:42:14] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: mia-vgg
+[2024-05-28 11:42:14] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2024-05-28 11:42:14] INFO root fetch - processPackages [mia-vgg]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-28 11:42:14] INFO root fetch - processPackages [transstellar]: Downloading https://files.pythonhosted.org/packages/0a/bf/62afe1317b7c1789586ad4ab0f7bdce066c62d08f9149b5a5b2f635d380c/transstellar-2.4.1.tar.gz
+[2024-05-28 11:42:14] INFO root fetch - processPackages [imspy-connector]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-28 11:42:14] INFO root fetch - processPackages [mia-vgg]: Downloading https://files.pythonhosted.org/packages/7d/99/89bc26b6fc0c4be64ccf67e364ca9e0df91458fd29d11e2358855b46e97d/mia_vgg-0.0.8.tar.gz
+[2024-05-28 11:42:14] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-4.0.1.post547-py3-none-any.whl.zip]
+[2024-05-28 11:42:14] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-4.0.1.post548-py3-none-any.whl.zip]
+[2024-05-28 11:42:14] INFO root fetch - processPackages [nucliadb-telemetry]: Start processing: smol_k8s_lab
+[2024-05-28 11:42:14] INFO root fetch - main [MainThread]: End processing [nucliadb-telemetry]: success
+[2024-05-28 11:42:14] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-4.0.1.post547-py3-none-any.whl.zip]
+[2024-05-28 11:42:14] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-4.0.1.post548-py3-none-any.whl.zip]
+[2024-05-28 11:42:14] INFO root fetch - processPackages [nucliadb-protos]: Start processing: smsapi-client
+[2024-05-28 11:42:14] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2024-05-28 11:42:14] INFO root fetch - processPackages [odoo-addon-account-banking-mandate-sale-contact]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_banking_mandate_sale_contact-16.0.1.0.1.3-py3-none-any.whl.zip]
+[2024-05-28 11:42:14] INFO root fetch - processPackages [smsapi-client]: New version: [2.9.5] Old Version: [2.9.4]
+[2024-05-28 11:42:14] INFO root fetch - processPackages [odoo-addon-account-banking-mandate-sale-contact]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_banking_mandate_sale_contact-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-28 11:42:14] INFO root fetch - processPackages [odoo-addon-account-banking-mandate-sale-contact]: Start processing: pyaffalddk
+[2024-05-28 11:42:14] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-banking-mandate-sale-contact]: success
+[2024-05-28 11:42:14] INFO root fetch - processPackages [zarth-utils]: Remove: archive file [/home/abi/fetcher/tmp/zarth_utils-1.1.tar.gz]
+[2024-05-28 11:42:14] INFO root fetch - processPackages [zarth-utils]: Remove: archive file [/home/abi/fetcher/tmp/zarth_utils-1.2.tar.gz]
+[2024-05-28 11:42:14] INFO root fetch - processPackages [zarth-utils]: Start processing: netbits
+[2024-05-28 11:42:14] INFO root fetch - main [MainThread]: End processing [zarth-utils]: success
+[2024-05-28 11:42:14] INFO root fetch - processPackages [smol_k8s_lab]: New version: [5.3.0] Old Version: [5.2.6]
+[2024-05-28 11:42:14] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-4.0.1.post548-py3-none-any.whl.zip]
+[2024-05-28 11:42:14] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-4.0.1.post550-py3-none-any.whl.zip]
+[2024-05-28 11:42:14] INFO root fetch - processPackages [nucliadb-models]: Start processing: aiorobonect
+[2024-05-28 11:42:14] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2024-05-28 11:42:14] INFO root fetch - processPackages [imspy-connector]: Downloading https://files.pythonhosted.org/packages/83/06/e03fe18da5ea7b3c03487eb550ab27a3d054eb12fe31f0095c32ca12033b/imspy_connector-0.2.8.tar.gz
+[2024-05-28 11:42:14] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-4.0.1.post547-py3-none-any.whl.zip]
+[2024-05-28 11:42:14] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-4.0.1.post548-py3-none-any.whl.zip]
+[2024-05-28 11:42:14] INFO root fetch - processPackages [nucliadb-utils]: Start processing: accim
+[2024-05-28 11:42:14] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2024-05-28 11:42:14] INFO root fetch - processPackages [pyaffalddk]: New version: [2.0.30] Old Version: [2.0.29]
+[2024-05-28 11:42:14] INFO root fetch - processPackages [mia-vgg]: Downloading https://files.pythonhosted.org/packages/cc/39/4b0634a6c0cfb889300cdd32b0b9e896e244894df317465107e5a88463b0/mia_vgg-0.0.9.tar.gz
+[2024-05-28 11:42:14] INFO root fetch - processPackages [netbits]: New version: [0.0.3] Old Version: [0.0.1]
+[2024-05-28 11:42:14] INFO root fetch - processPackages [accim]: New version: [0.7.3] Old Version: [0.7.2]
+[2024-05-28 11:42:14] INFO root fetch - processPackages [transstellar]: Downloading https://files.pythonhosted.org/packages/5f/0c/6ae5454de448b8f889b279b6cd644cadb416be71c355f3622efeaf7981d7/transstellar-2.4.2.tar.gz
+[2024-05-28 11:42:14] INFO root fetch - processPackages [smsapi-client]: Downloading https://files.pythonhosted.org/packages/bc/12/0f77dc34b4645e9d9db2588c6ac3a7131f4d71e46fe7d7cc64840dd92156/smsapi-client-2.9.4.tar.gz
+[2024-05-28 11:42:14] INFO root fetch - processPackages [aiorobonect]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-28 11:42:14] INFO root fetch - processPackages [smol_k8s_lab]: Downloading https://files.pythonhosted.org/packages/1e/18/75493b8f7e46c7802c7eefa2548c02f4ee4c105507ad93a188734fa6b1c9/smol_k8s_lab-5.2.6.tar.gz
+[2024-05-28 11:42:14] INFO root fetch - processPackages [mia-vgg]: executing diffoscope
+[2024-05-28 11:42:14] INFO root fetch - processPackages [mia-vgg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mia_vgg-0.0.8.tar.gz tmp/mia_vgg-0.0.9.tar.gz --markdown 20240528/m/mia-vgg/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-28 11:42:14] INFO root fetch - processPackages [accim]: Downloading https://files.pythonhosted.org/packages/2e/92/fc005dae2227d6f8f0d770ca0b0fd32dca06d192a920b1b451c1da4ece9d/accim-0.7.2.tar.gz
+[2024-05-28 11:42:14] WARNING root fetch - processPackages [accim]: Skipping package: exceeds size limit 21559885>=10485760
+[2024-05-28 11:42:14] INFO root fetch - processPackages [transstellar]: executing diffoscope
+[2024-05-28 11:42:14] INFO root fetch - main [MainThread]: End processing [accim] error
+[2024-05-28 11:42:14] INFO root fetch - processPackages [transstellar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transstellar-2.4.1.tar.gz tmp/transstellar-2.4.2.tar.gz --markdown 20240528/t/transstellar/2.4.1-2.4.2/README.md --exclude *.pyd
+[2024-05-28 11:42:14] INFO root fetch - processPackages [pyaffalddk]: Downloading https://files.pythonhosted.org/packages/21/84/48d36bb6e439c9949fb6e5dc872bae00d36257c7fa31233aafd698ef8f35/pyaffalddk-2.0.29.tar.gz
+[2024-05-28 11:42:14] INFO root fetch - processPackages [netbits]: Downloading https://files.pythonhosted.org/packages/27/37/354357d022779e8efa0408b0d0ec319f649076275d7ead6e016ed0ae599e/netbits-0.0.1.tar.gz
+[2024-05-28 11:42:15] INFO root fetch - processPackages [aiorobonect]: Downloading https://files.pythonhosted.org/packages/f6/03/956b9cbdec038330df054b9a20300205d6489bbb94a6db0d2d1e700cd470/aiorobonect-1.0.4.tar.gz
+[2024-05-28 11:42:15] INFO root fetch - processPackages [imspy-connector]: Downloading https://files.pythonhosted.org/packages/18/15/988f2f301c6aa5b395ee2b3f1281bf60c358867620d6718db6c8325b29ec/imspy_connector-0.2.9.tar.gz
+[2024-05-28 11:42:15] INFO root fetch - processPackages [imspy-connector]: executing diffoscope
+[2024-05-28 11:42:15] INFO root fetch - processPackages [imspy-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imspy_connector-0.2.8.tar.gz tmp/imspy_connector-0.2.9.tar.gz --markdown 20240528/i/imspy-connector/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-28 11:42:15] INFO root fetch - processPackages [smsapi-client]: Downloading https://files.pythonhosted.org/packages/af/71/cbe75507b32cc09d907a5293e694beb49de69cd0b6032038c07bc5324a42/smsapi-client-2.9.5.tar.gz
+[2024-05-28 11:42:15] INFO root fetch - processPackages [netbits]: Downloading https://files.pythonhosted.org/packages/52/3c/1c85b94e661db13794114f00370902822a1e7caf2e735d2597aa3412c285/netbits-0.0.3.tar.gz
+[2024-05-28 11:42:15] INFO root fetch - processPackages [pyaffalddk]: Downloading https://files.pythonhosted.org/packages/8d/57/43d079a0ac7b2b1b8ccaaa3164301ea6ee95c2d108878343e794dbdcb0cd/pyaffalddk-2.0.30.tar.gz
+[2024-05-28 11:42:15] INFO root fetch - processPackages [smsapi-client]: executing diffoscope
+[2024-05-28 11:42:15] INFO root fetch - processPackages [smsapi-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smsapi-client-2.9.4.tar.gz tmp/smsapi-client-2.9.5.tar.gz --markdown 20240528/s/smsapi-client/2.9.4-2.9.5/README.md --exclude *.pyd
+[2024-05-28 11:42:15] INFO root fetch - processPackages [aiorobonect]: Downloading https://files.pythonhosted.org/packages/a5/4b/a17155f3018992dc2bf0d2a396f33d199c606b70f416080ef38082a1bd90/aiorobonect-1.0.5.tar.gz
+[2024-05-28 11:42:15] INFO root fetch - processPackages [smol_k8s_lab]: Downloading https://files.pythonhosted.org/packages/a8/75/b7bff7c1f7c011d97819514c575d83ed1e0d51646e3b0876f77154547aec/smol_k8s_lab-5.3.0.tar.gz
+[2024-05-28 11:42:15] INFO root fetch - processPackages [mia-vgg]: Remove: archive file [/home/abi/fetcher/tmp/mia_vgg-0.0.8.tar.gz]
+[2024-05-28 11:42:15] INFO root fetch - processPackages [mia-vgg]: Remove: archive file [/home/abi/fetcher/tmp/mia_vgg-0.0.9.tar.gz]
+[2024-05-28 11:42:15] INFO root fetch - main [MainThread]: End processing [mia-vgg]: success
+[2024-05-28 11:42:15] INFO root fetch - processPackages [netbits]: executing diffoscope
+[2024-05-28 11:42:15] INFO root fetch - processPackages [netbits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbits-0.0.1.tar.gz tmp/netbits-0.0.3.tar.gz --markdown 20240528/n/netbits/0.0.1-0.0.3/README.md --exclude *.pyd
+[2024-05-28 11:42:15] INFO root fetch - processPackages [pyaffalddk]: executing diffoscope
+[2024-05-28 11:42:15] INFO root fetch - processPackages [pyaffalddk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyaffalddk-2.0.29.tar.gz tmp/pyaffalddk-2.0.30.tar.gz --markdown 20240528/p/pyaffalddk/2.0.29-2.0.30/README.md --exclude *.pyd
+[2024-05-28 11:42:15] INFO root fetch - processPackages [aiorobonect]: executing diffoscope
+[2024-05-28 11:42:15] INFO root fetch - processPackages [aiorobonect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiorobonect-1.0.4.tar.gz tmp/aiorobonect-1.0.5.tar.gz --markdown 20240528/a/aiorobonect/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-28 11:42:15] INFO root fetch - processPackages [transstellar]: Remove: archive file [/home/abi/fetcher/tmp/transstellar-2.4.1.tar.gz]
+[2024-05-28 11:42:15] INFO root fetch - processPackages [transstellar]: Remove: archive file [/home/abi/fetcher/tmp/transstellar-2.4.2.tar.gz]
+[2024-05-28 11:42:15] INFO root fetch - main [MainThread]: End processing [transstellar]: success
+[2024-05-28 11:42:15] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-4.0.1.post548-py3-none-any.whl.zip]
+[2024-05-28 11:42:15] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-4.0.1.post550-py3-none-any.whl.zip]
+[2024-05-28 11:42:15] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2024-05-28 11:42:15] INFO root fetch - processPackages [imspy-connector]: Remove: archive file [/home/abi/fetcher/tmp/imspy_connector-0.2.8.tar.gz]
+[2024-05-28 11:42:15] INFO root fetch - processPackages [imspy-connector]: Remove: archive file [/home/abi/fetcher/tmp/imspy_connector-0.2.9.tar.gz]
+[2024-05-28 11:42:15] INFO root fetch - main [MainThread]: End processing [imspy-connector]: success
+[2024-05-28 11:42:16] INFO root fetch - processPackages [smsapi-client]: Remove: archive file [/home/abi/fetcher/tmp/smsapi-client-2.9.4.tar.gz]
+[2024-05-28 11:42:16] INFO root fetch - processPackages [smsapi-client]: Remove: archive file [/home/abi/fetcher/tmp/smsapi-client-2.9.5.tar.gz]
+[2024-05-28 11:42:16] INFO root fetch - main [MainThread]: End processing [smsapi-client]: success
+[2024-05-28 11:42:16] INFO root fetch - processPackages [netbits]: Remove: archive file [/home/abi/fetcher/tmp/netbits-0.0.1.tar.gz]
+[2024-05-28 11:42:16] INFO root fetch - processPackages [netbits]: Remove: archive file [/home/abi/fetcher/tmp/netbits-0.0.3.tar.gz]
+[2024-05-28 11:42:16] INFO root fetch - main [MainThread]: End processing [netbits]: success
+[2024-05-28 11:42:16] INFO root fetch - processPackages [aiorobonect]: Remove: archive file [/home/abi/fetcher/tmp/aiorobonect-1.0.4.tar.gz]
+[2024-05-28 11:42:16] INFO root fetch - processPackages [aiorobonect]: Remove: archive file [/home/abi/fetcher/tmp/aiorobonect-1.0.5.tar.gz]
+[2024-05-28 11:42:16] INFO root fetch - main [MainThread]: End processing [aiorobonect]: success
+[2024-05-28 11:42:16] INFO root fetch - processPackages [pyaffalddk]: Remove: archive file [/home/abi/fetcher/tmp/pyaffalddk-2.0.29.tar.gz]
+[2024-05-28 11:42:16] INFO root fetch - processPackages [pyaffalddk]: Remove: archive file [/home/abi/fetcher/tmp/pyaffalddk-2.0.30.tar.gz]
+[2024-05-28 11:42:16] INFO root fetch - main [MainThread]: End processing [pyaffalddk]: success
+[2024-05-28 11:42:16] INFO root fetch - processPackages [smol_k8s_lab]: executing diffoscope
+[2024-05-28 11:42:16] INFO root fetch - processPackages [smol_k8s_lab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smol_k8s_lab-5.2.6.tar.gz tmp/smol_k8s_lab-5.3.0.tar.gz --markdown 20240528/s/smol_k8s_lab/5.2.6-5.3.0/README.md --exclude *.pyd
+[2024-05-28 11:42:17] INFO root fetch - processPackages [smol_k8s_lab]: Remove: archive file [/home/abi/fetcher/tmp/smol_k8s_lab-5.2.6.tar.gz]
+[2024-05-28 11:42:17] INFO root fetch - processPackages [smol_k8s_lab]: Remove: archive file [/home/abi/fetcher/tmp/smol_k8s_lab-5.3.0.tar.gz]
+[2024-05-28 11:42:17] INFO root fetch - main [MainThread]: End processing [smol_k8s_lab]: success
+[2024-05-28 11:42:17] INFO root fetch - main [MainThread]: Store serial: [23409018]
