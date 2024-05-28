@@ -16179,3 +16179,29 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 12:43:47] INFO root fetch - processPackages [nerdd-module]: Remove: archive file [/home/abi/fetcher/tmp/nerdd_module-0.2.6.tar.gz]
 [2024-05-28 12:43:47] INFO root fetch - main [MainThread]: End processing [nerdd-module]: success
 [2024-05-28 12:43:47] INFO root fetch - main [MainThread]: Store serial: [23409736]
+[2024-05-28 12:45:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23409736]
+[2024-05-28 12:45:57] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-28 12:45:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyEventEngine
+[2024-05-28 12:45:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: matrix-nio
+[2024-05-28 12:45:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quarchpy
+[2024-05-28 12:45:57] INFO root fetch - processPackages [PyEventEngine]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-05-28 12:45:57] INFO root fetch - processPackages [quarchpy]: New version: [2.1.9.dev3] Old Version: [2.1.9.dev2]
+[2024-05-28 12:45:57] INFO root fetch - processPackages [PyEventEngine]: Downloading https://files.pythonhosted.org/packages/5a/f2/e31337798eefc98f26a4bc8ce5b6b14069395b5633f6c25f8b957648e1a4/PyEventEngine-0.2.1.tar.gz
+[2024-05-28 12:45:57] INFO root fetch - processPackages [quarchpy]: Downloading https://files.pythonhosted.org/packages/4c/58/57c71932b71449bc466e74bd8478a30bedf723227a6aa33c2934896c2345/quarchpy-2.1.9.dev2-py2.py3-none-any.whl
+[2024-05-28 12:45:57] INFO root fetch - processPackages [matrix-nio]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-28 12:45:57] INFO root fetch - processPackages [matrix-nio]: Downloading https://files.pythonhosted.org/packages/a5/c4/a53a587da9939f040b85c249cddd31ebf334beb746d794c6807c8ba96a2c/matrix-nio-0.8.0.tar.gz
+[2024-05-28 12:45:57] INFO root fetch - processPackages [PyEventEngine]: Downloading https://files.pythonhosted.org/packages/33/d9/effe457e450e835355c955e4af74498e15f7d3f33b11a2e54a53f579b7a5/pyeventengine-0.3.0.tar.gz
+[2024-05-28 12:45:57] INFO root fetch - processPackages [PyEventEngine]: executing diffoscope
+[2024-05-28 12:45:57] INFO root fetch - processPackages [PyEventEngine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyEventEngine-0.2.1.tar.gz tmp/pyeventengine-0.3.0.tar.gz --markdown 20240528/P/PyEventEngine/0.2.1-0.3.0/README.md --exclude *.pyd
+[2024-05-28 12:45:57] INFO root fetch - processPackages [matrix-nio]: Downloading https://files.pythonhosted.org/packages/3d/2f/b4c4fea1cb5a05e5871c63040020922a45b619663b0923c49d4cb933387c/matrix-nio-0.9.0.tar.gz
+[2024-05-28 12:45:57] INFO root fetch - processPackages [matrix-nio]: executing diffoscope
+[2024-05-28 12:45:57] INFO root fetch - processPackages [matrix-nio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matrix-nio-0.8.0.tar.gz tmp/matrix-nio-0.9.0.tar.gz --markdown 20240528/m/matrix-nio/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-28 12:45:58] INFO root fetch - processPackages [PyEventEngine]: Remove: archive file [/home/abi/fetcher/tmp/PyEventEngine-0.2.1.tar.gz]
+[2024-05-28 12:45:58] INFO root fetch - processPackages [PyEventEngine]: Remove: archive file [/home/abi/fetcher/tmp/pyeventengine-0.3.0.tar.gz]
+[2024-05-28 12:45:58] INFO root fetch - main [MainThread]: End processing [PyEventEngine]: success
+[2024-05-28 12:45:58] WARNING root fetch - processPackages [quarchpy]: Skipping package: exceeds size limit 34469980>=10485760
+[2024-05-28 12:45:58] INFO root fetch - main [MainThread]: End processing [quarchpy] error
+[2024-05-28 12:45:58] INFO root fetch - processPackages [matrix-nio]: Remove: archive file [/home/abi/fetcher/tmp/matrix-nio-0.8.0.tar.gz]
+[2024-05-28 12:45:58] INFO root fetch - processPackages [matrix-nio]: Remove: archive file [/home/abi/fetcher/tmp/matrix-nio-0.9.0.tar.gz]
+[2024-05-28 12:45:58] INFO root fetch - main [MainThread]: End processing [matrix-nio]: success
+[2024-05-28 12:45:58] INFO root fetch - main [MainThread]: Store serial: [23409747]
