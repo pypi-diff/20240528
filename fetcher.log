@@ -5682,3 +5682,24 @@
 [2024-05-28 06:31:36] INFO root fetch - processPackages [gammarers.aws-secure-log-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarers.aws-secure-log-bucket-1.7.0.tar.gz]
 [2024-05-28 06:31:36] INFO root fetch - main [MainThread]: End processing [gammarers.aws-secure-log-bucket]: success
 [2024-05-28 06:31:36] INFO root fetch - main [MainThread]: Store serial: [23405073]
+[2024-05-28 06:33:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23405073]
+[2024-05-28 06:33:44] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-28 06:33:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pms-encoder
+[2024-05-28 06:33:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: morphdb-utils
+[2024-05-28 06:33:44] INFO root fetch - processPackages [pms-encoder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-28 06:33:44] INFO root fetch - processPackages [morphdb-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-28 06:33:44] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/80/f1/88f2f54188c15bf6cca5ba7a3a347b8d1c83b15a626f541acf3dde5aa63d/pms_encoder-0.0.8.tar.gz
+[2024-05-28 06:33:44] INFO root fetch - processPackages [morphdb-utils]: Downloading https://files.pythonhosted.org/packages/cd/4f/c6949258d5647c0aa4d14e61014c6e3a7c9f08086b8ff176bee34576864d/morphdb_utils-0.1.8.tar.gz
+[2024-05-28 06:33:45] INFO root fetch - processPackages [morphdb-utils]: Downloading https://files.pythonhosted.org/packages/f4/69/729494d22abe49b72c25e4b1efa215d54cab59388bae925f40777fce21f3/morphdb_utils-0.1.9.tar.gz
+[2024-05-28 06:33:45] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/93/31/8bb081756db42925fab6507b6e0f497d6bf45acd407ff38cb00f2aaec54c/pms_encoder-0.0.9.tar.gz
+[2024-05-28 06:33:45] INFO root fetch - processPackages [morphdb-utils]: executing diffoscope
+[2024-05-28 06:33:45] INFO root fetch - processPackages [morphdb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morphdb_utils-0.1.8.tar.gz tmp/morphdb_utils-0.1.9.tar.gz --markdown 20240528/m/morphdb-utils/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-28 06:33:45] INFO root fetch - processPackages [pms-encoder]: executing diffoscope
+[2024-05-28 06:33:45] INFO root fetch - processPackages [pms-encoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pms_encoder-0.0.8.tar.gz tmp/pms_encoder-0.0.9.tar.gz --markdown 20240528/p/pms-encoder/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-28 06:33:45] INFO root fetch - processPackages [morphdb-utils]: Remove: archive file [/home/abi/fetcher/tmp/morphdb_utils-0.1.8.tar.gz]
+[2024-05-28 06:33:45] INFO root fetch - processPackages [morphdb-utils]: Remove: archive file [/home/abi/fetcher/tmp/morphdb_utils-0.1.9.tar.gz]
+[2024-05-28 06:33:45] INFO root fetch - main [MainThread]: End processing [morphdb-utils]: success
+[2024-05-28 06:33:45] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.8.tar.gz]
+[2024-05-28 06:33:45] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.9.tar.gz]
+[2024-05-28 06:33:45] INFO root fetch - main [MainThread]: End processing [pms-encoder]: success
+[2024-05-28 06:33:45] INFO root fetch - main [MainThread]: Store serial: [23405079]
