@@ -23488,3 +23488,93 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 16:46:50] INFO root fetch - processPackages [bitmovin-api-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bitmovin-api-sdk-1.99.0.tar.gz]
 [2024-05-28 16:46:50] INFO root fetch - main [MainThread]: End processing [bitmovin-api-sdk]: success
 [2024-05-28 16:46:50] INFO root fetch - main [MainThread]: Store serial: [23413290]
+[2024-05-28 16:48:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23413290]
+[2024-05-28 16:48:59] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-28 16:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nef-pipelines
+[2024-05-28 16:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: botasaurus-server
+[2024-05-28 16:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kossou-hillshade-cli
+[2024-05-28 16:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lavague
+[2024-05-28 16:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xspex
+[2024-05-28 16:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdata-client
+[2024-05-28 16:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: UseProlog256
+[2024-05-28 16:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lavague-drivers-playwright
+[2024-05-28 16:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: orcid-downloader
+[2024-05-28 16:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nsj-rest-lib
+[2024-05-28 16:48:59] INFO root fetch - processPackages [kossou-hillshade-cli]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-28 16:49:00] INFO root fetch - processPackages [nef-pipelines]: New version: [0.1.73] Old Version: [0.1.72]
+[2024-05-28 16:49:00] INFO root fetch - processPackages [nsj-rest-lib]: New version: [2.7.2] Old Version: [2.7.1]
+[2024-05-28 16:49:00] INFO root fetch - processPackages [kossou-hillshade-cli]: Downloading https://files.pythonhosted.org/packages/9a/7a/eb9567e1c8ebeaeb0ae987e41f8cff4806990a06bc72396ef30559842110/kossou_hillshade_cli-0.0.2.tar.gz
+[2024-05-28 16:49:00] INFO root fetch - processPackages [botasaurus-server]: New version: [4.0.9] Old Version: [4.0.8]
+[2024-05-28 16:49:00] INFO root fetch - processPackages [xspex]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-28 16:49:00] INFO root fetch - processPackages [bigdata-client]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-28 16:49:00] INFO root fetch - processPackages [lavague]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-28 16:49:00] WARNING root fetch - processPackages [UseProlog256]: Skipping, unable to determine old version
+[2024-05-28 16:49:00] INFO root fetch - processPackages [UseProlog256]: Start processing: botasaurus-driver
+[2024-05-28 16:49:00] INFO root fetch - main [MainThread]: End processing [UseProlog256] error
+[2024-05-28 16:49:00] INFO root fetch - processPackages [lavague-drivers-playwright]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-28 16:49:00] ERROR root fetch - processPackages [orcid-downloader]: Unable to get metadata: No such project 'orcid-downloader'
+[2024-05-28 16:49:00] INFO root fetch - main [MainThread]: End processing [orcid-downloader] error
+[2024-05-28 16:49:00] INFO root fetch - processPackages [nef-pipelines]: Downloading https://files.pythonhosted.org/packages/ad/cb/c527edc177f5da642b3a79c709bd5c08485b9e63590310f6ce96205ab395/nef_pipelines-0.1.72.tar.gz
+[2024-05-28 16:49:00] INFO root fetch - processPackages [nsj-rest-lib]: Downloading https://files.pythonhosted.org/packages/a2/dd/3700d12ce6753ff7f0ec4cdf40f9a3d0a51826bb28a3975ef439a6c0f307/nsj_rest_lib-2.7.1.tar.gz
+[2024-05-28 16:49:00] INFO root fetch - processPackages [botasaurus-driver]: New version: [4.0.9] Old Version: [4.0.8]
+[2024-05-28 16:49:00] INFO root fetch - processPackages [botasaurus-server]: Downloading https://files.pythonhosted.org/packages/f0/29/6236cf00c97e9e74fa0c4e7fb1f7ef957e52111b705e85e89defe4ec7de6/botasaurus_server-4.0.8.tar.gz
+[2024-05-28 16:49:00] INFO root fetch - processPackages [xspex]: Downloading https://files.pythonhosted.org/packages/fc/bd/0b6457a0f7a1d07896a38c35165cced1fcae30c5e63f4ebf2f15b608cbdf/xspex-0.0.3.tar.gz
+[2024-05-28 16:49:00] INFO root fetch - processPackages [bigdata-client]: Downloading https://files.pythonhosted.org/packages/76/f4/bab9b7a0289f9781d6048c9760aa11f0dd4c5a4f136cdacf1f336a03ed39/bigdata_client-0.3.0.tar.gz
+[2024-05-28 16:49:00] INFO root fetch - processPackages [lavague]: Downloading https://files.pythonhosted.org/packages/b0/fa/e20813e49f490477b80c5b638ee1f7a8f5f0dbc3dff78c34a4896c8b2b9c/lavague-1.0.8.tar.gz
+[2024-05-28 16:49:00] INFO root fetch - processPackages [lavague-drivers-playwright]: Downloading https://files.pythonhosted.org/packages/76/6f/a8ee0e39e93079c051002a59c2781feb0b2657968bc7cc8dab63544484fd/lavague_drivers_playwright-0.1.1.tar.gz
+[2024-05-28 16:49:00] INFO root fetch - processPackages [nef-pipelines]: Downloading https://files.pythonhosted.org/packages/f6/96/94f6dd8f1eb12ea0e79eb06cd85c6bf61e22697de3f7768ed05bac394c93/nef_pipelines-0.1.73.tar.gz
+[2024-05-28 16:49:00] INFO root fetch - processPackages [kossou-hillshade-cli]: Downloading https://files.pythonhosted.org/packages/7a/07/690139e50850d6628bb16b58b6fd93f0d09f7f522ab27c4c2a8434425c82/kossou_hillshade_cli-0.0.3.tar.gz
+[2024-05-28 16:49:00] INFO root fetch - processPackages [nsj-rest-lib]: Downloading https://files.pythonhosted.org/packages/11/8b/b1500d91672d3389b99bdfcdd13d47075d5b16f7b965fb546bc320b1238f/nsj_rest_lib-2.7.2.tar.gz
+[2024-05-28 16:49:00] INFO root fetch - processPackages [botasaurus-driver]: Downloading https://files.pythonhosted.org/packages/fa/7e/4cded5fa90ea0a7190b71e9cff4e212107c073d4621880dcdb18dab7bf09/botasaurus_driver-4.0.8.tar.gz
+[2024-05-28 16:49:00] INFO root fetch - processPackages [kossou-hillshade-cli]: executing diffoscope
+[2024-05-28 16:49:00] INFO root fetch - processPackages [kossou-hillshade-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kossou_hillshade_cli-0.0.2.tar.gz tmp/kossou_hillshade_cli-0.0.3.tar.gz --markdown 20240528/k/kossou-hillshade-cli/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-28 16:49:00] INFO root fetch - processPackages [nsj-rest-lib]: executing diffoscope
+[2024-05-28 16:49:00] INFO root fetch - processPackages [nsj-rest-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsj_rest_lib-2.7.1.tar.gz tmp/nsj_rest_lib-2.7.2.tar.gz --markdown 20240528/n/nsj-rest-lib/2.7.1-2.7.2/README.md --exclude *.pyd
+[2024-05-28 16:49:00] INFO root fetch - processPackages [xspex]: Downloading https://files.pythonhosted.org/packages/96/e5/54a9b648f1adee58367b0a10debafc4606d63386be3d8e75ce668162c213/xspex-0.0.4.tar.gz
+[2024-05-28 16:49:00] INFO root fetch - processPackages [bigdata-client]: Downloading https://files.pythonhosted.org/packages/f3/84/22c0b5403cc5dc55d6a2aa6743374af7457d3c234d8df4ea1b6ff6439dff/bigdata_client-0.4.0.tar.gz
+[2024-05-28 16:49:00] INFO root fetch - processPackages [nef-pipelines]: executing diffoscope
+[2024-05-28 16:49:00] INFO root fetch - processPackages [nef-pipelines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nef_pipelines-0.1.72.tar.gz tmp/nef_pipelines-0.1.73.tar.gz --markdown 20240528/n/nef-pipelines/0.1.72-0.1.73/README.md --exclude *.pyd
+[2024-05-28 16:49:00] INFO root fetch - processPackages [lavague-drivers-playwright]: Downloading https://files.pythonhosted.org/packages/25/0f/43607725eac3cb6ad930d7c6c2d6c68c3c1fa7598763089b720871f92041/lavague_drivers_playwright-0.1.2.tar.gz
+[2024-05-28 16:49:00] INFO root fetch - processPackages [botasaurus-server]: Downloading https://files.pythonhosted.org/packages/03/11/ef707a7fce8129a4d151622283f54a8d7ab9c844defd6f5f294b0bac1632/botasaurus_server-4.0.9.tar.gz
+[2024-05-28 16:49:00] INFO root fetch - processPackages [lavague]: Downloading https://files.pythonhosted.org/packages/60/cb/7b6033d655fe04e7fccb06f4409ba468218cb80c59d82064105a3e64f973/lavague-1.0.9.tar.gz
+[2024-05-28 16:49:00] INFO root fetch - processPackages [xspex]: executing diffoscope
+[2024-05-28 16:49:00] INFO root fetch - processPackages [xspex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xspex-0.0.3.tar.gz tmp/xspex-0.0.4.tar.gz --markdown 20240528/x/xspex/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-28 16:49:01] INFO root fetch - processPackages [botasaurus-driver]: Downloading https://files.pythonhosted.org/packages/ad/57/c5587eb0a46a39cf90a36835b2e3372614749a4cde08db6baad1ff2eac4e/botasaurus_driver-4.0.9.tar.gz
+[2024-05-28 16:49:01] INFO root fetch - processPackages [botasaurus-server]: executing diffoscope
+[2024-05-28 16:49:01] INFO root fetch - processPackages [botasaurus-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botasaurus_server-4.0.8.tar.gz tmp/botasaurus_server-4.0.9.tar.gz --markdown 20240528/b/botasaurus-server/4.0.8-4.0.9/README.md --exclude *.pyd
+[2024-05-28 16:49:01] INFO root fetch - processPackages [bigdata-client]: executing diffoscope
+[2024-05-28 16:49:01] INFO root fetch - processPackages [bigdata-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdata_client-0.3.0.tar.gz tmp/bigdata_client-0.4.0.tar.gz --markdown 20240528/b/bigdata-client/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-28 16:49:01] INFO root fetch - processPackages [lavague-drivers-playwright]: executing diffoscope
+[2024-05-28 16:49:01] INFO root fetch - processPackages [lavague-drivers-playwright]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lavague_drivers_playwright-0.1.1.tar.gz tmp/lavague_drivers_playwright-0.1.2.tar.gz --markdown 20240528/l/lavague-drivers-playwright/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-28 16:49:01] INFO root fetch - processPackages [botasaurus-driver]: executing diffoscope
+[2024-05-28 16:49:01] INFO root fetch - processPackages [botasaurus-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botasaurus_driver-4.0.8.tar.gz tmp/botasaurus_driver-4.0.9.tar.gz --markdown 20240528/b/botasaurus-driver/4.0.8-4.0.9/README.md --exclude *.pyd
+[2024-05-28 16:49:01] INFO root fetch - processPackages [lavague]: executing diffoscope
+[2024-05-28 16:49:01] INFO root fetch - processPackages [lavague]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lavague-1.0.8.tar.gz tmp/lavague-1.0.9.tar.gz --markdown 20240528/l/lavague/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-28 16:49:01] INFO root fetch - processPackages [kossou-hillshade-cli]: Remove: archive file [/home/abi/fetcher/tmp/kossou_hillshade_cli-0.0.2.tar.gz]
+[2024-05-28 16:49:01] INFO root fetch - processPackages [kossou-hillshade-cli]: Remove: archive file [/home/abi/fetcher/tmp/kossou_hillshade_cli-0.0.3.tar.gz]
+[2024-05-28 16:49:01] INFO root fetch - main [MainThread]: End processing [kossou-hillshade-cli]: success
+[2024-05-28 16:49:01] INFO root fetch - processPackages [nsj-rest-lib]: Remove: archive file [/home/abi/fetcher/tmp/nsj_rest_lib-2.7.1.tar.gz]
+[2024-05-28 16:49:01] INFO root fetch - processPackages [nsj-rest-lib]: Remove: archive file [/home/abi/fetcher/tmp/nsj_rest_lib-2.7.2.tar.gz]
+[2024-05-28 16:49:01] INFO root fetch - main [MainThread]: End processing [nsj-rest-lib]: success
+[2024-05-28 16:49:01] INFO root fetch - processPackages [xspex]: Remove: archive file [/home/abi/fetcher/tmp/xspex-0.0.3.tar.gz]
+[2024-05-28 16:49:01] INFO root fetch - processPackages [xspex]: Remove: archive file [/home/abi/fetcher/tmp/xspex-0.0.4.tar.gz]
+[2024-05-28 16:49:01] INFO root fetch - main [MainThread]: End processing [xspex]: success
+[2024-05-28 16:49:01] INFO root fetch - processPackages [bigdata-client]: Remove: archive file [/home/abi/fetcher/tmp/bigdata_client-0.3.0.tar.gz]
+[2024-05-28 16:49:01] INFO root fetch - processPackages [bigdata-client]: Remove: archive file [/home/abi/fetcher/tmp/bigdata_client-0.4.0.tar.gz]
+[2024-05-28 16:49:01] INFO root fetch - main [MainThread]: End processing [bigdata-client]: success
+[2024-05-28 16:49:02] INFO root fetch - processPackages [botasaurus-server]: Remove: archive file [/home/abi/fetcher/tmp/botasaurus_server-4.0.8.tar.gz]
+[2024-05-28 16:49:02] INFO root fetch - processPackages [botasaurus-server]: Remove: archive file [/home/abi/fetcher/tmp/botasaurus_server-4.0.9.tar.gz]
+[2024-05-28 16:49:02] INFO root fetch - main [MainThread]: End processing [botasaurus-server]: success
+[2024-05-28 16:49:02] INFO root fetch - processPackages [lavague]: Remove: archive file [/home/abi/fetcher/tmp/lavague-1.0.8.tar.gz]
+[2024-05-28 16:49:02] INFO root fetch - processPackages [lavague]: Remove: archive file [/home/abi/fetcher/tmp/lavague-1.0.9.tar.gz]
+[2024-05-28 16:49:02] INFO root fetch - main [MainThread]: End processing [lavague]: success
+[2024-05-28 16:49:02] INFO root fetch - processPackages [lavague-drivers-playwright]: Remove: archive file [/home/abi/fetcher/tmp/lavague_drivers_playwright-0.1.1.tar.gz]
+[2024-05-28 16:49:02] INFO root fetch - processPackages [lavague-drivers-playwright]: Remove: archive file [/home/abi/fetcher/tmp/lavague_drivers_playwright-0.1.2.tar.gz]
+[2024-05-28 16:49:02] INFO root fetch - main [MainThread]: End processing [lavague-drivers-playwright]: success
+[2024-05-28 16:49:02] INFO root fetch - processPackages [botasaurus-driver]: Remove: archive file [/home/abi/fetcher/tmp/botasaurus_driver-4.0.8.tar.gz]
+[2024-05-28 16:49:02] INFO root fetch - processPackages [botasaurus-driver]: Remove: archive file [/home/abi/fetcher/tmp/botasaurus_driver-4.0.9.tar.gz]
+[2024-05-28 16:49:02] INFO root fetch - main [MainThread]: End processing [botasaurus-driver]: success
+[2024-05-28 16:49:03] INFO root fetch - processPackages [nef-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/nef_pipelines-0.1.72.tar.gz]
+[2024-05-28 16:49:03] INFO root fetch - processPackages [nef-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/nef_pipelines-0.1.73.tar.gz]
+[2024-05-28 16:49:03] INFO root fetch - main [MainThread]: End processing [nef-pipelines]: success
+[2024-05-28 16:49:03] INFO root fetch - main [MainThread]: Store serial: [23413323]
