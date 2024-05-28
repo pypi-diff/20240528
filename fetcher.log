@@ -16014,3 +16014,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 12:37:12] INFO root fetch - processPackages [odoo-addon-mrp-flattened-bom-xlsx-direct-materials-cost]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mrp_flattened_bom_xlsx_direct_materials_cost-16.0.1.0.1-py3-none-any.whl.zip]
 [2024-05-28 12:37:12] INFO root fetch - main [MainThread]: End processing [odoo-addon-mrp-flattened-bom-xlsx-direct-materials-cost]: success
 [2024-05-28 12:37:12] INFO root fetch - main [MainThread]: Store serial: [23409659]
+[2024-05-28 12:39:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23409659]
+[2024-05-28 12:39:21] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-28 12:39:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llm-bench
+[2024-05-28 12:39:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: codeforlife-portal
+[2024-05-28 12:39:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alex-ber-utils
+[2024-05-28 12:39:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cfl-common
+[2024-05-28 12:39:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ptmethods
+[2024-05-28 12:39:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cerebrumscanner
+[2024-05-28 12:39:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jhtalib
+[2024-05-28 12:39:21] INFO root fetch - processPackages [alex-ber-utils]: New version: [0.8.1a2] Old Version: [0.8.1a0]
+[2024-05-28 12:39:21] INFO root fetch - processPackages [llm-bench]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-28 12:39:21] INFO root fetch - processPackages [cerebrumscanner]: New version: [0.0.1b5] Old Version: [0.0.1b4]
+[2024-05-28 12:39:21] ERROR root fetch - processPackages [jhtalib]: Unable to get metadata: No such project 'jhtalib'
+[2024-05-28 12:39:21] INFO root fetch - main [MainThread]: End processing [jhtalib] error
+[2024-05-28 12:39:21] INFO root fetch - processPackages [alex-ber-utils]: Downloading https://files.pythonhosted.org/packages/1c/a9/981abf0325ca84dbddaa5c65abd2bc932ef7960ed97eb995ef92df3d8c80/alex_ber_utils-0.8.1a0.tar.gz
+[2024-05-28 12:39:21] INFO root fetch - processPackages [ptmethods]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-28 12:39:21] INFO root fetch - processPackages [codeforlife-portal]: New version: [6.9.0] Old Version: [6.8.9]
+[2024-05-28 12:39:21] INFO root fetch - processPackages [llm-bench]: Downloading https://files.pythonhosted.org/packages/e4/1e/96e8e21a12cce6b75d40ef58ee187c01da8c44ea854f32fe4678648dcb90/llm_bench-0.4.8.tar.gz
+[2024-05-28 12:39:21] INFO root fetch - processPackages [cerebrumscanner]: Downloading https://files.pythonhosted.org/packages/09/0e/aca144d18cb979479365af698800e8f486240a85896ac098e3de2d515c34/cerebrumscanner-0.0.1b4.tar.gz
+[2024-05-28 12:39:21] INFO root fetch - processPackages [cfl-common]: New version: [6.9.0] Old Version: [6.8.9]
+[2024-05-28 12:39:22] INFO root fetch - processPackages [codeforlife-portal]: Downloading https://files.pythonhosted.org/packages/f2/3d/d076be2df98e91e0582f7670e0c14a35b57a909d2ef20da6af88845c78ac/codeforlife-portal-6.8.9.tar.gz
+[2024-05-28 12:39:22] INFO root fetch - processPackages [cerebrumscanner]: Downloading https://files.pythonhosted.org/packages/8a/51/713ae1f07cac55b7edca3b6ac906e419d23cb2067e463cd9a20a38809793/cerebrumscanner-0.0.1b5.tar.gz
+[2024-05-28 12:39:22] INFO root fetch - processPackages [ptmethods]: Downloading https://files.pythonhosted.org/packages/03/09/64e90b963c1cb930876c31cc4441c07f6cb1b25649c2739053257fd66bb5/ptmethods-1.0.2.tar.gz
+[2024-05-28 12:39:22] INFO root fetch - processPackages [llm-bench]: Downloading https://files.pythonhosted.org/packages/e4/75/2d98ade554705da63eb2766a12984f3f6fc8b6925b37f796ffa48846b3ef/llm_bench-0.4.9.tar.gz
+[2024-05-28 12:39:22] INFO root fetch - processPackages [alex-ber-utils]: Downloading https://files.pythonhosted.org/packages/94/f7/62c8132df0f8b4da652094b1c2ea7fe6adcac0fcac7d6a2894b05a08d1b6/alex_ber_utils-0.8.1a2.tar.gz
+[2024-05-28 12:39:22] INFO root fetch - processPackages [cfl-common]: Downloading https://files.pythonhosted.org/packages/39/0c/ab055a3d77f3c24c39b7455ba3358c91d1217de2dde396545a2eebda525e/cfl-common-6.8.9.tar.gz
+[2024-05-28 12:39:22] INFO root fetch - processPackages [cerebrumscanner]: executing diffoscope
+[2024-05-28 12:39:22] INFO root fetch - processPackages [cerebrumscanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cerebrumscanner-0.0.1b4.tar.gz tmp/cerebrumscanner-0.0.1b5.tar.gz --markdown 20240528/c/cerebrumscanner/0.0.1b4-0.0.1b5/README.md --exclude *.pyd
+[2024-05-28 12:39:22] INFO root fetch - processPackages [llm-bench]: executing diffoscope
+[2024-05-28 12:39:22] INFO root fetch - processPackages [llm-bench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_bench-0.4.8.tar.gz tmp/llm_bench-0.4.9.tar.gz --markdown 20240528/l/llm-bench/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-28 12:39:22] INFO root fetch - processPackages [alex-ber-utils]: executing diffoscope
+[2024-05-28 12:39:22] INFO root fetch - processPackages [alex-ber-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alex_ber_utils-0.8.1a0.tar.gz tmp/alex_ber_utils-0.8.1a2.tar.gz --markdown 20240528/a/alex-ber-utils/0.8.1a0-0.8.1a2/README.md --exclude *.pyd
+[2024-05-28 12:39:22] INFO root fetch - processPackages [ptmethods]: Downloading https://files.pythonhosted.org/packages/d4/f5/e334575e450f4746523acecb39cc21156a2c4d3c46359d5007fd2bf9d441/ptmethods-1.0.3.tar.gz
+[2024-05-28 12:39:22] INFO root fetch - processPackages [ptmethods]: executing diffoscope
+[2024-05-28 12:39:22] INFO root fetch - processPackages [ptmethods]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ptmethods-1.0.2.tar.gz tmp/ptmethods-1.0.3.tar.gz --markdown 20240528/p/ptmethods/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-28 12:39:22] INFO root fetch - processPackages [cfl-common]: Downloading https://files.pythonhosted.org/packages/05/c2/911736fd9caff48e395c4b7643549153b78727af673a7f2ac84e0b673c45/cfl-common-6.9.0.tar.gz
+[2024-05-28 12:39:22] INFO root fetch - processPackages [cerebrumscanner]: Remove: archive file [/home/abi/fetcher/tmp/cerebrumscanner-0.0.1b4.tar.gz]
+[2024-05-28 12:39:22] INFO root fetch - processPackages [cerebrumscanner]: Remove: archive file [/home/abi/fetcher/tmp/cerebrumscanner-0.0.1b5.tar.gz]
+[2024-05-28 12:39:22] INFO root fetch - processPackages [cfl-common]: executing diffoscope
+[2024-05-28 12:39:22] INFO root fetch - processPackages [cfl-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfl-common-6.8.9.tar.gz tmp/cfl-common-6.9.0.tar.gz --markdown 20240528/c/cfl-common/6.8.9-6.9.0/README.md --exclude *.pyd
+[2024-05-28 12:39:22] INFO root fetch - main [MainThread]: End processing [cerebrumscanner]: success
+[2024-05-28 12:39:22] INFO root fetch - processPackages [llm-bench]: Remove: archive file [/home/abi/fetcher/tmp/llm_bench-0.4.8.tar.gz]
+[2024-05-28 12:39:22] INFO root fetch - processPackages [llm-bench]: Remove: archive file [/home/abi/fetcher/tmp/llm_bench-0.4.9.tar.gz]
+[2024-05-28 12:39:22] INFO root fetch - main [MainThread]: End processing [llm-bench]: success
+[2024-05-28 12:39:22] INFO root fetch - processPackages [codeforlife-portal]: Downloading https://files.pythonhosted.org/packages/4b/33/908cc56053eac27f161dd60178364693054a2d8a33fc18e1bc5001a50954/codeforlife-portal-6.9.0.tar.gz
+[2024-05-28 12:39:23] INFO root fetch - processPackages [alex-ber-utils]: Remove: archive file [/home/abi/fetcher/tmp/alex_ber_utils-0.8.1a0.tar.gz]
+[2024-05-28 12:39:23] INFO root fetch - processPackages [alex-ber-utils]: Remove: archive file [/home/abi/fetcher/tmp/alex_ber_utils-0.8.1a2.tar.gz]
+[2024-05-28 12:39:23] INFO root fetch - main [MainThread]: End processing [alex-ber-utils]: success
+[2024-05-28 12:39:23] INFO root fetch - processPackages [ptmethods]: Remove: archive file [/home/abi/fetcher/tmp/ptmethods-1.0.2.tar.gz]
+[2024-05-28 12:39:23] INFO root fetch - processPackages [ptmethods]: Remove: archive file [/home/abi/fetcher/tmp/ptmethods-1.0.3.tar.gz]
+[2024-05-28 12:39:23] INFO root fetch - main [MainThread]: End processing [ptmethods]: success
+[2024-05-28 12:39:23] INFO root fetch - processPackages [codeforlife-portal]: executing diffoscope
+[2024-05-28 12:39:23] INFO root fetch - processPackages [codeforlife-portal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codeforlife-portal-6.8.9.tar.gz tmp/codeforlife-portal-6.9.0.tar.gz --markdown 20240528/c/codeforlife-portal/6.8.9-6.9.0/README.md --exclude *.pyd
+[2024-05-28 12:39:23] INFO root fetch - processPackages [cfl-common]: Remove: archive file [/home/abi/fetcher/tmp/cfl-common-6.8.9.tar.gz]
+[2024-05-28 12:39:23] INFO root fetch - processPackages [cfl-common]: Remove: archive file [/home/abi/fetcher/tmp/cfl-common-6.9.0.tar.gz]
+[2024-05-28 12:39:23] INFO root fetch - main [MainThread]: End processing [cfl-common]: success
+[2024-05-28 12:39:25] INFO root fetch - processPackages [codeforlife-portal]: Remove: archive file [/home/abi/fetcher/tmp/codeforlife-portal-6.8.9.tar.gz]
+[2024-05-28 12:39:25] INFO root fetch - processPackages [codeforlife-portal]: Remove: archive file [/home/abi/fetcher/tmp/codeforlife-portal-6.9.0.tar.gz]
+[2024-05-28 12:39:25] INFO root fetch - main [MainThread]: End processing [codeforlife-portal]: success
+[2024-05-28 12:39:25] INFO root fetch - main [MainThread]: Store serial: [23409681]
