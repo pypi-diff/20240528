@@ -23198,3 +23198,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-28 16:35:49] INFO root fetch - processPackages [astrocut]: Remove: archive file [/home/abi/fetcher/tmp/astrocut-0.9.tar.gz]
 [2024-05-28 16:35:49] INFO root fetch - main [MainThread]: End processing [astrocut]: success
 [2024-05-28 16:35:49] INFO root fetch - main [MainThread]: Store serial: [23413135]
+[2024-05-28 16:37:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23413135]
+[2024-05-28 16:37:57] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-28 16:37:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rina-pp-pyb
+[2024-05-28 16:37:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jaxsim
+[2024-05-28 16:37:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: relari
+[2024-05-28 16:37:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: testplans
+[2024-05-28 16:37:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ofscraper
+[2024-05-28 16:37:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chaostoolkit-google-cloud-platform
+[2024-05-28 16:37:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nwb4fp
+[2024-05-28 16:37:58] INFO root fetch - processPackages [chaostoolkit-google-cloud-platform]: New version: [0.9.2] Old Version: [0.9.0]
+[2024-05-28 16:37:58] INFO root fetch - processPackages [rina-pp-pyb]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-28 16:37:58] INFO root fetch - processPackages [ofscraper]: New version: [3.9.8] Old Version: [3.9.7]
+[2024-05-28 16:37:58] INFO root fetch - processPackages [rina-pp-pyb]: Downloading https://files.pythonhosted.org/packages/47/a7/9f15ad4e3fe6aaaa42673d1bc434c019114af80fffc611a439224b55e2a4/rina_pp_pyb-1.0.0.tar.gz
+[2024-05-28 16:37:58] INFO root fetch - processPackages [relari]: New version: [0.2.0] Old Version: [0.1.5]
+[2024-05-28 16:37:58] INFO root fetch - processPackages [nwb4fp]: New version: [0.6.4.0] Old Version: [0.6.3.9]
+[2024-05-28 16:37:58] INFO root fetch - processPackages [jaxsim]: New version: [0.2.dev92] Old Version: [0.2.dev87]
+[2024-05-28 16:37:58] INFO root fetch - processPackages [testplans]: New version: [0.3.6] Old Version: [0.3.4]
+[2024-05-28 16:37:58] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/b4/d3/4eb23c7e5506667ed2162ea817fb7dd974fde0ec0da1cb0544567176c380/ofscraper-3.9.7.tar.gz
+[2024-05-28 16:37:58] INFO root fetch - processPackages [chaostoolkit-google-cloud-platform]: Downloading https://files.pythonhosted.org/packages/12/07/4d1110a4d4b7d4991abc2505c4e18770bf058568bd5132c229c29711bb5e/chaostoolkit-google-cloud-platform-0.9.0.tar.gz
+[2024-05-28 16:37:58] INFO root fetch - processPackages [relari]: Downloading https://files.pythonhosted.org/packages/c8/97/86669bdc62e3df1f201f0df70a41080c1ca453755466e40e0f8141948fd9/relari-0.1.5.tar.gz
+[2024-05-28 16:37:58] INFO root fetch - processPackages [nwb4fp]: Downloading https://files.pythonhosted.org/packages/8a/63/00a91a23b30d0bd643344b6c49331919d0a0c6a5cdbb1d4aeebe3225da29/nwb4fp-0.6.3.9.tar.gz
+[2024-05-28 16:37:58] INFO root fetch - processPackages [jaxsim]: Downloading https://files.pythonhosted.org/packages/b5/25/4a27bb25679ce17fef64a522f1af1c8722d2ec06d59735f1ddf7d16201d9/jaxsim-0.2.dev87.tar.gz
+[2024-05-28 16:37:58] INFO root fetch - processPackages [rina-pp-pyb]: Downloading https://files.pythonhosted.org/packages/0d/bb/76c9ac6ea7be5c8dddd027def91384714ded44e9272ba89158585c85f67b/rina_pp_pyb-1.0.1.tar.gz
+[2024-05-28 16:37:58] INFO root fetch - processPackages [testplans]: Downloading https://files.pythonhosted.org/packages/a9/ab/e71263d46f31b870b5bec415ce2b287e7d8a835d3c5a590e0e4393bfef7d/testplans-0.3.4.tar.gz
+[2024-05-28 16:37:58] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/f7/40/e5e745935d4b9d1b0beffcda8c7474b1ce4f988a5c49457f9e735da3f015/ofscraper-3.9.8.tar.gz
+[2024-05-28 16:37:58] INFO root fetch - processPackages [chaostoolkit-google-cloud-platform]: Downloading https://files.pythonhosted.org/packages/37/3d/14b7a4021c6fcdb294d892739505d505baca7cdba954a40c2b9a5b5da456/chaostoolkit-google-cloud-platform-0.9.2.tar.gz
+[2024-05-28 16:37:58] INFO root fetch - processPackages [rina-pp-pyb]: executing diffoscope
+[2024-05-28 16:37:58] INFO root fetch - processPackages [rina-pp-pyb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rina_pp_pyb-1.0.0.tar.gz tmp/rina_pp_pyb-1.0.1.tar.gz --markdown 20240528/r/rina-pp-pyb/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-28 16:37:58] INFO root fetch - processPackages [chaostoolkit-google-cloud-platform]: executing diffoscope
+[2024-05-28 16:37:58] INFO root fetch - processPackages [chaostoolkit-google-cloud-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chaostoolkit-google-cloud-platform-0.9.0.tar.gz tmp/chaostoolkit-google-cloud-platform-0.9.2.tar.gz --markdown 20240528/c/chaostoolkit-google-cloud-platform/0.9.0-0.9.2/README.md --exclude *.pyd
+[2024-05-28 16:37:58] INFO root fetch - processPackages [ofscraper]: executing diffoscope
+[2024-05-28 16:37:58] INFO root fetch - processPackages [ofscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofscraper-3.9.7.tar.gz tmp/ofscraper-3.9.8.tar.gz --markdown 20240528/o/ofscraper/3.9.7-3.9.8/README.md --exclude *.pyd
+[2024-05-28 16:37:58] INFO root fetch - processPackages [nwb4fp]: Downloading https://files.pythonhosted.org/packages/15/8d/5e94d927b67657b5c1b79d0cd6cf378799dc562d8f7ba8632a495584a0df/nwb4fp-0.6.4.0.tar.gz
+[2024-05-28 16:37:58] INFO root fetch - processPackages [relari]: Downloading https://files.pythonhosted.org/packages/08/50/3ea8005210e6486877840a3b0d5d972c8436007438905c99c2b8dff43e6c/relari-0.2.0.tar.gz
+[2024-05-28 16:37:58] INFO root fetch - processPackages [testplans]: Downloading https://files.pythonhosted.org/packages/81/7d/d0ba0f7ffb295a078300ee8c94735e8c8f4bcbb1d850133d87fe5c8e2821/testplans-0.3.6.tar.gz
+[2024-05-28 16:37:58] INFO root fetch - processPackages [jaxsim]: Downloading https://files.pythonhosted.org/packages/5f/f3/d7774afb77c6832c188a48524d674234d264ab4e593515aac50ba544ea66/jaxsim-0.2.dev92.tar.gz
+[2024-05-28 16:37:59] INFO root fetch - processPackages [relari]: executing diffoscope
+[2024-05-28 16:37:59] INFO root fetch - processPackages [relari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/relari-0.1.5.tar.gz tmp/relari-0.2.0.tar.gz --markdown 20240528/r/relari/0.1.5-0.2.0/README.md --exclude *.pyd
+[2024-05-28 16:37:59] INFO root fetch - processPackages [testplans]: executing diffoscope
+[2024-05-28 16:37:59] INFO root fetch - processPackages [testplans]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testplans-0.3.4.tar.gz tmp/testplans-0.3.6.tar.gz --markdown 20240528/t/testplans/0.3.4-0.3.6/README.md --exclude *.pyd
+[2024-05-28 16:37:59] INFO root fetch - processPackages [nwb4fp]: executing diffoscope
+[2024-05-28 16:37:59] INFO root fetch - processPackages [nwb4fp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwb4fp-0.6.3.9.tar.gz tmp/nwb4fp-0.6.4.0.tar.gz --markdown 20240528/n/nwb4fp/0.6.3.9-0.6.4.0/README.md --exclude *.pyd
+[2024-05-28 16:37:59] INFO root fetch - processPackages [jaxsim]: executing diffoscope
+[2024-05-28 16:37:59] INFO root fetch - processPackages [jaxsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240528:/home/abi/fetcher/20240528:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxsim-0.2.dev87.tar.gz tmp/jaxsim-0.2.dev92.tar.gz --markdown 20240528/j/jaxsim/0.2.dev87-0.2.dev92/README.md --exclude *.pyd
+[2024-05-28 16:37:59] INFO root fetch - processPackages [rina-pp-pyb]: Remove: archive file [/home/abi/fetcher/tmp/rina_pp_pyb-1.0.0.tar.gz]
+[2024-05-28 16:37:59] INFO root fetch - processPackages [rina-pp-pyb]: Remove: archive file [/home/abi/fetcher/tmp/rina_pp_pyb-1.0.1.tar.gz]
+[2024-05-28 16:37:59] INFO root fetch - main [MainThread]: End processing [rina-pp-pyb]: success
+[2024-05-28 16:37:59] INFO root fetch - processPackages [chaostoolkit-google-cloud-platform]: Remove: archive file [/home/abi/fetcher/tmp/chaostoolkit-google-cloud-platform-0.9.0.tar.gz]
+[2024-05-28 16:37:59] INFO root fetch - processPackages [chaostoolkit-google-cloud-platform]: Remove: archive file [/home/abi/fetcher/tmp/chaostoolkit-google-cloud-platform-0.9.2.tar.gz]
+[2024-05-28 16:37:59] INFO root fetch - main [MainThread]: End processing [chaostoolkit-google-cloud-platform]: success
+[2024-05-28 16:37:59] INFO root fetch - processPackages [relari]: Remove: archive file [/home/abi/fetcher/tmp/relari-0.1.5.tar.gz]
+[2024-05-28 16:37:59] INFO root fetch - processPackages [relari]: Remove: archive file [/home/abi/fetcher/tmp/relari-0.2.0.tar.gz]
+[2024-05-28 16:37:59] INFO root fetch - main [MainThread]: End processing [relari]: success
+[2024-05-28 16:37:59] INFO root fetch - processPackages [nwb4fp]: Remove: archive file [/home/abi/fetcher/tmp/nwb4fp-0.6.3.9.tar.gz]
+[2024-05-28 16:37:59] INFO root fetch - processPackages [nwb4fp]: Remove: archive file [/home/abi/fetcher/tmp/nwb4fp-0.6.4.0.tar.gz]
+[2024-05-28 16:37:59] INFO root fetch - main [MainThread]: End processing [nwb4fp]: success
+[2024-05-28 16:37:59] INFO root fetch - processPackages [testplans]: Remove: archive file [/home/abi/fetcher/tmp/testplans-0.3.4.tar.gz]
+[2024-05-28 16:37:59] INFO root fetch - processPackages [testplans]: Remove: archive file [/home/abi/fetcher/tmp/testplans-0.3.6.tar.gz]
+[2024-05-28 16:37:59] INFO root fetch - main [MainThread]: End processing [testplans]: success
+[2024-05-28 16:38:00] INFO root fetch - processPackages [jaxsim]: Remove: archive file [/home/abi/fetcher/tmp/jaxsim-0.2.dev87.tar.gz]
+[2024-05-28 16:38:00] INFO root fetch - processPackages [jaxsim]: Remove: archive file [/home/abi/fetcher/tmp/jaxsim-0.2.dev92.tar.gz]
+[2024-05-28 16:38:00] INFO root fetch - main [MainThread]: End processing [jaxsim]: success
+[2024-05-28 16:38:00] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-3.9.7.tar.gz]
+[2024-05-28 16:38:00] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-3.9.8.tar.gz]
+[2024-05-28 16:38:00] INFO root fetch - main [MainThread]: End processing [ofscraper]: success
+[2024-05-28 16:38:00] INFO root fetch - main [MainThread]: Store serial: [23413192]
